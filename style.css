@@ -156,6 +156,11 @@ body {
     transition: var(--transition-smooth);
 }
 
+.filter-group select option {
+    background-color: var(--bg-surface);
+    color: var(--color-text-main);
+}
+
 .filter-group select:focus,
 .filter-group select:hover {
     border-color: var(--color-primary);
