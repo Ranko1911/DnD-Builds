@@ -21,6 +21,14 @@ document.addEventListener('DOMContentLoaded', () => {
         'bastion and downtime.md': 'Bastión y Tiempo Muerto'
     };
 
+    const ROLE_KEYWORDS = {
+        'tank': ['tank', 'frontline', 'defensor'],
+        'blaster': ['blaster', 'aoe'],
+        'controller': ['controller', 'controlador'],
+        'striker': ['striker', 'dps', 'melee'],
+        'healer': ['healer', 'support', 'sanador', 'soporte']
+    };
+
     // Elements
     const buildsList = document.getElementById('builds-list');
     const searchInput = document.getElementById('build-search');
@@ -110,9 +118,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 (systemFilter === '2014' && build.system.includes('2014'));
             
             // Role match
-            const matchesRole = 
-                roleFilter === 'all' ||
-                build.role.toLowerCase().includes(roleFilter);
+            let matchesRole = false;
+            if (roleFilter === 'all') {
+                matchesRole = true;
+            } else {
+                const keywords = ROLE_KEYWORDS[roleFilter] || [roleFilter];
+                const buildRoleLower = build.role.toLowerCase();
+                matchesRole = keywords.some(keyword => buildRoleLower.includes(keyword));
+            }
                 
             return matchesSearch && matchesSystem && matchesRole;
         });

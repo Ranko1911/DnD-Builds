@@ -58,7 +58,7 @@
     "name": "Techpriest",
     "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Dread Tank / Aggro Controller",
+    "role": "Frontline Dread Tank / Aggro Controller ( Support ) ",
     "folder": "techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8"
   },
@@ -67,7 +67,7 @@
     "name": "Tempest Demiurge",
     "classes": "Cleric (Tempest) 3 / Wizard (Scribes) 3",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Frontline Gish (Tank / Tactical AoE)",
+    "role": "Frontline Gish ( Tank / Tactical AoE blaster )",
     "folder": "tempest",
     "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ"
   },
