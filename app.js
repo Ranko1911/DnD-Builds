@@ -23,10 +23,10 @@ document.addEventListener('DOMContentLoaded', () => {
 
     const ROLE_KEYWORDS = {
         'tank': ['tank', 'frontline', 'defensor'],
-        'blaster': ['blaster', 'aoe'],
+        'blaster': ['blaster', 'aoe', 'AoE'],
         'controller': ['controller', 'controlador'],
         'striker': ['striker', 'dps', 'melee'],
-        'healer': ['healer', 'support', 'sanador', 'soporte']
+        'healer': ['healer', 'support', 'sanador', 'soporte', 'aggro']
     };
 
     // Elements

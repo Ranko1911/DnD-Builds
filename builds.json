@@ -13,7 +13,7 @@
     "name": "Clocklock",
     "classes": "Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2",
     "system": "D&D 5e (2014)",
-    "role": "Backline Blaster / Probability Manipulator",
+    "role": "Backline Blaster / Probability Manipulator ( soporte )",
     "folder": "Clocklock",
     "youtube": null
   },
@@ -22,7 +22,7 @@
     "name": "Cursed Pirate",
     "classes": "Druid (Circle of the Stars) 20",
     "system": "D&D 5e (2014)",
-    "role": "Controller / Blaster / Undead Tank",
+    "role": "Controller / Blaster ",
     "folder": "cursed pirate",
     "youtube": null
   },
@@ -58,7 +58,7 @@
     "name": "Techpriest",
     "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Dread Tank / Aggro Controller ( Support ) ",
+    "role": "Frontline Dread Tank / uick filtter update Controller  ",
     "folder": "techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8"
   },
