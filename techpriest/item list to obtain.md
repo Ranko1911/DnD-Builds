@@ -42,9 +42,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Clear Thought** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Inteligencia de forma permanente (superando el límite de 20 hasta **22**). Incrementa tu bonificador de ataque, CD de conjuros de Artífice y usos de *Flash of Genius*. |
-| **Armor +3 (Plate) y Shield +3** | No | — | **Priorizar 2:** Máxima CA pasiva posible. Eleva tu AC base a un absurdo **26 CA** antes de aplicar rasgos de clase e infusiones arcanas. |
-| **Robe of the Archmage** | Sí | No | Prioridad Baja: Exclusiva para magos puros, no recomendada para este build acorazado. |
+| **Tome of Clear Thought** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Inteligencia de forma permanente (superando el límite de 20 hasta **22**). Incrementa tu bonificador de ataque, CD de conjuros de Artífice, usos de *Flash of Genius* ($+6$ en vez de $+5$), y daño de infusiones. Tu CD de conjuros sube a **18** (8 + 6 + 6 mod). |
+| **Armor +3 (Plate) y Shield +3** | No | — | **Priorizar 2:** Máxima CA pasiva posible. Eleva tu AC base a **26 CA** ($18 + 3 + 2 + 3 = 26$) antes de aplicar rasgos de clase e infusiones arcanas. Con Enhanced Defense +2, Warforged +1, Blessing +1, Soul +1 y Ring/Cloak de Protection (+2), alcanzas un total de **AC 31** pasiva, **36** con *Shield*. |
+| **Ioun Stone of Mastery** | Sí | No | Prioridad Alta: $+1$ al bonificador de competencia (sube a $+7$). Afecta CD de conjuros, ataques, salvaciones con competencia y Flash of Genius. Incremento universal modesto pero que apila con todo. |
 
 ---
 

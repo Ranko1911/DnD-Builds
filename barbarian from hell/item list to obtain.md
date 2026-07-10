@@ -1,6 +1,8 @@
-# Item List — Barbarian from Hell
+# Item List — Barbarian from Hell (Zealot 6 / Fiend Warlock 14)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
+
+*Nota de Build:* Este personaje usa armas de asta de dos manos (Glaive/Halberd) con *Polearm Master* y *Great Weapon Master*. Viste Half-Plate (armadura media, DEX +2). No puede usar escudo. Su sinergia principal es *Armor of Agathys* + Rage (daño reflejado protegido por resistencia). Los objetos priorizan: supervivencia de Temp HP > CD de conjuros Warlock > daño cuerpo a cuerpo.
 
 ---
 
@@ -8,10 +10,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Eldritch Claw Tattoo** | Sí | ⚔️ **Sí** | **Priorizar 1:** Tus ataques desarmados o con armas de asta se consideran mágicos. Además, una vez al día como acción adicional, tus ataques ganan un alcance de 15 pies e infligen $+1d6$ de daño de fuerza adicional por impacto durante 1 minuto. |
-| **Glaive / Halberd +1** | No | — | **Priorizar 2:** $+1$ a tiradas de ataque y daño físico básico. |
-| **Half-Plate Armor** | No | — | **Prioridad Alta:** Armadura media base para alcanzar CA 17 (con DEX $+2$). |
-| **Bag of Holding** | No | — | Prioridad Media: Espacio de almacenamiento del grupo. |
+| **Eldritch Claw Tattoo** | Sí | ⚔️ **Sí** | **Priorizar 1:** Tus ataques desarmados o con armas se consideran mágicos, superando resistencias a daño no-mágico desde nivel 1. Además, una vez al día (acción adicional), tus ataques ganan alcance de 15 pies e infligen $+1d6$ de daño de fuerza durante 1 minuto. Sinergiza con PAM ($+1d6$ en cada uno de tus 3 ataques/turno = $+3d6$ adicionales). |
+| **Glaive / Halberd +1** | No | — | **Priorizar 2:** $+1$ a tiradas de ataque y daño. Compensa directamente el $-5$ de *Great Weapon Master*, reduciendo la penalización efectiva a $-4$. Aplica en los 3 ataques por turno (2 + PAM bonus). |
+| **Half-Plate Armor** | No | — | **Prioridad Alta:** CA base de $15 + 2 (\text{DEX}) = 17$. No puedes usar escudo (arma de dos manos). La armadura media es tu única defensa pasiva; priorizarla temprano te evita mortalidades antes de obtener Rage. |
+| **Bag of Holding** | No | — | Prioridad Media: Almacenamiento de grupo. Útil para cargar materiales de cuerpo a cuerpo de repuesto (glaives adicionales por si una se rompe o desintegra). |
 
 ---
 
@@ -19,10 +21,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Rod of the Pact Keeper +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a la CD de tus conjuros de Brujo y tiradas de ataque mágico. Te permite recuperar 1 ranura de conjuro de Warlock como acción una vez al día (esencial para castear otro *Armor of Agathys* en combates consecutivos). |
-| **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a la CA y a todas tus salvaciones (apila con Danger Sense y Fanatical Focus). |
-| **Belt of Hill Giant Strength** | Sí | No | **Priorizar 3 (si no tienes STR alta):** Fija tu Fuerza a 21. Si ya tienes Fuerza 20 por progresión de nivel, este objeto es de prioridad baja. |
-| **Armor +1 (Half-Plate)** | No | — | Prioridad Alta: Aumenta tu CA base pasiva a 18. |
+| **Rod of the Pact Keeper +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a la CD de tus conjuros de Warlock y ataques mágicos. Te permite recuperar 1 ranura de Warlock una vez al día como acción. Esto es **crítico**: una ranura extra = otro *Armor of Agathys* de nivel 5 (25 Temp HP + 25 daño reflejado por golpe recibido). En combates consecutivos, la economía de ranuras del Warlock es tu talón de Aquiles. |
+| **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a CA y salvaciones. Tu CA sube a 18. Más importante: apila con Danger Sense (ventaja en DEX saves) y Fanatical Focus (reroll de una salvación fallida por Rage). Cada $+1$ a salvaciones te protege contra los efectos de control que te sacarían de Rage (Hold Person, Banishment). |
+| **Armor +1 (Half-Plate)** | No | — | **Priorizar 3:** CA pasiva sube a 18 sin necesidad de sintonización. Libera la capa de protección para mayor versatilidad. |
+| **Belt of Hill Giant Strength** | Sí | No | Prioridad Baja: Fija STR a 21. **Innecesario en este build**: ya tienes STR 20 por ASI/progresión. Solo ganas $+0.5$ de daño medio por ataque (de +5 a +5 en mod). Mejor gastar la sintonización en objetos defensivos o de CD. |
 
 ---
 
@@ -30,10 +32,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Rod of the Pact Keeper +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** Bonificador definitivo de $+3$ a la CD de tus conjuros de Brujo. |
-| **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a la CA y salvaciones (apila con la capa de protección). |
-| **Amulet of Health** | Sí | No | **Priorizar 3:** Fija tu puntuación de Constitución a **19**, otorgándote un enorme aumento de HP máximos y mejorando tu aguante general. |
-| **Armor +2 (Half-Plate)** | No | — | Prioridad Alta: CA pasiva sube a 19. |
+| **Rod of the Pact Keeper +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+3$ definitivo a la CD de Warlock. A nivel 14, tu *Armor of Agathys* lanzado a nivel 5 tiene 25 HP temporales que duran el doble gracias a Rage. Cada ranura recuperada (una gratis al día) es un arma nuclear de daño reflejado + protección. Tu *Hurl Through Hell* también se beneficia de la CD. |
+| **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a CA y salvaciones (apila con Cloak of Protection para $+2$ total). Tu CA sube a 20 (Half-Plate +1 + Cloak + Ring). Más resistencia en salvaciones contra effects de control = más tiempo en Rage. |
+| **Amulet of Health** | Sí | No | **Priorizar 3:** Fija CON a 19. Sube tus HP máximos de 141 a ~191 (retroactivo $+2$ × 20 niveles, con Rage la diferencia se duplica a ~100 HP efectivos extra). Tu aguante en combate prolongado se dispara. |
+| **Armor +2 (Half-Plate)** | No | — | Prioridad Alta: CA pasiva sube a 19. Si consigues Amulet of Health, tu perfil defensivo se vuelve muy sólido para primera línea sin escudo. |
 
 ---
 
@@ -41,9 +43,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Manual of Gainful Exercise** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Fuerza de forma permanente, permitiéndote superar el límite humano y alcanzar un **22** (+6 modificador). Incrementa tu acierto, daño físico y pruebas de atletismo para derribos y agarres. |
-| **Armor +3 (Half-Plate)** | No | — | **Priorizar 2:** CA pasiva sube a 20. |
-| **Blackrazor** (Espada Mandoble) | Sí | No | Prioridad Media (pero temáticamente increíble): Espada inteligente legendaria que otorga HP temporales y ventajas al matar, aunque te obliga a usar espada en lugar de arma de asta (PAM). |
+| **Manual of Gainful Exercise** | No | — | **Priorizar 1:** $+2$ permanente a Fuerza (hasta 22, $+6$ mod). Afecta a **cada ataque**: +1 hit/daño × 3 ataques/turno × cada turno del combate. También incrementa Atletismo para agarres y derribos (que aplican prono para ventaja en ataques cuerpo a cuerpo aliados). |
+| **Armor +3 (Half-Plate)** | No | — | **Priorizar 2:** CA pasiva sube a 20. Con Cloak + Ring, alcanzas 22 CA sin escudo, lo que es excepcional para un usuario de arma de dos manos. |
+| **Blackrazor (Greatsword Legendaria)** | Sí | No | Prioridad Media (pero temáticamente épica): Al matar, ganas HP temporales iguales a los HP máximos de la víctima y ventaja en ataques/salvaciones/pruebas. **Trade-off**: pierdes el alcance de 10 pies y los ataques de oportunidad de PAM (Glaive), pero ganas un arma $+3$ que genera HP temporales masivos que apilan con Rage. Consultar con el DM si los Temp HP de Blackrazor activan el daño de frío de *Armor of Agathys* (RAW: solo los HP temporales del propio conjuro activan el daño reflejado). |
+| **Manual of Bodily Health** | No | — | Prioridad Alta: $+2$ permanente a CON. HP máximos suben en +40 (efectivamente +80 con Rage). Tu supervivencia bruta escala enormemente. |
 
 ---
 

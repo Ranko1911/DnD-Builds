@@ -8,8 +8,8 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Bloodwell Vial +1** (Tasha's) | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CD de tus conjuros de Sorcerer y tiradas de ataque. Además, una vez al día, recuperas 5 puntos de sorcería cuando gastas dados de golpe durante un descanso corto. |
-| **Rod of the Pact Keeper +1** | Sí | No | **Priorizar 2:** $+1$ a los ataques de conjuro y CD de Warlock (afecta directamente a tu *Eldritch Blast*). Te permite recuperar una ranura de pacto una vez al día. |
+| **Bloodwell Vial +1** (Tasha's) | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CD de tus conjuros de Sorcerer y tiradas de ataque. Recuperas 5 puntos de sorcería al gastar dados de golpe en descanso corto. **¿Por qué este y no Rod of Pact Keeper?** La CD de Sorcerer afecta a TODOS tus conjuros de Divine Soul (curaciones, control, smites), mientras que el Rod solo afecta a los 2 conjuros de Warlock. Con Eldritch Blast usando tu mod de CHA para daño (no CD), el Bloodwell es estrictamente superior. |
+| **Wand of the War Mage +1** | Sí | No | **Alternativa al Bloodwell:** Si tu DM no permite Bloodwell Vial, esta varita otorga $+1$ a ataques de conjuros y la habilidad de ignorar media cobertura. Funciona con Eldritch Blast directamente. |
 | **Scale Mail / Half-Plate** | No | — | **Prioridad Alta:** Armadura base para alcanzar AC 15/17 combinada con tu DEX de 14. |
 | **Shield** | No | — | **Prioridad Alta:** $+2$ a la CA sin requerir sintonización. |
 | **Bag of Holding** | No | — | Prioridad Media: Utilidad clásica para el grupo. |
@@ -21,12 +21,11 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Bloodwell Vial +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Sube a $+2$ la CD y ataque de Sorcerer. Mayor consistencia en curaciones y control de masas. |
-| **Rod of the Pact Keeper +2** | Sí | No | **Priorizar 2:** Sube a $+2$ la CD y ataque de tus conjuros de Warlock (*Eldritch Blast*). |
-| **Ring of Spell Storing** | Sí | ⚔️ **Sí** | **Priorizar 3:** Guarda *Shield*, *Absorb Elements* o curaciones. Permite que tu familiar (si usas la variante de Warlock 3) mantenga la concentración de un conjuro de soporte por ti. |
-| **Cloak of Protection** | Sí | No | Prioridad Alta: $+1$ a la CA y a todas tus salvaciones (esencial para mantener la concentración). |
-| **Armor +1 (Half-Plate) y Shield +1** | No | — | Prioridad Media: Incrementa tu AC base pasiva a 21. |
-| **Staff of Healing** | Sí | No | Prioridad Baja: Te ahorra slots de conjuro al permitir lanzar *Cure Wounds*, *Lesser Restoration* o *Mass Cure Wounds* usando cargas del bastón. |
+| **Bloodwell Vial +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a la CD y ataque de Sorcerer. Mayor consistencia en Twinned Heal, Synaptic Static, Banishment y todo tu arsenal principal. Tus curaciones de Divine Soul también usan esta CD. |
+| **Ring of Spell Storing** | Sí | ⚔️ **Sí** | **Priorizar 2:** Almacena *Shield*, *Absorb Elements* o *Healing Word*. Si usas familiar (Pact of the Tome + Find Familiar), el familiar puede lanzar conjuros del anillo, manteniendo concentración por ti. Almacena *Death Ward* al final del día con slots sobrantes para protección gratuita al día siguiente. |
+| **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 3:** $+1$ a CA y salvaciones. Esencial para mantener concentración en *Hex*, *Haste* o *Animate Objects*. Cada $+1$ a CON saves reduce drásticamente la pérdida de concentración en un backline caster. |
+| **Armor +1 (Half-Plate) y Shield +1** | No | — | Prioridad Alta: CA pasiva sube a 21 (26 con *Shield*). No requiere sintonización, por lo que no compite con tus objetos críticos. |
+| **Staff of Healing** | Sí | No | Prioridad Baja: Ahorra slots al lanzar Cure Wounds y Lesser Restoration con cargas. Sin embargo, tus Twinned Heals ya cubren la curación del grupo de forma superior. Solo útil si necesitas conservar puntos de sorcería. |
 
 ---
 
@@ -34,11 +33,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Illusionist's Bracers** (GGR) | Sí | ⚔️ **Sí** | **Priorizar 1:** El santo grial de cualquier Sorlock. Cuando lanzas un truco como acción (ej: *Eldritch Blast* de 4 rayos), puedes volver a lanzarlo como **Acción Adicional** sin consumir puntos de sorcería. Ahorra toneladas de recursos de metamagia. |
-| **Bloodwell Vial +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** El bonificador definitivo de $+3$ a la CD de tus conjuros de Sorcerer y curaciones. |
-| **Rod of the Pact Keeper +3** | Sí | No | **Priorizar 3:** Bonificador definitivo de $+3$ para maximizar la precisión de tu ametralladora de *Eldritch Blast*. |
-| **Armor +2 (Half-Plate) y Shield +2** | No | — | Prioridad Alta: Incrementa tu AC base pasiva a 23. |
-| **Cloak of Displacement** | Sí | No | Prioridad Media: Los enemigos tienen desventaja al atacarte mientras no sufras daño. Reduce radicalmente la probabilidad de perder la concentración. |
+| **Illusionist's Bracers** (GGR) | Sí | ⚔️ **Sí** | **Priorizar 1:** El santo grial de cualquier Sorlock. Cuando lanzas un truco como acción (*Eldritch Blast*, 4 rayos), puedes volver a lanzarlo como **Acción Adicional** sin consumir puntos de sorcería. Ahorra 2 puntos por turno respecto a Quickened Spell. Con Hex + Hexblade's Curse + Agonizing Blast + Radiant Soul, tus 8 rayos por turno generan un DPR de ~180 sin gastar un solo punto de sorcería. |
+| **Bloodwell Vial +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+3$ definitivo a la CD de Sorcerer. Tus Twinned Banishments, Synaptic Statics y curaciones de Divine Soul son prácticamente irresistibles (CD 21+ con este objeto). |
+| **Armor +2 (Half-Plate) y Shield +2** | No | — | **Priorizar 3:** CA pasiva sube a 23 (28 con *Shield*). No requiere sintonización. |
+| **Cloak of Displacement** | Sí | No | Prioridad Alta: Los enemigos tienen desventaja al atacarte mientras no sufras daño en la ronda. Reduce drásticamente la probabilidad de romper concentración en Hex/Haste. Superior a Cloak of Protection si no recibes daño frecuente. |
 
 ---
 
