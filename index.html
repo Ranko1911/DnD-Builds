@@ -111,6 +111,11 @@
 
                 <!-- Build Loaded View -->
                 <div class="build-content-view hidden" id="build-content-view">
+                    <!-- Breadcrumbs -->
+                    <div class="breadcrumbs" id="detail-breadcrumbs">
+                        <span class="crumb-root">Builds</span> / <span class="crumb-build">Name</span> / <span class="crumb-file">File</span>
+                    </div>
+
                     <header class="detail-header">
                         <div class="detail-title-area">
                             <div class="detail-title-row">
@@ -151,6 +156,16 @@
                     <!-- Rendered Document View -->
                     <div class="markdown-container" id="markdown-viewer">
                         <!-- Markdown text will be parsed and injected here -->
+                    </div>
+
+                    <!-- Bottom Navigation Buttons -->
+                    <div class="content-nav-buttons" id="content-nav-buttons">
+                        <button id="btn-prev-file" class="btn btn-secondary">
+                            <span class="btn-icon">←</span> Anterior
+                        </button>
+                        <button id="btn-next-file" class="btn btn-secondary">
+                            Siguiente <span class="btn-icon">→</span>
+                        </button>
                     </div>
                 </div>
             </section>

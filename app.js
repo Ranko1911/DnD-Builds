@@ -3,6 +3,22 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedBuild = null;
     let selectedFile = 'character guide.md';
 
+    const ORDERED_FILES = [
+        'character guide.md',
+        'spell list.md',
+        'roadmap.md',
+        'actual inventory list.md',
+        'item list to obtain.md'
+    ];
+
+    const FILE_LABELS = {
+        'character guide.md': 'Guía Principal',
+        'spell list.md': 'Conjuros',
+        'roadmap.md': 'Progresión',
+        'actual inventory list.md': 'Inventario Equipado',
+        'item list to obtain.md': 'Objetos Deseados'
+    };
+
     // Elements
     const buildsList = document.getElementById('builds-list');
     const searchInput = document.getElementById('build-search');
@@ -24,10 +40,15 @@ document.addEventListener('DOMContentLoaded', () => {
     const detailSystemBadge = document.getElementById('detail-system-badge');
     const detailClasses = document.getElementById('detail-classes');
     const detailYoutubeBtn = document.getElementById('detail-youtube-btn');
+    const detailBreadcrumbs = document.getElementById('detail-breadcrumbs');
     
     // Tabs & Viewer
     const tabButtons = document.querySelectorAll('.tab-btn');
     const markdownViewer = document.getElementById('markdown-viewer');
+
+    // Bottom Navigation Buttons
+    const btnPrevFile = document.getElementById('btn-prev-file');
+    const btnNextFile = document.getElementById('btn-next-file');
 
     // Configure Marked Options
     marked.setOptions({
@@ -44,6 +65,9 @@ document.addEventListener('DOMContentLoaded', () => {
             buildsData = data;
             updateStats();
             renderBuildsList();
+            
+            // Handle initial URL hash on page load
+            handleHashChange();
         })
         .catch(err => {
             console.error('Error al cargar builds.json:', err);
@@ -121,49 +145,99 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
             
-            card.addEventListener('click', () => selectBuildCard(build));
+            card.addEventListener('click', () => {
+                navigateTo(build.id, 'character guide.md');
+            });
             buildsList.appendChild(card);
         });
     }
 
-    // Select and Load a Build
-    function selectBuildCard(build) {
-        selectedBuild = build;
-        
-        // Highlight active card
-        document.querySelectorAll('.build-card').forEach(card => {
-            card.classList.remove('active');
-        });
-        
-        // Re-render sidebar to apply active class properly
-        renderBuildsList();
+    // Set Hash Navigation State
+    function navigateTo(buildId, file) {
+        if (!buildId) {
+            location.hash = '';
+            return;
+        }
+        location.hash = `#build=${buildId}&file=${encodeURIComponent(file)}`;
+    }
 
-        // Switch panel view
-        welcomeView.classList.add('hidden');
-        buildContentView.classList.remove('hidden');
-
-        // Populate detail header
-        detailBuildName.textContent = build.name;
-        detailClasses.textContent = build.classes;
-        
-        const is2024 = build.system.includes('2024');
-        detailSystemBadge.className = `system-badge ${is2024 ? 'system-2024' : 'system-2014'}`;
-        detailSystemBadge.textContent = is2024 ? 'D&D 2024 (5.5e)' : 'D&D 5e (2014)';
-
-        // YouTube Button
-        if (build.youtube) {
-            detailYoutubeBtn.href = build.youtube;
-            detailYoutubeBtn.classList.remove('hidden');
-        } else {
-            detailYoutubeBtn.classList.add('hidden');
+    // Handle Hash Router Logic
+    function handleHashChange() {
+        const hash = location.hash.substring(1);
+        if (!hash) {
+            selectedBuild = null;
+            selectedFile = 'character guide.md';
+            welcomeView.classList.remove('hidden');
+            buildContentView.classList.add('hidden');
+            
+            // Un-highlight all cards
+            document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
+            return;
         }
 
-        // Set default tab back to guide
-        selectedFile = 'character guide.md';
-        updateActiveTab();
-        
-        // Load the file content
-        loadTabContent();
+        const params = new URLSearchParams(hash);
+        const buildId = params.get('build');
+        const file = params.get('file') || 'character guide.md';
+
+        if (buildId) {
+            const build = buildsData.find(b => b.id === buildId);
+            if (build) {
+                selectedBuild = build;
+                selectedFile = file;
+
+                // Sync sidebar cards state
+                document.querySelectorAll('.build-card').forEach(card => {
+                    card.classList.remove('active');
+                });
+                
+                // Force active class in DOM
+                const activeCard = Array.from(buildsList.children).find(
+                    c => c.querySelector('h3').textContent === build.name
+                );
+                if (activeCard) {
+                    activeCard.classList.add('active');
+                }
+
+                // Show details view
+                welcomeView.classList.add('hidden');
+                buildContentView.classList.remove('hidden');
+
+                // Populate headers
+                detailBuildName.textContent = build.name;
+                detailClasses.textContent = build.classes;
+                
+                const is2024 = build.system.includes('2024');
+                detailSystemBadge.className = `system-badge ${is2024 ? 'system-2024' : 'system-2014'}`;
+                detailSystemBadge.textContent = is2024 ? 'D&D 2024 (5.5e)' : 'D&D 5e (2014)';
+
+                if (build.youtube) {
+                    detailYoutubeBtn.href = build.youtube;
+                    detailYoutubeBtn.classList.remove('hidden');
+                } else {
+                    detailYoutubeBtn.classList.add('hidden');
+                }
+
+                // Refresh subcomponents
+                updateBreadcrumbs();
+                updateActiveTab();
+                loadTabContent();
+                updateNavButtons();
+            }
+        }
+    }
+
+    // Update Interactive Breadcrumbs
+    function updateBreadcrumbs() {
+        if (!selectedBuild) return;
+
+        detailBreadcrumbs.innerHTML = `
+            <span class="crumb-root" id="crumb-go-home">Builds</span> / 
+            <span class="crumb-build" id="crumb-go-build">${selectedBuild.name}</span> / 
+            <span class="crumb-file">${FILE_LABELS[selectedFile] || selectedFile}</span>
+        `;
+
+        document.getElementById('crumb-go-home').addEventListener('click', () => navigateTo(null));
+        document.getElementById('crumb-go-build').addEventListener('click', () => navigateTo(selectedBuild.id, 'character guide.md'));
     }
 
     // Load Markdown File content of Selected Tab
@@ -182,10 +256,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 return response.text();
             })
             .then(markdown => {
-                // Parse markdown into HTML
                 const htmlContent = marked.parse(markdown);
                 markdownViewer.innerHTML = `<div class="markdown-viewer-content">${htmlContent}</div>`;
                 
+                // Scroll details to top on file load
+                markdownViewer.scrollTop = 0;
+
                 // Render KaTeX Math Equations
                 if (window.renderMathInElement) {
                     renderMathInElement(markdownViewer, {
@@ -222,13 +298,50 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Update Previous / Next Navigation Buttons
+    function updateNavButtons() {
+        const currentIndex = ORDERED_FILES.indexOf(selectedFile);
+
+        if (currentIndex > 0) {
+            btnPrevFile.disabled = false;
+            const prevFile = ORDERED_FILES[currentIndex - 1];
+            btnPrevFile.title = `Ir a: ${FILE_LABELS[prevFile]}`;
+        } else {
+            btnPrevFile.disabled = true;
+            btnPrevFile.title = '';
+        }
+
+        if (currentIndex < ORDERED_FILES.length - 1 && currentIndex !== -1) {
+            btnNextFile.disabled = false;
+            const nextFile = ORDERED_FILES[currentIndex + 1];
+            btnNextFile.title = `Ir a: ${FILE_LABELS[nextFile]}`;
+        } else {
+            btnNextFile.disabled = true;
+            btnNextFile.title = '';
+        }
+    }
+
     // Setup Tab Button Event Listeners
     tabButtons.forEach(btn => {
         btn.addEventListener('click', () => {
-            selectedFile = btn.getAttribute('data-file');
-            updateActiveTab();
-            loadTabContent();
+            const file = btn.getAttribute('data-file');
+            navigateTo(selectedBuild.id, file);
         });
+    });
+
+    // Prev / Next button click handlers
+    btnPrevFile.addEventListener('click', () => {
+        const currentIndex = ORDERED_FILES.indexOf(selectedFile);
+        if (currentIndex > 0) {
+            navigateTo(selectedBuild.id, ORDERED_FILES[currentIndex - 1]);
+        }
+    });
+
+    btnNextFile.addEventListener('click', () => {
+        const currentIndex = ORDERED_FILES.indexOf(selectedFile);
+        if (currentIndex < ORDERED_FILES.length - 1 && currentIndex !== -1) {
+            navigateTo(selectedBuild.id, ORDERED_FILES[currentIndex + 1]);
+        }
     });
 
     // Intercept Link Clicks inside Markdown Viewer to Switch Tabs
@@ -242,14 +355,10 @@ document.addEventListener('DOMContentLoaded', () => {
         // Match relative links like ./roadmap.md or roadmap.md
         if (href.endsWith('.md') && (href.startsWith('./') || !href.includes('/'))) {
             e.preventDefault();
-            
-            // Clean path
             const filename = href.replace('./', '');
             
-            // Find tab button with matching file
-            const targetTab = Array.from(tabButtons).find(btn => btn.getAttribute('data-file') === filename);
-            if (targetTab) {
-                targetTab.click();
+            if (ORDERED_FILES.includes(filename)) {
+                navigateTo(selectedBuild.id, filename);
             }
         }
     });
@@ -258,4 +367,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderBuildsList);
     filterSystem.addEventListener('change', renderBuildsList);
     filterRole.addEventListener('change', renderBuildsList);
+
+    // Watch hashchange
+    window.addEventListener('hashchange', handleHashChange);
 });

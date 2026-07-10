@@ -741,3 +741,69 @@ body {
         padding: 1.5rem;
     }
 }
+
+/* Breadcrumbs Styling */
+.breadcrumbs {
+    padding: 0.75rem 2.5rem 0.25rem 2.5rem;
+    font-size: 0.8rem;
+    color: var(--color-text-dark);
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    user-select: none;
+}
+
+.breadcrumbs span {
+    transition: var(--transition-smooth);
+}
+
+.crumb-root, .crumb-build {
+    cursor: pointer;
+}
+
+.crumb-root:hover {
+    color: var(--color-primary);
+}
+
+.crumb-build:hover {
+    color: var(--color-text-main);
+}
+
+.crumb-file {
+    color: var(--color-text-main);
+    font-weight: 500;
+}
+
+/* Bottom Navigation Buttons */
+.content-nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.25rem 2.5rem;
+    background-color: rgba(16, 21, 36, 0.3);
+    border-top: 1px solid var(--border-color);
+}
+
+.btn-secondary {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    color: var(--color-text-muted);
+}
+
+.btn-secondary:hover:not(:disabled) {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--border-color-hover);
+    color: white;
+    transform: translateY(-1px);
+}
+
+.btn-secondary:disabled {
+    opacity: 0.25;
+    cursor: not-allowed;
+}
+
+.btn-icon {
+    font-family: sans-serif;
+    font-size: 1.1em;
+}
+
