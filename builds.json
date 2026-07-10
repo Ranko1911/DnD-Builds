@@ -79,5 +79,14 @@
     "role": "Frontline Striker / Evasion Tank",
     "folder": "Wrathful Whisperer",
     "youtube": null
+  },
+  {
+    "id": "moon-guardian",
+    "name": "Moon Guardian",
+    "classes": "Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Protector Tank / Off-Healer ( support )",
+    "folder": "moon guardian",
+    "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY"
   }
 ]
