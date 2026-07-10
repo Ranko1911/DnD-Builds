@@ -45,15 +45,6 @@
     "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y"
   },
   {
-    "id": "palard",
-    "name": "Palard",
-    "classes": "Paladin 2 / Bard (College of Swords) 18",
-    "system": "D&D 5e (2014)",
-    "role": "Frontline Nova Striker / Spellcaster Hybrid",
-    "folder": "Palard",
-    "youtube": null
-  },
-  {
     "id": "spirit-caller",
     "name": "Spirit Caller",
     "classes": "Wizard (Necromancer) 6",
