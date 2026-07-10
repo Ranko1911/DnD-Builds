@@ -48,12 +48,13 @@
 ---
 
 ## 💍 RELOJ DE ARENA DEL CAOS ORDENADO (HOURGLASS OF ORDERED CHAOS)
+
 *Objeto maravilloso, raro (requiere sintonización por un Sorcerer)*
 
 Este reloj de arena está fabricado en latón pulido y cristal reforzado. Su arena no cae de forma continua, sino en pequeños pulsos rítmicos que se aceleran o ralentizan según el pulso mágico del portador. Proyecta un tenue zumbido mecánico que parece apaciguar las fluctuaciones mágicas a su alrededor.
 
 **Mecánicas (Diseñadas para la Edición 2024 / 5e):**
 
-*   **Orden Inquebrantable:** Tu rasgo de clase *Restore Balance* recupera 1 uso de forma automática cada vez que realizas un golpe crítico con un ataque de conjuro (como un rayo de *Eldritch Blast*).
-*   **Dilatación Temporal:** Una vez por turno, cuando usas la Metamagia *Quickened Spell* (o las muñequeras de ilusionista) para lanzar *Eldritch Blast* como acción adicional, la criatura objetivo ve su velocidad de movimiento reducida a la mitad durante su siguiente turno si es impactada por al menos 2 rayos.
-*   **Escudo de Engranajes:** Cuando gastas puntos de sorcería para activar tu rasgo de clase *Bastion of Law*, cada dado protector de $1d8$ en el que obtengas un resultado de 1 o 2 puede ser relanzado una vez (debiendo usar el nuevo resultado).
+* **Orden Inquebrantable:** Tu rasgo de clase *Restore Balance* recupera 1 uso de forma automática cada vez que realizas un golpe crítico con un ataque de conjuro (como un rayo de *Eldritch Blast*).
+* **Dilatación Temporal:** Una vez por turno, cuando usas la Metamagia *Quickened Spell* (o las muñequeras de ilusionista) para lanzar *Eldritch Blast* como acción adicional, la criatura objetivo ve su velocidad de movimiento reducida a la mitad durante su siguiente turno si es impactada por al menos 2 rayos.
+* **Escudo de Engranajes:** Cuando gastas puntos de sorcería para activar tu rasgo de clase *Bastion of Law*, cada dado protector de $1d8$ en el que obtengas un resultado de 1 o 2 puede ser relanzado una vez (debiendo usar el nuevo resultado).

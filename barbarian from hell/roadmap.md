@@ -35,13 +35,13 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **Barbarian
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Polearm Master (Nivel 1 / Barbarian 1):**
-    *   *Sinergia:* Te permite realizar un ataque adicional con tu acción adicional ($1d4 + \text{STR} + \text{Rage}$) usando un arma de asta (Glaive o Halberd). También te da un ataque de oportunidad automático cuando un enemigo entra en tu radio de amenaza (10 pies), maximizando tu presencia y daño.
-2.  **Great Weapon Master (Nivel 4 / Barbarian 4):**
-    *   *Sinergia:* Permite sumar $+10$ de daño plano a tus ataques a cambio de un $-5$ a la tirada. Como bárbaro, puedes usar *Reckless Attack* a voluntad para tener ventaja constante, mitigando casi por completo la penalización del ataque.
-3.  **ASI: Mejora de Característica (Nivel 10 / Warlock 4):**
-    *   *Sinergia:* Incrementa tu Fuerza de 17 a 19 para mayor acierto y daño físico básico.
-4.  **ASI: Mejora de Característica (Nivel 14 / Warlock 8):**
-    *   *Sinergia:* Reparte $+1$ a Fuerza (alcanzando el máximo de **20**) y $+1$ a Carisma (alcanzando **14**), maximizando tus capacidades ofensivas físicas y cumpliendo con la progresión del multiclaseo.
-5.  **Tough (Nivel 18 / Warlock 12):**
-    *   *Sinergia:* Te otorga $+2$ HP por nivel de personaje (total $+40$ HP máximos a nivel 20). Esto amortigua el daño extra recibido por el uso constante de *Reckless Attack* y prolonga tu resistencia física en combates prolongados de final de juego.
+1. **Polearm Master (Nivel 1 / Barbarian 1):**
+    * *Sinergia:* Te permite realizar un ataque adicional con tu acción adicional ($1d4 + \text{STR} + \text{Rage}$) usando un arma de asta (Glaive o Halberd). También te da un ataque de oportunidad automático cuando un enemigo entra en tu radio de amenaza (10 pies), maximizando tu presencia y daño.
+2. **Great Weapon Master (Nivel 4 / Barbarian 4):**
+    * *Sinergia:* Permite sumar $+10$ de daño plano a tus ataques a cambio de un $-5$ a la tirada. Como bárbaro, puedes usar *Reckless Attack* a voluntad para tener ventaja constante, mitigando casi por completo la penalización del ataque.
+3. **ASI: Mejora de Característica (Nivel 10 / Warlock 4):**
+    * *Sinergia:* Incrementa tu Fuerza de 17 a 19 para mayor acierto y daño físico básico.
+4. **ASI: Mejora de Característica (Nivel 14 / Warlock 8):**
+    * *Sinergia:* Reparte $+1$ a Fuerza (alcanzando el máximo de **20**) y $+1$ a Carisma (alcanzando **14**), maximizando tus capacidades ofensivas físicas y cumpliendo con la progresión del multiclaseo.
+5. **Tough (Nivel 18 / Warlock 12):**
+    * *Sinergia:* Te otorga $+2$ HP por nivel de personaje (total $+40$ HP máximos a nivel 20). Esto amortigua el daño extra recibido por el uso constante de *Reckless Attack* y prolonga tu resistencia física en combates prolongados de final de juego.

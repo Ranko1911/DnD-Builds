@@ -48,24 +48,26 @@
 ---
 
 ## 🦾 INVOCACIONES ARCANAS ACTIVAS (WARLOCK 14)
+
 *Puedes tener hasta 6 invocaciones activas simultáneamente:*
 
-1.  **Agonizing Blast** (Suma tu CAR a cada rayo de *Eldritch Blast*).
-2.  **Devil's Sight** (Visión perfecta en oscuridad normal y mágica hasta 120 pies).
-3.  **Eldritch Smite** (Gasta slots de Warlock para infligir $+5d8$ de daño de fuerza y derribar propensos).
-4.  **Cloak of Flies** (Acción adicional para rodearte de moscas que infligen daño de veneno plano igual a tu modificador de Carisma a enemigos adyacentes).
-5.  **Lifedrinker** (Añade tu modificador de Carisma como daño necrótico adicional a cada impacto con tu arma del pacto, $+2$ de daño).
-6.  **Tomb of Levistus** (Reacción para ganar 100 HP temporales ante un ataque, congelándote por 1 turno. Excelente seguro de vida final).
+1. **Agonizing Blast** (Suma tu CAR a cada rayo de *Eldritch Blast*).
+2. **Devil's Sight** (Visión perfecta en oscuridad normal y mágica hasta 120 pies).
+3. **Eldritch Smite** (Gasta slots de Warlock para infligir $+5d8$ de daño de fuerza y derribar propensos).
+4. **Cloak of Flies** (Acción adicional para rodearte de moscas que infligen daño de veneno plano igual a tu modificador de Carisma a enemigos adyacentes).
+5. **Lifedrinker** (Añade tu modificador de Carisma como daño necrótico adicional a cada impacto con tu arma del pacto, $+2$ de daño).
+6. **Tomb of Levistus** (Reacción para ganar 100 HP temporales ante un ataque, congelándote por 1 turno. Excelente seguro de vida final).
 
 ---
 
 ## 💍 RELIQUIA DE LA FURIA INFERNAL (RELIC OF HELLISH FURY)
+
 *Objeto maravilloso, raro (requiere sintonización por un Bárbaro o Brujo)*
 
 Este fragmento de obsidiana al rojo vivo está engarzado en un brazalete de cuero negro tachonado con pinchos de hierro. Desprende un calor sofocante y un olor a azufre y ceniza. Al enfurecerse, el metal del brazalete se funde parcialmente sobre la piel del portador sin dañarlo, imbuyendo sus golpes con la energía del averno.
 
 **Mecánicas (Diseñadas para la Edición 2024 / 5e):**
 
-*   **Sed de Almas:** Mientras estás en furia (*Rage*), infliges $+2$ de daño de fuego adicional en todos tus ataques con armas cuerpo a cuerpo.
-*   **Escudo de Cenizas:** Mientras tengas puntos de golpe temporales activos proporcionados por el conjuro *Armor of Agathys*, cualquier atacante cuerpo a cuerpo que te golpee sufre un daño de fuego adicional igual a la mitad de tu nivel de Warlock ($+7$ de daño de fuego a nivel 14) además del daño de frío del conjuro.
-*   **Furia del Castigo:** Puedes activar tu invocación *Eldritch Smite* una vez por descanso largo sin gastar una ranura de conjuro de Warlock.
+* **Sed de Almas:** Mientras estás en furia (*Rage*), infliges $+2$ de daño de fuego adicional en todos tus ataques con armas cuerpo a cuerpo.
+* **Escudo de Cenizas:** Mientras tengas puntos de golpe temporales activos proporcionados por el conjuro *Armor of Agathys*, cualquier atacante cuerpo a cuerpo que te golpee sufre un daño de fuego adicional igual a la mitad de tu nivel de Warlock ($+7$ de daño de fuego a nivel 14) además del daño de frío del conjuro.
+* **Furia del Castigo:** Puedes activar tu invocación *Eldritch Smite* una vez por descanso largo sin gastar una ranura de conjuro de Warlock.

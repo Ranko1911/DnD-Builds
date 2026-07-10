@@ -35,11 +35,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **Clocklock
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Elven Accuracy (Nivel 6 / Sorcerer 4):**
-    *   *Sinergia:* Incrementa tu Carisma de 17 a 18. Cuando atacas con ventaja usando Carisma (lo cual es constante gracias a la combinación de *Darkness* y *Devil's Sight*), puedes relanzar uno de los dados. Esto te da "triple ventaja" (tiras 3 dados y eliges el más alto), maximizando tu acierto y duplicando la tasa de golpes críticos.
-2.  **ASI: Mejora de Característica (Nivel 10 / Sorcerer 8):**
-    *   *Sinergia:* Lleva tu Carisma al máximo de **20**. Aumenta tu bonificador de ataque y suma un $+5$ neto al daño de cada rayo de *Eldritch Blast* a través de la invocación *Agonizing Blast*.
-3.  **War Caster (Nivel 14 / Sorcerer 12):**
-    *   *Sinergia:* Indispensable para asegurar que no pierdes la concentración en *Darkness* o *Wall of Force* al recibir daño. Otorga ventaja en salvaciones de Constitución y te permite usar componentes somáticos con las manos ocupadas por un escudo físico.
-4.  **Alert (Nivel 18 / Sorcerer 16):**
-    *   *Sinergia:* Añade $+5$ a tus tiradas de iniciativa y evita que seas sorprendido. Actuar primero en la ronda te permite desplegar tu *Darkness* defensiva antes de que los enemigos puedan actuar, asegurando tu cobertura.
+1. **Elven Accuracy (Nivel 6 / Sorcerer 4):**
+    * *Sinergia:* Incrementa tu Carisma de 17 a 18. Cuando atacas con ventaja usando Carisma (lo cual es constante gracias a la combinación de *Darkness* y *Devil's Sight*), puedes relanzar uno de los dados. Esto te da "triple ventaja" (tiras 3 dados y eliges el más alto), maximizando tu acierto y duplicando la tasa de golpes críticos.
+2. **ASI: Mejora de Característica (Nivel 10 / Sorcerer 8):**
+    * *Sinergia:* Lleva tu Carisma al máximo de **20**. Aumenta tu bonificador de ataque y suma un $+5$ neto al daño de cada rayo de *Eldritch Blast* a través de la invocación *Agonizing Blast*.
+3. **War Caster (Nivel 14 / Sorcerer 12):**
+    * *Sinergia:* Indispensable para asegurar que no pierdes la concentración en *Darkness* o *Wall of Force* al recibir daño. Otorga ventaja en salvaciones de Constitución y te permite usar componentes somáticos con las manos ocupadas por un escudo físico.
+4. **Alert (Nivel 18 / Sorcerer 16):**
+    * *Sinergia:* Añade $+5$ a tus tiradas de iniciativa y evita que seas sorprendido. Actuar primero en la ronda te permite desplegar tu *Darkness* defensiva antes de que los enemigos puedan actuar, asegurando tu cobertura.
