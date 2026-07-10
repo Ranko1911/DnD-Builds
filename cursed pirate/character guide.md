@@ -20,6 +20,8 @@ Stats: STR 10, DEX 14, CON 16, INT 10, WIS 20, CHA 8
 * **CHA:** 8
 
 Actual Item List: ./actual inventory list.md
+
+Bastión y Tiempo Muerto: ./bastion and downtime.md
 Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Spellcaster Controller / Blaster / Undead Tank (Controlador del campo de batalla mediante conjuros de mago, daño sostenido con *Starry Form: Archer* y resistencia de no muerto).

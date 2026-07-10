@@ -14,6 +14,8 @@
   * **WIS:** 13 (+1) *(12 Base + 1 Background)*
   * **CHA:** 8 (-1)
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 ### Actual Item List
 
 1. **Component Pouch / Arcane Focus:** A skull or a carved bone focus.

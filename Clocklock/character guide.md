@@ -21,6 +21,8 @@ Stats:
 
 Actual Item List: ./actual inventory list.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Backline Blaster / Battlefield Controller / Probability Manipulator (Ametralladora de *Eldritch Blast* con triple ventaja constante y alta probabilidad de críticos, protegido por barreras Clockwork y control de dados).

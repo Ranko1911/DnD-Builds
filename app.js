@@ -8,7 +8,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'spell list.md',
         'roadmap.md',
         'actual inventory list.md',
-        'item list to obtain.md'
+        'item list to obtain.md',
+        'bastion and downtime.md'
     ];
 
     const FILE_LABELS = {
@@ -16,7 +17,8 @@ document.addEventListener('DOMContentLoaded', () => {
         'spell list.md': 'Conjuros',
         'roadmap.md': 'Progresión',
         'actual inventory list.md': 'Inventario Equipado',
-        'item list to obtain.md': 'Objetos Deseados'
+        'item list to obtain.md': 'Objetos Deseados',
+        'bastion and downtime.md': 'Bastión y Tiempo Muerto'
     };
 
     // Elements

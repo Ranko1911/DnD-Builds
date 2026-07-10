@@ -14,6 +14,8 @@ Stats: STR 12, DEX 12, CON 15, INT 15, WIS 14, CHA 10
 
 Actual Item List: ./actual inventory list.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Combat Role: Frontline Gish (Tank / Tactical Controller / AoE Burst Damage / little healer)
 
  1. Resource Management & Inventory Rules

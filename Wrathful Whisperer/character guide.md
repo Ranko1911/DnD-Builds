@@ -21,6 +21,8 @@ Stats: STR 16, DEX 10, CON 14 (16 con cinturón), INT 8, WIS 10, CHA 20
 
 Actual Item List: ./actual inventory list.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Striker / Skirmisher / Crowd Controller / Party Face (Tanque de evasión por CA alta / Daño melee ráfaga mediante *Divine Smite* y floreos tácticos)

@@ -21,6 +21,8 @@ Stats:
 
 Actual Item List: ./actual inventory list.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Dread Tank / Master Craftsman / Aggro Controller (Defensor indestructible en primera línea, capaz de atraer ataques mediante *Thunder Gauntlets* mientras mantiene inmunidad práctica gracias a su AC extrema).

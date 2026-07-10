@@ -21,6 +21,8 @@ Stats:
 
 Actual Item List: ./actual inventory list.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Thorns Tank / Heavy Physical Striker / Battlefield Grappler (Castiga a los enemigos cuerpo a cuerpo mediante el daño reflejado de *Armor of Agathys* mientras reduce el daño físico a la mitad por Furia, apoyado por el daño adicional del Zealot e impactos brutales con *Great Weapon Master* y *Eldritch Smite*).

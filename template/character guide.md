@@ -16,6 +16,8 @@ Actual Item List: ./actual inventory list.md
 
 Roadmap de Progresión: ./roadmap.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Combat Role: [Rol en Combate (ej: Tanque, Control de Campo, Daño de Ráfaga, Sanador)]
 
  1. Resource Management & Inventory Rules

@@ -21,6 +21,8 @@ Stats:
 
 Actual Item List: (No especificado en el origen, pero optimizado para usar una Armadura Media, un Escudo y la *Scimitar of Speed* o un *Foco Arcano*).
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Roadmap de Progresión: ./light of tomorrow roadmap.md
 
 Combat Role: Backline Blaster / Primary Healer / Ultimate Support Hybrid (La "Ametralladora" de Eldritch Blast combinada con curación de alto impacto).

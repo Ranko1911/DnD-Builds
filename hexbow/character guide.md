@@ -21,6 +21,8 @@ Stats:
 
 Actual Item List: ./actual inventory list.md
 
+Bastión y Tiempo Muerto: ./bastion and downtime.md
+
 Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Ranged Nova Striker / Battlefield Sniper (Ametralladora de ballesta de mano con ventaja triple, maniobras de precisión para asegurar los impactos de *Sharpshooter* y descargas masivas de *Eldritch Smite*).
