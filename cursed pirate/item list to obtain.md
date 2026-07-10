@@ -43,6 +43,7 @@ Este documento detalla la prioridad de objetos mágicos por Tiers para el build 
 ---
 
 ## 💍 BRÚJULA MALDITA DEL MAR SIN SOL (CURSED COMPASS OF THE SUNLESS SEA)
+
 *Objeto maravilloso, raro (requiere sintonización por un Druida o Mago)*
 
 Esta brújula de bronce desgastada por la sal tiene una aguja que gira sin control a menos que se sostenga en aguas oscuras o niebla. Perteneciente a un antiguo almirante pirata que desafió a las deidades del mar, la brújula emite un brillo verdoso fantasmal cuando detecta la presencia de criaturas no muertas o mágicas.

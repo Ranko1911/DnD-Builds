@@ -35,11 +35,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **Hexbow** 
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Crossbow Expert (Nivel 5 / Warlock 4):**
-    *   *Sinergia:* Te permite disparar a bocajarro sin desventaja en cuerpo a cuerpo, elimina la propiedad de *carga* de la ballesta de mano, y te otorga un ataque adicional con tu acción adicional después de atacar con una mano, dándote 3 ataques constantes.
-2.  **Elven Accuracy (Nivel 11 / Warlock 8):**
-    *   *Sinergia:* Sube tu Carisma de 17 a 18. Cuando tienes ventaja en tus tiradas con Carisma (frecuente gracias a *Shadow of Moil* o *Darkness*), puedes volver a tirar uno de los dados (ventaja triple). Esto aumenta radicalmente tu probabilidad de acertar y de infligir impactos críticos.
-3.  **Sharpshooter (Nivel 15 / Warlock 12):**
-    *   *Sinergia:* Permite disparar a máxima distancia sin desventaja (120 pies para ballesta de mano), ignorar cobertura media y tres cuartos, y aplicar un $+10$ al daño físico plano a cambio de $-5$ a la tirada. El $-5$ es compensado por el estilo de combate Archery ($+2$), ventaja triple ($+5$ equivalente) y la maniobra *Precision Attack*.
-4.  **ASI: Mejora de Característica (Nivel 19 / Warlock 16):**
-    *   *Sinergia:* Lleva tu Carisma al máximo de **20**. Esto añade $+5$ de daño por impacto gracias a *Lifedrinker* (acumulando $+10$ de daño plano por golpe junto con el modificador de ataque básico de Carisma) y sube tu CD de conjuros.
+1. **Crossbow Expert (Nivel 5 / Warlock 4):**
+    * *Sinergia:* Te permite disparar a bocajarro sin desventaja en cuerpo a cuerpo, elimina la propiedad de *carga* de la ballesta de mano, y te otorga un ataque adicional con tu acción adicional después de atacar con una mano, dándote 3 ataques constantes.
+2. **Elven Accuracy (Nivel 11 / Warlock 8):**
+    * *Sinergia:* Sube tu Carisma de 17 a 18. Cuando tienes ventaja en tus tiradas con Carisma (frecuente gracias a *Shadow of Moil* o *Darkness*), puedes volver a tirar uno de los dados (ventaja triple). Esto aumenta radicalmente tu probabilidad de acertar y de infligir impactos críticos.
+3. **Sharpshooter (Nivel 15 / Warlock 12):**
+    * *Sinergia:* Permite disparar a máxima distancia sin desventaja (120 pies para ballesta de mano), ignorar cobertura media y tres cuartos, y aplicar un $+10$ al daño físico plano a cambio de $-5$ a la tirada. El $-5$ es compensado por el estilo de combate Archery ($+2$), ventaja triple ($+5$ equivalente) y la maniobra *Precision Attack*.
+4. **ASI: Mejora de Característica (Nivel 19 / Warlock 16):**
+    * *Sinergia:* Lleva tu Carisma al máximo de **20**. Esto añade $+5$ de daño por impacto gracias a *Lifedrinker* (acumulando $+10$ de daño plano por golpe junto con el modificador de ataque básico de Carisma) y sube tu CD de conjuros.

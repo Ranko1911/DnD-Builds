@@ -35,11 +35,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **Tech Prie
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Fey Touched (Nivel 5 / Artificer 4):**
-    *   *Sinergia:* Sube tu Inteligencia de 17 a 18. Te otorga *Misty Step* gratis una vez por día (clave para posicionar tu *Aura de Spirit Guardians* o salir de trampas) y *Gift of Alacrity* (para sumar un $+1d8$ a tus tiradas de iniciativa, permitiéndote tomar el frente rápido).
-2.  **ASI: Mejora de Característica (Nivel 9 / Cleric 4):**
-    *   *Sinergia:* Incrementa tu Inteligencia al máximo de **20**. Esto maximiza la CD de salvación de tus conjuros, la efectividad de tu *Flash of Genius* ($+5$ plano), tu bonificador de ataque con tus puños de trueno (*Thunder Gauntlets*) y los usos del *Spell-Storing Item*.
-3.  **War Caster (Nivel 14 / Artificer 8):**
-    *   *Sinergia:* Vital para un tanque en primera línea. Te otorga ventaja en tiradas de salvación de Constitución para mantener tus conjuros de concentración (como *Spirit Guardians* o *Heat Metal*). También te permite realizar componentes somáticos mientras empuñas un escudo físico y lanzar conjuros como reacciones de oportunidad.
-4.  **Sentinel (Nivel 18 / Artificer 12):**
-    *   *Sinergia:* Cuando golpeas a un enemigo con un ataque de oportunidad, su velocidad se reduce a 0. Esto bloquea por completo su movilidad dentro de tu zona de *Spirit Guardians* y asegura que tengan que atacarte a ti en lugar de escapar hacia tu retaguardia.
+1. **Fey Touched (Nivel 5 / Artificer 4):**
+    * *Sinergia:* Sube tu Inteligencia de 17 a 18. Te otorga *Misty Step* gratis una vez por día (clave para posicionar tu *Aura de Spirit Guardians* o salir de trampas) y *Gift of Alacrity* (para sumar un $+1d8$ a tus tiradas de iniciativa, permitiéndote tomar el frente rápido).
+2. **ASI: Mejora de Característica (Nivel 9 / Cleric 4):**
+    * *Sinergia:* Incrementa tu Inteligencia al máximo de **20**. Esto maximiza la CD de salvación de tus conjuros, la efectividad de tu *Flash of Genius* ($+5$ plano), tu bonificador de ataque con tus puños de trueno (*Thunder Gauntlets*) y los usos del *Spell-Storing Item*.
+3. **War Caster (Nivel 14 / Artificer 8):**
+    * *Sinergia:* Vital para un tanque en primera línea. Te otorga ventaja en tiradas de salvación de Constitución para mantener tus conjuros de concentración (como *Spirit Guardians* o *Heat Metal*). También te permite realizar componentes somáticos mientras empuñas un escudo físico y lanzar conjuros como reacciones de oportunidad.
+4. **Sentinel (Nivel 18 / Artificer 12):**
+    * *Sinergia:* Cuando golpeas a un enemigo con un ataque de oportunidad, su velocidad se reduce a 0. Esto bloquea por completo su movilidad dentro de tu zona de *Spirit Guardians* y asegura que tengan que atacarte a ti en lugar de escapar hacia tu retaguardia.

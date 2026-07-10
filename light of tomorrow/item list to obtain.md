@@ -54,12 +54,13 @@
 ---
 
 ## 👑 CORONA DE LA DONCELLA DIVINA (CROWN OF THE DIVINE HEXMAIDEN)
+
 *Objeto maravilloso, raro (requiere sintonización por un Bardo, Clérigo, Mago o Brujo)*
 
 Esta tiara de plata y oro está rematada por pequeñas gemas oscuras que parecen flotar sobre el metal. Cuando el portador canaliza magia sagrada, las gemas brillan con luz celestial; cuando canaliza magia oscura, las gemas absorben la luz a su alrededor.
 
 **Mecánicas (Diseñadas para la Edición 2024 / 5e):**
 
-*   **Foco del Pacto Divino:** La tiara sirve como foco de lanzamiento universal para conjuros de Clérigo, Mago, Sorcerer y Warlock.
-*   **Sifón de Vida Eldritch:** Cuando infliges daño a una criatura maldita por tu *Hexblade's Curse* o afectada por tu *Hex* usando tu truco *Eldritch Blast*, puedes elegir a un aliado que puedas ver a menos de 30 pies de la criatura objetivo. Ese aliado recupera un número de puntos de vida igual a tu modificador de Carisma ($+5$). Puedes usar esta característica un número de veces igual a tu bonificador de competencia por descanso largo.
-*   **Curación Gemela Eficiente:** Cuando utilizas la Metamagia *Twinned Spell* para duplicar un conjuro de curación (como *Heal* o *Healing Word*), el coste de Puntos de Sorcería se reduce en 1 (mínimo de 1 punto).
+* **Foco del Pacto Divino:** La tiara sirve como foco de lanzamiento universal para conjuros de Clérigo, Mago, Sorcerer y Warlock.
+* **Sifón de Vida Eldritch:** Cuando infliges daño a una criatura maldita por tu *Hexblade's Curse* o afectada por tu *Hex* usando tu truco *Eldritch Blast*, puedes elegir a un aliado que puedas ver a menos de 30 pies de la criatura objetivo. Ese aliado recupera un número de puntos de vida igual a tu modificador de Carisma ($+5$). Puedes usar esta característica un número de veces igual a tu bonificador de competencia por descanso largo.
+* **Curación Gemela Eficiente:** Cuando utilizas la Metamagia *Twinned Spell* para duplicar un conjuro de curación (como *Heal* o *Healing Word*), el coste de Puntos de Sorcería se reduce en 1 (mínimo de 1 punto).

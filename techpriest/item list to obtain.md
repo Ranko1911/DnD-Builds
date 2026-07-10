@@ -49,23 +49,25 @@
 ---
 
 ## 🦾 ACTIVAS DE INFUSIONES ARCANAS (ARTIFICER 14)
+
 *Puedes tener hasta 5 infusiones activas simultáneamente en tus piezas de equipo arcano:*
 
-1.  **Enhanced Defense +2** (Aplicada a la placa del pecho de tu armadura).
-2.  **Repulsion Shield +1** (Aplicada a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
-3.  **Ring of Protection** (Aplicada a un anillo común, $+1$ CA y $+1$ a salvaciones).
-4.  **Cloak of Protection** (Aplicada a una capa común, $+1$ CA y $+1$ a salvaciones).
-5.  **Enhanced Weapon +2** o **Radiant Weapon** (Aplicada a tus puños de trueno *Thunder Gauntlets*).
+1. **Enhanced Defense +2** (Aplicada a la placa del pecho de tu armadura).
+2. **Repulsion Shield +1** (Aplicada a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
+3. **Ring of Protection** (Aplicada a un anillo común, $+1$ CA y $+1$ a salvaciones).
+4. **Cloak of Protection** (Aplicada a una capa común, $+1$ CA y $+1$ a salvaciones).
+5. **Enhanced Weapon +2** o **Radiant Weapon** (Aplicada a tus puños de trueno *Thunder Gauntlets*).
 
 ---
 
 ## 💍 NÚCLEO DEL DIOS MÁQUINA (CORE OF THE MACHINE GOD)
+
 *Objeto maravilloso, raro (requiere sintonización por un Artífice o Clérigo de la Forja)*
 
 Este pesado medallón de bronce y engranajes de hierro late con una pálida luz eléctrica azulada. Al sintonizarse, el portador siente cómo sus pensamientos se ordenan de forma algorítmica y su sistema biológico se sincroniza con el metal de su armadura.
 
 **Mecánicas (Diseñadas para la Edición 2024 / 5e):**
 
-*   **Mente de Silicio:** Añade tu modificador de Inteligencia ($+5$) a tus pruebas de salvación de concentración para mantener conjuros (esta bonificación apila con Flash of Genius).
-*   **Sobrecarga del Núcleo:** Una vez por descanso largo, como acción adicional, puedes sobrecargar tus sistemas de energía. Durante 1 minuto, todos tus ataques con tus puños de trueno (*Thunder Gauntlets*) infligen $1d8$ de daño de relámpago adicional en caso de impacto, y ganas resistencia a todo el daño físico no mágico.
-*   **Reparación Rápida:** Puedes usar el truco *Mending* como una acción de combate en tu turno (en lugar de su tiempo de lanzamiento de 1 minuto) para curar a un constructo o a ti mismo (siendo de raza Warforged) por $2d6$ puntos de vida.
+* **Mente de Silicio:** Añade tu modificador de Inteligencia ($+5$) a tus pruebas de salvación de concentración para mantener conjuros (esta bonificación apila con Flash of Genius).
+* **Sobrecarga del Núcleo:** Una vez por descanso largo, como acción adicional, puedes sobrecargar tus sistemas de energía. Durante 1 minuto, todos tus ataques con tus puños de trueno (*Thunder Gauntlets*) infligen $1d8$ de daño de relámpago adicional en caso de impacto, y ganas resistencia a todo el daño físico no mágico.
+* **Reparación Rápida:** Puedes usar el truco *Mending* como una acción de combate en tu turno (en lugar de su tiempo de lanzamiento de 1 minuto) para curar a un constructo o a ti mismo (siendo de raza Warforged) por $2d6$ puntos de vida.

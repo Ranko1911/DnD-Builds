@@ -50,12 +50,13 @@
 ---
 
 ## 💍 ANILLO DEL PASTOR DE ALMAS (RING OF THE SOUL SHEPHERD)
+
 *Objeto maravilloso, raro (requiere sintonización por un Mago Nigromante)*
 
 Este anillo de plata envejecida tiene la forma de un uróboros formado por pequeños cráneos entrelazados. Su gema central, una obsidiana opaca, brilla con una pálida luz purpúrea cuando el portador comanda a sus esbirros alzados.
 
 **Mecánicas (Diseñadas para la Edición 2024 / 5.5e):**
 
-*   **Alzamiento Ectoplásmico (Sin Cadáveres):** Ya no necesitas disponer de cadáveres o pilas de huesos físicos para lanzar conjuros de la escuela de Nigromancia que animen o creen muertos vivientes (como *Animate Dead*). El anillo condensa ectoplasma y energía residual del Plano de la Sombra para formar las estructuras físicas necesarias para tus sirvientes.
-*   **Lazo de Alma Colectivo:** Cuando mantienes la concentración en un conjuro (como *Summon Undead* o *Bless*) y sufres daño que te obliga a realizar una Tirada de Salvación de Constitución para no perderla, puedes usar tu **Reacción** para redirigir parte de la fuerza destructiva. Una criatura muerta viviente bajo tu control a menos de 30 pies de ti recibe la mitad del daño que ibas a sufrir, y tú obtienes **Ventaja** en la Tirada de Salvación de Constitución para mantener la concentración.
-*   **Reabsorción Espectral:** Cuando un muerto viviente creado o invocado por ti (mediante *Animate Dead* o *Summon Undead*) es destruido por un ataque o efecto enemigo, puedes canalizar su esencia residual en ti como **Reacción**. Obtienes un número de **Puntos de Golpe Temporales** iguales a tu nivel de Mago.
+* **Alzamiento Ectoplásmico (Sin Cadáveres):** Ya no necesitas disponer de cadáveres o pilas de huesos físicos para lanzar conjuros de la escuela de Nigromancia que animen o creen muertos vivientes (como *Animate Dead*). El anillo condensa ectoplasma y energía residual del Plano de la Sombra para formar las estructuras físicas necesarias para tus sirvientes.
+* **Lazo de Alma Colectivo:** Cuando mantienes la concentración en un conjuro (como *Summon Undead* o *Bless*) y sufres daño que te obliga a realizar una Tirada de Salvación de Constitución para no perderla, puedes usar tu **Reacción** para redirigir parte de la fuerza destructiva. Una criatura muerta viviente bajo tu control a menos de 30 pies de ti recibe la mitad del daño que ibas a sufrir, y tú obtienes **Ventaja** en la Tirada de Salvación de Constitución para mantener la concentración.
+* **Reabsorción Espectral:** Cuando un muerto viviente creado o invocado por ti (mediante *Animate Dead* o *Summon Undead*) es destruido por un ataque o efecto enemigo, puedes canalizar su esencia residual en ti como **Reacción**. Obtienes un número de **Puntos de Golpe Temporales** iguales a tu nivel de Mago.

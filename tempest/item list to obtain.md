@@ -55,26 +55,27 @@
 ---
 
 ## COLLAR DEL MOLDEADOR DE TORMENTAS (STORMSHAPER'S AMULET)
+
 Objeto maravilloso, raro (requiere sintonización por un Clérigo o Mago)
 
-Este pesado collar está forjado en platino fundido durante una tormenta eléctrica 
-y engarzado con un zafiro que destella al ritmo de los latidos de su portador. 
-El amuleto canaliza la energía destructiva pura, permitiendo al usuario abrir 
+Este pesado collar está forjado en platino fundido durante una tormenta eléctrica
+y engarzado con un zafiro que destella al ritmo de los latidos de su portador.
+El amuleto canaliza la energía destructiva pura, permitiendo al usuario abrir
 "burbujas de calma" dentro de sus propios cataclismos elementales.
 
 Mecánicas (Diseñadas para la Edición 2024 / 5.5e):
 
-• Esculpir la Tormenta: Cuando lanzas un conjuro que inflige daño de tipo Trueno 
-  (Thunder) o Relámpago (Lightning) —incluyendo conjuros transmutados por el rasgo 
-  "Awakened Spellbook" de tu Mago Escribano— y que afecta a otras criaturas que puedas 
-  ver, puedes elegir un número de ellas igual a 1 + el nivel del conjuro lanzado 
-  (mínimo de 1 criatura). 
+• Esculpir la Tormenta: Cuando lanzas un conjuro que inflige daño de tipo Trueno
+  (Thunder) o Relámpago (Lightning) —incluyendo conjuros transmutados por el rasgo
+  "Awakened Spellbook" de tu Mago Escribano— y que afecta a otras criaturas que puedas
+  ver, puedes elegir un número de ellas igual a 1 + el nivel del conjuro lanzado
+  (mínimo de 1 criatura).
 
-  Las criaturas elegidas superan automáticamente sus Tiradas de Salvación contra 
-  el conjuro, y no reciben ningún daño si normalmente recibirían la mitad de daño 
+  Las criaturas elegidas superan automáticamente sus Tiradas de Salvación contra
+  el conjuro, y no reciben ningún daño si normalmente recibirían la mitad de daño
   en una salvación exitosa.
 
-• Retribución Conductora: Si utilizas tu rasgo de clase "Wrath of the Storm" 
-  (Ira de la Tormenta) mientras llevas puesto este collar, puedes elegir que el 
-  atacante sea empujado 10 pies en línea recta lejos de ti en lugar de recibir 
+• Retribución Conductora: Si utilizas tu rasgo de clase "Wrath of the Storm"
+  (Ira de la Tormenta) mientras llevas puesto este collar, puedes elegir que el
+  atacante sea empujado 10 pies en línea recta lejos de ti en lugar de recibir
   el daño normal, sin necesidad de que realice una Tirada de Salvación.

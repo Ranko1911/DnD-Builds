@@ -50,26 +50,28 @@
 ---
 
 ## 🦾 INVOCACIONES ARCANAS ACTIVAS (WARLOCK 17)
+
 *Puedes tener hasta 8 invocaciones activas simultáneamente a nivel 17:*
 
-1.  **Agonizing Blast** (Suma tu CAR a cada rayo de *Eldritch Blast*).
-2.  **Devil's Sight** (Visión perfecta en oscuridad normal y mágica hasta 120 pies).
-3.  **Eldritch Smite** (Gasta slots de Warlock para infligir $+5d8$ de daño de fuerza y derribar propensos).
-4.  **Improved Pact Weapon** (Tu arma del pacto cuenta como foco de lanzamiento y gana un bonificador de $+1$ a hit/daño).
-5.  **Thirsting Blade** (Ataque Extra con tu arma del pacto).
-6.  **Lifedrinker** (Añade tu modificador de Carisma como daño necrótico adicional a cada impacto con tu arma del pacto, $+5$ de daño).
-7.  **Shroud of Shadow** (Conjuro *Invisibility* a voluntad sin gastar ranuras).
-8.  **Tomb of Levistus** (Reacción para ganar 100 HP temporales ante un ataque).
+1. **Agonizing Blast** (Suma tu CAR a cada rayo de *Eldritch Blast*).
+2. **Devil's Sight** (Visión perfecta en oscuridad normal y mágica hasta 120 pies).
+3. **Eldritch Smite** (Gasta slots de Warlock para infligir $+5d8$ de daño de fuerza y derribar propensos).
+4. **Improved Pact Weapon** (Tu arma del pacto cuenta como foco de lanzamiento y gana un bonificador de $+1$ a hit/daño).
+5. **Thirsting Blade** (Ataque Extra con tu arma del pacto).
+6. **Lifedrinker** (Añade tu modificador de Carisma como daño necrótico adicional a cada impacto con tu arma del pacto, $+5$ de daño).
+7. **Shroud of Shadow** (Conjuro *Invisibility* a voluntad sin gastar ranuras).
+8. **Tomb of Levistus** (Reacción para ganar 100 HP temporales ante un ataque).
 
 ---
 
 ## 💍 ALJABA DEL SUSURRO COLÉRICO (QUIVER OF WRATHFUL WHISPERERS)
+
 *Objeto maravilloso, raro (requiere sintonización por un Hexblade)*
 
 Esta aljaba de cuero oscuro está adornada con detalles de latón pulido y engranajes mecánicos. Los virotes introducidos en su interior parecen absorber las sombras circundantes y susurran advertencias imperceptibles cuando el portador se prepara para disparar.
 
 **Mecánicas (Diseñadas para la Edición 2024 / 5e):**
 
-*   **Munición Siniestra:** Los ataques de ballesta de mano realizados por el portador ignoran la cobertura media y tres cuartos (no requiriendo la dote Sharpshooter para esta ventaja específica).
-*   **Halcón Hambriento:** Cuando utilizas tu característica de clase *Action Surge*, ganas un ataque de ballesta de mano adicional en esa ronda (para un total de 6 ataques).
-*   **Precisión del Brujo:** Recuperas 1 dado de superioridad de Battle Master gastado cada vez que realizas un impacto crítico contra un objetivo afectado por tu *Hexblade's Curse*.
+* **Munición Siniestra:** Los ataques de ballesta de mano realizados por el portador ignoran la cobertura media y tres cuartos (no requiriendo la dote Sharpshooter para esta ventaja específica).
+* **Halcón Hambriento:** Cuando utilizas tu característica de clase *Action Surge*, ganas un ataque de ballesta de mano adicional en esa ronda (para un total de 6 ataques).
+* **Precisión del Brujo:** Recuperas 1 dado de superioridad de Battle Master gastado cada vez que realizas un impacto crítico contra un objetivo afectado por tu *Hexblade's Curse*.

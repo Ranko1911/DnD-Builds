@@ -9,16 +9,20 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **Light of 
 Los dos videos de Darth Bober plantean dos opciones de división final de niveles. Ambas son viables, pero priorizan diferentes aspectos del juego:
 
 ### Ruta A: 🛡️ Sorcerer 18 / Warlock 2 (La opción v2.0 - Máxima Supervivencia)
+
 Esta ruta busca exprimir el máximo nivel de Sorcerer para desbloquear el rasgo final de la subclase Alma Divina.
-*   **Hito Clave:** **Unearthly Recovery** (Sorcerer 18). Como acción adicional, si tu vida está por debajo del 50%, recuperas la mitad de tus HP máximos de forma instantánea una vez por día.
-*   **Metamagia Máxima:** Más puntos de sorcería naturales ($18$) y más espacios de alto nivel para curación.
-*   **Enfoque de Combate:** Excelente para campañas que llegan a nivel 20 y combates de alta letalidad en primera/media línea.
+
+* **Hito Clave:** **Unearthly Recovery** (Sorcerer 18). Como acción adicional, si tu vida está por debajo del 50%, recuperas la mitad de tus HP máximos de forma instantánea una vez por día.
+* **Metamagia Máxima:** Más puntos de sorcería naturales ($18$) y más espacios de alto nivel para curación.
+* **Enfoque de Combate:** Excelente para campañas que llegan a nivel 20 y combates de alta letalidad en primera/media línea.
 
 ### Ruta B: 🔮 Sorcerer 17 / Warlock 3 (La opción v1.0 - Máxima Utilidad)
+
 Esta ruta sacrifica la recuperación de HP de nivel 18 de Sorcerer a cambio de una tremenda utilidad en rituales y una economía de recursos optimizada.
-*   **Hito Clave:** **Pact of the Tome** + **Book of Ancient Secrets** (Warlock 3). Otorga acceso a rituales de nivel 1 y 2 de cualquier clase (como *Find Familiar*, *Detect Magic*, *Identify* y *Leomund's Tiny Hut*).
-*   **Mejores Slots de Corto Receso:** Las 2 ranuras de Warlock suben a nivel 2 (2 puntos de sorcería cada una al convertirlas, sumando 4 puntos por descanso corto).
-*   **Enfoque de Combate:** Excelente para campañas largas de nivel medio, donde el soporte fuera de combate y la versatilidad de rituales son esenciales para el grupo.
+
+* **Hito Clave:** **Pact of the Tome** + **Book of Ancient Secrets** (Warlock 3). Otorga acceso a rituales de nivel 1 y 2 de cualquier clase (como *Find Familiar*, *Detect Magic*, *Identify* y *Leomund's Tiny Hut*).
+* **Mejores Slots de Corto Receso:** Las 2 ranuras de Warlock suben a nivel 2 (2 puntos de sorcería cada una al convertirlas, sumando 4 puntos por descanso corto).
+* **Enfoque de Combate:** Excelente para campañas largas de nivel medio, donde el soporte fuera de combate y la versatilidad de rituales son esenciales para el grupo.
 
 ---
 
@@ -53,15 +57,15 @@ Esta ruta sacrifica la recuperación de HP de nivel 18 de Sorcerer a cambio de u
 
 ## 🎯 Feats y Decisiones Clave del Build
 
-1.  **War Caster (Nivel 6 / Sorcerer 4):**
-    *   *Por qué es vital:* Estarás en la media línea vistiendo armadura pesada/media y escudo. Necesitas asegurar que tu concentración en *Hex*, *Haste* o *Holy Aura* no se rompa al recibir daño. También te permite lanzar conjuros como ataques de oportunidad (ej. *Eldritch Blast* en la cara de un enemigo que huye, o un *Hold Person* reactivo).
-2.  **Inspiring Leader (Nivel 14 / Sorcerer 12):**
-    *   *Por qué es vital:* Otorga puntos de vida temporales equivalentes a tu `Nivel + Modificador de CAR` a ti y hasta 6 aliados después de un descanso corto/largo. A nivel 20, esto es $20 + 5 = 25$ HP temporales por persona. En un grupo de 5 personas, mitiga $125$ de daño neto antes de que empiece el combate, ahorrando valiosos slots de curación.
-3.  **Metamagia: Twinned Spell vs. Quickened Spell:**
-    *   *Quickened Spell (2 Puntos):* Convierte tu *Eldritch Blast* en acción adicional para crear la ráfaga de 8 rayos.
-    *   *Twinned Spell (Costo = Nivel del Conjuro):* Duplica conjuros de un solo objetivo. Espectacular con *Heal* de nivel 6 (cura a 2 personas por 70 HP cada una por 6 puntos) y *Death Ward* (2 personas protegidas contra la muerte por 4 puntos).
+1. **War Caster (Nivel 6 / Sorcerer 4):**
+    * *Por qué es vital:* Estarás en la media línea vistiendo armadura pesada/media y escudo. Necesitas asegurar que tu concentración en *Hex*, *Haste* o *Holy Aura* no se rompa al recibir daño. También te permite lanzar conjuros como ataques de oportunidad (ej. *Eldritch Blast* en la cara de un enemigo que huye, o un *Hold Person* reactivo).
+2. **Inspiring Leader (Nivel 14 / Sorcerer 12):**
+    * *Por qué es vital:* Otorga puntos de vida temporales equivalentes a tu `Nivel + Modificador de CAR` a ti y hasta 6 aliados después de un descanso corto/largo. A nivel 20, esto es $20 + 5 = 25$ HP temporales por persona. En un grupo de 5 personas, mitiga $125$ de daño neto antes de que empiece el combate, ahorrando valiosos slots de curación.
+3. **Metamagia: Twinned Spell vs. Quickened Spell:**
+    * *Quickened Spell (2 Puntos):* Convierte tu *Eldritch Blast* en acción adicional para crear la ráfaga de 8 rayos.
+    * *Twinned Spell (Costo = Nivel del Conjuro):* Duplica conjuros de un solo objetivo. Espectacular con *Heal* de nivel 6 (cura a 2 personas por 70 HP cada una por 6 puntos) y *Death Ward* (2 personas protegidas contra la muerte por 4 puntos).
 
-4.  **Progresión del Atributo Carisma (CAR 20):**
-    *   *Inicio (Nivel 1):* CAR 17 (15 Point Buy + 2 Racial).
-    *   *Nivel 10 (Sorcerer 8):* ASI +2 CAR (alcanzando CAR 19).
-    *   *Nivel 14 (Sorcerer 12):* Se toma una media dote como **Fey Touched** (+1 CAR, alcanzando CAR 20) que además otorga *Misty Step* gratis una vez por día y otro conjuro de nivel 1 (como *Gift of Alacrity* o *Silvery Barbs*), ideal para cubrir la movilidad en la variante de Warlock 2.
+4. **Progresión del Atributo Carisma (CAR 20):**
+    * *Inicio (Nivel 1):* CAR 17 (15 Point Buy + 2 Racial).
+    * *Nivel 10 (Sorcerer 8):* ASI +2 CAR (alcanzando CAR 19).
+    * *Nivel 14 (Sorcerer 12):* Se toma una media dote como **Fey Touched** (+1 CAR, alcanzando CAR 20) que además otorga *Misty Step* gratis una vez por día y otro conjuro de nivel 1 (como *Gift of Alacrity* o *Silvery Barbs*), ideal para cubrir la movilidad en la variante de Warlock 2.
