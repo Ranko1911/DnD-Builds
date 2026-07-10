@@ -1,0 +1,92 @@
+[
+  {
+    "id": "barbarian-from-hell",
+    "name": "Barbarian from Hell",
+    "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Thorns Tank / Heavy Striker",
+    "folder": "barbarian from hell",
+    "youtube": null
+  },
+  {
+    "id": "clocklock",
+    "name": "Clocklock",
+    "classes": "Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2",
+    "system": "D&D 5e (2014)",
+    "role": "Backline Blaster / Probability Manipulator",
+    "folder": "Clocklock",
+    "youtube": null
+  },
+  {
+    "id": "cursed-pirate",
+    "name": "Cursed Pirate",
+    "classes": "Druid (Circle of the Stars) 20",
+    "system": "D&D 5e (2014)",
+    "role": "Controller / Blaster / Undead Tank",
+    "folder": "cursed pirate",
+    "youtube": null
+  },
+  {
+    "id": "hexbow",
+    "name": "Hexbow",
+    "classes": "Warlock (Hexblade) 17 / Fighter (Battle Master) 3",
+    "system": "D&D 5e (2014)",
+    "role": "Ranged Nova Striker / Battlefield Sniper",
+    "folder": "hexbow",
+    "youtube": null
+  },
+  {
+    "id": "light-of-tomorrow",
+    "name": "Light of Tomorrow",
+    "classes": "Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2-3",
+    "system": "D&D 5e (2014)",
+    "role": "Backline Blaster / Primary Healer / Support",
+    "folder": "light of tomorrow",
+    "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y"
+  },
+  {
+    "id": "palard",
+    "name": "Palard",
+    "classes": "Paladin 2 / Bard (College of Swords) 18",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Nova Striker / Spellcaster Hybrid",
+    "folder": "Palard",
+    "youtube": null
+  },
+  {
+    "id": "spirit-caller",
+    "name": "Spirit Caller",
+    "classes": "Wizard (Necromancer) 6",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Backline Aerial Summoner / Controller",
+    "folder": "spirit caller",
+    "youtube": null
+  },
+  {
+    "id": "techpriest",
+    "name": "Techpriest",
+    "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Dread Tank / Aggro Controller",
+    "folder": "techpriest",
+    "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8"
+  },
+  {
+    "id": "tempest-demiurge",
+    "name": "Tempest Demiurge",
+    "classes": "Cleric (Tempest) 3 / Wizard (Scribes) 3",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Frontline Gish (Tank / Tactical AoE)",
+    "folder": "tempest",
+    "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ"
+  },
+  {
+    "id": "wrathful-whisperer",
+    "name": "Wrathful Whisperer",
+    "classes": "Paladin 2 / Bard (College of Swords) 18",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Striker / Evasion Tank",
+    "folder": "Wrathful Whisperer",
+    "youtube": null
+  }
+]
