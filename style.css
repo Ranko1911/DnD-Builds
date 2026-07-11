@@ -175,6 +175,7 @@ body {
 .app-main {
     display: flex;
     flex-grow: 1;
+    min-height: 0;
     overflow: hidden;
 }
 
@@ -810,48 +811,49 @@ body {
 
     /* Master-Detail Navigation on Mobile */
     .app-main {
-        position: relative;
+        display: flex;
+        flex-direction: row;
         width: 100%;
         height: auto;
         flex-grow: 1;
+        min-height: 0;
         overflow: hidden;
+        position: relative;
     }
     
     .builds-sidebar {
         width: 100% !important;
         height: 100%;
         border-right: none;
-        position: absolute;
-        top: 0;
-        left: 0;
+        flex-shrink: 0;
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        z-index: 1;
-        opacity: 1;
         transform: translateX(0);
+        opacity: 1;
+        position: relative;
+        z-index: 1;
     }
     
     .build-detail-pane {
         width: 100% !important;
         height: 100%;
-        position: absolute;
-        top: 0;
-        left: 0;
+        flex-shrink: 0;
         transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), visibility 0.3s cubic-bezier(0.4, 0, 0.2, 1);
-        z-index: 2;
-        transform: translateX(100%);
+        transform: translateX(0);
         display: flex !important;
         visibility: hidden;
+        position: relative;
+        z-index: 1;
     }
     
     /* When a build is selected, toggle visibility */
     .has-build-selected .builds-sidebar {
-        transform: translateX(-20%);
+        transform: translateX(-100%);
         opacity: 0;
         pointer-events: none;
     }
     
     .has-build-selected .build-detail-pane {
-        transform: translateX(0);
+        transform: translateX(-100%);
         visibility: visible;
     }
 
