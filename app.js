@@ -22,11 +22,11 @@ document.addEventListener('DOMContentLoaded', () => {
     };
 
     const ROLE_KEYWORDS = {
-        'tank': ['tank', 'frontline', 'defensor'],
+        'tank': ['tank', 'frontline', 'defensor', 'aggro'],
         'blaster': ['blaster', 'aoe', 'AoE'],
         'controller': ['controller', 'controlador'],
         'striker': ['striker', 'dps', 'melee'],
-        'healer': ['healer', 'support', 'sanador', 'soporte', 'aggro']
+        'healer': ['healer', 'support', 'sanador', 'soporte']
     };
 
     // Elements
@@ -140,6 +140,7 @@ document.addEventListener('DOMContentLoaded', () => {
         filtered.forEach(build => {
             const card = document.createElement('div');
             card.className = `build-card ${selectedBuild && selectedBuild.id === build.id ? 'active' : ''}`;
+            card.setAttribute('data-id', build.id);
             
             const is2024 = build.system.includes('2024');
             const systemClass = is2024 ? 'system-2024' : 'system-2014';
@@ -202,16 +203,12 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // Sync sidebar cards state
                 document.querySelectorAll('.build-card').forEach(card => {
-                    card.classList.remove('active');
+                    if (card.getAttribute('data-id') === build.id) {
+                        card.classList.add('active');
+                    } else {
+                        card.classList.remove('active');
+                    }
                 });
-                
-                // Force active class in DOM
-                const activeCard = Array.from(buildsList.children).find(
-                    c => c.querySelector('h3').textContent === build.name
-                );
-                if (activeCard) {
-                    activeCard.classList.add('active');
-                }
 
                 // Show details view
                 welcomeView.classList.add('hidden');
@@ -271,7 +268,40 @@ document.addEventListener('DOMContentLoaded', () => {
                 return response.text();
             })
             .then(markdown => {
-                const htmlContent = marked.parse(markdown);
+                // 1. Auto-link plain text relative path references (like ./roadmap.md)
+                let processedMarkdown = markdown.replace(/(?:^|\s)(\.\/[a-zA-Z0-9\s_-]+\.md)/g, (match, path) => {
+                    const cleanPath = path.trim();
+                    const fileName = cleanPath.replace('./', '');
+                    const label = FILE_LABELS[fileName] || fileName;
+                    return ` [${label}](${cleanPath})`;
+                });
+
+                // 2. Extract math blocks to protect them from marked.js parsing
+                const mathBlocks = [];
+                
+                // Protect display math $$...$$
+                processedMarkdown = processedMarkdown.replace(/\$\$([\s\S]+?)\$\$/g, (match, math) => {
+                    const id = `__MATH_DISPLAY_${mathBlocks.length}__`;
+                    mathBlocks.push({ id, math, display: true });
+                    return id;
+                });
+
+                // Protect inline math $...$ (ignore escaped \$ and empty $$)
+                processedMarkdown = processedMarkdown.replace(/\$([^$\n]+?)\$/g, (match, math) => {
+                    const id = `__MATH_INLINE_${mathBlocks.length}__`;
+                    mathBlocks.push({ id, math, display: false });
+                    return id;
+                });
+
+                // 3. Parse with marked
+                let htmlContent = marked.parse(processedMarkdown);
+
+                // 4. Restore math blocks
+                mathBlocks.forEach(({ id, math, display }) => {
+                    const restored = display ? `$$${math}$$` : `$${math}$`;
+                    htmlContent = htmlContent.replace(id, restored);
+                });
+
                 markdownViewer.innerHTML = `<div class="markdown-viewer-content">${htmlContent}</div>`;
                 
                 // Scroll details to top on file load
@@ -367,10 +397,13 @@ document.addEventListener('DOMContentLoaded', () => {
         const href = anchor.getAttribute('href');
         if (!href) return;
         
+        // Decoded filename for matching
+        const decodedHref = decodeURIComponent(href);
+        
         // Match relative links like ./roadmap.md or roadmap.md
-        if (href.endsWith('.md') && (href.startsWith('./') || !href.includes('/'))) {
+        if (decodedHref.endsWith('.md') && (decodedHref.startsWith('./') || !decodedHref.includes('/'))) {
             e.preventDefault();
-            const filename = href.replace('./', '');
+            const filename = decodedHref.replace('./', '');
             
             if (ORDERED_FILES.includes(filename)) {
                 navigateTo(selectedBuild.id, filename);
