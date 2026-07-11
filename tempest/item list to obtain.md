@@ -1,8 +1,14 @@
-# Item List — Tempest (Tempest Cleric 3 / Scribes Wizard 3)
+# Item List — Tempest (Tempest Cleric 4 / Scribes Wizard 16)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 *Nota de Mesa:* El Collar del Moldeador de Tormentas (CMT) está fusionado con el Amulet of the Devout como un solo objeto con una única ranura de sintonización (homebrew de mesa).
+
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Devout+CMT +1, Sentinel Shield. (2 slots ocupados, 1 libre).
+*   **Tier 2 (Niveles 5-10):** Devout+CMT +2, Amulet of Health, Weapon of Warning (Warhammer). (3 slots ocupados).
+*   **Tier 3 (Niveles 11-16):** Devout+CMT +3, Staff of Power. El tercer slot se disputa entre Amulet of Health (vida/concentración) o Weapon of Warning (Iniciativa).
+*   **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Ioun Stone of Mastery. (Se liberan Amulet of Health y Weapon of Warning gracias a tu CON 17 base y la iniciativa/protección provistas por otros efectos).
 
 ---
 

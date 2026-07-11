@@ -37,37 +37,73 @@ Esta ruta sacrifica una dote a cambio de una sinergia de control espacial tremen
 
 ## 📈 Progresión Detallada: Ruta A (Clérigo 4 / Mago 16)
 
-*Esta es la ruta recomendada por el Archivero por su consistencia matemática en estadísticas y dotes.*
+*Esta es la ruta recomendada y elegida para la build final por su consistencia estadística, su quinto Feat (Epic Boon a nivel 20) y su resiliencia en combate.*
 
 | Nivel Total | Clase y Nivel | Nivel Caster | Hitos y Decisiones de Optimización |
 | :---: | :--- | :---: | :--- |
 | **6** | Clérigo 3 / Mago 3 | **6** | **Estado Actual.** Tienes *True Strike* (atacas con INT 15) y *Awakened Spellbook* (Escriba). Conjuros de Nivel 3. |
-| **7** | Clérigo 3 / Mago 4 | **7** | **Dote 1 (Mago 4):** **War Caster**. Tu **INT sube a 16**. Obtienes Ventaja en salvaciones de concentración. Espacios/Prep de Nivel 4. |
-| **8** | Clérigo 3 / Mago 5 | **8** | Acceso a conjuros de Mago de nivel 3 estándar en tu libro. |
-| **9** | Clérigo 3 / Mago 6 | **9** | **Rasgo Clave (Mago 6):** **Manifest Mind**. Puedes proyectar el libro espectral para lanzar tus conjuros transmutados desde allí. Espacios/Prep de Nivel 5. |
-| **10** | Clérigo 4 / Mago 6 | **10** | **Dote 2 (Clérigo 4):** **Resilient (Constitución)**. Tu **CON sube a 16**. Obtienes competencia en salvaciones de Constitución. |
+| **7** | Clérigo 3 / Mago 4 | **7** | **Dote 1 (Mago 4):** **War Caster** (Media Dote). Tu **INT sube a 16**. Obtienes Ventaja en salvaciones de concentración y lanzar hechizos como Reacción. |
+| **8** | Clérigo 3 / Mago 5 | **8** | Acceso a conjuros de Mago de nivel 3 estándar en tu libro (como *Lightning Bolt*). |
+| **9** | Clérigo 3 / Mago 6 | **9** | **Rasgo Clave (Mago 6):** **Manifest Mind**. Puedes proyectar el libro espectral para lanzar tus conjuros transmutados desde allí. |
+| **10** | Clérigo 4 / Mago 6 | **10** | **Dote 2 (Clérigo 4):** **Resilient (Constitución)** (Media Dote). Tu **CON sube a 16**. Obtienes competencia en salvaciones de Constitución. |
 | **11** | Clérigo 4 / Mago 7 | **11** | Espacios/Prep de Nivel 6 (ej: *Chain Lightning* o *Heal*). |
-| **12** | Clérigo 4 / Mago 8 | **12** | **Dote 3 (Mago 8):** **ASI (Mejora de Característica)**. Sube tu **INT de 16 a 18** (modificador $+4$). |
+| **12** | Clérigo 4 / Mago 8 | **12** | **Dote 3 (Mago 8):** **ASI**. Sube tu **INT de 16 a 18** (modificador $+4$). |
 | **13** | Clérigo 4 / Mago 9 | **13** | Espacios/Prep de Nivel 7. |
 | **14** | Clérigo 4 / Mago 10 | **14** | **Rasgo Escriba:** **Master Scrivener**. Puedes crear pergaminos de nivel 1 o 2 sobrecargados de poder. |
 | **15** | Clérigo 4 / Mago 11 | **15** | Espacios/Prep de Nivel 8. |
 | **16** | Clérigo 4 / Mago 12 | **16** | **Dote 4 (Mago 12):** **ASI**. Sube tu **INT de 18 a 20** (máximo modificador $+5$). Tus ataques con *True Strike* y la CD de tus conjuros alcanzan su pico máximo. |
 | **17** | Clérigo 4 / Mago 13 | **17** | **Pico del Multiverso:** Espacios/Prep de **Nivel 9**. Puedes preparar *Wish* (Mago) y *Mass Heal* o *Gate* (Clérigo). |
-| **18** | Clérigo 4 / Mago 14 | **18** | **Rasgo Legendario:** **One with the Book**. Inmunidad al daño reactiva sacrificando páginas de tu libro. |
+| **18** | Clérigo 4 / Mago 14 | **18** | **Rasgo Legendario:** **One with the Word** (Mago 14). Inmunidad al daño reactiva sacrificando páginas de tu libro de conjuros. |
 | **19** | Clérigo 4 / Mago 15 | **19** | Espacios de Nivel 9 adicionales. |
-| **20** | Clérigo 4 / Mago 16 | **20** | **Dote 5 (Mago 16):** **Tough** (si necesitas más vida) o **Elemental Adept (Relámpago)** (para ignorar resistencias a tu daño maximizado). |
+| **20** | Clérigo 4 / Mago 16 | **20** | **Dote 5 (Mago 16):** **Epic Boon of Dimensional Travel** (o *Spell Recall*). Tu **CON sube a 17** (o WIS a 15). Otorga teletransporte de 30 pies sin provocar ataques tras usar una acción de Magia o Ataque. |
 
 ---
 
-## 🎲 Análisis del Daño de Ráfaga en Área (Nivel 9+)
+## 📈 Progresión Detallada: Ruta B (Clérigo 6 / Mago 14)
 
-Cuando consigas espacios de Nivel 5 (Nivel de Caster 9), podrás realizar la versión optimizada de tu combo en área usando *Cone of Cold* transmutado o *Fireball* sobrecargada:
+*Ruta alternativa enfocada en el control absoluto del campo de batalla mediante empujones magnéticos elementales.*
 
-1. Declaras el lanzamiento de **Fireball** usando un slot de Nivel 5.
-2. **Transmutación (Scribes):** Cambias el daño de fuego a **Relámpago** (usando *Cone of Cold* o *Lightning Bolt* como referencia en tu libro).
-3. **Destructive Wrath:** Maximizas el daño.
-4. **Cálculo (LaTeX):**
-    * Un *Fireball* a 5.º nivel inflige $10d6$ de daño.
-    * Con Destructive Wrath:
-        $$\text{Daño Plano} = 10 \times 6 = 60 \text{ daño de Relámpago en área.}$$
-    * Si los objetivos superan la salvación de Destreza, sufren 30 de daño plano de relámpago. Si fallan, sufren 60 de daño plano. Esto limpia salas completas de enemigos en un solo turno.
+| Nivel Total | Clase y Nivel | Nivel Caster | Hitos y Decisiones de Optimización |
+| :---: | :--- | :---: | :--- |
+| **6** | Clérigo 3 / Mago 3 | **6** | **Estado Actual.** Tienes *True Strike* y *Awakened Spellbook*. Conjuros de Nivel 3. |
+| **7** | Clérigo 3 / Mago 4 | **7** | **Dote 1 (Mago 4):** **War Caster** (Media Dote). Tu **INT sube a 16**. |
+| **8** | Clérigo 3 / Mago 5 | **8** | Acceso a conjuros de Mago de nivel 3 estándar en tu libro (como *Lightning Bolt*). |
+| **9** | Clérigo 3 / Mago 6 | **9** | **Rasgo Clave (Mago 6):** **Manifest Mind**. |
+| **10** | Clérigo 4 / Mago 6 | **10** | **Dote 2 (Clérigo 4):** **Resilient (Constitución)** (Media Dote). Tu **CON sube a 16**. |
+| **11** | Clérigo 5 / Mago 6 | **11** | Conjuros de Dominio de 3.ᵉʳ nivel (*Call Lightning*, *Sleet Storm*) siempre preparados. |
+| **12** | Clérigo 6 / Mago 6 | **12** | **Rasgo Clave (Clérigo 6):** **Thunderbolt Strike**. Empujas 10 ft a criaturas Grandes o menores al dañarlas con relámpago. |
+| **13** | Clérigo 6 / Mago 7 | **13** | Espacios/Prep de Nivel 6. |
+| **14** | Clérigo 6 / Mago 8 | **14** | **Dote 3 (Mago 8):** **ASI**. Sube tu **INT de 16 a 18** (modificador $+4$). |
+| **15** | Clérigo 6 / Mago 9 | **15** | Espacios/Prep de Nivel 8. |
+| **16** | Clérigo 6 / Mago 10 | **16** | **Rasgo Escriba:** **Master Scrivener**. |
+| **17** | Clérigo 6 / Mago 11 | **17** | **Pico del Multiverso:** Espacios/Prep de **Nivel 9**. |
+| **18** | Clérigo 6 / Mago 12 | **18** | **Dote 4 (Mago 12):** **ASI**. Sube tu **INT de 18 a 20** (máximo modificador $+5$). |
+| **19** | Clérigo 6 / Mago 13 | **19** | Espacios de Nivel 9 adicionales. |
+| **20** | Clérigo 6 / Mago 14 | **20** | **Rasgo Escriba:** **One with the Word** (Mago 14). Inmunidad al daño reactiva. *Sin dote adicional / Epic Boon.* |
+
+---
+
+## 🎲 Análisis del Daño de Ráfaga en Área y Combos META (Nivel 17+)
+
+Bajo la progresión unificada, las combinaciones de hechizos de nivel alto y la manipulación de energía del Mago Escribano alcanzan cotas devastadoras:
+
+### 1. El Combo del "Cataclismo de Meteoros Relámpago" (Nivel 17)
+*   **Recurso Utilizado:** Espacio de 9.º Nivel.
+*   **Conjuro Base:** *Meteor Swarm* (Wizard, 9.º).
+*   **Mecanismo de Transmutación:** Tienes *Prismatic Wall* (Wizard, 9.º) en tu libro de conjuros. Transmutas el daño de *Meteor Swarm* (Fuego/Contundente) a **Relámpago** (presente en la capa amarilla de *Prismatic Wall*).
+*   **Destructive Wrath:** Activas Canalizar Divinidad para maximizar el daño de Relámpago.
+*   **Cálculo de Daño (LaTeX):**
+    *   *Meteor Swarm* inflige $40d6$ de daño total en área ($20d6$ fuego + $20d6$ contundente).
+    *   Al transmutar el daño completo a Relámpago y maximizarlo:
+        $$\text{Daño Plano} = 40 \times 6 = 240 \text{ daño de Relámpago.}$$
+    *   Los enemigos que superen la salvación de Destreza (CD 21 con INT 20) reciben **120 de daño de relámpago plano**. Los que fallen sufren **240 de daño de relámpago plano** en un radio de 40 pies (con cuatro esferas de impacto seleccionables).
+
+### 2. El Combo de la "Tormenta de Cono de Frío" (Nivel 9)
+*   **Recurso Utilizado:** Espacio de 5.º Nivel.
+*   **Conjuro Base:** *Cone of Cold* (Wizard, 5.º) o *Fireball* upcast a 5.º nivel.
+*   **Mecanismo de Transmutación:** Tienes *Summon Draconic Spirit* (Wizard, 5.º) en tu libro de conjuros. Dado que este conjuro contiene daño de **Relámpago** y **Trueno** en su descripción, puedes transmutar el daño de tu conjuro ofensivo de 5.º nivel a cualquiera de los dos.
+*   **Cálculo de Daño (LaTeX) con Destructive Wrath:**
+    *   *Cone of Cold* inflige $8d8$ de daño. Con Destructive Wrath maximizado a Relámpago/Trueno:
+        $$\text{Daño Plano} = 8 \times 8 = 64 \text{ daño de Relámpago/Trueno plano.}$$
+    *   *Fireball* a 5.º nivel inflige $10d6$ de daño. Maximizado a Relámpago/Trueno:
+        $$\text{Daño Plano} = 10 \times 6 = 60 \text{ daño de Relámpago/Trueno plano.}$$

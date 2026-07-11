@@ -5,9 +5,9 @@
 *Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
 
 * **Nombre del Bastión:** El Observatorio de la Tormenta Escrita
-* **Nivel de Bastión (Bastion Level):** 6
-* **Puntos de Bastion (Bastion Points - BP):** 100
-* **Puntuación de Mando (Bastion Defender Stats):** STR 12 (+1), DEX 12 (+1), CON 15 (+2), INT 15 (+2), WIS 14 (+2), CHA 10 (+0)
+* **Nivel de Bastión (Bastion Level):** 20 (Nivel Máximo)
+* **Puntos de Bastion (Bastion Points - BP):** 450 (Escalado de campaña a nivel 20)
+* **Puntuación de Mando (Bastion Defender Stats):** STR 12 (+1), DEX 12 (+1), CON 17 (+3), INT 20 (+5), WIS 14 (+2), CHA 10 (+0)
 
 ### Instalaciones Básicas (Basic Facilities)
 
@@ -19,7 +19,7 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+*Desbloqueadas por nivel. A Nivel 20 cuentas con 5 instalaciones especiales activas.*
 
 * **Observatorio (Observatory) (Nivel 5):**
   * *Estado:* Activa (Mantener)
@@ -28,40 +28,44 @@
 * **Scriptorium (Nivel 5):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Copiar Fórmulas del Libro de Escribano.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Acelera la transcripción de conjuros de mago que el Scriptorium del Scribes Wizard puede transmutar de tipo de daño (ej: cambiar fuego a trueno).
-* **Santuario (Sanctuary) (Nivel 5) [OBTENER - Nivel 9+]:**
-  * *Estado:* Inactiva / Planificada
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Acelera la transcripción de conjuros de mago y pergaminos elementales con descuento de tiempo y coste.
+* **Santuario (Sanctuary) (Nivel 5):**
+  * *Estado:* Activa (Mantener) [Adquirido a Nivel 9]
   * *Orden de Bastión Especial:* Comunión y Clamor de la Tormenta Celestial.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Potencia el uso de Canalizar Divinidad: Ira Destructiva y concede ventajas espirituales a los defensores contra el daño por trueno/rayo.
-* **Taller (Workshop) (Nivel 5) [OBTENER - Nivel 13+]:**
-  * *Estado:* Inactiva / Planificada
-  * *Orden de Bastión Especial:* Reparaciones y Forjado de Pararrayos.
+* **Taller (Workshop) (Nivel 5):**
+  * *Estado:* Activa (Mantener) [Adquirido a Nivel 13]
+  * *Orden de Bastión Especial:* Reparaciones y Forjado de Conductores.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite fabricar pararrayos y conductores elementales que canalizan energía a la torre, además de reparar el equipamiento pesado.
+* **Laboratorio Arcano (Arcane Laboratory) (Nivel 17):**
+  * *Estado:* Activa (Mantener) [Adquirido a Nivel 17]
+  * *Orden de Bastión Especial:* Destilación de Elixires y Creación de Objetos Mágicos.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Fabricación de pergaminos de alto nivel (ej: *Chain Lightning*) y pociones de resistencia o vuelo.
 
 ### Seguidores y Personal (Staff & Hirelings)
 
 * **Capataz / Administrador (Major Domo):** Garrick el Monzón (Un navegante y cartógrafo retirado que vigila los barómetros del bastión).
-* **Defensores / Guardias:** 8 Infantes de marina equipados con ballestas pesadas y arneses de lluvia.
-* **Artesanos / Especialistas:** Escribano cartógrafo y meteorólogo.
+* **Defensores / Guardias:** 16 Infantes de marina de élite equipados con ballestas pesadas y arneses de lluvia.
+* **Artesanos / Especialistas:** Escribano cartógrafo y meteorólogo, y un Alquimista asistente.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
+*Acciones prioritarias y bucles de juego optimizados fuera de la aventura a nivel 20.*
 
-### Prioridad 1: Copia de Conjuros Elementales y Transcripción de Pergaminos de Trueno/Rayo
+### Prioridad 1: Creación de Pergaminos Elementales Sobrecargados
+* **Mecánica Base:** PHB 2024 / Reglas de Scribes Wizard (Master Scrivener a Mago 10) + Scriptorium.
+* **Bonificadores Aplicables:** Inteligencia (Arcana) + herramientas de caligrafía. Con INT 20 y ventaja por *One with the Word*, tus pruebas de Arcana tienen un bonificador de $+11$ con ventaja.
+* **Objetivo de Optimización:** Crear pergaminos de nivel 1 o 2 sobrecargados de poder (que se lanzan a un nivel superior gratis) y pergaminos de *Chain Lightning* o *Forcecage* para liberar tus ranuras diarias de conjuro en combate.
 
-* **Mecánica Base:** PHB 2024 / Reglas de Scribes Wizard.
-* **Bonificadores Aplicables:** Inteligencia (Arcana) + herramientas de caligrafía.
-* **Coste por Día/Semana:** 15 po y 1 hora por nivel con descuento de Scribes Wizard.
-* **Objetivo de Optimización:** Permite duplicar de forma muy barata el libro de conjuros con tipos de daño adaptados y crear pergaminos de *Thunderwave* o *Shatter* de daño de trueno/relámpago maximizado.
+### Prioridad 2: Destilación de Elixires y Fabricación de Pociones
+* **Mecánica Base:** DMG 2024 / Laboratorio Arcano.
+* **Objetivo:** Fabricación de Pociones de Vuelo (para ganar velocidad de vuelo táctica como gish sin usar concentración) y Pociones de Curación Superior / Suprema.
 
-### Prioridad 2: Estudio Meteorológico y Climatología Planar
-
+### Prioridad 3: Estudio Meteorológico y Climatología Planar
 * **Mecánica Base:** DMG 2024.
-* **Bonificadores Aplicables:** Inteligencia (Naturaleza/Arcana) aplicada.
-* **Progreso Actual:** 3 / 5 semanas de observación de tormentas.
+* **Progreso Actual:** Completado. Tienes mapeados los ciclos de tormentas del plano material y elemental del aire, permitiéndote predecir eventos climáticos con precisión absoluta.
 
 ---
 

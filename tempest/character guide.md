@@ -4,60 +4,69 @@
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
-Character Level: 6 (Total)
+Character Level: 20 (Total)
 
-Class Split: Cleric (Tempest Domain) 3 / Wizard (Scribes) 3
+Class Split: Cleric (Tempest Domain) 4 / Wizard (Order of Scribes) 16
 
 Species: Dwarf (PHB24) + Level 1 Feat: Toughness (PHB24)
 
-Stats: STR 12, DEX 12, CON 15, INT 15, WIS 14, CHA 10
+Stats: STR 12, DEX 12, CON 17, INT 20, WIS 14, CHA 10
+
+*   **STR:** 12
+*   **DEX:** 12
+*   **CON:** 17 (15 base + 1 Resilient CON + 1 Epic Boon) [Proficiencia en salvaciones de CON para concentración]
+*   **INT:** 20 (15 base + 1 War Caster + 2 ASI a nivel 12 + 2 ASI a nivel 16) [Tu estadística primaria de ataque y CD de conjuros]
+*   **WIS:** 14
+*   **CHA:** 10
 
 Actual Item List: ./actual inventory list.md
 
 Bastión y Tiempo Muerto: ./bastion and downtime.md
 
-Combat Role: Frontline Gish (Tank / Tactical Controller / AoE Burst Damage / little healer)
+Combat Role: Frontline Gish (Tank / Tactical Controller / AoE Burst Damage / Support / Off-healer)
 
- 1. Resource Management & Inventory Rules
+## 1. Resource Management & Inventory Rules
 
-Universal Spellcasting Focus: Homebrew DM Rule applies. The Amulet of the Devout functions as the spellcasting focus for both Cleric and Wizard spells.
+*   **Universal Spellcasting Focus:** Se aplica la Regla de Casa 1. La joyería mágica fusionada (Amulet of the Devout + Stormshaper's Amulet) funciona como el foco de lanzamiento universal para conjuros de Clérigo y de Mago.
+*   **Free-Hand Economy:** Escudo equipado en la mano secundaria. La mano principal queda completamente libre para portar armas (Martillo de Guerra / Staff of the Magi) o manipular componentes Somáticos/Materiales. No se aplican penalizaciones por intercambio de armas.
+*   **Armor Proficiency:** Armadura Pesada (Plate Armor +2) + Escudo +2. CA pasiva base: **24 CA**. Con el conjuro *Shield* (reacción) tu CA alcanza **29 CA**.
 
-Free-Hand Economy: Shield equipped in off-hand. Main hand is completely free for weapons (Warhammer) or Somatic/Material components. No weapon-swapping penalties apply.
+## 2. Action Economy & Combat Loop
 
-Armor Proficiency: Heavy Armor + Shield (Base AC range: $18 \text{ to } 20$).
+*   **Action:**
+    *   **True Strike (Wizard Cantrip):** Ataque cuerpo a cuerpo usando tu **Inteligencia** para impactar/dañar. A nivel 17+, inflige el daño del arma + $3d6$ de daño radiante + $5$ (modificador de INT).
+    *   **Cast AoE Spell:** Lanzar conjuros de área masivos (como *Meteor Swarm* o *Chain Lightning*) transmutados a Relámpago y maximizados con Ira Destructiva.
+*   **Bonus Action:**
+    *   **Misty Step / Teleportation:** Movilidad instantánea de 30 pies.
+    *   **Reactive Healing:** *Healing Word* (2024) para levantar aliados caídos a distancia.
+*   **Reaction:**
+    *   **Shield:** $+5$ a la CA contra un ataque, manteniéndose hasta el inicio de tu próximo turno.
+    *   **Absorb Elements:** Resistencia a un tipo de daño elemental y daño extra en tu siguiente ataque.
+    *   **One with the Word (Scribes 14):** Si sufres daño con la mente de tu libro manifestada, puedes usar tu reacción para disipar la mente y **prevenir todo el daño de ese ataque/conjuro** (a cambio de sacrificar conjuros temporalmente).
+    *   **Wrath of the Storm / Stormshaper's Amulet:** Daño reactivo de relámpago/trueno o empujón de 10 pies sin salvación al atacante.
 
- 1. Action Economy & Combat Loop
+## 3. The META Combo: Cataclysmic Destructive Wrath
 
-Action: True Strike (Wizard Cantrip). Melee attack scales weapon damage + conditional Radiant damage.
-Action: Cast AoE Spell. Use Destructive Wrath to maximize damage.
+El personaje combina su nivel de caster total (20) y la flexibilidad del libro de Escriba para desatar cataclismos elementales maximizados:
 
-Bonus Action: Reactive Healing (Healing Word 2024) or Field Control (Gust of Wind).
+*   **El "Meteor Swarm Relámpago" (Caster Level 17+):**
+    *   **Mecanismo:** Lanzar *Meteor Swarm* (9.º) transmutado a Relámpago usando *Prismatic Wall* (9.º, que tiene relámpago en su descripción) del libro de conjuros.
+    *   **Rasgo de Clérigo:** Canalizar Divinidad: Ira Destructiva (maximiza el daño de trueno/relámpago).
+    *   **Cálculo (LaTeX):**
+        $$\text{Daño Plano} = 40 \text{ dados} \times 6 = 240 \text{ de daño de Relámpago en área.}$$
+        Los objetivos que superen la salvación de Destreza (CD 21) sufren 120 de daño plano. Los que fallen sufren 240 de daño plano. Esto elimina ejércitos enteros en un asalto.
+*   **El "Chromatic Bounce Garantizado" (Nivel Bajo/Medio):**
+    *   Lanzar *Chromatic Orb* a 2.º nivel transmutado/lanzado directamente. Al maximizar con Ira Destructiva, todos los dados muestran "8", garantizando el salto a un segundo objetivo bajo las reglas de 2024.
 
-Reaction: Shield (Wizard Spell) for $+5 \text{ AC}$ (bringing effective AC to $23 - 25$) OR Wrath of the Storm (Tempest Cleric feature) to deal Thunder/Lightning damage and push attackers.
+## 4. Wizard Spellbook Blueprint
 
-1. The META Combo: Destructive Wrath (2024 Mechanics)
+*   Los conjuros ofensivos y de control se eligen de la lista de Mago (para aprovechar tu INT 20 y CD 21).
+*   Los conjuros de apoyo, curación e inmunidades se eligen de la lista de Clérigo (para evitar la dependencia de tu WIS 14).
+*   **Rituales 2024:** Conjuros como *Find Familiar*, *Identify*, *Detect Magic*, *Comprehend Languages*, *Tiny Hut* y *Rary's Telepathic Bond* se lanzan como rituales directamente desde el libro sin requerir ranuras de preparación.
 
-El build utiliza espacios de conjuro globales de multiclase para lanzar conjuros de Mago transmutados con rasgos de Clérigo. Gracias a la característica *Awakened Spellbook* del Mago de la Escribanía, **no necesitas tener preparados los conjuros cuya energía elemental tomas prestada; basta con tenerlos en tu libro de conjuros**. Esto permite mantener *Chromatic Orb* sin preparar en tu libro y transmutar el daño de otros conjuros de Mago (como *Thunderwave*) a relámpago/trueno, liberando una ranura de preparación para **Guiding Bolt**.
+## 5. Home Rules (Mesa Tempest)
 
-* **Ranura de Conjuro Usada:** 2.º Nivel.
-* **Conjuro Lanzado:** *Thunderwave* (u otro conjuro de Mago transmutado a Relámpago usando *Chromatic Orb* del libro) o preparando *Chromatic Orb* de forma directa para el combo de rebote.
-* **Rasgo de Clérigo Aplicado:** Canalizar Divinidad: Ira Destructiva (maximiza el daño de trueno o relámpago).
-
-🧮 Mathematical Engine (2024 Rules):
-
-* **Daño Maximizado:** Lanzar un conjuro transmutado a relámpago a 2.º nivel inflige daño plano maximizado:
-    $$4 \times 8 = 32 \text{ de daño de Relámpago plano.}$$
-* **Garantía de Rebote (si se prepara Chromatic Orb):** Si decides preparar y lanzar *Chromatic Orb* a 2.º nivel, la regla de 2024 dicta que si dos o más dados muestran el mismo número, el orbe salta a un segundo objetivo. Al forzar todos los dados a "8" mediante Ira Destructiva, el salto es 100% garantizado en área.
-
- 1. Wizard Spellbook Blueprint
-
-Prepared spells are selected to bypass low Intelligence modifiers by focusing on utility, defense, and flat damage.
-
-2024 Ritual Rule: Find Familiar (Owl for Help Action/Advantage), Identify, Detect Magic, Comprehend Languages, and Deryan's Helpful Homunculus are kept in the spellbook. They are cast as Rituals directly from the book without requiring preparation slots (essential under 2024 rules, as Clerics must prepare rituals to cast them, whereas Wizards do not).
-
-1. home rules
-Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo estas cuatro verdades inmutables aprobadas por el DM de esta mesa:
-1. **Foco Universal Único:** La joyería mágica del personaje canaliza tanto magia de Mago como de Clérigo. Esto elimina las restricciones de manos libres (**Componentes Somáticos**), permitiéndole empuñar Martillo y Escudo en todo momento sin penalizaciones arcanas.
-1. **Fusión de Sintonización:** El "Collar del Moldeador de Tormentas" (Homebrew Raro) y el "Amulet of the Devout" se funden físicamente en un solo objeto. Consumen **1 sola ranura de sintonización (Attunement Slot)** en lugar de dos.
-1. **Progresión Full Caster Integrada:** El personaje prepara conjuros utilizando su nivel de lanzador total unificado (Nivel 6 actual). Esto le permite acceder y preparar conjuros de **Nivel 3** de ambas listas (*Fireball* y *Spirit Guardians*) de forma simultánea, rompiendo la limitación estándar de la multiclase oficial.
-1. **Tabla Digital de Canalizar Divinidad:** La mesa utiliza una variante de progresión (proveniente de la interfaz digital del jugador) donde el Clérigo obtiene de forma fija **2 usos de Canalizar Divinidad por descanso corto o largo** desde el **Nivel 2** de la clase, en lugar de esperar al Nivel 6 oficial.
+1.  **Foco Universal Único:** El collar mágico del personaje canaliza tanto magia de Mago como de Clérigo, permitiendo empuñar arma y escudo sin penalización.
+2.  **Fusión de Sintonización:** El Stormshaper's Amulet y el Amulet of the Devout están fusionados en un solo objeto físico (1 sola ranura de sintonización).
+3.  **Progresión Full Caster Integrada:** El personaje prepara conjuros usando su nivel de lanzador total (20). Esto le permite preparar conjuros de nivel 9 de ambas listas simultáneamente.
+4.  **Tabla Digital de Canalizar Divinidad:** 2 usos de Canalizar Divinidad por descanso corto o largo desde el Nivel 2 de Clérigo.
