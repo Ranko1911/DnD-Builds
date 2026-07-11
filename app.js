@@ -292,14 +292,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Protect display math $$...$$
                 processedMarkdown = processedMarkdown.replace(/\$\$([\s\S]+?)\$\$/g, (match, math) => {
-                    const id = `__MATH_DISPLAY_${mathBlocks.length}__`;
+                    const id = `MATHDISPLAYPLACEHOLDER${mathBlocks.length}`;
                     mathBlocks.push({ id, math, display: true });
                     return id;
                 });
 
                 // Protect inline math $...$ (ignore escaped \$ and empty $$)
                 processedMarkdown = processedMarkdown.replace(/\$([^$\n]+?)\$/g, (match, math) => {
-                    const id = `__MATH_INLINE_${mathBlocks.length}__`;
+                    const id = `MATHINLINEPLACEHOLDER${mathBlocks.length}`;
                     mathBlocks.push({ id, math, display: false });
                     return id;
                 });
