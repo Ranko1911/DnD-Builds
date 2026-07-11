@@ -52,25 +52,56 @@ Combat Role: Frontline Dread Tank / Master Craftsman / Aggro Controller (Defenso
 
 El build apila todas las bonificaciones pasivas de AC del juego utilizando las infusiones del Artífice y las bendiciones del Clérigo de la Forja, creando un tanque inalcanzable que debilita a los enemigos que deciden ignorarlo.
 
-* **Paladines de la AC (Pasiva CD 28):**
+* **Paladines de la AC (Pasiva CD 28 - Nivel Base sin Items Legendarios):**
   * Armadura de Placas Pesada (Base $18$) + Escudo común ($+2$) = $20 \text{ AC}$.
   * *Warforged Integrated Protection:* $+1 \text{ AC}$ (Nativo).
-  * *Blessing of the Forge* (Forge Cleric 1): $+1 \text{ AC}$ a tu armadura.
+  * *Blessing of the Forge* (Forge Cleric 1): $+1 \text{ AC}$ a tu armadura (requiere que sea no mágica).
   * *Soul of the Forge* (Forge Cleric 6): $+1 \text{ AC}$ al vestir armadura pesada.
-  * *Enhanced Defense* (Infusión de Artífice de nivel 10+): $+2 \text{ AC}$ en el pecho de tu armadura.
-  * *Repulsion Shield* (Infusión de Artífice): $+1 \text{ AC}$ en tu escudo.
+  * *Enhanced Defense* (Infusión de Artífice de nivel 10+): $+2 \text{ AC}$ en el pecho (requiere que sea no mágica).
+  * *Repulsion Shield* (Infusión de Artífice): $+1 \text{ AC}$ en tu escudo (requiere que sea no mágico).
   * *Ring of Protection* (Infusión o Item): $+1 \text{ AC}$ y $+1$ a todas las salvaciones.
   * *Cloak of Protection* (Infusión o Item): $+1 \text{ AC}$ y $+1$ a todas las salvaciones.
-* **La Ráfaga Defensiva (Activa CD 33):**
-  * Cuando un enemigo logre superar tu AC pasiva de 28, usas tu Reacción para lanzar el conjuro *Shield*:
 
-🧮 Mathematical Engine (2014 Rules):
+🧮 Mathematical Engine (2014 Rules - Nivel Base):
 
 $$\text{AC Pasiva} = 18 \text{ (Placas)} + 2 \text{ (Escudo)} + 1 \text{ (Warforged)} + 1 \text{ (Blessing)} + 1 \text{ (Soul)} + 2 \text{ (Infusión)} + 1 \text{ (Escudo Mágico)} + 1 \text{ (Anillo)} + 1 \text{ (Capa)} = 28 \text{ AC.}$$
 
 $$\text{AC con Escudo (Conjuro)} = 28 \text{ (Base)} + 5 \text{ (Shield)} = 33 \text{ AC.}$$
 
-Debido a que tus ataques con *Thunder Gauntlets* imponen desventaja a los enemigos que atacan a otros, los enemigos se ven obligados a atacarte a ti (con AC 28/33 y amortiguación de 14 HP temporales por turno) o fallar miserablemente sus ataques contra tus aliados.
+---
+
+### ⚠️ El Dilema de Fin de Juego: Placas +3 y Escudo +3 (Dependencia del Master)
+
+Cuando el personaje obtiene equipamiento legendario como **Placas +3** y **Escudo +3**, el cálculo de CA cambia críticamente según la interpretación del Dungeon Master de las reglas oficiales:
+
+#### Escenario A: Reglas Oficiales (RAW)
+Las reglas oficiales prohíben infundir objetos mágicos (*"you cannot infuse magic items"*) y aplicar la bendición del clérigo en ellos (*"touch one nonmagic object"*). Al usar Placas +3 y Escudo +3 mágicos, pierdes *Enhanced Defense*, *Repulsion Shield* y *Blessing of the Forge*.
+
+$$\text{AC Pasiva (RAW)} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Soul)} + 2 \text{ (Ring + Cloak of Protection)} = 30 \text{ AC}$$
+$$\text{AC con Escudo (Conjuro)} = 30 + 5 = 35 \text{ AC}$$
+*(Incremento neto de solo +2 CA respecto al equipamiento básico infundido, perdiendo además los efectos especiales de las infusiones sobre armadura/escudo).*
+
+#### Escenario B: Reglas de Mesa Permisivas (Homebrew)
+Si el Master permite infundir y bendecir objetos mágicos preexistentes, puedes alcanzar la máxima efectividad posible. Aquí se abren dos configuraciones óptimas de nivel 20 (limitadas por tus **5 slots de sintonización**):
+
+##### 1. Variante "El Bastión Imperturbable" (Foco en CA Máxima)
+* **Sintonización (5/5):** Ring of Protection, Cloak of Protection, Repulsion Shield (infundido), Núcleo del Dios Máquina (Homebrew), Amulet of the Devout +3.
+* **Infusiones (5/5):** Enhanced Defense +2 (en Placas +3), Repulsion Shield +1 (en Escudo +3), Enhanced Weapon +2 (en Puños), Ring of Protection, Cloak of Protection.
+$$\text{AC Pasiva} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Blessing)} + 1 \text{ (Soul)} + 2 \text{ (Enhanced Def.)} + 1 \text{ (Rep. Shield)} + 2 \text{ (Ring + Cloak)} = 34 \text{ AC}$$
+$$\text{AC con Escudo (Conjuro)} = 34 + 5 = 39 \text{ CA}$$
+
+##### 2. Variante "El Heraldo de la Forja" (Foco Equilibrado - Altamente Recomendada)
+*Sacrifica solo 1 punto de CA para obtener una CD de conjuros de Artífice legendaria de 22 e inmunidad práctica a perder concentración.*
+* **Sintonización (5/5):** All-Purpose Tool +3, Amulet of the Devout +3, Ring of Protection, Cloak of Protection, Núcleo del Dios Máquina (Homebrew).
+* **Infusiones (5/5):** Enhanced Defense +2 (en Placas +3), Mind Sharpener (en tus botas/casco, no requiere sintonización, da 4 auto-éxitos en concentración), Enhanced Weapon +2 (en Puños), Ring of Protection, Cloak of Protection.
+$$\text{AC Pasiva} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Blessing)} + 1 \text{ (Soul)} + 2 \text{ (Enhanced Def.)} + 2 \text{ (Ring + Cloak)} = 33 \text{ AC}$$
+$$\text{AC con Escudo (Conjuro)} = 33 + 5 = 38 \text{ CA}$$
+* **CD de Conjuros:** Clérigo (Spirit Guardians) CD 19 / Artífice CD 22 (gracias al All-Purpose Tool +3).
+* **Salvación de Concentración:** $+16$ ($+21$ con Flash of Genius) junto con los 4 auto-éxitos diarios de Mind Sharpener.
+
+---
+
+ Debido a que tus ataques con *Thunder Gauntlets* imponen desventaja a los enemigos que atacan a otros, los enemigos se ven obligados a atacarte a ti (con AC de hasta 33/38 pasiva/activa y amortiguación de 14 HP temporales por turno) o fallar miserablemente sus ataques contra tus aliados.
 
  1. Artificer Modifications & Infusions Blueprint
 

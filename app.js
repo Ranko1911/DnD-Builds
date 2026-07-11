@@ -284,7 +284,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     const cleanPath = path.trim();
                     const fileName = cleanPath.replace('./', '');
                     const label = FILE_LABELS[fileName] || fileName;
-                    return ` [${label}](${cleanPath})`;
+                    return ` [${label}](${encodeURI(cleanPath)})`;
                 });
 
                 // 2. Extract math blocks to protect them from marked.js parsing
