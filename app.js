@@ -60,6 +60,11 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnPrevFile = document.getElementById('btn-prev-file');
     const btnNextFile = document.getElementById('btn-next-file');
 
+    // Mobile specific controls
+    const btnBackCatalog = document.getElementById('btn-back-catalog');
+    const btnToggleFilters = document.getElementById('btn-toggle-filters');
+    const filterGroup = document.getElementById('filter-group');
+
     // Configure Marked Options
     marked.setOptions({
         gfm: true,
@@ -185,6 +190,7 @@ document.addEventListener('DOMContentLoaded', () => {
             selectedFile = 'character guide.md';
             welcomeView.classList.remove('hidden');
             buildContentView.classList.add('hidden');
+            document.body.classList.remove('has-build-selected');
             
             // Un-highlight all cards
             document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
@@ -200,6 +206,11 @@ document.addEventListener('DOMContentLoaded', () => {
             if (build) {
                 selectedBuild = build;
                 selectedFile = file;
+                document.body.classList.add('has-build-selected');
+
+                // Close filters in mobile view
+                if (filterGroup) filterGroup.classList.remove('active');
+                if (btnToggleFilters) btnToggleFilters.classList.remove('active');
 
                 // Sync sidebar cards state
                 document.querySelectorAll('.build-card').forEach(card => {
@@ -337,6 +348,8 @@ document.addEventListener('DOMContentLoaded', () => {
         tabButtons.forEach(btn => {
             if (btn.getAttribute('data-file') === selectedFile) {
                 btn.classList.add('active');
+                // Scroll the active tab into view on mobile
+                btn.scrollIntoView({ behavior: 'smooth', block: 'nearest', inline: 'center' });
             } else {
                 btn.classList.remove('active');
             }
@@ -415,6 +428,24 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderBuildsList);
     filterSystem.addEventListener('change', renderBuildsList);
     filterRole.addEventListener('change', renderBuildsList);
+
+    // Mobile Back Button handler
+    if (btnBackCatalog) {
+        btnBackCatalog.addEventListener('click', () => {
+            navigateTo(null);
+            // Hide filters on back
+            if (filterGroup) filterGroup.classList.remove('active');
+            if (btnToggleFilters) btnToggleFilters.classList.remove('active');
+        });
+    }
+
+    // Mobile Filters toggle handler
+    if (btnToggleFilters && filterGroup) {
+        btnToggleFilters.addEventListener('click', () => {
+            filterGroup.classList.toggle('active');
+            btnToggleFilters.classList.toggle('active');
+        });
+    }
 
     // Watch hashchange
     window.addEventListener('hashchange', handleHashChange);
