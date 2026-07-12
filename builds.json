@@ -65,7 +65,7 @@
   {
     "id": "tempest-demiurge",
     "name": "Tempest Demiurge",
-    "classes": "Cleric (Tempest) 3 / Wizard (Scribes) 3",
+    "classes": "Cleric (Tempest) 4 / Wizard (Scribes) 16",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Gish Tank  Tactical AoE blaster",
     "folder": "tempest",

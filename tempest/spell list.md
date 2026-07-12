@@ -86,7 +86,8 @@ Esta sección detalla los conjuros que mantienes preparados activamente para usa
 1. **Shield (Mago) 🔵 [Roto - Defensa]:** $+5$ a la CA como reacción.
 2. **Absorb Elements (Mago) 🔵 [Roto - Defensa]:** Resistencia reactiva contra daño elemental.
 3. **Healing Word (Clérigo) 🔵 [Indispensable]:** Acción Adicional para levantar aliados a 0 HP.
-4. **Bless (Clérigo) 🟢 [Excelente]:** $+1d4$ a ataques y salvaciones para 3 aliados.
+4. **Guiding Bolt (Clérigo) 🟢 [Excelente - Daño/Soporte]:** Inflige $4d6$ de daño radiante a distancia y otorga Ventaja al siguiente ataque contra el objetivo. 
+*(Nota: Puedes intercambiar este espacio con **Bless** si el grupo necesita soporte ofensivo y defensivo en tiradas).*
 
 ---
 
