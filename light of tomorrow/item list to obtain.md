@@ -2,6 +2,12 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +1 (1 slot), Corona de la Doncella Divina (Homebrew) (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2 (1, reemplaza +1), Corona de la Doncella Divina (1), Cloak of Protection o Ring of Spell Storing (1). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Corona de la Doncella Divina (1), Illusionist's Bracers (1), Bloodwell Vial +3 (1, reemplaza +2). (Capa/Anillo de Protección se llevan sin sintonizar). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Corona de la Doncella Divina (1), Illusionist's Bracers (1), Staff of the Magi (1, reemplaza Bloodwell Vial +3). (Tome of Leadership y armaduras no requieren sintonización). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
@@ -36,7 +42,7 @@
 | **Illusionist's Bracers** (GGR) | Sí | ⚔️ **Sí** | **Priorizar 1:** El santo grial de cualquier Sorlock. Cuando lanzas un truco como acción (*Eldritch Blast*, 4 rayos), puedes volver a lanzarlo como **Acción Adicional** sin consumir puntos de sorcería. Ahorra 2 puntos por turno respecto a Quickened Spell. Con Hex + Hexblade's Curse + Agonizing Blast + Radiant Soul, tus 8 rayos por turno generan un DPR de ~180 sin gastar un solo punto de sorcería. |
 | **Bloodwell Vial +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+3$ definitivo a la CD de Sorcerer. Tus Twinned Banishments, Synaptic Statics y curaciones de Divine Soul son prácticamente irresistibles (CD 21+ con este objeto). |
 | **Armor +2 (Half-Plate) y Shield +2** | No | — | **Priorizar 3:** CA pasiva sube a 23 (28 con *Shield*). No requiere sintonización. |
-| **Cloak of Displacement** | Sí | No | Prioridad Alta: Los enemigos tienen desventaja al atacarte mientras no sufras daño en la ronda. Reduce drásticamente la probabilidad de romper concentración en Hex/Haste. Superior a Cloak of Protection si no recibes daño frecuente. |
+| **Cloak of Displacement** | Sí | No | Prioridad Alta: Los enemigos tienen desventaja al atacarte mientras no sufras daño en la ronda. Con la Corona o la capa, reduce la probabilidad de romper concentración. |
 
 ---
 
@@ -45,7 +51,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Tome of Leadership and Influence** | No | — | **Priorizar 1:** Otorga $+2$ a tu puntuación de Carisma de forma permanente, permitiéndote superar el límite de 20 hasta un **22** (+6 modificador). Aumenta tu daño, curaciones y precisión. |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 2:** arsenal ofensivo masivo y absorción mágica defensiva. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 2:** Arsenal ofensivo masivo y absorción mágica defensiva. Reemplaza al Bloodwell Vial +3 en la sintonización activa. |
 | **Armor +3 (Half-Plate) y Shield +3** | No | — | **Prioridad Alta (3):** Eleva tu AC base pasiva a un absurdo **25 CA** ($15 \text{ (Half-Plate)} + 3 + 2 \text{ (DEX)} + 2 \text{ (Shield)} + 3 = 25$). Con el conjuro *Shield* alcanzas **30 CA**. |
 | **Robe of the Archmage** | Sí | No | Prioridad Media: Si bien es excelente para magos puros, como gish acorazado con escudo, la combinación de armadura +3 suele ser preferible a menos que se prefiera la ventaja contra conjuros. |
 

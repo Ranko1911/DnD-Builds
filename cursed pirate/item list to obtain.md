@@ -4,6 +4,12 @@
 
 *Nota de Build:* Este personaje es un Druida 20 con acceso homebrew a la lista de conjuros de Mago. Prioriza objetos que aumenten CD de conjuros (WIS), protección de concentración, y CA sin armadura pesada (restricción de Druida). Como Archidruida (nivel 20), puede lanzar conjuros ignorando componentes materiales sin coste.
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Moon Sickle +1 (1 slot), Cloak of Elvenkind (1 slot), Brújula Maldita del Mar Sin Sol (Homebrew) (1 slot). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Moon Sickle +2 (1, reemplaza +1), Brújula Maldita del Mar Sin Sol (1), Cloak of Protection o Ring of Protection (1). (Cloak of Elvenkind se lleva sin sintonizar). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Brújula Maldita del Mar Sin Sol (1), Staff of Power (1), Moon Sickle +3 (1, reemplaza +2). (Capa y Anillo de Protección se llevan sin sintonizar). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Brújula Maldita del Mar Sin Sol (1), Orb of Dragonkind (1), Robe of the Archmagi (1). (Staff of Power y Moon Sickle +3 se llevan sin sintonizar. Tome of Understanding no requiere sintonización). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes

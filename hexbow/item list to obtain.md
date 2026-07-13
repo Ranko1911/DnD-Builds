@@ -4,6 +4,12 @@
 
 *Nota de Reglas de Manos Libres:* No se incluyen escudos en esta lista, ya que disparar una ballesta de mano con la propiedad *munición* requiere una mano libre para recargar en cada disparo (incluso con la dote *Crossbow Expert*).
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Rod of the Pact Keeper +1 (1 slot), Aljaba del Susurro Colérico (Homebrew) (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Rod of the Pact Keeper +2 (1, reemplaza +1), Aljaba del Susurro Colérico (1), Cloak of Protection (1). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Rod of the Pact Keeper +3 (1, reemplaza +2), Aljaba del Susurro Colérico (1), Ring of Protection (1). (Cloak of Protection se lleva sin sintonizar). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Aljaba del Susurro Colérico (1), Rod of the Pact Keeper +3 (1), Ring of Spell Turning (1, reemplaza Ring of Protection) o Ring of Protection (1). (Tome of Leadership y armaduras no requieren sintonización). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
@@ -45,7 +51,7 @@
 | :--- | :---: | :---: | :--- |
 | **Tome of Leadership and Influence** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Carisma de forma permanente (superando el límite de 20 hasta **22**). Incrementa tu daño de ballesta de mano por duplicado (ataque básico $+$ *Lifedrinker*), CD de conjuros y salvaciones. |
 | **Armor +3 (Half-Plate)** | No | — | **Priorizar 2:** CA pasiva sube a 20 (25 con *Shield*). |
-| **Ring of Spell Turning** | Sí | No | Prioridad Media: Ventaja en salvaciones contra conjuros dirigidos exclusivamente a ti y los devuelve en caso de obtener un 20 en el dado. |
+| **Ring of Spell Turning** | Sí | ⚔️ **Sí** | **Priorizar 3:** Ventaja en salvaciones contra conjuros dirigidos exclusivamente a ti y los devuelve en caso de obtener un 20 en el dado. Reemplaza a Ring of Protection en la sintonización activa. |
 
 ---
 

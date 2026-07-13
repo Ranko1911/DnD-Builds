@@ -4,6 +4,12 @@
 
 *Nota de Build:* Este personaje usa armas de asta de dos manos (Glaive/Halberd) con *Polearm Master* y *Great Weapon Master*. Viste Half-Plate (armadura media, DEX +2). No puede usar escudo. Su sinergia principal es *Armor of Agathys* + Rage (daño reflejado protegido por resistencia). Los objetos priorizan: supervivencia de Temp HP > CD de conjuros Warlock > daño cuerpo a cuerpo.
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo (1 slot). (2 libres).
+*   **Tier 2 (Niveles 5-10):** Eldritch Claw Tattoo (1 slot), Rod of the Pact Keeper +2 (1 slot), Reliquia de la Furia Infernal (Homebrew) (1 slot). (Cloak of Protection se lleva sin sintonizar). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Reliquia de la Furia Infernal (1), Rod of the Pact Keeper +3 (1, reemplaza +2), Eldritch Claw Tattoo o Ring of Protection (1). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Reliquia de la Furia Infernal (1), Rod of the Pact Keeper +3 (1), Blackrazor (1, reemplaza Eldritch Claw Tattoo/Ring of Protection) o Eldritch Claw Tattoo (1). (Manuals y armaduras no requieren sintonización). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes

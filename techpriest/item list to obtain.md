@@ -2,6 +2,12 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Artificer 14)
+*   **Tier 1 (Niveles 1-4):** Amulet of the Devout +1 (1 slot), Núcleo del Dios Máquina (Homebrew) (1 slot). (Sentinel Shield y armaduras no requieren sintonización). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Núcleo del Dios Máquina (1 slot), All-Purpose Tool +1 (1 slot), Amulet of the Devout +2 (1 slot, reemplaza +1), Cloak of Protection (1 slot - infundido), Ring of Protection (1 slot - infundido). (Total: 5).
+*   **Tier 3 (Niveles 11-16):** Núcleo del Dios Máquina (1), All-Purpose Tool +2 (1, reemplaza +1), Amulet of the Devout +3 (1, reemplaza +2), Cloak of Protection (1 - infundido), Ring of Protection (1 - infundido). (Total: 5).
+*   **Tier 4 (Niveles 17-20):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1, reemplaza +2), Amulet of the Devout +3 (1), Cloak of Protection (1 - infundido), Ring of Protection (1 - infundido). (Ioun Stone of Mastery y Tome of Clear Thought se llevan/usan sin sintonizar. Armadura y escudo +3 no requieren sintonización). (Total: 5).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
@@ -32,7 +38,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **All-Purpose Tool +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Incrementa tu CD de Artífice y precisión a $+2$. |
-| **Amulet of the Devout +3** | Sí | No | **Priorizar 2:** Incrementa la CD de tus conjuros de Clérigo en $+3$. |
+| **Amulet of the Devout +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Incrementa la CD de tus conjuros de Clérigo en $+3$. |
 | **Armor +2 (Plate) y Shield +2** | No | — | **Priorizar 3:** CA pasiva sube a 24. |
 | **Spellguard Shield** | Sí | No | Prioridad Alta: Ventaja en salvaciones contra conjuros y otros efectos mágicos. |
 

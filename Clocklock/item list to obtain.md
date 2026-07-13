@@ -2,6 +2,12 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +1. (1 slot ocupado, 2 libres).
+*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2, Cloak of Protection, Reloj de Arena del Caos Ordenado (Homebrew). (3 slots ocupados).
+*   **Tier 3 (Niveles 11-16):** Bloodwell Vial +3 (reemplaza +2), Illusionist's Bracers, Reloj de Arena del Caos Ordenado. (Cloak of Protection se lleva sin sintonizar). (3 slots ocupados).
+*   **Tier 4 (Niveles 17-20):** Reloj de Arena del Caos Ordenado, Illusionist's Bracers, Staff of the Magi (reemplaza Bloodwell Vial +3). (Tome of Leadership y armaduras no requieren sintonización). (3 slots ocupados).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
@@ -43,7 +49,7 @@
 | :--- | :---: | :---: | :--- |
 | **Tome of Leadership and Influence** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Carisma de forma permanente, permitiéndote alcanzar un **22** (+6 modificador). Aumenta tu daño de *Eldritch Blast*, CD de conjuros y salvaciones. |
 | **Armor +3 (Half-Plate) y Shield +3** | No | — | **Priorizar 2:** CA pasiva sube a un absurdo **25 CA**. Con el conjuro *Shield* alcanzas **30 CA**. |
-| **Staff of the Magi** | Sí | No | Prioridad Media: Arsenal masivo de conjuros y absorción reactiva. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 3:** Arsenal masivo de conjuros y absorción reactiva. Reemplaza al Bloodwell Vial +3 en la sintonización activa. |
 
 ---
 

@@ -2,6 +2,12 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Amulet of Proof Against Detection (1 slot), Tótem del Guardián Lunar (Homebrew) (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Tótem del Guardián Lunar (1 slot), Bracers of Defense (1 slot), Periapt of Wound Closure o Dragonhide Belt +1 (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Tótem del Guardián Lunar (1), Dragonhide Belt +2 (1, reemplaza +1), Bracers of Defense or Ring of Protection (1). (Periapt of Wound Closure sin sintonizar). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Tótem del Guardián Lunar (1), Dragonhide Belt +3 (1, reemplaza +2), Ring of Spell Storing (1). (Bracers of Defense y Ring of Protection se llevan sin sintonizar. Tome of Understanding y Manuals no requieren sintonización). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes

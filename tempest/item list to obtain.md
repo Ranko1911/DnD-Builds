@@ -5,10 +5,10 @@
 *Nota de Mesa:* El Collar del Moldeador de Tormentas (CMT) está fusionado con el Amulet of the Devout como un solo objeto con una única ranura de sintonización (homebrew de mesa).
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Devout+CMT +1, Sentinel Shield. (2 slots ocupados, 1 libre).
+*   **Tier 1 (Niveles 1-4):** Devout+CMT +1. (Sentinel Shield no requiere sintonización). (1 slot ocupado, 2 libres).
 *   **Tier 2 (Niveles 5-10):** Devout+CMT +2, Amulet of Health, Weapon of Warning (Warhammer). (3 slots ocupados).
-*   **Tier 3 (Niveles 11-16):** Devout+CMT +3, Staff of Power. El tercer slot se disputa entre Amulet of Health (vida/concentración) o Weapon of Warning (Iniciativa).
-*   **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Ioun Stone of Mastery. (Se liberan Amulet of Health y Weapon of Warning gracias a tu CON 17 base y la iniciativa/protección provistas por otros efectos).
+*   **Tier 3 (Niveles 11-16):** Devout+CMT +3, Staff of Power. El tercer slot se disputa entre Amulet of Health (vida/concentración) o Weapon of Warning (Iniciativa). (3 slots ocupados).
+*   **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Ioun Stone of Mastery. (Se liberan Amulet of Health y Weapon of Warning gracias a tu CON 17 base y la iniciativa/protección provistas por otros efectos). (3 slots ocupados).
 
 ---
 
@@ -17,7 +17,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Amulet of the Devout +1 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CD de tus conjuros de Clérigo y tiradas de ataque. Uso extra de Canalizar Divinidad = más Iras Destructivas por descanso. Fusionado con el CMT (Esculpir la Tormenta), permite maximizar daño AoE sin dañar aliados. |
-| **Sentinel Shield** | Sí | ⚔️ **Sí** | **Priorizar 2:** Ventaja en Iniciativa y Percepción pasiva. Para un gish que necesita actuar primero para lanzar *Spirit Guardians* o Destructive Wrath AoE antes de que los enemigos se dispersen, ir primero en el orden de turno es crítico. |
+| **Sentinel Shield** | No | — | **Priorizar 2:** Ventaja en Iniciativa y Percepción pasiva. Para un gish que necesita actuar primero para lanzar *Spirit Guardians* o Destructive Wrath AoE antes de que los enemigos se dispersen, ir primero en el orden de turno es crítico. |
 | **Splint Mail / Plate Armor** | No | — | **Prioridad 3:** Armadura pesada base. Splint = CA 17, Plate = CA 18. Combinado con Sentinel Shield ($+2$), tu CA pasiva alcanza 19-20. Con *Shield* (reacción) subes a 24-25 CA. |
 | **Bag of Holding** | No | — | Prioridad Media: Almacenamiento de grupo. Útil para cargar libro de conjuros de respaldo, componentes y herramientas de tinkering. |
 | **Boots of Striding and Springing** | Sí | No | Prioridad Baja: Velocidad no puede ser reducida y saltos triples. Útil como enano para compensar la velocidad de 25 pies (aunque el enano PHB24 ya tiene 30 pies). |

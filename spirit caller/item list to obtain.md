@@ -2,6 +2,12 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** Pearl of Power (1 slot), Arcane Grimoire +1 (1 slot). (Broom of Flying no requiere sintonización). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Anillo del Pastor de Almas (Homebrew) (1 slot), Amulet of Health (1 slot), Arcane Grimoire +2 (1, reemplaza +1). (Pearl of Power y Ring of Spell Storing se llevan sin sintonizar). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Anillo del Pastor de Almas (1), Staff of Power (1), Arcane Grimoire +3 (1, reemplaza +2) o Cloak of Displacement (1). (Amulet of Health sin sintonizar). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Anillo del Pastor de Almas (1), Wand of Orcus (1), Robe of the Archmage (1). (Staff of the Magi, Staff of Power y Arcane Grimoire +3 se llevan sin sintonizar). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
@@ -45,7 +51,7 @@
 | :--- | :---: | :---: | :--- |
 | **Wand of Orcus** (Artefacto) | Sí | ⚔️ **Sí** | **Priorizar 1 (Lv 20):** Tu meta final. Otorga $+3$ a CA, conjuros de nigromancia de alto nivel, y la capacidad única de invocar muertos vivientes (hasta un CR acumulado de 15) que obedecen tus órdenes sin gastar ranuras. |
 | **Robe of the Archmage** | Sí | ⚔️ **Sí** | **Priorizar 2:** CA base de $15 + \text{DEX}$, ventaja contra conjuros y $+2$ adicional a la CD y ataque de conjuros de Mago. |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Prioridad 3:** Absorbe conjuros enemigos para recargar su enorme arsenal. |
+| **Staff of the Magi** | Sí | No | **Prioridad 3:** Absorbe conjuros enemigos. Se lleva en la mochila sin sintonizar, ya que tus ranuras están ocupadas por el Anillo del Pastor, la Wand of Orcus y la Robe. |
 
 ---
 

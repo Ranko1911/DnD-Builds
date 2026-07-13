@@ -2,6 +2,12 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** 0 slots ocupados (utiliza armas/armaduras no sintonizadas).
+*   **Tier 2 (Niveles 5-10):** Flame Tongue (1 slot), Belt of Dwarvenkind (1 slot), Cascabel de la Burla de Hlal (Homebrew) (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Cascabel de la Burla de Hlal (1), Scimitar of Speed (1), Belt of Dwarvenkind o Ring of Protection (1). (Flame Tongue se libera). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Cascabel de la Burla de Hlal (1), Holy Avenger (1, reemplaza Scimitar o Belt), Scimitar of Speed o Belt of Dwarvenkind (1). (Tome of Leadership y armaduras no requieren sintonización). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
