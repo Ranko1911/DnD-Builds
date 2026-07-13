@@ -37,6 +37,14 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Trazar Esquemas Tecnológicos.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite copiar pergaminos de utilidad tecnológica arcanos e inventar esquemas mágicos.
+* **Relicario (Reliquary) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Cosechar Reliquias del Yunque Sagrado.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Califica usando su Símbolo Sagrado de Cleric de la Forja. Le permite cosechar talismanes y obviar componentes costosos para conjuros de protección divina.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Resiliencia de la Megajorja y Fabricación Rúnica.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Califica usando sus herramientas de artífice como foco. Genera 100 puntos de golpe temporales diarios tras descansar en el núcleo metálico y le permite fabricar prototipos mecánicos sin coste.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

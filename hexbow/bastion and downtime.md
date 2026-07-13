@@ -25,10 +25,6 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Fabricar Proyectiles Mágicos.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Asegura un flujo constante de saetas mágicas (+1 y +2) para alimentar la ballesta de mano con dote *Sharpshooter*.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Perfeccionar Tiro y Maniobras.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento militar enfocado en maniobras de Battle Master y sinergias con *Elven Accuracy*.
 * **Estudio Arcano (Arcane Study) (Nivel 5):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Comunión con el Filo de las Sombras.
@@ -37,6 +33,18 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Elaboración de Toxinas y Venenos.
   * *Sinergia con el Build:* 🟢 **Excelente**. Elabora venenos aplicables a las saetas para maximizar el daño por ráfaga (Nova) del francotirador.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Perfeccionar Tiro y Maniobras.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento militar enfocado en maniobras de Battle Master y sinergias con *Elven Accuracy*.
+* **Sala de Guerra (War Room) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Inteligencia Militar e Incursiones.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Califica mediante su Estilo de Combate de Fighter. Optimiza las defensas de la Atalaya del Filo Sombreado y le permite planificar asaltos tácticos a larga distancia.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Resiliencia Arcana del Pacto.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Le permite ganar 100 puntos de golpe temporales diarios tras un descanso y fabricar munición o componentes exóticos sin coste gracias a su Foco Arcano de Warlock.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

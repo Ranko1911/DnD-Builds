@@ -25,18 +25,26 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Representaciones Artísticas e Inteligencia Social.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite al bardo recolectar favores políticos, influenciar a la nobleza local y generar grandes sumas de oro y BP.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Coreografías de Floreo y Combate.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Optimiza los floreos de la espada de *College of Swords* y entrena a los guardias de honor en formaciones de evasión de CA.
 * **Sagrario / Santuario (Sanctuary) (Nivel 5):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Juramento de Devoción Rítmica.
   * *Sinergia con el Build:* 🟢 **Excelente**. Sintonización de canalizaciones divinas para maximizar el uso de *Divine Smite*.
-* **Sala de Juegos (Gaming Hall) (Nivel 5):**
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Coreografías de Floreo y Combate.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Optimiza los floreos de la espada de *College of Swords* y entrena a los guardias de honor en formaciones de evasión de CA.
+* **Sala de Juegos (Gaming Hall) (Nivel 9):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Ingeniería Social y Apuestas de Información.
   * *Sinergia con el Build:* 🟢 **Excelente**. Otorga espías urbanos y rumores valiosos para asaltos o intrigas políticas.
+* **Gremio (Guildhall) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Reclutamiento de Artistas y Espías de la Lira de Acero.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Concede una red gremial de 50 miembros que asisten en misiones de intriga y recopilan componentes raros o riquezas para la corte.
+* **Sala de Guerra (War Room) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Tácticas de Gala y Defensa del Coliseo.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Permite optimizar las defensas de su base y mejorar la preparación de los esgrimistas de honor mediante sus niveles de Paladín/Bardo Swords.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

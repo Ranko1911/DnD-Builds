@@ -33,7 +33,7 @@
   * *Estado:* Inactiva / Planificada
   * *Orden de Bastión Especial:* Destilación Alquímica de Líquidos de Preservación.
   * *Sinergia con el Build:* 🟢 **Excelente**. Para elaborar ungüentos de embalsamamiento y elixires de reanimación orgánica.
-* **Scriptorium (Nivel 5) [OBTENER - Nivel 13+]:**
+* **Scriptorium (Nivel 9) [OBTENER - Nivel 13+]:**
   * *Estado:* Inactiva / Planificada
   * *Orden de Bastión Especial:* Copiado Masivo de Pergaminos.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite transcribir pergaminos de *Animate Dead* y conjuros de defensa a gran velocidad.

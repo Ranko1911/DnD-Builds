@@ -21,10 +21,6 @@
 
 *Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
 
-* **Observatorio (Observatory) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Alinear Estrellas y Cartografía Celeste.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Aumenta la eficacia de *Starry Form: Archer* y provee augurios diarios sobre las corrientes y vientos.
 * **Invernadero (Greenhouse) (Nivel 5):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Cultivar Algas y Flora Marina Rara.
@@ -37,6 +33,18 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Comunión con los Espíritus de las Mareas.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite recargar usos de Wild Shape y potenciar conjuros de Druida.
+* **Observatorio (Observatory) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Alinear Estrellas y Cartografía Celeste.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Aumenta la eficacia de *Starry Form: Archer* y provee augurios diarios sobre las corrientes y vientos.
+* **Relicario (Reliquary) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Cosechar Talismanes Sagrados.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Como druida de nivel 20, califica usando su Foco Druídico. Le permite preparar talismanes para ignorar los costes materiales de sus conjuros marinos e invocar curaciones sin ranuras.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Sintonización Celestial y Meditación Marina.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Otorga ventaja en dos salvaciones mentales para el siguiente viaje y le permite volver a tirar en la tabla de eventos de bastión.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

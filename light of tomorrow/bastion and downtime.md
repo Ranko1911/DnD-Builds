@@ -25,18 +25,26 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Comunión Celestial y Bendiciones.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Aumenta la eficacia de las curaciones de *Divine Soul* y otorga resistencia celestial grupal.
-* **Scriptorium (Nivel 5):**
+* **Estudio Arcano (Arcane Study) (Nivel 5):**
   * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Scriptorium Divino de Pergaminos.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite escribir pergaminos de resurrección (*Revivify*, *Raise Dead*) para ahorrar espacios de conjuro del hechicero de apoyo.
+  * *Orden de Bastión Especial:* Trazar Esquemas Lumínicos.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Permite canalizar su magia y apoya la fabricación de pergaminos divinos/arcanos mediante su foco de hechicero.
 * **Invernadero (Greenhouse) (Nivel 5):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Cultivar Flores del Alba y Hierbas Sagradas.
   * *Sinergia con el Build:* 🟢 **Excelente**. Provee componentes materiales dorados y plantas medicinales para pociones de curación mayor.
-* **Observatorio (Observatory) (Nivel 9):**
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Scriptorium Divino de Pergaminos.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite escribir pergaminos de resurrección (*Revivify*, *Raise Dead*) para ahorrar espacios de conjuro del hechicero de apoyo.
+* **Observatorio (Observatory) (Nivel 13):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Rastrear Constelaciones Divinas.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite predecir visitas de enviados celestiales y obtener guía celestial diaria.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Resiliencia Arcana del Sol Inmortal.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga 100 puntos de golpe temporales diarios tras descansar en él y le permite fabricar componentes materiales costosos sin coste mediante su Foco Arcano de Warlock/Sorcerer.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

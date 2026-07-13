@@ -21,22 +21,30 @@
 
 *Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
 
-* **Sagrario (Sacrarium) (Nivel 5):**
+* **Estudio Arcano (Arcane Study) (Nivel 5):**
   * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Comunión y Ofrendas Infernales.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Ofrece canalización espiritual con los señores del averno (patrón Fiend) para ganar ventajas temporales de puntos de golpe y reponer espacios de conjuro.
+  * *Orden de Bastión Especial:* Trazar Runas y Planos de Invocación.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite canalizar su magia de Warlock y justifica la fabricación de rollos de conjuros (*Armor of Agathys*), sin consumir recursos personales.
 * **Armería (Armory) (Nivel 5):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Crafting y Mantenimiento de Armamento.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite equipar a los defensores del bastión con armas pesadas pesadas que replican la furia física del personaje y garantiza que los artesanos puedan reparar su equipo de batalla.
+* **Sagrario (Sacrarium) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Comunión y Ofrendas Infernales.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Ofrece canalización espiritual con los señores del averno (patrón Fiend) para ganar ventajas temporales de puntos de golpe y reponer espacios de conjuro.
 * **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Entrenamiento Físico Militar.
   * *Sinergia con el Build:* 🟢 **Excelente**. Entrena a mercenarios en tácticas de contención del daño y control de amenazas.
-* **Sala de Guerra (War Room) (Nivel 13):**
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Copiado Masivo de Pergaminos Infernales.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Permite transcribir pergaminos de protección y combate de warlock a gran velocidad para su uso antes de la furia.
+* **Sala de Guerra (War Room) (Nivel 17):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Planificación de Incursiones.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite obtener información táctica y ventajas operacionales en zonas de guerra activa.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Califica gracias a su defensa sin armadura de bárbaro. Permite obtener información táctica y ventajas operacionales en zonas de guerra activa.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

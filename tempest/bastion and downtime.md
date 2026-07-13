@@ -19,28 +19,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-*Desbloqueadas por nivel. A Nivel 20 cuentas con 5 instalaciones especiales activas.*
+*Desbloqueadas por nivel. A Nivel 20 cuentas con 6 instalaciones especiales activas.*
 
-* **Observatorio (Observatory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Canalización de Rayos y Predicción Climática.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite anticipar tempestades y tormentas eléctricas para maximizar las habilidades de combate de Tempest Cleric.
-* **Scriptorium (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiar Fórmulas del Libro de Escribano.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Acelera la transcripción de conjuros de mago y pergaminos elementales con descuento de tiempo y coste.
 * **Santuario (Sanctuary) (Nivel 5):**
-  * *Estado:* Activa (Mantener) [Adquirido a Nivel 9]
+  * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Comunión y Clamor de la Tormenta Celestial.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Potencia el uso de Canalizar Divinidad: Ira Destructiva y concede ventajas espirituales a los defensores contra el daño por trueno/rayo.
 * **Taller (Workshop) (Nivel 5):**
-  * *Estado:* Activa (Mantener) [Adquirido a Nivel 13]
+  * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Reparaciones y Forjado de Conductores.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite fabricar pararrayos y conductores elementales que canalizan energía a la torre, además de reparar el equipamiento pesado.
-* **Laboratorio Arcano (Arcane Laboratory) (Nivel 17):**
-  * *Estado:* Activa (Mantener) [Adquirido a Nivel 17]
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Copiar Fórmulas del Libro de Escribano.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Acelera la transcripción de conjuros de mago y pergaminos elementales con descuento de tiempo y coste.
+* **Laboratorio Arcano (Arcane Laboratory) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Destilación de Elixires y Creación de Objetos Mágicos.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Fabricación de pergaminos de alto nivel (ej: *Chain Lightning*) y pociones de resistencia o vuelo.
+* **Observatorio (Observatory) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Canalización de Rayos y Predicción Climática.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite anticipar tempestades y tormentas eléctricas para maximizar las habilidades de combate de Tempest Cleric.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Resiliencia Arcana y Conexión Planar.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga un escudo rúnico masivo (100 puntos de golpe temporales diarios tras descansar en él) y permite la fabricación de componentes elementales costosos sin gastar oro gracias a su Foco Arcano de Mago.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

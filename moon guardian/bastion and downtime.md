@@ -27,20 +27,24 @@
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite realizar rituales de comunión con los espíritus ancestrales del bárbaro y la naturaleza druídica simultáneamente. Otorga ventajas en la preparación de conjuros y conexión espiritual con las bestias del entorno.
 * **Jardín de Hierbas (Greenhouse) (Nivel 5):**
   * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Cultivo de Componentes Herbales y Pociones.
+  * *Orden de Bastión Especial:* Cultivar Componentes Herbales y Pociones.
   * *Sinergia con el Build:* 🟢 **Excelente**. Produce componentes para pociones de curación, antídotos y componentes materiales de conjuros druídicos (como los diamantes para Revivify mediante comercio de hierbas raras).
+* **Biblioteca Natural (Archive) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Investigación de Bestias y Conjuros.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Contiene bestiarios detallados que amplían el repertorio de formas de Wild Shape conocidas, además de tratados sobre conjuros druídicos avanzados y técnicas de protección ancestral.
 * **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Entrenamiento Físico y Bestial.
   * *Sinergia con el Build:* 🟢 **Excelente**. Los defensores entrenan tácticas de formación defensiva coordinada con las formas bestiales del personaje. El personaje practica nuevas formas animales aquí.
-* **Biblioteca Natural (Archive) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Investigación de Bestias y Conjuros.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Contiene bestiarios detallados que amplían el repertorio de formas de Wild Shape conocidas, además de tratados sobre conjuros druídicos avanzados y técnicas de protección ancestral.
-* **Cámara de Meditación Ancestral (Meditation Chamber) (Nivel 17):**
+* **Cámara de Meditación Ancestral (Meditation Chamber) (Nivel 13):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Comunión Espiritual Profunda y Rituales de Protección.
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sala sellada con círculos de piedra ancestral donde el personaje puede comunicarse directamente con los espíritus guardianes de su linaje. Permite realizar rituales de *Heroes' Feast* sin coste de componentes una vez por Bastion Turn, y otorga ventaja en salvaciones de Sabiduría durante el siguiente día de aventura.
+* **Sala de Guerra (War Room) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Defensa Territorial y Coordinación Salvaje.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Califica mediante su Defensa sin Armadura de bárbaro. Permite coordinar a los guardianes del bosque con las fuerzas de la naturaleza, optimizando la protección del refugio contra amenazas externas y asedios.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

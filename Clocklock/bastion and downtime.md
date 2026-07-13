@@ -29,14 +29,22 @@
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Destilación Alquímica Optimizada.
   * *Sinergia con el Build:* 🟢 **Excelente**. Permite destilar pociones de vuelo y velocidad acelerada a mitad de coste de tiempo.
-* **Observatorio (Observatory) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Predicción de Anomalías Temporales.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite calcular el curso de las líneas temporales, garantizando ventaja en tiradas de iniciativa o cancelando desventajas futuras.
-* **Scriptorium (Nivel 5):**
+* **Scriptorium (Nivel 9):**
   * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Copiado de Registros.
   * *Sinergia con el Build:* 🟢 **Excelente**. Duplica la velocidad de copia de documentos arcanos y contratos de conjuración.
+* **Observatorio (Observatory) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Predicción de Anomalías Temporales.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite calcular el curso de las líneas temporales, garantizando ventaja en tiradas de iniciativa o cancelando desventajas futuras.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Sintonización y Alineación Mental.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Sinergia perfecta con su rol de manipulación de probabilidades y alineación de Mechanus, dando ventaja en dos salvaciones mentales e influencia rítmica.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Resiliencia Arcana y Fabricación Extrapolar.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite ganar 100 puntos de golpe temporales tras descansar y fabricar componentes u objetos no mágicos sin esfuerzo.
 
 ### Seguidores y Personal (Staff & Hirelings)
 
