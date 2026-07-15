@@ -43,6 +43,7 @@ body {
     font-size: 15px;
     line-height: 1.6;
     height: 100vh;
+    height: 100dvh;
     overflow: hidden;
     -webkit-font-smoothing: antialiased;
 }
@@ -52,6 +53,7 @@ body {
     display: flex;
     flex-direction: column;
     height: 100vh;
+    height: 100dvh;
     background: radial-gradient(circle at 10% 20%, rgba(99, 102, 241, 0.08) 0%, transparent 40%),
                 radial-gradient(circle at 90% 80%, rgba(168, 85, 247, 0.08) 0%, transparent 40%);
 }
@@ -67,6 +69,7 @@ body {
     border-bottom: 1px solid var(--border-color);
     z-index: 10;
     position: relative;
+    flex-shrink: 0;
 }
 
 .logo-container {
@@ -432,6 +435,7 @@ body {
     padding: 1.5rem 2.5rem;
     background-color: rgba(16, 21, 36, 0.4);
     border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
 }
 
 .detail-title-row {
@@ -485,6 +489,7 @@ body {
     background-color: rgba(8, 11, 19, 0.6);
     border-bottom: 1px solid var(--border-color);
     padding: 0 1.5rem;
+    flex-shrink: 0;
 }
 
 .tab-btn {
@@ -824,7 +829,8 @@ body {
         width: 100% !important;
         height: 100%;
         border-right: none;
-        display: block;
+        display: flex;
+        flex-direction: column;
     }
     
     .build-detail-pane {
@@ -992,6 +998,7 @@ body {
     padding: 1.25rem 2.5rem;
     background-color: rgba(16, 21, 36, 0.3);
     border-top: 1px solid var(--border-color);
+    flex-shrink: 0;
 }
 
 .btn-secondary {
