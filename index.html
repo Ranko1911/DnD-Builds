@@ -148,6 +148,10 @@
                             </div>
                             <div class="detail-subtitle" id="detail-classes">Clase 1 / Clase 2</div>
                         </div>
+                        <div class="level-selector-area" id="level-selector-area">
+                            <label class="level-selector-label" for="level-slider">Nv. <span id="level-value">20</span></label>
+                            <input type="range" id="level-slider" min="1" max="20" value="20" class="level-slider">
+                        </div>
                         <div class="detail-actions">
                             <a id="detail-youtube-btn" href="#" target="_blank" class="btn btn-youtube hidden">
                                 <svg viewBox="0 0 24 24" fill="currentColor" width="20" height="20">
@@ -158,6 +162,9 @@
                             </a>
                         </div>
                     </header>
+
+                    <!-- Resource Tracker Container -->
+                    <div id="resource-tracker" class="resource-tracker-panel hidden"></div>
 
                     <!-- Sub Navigation Tabs -->
                     <nav class="detail-tabs">
@@ -204,7 +211,7 @@
     </div>
 
     <!-- Script loading -->
-    <script src="app.js?v=1.0.5"></script>
+    <script src="app.js?v=1.0.6"></script>
 </body>
 
 </html>

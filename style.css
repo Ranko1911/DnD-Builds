@@ -1003,6 +1003,20 @@ body {
     .btn-secondary {
         padding: 0.75rem 1.2rem; /* Larger touch targets */
     }
+
+    .resource-tracker-panel {
+        margin: 1rem 1rem 0 1rem;
+        padding: 0.75rem 1rem;
+    }
+
+    .tracker-grid {
+        gap: 0.5rem;
+    }
+
+    .tracker-group {
+        width: 100%;
+        justify-content: space-between;
+    }
 }
 
 /* Breadcrumbs Styling */
@@ -1069,5 +1083,178 @@ body {
 .btn-icon {
     font-family: sans-serif;
     font-size: 1.1em;
+}
+
+/* Resource Tracker styling */
+.resource-tracker-panel {
+    background-color: rgba(13, 17, 28, 0.4);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    margin: 1rem 2.5rem 0 2.5rem;
+    padding: 1rem 1.5rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    transition: var(--transition-smooth);
+}
+
+.tracker-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.tracker-header h4 {
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+}
+
+.btn-small {
+    padding: 0.3rem 0.75rem;
+    font-size: 0.75rem;
+}
+
+.tracker-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+
+.tracker-group {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    padding: 0.4rem 0.8rem;
+    border-radius: var(--border-radius-sm);
+    transition: var(--transition-smooth);
+}
+
+.tracker-group:hover {
+    border-color: rgba(255, 255, 255, 0.1);
+    background-color: rgba(255, 255, 255, 0.04);
+}
+
+.group-label {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-text-main);
+    white-space: nowrap;
+}
+
+.group-bubbles {
+    display: flex;
+    gap: 0.3rem;
+}
+
+.tracker-bubble {
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    border: 1.5px solid var(--color-text-dark);
+    background-color: transparent;
+    cursor: pointer;
+    transition: all 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.tracker-bubble:hover {
+    border-color: var(--color-primary);
+    transform: scale(1.15);
+}
+
+.tracker-bubble.checked {
+    background-color: var(--color-primary);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 8px var(--color-primary-glow);
+}
+
+/* Level Selector */
+.level-selector-area {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    padding: 0.35rem 0.75rem;
+    border-radius: var(--border-radius-sm);
+    min-width: 160px;
+    transition: var(--transition-smooth);
+}
+
+.level-selector-area:hover {
+    border-color: var(--border-color-hover);
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+.level-selector-label {
+    font-size: 0.7rem;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    white-space: nowrap;
+    cursor: default;
+}
+
+#level-value {
+    color: var(--color-primary);
+    font-weight: 800;
+    font-size: 0.85rem;
+}
+
+.level-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    flex: 1;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+.level-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    cursor: pointer;
+    box-shadow: 0 0 6px var(--color-primary-glow);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.level-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 10px var(--color-secondary-glow);
+}
+
+.level-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    cursor: pointer;
+    border: none;
+}
+
+/* Roadmap table: active level row highlight */
+.markdown-viewer-content tr.current-level-row td {
+    background-color: var(--color-primary-glow) !important;
+    color: var(--color-text-main) !important;
+}
+
+.markdown-viewer-content tr.future-level-row {
+    opacity: 0.3;
+}
+
+@media (max-width: 768px) {
+    .level-selector-area {
+        width: 100%;
+        min-width: 0;
+    }
 }
 

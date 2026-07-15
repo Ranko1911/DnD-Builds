@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedBuild = null;
     let selectedFile = 'character guide.md';
     let lastScrollTop = 0;
+    let selectedLevel = 20;
+    let currentBuildLevelsMap = {};
 
     const ORDERED_FILES = [
         'character guide.md',
@@ -144,6 +146,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnBackBottom = document.getElementById('btn-back-bottom');
     const btnToggleFilters = document.getElementById('btn-toggle-filters');
     const filterGroup = document.getElementById('filter-group');
+
+    // Level selector
+    const levelSlider = document.getElementById('level-slider');
+    const levelValueEl = document.getElementById('level-value');
 
     // Configure Marked Options
     marked.setOptions({
@@ -306,6 +312,10 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Reset to default theme
             applyDynamicTheme(null);
+            
+            // Hide resource tracker
+            const tracker = document.getElementById('resource-tracker');
+            if (tracker) tracker.classList.add('hidden');
             return;
         }
 
@@ -355,11 +365,28 @@ document.addEventListener('DOMContentLoaded', () => {
                     detailYoutubeBtn.classList.add('hidden');
                 }
 
+                // Reset level slider
+                selectedLevel = 20;
+                currentBuildLevelsMap = {};
+                if (levelSlider) { levelSlider.value = 20; }
+                if (levelValueEl) { levelValueEl.textContent = '20'; }
+
+                // Fetch roadmap in background to build levels map
+                fetch(`${build.folder}/roadmap.md`)
+                    .then(r => r.ok ? r.text() : Promise.reject())
+                    .then(md => {
+                        currentBuildLevelsMap = parseRoadmapLevels(md);
+                        renderResourceTracker(build);
+                        if (selectedFile === 'roadmap.md') applyRoadmapFilter();
+                    })
+                    .catch(() => renderResourceTracker(build));
+
                 // Refresh subcomponents
                 updateBreadcrumbs();
                 updateActiveTab();
                 loadTabContent();
                 updateNavButtons();
+                renderResourceTracker(build);
             }
         }
     }
@@ -447,6 +474,9 @@ document.addEventListener('DOMContentLoaded', () => {
                         throwOnError: false
                     });
                 }
+
+                // Apply level filter if viewing roadmap
+                if (selectedFile === 'roadmap.md') applyRoadmapFilter();
             })
             .catch(err => {
                 console.warn('Error loading tab file:', filePath, err);
@@ -593,6 +623,289 @@ document.addEventListener('DOMContentLoaded', () => {
         
         lastScrollTop = scrollTop;
     });
+
+    // Spell slots progression table (1 to 20 caster level)
+    const SPELL_SLOTS_TABLE = {
+        1: [2],
+        2: [3],
+        3: [4, 2],
+        4: [4, 3],
+        5: [4, 3, 2],
+        6: [4, 3, 3],
+        7: [4, 3, 3, 1],
+        8: [4, 3, 3, 2],
+        9: [4, 3, 3, 3, 1],
+        10: [4, 3, 3, 3, 2],
+        11: [4, 3, 3, 3, 2, 1],
+        12: [4, 3, 3, 3, 2, 1],
+        13: [4, 3, 3, 3, 2, 1, 1],
+        14: [4, 3, 3, 3, 2, 1, 1],
+        15: [4, 3, 3, 3, 2, 1, 1, 1],
+        16: [4, 3, 3, 3, 2, 1, 1, 1],
+        17: [4, 3, 3, 3, 2, 1, 1, 1, 1],
+        18: [4, 3, 3, 3, 3, 1, 1, 1, 1],
+        19: [4, 3, 3, 3, 3, 2, 1, 1, 1],
+        20: [4, 3, 3, 3, 3, 2, 2, 1, 1]
+    };
+
+    // Parser to extract levels from classes string
+    function parseClasses(classesStr) {
+        const result = {
+            barbarian: 0, bard: 0, cleric: 0, druid: 0, fighter: 0, monk: 0,
+            paladin: 0, ranger: 0, rogue: 0, sorcerer: 0, warlock: 0, wizard: 0, artificer: 0
+        };
+        if (!classesStr) return result;
+        
+        const parts = classesStr.split('/');
+        parts.forEach(part => {
+            const lowerPart = part.toLowerCase();
+            const matchClass = Object.keys(result).find(cls => lowerPart.includes(cls));
+            if (matchClass) {
+                const numMatch = part.match(/\d+/);
+                if (numMatch) {
+                    result[matchClass] = parseInt(numMatch[0]);
+                }
+            }
+        });
+        return result;
+    }
+
+    // Render interactive resource tracker panel
+    function renderResourceTracker(build) {
+        const tracker = document.getElementById('resource-tracker');
+        if (!tracker) return;
+        
+        // Use level-aware class split when available
+        let levels;
+        if (Object.keys(currentBuildLevelsMap).length > 0 && selectedLevel < 20) {
+            const base = { barbarian:0, bard:0, cleric:0, druid:0, fighter:0, monk:0, paladin:0, ranger:0, rogue:0, sorcerer:0, warlock:0, wizard:0, artificer:0 };
+            let t = selectedLevel;
+            while (t > 0 && !currentBuildLevelsMap[t]) t--;
+            levels = { ...base, ...(currentBuildLevelsMap[t] || {}) };
+        } else {
+            levels = parseClasses(build.classes);
+        }
+        const casterLevel = levels.sorcerer + levels.cleric + levels.druid + levels.wizard + levels.bard + Math.floor(levels.paladin / 2) + Math.ceil(levels.artificer / 2);
+        
+        let resources = [];
+        
+        // 1. Barbarian Rages
+        if (levels.barbarian > 0) {
+            let ragesCount = 2;
+            if (levels.barbarian > 2 && levels.barbarian <= 5) ragesCount = 3;
+            else if (levels.barbarian > 5 && levels.barbarian <= 11) ragesCount = 4;
+            else if (levels.barbarian > 11 && levels.barbarian <= 16) ragesCount = 5;
+            else if (levels.barbarian > 16) ragesCount = 6;
+            resources.push({ id: 'rage', label: 'Furias (Rage)', count: ragesCount });
+        }
+        
+        // 2. Bardic Inspiration (CHA mod uses, min 1; die scales with bard level)
+        if (levels.bard > 0) {
+            const biUses = Math.max(1, 5); // Assuming CHA 20 = mod 5
+            let biDie = 'd6';
+            if (levels.bard >= 15) biDie = 'd12';
+            else if (levels.bard >= 10) biDie = 'd10';
+            else if (levels.bard >= 5) biDie = 'd8';
+            resources.push({ id: 'inspiration', label: `Inspiración Bárdica (${biDie})`, count: biUses });
+        }
+        
+        // 3. Sorcery Points
+        if (levels.sorcerer >= 2) {
+            resources.push({ id: 'sorcery', label: 'Puntos de Sorcería', count: levels.sorcerer });
+        }
+        
+        // 4. Warlock Pact Slots
+        if (levels.warlock > 0) {
+            let warlockSlots = 2;
+            let warlockSlotLevel = 1;
+            if (levels.warlock === 1) { warlockSlots = 1; warlockSlotLevel = 1; }
+            else if (levels.warlock === 2) { warlockSlots = 2; warlockSlotLevel = 1; }
+            else if (levels.warlock >= 3 && levels.warlock <= 4) { warlockSlots = 2; warlockSlotLevel = 2; }
+            else if (levels.warlock >= 5 && levels.warlock <= 6) { warlockSlots = 2; warlockSlotLevel = 3; }
+            else if (levels.warlock >= 7 && levels.warlock <= 8) { warlockSlots = 2; warlockSlotLevel = 4; }
+            else { warlockSlots = (levels.warlock >= 17) ? 4 : 3; warlockSlotLevel = 5; }
+            resources.push({ id: 'pact', label: `Espacios de Pacto (Nv. ${warlockSlotLevel})`, count: warlockSlots });
+        }
+        
+        // 5. Wild Shape (Druid 2+)
+        if (levels.druid >= 2) {
+            const wsUses = (levels.druid >= 20) ? 999 : 2; // Unlimited at 20, else 2/short rest
+            resources.push({ id: 'wildshape', label: wsUses === 999 ? 'Forma Salvaje (∞)' : 'Forma Salvaje', count: Math.min(wsUses, 2) });
+        }
+
+        // 6. Channel Divinity (Cleric 2+ / Paladin 3+)
+        if (levels.cleric >= 2 || levels.paladin >= 3) {
+            let cdUses = 1;
+            if (levels.cleric >= 18) cdUses = 3;
+            else if (levels.cleric >= 6) cdUses = 2;
+            if (levels.paladin >= 3 && levels.cleric < 2) cdUses = 1;
+            resources.push({ id: 'channel', label: 'Canalizar Divinidad', count: cdUses });
+        }
+
+        // 7. Ki / Discipline Points (Monk 2+)
+        if (levels.monk >= 2) {
+            resources.push({ id: 'ki', label: 'Puntos de Ki', count: levels.monk });
+        }
+
+        // 8. Lay on Hands pool (Paladin 1+) — shown as 5-point "charges"
+        if (levels.paladin >= 1) {
+            const lohPool = levels.paladin * 5;
+            const charges = Math.floor(lohPool / 5);
+            resources.push({ id: 'layonhands', label: `Imposición de Manos (${lohPool} HP)`, count: Math.min(charges, 20) });
+        }
+
+        // 9. Action Surge (Fighter 2+)
+        if (levels.fighter >= 2) {
+            resources.push({ id: 'actionsurge', label: 'Acción Impetuosa', count: levels.fighter >= 17 ? 2 : 1 });
+        }
+
+        // 10. Second Wind (Fighter 1+)
+        if (levels.fighter >= 1) {
+            resources.push({ id: 'secondwind', label: `Retomar Aliento (1d10+${levels.fighter})`, count: 1 });
+        }
+
+        // 11. Spell Slots (standard multiclass caster table)
+        if (casterLevel > 0) {
+            const slots = SPELL_SLOTS_TABLE[casterLevel] || [];
+            slots.forEach((count, idx) => {
+                resources.push({ id: `slot-${idx + 1}`, label: `Espacios Nivel ${idx + 1}`, count: count });
+            });
+        }
+        
+        if (resources.length === 0) {
+            tracker.classList.add('hidden');
+            return;
+        }
+        
+        tracker.classList.remove('hidden');
+        
+        let html = `
+            <div class="tracker-header">
+                <h4>⚔️ Control de Recursos (Sesión Activa)</h4>
+                <button id="btn-reset-tracker" class="btn btn-secondary btn-small">Restablecer</button>
+            </div>
+            <div class="tracker-grid">
+        `;
+        
+        resources.forEach(res => {
+            let bubblesHtml = '';
+            const storageKey = `tracker-${build.id}-${res.id}`;
+            const checkedCount = parseInt(sessionStorage.getItem(storageKey) || '0');
+            
+            for (let i = 0; i < res.count; i++) {
+                const isChecked = i < checkedCount ? 'checked' : '';
+                bubblesHtml += `<div class="tracker-bubble ${isChecked}" data-index="${i}"></div>`;
+            }
+            
+            html += `
+                <div class="tracker-group" data-res-id="${res.id}">
+                    <span class="group-label">${res.label}</span>
+                    <div class="group-bubbles">${bubblesHtml}</div>
+                </div>
+            `;
+        });
+        
+        html += `</div>`;
+        tracker.innerHTML = html;
+        
+        // Add click events to bubbles
+        tracker.querySelectorAll('.tracker-group').forEach(group => {
+            const resId = group.getAttribute('data-res-id');
+            const bubbles = group.querySelectorAll('.tracker-bubble');
+            const storageKey = `tracker-${build.id}-${resId}`;
+            
+            bubbles.forEach((bubble, idx) => {
+                bubble.addEventListener('click', () => {
+                    const currentChecked = parseInt(sessionStorage.getItem(storageKey) || '0');
+                    let newChecked = idx + 1;
+                    
+                    if (currentChecked === newChecked) {
+                        newChecked = idx; // Uncheck one slot
+                    }
+                    
+                    sessionStorage.setItem(storageKey, newChecked);
+                    
+                    bubbles.forEach((b, bIdx) => {
+                        if (bIdx < newChecked) {
+                            b.classList.add('checked');
+                        } else {
+                            b.classList.remove('checked');
+                        }
+                    });
+                });
+            });
+        });
+        
+        // Reset button event
+        document.getElementById('btn-reset-tracker').addEventListener('click', () => {
+            resources.forEach(res => {
+                const storageKey = `tracker-${build.id}-${res.id}`;
+                sessionStorage.removeItem(storageKey);
+            });
+            renderResourceTracker(build);
+        });
+    }
+
+    // --- Level slider logic ---
+    if (levelSlider) {
+        levelSlider.addEventListener('input', () => {
+            selectedLevel = parseInt(levelSlider.value);
+            if (levelValueEl) levelValueEl.textContent = selectedLevel;
+            if (selectedBuild) renderResourceTracker(selectedBuild);
+            if (selectedFile === 'roadmap.md') applyRoadmapFilter();
+        });
+    }
+
+    // Dim future rows & highlight current level in roadmap table
+    function applyRoadmapFilter() {
+        markdownViewer.querySelectorAll('table').forEach(table => {
+            table.querySelectorAll('tbody tr, tr').forEach(row => {
+                const firstTd = row.querySelector('td');
+                if (!firstTd) return;
+                const m = firstTd.textContent.match(/\d+/);
+                if (!m) return;
+                const rowLvl = parseInt(m[0]);
+                row.classList.toggle('current-level-row', rowLvl === selectedLevel);
+                row.classList.toggle('future-level-row', rowLvl > selectedLevel);
+            });
+        });
+    }
+
+    // Parse roadmap markdown table to extract class splits per total level
+    function parseRoadmapLevels(md) {
+        const map = {};
+        const accum = {};
+        const CLASS_MAP = {
+            barbarian:'barbarian', bard:'bard', cleric:'cleric', 'clérigo':'cleric',
+            druid:'druid', druida:'druid', fighter:'fighter', guerrero:'fighter',
+            monk:'monk', monje:'monk', paladin:'paladin', 'paladín':'paladin',
+            ranger:'ranger', explorador:'ranger', rogue:'rogue', 'pícaro':'rogue',
+            sorcerer:'sorcerer', hechicero:'sorcerer', warlock:'warlock', brujo:'warlock',
+            wizard:'wizard', mago:'wizard', artificer:'artificer', 'artífice':'artificer'
+        };
+        md.split('\n').forEach(line => {
+            const t = line.trim();
+            if (!t.startsWith('|')) return;
+            const cells = t.split('|').map(c => c.trim()).filter(Boolean);
+            if (cells.length < 2 || cells[0].includes('---') || cells[0].toLowerCase().includes('nivel')) return;
+            const lvlMatch = cells[0].match(/\d+/);
+            if (!lvlMatch) return;
+            const lvl = parseInt(lvlMatch[0]);
+            // cells[1] is the "Clase y Nivel" column
+            cells[1].split('/').forEach(part => {
+                const lower = part.trim().toLowerCase();
+                for (const [keyword, key] of Object.entries(CLASS_MAP)) {
+                    if (lower.includes(keyword)) {
+                        const numM = lower.match(/\d+/);
+                        if (numM) accum[key] = parseInt(numM[0]);
+                        break;
+                    }
+                }
+            });
+            map[lvl] = { ...accum };
+        });
+        return map;
+    }
 
     // Watch hashchange
     window.addEventListener('hashchange', handleHashChange);
