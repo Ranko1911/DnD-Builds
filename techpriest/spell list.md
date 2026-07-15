@@ -25,7 +25,7 @@ Esta lista de conjuros detalla la selección de hechizos optimizada para el **Te
 
 ## 🎒 Conjuros Preparados de Artífice (Armero 14)
 
-*La CD de salvación y ataques mágicos de estos conjuros escala con tu Inteligencia ($20$, modificador $+5$). Puedes preparar hasta $9 \text{ (mitad nivel Artífice)} + 5 \text{ (INT)} = 14$ conjuros arcanos.*
+*La CD de salvación y ataques mágicos de estos conjuros escala con tu Inteligencia ($20$, modificador $+5$). Puedes preparar hasta $7 \text{ (mitad nivel Artífice)} + 5 \text{ (INT)} = 12$ conjuros arcanos.*
 
 ### 4.º Nivel (Preparados de Clase + Armadura)
 
@@ -47,7 +47,7 @@ Esta lista de conjuros detalla la selección de hechizos optimizada para el **Te
 
 ### 1.ᵉʳ Nivel (Preparados de Clase + Armadura)
 
-* **Shield 🔵 [Roto - Defensa]:** Reacción para obtener $+5$ a tu CA (alcanzando 33 CA). Siempre preparado por Armurer.
+* **Shield 🔵 [Roto - Defensa]:** Reacción para obtener $+5$ a tu CA (alcanzando 33 CA). (Obtenido mediante Magic Initiate o dote de trasfondo, ya que Armorer no lo prepara de forma nativa).
 * **Absorb Elements 🔵 [Roto - Defensa]:** Reacción para ganar resistencia a daño elemental y sumarlo a tu siguiente impacto físico.
 * **Magic Missile 🟢 [Daño Seguro]:** Siempre preparado por la subclase. Impactos garantizados sin tirada de ataque.
 * **Cure Wounds 🟢 [Curación]:** Curación básica de emergencia.

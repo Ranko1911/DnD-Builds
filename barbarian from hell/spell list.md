@@ -8,7 +8,7 @@ Esta lista detalla la selección de conjuros sugerida para el **Barbarian from H
 
 *No consumen espacios de preparación ni de ranuras.*
 
-### 🧙‍♂️ Warlock (3 conocidos)
+### 🧙‍♂️ Warlock (4 conocidos)
 
 1. **Mending 🔵 [Utilidad]:** Reparación de objetos (esencial para mantenimiento de armas y armaduras).
 2. **Minor Illusion 🟢 [Utilidad]:** Creación de ilusiones acústicas o visuales menores para diversión o distracción fuera de combate.

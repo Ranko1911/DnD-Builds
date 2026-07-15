@@ -45,8 +45,7 @@ Este documento presenta una lista de conjuros recomendada para el Cursed Pirate,
 ### Nivel 5 (5th Level)
 
 1. **Wall of Force 🔵 [Roto - Control]:** Barrera invisible indestructible que aísla enemigos sin salvación. (Mago)
-2. **Cone of Cold 🔵 [Excelente - Daño]:** Cono de frío masivo para barrer cubiertas enemigas. (Mago)
-3. **Conjure Elemental 🟢 [Excelente - Invocaciones]:** Invoca un elemental de agua para controlar el océano y atacar barcos. (Mago/Druida)
+2. **Conjure Elemental 🟢 [Excelente - Invocaciones]:** Invoca un elemental de agua para controlar el océano y atacar barcos. (Mago/Druida)
 
 ### Nivel 4 (4th Level)
 

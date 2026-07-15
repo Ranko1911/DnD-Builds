@@ -22,15 +22,12 @@ Esta lista detalla la selección de conjuros sugerida para el **Moon Guardian**.
 
 ### Nivel 7 (7th Level) — 1 ranura
 
-1. **Regenerate 🔵 [Curación sostenida — Fuera de combate]:** Toca una criatura para restaurar $4d8 + 15$ HP instantáneos y luego regenera 1 HP al inicio de cada turno de la criatura durante 1 hora. Además, restaura miembros amputados. Concentración, por lo que no funciona en Rage, pero fuera de combate es curación excepcional. Alternativamente, la ranura de 7.º nivel como self-heal en Wild Shape otorga $7d8$ (31.5 media) como bonus action.
-2. **Plane Shift 🟢 [Transporte/Destierro]:** Transporta al grupo a otro plano de existencia, o como ataque de toque, destierra a un enemigo a otro plano (salvación de CAR). Utilidad estratégica inmensa.
-3. **Fire Storm 🟡 [Daño AoE masivo]:** $7d10$ de daño de fuego en un área de 10 cubos de 10 pies. Situacional pero devastador cuando necesitas daño de área (usar fuera de Rage).
+1. **Plane Shift 🟢 [Transporte/Destierro]:** Transporta al grupo a otro plano de existencia, o como ataque de toque, destierra a un enemigo a otro plano (salvación de CAR). Utilidad estratégica inmensa.
 
 ### Nivel 6 (6th Level) — 1 ranura
 
 1. **Heal 🔵 [Curación masiva — Emergencia]:** Restaura 70 HP a una criatura tocada e elimina ceguera, sordera y enfermedades. El mejor conjuro de curación pura disponible. Usar fuera de combate o en emergencia absoluta (rompe Rage).
 2. **Heroes' Feast 🟢 [Buff de grupo — Pre-aventura]:** Cura enfermedades, otorga inmunidad a veneno y miedo, y $2d10$ HP máximos extra a todo el grupo durante 24 horas. Requiere 1 hora de festín y 1000 po en componentes.
-3. **Transport via Plants 🟢 [Utilidad — Transporte]:** Crea un portal entre dos plantas que conozcas en el mismo plano. Fantástico para movilidad estratégica del grupo.
 
 ### Nivel 5 (5th Level) — 2 ranuras
 
@@ -41,7 +38,6 @@ Esta lista detalla la selección de conjuros sugerida para el **Moon Guardian**.
 
 1. **Fire Shield 🔵 [Pre-combate — Sin Concentración — CLAVE]:** Otorga resistencia a fuego O frío (eliges al lanzar) durante 10 minutos sin concentración. Cuando un enemigo a 5 pies te golpea con cuerpo a cuerpo, sufre $2d8$ de daño (~9 media). **Funciona durante Wild Shape y Rage**. En un tanque que atrae ataques constantemente, genera daño pasivo brutal.
 2. **Freedom of Movement 🟢 [Utilidad — Sin Concentración]:** Un aliado o tú mismo no puede ser paralizado, restringido ni ralentizado por magia durante 1 hora. Excelente seguro.
-3. **Charm Monster 🟡 [Control social]:** Opción situacional para neutralizar amenazas sin combate.
 
 ### Nivel 3 (3rd Level) — 3 ranuras
 
@@ -52,15 +48,23 @@ Esta lista detalla la selección de conjuros sugerida para el **Moon Guardian**.
 ### Nivel 2 (2nd Level) — 3 ranuras
 
 1. **Pass Without Trace 🔵 [Sigilo de grupo]:** Concentración, 1 hora. Otorga $+10$ a pruebas de Sigilo a todo el grupo dentro de 30 pies. Convierte al grupo entero en fantasmas.
-2. **Healing Spirit 🟢 [Curación post-combate]:** Espíritu curativo que restaura HP al pasar por su espacio. Excelente para curación distribuida eficiente.
-3. **Lesser Restoration 🟢 [Eliminación de condiciones menores]:** Elimina una enfermedad o condición (ceguera, sordera, paralizado, envenenado).
+2. **Lesser Restoration 🟢 [Eliminación de condiciones menores]:** Elimina una enfermedad o condición (ceguera, sordera, paralizado, envenenado).
 
 ### Nivel 1 (1st Level) — 4 ranuras
 
-1. **Goodberry 🔵 [Curación y utilidad]:** Crea 10 bayas que curan 1 HP cada una. Útil para estabilizar aliados inconscientes a distancia y como alimento para 10 criaturas por día.
+1. **Goodberry 🔵 [Curación y utilidad]:** Crea 10 bayas que curan 1 HP cada una. Útil para estabilizar aliados inconscientes a distancia.
 2. **Healing Word 🔵 [Curación a distancia — Bonus Action]:** Cura $1d4 + \text{WIS}$ a 60 pies como acción adicional. Crucial para levantar aliados caídos sin dejar de pelear (pero rompe Rage).
-3. **Cure Wounds 🟢 [Curación por contacto]:** Cura $1d8 + \text{WIS}$ por contacto. Más curación que Healing Word pero requiere acción y alcance de toque.
-4. **Longstrider 🟢 [Utilidad — Sin Concentración]:** $+10$ pies de movimiento durante 1 hora sin concentración. Apila con Fast Movement del Bárbaro para un total de $+20$ pies extras.
+3. **Longstrider 🟢 [Utilidad — Sin Concentración]:** $+10$ pies de movimiento durante 1 hora sin concentración. Apila con Fast Movement del Bárbaro para un total de $+20$ pies extras.
+
+---
+
+### 🔄 Conjuros Alternativos / Opcionales (No preparados por defecto)
+*   **Regenerate (7.º):** Curación sostenida fuera de combate (Concentración, rompe Furia).
+*   **Fire Storm (7.º):** Daño de fuego de área masivo.
+*   **Transport via Plants (6.º):** Movilidad y portales terrestres.
+*   **Charm Monster (4.º):** Control social y diplomacia mágica.
+*   **Healing Spirit (2.º):** Curación eficiente distribuida post-combate.
+*   **Cure Wounds (1.º):** Curación básica por contacto.
 
 ---
 

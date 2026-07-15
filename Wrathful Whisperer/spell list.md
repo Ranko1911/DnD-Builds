@@ -58,14 +58,14 @@ Esta lista detalla la selección de conjuros sugerida para el build **Herald of 
 
 1. **Hypnotic Pattern 🔵 [Excelente - Control]:** Incapacita y reduce a 0 la velocidad de todas las criaturas en un cubo de 30 pies que fallen su salvación de Sabiduría.
 2. **Dispel Magic 🟢 [Excelente - Utilidad]:** Neutraliza efectos mágicos enemigos.
-3. **Slow 🟢 [Excelente - Control]:** Ralentiza y debilita a múltiples objetivos, limitando sus acciones, reacciones y CA.
+3. **Fear 🟢 [Excelente - Control / Bardo]:** Fuerza a los enemigos en un cono de 30 pies a soltar lo que lleven y quedar asustados (Frightened), teniendo que huir de ti mientras puedan verte.
 4. **Crusader's Mantle 🔵 [Excelente - Buff / Magical Secret]:** Aura de 30 pies que añade +1d4 de daño radiante a todos los ataques con arma de criaturas amistosas. Crucial para potenciar la Tempestad de Plata.
 
 ### Nivel 2 (2nd Level)
 
 1. **Hold Person 🔵 [Excelente - Nova]:** Paraliza a un humanoide para impactos críticos automáticos cuerpo a cuerpo.
-2. **Mirror Image 🟢 [Excelente - Defensa]:** Crea tres duplicados ilusorios que absorben ataques dirigidos a ti sin requerir concentración.
-3. **Misty Step 🟢 [Excelente - Movilidad]:** Teletransporte de 30 pies como acción adicional.
+2. **Suggestion 🟢 [Excelente - Control / Bardo]:** Sugiere una acción razonable a un objetivo que entienda tu idioma por hasta 8 horas (concentración).
+3. **Blindness/Deafness 🟢 [Excelente - Debuff / Bardo]:** Ciega o ensordece a un enemigo (salvación de CON) sin requerir concentración, ideal para mitigar amenazas físicas.
 
 ### Nivel 1 (1st Level)
 

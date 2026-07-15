@@ -36,7 +36,7 @@ Esta lista detalla la selección de conjuros óptima para el build **Clocklock**
 
 ## 🎒 Conjuros de Sorcerer (Alma de Relojería - 15 Conocidos + Spells de Clockwork)
 
-*La CD de salvación y ataques mágicos escala con tu Inteligencia/Carisma (Carisma $20$, modificador $+5$).*
+*La CD de salvación y ataques mágicos escala con tu Carisma ($20$, modificador $+5$).*
 
 ### 9.º Nivel (1 Conocido)
 
@@ -52,12 +52,14 @@ Esta lista detalla la selección de conjuros óptima para el build **Clocklock**
 
 ### 6.º Nivel (1 Conocido)
 
-1. **Globe of Invulnerability 🔵 [Defensa Arcana - Clockwork Magic]:** Barrera inmóvil que bloquea todos los conjuros de nivel 5 o menor dirigidos al interior.
+1. **Globe of Invulnerability 🔵 [Defensa Arcana]:** Barrera inmóvil que bloquea todos los conjuros de nivel 5 o menor dirigidos al interior.
 
-### 5.º Nivel (2 Conocidos)
+### 5.º Nivel (2 Conocidos + Spells de Clockwork)
 
-1. **Wall of Force 🔵 [Control Absoluto]:** Barrera invisible indestructible que separa o encierra enemigos sin salvación inicial.
+1. **Hold Monster 🔵 [Control Absoluto]:** Paraliza a una criatura (salvación de Sabiduría) para asegurar golpes críticos automáticos a corta distancia.
 2. **Synaptic Static 🟢 [Daño y Debuff]:** Daño psíquico en área que penaliza con $1d6$ los ataques y salvaciones enemigas sin requerir concentración.
+
+* *Clockwork Spells:* **Animate Objects** (Transmutación - excelente para daño masivo con objetos animados) y **Telekinesis** (Transmutación).
 
 ### 4.º Nivel (2 Conocidos + Spells de Clockwork)
 
