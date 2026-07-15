@@ -2,6 +2,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let buildsData = [];
     let selectedBuild = null;
     let selectedFile = 'character guide.md';
+    let lastScrollTop = 0;
 
     const ORDERED_FILES = [
         'character guide.md',
@@ -62,6 +63,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     // Mobile specific controls
     const btnBackCatalog = document.getElementById('btn-back-catalog');
+    const btnBackBottom = document.getElementById('btn-back-bottom');
     const btnToggleFilters = document.getElementById('btn-toggle-filters');
     const filterGroup = document.getElementById('filter-group');
 
@@ -317,6 +319,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 
                 // Scroll details to top on file load
                 markdownViewer.scrollTop = 0;
+                buildContentView.classList.remove('hide-details-nav');
+                lastScrollTop = 0;
 
                 // Render KaTeX Math Equations
                 if (window.renderMathInElement) {
@@ -439,6 +443,15 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Bottom Back Button handler
+    if (btnBackBottom) {
+        btnBackBottom.addEventListener('click', () => {
+            navigateTo(null);
+            if (filterGroup) filterGroup.classList.remove('active');
+            if (btnToggleFilters) btnToggleFilters.classList.remove('active');
+        });
+    }
+
     // Mobile Filters toggle handler
     if (btnToggleFilters && filterGroup) {
         btnToggleFilters.addEventListener('click', () => {
@@ -446,6 +459,27 @@ document.addEventListener('DOMContentLoaded', () => {
             btnToggleFilters.classList.toggle('active');
         });
     }
+
+    // Scroll event on markdown viewer to hide/show header & tabs
+    const scrollThreshold = 10;
+    markdownViewer.addEventListener('scroll', () => {
+        const scrollTop = markdownViewer.scrollTop;
+        
+        // Don't trigger if scroll change is too small
+        if (Math.abs(scrollTop - lastScrollTop) <= scrollThreshold) {
+            return;
+        }
+
+        if (scrollTop > lastScrollTop && scrollTop > 50) {
+            // Scrolling down -> hide header and tabs
+            buildContentView.classList.add('hide-details-nav');
+        } else {
+            // Scrolling up -> show header and tabs
+            buildContentView.classList.remove('hide-details-nav');
+        }
+        
+        lastScrollTop = scrollTop;
+    });
 
     // Watch hashchange
     window.addEventListener('hashchange', handleHashChange);

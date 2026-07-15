@@ -436,6 +436,12 @@ body {
     background-color: rgba(16, 21, 36, 0.4);
     border-bottom: 1px solid var(--border-color);
     flex-shrink: 0;
+    max-height: 200px;
+    transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                padding 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                border-bottom-width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
 }
 
 .detail-title-row {
@@ -490,6 +496,32 @@ body {
     border-bottom: 1px solid var(--border-color);
     padding: 0 1.5rem;
     flex-shrink: 0;
+    max-height: 100px;
+    transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                padding 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1), 
+                border-bottom-width 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    overflow: hidden;
+}
+
+/* Collapsible Navigation State */
+.hide-details-nav .detail-header {
+    max-height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom-width: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none;
+}
+
+.hide-details-nav .detail-tabs {
+    max-height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom-width: 0 !important;
+    opacity: 0 !important;
+    pointer-events: none;
+    overflow: hidden !important;
 }
 
 .tab-btn {
