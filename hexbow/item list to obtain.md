@@ -5,10 +5,10 @@
 *Nota de Reglas de Manos Libres:* No se incluyen escudos en esta lista, ya que disparar una ballesta de mano con la propiedad *munición* requiere una mano libre para recargar en cada disparo (incluso con la dote *Crossbow Expert*).
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Rod of the Pact Keeper +1 (1 slot), Aljaba del Susurro Colérico (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Rod of the Pact Keeper +2 (1, reemplaza +1), Aljaba del Susurro Colérico (1), Cloak of Protection (1). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Rod of the Pact Keeper +3 (1, reemplaza +2), Aljaba del Susurro Colérico (1), Ring of Protection (1). (Cloak of Protection se lleva sin sintonizar). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Aljaba del Susurro Colérico (1), Rod of the Pact Keeper +3 (1), Ring of Spell Turning (1, reemplaza Ring of Protection) o Ring of Protection (1). (Tome of Leadership y armaduras no requieren sintonización). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Rod of the Pact Keeper +1 (1 slot), Aljaba del Susurro Colérico (Homebrew) (1 slot). (Hand Crossbow +1 no requiere sintonización). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Aljaba del Susurro Colérico (1 slot), Amulet of Health (1 slot), Cloak of Protection o Rod of the Pact Keeper +2 (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Aljaba del Susurro Colérico (1), Amulet of Health (1), Cloak of Displacement (1). (Hand Crossbow +2/3 y Quiver of Ehlonna no requieren sintonización). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Amulet of Health (1), Cloak of Displacement (1), Ring of Protection o Rod of the Pact Keeper +3 (1). (La ballesta de mano Hand Crossbow +3 es no sintonizada, liberando la sintonización para defensas y utilidad. Tome of Leadership no requiere sintonización). (Total: 3).
 
 ---
 
@@ -81,3 +81,11 @@ Esta aljaba de cuero oscuro está adornada con detalles de latón pulido y engra
 * **Munición Siniestra:** Los ataques de ballesta de mano realizados por el portador ignoran la cobertura media y tres cuartos (no requiriendo la dote Sharpshooter para esta ventaja específica).
 * **Halcón Hambriento:** Cuando utilizas tu característica de clase *Action Surge*, ganas un ataque de ballesta de mano adicional en esa ronda (para un total de 6 ataques).
 * **Precisión del Brujo:** Recuperas 1 dado de superioridad de Battle Master gastado cada vez que realizas un impacto crítico contra un objetivo afectado por tu *Hexblade's Curse*.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Studded Leather Armor +3** | Legendario | **Prioridad Alta:** CA base de 15 + DEX (17 total) sin gastar ranuras de sintonización. |
+| **Tome of Leadership and Influence** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Carisma en $+2$ y su límite a 22 (más daño y ataque). |
+| **Quiver of Ehlonna** | Poco Común | **Prioridad Media:** Almacenamiento eficiente de proyectiles de diversos tamaños para un francotirador. |

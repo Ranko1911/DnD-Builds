@@ -8,11 +8,15 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Scimitar of Speed** o **Holy Avenger (Rapier)** (Sintonizado)
-2. **Belt of Dwarvenkind** (Sintonizado)
-3. **Cloak of Displacement** o **Ring of Protection** (Sintonizado)
+1. **Holy Avenger (Rapier)** (Sintonizado)
+2. **Scimitar of Speed** (Sintonizado)
+3. **Cloak of Displacement** (Sintonizado)
 
 ## Inventario General (Mochila / Bag of Holding)
+
+* **Shield +3** (No requiere sintonización)
+* **Goggles of Night** (No requiere sintonización - Otorga Visión en la Oscuridad a 60 pies)
+* **Tome of Leadership and Influence** (Leído, no requiere sintonización)
 
 * **Bag of Holding**
 * Traje de bufón y cascabeles (Jester's costume & bells)

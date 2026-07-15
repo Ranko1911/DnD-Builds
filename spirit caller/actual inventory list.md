@@ -8,8 +8,9 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Pearl of Power** (Sintonizado): Permite recuperar un espacio de conjuro de nivel 3 una vez al día (mitiga el coste diario de *Animate Dead*).
-2. **Arcane Grimoire +1** (Sintonizado): $+1$ a la CD de conjuros de Mago y tiradas de ataque, y mejora tu Recuperación Arcana.
+1. **Pearl of Power** (Sintonizado)
+2. **Arcane Grimoire +1** (Sintonizado)
+3. **Ring of Spell Storing** (Sintonizado)
 
 ## Equipamiento de Esbirros (Skeletons)
 
@@ -18,6 +19,10 @@
 * 4 juegos de retazos de cuero (para armaduras improvisadas si el DM lo permite)
 
 ## Inventario General
+
+* **Broom of Flying** (No requiere sintonización)
+* **Cape of the Mountebank** (No requiere sintonización - Dimension Door de emergencia)
+* **Tome of Clear Thought** (Leído, no requiere sintonización)
 
 * Cadáveres/huesos humanoides de repuesto (para *Animate Dead*)
 * Pociones de Curación

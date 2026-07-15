@@ -9,10 +9,15 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **+2 Wand of the War Mage** (Sintonizado): $+2$ a las tiradas de ataque de tus conjuros e ignoras cobertura media.
-2. **+1 Amulet of the Devout** (Sintonizado): $+1$ a las tiradas de ataque y CD de tus conjuros de Clérigo. Te otorga un uso adicional de Canalizar Divinidad por descanso largo.
+1. **Arcane Grimoire +3** (Sintonizado - Reemplaza Wand of the War Mage)
+2. **Amulet of the Devout +1 + CMT** (Sintonizado - Combo Homebrew)
+3. **Staff of Power** (Sintonizado)
 
 ## Inventario General (Mochila)
+
+* **Sentinel Shield** (No requiere sintonización)
+* **Plate Armor +3** (No requiere sintonización)
+* **Tome of Clear Thought** (Leído, no requiere sintonización)
 
 * Mochila de Sacerdote
 * Pociones de Curación

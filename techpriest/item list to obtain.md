@@ -3,10 +3,10 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Artificer 14)
-*   **Tier 1 (Niveles 1-4):** Amulet of the Devout +1 (1 slot), Núcleo del Dios Máquina (Homebrew) (1 slot). (Sentinel Shield y armaduras no requieren sintonización). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Núcleo del Dios Máquina (1 slot), All-Purpose Tool +1 (1 slot), Amulet of the Devout +2 (1 slot, reemplaza +1), Cloak of Protection (1 slot - infundido), Ring of Protection (1 slot - infundido). (Total: 5).
-*   **Tier 3 (Niveles 11-16):** Núcleo del Dios Máquina (1), All-Purpose Tool +2 (1, reemplaza +1), Amulet of the Devout +3 (1, reemplaza +2), Cloak of Protection (1 - infundido), Ring of Protection (1 - infundido). (Total: 5).
-*   **Tier 4 (Niveles 17-20):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1, reemplaza +2), Amulet of the Devout +3 (1), Cloak of Protection (1 - infundido), Ring of Protection (1 - infundido). (Ioun Stone of Mastery y Tome of Clear Thought se llevan/usan sin sintonizar. Armadura y escudo +3 no requieren sintonización). (Total: 5).
+*   **Tier 1 (Niveles 1-4):** Amulet of the Devout +1 (1 slot), Núcleo del Dios Máquina (Homebrew) (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Núcleo del Dios Máquina (1 slot), All-Purpose Tool +1 (1 slot), Amulet of the Devout +2 (1 slot), Cloak of Protection (1 slot), Ring of Protection (1 slot). (Total: 5).
+*   **Tier 3 (Niveles 11-16):** Núcleo del Dios Máquina (1), All-Purpose Tool +2 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Total: 5).
+*   **Tier 4 (Niveles 17-20):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Tome of Clear Thought y Armadura +3 no requieren sintonización). (Total: 5).
 
 ---
 
@@ -77,3 +77,12 @@ Este pesado medallón de bronce y engranajes de hierro late con una pálida luz 
 * **Mente de Silicio:** Añade tu modificador de Inteligencia ($+5$) a tus pruebas de salvación de concentración para mantener conjuros (esta bonificación apila con Flash of Genius).
 * **Sobrecarga del Núcleo:** Una vez por descanso largo, como acción adicional, puedes sobrecargar tus sistemas de energía. Durante 1 minuto, todos tus ataques con tus puños de trueno (*Thunder Gauntlets*) infligen $1d8$ de daño de relámpago adicional en caso de impacto, y ganas resistencia a todo el daño físico no mágico.
 * **Reparación Rápida:** Puedes usar el truco *Mending* como una acción de combate en tu turno (en lugar de su tiempo de lanzamiento de 1 minuto) para curar a un constructo o a ti mismo (siendo de raza Warforged) por $2d6$ puntos de vida.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Sentinel Shield** | Poco Común | **Prioridad Alta:** Aumenta tu Iniciativa y Percepción pasiva sin ocupar ranuras de sintonización. |
+| **Plate Armor +3** | Legendario | **Prioridad Alta:** CA base de 21 sin sintonizar. Te sitúa en la vanguardia defensiva del juego. |
+| **Tome of Clear Thought** | Muy Raro | **Prioridad Alta:** Aumenta tu Inteligencia en $+2$ y su límite a 22 (más efectividad de Puños de Trueno). |
+| **Manual of Bodily Health** | Muy Raro | **Prioridad Alta:** Aumenta tu Constitución en $+2$ y su límite a 22, otorgándote HP masivos. |

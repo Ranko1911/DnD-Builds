@@ -3,10 +3,10 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** 0 slots ocupados (utiliza armas/armaduras no sintonizadas).
-*   **Tier 2 (Niveles 5-10):** Flame Tongue (1 slot), Belt of Dwarvenkind (1 slot), Cascabel de la Burla de Hlal (Homebrew) (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Cascabel de la Burla de Hlal (1), Scimitar of Speed (1), Belt of Dwarvenkind o Ring of Protection (1). (Flame Tongue se libera). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Cascabel de la Burla de Hlal (1), Holy Avenger (1, reemplaza Scimitar o Belt), Scimitar of Speed o Belt of Dwarvenkind (1). (Tome of Leadership y armaduras no requieren sintonización). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** 0 slots ocupados.
+*   **Tier 2 (Niveles 5-10):** Flame Tongue (1 slot), Belt of Dwarvenkind (1), Cascabel de la Burla de Hlal (Homebrew) (1). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Cascabel de la Burla de Hlal (1), Scimitar of Speed (1), Cloak of Displacement (1). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Holy Avenger (1), Scimitar of Speed (1), Cloak of Displacement (1). (Tome of Leadership, Shield +3 y Goggles of Night no requieren sintonización). (Total: 3).
 
 ---
 
@@ -66,3 +66,11 @@ Este pequeño cascabel de cobre brilla con una luz dorada tenue y suena con una 
 * **Foco del Bufón:** El cascabel funciona como un foco de lanzamiento de conjuros unificado para tus conjuros de Paladín y Bardo.
 * **Risa Desafiante:** Como acción adicional, puedes hacer sonar el cascabel para forzar a una criatura a 30 pies a realizar una salvación de Sabiduría contra tu CD de conjuros de Bardo. Si falla, el objetivo tiene desventaja en todas sus tiradas de ataque contra cualquier criatura que no seas tú hasta el final de su siguiente turno.
 * **Inspiración Audaz:** Cuando usas un dado de Inspiración Bárdica para realizar un *Blade Flourish* (Floreo de Espada), puedes tirar dos veces el dado de inspiración y elegir el resultado más alto.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Shield +3** | Legendario | **Prioridad Alta:** CA pasiva gigante de $+5$ sin gastar ranuras de sintonización. |
+| **Tome of Leadership and Influence** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Carisma en $+2$ y su límite a 22 (más usos de Inspiración Bárdica y mejor CD de conjuros). |
+| **Goggles of Night** | Poco Común | **Prioridad Alta:** Soluciona la carencia de visión en la oscuridad de tu raza Dragonborn de forma gratuita sin sintonización. |

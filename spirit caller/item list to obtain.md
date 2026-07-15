@@ -66,3 +66,11 @@ Este anillo de plata envejecida tiene la forma de un uróboros formado por peque
 * **Alzamiento Ectoplásmico (Sin Cadáveres):** Ya no necesitas disponer de cadáveres o pilas de huesos físicos para lanzar conjuros de la escuela de Nigromancia que animen o creen muertos vivientes (como *Animate Dead*). El anillo condensa ectoplasma y energía residual del Plano de la Sombra para formar las estructuras físicas necesarias para tus sirvientes.
 * **Lazo de Alma Colectivo:** Cuando mantienes la concentración en un conjuro (como *Summon Undead* o *Bless*) y sufres daño que te obliga a realizar una Tirada de Salvación de Constitución para no perderla, puedes usar tu **Reacción** para redirigir parte de la fuerza destructiva. Una criatura muerta viviente bajo tu control a menos de 30 pies de ti recibe la mitad del daño que ibas a sufrir, y tú obtienes **Ventaja** en la Tirada de Salvación de Constitución para mantener la concentración.
 * **Reabsorción Espectral:** Cuando un muerto viviente creado o invocado por ti (mediante *Animate Dead* o *Summon Undead*) es destruido por un ataque o efecto enemigo, puedes canalizar su esencia residual en ti como **Reacción**. Obtienes un número de **Puntos de Golpe Temporales** iguales a tu nivel de Mago.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Broom of Flying** | Poco Común | **OBTENIDO:** Vuelo de 50 pies constante sin requerir sintonización. Mantiene la distancia frente a cuerpo a cuerpo. |
+| **Tome of Clear Thought** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Inteligencia en $+2$ y su límite a 22 (más CD de conjuros y conjuros preparados). |
+| **Cape of the Mountebank** | Raro | **Prioridad Media:** Te da *Dimension Door* una vez al día sin requerir sintonización (escape táctico de emergencia). |

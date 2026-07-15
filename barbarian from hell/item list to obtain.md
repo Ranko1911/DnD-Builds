@@ -5,10 +5,10 @@
 *Nota de Build:* Este personaje usa armas de asta de dos manos (Glaive/Halberd) con *Polearm Master* y *Great Weapon Master*. Viste Half-Plate (armadura media, DEX +2). No puede usar escudo. Su sinergia principal es *Armor of Agathys* + Rage (daño reflejado protegido por resistencia). Los objetos priorizan: supervivencia de Temp HP > CD de conjuros Warlock > daño cuerpo a cuerpo.
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo (1 slot). (2 libres).
-*   **Tier 2 (Niveles 5-10):** Eldritch Claw Tattoo (1 slot), Rod of the Pact Keeper +2 (1 slot), Reliquia de la Furia Infernal (Homebrew) (1 slot). (Cloak of Protection se lleva sin sintonizar). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Reliquia de la Furia Infernal (1), Rod of the Pact Keeper +3 (1, reemplaza +2), Eldritch Claw Tattoo o Ring of Protection (1). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Reliquia de la Furia Infernal (1), Rod of the Pact Keeper +3 (1), Blackrazor (1, reemplaza Eldritch Claw Tattoo/Ring of Protection) o Eldritch Claw Tattoo (1). (Manuals y armaduras no requieren sintonización). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo o Rod of the Pact Keeper +1 (1 slot). (2 libres).
+*   **Tier 2 (Niveles 5-10):** Belt of Hill Giant Strength (1 slot), Reliquia de la Furia Infernal (Homebrew) (1 slot), Eldritch Claw Tattoo o Rod of the Pact Keeper +2 (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Reliquia de la Furia Infernal (1), Belt of Fire Giant Strength (1), Cloak of Displacement o Rod of the Pact Keeper +3 (1). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Reliquia de la Furia Infernal (1), Belt of Fire/Cloud Giant Strength (1), Cloak of Displacement o Rod of the Pact Keeper +3 (1). (El Rod permite recuperar 1 espacio de nivel 5 de Warlock para lanzar *Armor of Agathys* adicional antes de la Furia. Blackrazor y Cape of the Mountebank no requieren sintonización). (Total: 3).
 
 ---
 
@@ -80,3 +80,12 @@ Este fragmento de obsidiana al rojo vivo está engarzado en un brazalete de cuer
 * **Sed de Almas:** Mientras estás en furia (*Rage*), infliges $+2$ de daño de fuego adicional en todos tus ataques con armas cuerpo a cuerpo.
 * **Escudo de Cenizas:** Mientras tengas puntos de golpe temporales activos proporcionados por el conjuro *Armor of Agathys*, cualquier atacante cuerpo a cuerpo que te golpee sufre un daño de fuego adicional igual a la mitad de tu nivel de Warlock ($+7$ de daño de fuego a nivel 14) además del daño de frío del conjuro.
 * **Furia del Castigo:** Puedes activar tu invocación *Eldritch Smite* una vez por descanso largo sin gastar una ranura de conjuro de Warlock.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Half-Plate +3** | Legendario | **Prioridad Alta:** Aumenta tu CA base a 20 (sin usar escudo ni gastar ranuras de sintonización). |
+| **Cape of the Mountebank** | Raro | **Prioridad Media:** Permite lanzar *Dimension Door* una vez al día para movilidad instantánea o escape sin sintonizar. |
+| **Manual of Gainful Exercise** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Fuerza en $+2$ y su límite a 22. No requiere sintonización tras su uso. |
+| **Manual of Bodily Health** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Constitución en $+2$ y su límite a 22 (más HP y mejor concentración). |

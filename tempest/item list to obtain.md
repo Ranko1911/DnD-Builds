@@ -5,10 +5,10 @@
 *Nota de Mesa:* El Collar del Moldeador de Tormentas (CMT) está fusionado con el Amulet of the Devout como un solo objeto con una única ranura de sintonización (homebrew de mesa).
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Devout+CMT +1. (Sentinel Shield no requiere sintonización). (1 slot ocupado, 2 libres).
-*   **Tier 2 (Niveles 5-10):** Devout+CMT +2, Amulet of Health, Weapon of Warning (Warhammer). (3 slots ocupados).
-*   **Tier 3 (Niveles 11-16):** Devout+CMT +3, Staff of Power. El tercer slot se disputa entre Amulet of Health (vida/concentración) o Weapon of Warning (Iniciativa). (3 slots ocupados).
-*   **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Ioun Stone of Mastery. (Se liberan Amulet of Health y Weapon of Warning gracias a tu CON 17 base y la iniciativa/protección provistas por otros efectos). (3 slots ocupados).
+*   **Tier 1 (Niveles 1-4):** Devout+CMT +1. (Total: 1).
+*   **Tier 2 (Niveles 5-10):** Devout+CMT +2, Arcane Grimoire +2, Amulet of Health. (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Devout+CMT +3, Arcane Grimoire +3, Staff of Power. (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Staff of Power (o Ioun Stone). (Tome of Clear Thought y Plate +3 no requieren sintonización). (Total: 3).
 
 ---
 
@@ -85,3 +85,11 @@ El amuleto canaliza la energía destructiva pura, permitiendo al usuario abrir
   (Ira de la Tormenta) mientras llevas puesto este collar, puedes elegir que el
   atacante sea empujado 10 pies en línea recta lejos de ti en lugar de recibir
   el daño normal, sin necesidad de que realice una Tirada de Salvación.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Sentinel Shield** | Poco Común | **Prioridad Alta:** Ventaja en Iniciativa para meter tus Iras Destructivas antes de que se disperse el enemigo. |
+| **Plate Armor +3** | Legendario | **Prioridad Alta:** Eleva tu CA pasiva a 21 de forma gratuita sin sintonización. |
+| **Tome of Clear Thought** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Inteligencia en $+2$ y su límite a 22. |

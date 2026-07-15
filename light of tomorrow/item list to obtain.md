@@ -4,9 +4,9 @@
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
 *   **Tier 1 (Niveles 1-4):** Bloodwell Vial +1 (1 slot), Corona de la Doncella Divina (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2 (1, reemplaza +1), Corona de la Doncella Divina (1), Cloak of Protection o Ring of Spell Storing (1). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Corona de la Doncella Divina (1), Illusionist's Bracers (1), Bloodwell Vial +3 (1, reemplaza +2). (Capa/Anillo de Protección se llevan sin sintonizar). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Corona de la Doncella Divina (1), Illusionist's Bracers (1), Staff of the Magi (1, reemplaza Bloodwell Vial +3). (Tome of Leadership y armaduras no requieren sintonización). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2 (1, reemplaza +1), Corona de la Doncella Divina (1), Illusionist's Bracers (1). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Corona de la Doncella Divina (1), Illusionist's Bracers (1), Robe of the Archmagi (1). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Robe of the Archmagi (1), Illusionist's Bracers (1), Staff of the Magi (1). (Corona de la Doncella Divina y Tome of Leadership no requieren sintonización o se rotan). (Total: 3).
 
 ---
 
@@ -68,3 +68,11 @@ Esta tiara de plata y oro está rematada por pequeñas gemas oscuras que parecen
 * **Foco del Pacto Divino:** La tiara sirve como foco de lanzamiento universal para conjuros de Clérigo, Mago, Sorcerer y Warlock.
 * **Sifón de Vida Eldritch:** Cuando infliges daño a una criatura maldita por tu *Hexblade's Curse* o afectada por tu *Hex* usando tu truco *Eldritch Blast*, puedes elegir a un aliado que puedas ver a menos de 30 pies de la criatura objetivo. Ese aliado recupera un número de puntos de vida igual a tu modificador de Carisma ($+5$). Puedes usar esta característica un número de veces igual a tu bonificador de competencia por descanso largo.
 * **Curación Gemela Eficiente:** Cuando utilizas la Metamagia *Twinned Spell* para duplicar un conjuro de curación (como *Heal* o *Healing Word*), el coste de Puntos de Sorcería se reduce en 1 (mínimo de 1 punto).
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Shield +3** | Legendario | **Prioridad Alta:** Otorga $+5$ de CA pasiva total sin coste de sintonización. |
+| **Tome of Leadership and Influence** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Carisma en $+2$ y su límite a 22 (más curación, soporte y daño de Eldritch Blast). |
+| **Clockwork Amulet** | Común | **Prioridad Media:** Asegura un valor de 10 en un ataque crucial una vez al día sin sintonizar. |

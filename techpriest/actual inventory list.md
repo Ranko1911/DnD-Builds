@@ -11,8 +11,15 @@
 1. **Amulet of the Devout +1** (Sintonizado)
 2. **All-Purpose Tool +1** (Sintonizado)
 3. **Cloak of Protection** (Sintonizado - Infusión de Artífice)
+4. **Ring of Protection** (Sintonizado - Infusión de Artífice)
+5. **Ring of Spell Storing** (Sintonizado - Infusión de Artífice)
 
 ## Inventario General (Mochila)
+
+* **Sentinel Shield** (No requiere sintonización - Iniciativa y Percepción)
+* **Plate Armor +3** (No requiere sintonización - AC pasiva)
+* **Tome of Clear Thought** (Leído, no requiere sintonización)
+* **Manual of Bodily Health** (Leído, no requiere sintonización)
 
 * Thieves' Tools (Herramientas de ladrón)
 * Tinkerer's Tools (Herramientas de chapuzas)

@@ -8,11 +8,15 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Bracers of Defense** (Sintonizado) — +2 CA sin armadura/escudo
-2. **Periapt of Wound Closure** (Sintonizado) — Estabilización automática, curación duplicada
-3. *[Espacio libre]* (Sin sintonizar)
+1. **Bracers of Defense** (Sintonizado)
+2. **Periapt of Wound Closure** (Sintonizado)
+3. **Belt of Fire Giant Strength** (Sintonizado - Fuerza 25)
 
 ## Inventario General (Mochila / Bag of Holding)
+
+* **Insignia of Claws** (No requiere sintonización - +1 ataque/daño y mágico en Wild Shape)
+* **Sentinel Shield** (No requiere sintonización)
+* **Manual of Bodily Health** (Leído, no requiere sintonización)
 
 * Herbalist's Kit (Herramientas de herbalista)
 * Component Pouch (Bolsa de componentes druídicos)

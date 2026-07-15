@@ -8,9 +8,15 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Bloodwell Vial +1** (Sintonizado): $+1$ a la CD de tus conjuros de Sorcerer y tiradas de ataque. Una vez al día, recuperas 5 puntos de sorcería cuando gastas dados de golpe durante un descanso corto.
+1. **Bloodwell Vial +1** (Sintonizado)
+2. **Illusionist's Bracers** (Sintonizado)
+3. **Robe of the Archmagi** (Sintonizado)
 
 ## Inventario General (Mochila / Bag of Holding)
+
+* **Shield +3** (No requiere sintonización)
+* **Clockwork Amulet** (No requiere sintonización)
+* **Tome of Leadership and Influence** (Leído, no requiere sintonización)
 
 * Mochila de Explorador
 * Pociones de Curación (Healing Potions)

@@ -6,9 +6,9 @@
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
 *   **Tier 1 (Niveles 1-4):** Moon Sickle +1 (1 slot), Cloak of Elvenkind (1 slot), Brújula Maldita del Mar Sin Sol (Homebrew) (1 slot). (Total: 3).
-*   **Tier 2 (Niveles 5-10):** Moon Sickle +2 (1, reemplaza +1), Brújula Maldita del Mar Sin Sol (1), Cloak of Protection o Ring of Protection (1). (Cloak of Elvenkind se lleva sin sintonizar). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Brújula Maldita del Mar Sin Sol (1), Staff of Power (1), Moon Sickle +3 (1, reemplaza +2). (Capa y Anillo de Protección se llevan sin sintonizar). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Brújula Maldita del Mar Sin Sol (1), Orb of Dragonkind (1), Robe of the Archmagi (1). (Staff of Power y Moon Sickle +3 se llevan sin sintonizar. Tome of Understanding no requiere sintonización). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Moon Sickle +2 (1, reemplaza +1), Brújula Maldita del Mar Sin Sol (1), Robe of the Archmagi (1). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Robe of the Archmagi (1), Staff of Power (1), Moon Sickle +3 (1). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Orb of Dragonkind (1), Robe of the Archmagi (1), Moon Sickle +3 (1). (Staff of Power se usa sin sintonizar si es necesario, o se rota. Tome of Understanding no requiere sintonización). (Total: 3).
 
 ---
 
@@ -68,3 +68,11 @@ Esta brújula de bronce desgastada por la sal tiene una aguja que gira sin contr
 * **Guía Espectral:** La brújula funciona como foco de conjuros unificado. Aumenta la CD de tus conjuros y tu bonificador de ataque con conjuros de Druida/Mago en $+1$.
 * **Manto de Bruma:** Como acción adicional, puedes hacer que una densa niebla surja de la brújula. Lanzas el conjuro *Fog Cloud* centrado en ti de forma gratuita, sin requerir concentración. La bruma dura 1 minuto y tú puedes ver a través de ella normalmente hasta 30 pies (gracias a tus ojos espectrales).
 * **Navegación Espectral:** Mientras estés sintonizado a la brújula, tienes ventaja en las tiradas de salvación de Inteligencia (Investigación) y Sabiduría (Percepción) para detectar ilusiones o desorientación náutica.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Sentinel Shield** | Poco Común | **Prioridad Alta:** Ventaja en Iniciativa para colocar conjuros de control de áreas antes que nadie. |
+| **Shield +3** | Legendario | **Prioridad Alta:** Incrementa tu CA pasiva en $+5$ (de madera/hueso para cumplir restricciones de druida). |
+| **Tome of Understanding** | Muy Raro | **Prioridad Alta:** Incrementa tu Sabiduría en $+2$ y su límite a 22 de forma permanente sin sintonización tras su lectura. |

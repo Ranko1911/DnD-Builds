@@ -4,9 +4,9 @@
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
 *   **Tier 1 (Niveles 1-4):** Bloodwell Vial +1. (1 slot ocupado, 2 libres).
-*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2, Cloak of Protection, Reloj de Arena del Caos Ordenado (Homebrew). (3 slots ocupados).
-*   **Tier 3 (Niveles 11-16):** Bloodwell Vial +3 (reemplaza +2), Illusionist's Bracers, Reloj de Arena del Caos Ordenado. (Cloak of Protection se lleva sin sintonizar). (3 slots ocupados).
-*   **Tier 4 (Niveles 17-20):** Reloj de Arena del Caos Ordenado, Illusionist's Bracers, Staff of the Magi (reemplaza Bloodwell Vial +3). (Tome of Leadership y armaduras no requieren sintonización). (3 slots ocupados).
+*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2, Illusionist's Bracers, Reloj de Arena del Caos Ordenado. (3 slots ocupados).
+*   **Tier 3 (Niveles 11-16):** Bloodwell Vial +3, Illusionist's Bracers, Robe of the Archmagi. (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Robe of the Archmagi, Illusionist's Bracers, Staff of the Magi. (Tome of Leadership y escudos no requieren sintonización). (Total: 3).
 
 ---
 
@@ -64,3 +64,11 @@ Este reloj de arena está fabricado en latón pulido y cristal reforzado. Su are
 * **Orden Inquebrantable:** Tu rasgo de clase *Restore Balance* recupera 1 uso de forma automática cada vez que realizas un golpe crítico con un ataque de conjuro (como un rayo de *Eldritch Blast*).
 * **Dilatación Temporal:** Una vez por turno, cuando usas la Metamagia *Quickened Spell* (o las muñequeras de ilusionista) para lanzar *Eldritch Blast* como acción adicional, la criatura objetivo ve su velocidad de movimiento reducida a la mitad durante su siguiente turno si es impactada por al menos 2 rayos.
 * **Escudo de Engranajes:** Cuando gastas puntos de sorcería para activar tu rasgo de clase *Bastion of Law*, cada dado protector de $1d8$ en el que obtengas un resultado de 1 o 2 puede ser relanzado una vez (debiendo usar el nuevo resultado).
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Shield +3** | Legendario | **Prioridad Alta:** Te otorga $+5$ de CA de forma puramente pasiva y gratuita sin requerir sintonización. |
+| **Tome of Leadership and Influence** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Carisma en $+2$ y su límite a 22, mejorando el daño de cada rayo de *Eldritch Blast*. |
+| **Eversmoking Bottle** | Poco Común | **Prioridad Media:** Sinergiza con *Devil's Sight* para crear ventaja constante y desventaja enemiga sin coste de sintonización. |

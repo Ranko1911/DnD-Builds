@@ -9,10 +9,13 @@
 ## Objetos Mágicos Sintonizados (Attuned)
 
 1. **Bloodwell Vial +1** (Sintonizado)
-2. **Cloak of Protection** (Sintonizado)
-3. **Ring of Protection** (Sintonizado)
+2. **Illusionist's Bracers** (Sintonizado)
+3. **Robe of the Archmagi** (Sintonizado)
 
 ## Inventario General (Mochila)
+
+* **Shield +3** (No requiere sintonización)
+* **Eversmoking Bottle** (No requiere sintonización - Sinergia con Devil's Sight)
 
 * Thieves' Tools (Herramientas de ladrón)
 * Poción de curación común (3)

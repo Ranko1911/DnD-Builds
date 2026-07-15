@@ -4,9 +4,9 @@
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
 *   **Tier 1 (Niveles 1-4):** Amulet of Proof Against Detection (1 slot), Tótem del Guardián Lunar (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Tótem del Guardián Lunar (1 slot), Bracers of Defense (1 slot), Periapt of Wound Closure o Dragonhide Belt +1 (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Tótem del Guardián Lunar (1), Dragonhide Belt +2 (1, reemplaza +1), Bracers of Defense or Ring of Protection (1). (Periapt of Wound Closure sin sintonizar). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Tótem del Guardián Lunar (1), Dragonhide Belt +3 (1, reemplaza +2), Ring of Spell Storing (1). (Bracers of Defense y Ring of Protection se llevan sin sintonizar. Tome of Understanding y Manuals no requieren sintonización). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Tótem del Guardián Lunar (1 slot), Bracers of Defense (1 slot), Periapt of Wound Closure (1). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Bracers of Defense (1), Periapt of Wound Closure (1), Belt of Hill Giant Strength (1). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Bracers of Defense (1), Periapt of Wound Closure (1), Belt of Fire Giant Strength (1). (Insignia of Claws, Sentinel Shield y Manuals no requieren sintonización). (Total: 3).
 
 ---
 
@@ -65,3 +65,11 @@ Un medallón de madera petrificada tallado con la silueta de un lobo aullando a 
 * **Pelaje de la Luna:** Mientras estás en Wild Shape y Rage simultáneamente, ganas $+1$ a tu CA en forma bestial/elemental.
 * **Espíritus Vengadores:** Cuando usas Spirit Shield para reducir el daño de un aliado, el atacante sufre daño de fuerza igual a la cantidad de daño reducida.
 * **Aullido Ancestral:** Una vez por descanso largo, como acción adicional mientras estás en Rage, puedes extender el efecto de Ancestral Protectors a **dos** enemigos en lugar de uno hasta tu siguiente turno.
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **Insignia of Claws** | Poco Común | **Prioridad Crítica:** $+1$ al ataque y daño de tus armas naturales en Wild Shape, haciendo que tus golpes sean mágicos de forma pasiva y sin sintonización. |
+| **Sentinel Shield** | Poco Común | **Prioridad Alta:** Ventaja en Iniciativa y Percepción pasiva para tu forma humanoide inicial. |
+| **Manual of Bodily Health** | Muy Raro | **Prioridad Alta:** Aumenta tu Constitución en $+2$ y su límite a 22 (más HP y mejor CA pasiva en forma humana). |
