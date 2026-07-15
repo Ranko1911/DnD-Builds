@@ -6,7 +6,8 @@
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
     "folder": "barbarian from hell",
-    "youtube": null
+    "youtube": null,
+    "ratings": { "dpr": 7, "ehp": 9, "control": 3, "support": 2, "complexity": 4 }
   },
   {
     "id": "clocklock",
@@ -15,7 +16,8 @@
     "system": "D&D 5e (2014)",
     "role": "Backline Blaster / Probability Manipulator ( soporte )",
     "folder": "Clocklock",
-    "youtube": null
+    "youtube": null,
+    "ratings": { "dpr": 8, "ehp": 5, "control": 9, "support": 7, "complexity": 7 }
   },
   {
     "id": "cursed-pirate",
@@ -24,7 +26,8 @@
     "system": "D&D 5e (2014)",
     "role": "Controller / Blaster ",
     "folder": "cursed pirate",
-    "youtube": null
+    "youtube": null,
+    "ratings": { "dpr": 6, "ehp": 5, "control": 9, "support": 6, "complexity": 6 }
   },
   {
     "id": "hexbow",
@@ -33,7 +36,8 @@
     "system": "D&D 5e (2014)",
     "role": "Ranged Nova Striker / Battlefield Sniper",
     "folder": "hexbow",
-    "youtube": null
+    "youtube": null,
+    "ratings": { "dpr": 10, "ehp": 4, "control": 3, "support": 1, "complexity": 5 }
   },
   {
     "id": "light-of-tomorrow",
@@ -42,7 +46,8 @@
     "system": "D&D 5e (2014)",
     "role": "Backline Blaster / Primary Healer / Support",
     "folder": "light of tomorrow",
-    "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y"
+    "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y",
+    "ratings": { "dpr": 7, "ehp": 5, "control": 6, "support": 10, "complexity": 8 }
   },
   {
     "id": "spirit-caller",
@@ -51,7 +56,8 @@
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Backline Aerial Summoner / Controller",
     "folder": "spirit caller",
-    "youtube": null
+    "youtube": null,
+    "ratings": { "dpr": 5, "ehp": 3, "control": 8, "support": 4, "complexity": 7 }
   },
   {
     "id": "techpriest",
@@ -60,7 +66,8 @@
     "system": "D&D 5e (2014)",
     "role": "Frontline Dread Tank / Aggro Controller  ",
     "folder": "techpriest",
-    "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8"
+    "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8",
+    "ratings": { "dpr": 4, "ehp": 10, "control": 7, "support": 6, "complexity": 5 }
   },
   {
     "id": "tempest-demiurge",
@@ -69,7 +76,8 @@
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Gish Tank  Tactical AoE blaster",
     "folder": "tempest",
-    "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ"
+    "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ",
+    "ratings": { "dpr": 8, "ehp": 7, "control": 8, "support": 5, "complexity": 9 }
   },
   {
     "id": "wrathful-whisperer",
@@ -78,7 +86,8 @@
     "system": "D&D 5e (2014)",
     "role": "Frontline Striker / Evasion Tank",
     "folder": "Wrathful Whisperer",
-    "youtube": null
+    "youtube": null,
+    "ratings": { "dpr": 8, "ehp": 7, "control": 5, "support": 8, "complexity": 6 }
   },
   {
     "id": "moon-guardian",
@@ -87,6 +96,7 @@
     "system": "D&D 5e (2014)",
     "role": "Frontline Protector Tank / Off-Healer ( support )",
     "folder": "moon guardian",
-    "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY"
+    "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
+    "ratings": { "dpr": 4, "ehp": 10, "control": 6, "support": 8, "complexity": 4 }
   }
 ]

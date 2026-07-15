@@ -151,6 +151,10 @@ document.addEventListener('DOMContentLoaded', () => {
     const levelSlider = document.getElementById('level-slider');
     const levelValueEl = document.getElementById('level-value');
 
+    // Panel toggles
+    const toggleTracker = document.getElementById('toggle-tracker');
+    const toggleRadar = document.getElementById('toggle-radar');
+
     // Configure Marked Options
     marked.setOptions({
         gfm: true,
@@ -387,6 +391,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 loadTabContent();
                 updateNavButtons();
                 renderResourceTracker(build);
+                renderRadarChart(build);
             }
         }
     }
@@ -674,6 +679,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderResourceTracker(build) {
         const tracker = document.getElementById('resource-tracker');
         if (!tracker) return;
+        if (!toggleTracker || !toggleTracker.checked) { tracker.classList.add('hidden'); return; }
         
         // Use level-aware class split when available
         let levels;
@@ -846,6 +852,73 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // Render radar chart SVG for build ratings
+    function renderRadarChart(build) {
+        const panel = document.getElementById('radar-chart-panel');
+        if (!panel) return;
+        if (!toggleRadar || !toggleRadar.checked || !build.ratings) { panel.classList.add('hidden'); return; }
+
+        const r = build.ratings;
+        const axes = [
+            { key: 'dpr',        label: 'DPR',         val: r.dpr        || 0 },
+            { key: 'ehp',        label: 'EHP',         val: r.ehp        || 0 },
+            { key: 'control',    label: 'Control',     val: r.control    || 0 },
+            { key: 'support',    label: 'Soporte',     val: r.support    || 0 },
+            { key: 'complexity', label: 'Complejidad', val: r.complexity || 0 }
+        ];
+        const n = axes.length;
+        const cx = 160, cy = 140, maxR = 100;
+        const angleOff = -Math.PI / 2; // start at top
+
+        function polar(i, scale) {
+            const a = angleOff + (2 * Math.PI * i) / n;
+            return { x: cx + Math.cos(a) * maxR * scale, y: cy + Math.sin(a) * maxR * scale };
+        }
+
+        // Grid rings
+        let gridSvg = '';
+        [0.25, 0.5, 0.75, 1.0].forEach(s => {
+            const pts = [];
+            for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x},${p.y}`); }
+            gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>`;
+        });
+
+        // Axis lines
+        let axisSvg = '';
+        for (let i = 0; i < n; i++) {
+            const p = polar(i, 1);
+            axisSvg += `<line x1="${cx}" y1="${cy}" x2="${p.x}" y2="${p.y}" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>`;
+        }
+
+        // Data polygon
+        const dataPts = [];
+        for (let i = 0; i < n; i++) {
+            const p = polar(i, axes[i].val / 10);
+            dataPts.push(`${p.x},${p.y}`);
+        }
+        const dataFill = `rgba(99, 102, 241, 0.25)`;
+        const dataStroke = `rgba(99, 102, 241, 0.8)`;
+        const dataSvg = `<polygon points="${dataPts.join(' ')}" fill="${dataFill}" stroke="${dataStroke}" stroke-width="2"/>`;
+
+        // Data dots + labels
+        let dotsSvg = '';
+        let labelsSvg = '';
+        for (let i = 0; i < n; i++) {
+            const pDot = polar(i, axes[i].val / 10);
+            dotsSvg += `<circle cx="${pDot.x}" cy="${pDot.y}" r="3" fill="${dataStroke}"/>`;
+            // Axis label (outside)
+            const pLabel = polar(i, 1.2);
+            const anchor = pLabel.x < cx - 5 ? 'end' : pLabel.x > cx + 5 ? 'start' : 'middle';
+            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y}" text-anchor="${anchor}" dominant-baseline="central" class="radar-label">${axes[i].label}</text>`;
+            // Value label
+            const pVal = polar(i, 1.08);
+            labelsSvg += `<text x="${pVal.x}" y="${pVal.y + 11}" text-anchor="${anchor}" class="radar-value-label">${axes[i].val}/10</text>`;
+        }
+
+        panel.innerHTML = `<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${dataSvg}${dotsSvg}${labelsSvg}</svg>`;
+        panel.classList.remove('hidden');
+    }
+
     // --- Level slider logic ---
     if (levelSlider) {
         levelSlider.addEventListener('input', () => {
@@ -853,6 +926,18 @@ document.addEventListener('DOMContentLoaded', () => {
             if (levelValueEl) levelValueEl.textContent = selectedLevel;
             if (selectedBuild) renderResourceTracker(selectedBuild);
             if (selectedFile === 'roadmap.md') applyRoadmapFilter();
+        });
+    }
+
+    // --- Panel toggle logic ---
+    if (toggleTracker) {
+        toggleTracker.addEventListener('change', () => {
+            if (selectedBuild) renderResourceTracker(selectedBuild);
+        });
+    }
+    if (toggleRadar) {
+        toggleRadar.addEventListener('change', () => {
+            if (selectedBuild) renderRadarChart(selectedBuild);
         });
     }
 
