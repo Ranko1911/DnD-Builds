@@ -246,6 +246,35 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
             
+            // Add click handlers to badges for interactive filtering
+            const sysBadge = card.querySelector('.system-badge');
+            if (sysBadge) {
+                sysBadge.addEventListener('click', (e) => {
+                    e.stopPropagation(); // Avoid selecting the card
+                    filterSystem.value = is2024 ? '2024' : '2014';
+                    renderBuildsList();
+                });
+            }
+
+            const roleBadges = card.querySelectorAll('.role-badge');
+            roleBadges.forEach(badge => {
+                badge.addEventListener('click', (e) => {
+                    e.stopPropagation(); // Avoid selecting the card
+                    
+                    const badgeText = badge.textContent.toLowerCase().trim();
+                    let filterValue = 'all';
+                    
+                    if (badgeText.includes('tank') || badgeText.includes('frontline')) filterValue = 'tank';
+                    else if (badgeText.includes('blaster') || badgeText.includes('aoe')) filterValue = 'blaster';
+                    else if (badgeText.includes('controller') || badgeText.includes('controlador')) filterValue = 'controller';
+                    else if (badgeText.includes('striker') || badgeText.includes('dps') || badgeText.includes('melee')) filterValue = 'striker';
+                    else if (badgeText.includes('healer') || badgeText.includes('support') || badgeText.includes('soporte') || badgeText.includes('sanador')) filterValue = 'healer';
+                    
+                    filterRole.value = filterValue;
+                    renderBuildsList();
+                });
+            });
+
             card.addEventListener('click', () => {
                 navigateTo(build.id, 'character guide.md');
             });
