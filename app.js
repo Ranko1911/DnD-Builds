@@ -30,6 +30,84 @@ document.addEventListener('DOMContentLoaded', () => {
         'healer': ['healer', 'support', 'sanador', 'soporte']
     };
 
+    // Class Colors mapping for D&D classes
+    const CLASS_COLORS = {
+        'barbarian': { primary: '#ef4444', secondary: '#b91c1c' }, // Reds
+        'bard': { primary: '#ec4899', secondary: '#a855f7' },      // Pink/Purple
+        'cleric': { primary: '#eab308', secondary: '#ca8a04' },    // Golds
+        'druid': { primary: '#10b981', secondary: '#047857' },     // Greens
+        'fighter': { primary: '#64748b', secondary: '#475569' },   // Steels
+        'monk': { primary: '#06b6d4', secondary: '#0891b2' },      // Cyans
+        'paladin': { primary: '#f59e0b', secondary: '#d97706' },    // Ambers
+        'ranger': { primary: '#84cc16', secondary: '#65a30d' },     // Lime/Olive
+        'rogue': { primary: '#334155', secondary: '#0f172a' },      // Dark Slate
+        'sorcerer': { primary: '#ec4899', secondary: '#db2777' },   // Deep Pink
+        'warlock': { primary: '#8b5cf6', secondary: '#6d28d9' },    // Violet/Purple
+        'wizard': { primary: '#3b82f6', secondary: '#1d4ed8' },     // Blues
+        'artificer': { primary: '#f97316', secondary: '#ea580c' }   // Orange
+    };
+
+    // Helper to convert hex to rgba
+    function hexToRgba(hex, alpha) {
+        hex = hex.replace('#', '');
+        const r = parseInt(hex.substring(0, 2), 16);
+        const g = parseInt(hex.substring(2, 4), 16);
+        const b = parseInt(hex.substring(4, 6), 16);
+        return `rgba(${r}, ${g}, ${b}, ${alpha})`;
+    }
+
+    // Extract D&D class colors dynamically from classes string
+    function getColorsForClasses(classesStr) {
+        if (!classesStr) return null;
+        
+        const lowerStr = classesStr.toLowerCase();
+        const knownClasses = ['barbarian', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'paladin', 'ranger', 'rogue', 'sorcerer', 'warlock', 'wizard', 'artificer'];
+        
+        const classIndices = [];
+        knownClasses.forEach(cls => {
+            const index = lowerStr.indexOf(cls);
+            if (index !== -1) {
+                classIndices.push({ cls, index });
+            }
+        });
+        
+        classIndices.sort((a, b) => a.index - b.index);
+        const classes = classIndices.map(item => item.cls);
+        
+        if (classes.length === 0) return null;
+        
+        const primaryClass = classes[0];
+        const secondaryClass = classes[1] || primaryClass;
+        
+        const primaryColor = CLASS_COLORS[primaryClass].primary;
+        const secondaryColor = classes.length > 1 ? CLASS_COLORS[secondaryClass].primary : CLASS_COLORS[primaryClass].secondary;
+        
+        return {
+            primary: primaryColor,
+            primaryGlow: hexToRgba(primaryColor, 0.15),
+            secondary: secondaryColor,
+            secondaryGlow: hexToRgba(secondaryColor, 0.15)
+        };
+    }
+
+    // Apply colors to document root
+    function applyDynamicTheme(colors) {
+        const root = document.documentElement;
+        if (!colors) {
+            // Default Indigo/Violet theme
+            root.style.setProperty('--color-primary', '#6366f1');
+            root.style.setProperty('--color-primary-glow', 'rgba(99, 102, 241, 0.15)');
+            root.style.setProperty('--color-secondary', '#a855f7');
+            root.style.setProperty('--color-secondary-glow', 'rgba(168, 85, 247, 0.15)');
+            return;
+        }
+        
+        root.style.setProperty('--color-primary', colors.primary);
+        root.style.setProperty('--color-primary-glow', colors.primaryGlow);
+        root.style.setProperty('--color-secondary', colors.secondary);
+        root.style.setProperty('--color-secondary-glow', colors.secondaryGlow);
+    }
+
     // Elements
     const buildsList = document.getElementById('builds-list');
     const searchInput = document.getElementById('build-search');
@@ -196,6 +274,9 @@ document.addEventListener('DOMContentLoaded', () => {
             
             // Un-highlight all cards
             document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
+            
+            // Reset to default theme
+            applyDynamicTheme(null);
             return;
         }
 
@@ -209,6 +290,9 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedBuild = build;
                 selectedFile = file;
                 document.body.classList.add('has-build-selected');
+
+                // Apply dynamic class theme
+                applyDynamicTheme(getColorsForClasses(build.classes));
 
                 // Close filters in mobile view
                 if (filterGroup) filterGroup.classList.remove('active');
