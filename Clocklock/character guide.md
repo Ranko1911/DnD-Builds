@@ -1,6 +1,4 @@
-# SYSTEM_PROMPT: Character Build Overview
-
-## General Data
+# General Data
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 

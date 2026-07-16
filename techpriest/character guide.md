@@ -1,6 +1,4 @@
-# SYSTEM_PROMPT: Character Build Overview
-
-## General Data
+# General Data
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -75,6 +73,7 @@ $$\text{AC con Escudo (Conjuro)} = 28 \text{ (Base)} + 5 \text{ (Shield)} = 33 \
 Cuando el personaje obtiene equipamiento legendario como **Placas +3** y **Escudo +3**, el cálculo de CA cambia críticamente según la interpretación del Dungeon Master de las reglas oficiales:
 
 #### Escenario A: Reglas Oficiales (RAW)
+
 Las reglas oficiales prohíben infundir objetos mágicos (*"you cannot infuse magic items"*) y aplicar la bendición del clérigo en ellos (*"touch one nonmagic object"*). Al usar Placas +3 y Escudo +3 mágicos, pierdes *Enhanced Defense*, *Repulsion Shield* y *Blessing of the Forge*.
 
 $$\text{AC Pasiva (RAW)} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Soul)} + 2 \text{ (Ring + Cloak of Protection)} = 30 \text{ AC}$$
@@ -82,16 +81,20 @@ $$\text{AC con Escudo (Conjuro)} = 30 + 5 = 35 \text{ AC}$$
 *(Incremento neto de solo +2 CA respecto al equipamiento básico infundido, perdiendo además los efectos especiales de las infusiones sobre armadura/escudo).*
 
 #### Escenario B: Reglas de Mesa Permisivas (Homebrew)
+
 Si el Master permite infundir y bendecir objetos mágicos preexistentes, puedes alcanzar la máxima efectividad posible. Aquí se abren dos configuraciones óptimas de nivel 20 (limitadas por tus **5 slots de sintonización**):
 
 ##### 1. Variante "El Bastión Imperturbable" (Foco en CA Máxima)
+
 * **Sintonización (5/5):** Ring of Protection, Cloak of Protection, Repulsion Shield (infundido), Núcleo del Dios Máquina (Homebrew), Amulet of the Devout +3.
 * **Infusiones (5/5):** Enhanced Defense +2 (en Placas +3), Repulsion Shield +1 (en Escudo +3), Enhanced Weapon +2 (en Puños), Ring of Protection, Cloak of Protection.
 $$\text{AC Pasiva} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Blessing)} + 1 \text{ (Soul)} + 2 \text{ (Enhanced Def.)} + 1 \text{ (Rep. Shield)} + 2 \text{ (Ring + Cloak)} = 34 \text{ AC}$$
 $$\text{AC con Escudo (Conjuro)} = 34 + 5 = 39 \text{ CA}$$
 
 ##### 2. Variante "El Heraldo de la Forja" (Foco Equilibrado - Altamente Recomendada)
+
 *Sacrifica solo 1 punto de CA para obtener una CD de conjuros de Artífice legendaria de 22 e inmunidad práctica a perder concentración.*
+
 * **Sintonización (5/5):** All-Purpose Tool +3, Amulet of the Devout +3, Ring of Protection, Cloak of Protection, Núcleo del Dios Máquina (Homebrew).
 * **Infusiones (5/5):** Enhanced Defense +2 (en Placas +3), Mind Sharpener (en tus botas/casco, no requiere sintonización, da 4 auto-éxitos en concentración), Enhanced Weapon +2 (en Puños), Ring of Protection, Cloak of Protection.
 $$\text{AC Pasiva} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Blessing)} + 1 \text{ (Soul)} + 2 \text{ (Enhanced Def.)} + 2 \text{ (Ring + Cloak)} = 33 \text{ AC}$$
