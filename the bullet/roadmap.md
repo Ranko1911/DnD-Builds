@@ -20,7 +20,7 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Bulle
 | **10** | Artificer 10 | +4 | Se desbloquea la replicación de **Boots of Speed** (duplica velocidad). | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 2 (Nivel 4) | Magic Item Adept (4 sintonizaciones), Infusiones de 10º Nivel |
 | **11** | Artificer 11 | +4 | Almacenar *Longstrider* (+10 ft. velocidad) en un objeto para usos gratis. | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4) | Spell-Storing Item |
 | **12** | Artificer 12 | +4 | **ASI: +2 Inteligencia** (Aumenta CD de conjuros y usos de Flash of Genius). | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4) | Ability Score Improvement |
-| **13** | Artificer 13 | +5 | Acceso a conjuros de nivel 4. | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4), 1 (Nivel 5) | Ranura de nivel 4 |
+| **13** | Artificer 13 | +5 | Nivel de lanzador efectivo = 7 (Artificer ½) + 2 (Wizard) = **9** → desbloquea slot de nivel 5. | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4), 1 (Nivel 5) | Slot de nivel 5 desbloqueado |
 | **14** | Artificer 14 | +5 | Ignora requisitos de clase/raza/nivel para usar objetos mágicos. | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4), 2 (Nivel 5) | Magic Item Savant (5 sintonizaciones) |
 | **15** | Wizard 1 | +5 | Recuperar ranuras en descanso corto. Libro de conjuros de Mago. | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4), 2 (Nivel 5) | Arcane Recovery, Spellcasting (Wizard) |
 | **16** | Wizard 2 | +5 | Subclase: **Bladesinger**. *Bladesong* (+10 ft. de velocidad y bonos defensivos). | 4 (Nivel 1), 3 (Nivel 2), 3 (Nivel 3), 3 (Nivel 4), 3 (Nivel 5) | Bladesong, Training in War and Song |

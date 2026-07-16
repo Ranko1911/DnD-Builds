@@ -10,7 +10,7 @@
 | :--- | :---: | :---: | :--- |
 | **Bag of Holding** | No | [—] | **Priorizar 1:** Clave para la estrategia del Libro de Glifos y llevar el inventario sin sobrecarga. Obtenido gratis por infusión. |
 | **Mind Sharpener** | No | [—] | **Priorizar 2:** Permite pasar automáticamente una salvación de concentración fallida hasta 4 veces al día. Obtenido gratis por infusión. |
-| **Goggles of Night** | No | [—] | Prioridad Media. Otorga visión en la oscuridad de 60 ft. (se acumula con la visión en la oscuridad natural del Tabaxi). |
+| **Goggles of Night** | No | [—] | Prioridad Alta. Otorga visión en la oscuridad de 60 ft. Los Tabaxi **no tienen Darkvision nativo** en 5e 2014 — estas gafas cubren esa carencia. |
 
 ---
 

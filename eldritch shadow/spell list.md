@@ -20,7 +20,7 @@ Esta lista detalla la selección de conjuros sugerida para el build **Eldritch S
 *El Eldritch Knight tiene un número limitado de conjuros conocidos (≈13 a nivel 20). Los 2 primeros que aprende en cada nivel deben ser de Abjuración o Evocación; el 3er slot puede ser de cualquier escuela.*
 
 ### Nivel 4 (4th Level Spell Slots — disponibles desde nivel 19)
-1.  **Greater Invisibility** 🟢 *[Ofensivo — Ventaja total]:* Concede Ventaja en todos los ataques del turno y el enemigo tiene Desventaja para atacarte. Sinergiza perfectamente con Shadow Blade (ya tiene ventaja en oscuridad, Greater Invis lo hace permanente en cualquier luz). Usar cuando Shadow Blade ya esté activa y haya un slot libre.
+1.  **Greater Invisibility** 🟢 *[Ofensivo — Ventaja total]* ⚠️ *Escuela: Ilusión — ocupa uno de los slots de conjuro de escuela libre del EK:* Concede Ventaja en todos los ataques del turno y el enemigo tiene Desventaja para atacarte. Sinergiza perfectamente con Shadow Blade (ya tiene ventaja en oscuridad, Greater Invis lo hace permanente en cualquier luz). Usar cuando Shadow Blade ya esté activa y haya un slot libre.
 
 ### Nivel 3 (3rd Level Spell Slots)
 1.  **Counterspell** 🟢 *[Control — Defensa arcana]:* Reacción para contrarrestar conjuros enemigos. Potenciado por **Eldritch Strike** (los ataques previos imponen Desventaja en las TS del lanzador, incluyendo la TS de Counterspell de nivel superior).
@@ -33,7 +33,7 @@ Esta lista detalla la selección de conjuros sugerida para el build **Eldritch S
 ### Nivel 1 (1st Level Spell Slots)
 1.  **Shield** 🔵 *[Reacción — Supervivencia]:* +5 CA hasta el inicio del próximo turno cuando un ataque impacte. Convierte casi cualquier impacto en un fallo si el roll fue ajustado. Es la herramienta de supervivencia más eficiente por slot del juego.
 2.  **Absorb Elements** 🔵 *[Reacción — Daño elemental]:* Al recibir daño de Ácido, Frío, Fuego, Relámpago o Trueno: mitad de daño Y devuelve ese tipo de daño en el siguiente ataque CaC (1d6 extra por nivel del slot). Excelente con Shadow Blade para convertir el daño recibido en daño de vuelta.
-3.  **Find Familiar** 🟢 *[Utilidad — Acción de Ayuda]:* Invoca un Búho o Gato Fantasmal como familiar. El Búho puede volar hasta el enemigo y usar la Acción de Ayuda (Bonus Action del familiar) para conceder Ventaja en el siguiente ataque — absolutamente letal combinado con Eldritch Accuracy o Shadow Blade.
+3.  **Find Familiar** 🟢 *[Utilidad — Acción de Ayuda]* ⚠️ *Escuela: Conjuración — ocupa uno de los slots de conjuro de escuela libre del EK:* Invoca un Búho o Gato Fantasmal como familiar. El Búho puede volar hasta el enemigo y usar la Acción de Ayuda (Bonus Action del familiar) para conceder Ventaja en el siguiente ataque — absolutamente letal combinado con Shadow Blade en oscuridad (ventaja doble → sólo impacta la más alta, pero evita el 1 natural). Siempre se lanza como **ritual** (1 hora, sin gastar slot).
 
 ---
 

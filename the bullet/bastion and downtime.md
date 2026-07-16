@@ -4,7 +4,7 @@
 
 * **Nombre del Bastión:** El Laboratorio del Velocista (The Speedster's Workshop)
 * **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 100
+* **Puntos de Bastion (Bastion Points - BP):** 20 *(se regeneran según las reglas 2024: igual al Bastion Level por Bastion Turn)*
 * **Puntuación de Mando (Bastion Defender Stats):** STR 8, DEX 16, CON 12, INT 14, WIS 14, CHA 11
 
 ### Instalaciones Básicas (Basic Facilities)
@@ -51,8 +51,65 @@
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-* **Caminata Pasiva (Base):** $80\text{ ft.}$ por asalto ($\approx 14.6\text{ km/h}$).
-* **Sprint Táctico (Sin Recursos):** $320\text{ ft.}$ por asalto usando Feline Agility y Step of the Wind ($\approx 58.5\text{ km/h}$).
-* **Sprint de Combate (Full Resources):** $3200\text{ ft.}$ por asalto ($\approx 585\text{ km/h}$).
-* **Sprint Máximo (Con Reacción):** $3840\text{ ft.}$ en 6 segundos ($\approx 702\text{ km/h}$).
-* **Capacidad de Carga:** El personaje no lleva equipo físico encima (todo va en la *Bag of Holding*), lo que le permite mantener el modificador de velocidad máximo sin penalización por peso o carga.
+*Capacidades físicas y velocidades en todos los modos de desplazamiento.*
+
+### Velocidades de Movimiento Base
+
+* **Caminar (Walk):** 80 ft. por asalto (≈ 14.6 km/h) — base del personaje antes de recursos.
+* **Trepar (Climb):** 40 ft. *(velocidad nativa no reducida por Monk/DEX build)*
+* **Nadar (Swim):** 40 ft. *(ídem)*
+* **Volar (Fly):** — *(No disponible de forma nativa; requiere conjuro u objeto)*
+
+### Modificadores y Multiplicadores de Viaje
+
+| Modo | Velocidad/Asalto | Recursos Gastados | Notas |
+| :--- | :---: | :--- | :--- |
+| **Base** | 80 ft. | Ninguno | Movimiento pasivo fuera de combate |
+| **Sprint Táctico** | 320 ft. | Feline Agility + Step of the Wind | ≈ 58.5 km/h |
+| **Sprint de Combate** | 3.200 ft. | Full Resources activos | ≈ 585 km/h |
+| **Sprint Máximo** | 3.840 ft. | Full Resources + Reacción | ≈ 702 km/h en 6 segundos |
+
+* **Ritmo de Viaje Preferido:** Rápido — el personaje prioriza velocidad sobre sigilo en desplazamiento.
+* **Visión en la Oscuridad (Darkvision):** Según equipo disponible (no nativa).
+* **Habilidades de Exploración:** Alta Acrobacia y Atletismo (DEX) para terreno difícil.
+
+### Logística de Transporte y Monturas
+
+* **Montura Activa:** Ninguna — el personaje ES su propia montura. Supera a cualquier caballo de guerra en velocidad sin recursos.
+* **Vehículos / Vehículos de Carga:** Carro de laboratorio para suministros de alquimia (no táctico).
+* **Capacidad de Carga Absoluta:** El personaje no lleva equipo físico encima — todo va en la *Bag of Holding*, manteniendo velocidad máxima sin penalización por peso.
+
+---
+
+## 🎭 Reputación, Facciones y Red de Contactos
+
+*Recursos sociales e influencia política en el mundo de juego.*
+
+### Facciones Activas
+
+1. **Gremio de Mensajeros y Exploradores:**
+    * *Rango / Título:* Velocista Legendario / Miembro Honorario
+    * *Reputación / Favor:* Aliado — referencia máxima de velocidad del gremio
+    * *Beneficio Mecánico:* Acceso a rutas seguras entre ciudades y posada gratuita donde el gremio tenga presencia.
+2. **Red de Alquimistas y Herboristas:**
+    * *Rango / Título:* Cliente Preferente / Colaborador de Investigación
+    * *Reputación / Favor:* Positivo — comparte fórmulas de elixires experimentales
+    * *Beneficio Mecánico:* Descuento del 30% en ingredientes alquímicos y acceso anticipado a componentes raros.
+
+### Red de Contactos (Contacts & Informants)
+
+* **Swift-Footed Jenkins (El Laboratorio):** Administrador del Bastión. Ex-corredor con conocimiento extenso de rutas y geografía. Puede actuar como guía o fuente de inteligencia sobre terrenos desconocidos.
+* **"La Boticaria" (ciudad más cercana):** Alquimista clandestina con acceso a componentes raros para elixires de velocidad. No hace preguntas sobre el uso final.
+
+---
+
+## 🧬 Modificadores Pasivos y Sinergias No-Combate
+
+*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
+
+* **Percepción Pasiva (Passive Perception):** 16 (10 + 2 WIS + 4 PB con Competencia)
+* **Investigación Pasiva (Passive Investigation):** 16 (10 + 2 INT + 4 PB con Competencia)
+* **Perspicacia Pasiva (Passive Insight):** 16 (10 + 2 WIS + 4 PB con Competencia)
+* **Idiomas Conocidos:** Común + 1 idioma adicional de trasfondo
+* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Alquimista (+6), Herramientas de Herborista (+6)
+* **Sinergias Fuera de Combate:** La velocidad de viaje permite cubrir en horas distancias que tomarían días a un grupo normal — útil para reconocimiento, mensajería urgente y evacuaciones. El personaje nunca es sorprendido en encuentros de viaje (puede huir de cualquier encuentro antes de que comience).

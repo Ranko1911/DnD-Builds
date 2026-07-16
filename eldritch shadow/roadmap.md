@@ -16,11 +16,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **Eldritch 
 | **6** | Fighter 6 | +3 | **ASI: DEX +2 (→ 18)** para mejorar ataque, CA y concentración. | 3×1 | ASI/Feat |
 | **7** | Fighter 7 | +3 | **War Magic** 🔵. Motor del combat loop: lanzar Booming Blade (Acción) + ataque con BA. Power Spike enorme. | 4×1, 2×2 | War Magic |
 | **8** | Fighter 8 | +3 | **Feat: Resilient (WIS)** 🟢 para resistir control mental y mantener concentración en Shadow Blade. | 4×1, 2×2 | ASI/Feat |
-| **9** | Fighter 9 | +4 | Acceso a slots de nivel 2. Shadow Blade → 3d8 psíquico. | 4×1, 3×2 | — |
+| **9** | Fighter 9 | +4 | Acceso a slots de nivel 2. Shadow Blade con slot nivel 2 → **2d8** psíquico (sin cambio de dado respecto al base). El upcast a 3d8 llegará con los slots de nivel 3 en Nv. 13. | 4×1, 3×2 | — |
 | **10** | Fighter 10 | +4 | **Eldritch Strike** 🟢. Los ataques imponen Desventaja en TS contra conjuros. | 4×1, 3×2 | Eldritch Strike |
 | **11** | Fighter 11 | +4 | **Extra Attack (3)** 🔵. Tercer ataque por Acción. Power Spike crítico. DPR triplica el de nivel 5. | 4×1, 3×2 | Extra Attack (3) |
 | **12** | Fighter 12 | +4 | **ASI: DEX +2 (→ 20)** o **Feat: Fey Touched** 🟢 (Misty Step + Silvery Barbs + +1 INT). | 4×1, 3×2 | ASI/Feat |
-| **13** | Fighter 13 | +5 | Acceso a slots de nivel 3. Shadow Blade upcast → 4d8 psíquico. | 4×1, 3×2, 2×3 | — |
+| **13** | Fighter 13 | +5 | Acceso a slots de nivel 3. Shadow Blade upcast a slot nivel 3 → **3d8** psíquico. (4d8 requiere slot nivel 4, disponible en Nv. 19 con 1×4). | 4×1, 3×2, 2×3 | — |
 | **14** | Fighter 14 | +5 | **Feat: Alert** 🟢 o **ASI: CON +2** para resistir concentración. | 4×1, 3×2, 2×3 | ASI/Feat |
 | **15** | Fighter 15 | +5 | **Arcane Charge** 🟢. Teletransportación de 30 ft. al activar Action Surge. Movilidad táctica premium. | 4×1, 3×2, 2×3 | Arcane Charge |
 | **16** | Fighter 16 | +5 | **ASI: INT +2** 🟡 (mejorar DCs) o **Lucky** 🟢 para relanzar tiradas críticas. | 4×1, 3×2, 3×3 | ASI/Feat |

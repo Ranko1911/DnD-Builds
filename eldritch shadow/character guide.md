@@ -32,13 +32,14 @@ Combat Role: Frontline Gish Striker / Battlefield Controller (Daño mono-objetiv
  2. Action Economy & Combat Loop
 
 *   **Action:**
-    *   **Turno 1:** Lanzar *Shadow Blade* como Acción Adicional (BA), luego Atacar con Action → *Booming Blade* (cantrip + ataque) para aplicar el daño extra de trueno si el enemigo se mueve. Usar War Magic para hacer 1 ataque adicional con BA tras el cantrip.
-    *   **Turno 2 (Nivel 5+):** Action: Extra Attack → 2 ataques con Shadow Blade. Si disponible, reemplazar 1 ataque por Booming Blade para aplicar el daño de trueno + War Magic.
-    *   **Turnos 2+ (Ruta estándar):** 3 ataques con Shadow Blade (nivel 11) o 4 ataques (nivel 20). Usar Booming Blade en la 1ª parte de War Magic para máximo daño si el enemigo puede moverse.
+    *   **Turno 1 (pre Nv. 7):** Atacar con la Acción usando Shadow Blade (si ya está activa de un turno anterior) o lanzar un conjuro de preparación como *Mirror Image*.
+    *   **Turno 1 (Nv. 7+ — War Magic activa):** Lanzar *Booming Blade* con la Acción (1 ataque + daño de trueno) → BA disponible para el ataque extra de War Magic.
+    *   **Turnos 2+ (Nv. 5-6):** Action: Extra Attack → 2 ataques con Shadow Blade.
+    *   **Turnos 2+ (Nv. 7+, ruta estándar):** Action: *Booming Blade* (1 ataque) + BA: War Magic (1 ataque adicional). Total: 2 ataques. A nivel 11: Action: Extra Attack (3 ataques) o *Booming Blade* + War Magic (2 ataques con BB activo).
 *   **Bonus Action:**
-    *   **Turno 1:** Lanzar *Shadow Blade* (2nd level spell slot, concentración).
-    *   **Turnos 2+:** War Magic → 1 ataque adicional tras lanzar Booming Blade con la Acción.
-    *   Alternativa: *Misty Step* si hay necesidad de reposicionamiento urgente (gasta un slot adicional).
+    *   **Turno de setup:** Lanzar *Shadow Blade* (slot nivel 2, concentración). No se puede usar BA para War Magic el mismo turno que se lanza Shadow Blade con BA.
+    *   **Turnos con War Magic activa (Nv. 7+):** 1 ataque adicional tras lanzar Booming Blade con la Acción.
+    *   **Emergencia:** *Misty Step* para reposicionamiento (gasta un slot y bloquea War Magic ese turno).
 *   **Reaction:**
     *   🔵 **Shield:** +5 CA reactivo ante un ataque que impacte. Gasta un slot de nivel 1.
     *   🔵 **Sentinel (Oportunidad de Ataque):** Al activar, detiene el movimiento del enemigo (velocidad 0). Permite lanzar **Booming Blade** como ataque de oportunidad (gracias a War Caster), combinando el daño de Shadow Blade + BB en la reacción.
@@ -57,8 +58,8 @@ La build es extraordinariamente **bien redondeada**: no es la más explosiva (no
 🧮 Mathematical Engine (D&D 5e 2014 — Nivel 11, CA enemigo 16):
 
 **Estadísticas de ataque a nivel 11:**
-- Modificador de ataque: +8 (DEX +3 tras ASI, PB +4)
-- Shadow Blade (3d8 psíquico, slot nivel 3): 13.5 daño promedio × ataque
+- Modificador de ataque: +8 (DEX 18 → mod +4 tras ASI de nivel 6, PB +4)
+- Shadow Blade (2d8 psíquico, slot nivel 2): 9 daño promedio. Upcast slot nivel 3 (disponible nv. 13): 13.5 daño promedio
 - Booming Blade (nivel 11): +3d8 trueno adicional al impactar = +13.5
 
 **DPR sostenido (3 ataques estándar, sin Booming Blade):**

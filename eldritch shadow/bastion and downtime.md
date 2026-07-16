@@ -6,7 +6,7 @@
 
 * **Nombre del Bastión:** La Torre Umbra — una torre de observación en ruinas reconvertida en fortaleza, parcialmente cubierta de hiedra negra que no crece de forma natural.
 * **Nivel de Bastión (Bastion Level):** Igual al nivel de personaje
-* **Puntos de Bastion (Bastion Points - BP):** 20
+* **Puntos de Bastion (Bastion Points - BP):** 20 *(se regeneran según las reglas 2024: igual al Bastion Level por Bastion Turn)*
 * **Puntuación de Mando (Bastion Defender Stats):** STR 10, DEX 16, CON 16, INT 14, WIS 12, CHA 8
 
 ### Instalaciones Básicas (Basic Facilities)
@@ -27,8 +27,8 @@
   * *Sinergia con el Build:* Permite ampliar la lista de conjuros conocidos más rápido y a menor coste que los precios estándar.
 * **Armería (Nivel 9):**
   * *Estado:* Activa
-  * *Orden de Bastión Especial:* Crafting de equipo mundano y mejora de armas. Producción de Flechas Especiales y mantenimiento de armaduras.
-  * *Sinergia con el Build:* Fabricación de Studded Leather mejorado o componentes para hechizos.
+  * *Orden de Bastión Especial:* Crafting de equipo mundano y mejora de armas. Mantenimiento y actualización de armaduras ligeras, componentes para conjuros.
+  * *Sinergia con el Build:* Fabricación de Studded Leather mejorado y componentes físicos para rituales arcanos (cristales de foco, herrajes de concentración).
 * **Santuario de las Sombras [Arcane Study] (Nivel 13):**
   * *Estado:* En Construcción (3 turnos restantes)
   * *Orden de Bastión Especial:* Ritual de 1 semana para preparar un espacio de Penumbra permanente (oscuridad mágica tenue, activa el bonus de Shadow Blade permanentemente dentro del bastión).
@@ -112,9 +112,9 @@
 
 *Habilidades constantes que afectan a la interacción y la exploración del entorno.*
 
-* **Percepción Pasiva (Passive Perception):** 15 (10 + 4 WIS + PB si tiene Competencia = 17 con Competencia)
+* **Percepción Pasiva (Passive Perception):** 15 (10 + 1 WIS + 4 PB con Competencia) / 11 sin Competencia
 * **Investigación Pasiva (Passive Investigation):** 14 (10 + 4 INT)
-* **Perspicacia Pasiva (Passive Insight):** 13 (10 + 3 WIS + PB si tiene Competencia)
-* **Idiomas Conocidos:** Común, Élfiro, Un idioma adicional (Abismal o Infernal, temático)
+* **Perspicacia Pasiva (Passive Insight):** 11 (10 + 1 WIS) *(sin Competencia en Insight por defecto)*
+* **Idiomas Conocidos:** Común, Abismal *(temático con la naturaleza oscura del Shadow Blade y el acceso a magia psíquica)*, + 1 idioma adicional de trasfondo
 * **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Herrero (+4), Herramientas de Ladrón (en entrenamiento)
 * **Sinergias Fuera de Combate:** El Familiar (Búho) proporciona ventaja en checks de Percepción pasiva por la noche; la mecánica de "Familiar compartiendo sentidos" permite reconocimiento de zona sin exposición personal del PC.
