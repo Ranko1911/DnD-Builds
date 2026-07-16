@@ -3,6 +3,8 @@ document.addEventListener('DOMContentLoaded', () => {
     let selectedBuild = null;
     let selectedFile = 'character guide.md';
     let lastScrollTop = 0;
+    let lastClientHeight = 0;
+    let lastScrollHeight = 0;
     let selectedLevel = 20;
     let currentBuildLevelsMap = {};
     let compareBuildIds = [];
@@ -497,6 +499,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 markdownViewer.scrollTop = 0;
                 buildContentView.classList.remove('hide-details-nav');
                 lastScrollTop = 0;
+                lastClientHeight = 0;
+                lastScrollHeight = 0;
 
                 // Render KaTeX Math Equations
                 if (window.renderMathInElement) {
@@ -643,6 +647,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const scrollThreshold = 10;
     markdownViewer.addEventListener('scroll', () => {
         const scrollTop = markdownViewer.scrollTop;
+        const clientHeight = markdownViewer.clientHeight;
+        const scrollHeight = markdownViewer.scrollHeight;
+
+        // Initialize values on first scroll
+        if (lastClientHeight === 0 && lastScrollHeight === 0) {
+            lastClientHeight = clientHeight;
+            lastScrollHeight = scrollHeight;
+        }
+
+        // If the container's height or scroll content height changes, it is a layout-induced scroll.
+        // Update baseline measurements and return without toggling the header class.
+        if (clientHeight !== lastClientHeight || scrollHeight !== lastScrollHeight) {
+            lastClientHeight = clientHeight;
+            lastScrollHeight = scrollHeight;
+            lastScrollTop = scrollTop;
+            return;
+        }
         
         // Don't trigger if scroll change is too small
         if (Math.abs(scrollTop - lastScrollTop) <= scrollThreshold) {
@@ -1185,7 +1206,7 @@ document.addEventListener('DOMContentLoaded', () => {
             ehp: 'Tanque (EHP)',
             control: 'Control',
             support: 'Soporte',
-            complexity: 'Complejidad'
+            complexity: 'Mecánicas'
         };
         
         Object.keys(ratingLabels).forEach(key => {
