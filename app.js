@@ -919,7 +919,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: 'complexity', label: 'Complejidad', val: r.complexity || 0 }
         ];
         const n = axes.length;
-        const cx = 160, cy = 140, maxR = 100;
+        const cx = 180, cy = 140, maxR = 100;
         const angleOff = -Math.PI / 2; // start at top
 
         function polar(i, scale) {
@@ -967,7 +967,7 @@ document.addEventListener('DOMContentLoaded', () => {
             labelsSvg += `<text x="${pVal.x}" y="${pVal.y + 11}" text-anchor="${anchor}" class="radar-value-label">${axes[i].val}/10</text>`;
         }
 
-        panel.innerHTML = `<svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${dataSvg}${dotsSvg}${labelsSvg}</svg>`;
+        panel.innerHTML = `<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${dataSvg}${dotsSvg}${labelsSvg}</svg>`;
         panel.classList.remove('hidden');
     }
 
@@ -1274,7 +1274,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: 'complexity', label: 'Complejidad' }
         ];
         const n = axes.length;
-        const cx = 160, cy = 140, maxR = 100;
+        const cx = 180, cy = 140, maxR = 100;
         const angleOff = -Math.PI / 2;
 
         function polar(i, scale) {
@@ -1334,7 +1334,7 @@ document.addEventListener('DOMContentLoaded', () => {
         }
 
         container.innerHTML = `
-            <svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg">
+            <svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">
                 ${gridSvg}
                 ${axisSvg}
                 ${polygonsSvg}

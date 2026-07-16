@@ -1270,7 +1270,7 @@ body {
 }
 
 .radar-chart-panel svg {
-    max-width: 320px;
+    max-width: 360px;
     width: 100%;
     height: auto;
 }
