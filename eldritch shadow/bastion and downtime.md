@@ -13,13 +13,13 @@
 
 *Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
 
-1. **Dormitorio (Bedchambers):** Cámara principal en el piso más alto de la torre. Ventanas bloqueadas con cortinajes pesados para mantener oscuridad durante el día (favorece el descanso en roles de guardia nocturna).
-2. **Comedor (Dining Hall):** Sala en planta baja con mesa de roble negro y 8 asientos. Suministros para 2 semanas a capacidad completa.
-3. **Espacio Común (Common Room):** Sala de guardia reconvertida en salón de estrategia con mapa táctico permanente sobre la pared norte.
+1. **Dormitorio (Bedchambers):** Cámara principal en el piso más alto de la torre. Ventanas bloqueadas con cortinajes pesados para mantener oscuridad durante el día (favorece el descanso en roles de guardia nocturna). Capacidad para 2 personas.
+2. **Comedor (Dining Hall):** Sala en planta baja con mesa de roble negro y 8 asientos. Suministros para 2 semanas a capacidad completa. Doble ración estipulada para los guardias del turno de noche.
+3. **Espacio Común (Common Room):** Sala de guardia reconvertida en salón de estrategia con mapa táctico permanente sobre la pared norte y rúnas de protección grabadas en el suelo.
 
 ### Instalaciones Especiales (Special Facilities)
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+*Desbloqueadas por nivel. Máximo de instalaciones especiales = Bastion Level / 5 (redondeado arriba). Indicar si están activas (Maintain), construyéndose (Build) o paradas (Paused).*
 
 * **Scriptorium (Nivel 5):**
   * *Estado:* Activa
@@ -29,10 +29,18 @@
   * *Estado:* Activa
   * *Orden de Bastión Especial:* Crafting de equipo mundano y mejora de armas. Mantenimiento y actualización de armaduras ligeras, componentes para conjuros.
   * *Sinergia con el Build:* Fabricación de Studded Leather mejorado y componentes físicos para rituales arcanos (cristales de foco, herrajes de concentración).
-* **Santuario de las Sombras [Arcane Study] (Nivel 13):**
+* **Santuario de las Sombras \[Arcane Study\] (Nivel 13):**
   * *Estado:* En Construcción (3 turnos restantes)
   * *Orden de Bastión Especial:* Ritual de 1 semana para preparar un espacio de Penumbra permanente (oscuridad mágica tenue, activa el bonus de Shadow Blade permanentemente dentro del bastión).
   * *Sinergia con el Build:* El personaje puede practicar y entrenar dentro del bastión con la ventaja de Shadow Blade siempre activa.
+* **Sala de Entrenamiento \[Training Room\] (Nivel 13):**
+  * *Estado:* Activa
+  * *Orden de Bastión Especial:* Train — permite entrenar a los defensores del bastión y al personaje en técnicas de combate; reduce a 5 días las semanas de Downtime para aprender habilidades de combate nuevas.
+  * *Sinergia con el Build:* Entrenamiento de Herramientas de Ladrón e infiltración. Los guardias del bastión ganan +1 a tiradas de ataque tras 4 semanas de entrenamiento intensivo.
+* **Biblioteca Arcana \[Library\] (Nivel 17):**
+  * *Estado:* Planificada (requiere BP 100 acumulados para construir)
+  * *Orden de Bastión Especial:* Research — permite investigar objetos mágicos y conjuros raros sin necesidad de acceder a una ciudad. Reduce el coste de identificar objetos y encontrar fórmulas de encantamiento.
+  * *Sinergia con el Build:* Investigación de Shadow Blade (slot nivel 4, escala a 5d8) y de formas de obtener el homebrew Shadow Weave Bracers.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

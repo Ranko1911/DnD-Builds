@@ -9,20 +9,32 @@
 
 ### Instalaciones Básicas (Basic Facilities)
 
-1. **Dormitorio (Bedchambers):** Decoración minimalista y aerodinámica. Todo está diseñado para ser limpiado y ordenado en segundos.
-2. **Comedor (Dining Hall):** Suministros altos en carbohidratos y proteínas (dieta de alto rendimiento metabólico para compensar el gasto energético del sprint).
-3. **Espacio Común (Common Room):** Utilizado por los asistentes de laboratorio para organizar notas y planificar rutas logísticas.
+*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
+
+1. **Dormitorio (Bedchambers):** Decoración minimalista y aerodinámica. Todo está diseñado para ser limpiado y ordenado en segundos. Cama de diseño ergonómico para máximo descanso en mínimo tiempo. Capacidad 2 personas.
+2. **Comedor (Dining Hall):** Suministros altos en carbohidratos y proteínas (dieta de alto rendimiento metabólico para compensar el gasto energético del sprint). Menjará preparado por el chef del laboratorio con ingredientes del Invernadero.
+3. **Espacio Común (Common Room):** Utilizado por los asistentes de laboratorio para organizar notas y planificar rutas logísticas. Mapa de rutas de la región en la pared con anotaciones de velocidad y coste de tiempo.
 
 ### Instalaciones Especiales (Special Facilities)
+
+*Desbloqueadas por nivel. Máximo de instalaciones especiales = Bastion Level / 5 (redondeado arriba). Indicar si están activas (Maintain), construyéndose (Build) o paradas (Paused).*
 
 * **Laboratorio de Alquimia (Laboratory) (Nivel 5):**
   * *Estado:* Activa.
   * *Orden de Bastión Especial:* Crafting (Creación de Pociones de Velocidad y Elixires Experimentales).
-  * *Sinergia con el Build:* Facilita la fabricación masiva de *Potion of Speed* a coste reducido.
+  * *Sinergia con el Build:* Facilita la fabricación masiva de *Potion of Speed* a coste reducido. Con Magic Item Adept (Artif. 10) el coste se reduce a la mitad.
 * **Invernadero (Greenhouse) (Nivel 5):**
   * *Estado:* Activa.
   * *Orden de Bastión Especial:* Harvest (Cosecha de hierbas e ingredientes raros).
-  * *Sinergia con el Build:* Permite recolectar los materiales necesarios para los elixires de *Swiftness* de forma gratuita.
+  * *Sinergia con el Build:* Proporciona los materiales para los elixires de *Swiftness* de forma gratuita. Reducción del coste de materiales del Laboratorio en ≈70%.
+* **Taller de Glifos \[Scriptorium / Reliquary\] (Nivel 9):**
+  * *Estado:* Activa.
+  * *Orden de Bastión Especial:* Craft (Copia e inscripción de Glifos de Guardiaán en el Libro de Glifos). El escriba residente reduce el tiempo de inscripción un 20%.
+  * *Sinergia con el Build:* La estrategia central del build depende de tener el Libro lleno de glifos de *Haste* y *Dissonant Whispers*. Esta instalación es el corazón de la logística ofensiva.
+* **Sala de Entrenamiento \[Training Room\] (Nivel 13):**
+  * *Estado:* Activa.
+  * *Orden de Bastión Especial:* Train — el personaje puede entrenar habilidades no combatívas (Herramientas de Matemáticas, navegación, etc.) a ritmo acelerado. Los guardias del bastión ganan +1 a Iniciativa y velocidad de movimiento +5 ft. tras 4 semanas.
+  * *Sinergia con el Build:* Optimización de rutas de sprint y entrenamiento físico para mantener la resistencia física en el nivel de rendimiento máximo.
 
 ### Seguidores y Personal (Staff & Hirelings)
 
