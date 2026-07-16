@@ -2,15 +2,21 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
+### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+*   **Tier 1 (Niveles 1-4):** [Objeto A] (1 slot), [Objeto B] (1 slot). (Total: [X]).
+*   **Tier 2 (Niveles 5-10):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
+
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 1:** [Notas explicativas de por qué se prioriza]. |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 2:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [—] | Prioridad Alta / Media / Baja |
+| **[Objeto 1]** | [Sí / No] | [⚔️ Sí / —] | **Priorizar 1:** [Razón y sinergia con el build]. |
+| **[Objeto 2]** | [Sí / No] | [⚔️ Sí / —] | **Priorizar 2:** [Razón]. |
+| **[Objeto 3]** | [Sí / No] | [—] | Prioridad Media. [Razón]. |
 
 ---
 
@@ -18,9 +24,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 1:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 2:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [—] | Prioridad Alta / Media / Baja |
+| **[Objeto 1]** | [Sí / No] | [⚔️ Sí / —] | **Priorizar 1:** [Razón y sinergia]. |
+| **[Objeto 2]** | [Sí / No] | [⚔️ Sí / —] | **Priorizar 2:** [Razón]. |
+| **[Objeto 3]** | [Sí / No] | [—] | Prioridad Alta. [Razón]. |
 
 ---
 
@@ -28,9 +34,8 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 1:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 2:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [—] | Prioridad Alta / Media / Baja |
+| **[Objeto 1]** | [Sí / No] | [⚔️ Sí / —] | **Priorizar 1:** [Razón y sinergia]. |
+| **[Objeto 2]** | [Sí / No] | [—] | Prioridad Alta. [Razón]. |
 
 ---
 
@@ -38,19 +43,14 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 1:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [⚔️ Sí / No] | **Priorizar 2:** [Notas]. |
-| **[Nombre del Objeto]** | [Sí/No] | [—] | Prioridad Alta / Media / Baja |
+| **[Objeto 1]** | [Sí / No] | [⚔️ Sí / —] | **Priorizar 1:** [Razón y sinergia]. |
+| **[Objeto 2]** | [Sí / No] | [—] | Prioridad Media. [Razón]. |
 
 ---
 
-## 💍 [OBJETO ESPECIAL / HOMEBREW]
-*Objeto maravilloso, raro/muy raro (requiere sintonización por un [Clase])*
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
 
-[Breve descripción narrativa del aspecto, origen y vibración del objeto mágico].
-
-**Mecánicas (Diseñadas para la Edición [Año]):**
-
-*   **[Nombre de la Habilidad 1]:** [Descripción de la mecánica y su sinergia].
-*   **[Nombre de la Habilidad 2]:** [Descripción].
-*   **[Nombre de la Habilidad 3]:** [Descripción].
+| Objeto | Rareza | Prioridad / Notas |
+| :--- | :---: | :--- |
+| **[Objeto 1]** | [Rareza] | **Prioridad [X]:** [Razón y sinergia]. |
+| **[Objeto 2]** | [Rareza] | **Prioridad [X]:** [Razón]. |
