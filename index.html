@@ -95,6 +95,13 @@
                     <div class="skeleton-loader"></div>
                     <div class="skeleton-loader"></div>
                 </div>
+
+                <!-- Floating Compare Bar in Sidebar -->
+                <div class="compare-bar hidden" id="compare-bar">
+                    <button id="btn-compare" class="btn btn-compare">
+                        <span>📊</span> Comparar (<span id="compare-count">0</span>)
+                    </button>
+                </div>
             </aside>
 
             <!-- Detail Pane -->
@@ -221,6 +228,43 @@
                         <button id="btn-next-file" class="btn btn-secondary">
                             Siguiente <span class="btn-icon">→</span>
                         </button>
+                    </div>
+                </div>
+
+                <!-- Compare View Pane -->
+                <div class="compare-view hidden" id="compare-view">
+                    <header class="compare-header">
+                        <button id="btn-close-compare-mobile" class="btn btn-secondary btn-back-mobile" title="Cerrar comparación">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <div class="compare-title-area">
+                            <h2>📊 Comparador de Builds</h2>
+                            <p>Comparativa detallada y perfiles de optimización superpuestos</p>
+                        </div>
+                        <button id="btn-close-compare" class="btn btn-secondary btn-close-compare-desktop" title="Volver al catálogo">
+                            Cerrar Comparación
+                        </button>
+                    </header>
+                    <div class="compare-workspace">
+                        <div class="compare-radar-section">
+                            <h3>Perfil de Optimización Superpuesto</h3>
+                            <div class="compare-radar-container" id="compare-radar-chart">
+                                <!-- Overlapping SVG radar chart will be injected here -->
+                            </div>
+                            <div class="compare-legend" id="compare-legend">
+                                <!-- Legend elements will be injected here -->
+                            </div>
+                        </div>
+                        <div class="compare-table-section">
+                            <h3>Tabla de Características</h3>
+                            <div class="compare-table-container" id="compare-table-container">
+                                <!-- Comparison Table will be injected here -->
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>

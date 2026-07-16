@@ -188,6 +188,7 @@ body {
     flex-direction: column;
     flex-shrink: 0;
     overflow: hidden;
+    position: relative;
 }
 
 .sidebar-header {
@@ -1347,4 +1348,416 @@ body {
     text-transform: uppercase;
     letter-spacing: 0.03em;
 }
+
+/* ========================================== */
+/* FASE 3: COMPARADOR INTERACTIVO DE BUILDS   */
+/* ========================================== */
+
+/* Checkbox discreto en tarjeta de build */
+.card-compare-selector {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    margin-right: 0.5rem;
+    flex-shrink: 0;
+}
+
+.compare-checkbox {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+}
+
+.compare-checkbox-custom {
+    display: inline-block;
+    width: 18px;
+    height: 18px;
+    border: 1.5px solid var(--border-color);
+    border-radius: 4px;
+    background-color: rgba(255, 255, 255, 0.02);
+    cursor: pointer;
+    transition: var(--transition-smooth);
+    position: relative;
+}
+
+.compare-checkbox-custom:hover {
+    border-color: var(--color-primary);
+    background-color: rgba(99, 102, 241, 0.08);
+}
+
+.compare-checkbox:checked + .compare-checkbox-custom {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    border-color: transparent;
+    box-shadow: 0 0 8px var(--color-primary-glow);
+}
+
+.compare-checkbox:checked + .compare-checkbox-custom::after {
+    content: '';
+    position: absolute;
+    left: 5px;
+    top: 2px;
+    width: 4px;
+    height: 8px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+}
+
+/* Barra flotante de comparar en sidebar */
+.compare-bar {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    padding: 1.25rem;
+    background: linear-gradient(to top, var(--bg-surface) 75%, rgba(16, 21, 36, 0.95) 90%, transparent);
+    border-top: 1px solid var(--border-color);
+    display: flex;
+    justify-content: center;
+    z-index: 10;
+    animation: slideUpCompare 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    backdrop-filter: blur(12px);
+    box-shadow: 0 -8px 24px rgba(0, 0, 0, 0.4);
+}
+
+.compare-bar.hidden {
+    display: none !important;
+}
+
+@keyframes slideUpCompare {
+    from { transform: translateY(100%); opacity: 0; }
+    to { transform: translateY(0); opacity: 1; }
+}
+
+.btn-compare {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%);
+    color: white;
+    border: none;
+    width: 100%;
+    justify-content: center;
+    padding: 0.75rem 1.5rem;
+    font-size: 0.9rem;
+    font-weight: 700;
+    border-radius: var(--border-radius-md);
+    box-shadow: 0 4px 15px rgba(99, 102, 241, 0.3);
+    transition: var(--transition-smooth);
+    cursor: pointer;
+}
+
+.btn-compare:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 20px rgba(168, 85, 247, 0.4);
+    filter: brightness(1.1);
+}
+
+.builds-sidebar-has-compare .cards-list {
+    padding-bottom: 85px; /* Evitar solapamiento con la barra de comparar */
+}
+
+/* Vista del Comparador (#compare-view) */
+.compare-view {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--bg-dark);
+}
+
+.compare-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(16, 21, 36, 0.4);
+    border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
+}
+
+.compare-title-area h2 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+}
+
+.compare-title-area p {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
+.btn-close-compare-desktop {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    color: var(--color-text-muted);
+}
+
+.btn-close-compare-desktop:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    border-color: var(--border-color-hover);
+}
+
+.compare-workspace {
+    display: flex;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+/* Sección de Radar Comparativo */
+.compare-radar-section {
+    flex: 1.2;
+    background-color: rgba(16, 21, 36, 0.3);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 0;
+}
+
+.compare-radar-section h3 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 1.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.compare-radar-container {
+    width: 100%;
+    max-width: 400px;
+    aspect-ratio: 1.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow: 1;
+    min-height: 0;
+}
+
+.compare-radar-container svg {
+    width: 100%;
+    height: auto;
+    max-height: 350px;
+}
+
+/* Clases de polígonos interactivos */
+.compare-polygon {
+    transition: all 0.25s ease;
+    stroke-width: 2.5px;
+    fill-opacity: 0.15;
+}
+
+.compare-polygon.dimmed {
+    fill-opacity: 0.02;
+    stroke-opacity: 0.12;
+    stroke-width: 1px;
+}
+
+.compare-polygon.highlighted {
+    fill-opacity: 0.35;
+    stroke-opacity: 1;
+    stroke-width: 3.5px;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.15));
+}
+
+/* Leyenda del gráfico */
+.compare-legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    justify-content: center;
+    margin-top: 1rem;
+    width: 100%;
+}
+
+.legend-item {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 0.8rem;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    padding: 0.25rem 0.6rem;
+    border-radius: 6px;
+    background-color: rgba(255, 255, 255, 0.02);
+    border: 1px solid rgba(255, 255, 255, 0.05);
+    transition: var(--transition-smooth);
+}
+
+.legend-item:hover, .legend-item.highlighted {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.05);
+    border-color: rgba(255, 255, 255, 0.12);
+}
+
+.legend-color {
+    width: 12px;
+    height: 12px;
+    border-radius: 3px;
+    flex-shrink: 0;
+}
+
+/* Sección de la Tabla Comparativa */
+.compare-table-section {
+    flex: 1.8;
+    background-color: rgba(16, 21, 36, 0.3);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+}
+
+.compare-table-section h3 {
+    font-family: var(--font-heading);
+    font-size: 1.1rem;
+    color: white;
+    margin-bottom: 1.5rem;
+}
+
+.compare-table-container {
+    width: 100%;
+    overflow: auto;
+    flex-grow: 1;
+}
+
+.compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.85rem;
+    text-align: left;
+}
+
+.compare-table th, .compare-table td {
+    padding: 0.75rem 1rem;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+.compare-table th {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.02);
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+
+/* Columna fija izquierda */
+.compare-table td:first-child, .compare-table th:first-child {
+    font-weight: 600;
+    color: white;
+    background-color: var(--bg-surface);
+    position: sticky;
+    left: 0;
+    z-index: 2;
+    width: 140px;
+    min-width: 140px;
+    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.compare-table th:first-child {
+    z-index: 3;
+}
+
+.compare-table tr:hover td {
+    background-color: rgba(255, 255, 255, 0.01);
+}
+
+/* Columna con hover interactivo */
+.compare-table td.highlighted, .compare-table th.highlighted {
+    background-color: rgba(99, 102, 241, 0.04) !important;
+}
+
+/* Ganador de stat en optimización */
+.stat-winner {
+    background-color: rgba(245, 158, 11, 0.15) !important;
+    color: var(--color-accent-gold) !important;
+    font-weight: 700;
+    border-radius: 4px;
+    padding: 0.15rem 0.4rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+}
+
+.stat-winner::after {
+    content: '🏆';
+    font-size: 0.85em;
+}
+
+/* Botón de eliminación en la tabla */
+.btn-remove-col {
+    background: none;
+    border: none;
+    outline: none;
+    color: var(--color-text-muted);
+    cursor: pointer;
+    font-size: 1.1rem;
+    transition: var(--transition-smooth);
+    padding: 0.2rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-remove-col:hover {
+    color: #ef4444;
+    transform: scale(1.25);
+}
+
+.compare-header-cell {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+/* Adaptación Mobile del comparador */
+@media (max-width: 1024px) {
+    .compare-workspace {
+        flex-direction: column;
+        overflow-y: auto;
+        padding: 1rem;
+        gap: 1.5rem;
+    }
+    
+    .compare-radar-section, .compare-table-section {
+        flex: none;
+        width: 100%;
+        height: auto;
+    }
+    
+    .compare-radar-container {
+        max-width: 320px;
+    }
+    
+    .compare-header {
+        padding: 1rem;
+        gap: 0.75rem;
+    }
+    
+    .compare-title-area {
+        flex-grow: 1;
+        width: calc(100% - 60px);
+    }
+    
+    .compare-title-area h2 {
+        font-size: 1.35rem;
+    }
+    
+    .btn-close-compare-desktop {
+        display: none !important;
+    }
+}
+
 

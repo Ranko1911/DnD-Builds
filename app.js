@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     let lastScrollTop = 0;
     let selectedLevel = 20;
     let currentBuildLevelsMap = {};
+    let compareBuildIds = [];
 
     const ORDERED_FILES = [
         'character guide.md',
@@ -245,8 +246,14 @@ document.addEventListener('DOMContentLoaded', () => {
             const roles = build.role.split('/').map(r => r.trim());
             const rolesHTML = roles.map(r => `<span class="role-badge">${r}</span>`).join('');
 
+            const isChecked = compareBuildIds.includes(build.id) ? 'checked' : '';
+
             card.innerHTML = `
                 <div class="card-title-row">
+                    <div class="card-compare-selector">
+                        <input type="checkbox" class="compare-checkbox" id="chk-${build.id}" data-id="${build.id}" ${isChecked}>
+                        <label for="chk-${build.id}" class="compare-checkbox-custom" title="Seleccionar para comparar"></label>
+                    </div>
                     <h3>${build.name}</h3>
                     <span class="system-badge ${systemClass}">${systemLabel}</span>
                 </div>
@@ -256,6 +263,22 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
             
+            // Prevent card selection when clicking on the checkbox area
+            const compareSelector = card.querySelector('.card-compare-selector');
+            if (compareSelector) {
+                compareSelector.addEventListener('click', (e) => {
+                    e.stopPropagation();
+                });
+            }
+            
+            // Add change handlers to checkboxes
+            const checkbox = card.querySelector('.compare-checkbox');
+            if (checkbox) {
+                checkbox.addEventListener('change', () => {
+                    toggleBuildCompare(build.id, checkbox.checked);
+                });
+            }
+
             // Add click handlers to badges for interactive filtering
             const sysBadge = card.querySelector('.system-badge');
             if (sysBadge) {
@@ -311,6 +334,10 @@ document.addEventListener('DOMContentLoaded', () => {
             buildContentView.classList.add('hidden');
             document.body.classList.remove('has-build-selected');
             
+            // Hide compare-view
+            const compareView = document.getElementById('compare-view');
+            if (compareView) compareView.classList.add('hidden');
+
             // Un-highlight all cards
             document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
             
@@ -333,6 +360,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 selectedBuild = build;
                 selectedFile = file;
                 document.body.classList.add('has-build-selected');
+
+                // Hide compare-view
+                const compareView = document.getElementById('compare-view');
+                if (compareView) compareView.classList.add('hidden');
 
                 // Apply dynamic class theme
                 applyDynamicTheme(getColorsForClasses(build.classes));
@@ -990,6 +1021,343 @@ document.addEventListener('DOMContentLoaded', () => {
             map[lvl] = { ...accum };
         });
         return map;
+    }
+
+    // --- Lógica del Comparador Interactivo (Fase 3) ---
+    
+    const compareBar = document.getElementById('compare-bar');
+    const compareCount = document.getElementById('compare-count');
+    const btnCompare = document.getElementById('btn-compare');
+    const btnCloseCompare = document.getElementById('btn-close-compare');
+    const btnCloseCompareMobile = document.getElementById('btn-close-compare-mobile');
+
+    function toggleBuildCompare(buildId, isChecked) {
+        if (isChecked) {
+            if (!compareBuildIds.includes(buildId)) {
+                compareBuildIds.push(buildId);
+            }
+        } else {
+            compareBuildIds = compareBuildIds.filter(id => id !== buildId);
+        }
+        updateCompareBar();
+    }
+
+    function updateCompareBar() {
+        if (!compareBar || !compareCount) return;
+        if (compareBuildIds.length >= 2) {
+            compareBar.classList.remove('hidden');
+            compareCount.textContent = compareBuildIds.length;
+            buildsList.classList.add('builds-sidebar-has-compare');
+        } else {
+            compareBar.classList.add('hidden');
+            buildsList.classList.remove('builds-sidebar-has-compare');
+        }
+    }
+
+    function showCompareView() {
+        welcomeView.classList.add('hidden');
+        buildContentView.classList.add('hidden');
+        
+        const compareView = document.getElementById('compare-view');
+        if (compareView) {
+            compareView.classList.remove('hidden');
+        }
+        
+        document.body.classList.add('has-build-selected');
+        renderCompareData();
+    }
+
+    function closeCompareView() {
+        const compareView = document.getElementById('compare-view');
+        if (compareView) {
+            compareView.classList.add('hidden');
+        }
+        
+        if (selectedBuild) {
+            buildContentView.classList.remove('hidden');
+        } else {
+            welcomeView.classList.remove('hidden');
+            document.body.classList.remove('has-build-selected');
+        }
+    }
+
+    function highlightCompareBuild(buildId) {
+        document.querySelectorAll('#compare-table-container td, #compare-table-container th').forEach(el => {
+            if (el.getAttribute('data-build-id') === buildId) {
+                el.classList.add('highlighted');
+            } else {
+                el.classList.remove('highlighted');
+            }
+        });
+        
+        document.querySelectorAll('.compare-polygon').forEach(poly => {
+            if (poly.getAttribute('data-build-id') === buildId) {
+                poly.classList.remove('dimmed');
+                poly.classList.add('highlighted');
+            } else {
+                poly.classList.remove('highlighted');
+                poly.classList.add('dimmed');
+            }
+        });
+        
+        document.querySelectorAll('.legend-item').forEach(item => {
+            if (item.getAttribute('data-build-id') === buildId) {
+                item.classList.add('highlighted');
+            } else {
+                item.classList.remove('highlighted');
+            }
+        });
+    }
+
+    function clearHighlightCompareBuild() {
+        document.querySelectorAll('#compare-table-container td, #compare-table-container th').forEach(el => {
+            el.classList.remove('highlighted');
+        });
+        document.querySelectorAll('.compare-polygon').forEach(poly => {
+            poly.classList.remove('dimmed', 'highlighted');
+        });
+        document.querySelectorAll('.legend-item').forEach(item => {
+            item.classList.remove('highlighted');
+        });
+    }
+
+    function renderCompareData() {
+        const tableContainer = document.getElementById('compare-table-container');
+        if (!tableContainer) return;
+        
+        const builds = compareBuildIds.map(id => buildsData.find(b => b.id === id)).filter(Boolean);
+        
+        if (builds.length === 0) {
+            tableContainer.innerHTML = '<p class="no-results">No hay builds seleccionadas para comparar.</p>';
+            return;
+        }
+        
+        const ratingsKeys = ['dpr', 'ehp', 'control', 'support'];
+        const maxRatings = {};
+        ratingsKeys.forEach(key => {
+            maxRatings[key] = Math.max(...builds.map(b => (b.ratings && b.ratings[key]) || 0));
+        });
+        
+        let html = `<table class="compare-table">`;
+        
+        // Cabecera
+        html += `<thead><tr><th>Característica</th>`;
+        builds.forEach(build => {
+            const colors = getColorsForClasses(build.classes) || { primary: '#6366f1' };
+            html += `
+                <th class="build-col-${build.id}" data-build-id="${build.id}">
+                    <div class="compare-header-cell">
+                        <span style="color: ${colors.primary}; font-weight: 700;">${build.name}</span>
+                        <button class="btn-remove-col" data-id="${build.id}" title="Quitar de la comparación">×</button>
+                    </div>
+                </th>
+            `;
+        });
+        html += `</tr></thead><tbody>`;
+        
+        // Fila Clases
+        html += `<tr><td>Clases</td>`;
+        builds.forEach(build => {
+            html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${build.classes}</td>`;
+        });
+        html += `</tr>`;
+        
+        // Fila Reglamento
+        html += `<tr><td>Reglamento</td>`;
+        builds.forEach(build => {
+            const is2024 = build.system.includes('2024');
+            const systemClass = is2024 ? 'system-2024' : 'system-2014';
+            const systemLabel = is2024 ? '2024 (5.5e)' : '2014 (5e)';
+            html += `<td class="build-col-${build.id}" data-build-id="${build.id}"><span class="system-badge ${systemClass}">${systemLabel}</span></td>`;
+        });
+        html += `</tr>`;
+        
+        // Fila Rol
+        html += `<tr><td>Rol Principal</td>`;
+        builds.forEach(build => {
+            html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${build.role}</td>`;
+        });
+        html += `</tr>`;
+        
+        // Filas Ratings
+        const ratingLabels = {
+            dpr: 'Daño (DPR)',
+            ehp: 'Tanque (EHP)',
+            control: 'Control',
+            support: 'Soporte',
+            complexity: 'Complejidad'
+        };
+        
+        Object.keys(ratingLabels).forEach(key => {
+            html += `<tr><td>${ratingLabels[key]}</td>`;
+            builds.forEach(build => {
+                const val = (build.ratings && build.ratings[key]) || 0;
+                let cellContent = `${val}/10`;
+                
+                if (key !== 'complexity' && val === maxRatings[key] && val > 0) {
+                    cellContent = `<span class="stat-winner">${val}/10</span>`;
+                }
+                
+                html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${cellContent}</td>`;
+            });
+            html += `</tr>`;
+        });
+        
+        html += `</tbody></table>`;
+        tableContainer.innerHTML = html;
+        
+        // Eliminar columnas
+        tableContainer.querySelectorAll('.btn-remove-col').forEach(btn => {
+            btn.addEventListener('click', (e) => {
+                const id = btn.getAttribute('data-id');
+                const chk = document.getElementById(`chk-${id}`);
+                if (chk) chk.checked = false;
+                
+                toggleBuildCompare(id, false);
+                
+                if (compareBuildIds.length < 2) {
+                    closeCompareView();
+                    renderBuildsList();
+                } else {
+                    renderCompareData();
+                }
+            });
+        });
+        
+        // Hovers interactivos
+        builds.forEach(build => {
+            const cols = tableContainer.querySelectorAll(`.build-col-${build.id}`);
+            cols.forEach(col => {
+                col.addEventListener('mouseenter', () => {
+                    highlightCompareBuild(build.id);
+                });
+                col.addEventListener('mouseleave', () => {
+                    clearHighlightCompareBuild();
+                });
+            });
+        });
+        
+        renderCompareRadar(builds);
+        renderCompareLegend(builds);
+    }
+
+    function renderCompareRadar(builds) {
+        const container = document.getElementById('compare-radar-chart');
+        if (!container) return;
+        
+        const axes = [
+            { key: 'dpr',        label: 'DPR' },
+            { key: 'ehp',        label: 'EHP' },
+            { key: 'control',    label: 'Control' },
+            { key: 'support',    label: 'Soporte' },
+            { key: 'complexity', label: 'Complejidad' }
+        ];
+        const n = axes.length;
+        const cx = 160, cy = 140, maxR = 100;
+        const angleOff = -Math.PI / 2;
+
+        function polar(i, scale) {
+            const a = angleOff + (2 * Math.PI * i) / n;
+            return { x: cx + Math.cos(a) * maxR * scale, y: cy + Math.sin(a) * maxR * scale };
+        }
+
+        // Grid rings
+        let gridSvg = '';
+        [0.25, 0.5, 0.75, 1.0].forEach(s => {
+            const pts = [];
+            for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x},${p.y}`); }
+            gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>`;
+        });
+
+        // Axis lines
+        let axisSvg = '';
+        for (let i = 0; i < n; i++) {
+            const p = polar(i, 1);
+            axisSvg += `<line x1="${cx}" y1="${cy}" x2="${p.x}" y2="${p.y}" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>`;
+        }
+
+        // Data Polygons
+        let polygonsSvg = '';
+        let dotsSvg = '';
+        
+        builds.forEach(build => {
+            const r = build.ratings || {};
+            const colors = getColorsForClasses(build.classes) || { primary: '#6366f1' };
+            const dataPts = [];
+            
+            for (let i = 0; i < n; i++) {
+                const key = axes[i].key;
+                const val = r[key] || 0;
+                const p = polar(i, val / 10);
+                dataPts.push(`${p.x},${p.y}`);
+                
+                dotsSvg += `<circle cx="${p.x}" cy="${p.y}" r="3.5" fill="${colors.primary}" class="compare-polygon" data-build-id="${build.id}" style="pointer-events: none;"/>`;
+            }
+            
+            polygonsSvg += `
+                <polygon points="${dataPts.join(' ')}" 
+                         fill="${colors.primary}" 
+                         stroke="${colors.primary}" 
+                         class="compare-polygon" 
+                         data-build-id="${build.id}" 
+                         style="stroke: ${colors.primary}; fill: ${colors.primary};" />
+            `;
+        });
+
+        // Axis labels
+        let labelsSvg = '';
+        for (let i = 0; i < n; i++) {
+            const pLabel = polar(i, 1.22);
+            const anchor = pLabel.x < cx - 5 ? 'end' : pLabel.x > cx + 5 ? 'start' : 'middle';
+            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y}" text-anchor="${anchor}" dominant-baseline="central" fill="var(--color-text-muted)" style="font-size: 10px; font-weight: 600; font-family: var(--font-body);">${axes[i].label}</text>`;
+        }
+
+        container.innerHTML = `
+            <svg viewBox="0 0 320 280" xmlns="http://www.w3.org/2000/svg">
+                ${gridSvg}
+                ${axisSvg}
+                ${polygonsSvg}
+                ${dotsSvg}
+                ${labelsSvg}
+            </svg>
+        `;
+    }
+
+    function renderCompareLegend(builds) {
+        const legendContainer = document.getElementById('compare-legend');
+        if (!legendContainer) return;
+        
+        let html = '';
+        builds.forEach(build => {
+            const colors = getColorsForClasses(build.classes) || { primary: '#6366f1' };
+            html += `
+                <div class="legend-item" data-build-id="${build.id}">
+                    <span class="legend-color" style="background-color: ${colors.primary};"></span>
+                    <span>${build.name}</span>
+                </div>
+            `;
+        });
+        legendContainer.innerHTML = html;
+        
+        legendContainer.querySelectorAll('.legend-item').forEach(item => {
+            const buildId = item.getAttribute('data-build-id');
+            item.addEventListener('mouseenter', () => {
+                highlightCompareBuild(buildId);
+            });
+            item.addEventListener('mouseleave', () => {
+                clearHighlightCompareBuild();
+            });
+        });
+    }
+
+    if (btnCompare) {
+        btnCompare.addEventListener('click', showCompareView);
+    }
+    if (btnCloseCompare) {
+        btnCloseCompare.addEventListener('click', closeCompareView);
+    }
+    if (btnCloseCompareMobile) {
+        btnCloseCompareMobile.addEventListener('click', closeCompareView);
     }
 
     // Watch hashchange
