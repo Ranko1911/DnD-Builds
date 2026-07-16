@@ -98,5 +98,25 @@
     "folder": "moon guardian",
     "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
     "ratings": { "dpr": 4, "ehp": 10, "control": 6, "support": 8, "complexity": 4 }
+  },
+  {
+    "id": "the-bullet",
+    "name": "The Bullet",
+    "classes": "Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2",
+    "system": "D&D 5e (2014)",
+    "role": "Speed Gimmick / Ranged Sprinter",
+    "folder": "the bullet",
+    "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
+    "ratings": { "dpr": 3, "ehp": 5, "control": 2, "support": 4, "complexity": 9 }
+  },
+  {
+    "id": "eldritch-shadow",
+    "name": "Eldritch Shadow",
+    "classes": "Fighter (Eldritch Knight) 20",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Gish Striker / Battlefield Controller",
+    "folder": "eldritch shadow",
+    "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
+    "ratings": { "dpr": 8, "ehp": 7, "control": 6, "support": 2, "complexity": 5 }
   }
 ]
