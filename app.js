@@ -158,6 +158,19 @@ document.addEventListener('DOMContentLoaded', () => {
     const toggleTracker = document.getElementById('toggle-tracker');
     const toggleRadar = document.getElementById('toggle-radar');
 
+    // Layout customization elements
+    const appHeader = document.getElementById('app-header');
+    const buildsSidebar = document.getElementById('builds-sidebar');
+    const sidebarResizer = document.getElementById('sidebar-resizer');
+    const btnToggleSidebar = document.getElementById('btn-toggle-sidebar');
+    const btnLayoutSettings = document.getElementById('btn-layout-settings');
+    const layoutSettingsDropdown = document.getElementById('layout-settings-dropdown');
+    const settingToggleSidebar = document.getElementById('setting-toggle-sidebar');
+    const settingToggleHeader = document.getElementById('setting-toggle-header');
+    const settingSidebarWidth = document.getElementById('setting-sidebar-width');
+    const valSidebarWidth = document.getElementById('val-sidebar-width');
+    const btnRestoreHeader = document.getElementById('btn-restore-header');
+
     // Configure Marked Options
     marked.setOptions({
         gfm: true,
@@ -1380,6 +1393,182 @@ document.addEventListener('DOMContentLoaded', () => {
     if (btnCloseCompareMobile) {
         btnCloseCompareMobile.addEventListener('click', closeCompareView);
     }
+
+    // ==========================================
+    // PERSONALIZACIÓN Y AJUSTES DE INTERFAZ
+    // ==========================================
+
+    // 1. Cargar estado inicial desde localStorage
+    const savedSidebarWidth = localStorage.getItem('sidebar-width') || '380';
+    const savedSidebarCollapsed = localStorage.getItem('sidebar-collapsed') === 'true';
+    const savedHeaderCollapsed = localStorage.getItem('header-collapsed') === 'true';
+
+    // Aplicar ancho de barra lateral (solo en escritorio)
+    if (window.innerWidth > 768) {
+        applySidebarWidth(savedSidebarWidth);
+    } else {
+        if (buildsSidebar) buildsSidebar.style.width = '';
+    }
+
+    // Aplicar colapso de barra lateral
+    if (savedSidebarCollapsed) {
+        if (buildsSidebar) buildsSidebar.classList.add('collapsed');
+        if (settingToggleSidebar) settingToggleSidebar.checked = true;
+    }
+
+    // Aplicar colapso de cabecera
+    if (savedHeaderCollapsed) {
+        if (appHeader) appHeader.classList.add('collapsed');
+        if (btnRestoreHeader) btnRestoreHeader.classList.remove('hidden');
+        if (settingToggleHeader) settingToggleHeader.checked = true;
+    }
+
+    // Función auxiliar para aplicar el ancho de barra lateral
+    function applySidebarWidth(width) {
+        if (!buildsSidebar) return;
+        const w = Math.max(260, Math.min(550, parseInt(width)));
+        buildsSidebar.style.width = `${w}px`;
+        
+        if (settingSidebarWidth) settingSidebarWidth.value = w;
+        if (valSidebarWidth) valSidebarWidth.textContent = `${w}px`;
+    }
+
+    // 2. Eventos del menú desplegable de ajustes
+    if (btnLayoutSettings && layoutSettingsDropdown) {
+        btnLayoutSettings.addEventListener('click', (e) => {
+            e.stopPropagation();
+            layoutSettingsDropdown.classList.toggle('hidden');
+            btnLayoutSettings.classList.toggle('active');
+        });
+
+        // Evitar que los clics dentro del dropdown lo cierren
+        layoutSettingsDropdown.addEventListener('click', (e) => {
+            e.stopPropagation();
+        });
+
+        // Cerrar dropdown al hacer clic fuera
+        document.addEventListener('click', () => {
+            layoutSettingsDropdown.classList.add('hidden');
+            btnLayoutSettings.classList.remove('active');
+        });
+    }
+
+    // 3. Alternar colapso de barra lateral (Sidebar)
+    function toggleSidebarCollapsed(collapsed) {
+        if (!buildsSidebar) return;
+        
+        if (collapsed) {
+            buildsSidebar.classList.add('collapsed');
+        } else {
+            buildsSidebar.classList.remove('collapsed');
+        }
+        
+        // Sincronizar checkbox si existe
+        if (settingToggleSidebar) settingToggleSidebar.checked = collapsed;
+        
+        localStorage.setItem('sidebar-collapsed', collapsed);
+    }
+
+    if (btnToggleSidebar) {
+        btnToggleSidebar.addEventListener('click', (e) => {
+            e.stopPropagation();
+            const isCollapsed = buildsSidebar.classList.contains('collapsed');
+            toggleSidebarCollapsed(!isCollapsed);
+        });
+    }
+
+    if (settingToggleSidebar) {
+        settingToggleSidebar.addEventListener('change', () => {
+            toggleSidebarCollapsed(settingToggleSidebar.checked);
+        });
+    }
+
+    // 4. Alternar colapso de cabecera (Header / Modo Enfoque)
+    function toggleHeaderCollapsed(collapsed) {
+        if (!appHeader) return;
+        
+        if (collapsed) {
+            appHeader.classList.add('collapsed');
+            if (btnRestoreHeader) btnRestoreHeader.classList.remove('hidden');
+        } else {
+            appHeader.classList.remove('collapsed');
+            if (btnRestoreHeader) btnRestoreHeader.classList.add('hidden');
+        }
+        
+        // Sincronizar checkbox si existe
+        if (settingToggleHeader) settingToggleHeader.checked = collapsed;
+        
+        localStorage.setItem('header-collapsed', collapsed);
+    }
+
+    if (settingToggleHeader) {
+        settingToggleHeader.addEventListener('change', () => {
+            toggleHeaderCollapsed(settingToggleHeader.checked);
+        });
+    }
+
+    if (btnRestoreHeader) {
+        btnRestoreHeader.addEventListener('click', () => {
+            toggleHeaderCollapsed(false);
+        });
+    }
+
+    // 5. Cambiar ancho de la barra lateral desde el slider del dropdown
+    if (settingSidebarWidth) {
+        settingSidebarWidth.addEventListener('input', () => {
+            const width = settingSidebarWidth.value;
+            applySidebarWidth(width);
+            localStorage.setItem('sidebar-width', width);
+        });
+    }
+
+    // 6. Redimensionamiento manual con arrastre del divisor (Drag and Resize)
+    if (sidebarResizer) {
+        let isResizing = false;
+
+        sidebarResizer.addEventListener('mousedown', (e) => {
+            e.preventDefault();
+            isResizing = true;
+            sidebarResizer.classList.add('active');
+            document.body.style.cursor = 'col-resize';
+            document.body.style.userSelect = 'none';
+        });
+
+        document.addEventListener('mousemove', (e) => {
+            if (!isResizing) return;
+            const newWidth = e.clientX;
+            applySidebarWidth(newWidth);
+        });
+
+        document.addEventListener('mouseup', () => {
+            if (!isResizing) return;
+            isResizing = false;
+            sidebarResizer.classList.remove('active');
+            document.body.style.cursor = '';
+            document.body.style.userSelect = '';
+            
+            if (buildsSidebar && buildsSidebar.style.width) {
+                const width = parseInt(buildsSidebar.style.width);
+                localStorage.setItem('sidebar-width', width);
+            }
+        });
+
+        // Restablecer al hacer doble clic
+        sidebarResizer.addEventListener('dblclick', () => {
+            applySidebarWidth(380);
+            localStorage.setItem('sidebar-width', 380);
+        });
+    }
+
+    // Ajuste responsivo del redimensionador al cambiar de tamaño la ventana
+    window.addEventListener('resize', () => {
+        if (window.innerWidth <= 768) {
+            if (buildsSidebar) buildsSidebar.style.width = '';
+        } else {
+            const currentWidth = localStorage.getItem('sidebar-width') || '380';
+            applySidebarWidth(currentWidth);
+        }
+    });
 
     // Watch hashchange
     window.addEventListener('hashchange', handleHashChange);

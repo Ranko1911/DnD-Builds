@@ -1760,4 +1760,296 @@ body {
     }
 }
 
+/* ========================================== */
+/* FASE 4: PERSONALIZACIÓN Y AJUSTES DE DISEÑO */
+/* ========================================== */
+
+/* Transiciones para la barra lateral y cabecera */
+.builds-sidebar {
+    transition: width 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s ease, border-color 0.3s ease;
+}
+
+.app-header {
+    max-height: 150px;
+    transition: max-height 0.3s cubic-bezier(0.4, 0, 0.2, 1), padding 0.3s cubic-bezier(0.4, 0, 0.2, 1), border-color 0.3s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Estado Colapsado de Barra Lateral */
+.builds-sidebar.collapsed {
+    width: 0 !important;
+    opacity: 0;
+    pointer-events: none;
+    border-right-color: transparent !important;
+}
+
+.builds-sidebar.collapsed + .sidebar-resizer {
+    display: none !important;
+}
+
+/* Estado Colapsado de Cabecera (Modo Enfoque) */
+.app-header.collapsed {
+    max-height: 0 !important;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    border-bottom-color: transparent !important;
+    opacity: 0;
+    pointer-events: none;
+    overflow: hidden;
+}
+
+/* Divisor de redimensionamiento */
+.sidebar-resizer {
+    width: 6px;
+    cursor: col-resize;
+    background-color: var(--border-color);
+    z-index: 20;
+    position: relative;
+    flex-shrink: 0;
+    transition: background-color 0.2s, box-shadow 0.2s;
+}
+
+.sidebar-resizer:hover,
+.sidebar-resizer.active {
+    background-color: var(--color-primary);
+    box-shadow: 0 0 10px var(--color-primary-glow), 0 0 4px var(--color-primary);
+}
+
+/* Botón flotante superior para restaurar cabecera */
+.restore-header-btn {
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1000;
+    border-radius: 0 0 var(--border-radius-md) var(--border-radius-md);
+    border: 1px solid var(--border-color);
+    border-top: none;
+    background-color: var(--bg-surface-glass);
+    backdrop-filter: blur(12px);
+    color: var(--color-text-muted);
+    padding: 0.4rem 1.25rem;
+    cursor: pointer;
+    box-shadow: var(--shadow-premium);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: var(--transition-smooth);
+    animation: slideDownBtn 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.restore-header-btn:hover {
+    color: white;
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--color-primary);
+    box-shadow: 0 0 15px var(--color-primary-glow);
+}
+
+.restore-header-btn.hidden {
+    display: none !important;
+}
+
+@keyframes slideDownBtn {
+    from { transform: translate(-50%, -100%); }
+    to { transform: translate(-50%, 0); }
+}
+
+/* Botón de Ajustes de Interfaz en Cabecera */
+.layout-settings-btn {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    color: var(--color-text-muted);
+    transition: var(--transition-smooth);
+}
+
+.layout-settings-btn:hover,
+.layout-settings-btn.active {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+/* Botón sidebar toggle en cabecera */
+.sidebar-toggle-btn {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    color: var(--color-text-muted);
+    padding: 0.5rem;
+    transition: var(--transition-smooth);
+}
+
+.sidebar-toggle-btn:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    border-color: var(--color-primary);
+    color: white;
+}
+
+/* Dropdown de Ajustes de Interfaz */
+.layout-settings-dropdown {
+    position: absolute;
+    top: calc(100% + 10px);
+    right: 2rem;
+    background: var(--bg-surface-glass);
+    backdrop-filter: blur(16px);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-md);
+    padding: 1.25rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 260px;
+    z-index: 100;
+    box-shadow: var(--shadow-premium);
+    animation: fadeInScale 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.layout-settings-dropdown.hidden {
+    display: none !important;
+}
+
+.dropdown-header {
+    font-family: var(--font-heading);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: var(--color-text-muted);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: 0.5rem;
+    margin-bottom: 0.25rem;
+}
+
+.dropdown-item {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dropdown-item.slider-setting {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0.5rem;
+    border-top: 1px solid var(--border-color);
+    padding-top: 0.75rem;
+}
+
+.slider-label-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.03em;
+    color: var(--color-text-muted);
+}
+
+.slider-val {
+    color: var(--color-primary);
+    font-weight: 800;
+}
+
+.width-slider {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 4px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    outline: none;
+}
+
+.width-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    cursor: pointer;
+    box-shadow: 0 0 6px var(--color-primary-glow);
+    transition: transform 0.15s, box-shadow 0.15s;
+}
+
+.width-slider::-webkit-slider-thumb:hover {
+    transform: scale(1.25);
+    box-shadow: 0 0 10px var(--color-secondary-glow);
+}
+
+.width-slider::-moz-range-thumb {
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background: var(--color-primary);
+    cursor: pointer;
+    border: none;
+}
+
+@keyframes fadeInScale {
+    from { opacity: 0; transform: scale(0.95) translateY(-5px); }
+    to { opacity: 1; transform: scale(1) translateY(0); }
+}
+
+/* Ajustes de optimización para móviles (max-width: 768px) */
+@media (max-width: 768px) {
+    .app-header {
+        padding: 0.4rem 0.75rem !important;
+        gap: 0.4rem !important;
+    }
+    
+    .logo-container {
+        gap: 0.5rem !important;
+    }
+    
+    .logo-text p {
+        display: none !important;
+    }
+    
+    .logo-text h1 {
+        font-size: 1.1rem !important;
+    }
+    
+    .logo-icon {
+        width: 1.8rem !important;
+        height: 1.8rem !important;
+    }
+    
+    .search-filter-bar {
+        gap: 0.4rem !important;
+        margin-top: 0 !important;
+    }
+    
+    #build-search {
+        padding: 0.4rem 0.75rem 0.4rem 2rem !important;
+        font-size: 0.8rem !important;
+    }
+    
+    .filter-toggle-btn {
+        height: 32px !important;
+        width: 32px !important;
+        padding: 0 !important;
+    }
+    
+    .layout-settings-btn {
+        height: 32px !important;
+        width: 32px !important;
+        padding: 0 !important;
+    }
+
+    .sidebar-toggle-btn {
+        padding: 0.35rem !important;
+    }
+    
+    .layout-settings-dropdown {
+        right: 0.75rem;
+        width: 220px;
+    }
+
+    .layout-settings-dropdown .slider-setting {
+        display: none !important; /* Slider no aplica a móviles */
+    }
+    
+    .sidebar-resizer {
+        display: none !important;
+    }
+}
+
+
 

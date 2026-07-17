@@ -28,10 +28,23 @@
 </head>
 
 <body>
+    <!-- Botón flotante para restaurar cabecera oculta -->
+    <button id="btn-restore-header" class="restore-header-btn hidden" title="Mostrar cabecera">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="16" height="16">
+            <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+    </button>
+
     <div class="app-container">
         <!-- Header -->
-        <header class="app-header">
+        <header class="app-header" id="app-header">
             <div class="logo-container">
+                <button id="btn-toggle-sidebar" class="btn btn-secondary sidebar-toggle-btn" title="Mostrar/Ocultar Catálogo">
+                    <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="9" y1="3" x2="9" y2="21"></line>
+                    </svg>
+                </button>
                 <svg class="logo-icon" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <path d="M12 2L2 7L12 12L22 7L12 2Z" stroke="currentColor" stroke-width="2" stroke-linecap="round"
                         stroke-linejoin="round" />
@@ -62,6 +75,40 @@
                     </svg>
                 </button>
 
+                <button id="btn-layout-settings" class="btn btn-secondary layout-settings-btn" title="Ajustes de pantalla">
+                    <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                        <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+                        <line x1="9" y1="3" x2="9" y2="21"></line>
+                        <path d="M17 17l-3-3 3-3"></path>
+                    </svg>
+                </button>
+
+                <!-- Dropdown de Ajustes de Interfaz -->
+                <div class="layout-settings-dropdown hidden" id="layout-settings-dropdown">
+                    <div class="dropdown-header">Ajustes de Interfaz</div>
+                    <div class="dropdown-item">
+                        <label class="toggle-switch" for="setting-toggle-sidebar">
+                            <input type="checkbox" id="setting-toggle-sidebar">
+                            <span class="toggle-slider"></span>
+                            <span class="toggle-text">Ocultar Catálogo</span>
+                        </label>
+                    </div>
+                    <div class="dropdown-item">
+                        <label class="toggle-switch" for="setting-toggle-header">
+                            <input type="checkbox" id="setting-toggle-header">
+                            <span class="toggle-slider"></span>
+                            <span class="toggle-text">Ocultar Cabecera</span>
+                        </label>
+                    </div>
+                    <div class="dropdown-item slider-setting" id="setting-sidebar-width-container">
+                        <div class="slider-label-row">
+                            <span class="slider-label">Ancho de Catálogo</span>
+                            <span id="val-sidebar-width" class="slider-val">380px</span>
+                        </div>
+                        <input type="range" id="setting-sidebar-width" min="260" max="550" value="380" class="width-slider">
+                    </div>
+                </div>
+
                 <div class="filter-group" id="filter-group">
                     <select id="filter-system">
                         <option value="all">Todos los Reglamentos</option>
@@ -84,7 +131,7 @@
         <!-- Main Workspace -->
         <main class="app-main">
             <!-- Sidebar with Build Cards -->
-            <aside class="builds-sidebar">
+            <aside class="builds-sidebar" id="builds-sidebar">
                 <div class="sidebar-header">
                     <h2>Catálogo de Builds</h2>
                     <span id="builds-count" class="badge-count">0</span>
@@ -104,6 +151,9 @@
                 </div>
             </aside>
 
+            <!-- Divisor Ajustable de Barra Lateral -->
+            <div class="sidebar-resizer" id="sidebar-resizer" title="Arrastra para cambiar el tamaño, doble click para reiniciar"></div>
+            
             <!-- Detail Pane -->
             <section class="build-detail-pane" id="detail-pane">
                 <!-- Welcome View -->
