@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Sneaky Smasher (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Sneaky Smasher (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Sneaky Smasher**, diseñado por el **Archivero de Optimización**. El build combina el daño psiónico inevitable y el sigilo de Soulknife Rogue con el combate temerario del Bárbaro.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Sneaky Smasher**, diseñado por el **Archivero de Optimización**. El build combina el daño psiónico inevitable y el sigilo de Soulknife Rogue con el combate temerario del Bárbaro.
 
 ---
 
@@ -33,9 +33,9 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Sneak
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Tabernero Agitador (Tavern Brawler) / Atleta (Nivel 7 / Rogue 4):**
-    *   *Sinergia:* +1 Fuerza (alcanzando 16). Permite mejorar la agilidad de trepado u obtener competencias de golpe desarmado útiles para luchadores de agarre.
-2.  **Alerta (Alert) (Nivel 15 / Rogue 12):**
-    *   *Sinergia:* +5 iniciativa. Impide que seas sorprendido, asegurando que uses el rasgo Bugbear de daño extra de primer turno.
-3.  **Dureza (Tough) (Nivel 19 / Rogue 16):**
-    *   *Sinergia:* +40 puntos de golpe máximos que se duplican virtualmente debido a la reducción de Furia.
+1. **Tabernero Agitador (Tavern Brawler) / Atleta (Nivel 7 / Rogue 4):**
+    * *Sinergia:* +1 Fuerza (alcanzando 16). Permite mejorar la agilidad de trepado u obtener competencias de golpe desarmado útiles para luchadores de agarre.
+2. **Alerta (Alert) (Nivel 15 / Rogue 12):**
+    * *Sinergia:* +5 iniciativa. Impide que seas sorprendido, asegurando que uses el rasgo Bugbear de daño extra de primer turno.
+3. **Dureza (Tough) (Nivel 19 / Rogue 16):**
+    * *Sinergia:* +40 puntos de golpe máximos que se duplican virtualmente debido a la reducción de Furia.

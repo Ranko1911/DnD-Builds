@@ -1,4 +1,4 @@
-# 🏰 Bastión y Tiempo Muerto — The Fartificer
+# 🏰 Bastión y Tiempo Muerto — Fartificer
 
 ## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
 

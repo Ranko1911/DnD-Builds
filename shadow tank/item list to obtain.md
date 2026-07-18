@@ -1,12 +1,13 @@
-# Item List — The Shadow Tank
+# Item List — Shadow Tank
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Ring of Protection (1 slot), Weapon of Warning (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Amulet of Health (1 slot), Ring of Protection (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of Health (1 slot). (Total: 3).
+
+* **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
+* **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Ring of Protection (1 slot), Weapon of Warning (1 slot). (Total: 3).
+* **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Amulet of Health (1 slot), Ring of Protection (1 slot). (Total: 3).
+* **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of Health (1 slot). (Total: 3).
 
 ---
 

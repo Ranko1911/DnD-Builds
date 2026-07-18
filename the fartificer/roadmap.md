@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Fartificer (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Fartificer (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Fartificer**, diseñado por el **Archivero de Optimización**. El build combina el combate a distancia de Eldritch Knight con las invenciones mágicas de Battle Smith.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Fartificer**, diseñado por el **Archivero de Optimización**. El build combina el combate a distancia de Eldritch Knight con las invenciones mágicas de Battle Smith.
 
 ---
 
@@ -33,9 +33,9 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Farti
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Francotirador (Sharpshooter) (Nivel 4 / Fighter 4):**
-    *   *Sinergia:* Permite atacar a rango máximo sin desventaja, ignora coberturas parciales e impone un modificador de -5 a impactar a cambio de +10 al daño plano de cada saeta.
-2.  **Alerta (Alert) (Nivel 15 / Fighter 12):**
-    *   *Sinergia:* +5 a la iniciativa. Garantiza posicionamiento rápido y fuego de cobertura antes de que los enemigos cierren filas.
-3.  **Dureza (Tough) (Nivel 17 / Fighter 14):**
-    *   *Sinergia:* Suma +40 puntos de golpe máximos instantáneamente para soportar fuego enfocado en primera línea.
+1. **Francotirador (Sharpshooter) (Nivel 4 / Fighter 4):**
+    * *Sinergia:* Permite atacar a rango máximo sin desventaja, ignora coberturas parciales e impone un modificador de -5 a impactar a cambio de +10 al daño plano de cada saeta.
+2. **Alerta (Alert) (Nivel 15 / Fighter 12):**
+    * *Sinergia:* +5 a la iniciativa. Garantiza posicionamiento rápido y fuego de cobertura antes de que los enemigos cierren filas.
+3. **Dureza (Tough) (Nivel 17 / Fighter 14):**
+    * *Sinergia:* Suma +40 puntos de golpe máximos instantáneamente para soportar fuego enfocado en primera línea.

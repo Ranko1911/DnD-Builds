@@ -1,4 +1,4 @@
-# 🏰 Bastión y Tiempo Muerto — The Shadow Tank
+# 🏰 Bastión y Tiempo Muerto — Shadow Tank
 
 ## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
 

@@ -1,4 +1,4 @@
-# 🏰 Bastión y Tiempo Muerto — The Sneaky Smasher
+# 🏰 Bastión y Tiempo Muerto — Sneaky Smasher
 
 ## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
 

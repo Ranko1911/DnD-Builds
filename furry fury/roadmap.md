@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Furry Fury (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Furry Fury (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Furry Fury**, diseñado para maximizar el daño explosivo a distancia y CaC aprovechando el alcance táctico y la combinación de cantrip con arma.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Furry Fury**, diseñado para maximizar el daño explosivo a distancia y CaC aprovechando el alcance táctico y la combinación de cantrip con arma.
 
 ---
 
@@ -33,11 +33,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Furry
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Alert (Nivel 1 / Especie Humano/Racial):**
-    *   *Sinergia:* Te asegura ganar la iniciativa la gran mayoría de las veces. Actuar antes que tus oponentes es inmutable para desatar tu daño por sorpresa de Bugbear (+2d6 en cada uno de tus 5 impactos).
-2.  **Ability Score Improvement (+2 DES) (Nivel 5 / Bard 4):**
-    *   *Sinergia:* Aumenta tu Destreza a 19, mejorando las tiradas de ataque cuerpo a cuerpo de tu estoque y cimitarra y tu CA.
-3.  **ASI (+1 DEX / +1 CHA) (Nivel 9 / Bard 8):**
-    *   *Sinergia:* Maximiza tu Destreza a 20 (+5) e incrementa tu Carisma a 17 (+3), mejorando tus tiradas de ataque con Eldritch Blast y tu CD de salvación.
-4.  **War Caster (Nivel 13 / Bard 12):**
-    *   *Sinergia:* Te otorga ventaja en tiradas de salvación de concentración. Dado que tu daño de combate depende completamente de mantener activo *Conjure Minor Elementals* en concentración, esta dote es obligatoria.
+1. **Alert (Nivel 1 / Especie Humano/Racial):**
+    * *Sinergia:* Te asegura ganar la iniciativa la gran mayoría de las veces. Actuar antes que tus oponentes es inmutable para desatar tu daño por sorpresa de Bugbear (+2d6 en cada uno de tus 5 impactos).
+2. **Ability Score Improvement (+2 DES) (Nivel 5 / Bard 4):**
+    * *Sinergia:* Aumenta tu Destreza a 19, mejorando las tiradas de ataque cuerpo a cuerpo de tu estoque y cimitarra y tu CA.
+3. **ASI (+1 DEX / +1 CHA) (Nivel 9 / Bard 8):**
+    * *Sinergia:* Maximiza tu Destreza a 20 (+5) e incrementa tu Carisma a 17 (+3), mejorando tus tiradas de ataque con Eldritch Blast y tu CD de salvación.
+4. **War Caster (Nivel 13 / Bard 12):**
+    * *Sinergia:* Te otorga ventaja en tiradas de salvación de concentración. Dado que tu daño de combate depende completamente de mantener activo *Conjure Minor Elementals* en concentración, esta dote es obligatoria.

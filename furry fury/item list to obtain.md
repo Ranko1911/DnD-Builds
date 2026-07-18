@@ -1,14 +1,15 @@
-# Item List — The Furry Fury
+# Item List — Furry Fury
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 > **Filosofía de objetos:** Priorizar el aumento permanente del modificador de Destreza, potenciar el acierto de tus múltiples ataques con armas +X y salvaguardar la Concentración del conjuro *Conjure Minor Elementals*.
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Sin objetos sintonizados.
-*   **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Weapon +1 (sin sintonización).
-*   **Tier 3 (Niveles 11-16):** Amulet of Health (1 slot), Ring of Protection (1 slot), Mantle of Spell Resistance (1 slot). *(La Cloak se desplaza por el Amulet)*.
-*   **Tier 4 (Niveles 17-20):** Tome of Quickness of Action (consumible), Mantle of Spell Resistance (1 slot), Ring of Protection (1 slot), Rapier +3 (sin sintonización), Scimitar +3 (sin sintonización).
+
+* **Tier 1 (Niveles 1-4):** Sin objetos sintonizados.
+* **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Weapon +1 (sin sintonización).
+* **Tier 3 (Niveles 11-16):** Amulet of Health (1 slot), Ring of Protection (1 slot), Mantle of Spell Resistance (1 slot). *(La Cloak se desplaza por el Amulet)*.
+* **Tier 4 (Niveles 17-20):** Tome of Quickness of Action (consumible), Mantle of Spell Resistance (1 slot), Ring of Protection (1 slot), Rapier +3 (sin sintonización), Scimitar +3 (sin sintonización).
 
 ---
 

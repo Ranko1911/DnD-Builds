@@ -141,7 +141,7 @@
   },
   {
     "id": "nick-nack-nabber",
-    "name": "The Nick Nack Nabber",
+    "name": "Nick Nack Nabber",
     "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Utility / Item Specialist",
@@ -151,7 +151,7 @@
   },
   {
     "id": "furry-fury",
-    "name": "The Furry Fury",
+    "name": "Furry Fury",
     "classes": "Bard (Valor) 19 / Warlock 1",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Melee/Ranged Nova Striker",
@@ -161,7 +161,7 @@
   },
   {
     "id": "furious-paradox",
-    "name": "The Furious Paradox",
+    "name": "Furious Paradox",
     "classes": "Wizard (Bladesinger) 18 / Barbarian 2",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns EHP Tank / Gish",
@@ -221,7 +221,7 @@
   },
   {
     "id": "the-fartificer",
-    "name": "The Fartificer",
+    "name": "Fartificer",
     "classes": "Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3",
     "system": "D&D 5e (2014)",
     "role": "Ranged Gadget Sniper / Heavy Striker",
@@ -251,7 +251,7 @@
   },
   {
     "id": "shadow-tank",
-    "name": "The Shadow Tank",
+    "name": "Shadow Tank",
     "classes": "Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
@@ -261,7 +261,7 @@
   },
   {
     "id": "sneaky-smasher",
-    "name": "The Sneaky Smasher",
+    "name": "Sneaky Smasher",
     "classes": "Rogue (Soulknife) 17 / Barbarian (Totem Warrior) 3",
     "system": "D&D 5e (2014)",
     "role": "Frontline Evasion Striker / Grappler",

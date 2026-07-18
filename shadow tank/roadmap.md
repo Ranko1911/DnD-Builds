@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Shadow Tank (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Shadow Tank (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Shadow Tank**, diseñado por el **Archivero de Optimización**. El build combina el aguante físico de Bárbaro del Tótem del Oso con los pactos y maldiciones de Hexblade Warlock.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Shadow Tank**, diseñado por el **Archivero de Optimización**. El build combina el aguante físico de Bárbaro del Tótem del Oso con los pactos y maldiciones de Hexblade Warlock.
 
 ---
 
@@ -33,7 +33,7 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Shado
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Fey Touched (Nivel 7 / Warlock 4):**
-    *   *Sinergia:* +1 Carisma. Permite obtener *Misty Step* gratis una vez al día sin gastar ranuras del pacto y añade un conjuro útil de nivel 1.
-2.  **Dureza (Tough) (Nivel 19 / Warlock 16):**
-    *   *Sinergia:* Suma +40 puntos de golpe máximos que se duplican virtualmente en combate debido a las resistencias de Furia.
+1. **Fey Touched (Nivel 7 / Warlock 4):**
+    * *Sinergia:* +1 Carisma. Permite obtener *Misty Step* gratis una vez al día sin gastar ranuras del pacto y añade un conjuro útil de nivel 1.
+2. **Dureza (Tough) (Nivel 19 / Warlock 16):**
+    * *Sinergia:* Suma +40 puntos de golpe máximos que se duplican virtualmente en combate debido a las resistencias de Furia.

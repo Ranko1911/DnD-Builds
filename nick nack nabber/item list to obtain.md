@@ -1,14 +1,15 @@
-# Item List — The Nick Nack Nabber
+# Item List — Nick Nack Nabber
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 > **Filosofía de objetos:** Priorizar varitas y cetros mágicos con cargas (para disparar como Acción Adicional vía Fast Hands), mejorar la CA pasiva y aumentar la Inteligencia.
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Magic Item Savant)
-*   **Tier 1 (Niveles 1-4):** Enhanced Defense (1 slot), Mind Sharpener (1 slot).
-*   **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Wand of Magic Missiles (sin sintonización).
-*   **Tier 3 (Niveles 11-16):** Wand of Fireballs (1 slot), Winged Boots (1 slot), Gem of Seeing (1 slot), Ring of Protection (1 slot).
-*   **Tier 4 (Niveles 17-20):** Tome of Clear Thought (consumible), Wand of Fireballs (1 slot), Ring of Spell Storing (1 slot), Winged Boots (1 slot), Belt of Giant Strength (1 slot), Ring of Protection (1 slot).
+
+* **Tier 1 (Niveles 1-4):** Enhanced Defense (1 slot), Mind Sharpener (1 slot).
+* **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Wand of Magic Missiles (sin sintonización).
+* **Tier 3 (Niveles 11-16):** Wand of Fireballs (1 slot), Winged Boots (1 slot), Gem of Seeing (1 slot), Ring of Protection (1 slot).
+* **Tier 4 (Niveles 17-20):** Tome of Clear Thought (consumible), Wand of Fireballs (1 slot), Ring of Spell Storing (1 slot), Winged Boots (1 slot), Belt of Giant Strength (1 slot), Ring of Protection (1 slot).
 
 ---
 

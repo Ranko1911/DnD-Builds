@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Nick Nack Nabber (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Nick Nack Nabber (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Nick Nack Nabber**, optimizado para control en primera línea y la máxima eficiencia en economía de acciones.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Nick Nack Nabber**, optimizado para control en primera línea y la máxima eficiencia en economía de acciones.
 
 ---
 
@@ -33,11 +33,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Nick 
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Fey Touched (Nivel 4 / Artificer 4):**
-    *   *Sinergia:* Aumenta tu INT a 18 y te da *Misty Step* gratis, una herramienta de movilidad ideal para un combatiente que usa armadura pesada y no tiene Cunning Action todavía.
-2.  **Ability Score Improvement (+2 INT) (Nivel 8 / Artificer 8):**
-    *   *Sinergia:* Maximiza tu INT a 20. Aumenta tus probabilidades de impactar con Guanteletes, la CD de tus salvaciones a 18 y el número de usos diarios de tu Spell-Storing Item a 10.
-3.  **War Caster (Nivel 15 / Artificer 12):**
-    *   *Sinergia:* Ventaja en tiradas de salvación de concentración. Esencial dado que juegas en primera línea controlando el aggro de los enemigos.
-4.  **Tough (Nivel 19 / Artificer 16):**
-    *   *Sinergia:* Añade +40 HP a tu reserva de vida total. Convierte a tu personaje en un tanque pesado y resistente ante cualquier enemigo en niveles altos.
+1. **Fey Touched (Nivel 4 / Artificer 4):**
+    * *Sinergia:* Aumenta tu INT a 18 y te da *Misty Step* gratis, una herramienta de movilidad ideal para un combatiente que usa armadura pesada y no tiene Cunning Action todavía.
+2. **Ability Score Improvement (+2 INT) (Nivel 8 / Artificer 8):**
+    * *Sinergia:* Maximiza tu INT a 20. Aumenta tus probabilidades de impactar con Guanteletes, la CD de tus salvaciones a 18 y el número de usos diarios de tu Spell-Storing Item a 10.
+3. **War Caster (Nivel 15 / Artificer 12):**
+    * *Sinergia:* Ventaja en tiradas de salvación de concentración. Esencial dado que juegas en primera línea controlando el aggro de los enemigos.
+4. **Tough (Nivel 19 / Artificer 16):**
+    * *Sinergia:* Añade +40 HP a tu reserva de vida total. Convierte a tu personaje en un tanque pesado y resistente ante cualquier enemigo en niveles altos.

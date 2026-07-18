@@ -280,18 +280,15 @@ body {
     background-color: var(--bg-surface);
     border: 1px solid var(--border-color);
     border-radius: var(--border-radius-md);
-    padding: 1rem;
     cursor: pointer;
     transition: var(--transition-smooth);
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
     position: relative;
-    overflow: hidden;
-    height: auto; /* Asegura que no esté heredando un height fijo */
-    min-height: 125px; /* Le da un tamaño mínimo base elegante */
-    padding: 1rem 1rem 1.25rem 1rem; /* Añadimos un extra de padding abajo */
+    padding: 1rem 1rem 1.25rem 1rem;
 }
+
 
 .build-card::before {
     content: '';

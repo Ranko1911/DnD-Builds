@@ -1,14 +1,15 @@
-# Item List — The Furious Paradox
+# Item List — Furious Paradox
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 > **Filosofía de objetos:** Dado que usas Unarmored Defense, priorizas objetos que mejoren tu Constitución y tu Destreza (para aumentar tu CA base), que te den bonificaciones directas de CA sin armadura (como Bracers of Defense) y que aumenten tu Inteligencia.
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Sin objetos sintonizados.
-*   **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Bracers of Defense (1 slot).
-*   **Tier 3 (Niveles 11-16):** Amulet of Health (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot). *(La Cloak se desplaza por el Amulet)*.
-*   **Tier 4 (Niveles 17-20):** Amulet of Health (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot), Tome of Quickness of Action (consumible), Tome of Clear Thought (consumible).
+
+* **Tier 1 (Niveles 1-4):** Sin objetos sintonizados.
+* **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Bracers of Defense (1 slot).
+* **Tier 3 (Niveles 11-16):** Amulet of Health (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot). *(La Cloak se desplaza por el Amulet)*.
+* **Tier 4 (Niveles 17-20):** Amulet of Health (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot), Tome of Quickness of Action (consumible), Tome of Clear Thought (consumible).
 
 ---
 

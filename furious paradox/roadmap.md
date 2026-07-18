@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Furious Paradox (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Furious Paradox (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Furious Paradox**, diseñado para optimizar el tanqueo físico y arcano mediante la combinación de rabia y mitigación mágica.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Furious Paradox**, diseñado para optimizar el tanqueo físico y arcano mediante la combinación de rabia y mitigación mágica.
 
 ---
 
@@ -33,13 +33,13 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Furio
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **War Caster (Nivel 6 / Wizard 4):**
-    *   *Sinergia:* Te otorga ventaja en tiradas de salvación de concentración. Aunque no puedes concentrarte mientras estás en Rabia, esta dote es crucial para las fases en las que luchas como un mago puro o lanzas conjuros de concentración previos a entrar en furia.
-2.  **Ability Score Improvement (+2 DEX) (Nivel 10 / Wizard 8):**
-    *   *Sinergia:* Aumenta tu Destreza a 18. Incrementa tu CA pasiva (a través de Unarmored Defense), tus tiradas de salvación de Destreza y tus probabilidades de impacto CaC.
-3.  **ASI (+2 INT) (Nivel 14 / Wizard 12):**
-    *   *Sinergia:* Lleva tu Inteligencia a 18. Otorga +4 a tu CA durante Bladesong y aumenta tu CD de conjuros defensivos.
-4.  **ASI (+2 DEX) (Nivel 18 / Wizard 16):**
-    *   *Sinergia:* Maximiza tu Destreza a 20 (+5). Tu CA con Bladesong activo y sin armadura alcanza valores de 20+ sin magia.
-5.  **ASI (+2 INT) (Nivel 20 / Wizard 18):**
-    *   *Sinergia:* Maximiza tu Inteligencia a 20 (+5). Aumenta tu CA de Bladesong a +5, tu reducción de daño con Song of Defense y el bonus de daño de Song of Victory (+5 a cada golpe).
+1. **War Caster (Nivel 6 / Wizard 4):**
+    * *Sinergia:* Te otorga ventaja en tiradas de salvación de concentración. Aunque no puedes concentrarte mientras estás en Rabia, esta dote es crucial para las fases en las que luchas como un mago puro o lanzas conjuros de concentración previos a entrar en furia.
+2. **Ability Score Improvement (+2 DEX) (Nivel 10 / Wizard 8):**
+    * *Sinergia:* Aumenta tu Destreza a 18. Incrementa tu CA pasiva (a través de Unarmored Defense), tus tiradas de salvación de Destreza y tus probabilidades de impacto CaC.
+3. **ASI (+2 INT) (Nivel 14 / Wizard 12):**
+    * *Sinergia:* Lleva tu Inteligencia a 18. Otorga +4 a tu CA durante Bladesong y aumenta tu CD de conjuros defensivos.
+4. **ASI (+2 DEX) (Nivel 18 / Wizard 16):**
+    * *Sinergia:* Maximiza tu Destreza a 20 (+5). Tu CA con Bladesong activo y sin armadura alcanza valores de 20+ sin magia.
+5. **ASI (+2 INT) (Nivel 20 / Wizard 18):**
+    * *Sinergia:* Maximiza tu Inteligencia a 20 (+5). Aumenta tu CA de Bladesong a +5, tu reducción de daño con Song of Defense y el bonus de daño de Song of Victory (+5 a cada golpe).

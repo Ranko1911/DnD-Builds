@@ -1,4 +1,4 @@
-# Guía de Personaje — The Shadow Tank
+# Guía de Personaje — Shadow Tank
 
 ## General Data
 
@@ -29,25 +29,25 @@ Combat Role: Tanque de Espinas de Primera Línea, Atacante de Daño Frío/Fuerza
 
 ## 1. Resource Management & Inventory Rules
 
-*   **Economía de Recursos y Manos:**
-    *   **Foco Universal Único:** Su Espadón de Pacto (*Greatsword*) actúa como foco unificado para todos sus conjuros de Warlock. Puede conjurarla de la nada mediante el rasgo *Pact of the Blade*, eliminando la necesidad de portar armas físicas.
-*   **Gestión de Espacios/Ranuras (Pacto de Magia):**
-    *   Cuenta con **4 espacios de conjuro de Nivel 5** que se recuperan con un descanso corto.
-    *   Dispone de un espacio de **Misticismo Arcano** para niveles 6, 7, 8 y 9 (1 uso al día de cada uno).
-    *   Gestiona **3 usos de Furia** por descanso largo.
+* **Economía de Recursos y Manos:**
+  * **Foco Universal Único:** Su Espadón de Pacto (*Greatsword*) actúa como foco unificado para todos sus conjuros de Warlock. Puede conjurarla de la nada mediante el rasgo *Pact of the Blade*, eliminando la necesidad de portar armas físicas.
+* **Gestión de Espacios/Ranuras (Pacto de Magia):**
+  * Cuenta con **4 espacios de conjuro de Nivel 5** que se recuperan con un descanso corto.
+  * Dispone de un espacio de **Misticismo Arcano** para niveles 6, 7, 8 y 9 (1 uso al día de cada uno).
+  * Gestiona **3 usos de Furia** por descanso largo.
 
 ## 2. Action Economy & Combat Loop
 
-*   **Preparación (Pre-Combate):**
-    *   Lanzar *Armor of Agathys* usando un espacio de Nivel 5 (concede 25 puntos de golpe temporales por 1 hora sin concentración).
-*   **Action:**
-    *   **Turno 1 [Furia Espiritual]:** Realizar la acción de ataque (2 golpes con su espadón de pacto usando Carisma). Si el enemigo es el objetivo de la maldición de Hexblade, añade bono de daño (+6) y rango crítico de 19-20.
-    *   **Eldritch Smite (Castigo Eldritch):** Al impactar con su espadón, puede gastar un espacio de conjuro de nivel 5 para infligir +6d8 de daño de Fuerza y derribar al enemigo al suelo boca abajo sin tirada de salvación. Esto funciona incluso mientras está furioso, ya que es una habilidad de clase y no un conjuro.
-*   **Bonus Action:**
-    *   **Maldición de Hexblade (Hexblade's Curse):** Activar sobre el enemigo más peligroso.
-    *   **Entrar en Furia (Barbarian Rage):** Activar en el Turno 1 tras haber lanzado *Armor of Agathys*.
-*   **Reaction:**
-    *   🔵 **Resistencia Relámpago (Barbarian Bear Totem):** Mitiga la mitad del daño de todos los tipos de ataque recibidos (excepto psíquico) de forma pasiva mientras dure la furia.
+* **Preparación (Pre-Combate):**
+  * Lanzar *Armor of Agathys* usando un espacio de Nivel 5 (concede 25 puntos de golpe temporales por 1 hora sin concentración).
+* **Action:**
+  * **Turno 1 [Furia Espiritual]:** Realizar la acción de ataque (2 golpes con su espadón de pacto usando Carisma). Si el enemigo es el objetivo de la maldición de Hexblade, añade bono de daño (+6) y rango crítico de 19-20.
+  * **Eldritch Smite (Castigo Eldritch):** Al impactar con su espadón, puede gastar un espacio de conjuro de nivel 5 para infligir +6d8 de daño de Fuerza y derribar al enemigo al suelo boca abajo sin tirada de salvación. Esto funciona incluso mientras está furioso, ya que es una habilidad de clase y no un conjuro.
+* **Bonus Action:**
+  * **Maldición de Hexblade (Hexblade's Curse):** Activar sobre el enemigo más peligroso.
+  * **Entrar en Furia (Barbarian Rage):** Activar en el Turno 1 tras haber lanzado *Armor of Agathys*.
+* **Reaction:**
+  * 🔵 **Resistencia Relámpago (Barbarian Bear Totem):** Mitiga la mitad del daño de todos los tipos de ataque recibidos (excepto psíquico) de forma pasiva mientras dure la furia.
 
 ## 3. The META Combo: El Escudo de Espinas Heladas
 
@@ -81,5 +81,6 @@ La combinación del bárbaro proporciona la máxima mitigación del daño para m
 ## 5. Home Rules
 
 Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
+
 1. **Espadón Canalizador:** El espadón de pacto actúa como foco de conjuros de warlock unificado.
 2. **Habilidades Raging Invocation:** Se permite el uso de habilidades activas no-mágicas de Warlock (como Eldritch Smite y Lifedrinker) mientras se está bajo los efectos de la Furia de Bárbaro.

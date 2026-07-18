@@ -1,4 +1,4 @@
-# Guía de Personaje — The Sneaky Smasher
+# Guía de Personaje — Sneaky Smasher
 
 ## General Data
 
@@ -29,26 +29,26 @@ Combat Role: Luchador/Agarrador Cuerpo a Cuerpo (Grappler God), Atacante Nova Ps
 
 ## 1. Resource Management & Inventory Rules
 
-*   **Economía de Recursos y Manos:**
-    *   **Foco Psiónico Único:** Sus armas principales son Hojas Psiónicas (*Psychic Blades*) convocadas mentalmente cuando tiene las manos vacías. Esto le permite combatir con las manos 100% libres, facilitando agarrar a dos enemigos simultáneamente (*Grappling*) y seguir atacándoles con su mente.
-*   **Gestión de Espacios/Dice (Psiónica):**
-    *   Gestiona **12 Dados de Energía Psiónica** (escalan con el PB del personaje, d12 a nivel 20) por descanso largo.
-    *   Gestiona **3 usos de Furia** por descanso largo.
+* **Economía de Recursos y Manos:**
+  * **Foco Psiónico Único:** Sus armas principales son Hojas Psiónicas (*Psychic Blades*) convocadas mentalmente cuando tiene las manos vacías. Esto le permite combatir con las manos 100% libres, facilitando agarrar a dos enemigos simultáneamente (*Grappling*) y seguir atacándoles con su mente.
+* **Gestión de Espacios/Dice (Psiónica):**
+  * Gestiona **12 Dados de Energía Psiónica** (escalan con el PB del personaje, d12 a nivel 20) por descanso largo.
+  * Gestiona **3 usos de Furia** por descanso largo.
 
 ## 2. Action Economy & Combat Loop
 
-*   **Preparación (Pre-Combate):**
-    *   Activar telepatía silenciosa con su grupo (*Psi-Bolstered Knack* / *Whispered Conspiracy*).
-*   **Action:**
-    *   **Turno 1 [Ataque Temerario]:** Realizar la acción de ataque. Invoca la hoja psiónica (1d6). Activa Ataque Temerario (*Reckless Attack*): ataca con ventaja usando Fuerza.
-    *   **Ataque Furtivo (Sneak Attack):** Al atacar con ventaja (garantizada por Reckless Attack), se activa el Ataque Furtivo (+9d6) usando Fuerza. Esto es legal bajo las reglas debido a que las Hojas Psiónicas poseen la propiedad *Finesse* (sutil), la cual permite elegir Fuerza para impactar.
-    *   **Agarre Olimpo (Expertise Athletics):** Si lo prefiere, sustituye un ataque por un intento de Agarre. Su modificador de Atletismo es de +17 con ventaja (concedida por la Furia), haciendo casi imposible que un enemigo escape.
-*   **Bonus Action:**
-    *   **Entrar en Furia (Barbarian Rage):** Activar en el Turno 1.
-    *   **Hoja Psiónica Secundaria:** Realizar un ataque secundario desarmado como Acción Adicional (1d4 psíquico + Fuerza + Daño de Furia).
-    *   **Acción Astuta (Cunning Action):** Correr (*Dash*) o Destrabarse (*Disengage*) si no está en furia.
-*   **Reaction:**
-    *   🔵 **Esquiva Asombrosa (Uncanny Dodge):** Reducir a la mitad el daño recibido de un impacto enemigo que pueda ver. Combina con la resistencia de Furia, reduciendo el daño real al **25%**.
+* **Preparación (Pre-Combate):**
+  * Activar telepatía silenciosa con su grupo (*Psi-Bolstered Knack* / *Whispered Conspiracy*).
+* **Action:**
+  * **Turno 1 [Ataque Temerario]:** Realizar la acción de ataque. Invoca la hoja psiónica (1d6). Activa Ataque Temerario (*Reckless Attack*): ataca con ventaja usando Fuerza.
+  * **Ataque Furtivo (Sneak Attack):** Al atacar con ventaja (garantizada por Reckless Attack), se activa el Ataque Furtivo (+9d6) usando Fuerza. Esto es legal bajo las reglas debido a que las Hojas Psiónicas poseen la propiedad *Finesse* (sutil), la cual permite elegir Fuerza para impactar.
+  * **Agarre Olimpo (Expertise Athletics):** Si lo prefiere, sustituye un ataque por un intento de Agarre. Su modificador de Atletismo es de +17 con ventaja (concedida por la Furia), haciendo casi imposible que un enemigo escape.
+* **Bonus Action:**
+  * **Entrar en Furia (Barbarian Rage):** Activar en el Turno 1.
+  * **Hoja Psiónica Secundaria:** Realizar un ataque secundario desarmado como Acción Adicional (1d4 psíquico + Fuerza + Daño de Furia).
+  * **Acción Astuta (Cunning Action):** Correr (*Dash*) o Destrabarse (*Disengage*) si no está en furia.
+* **Reaction:**
+  * 🔵 **Esquiva Asombrosa (Uncanny Dodge):** Reducir a la mitad el daño recibido de un impacto enemigo que pueda ver. Combina con la resistencia de Furia, reduciendo el daño real al **25%**.
 
 ## 3. The META Combo: El Demoledor Temerario Silencioso
 
@@ -83,5 +83,6 @@ La progresión combinada optimiza los dados de psiónica (que escalan por PB) y 
 ## 5. Home Rules
 
 Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
+
 1. **Ataque Sutil con Fuerza:** Se ratifica el uso del modificador de Fuerza para los ataques realizados con armas sutiles (Finesse) para activar la Furia y el Furtivo de forma simultánea.
 2. **Dados de Energía por PB:** Los dados psiónicos de Soulknife escalan directamente con el modificador de Competencia total del personaje (+6), mitigando el retraso por los niveles de bárbaro.

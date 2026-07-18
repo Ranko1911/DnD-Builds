@@ -1,4 +1,4 @@
-# Actual Inventory List — The Fartificer
+# Actual Inventory List — Fartificer
 
 ## Equipamiento Actual
 

@@ -1,4 +1,4 @@
-# Guía de Personaje — The Fartificer
+# Guía de Personaje — Fartificer
 
 ## General Data
 
@@ -29,25 +29,25 @@ Combat Role: Francotirador de Rango Pesado, Tanque de Cobertura y Especialista e
 
 ## 1. Resource Management & Inventory Rules
 
-*   **Economía de Recursos y Manos:**
-    *   **Foco Universal Único:** Su ballesta pesada infundida con *Repeating Shot* actúa como su canalizador unificado.
-    *   **Infusión de Disparo Repetido (Repeating Shot):** Esta infusión mágica elimina la propiedad de carga (*Loading*) de la ballesta e invoca munición mágica infinitamente de la nada. Esto permite disparar una Ballesta Pesada múltiples veces por turno usando la acción de ataque del Guerrero sin restricciones de munición. Si usa una Ballesta de Mano, puede portar un Escudo (+2 CA) en la mano contraria al no necesitar una mano libre para cargar saetas.
-*   **Gestión de Espacios/Ranuras (Caster Híbrido):**
-    *   Eldritch Knight 17 (Caster 5) + Artificer 3 (Caster 2) = Nivel 7 de lanzador de conjuros. Cuenta con ranuras hasta de **Nivel 2** (4 de nivel 1, 3 de nivel 2).
+* **Economía de Recursos y Manos:**
+  * **Foco Universal Único:** Su ballesta pesada infundida con *Repeating Shot* actúa como su canalizador unificado.
+  * **Infusión de Disparo Repetido (Repeating Shot):** Esta infusión mágica elimina la propiedad de carga (*Loading*) de la ballesta e invoca munición mágica infinitamente de la nada. Esto permite disparar una Ballesta Pesada múltiples veces por turno usando la acción de ataque del Guerrero sin restricciones de munición. Si usa una Ballesta de Mano, puede portar un Escudo (+2 CA) en la mano contraria al no necesitar una mano libre para cargar saetas.
+* **Gestión de Espacios/Ranuras (Caster Híbrido):**
+  * Eldritch Knight 17 (Caster 5) + Artificer 3 (Caster 2) = Nivel 7 de lanzador de conjuros. Cuenta con ranuras hasta de **Nivel 2** (4 de nivel 1, 3 de nivel 2).
 
 ## 2. Action Economy & Combat Loop
 
-*   **Preparación (Pre-Combate):**
-    *   Activar la infusión *Repeating Shot* sobre la ballesta y convocar al Defensor de Acero (*Steel Defender*) para que marche a su lado.
-*   **Action:**
-    *   **Turno 1 [Ataque Triple de Rango]:** Realizar 3 ataques con su ballesta pesada usando Destreza. Aplica la dote *Sharpshooter* (-5 a golpear, +10 al daño plano) aprovechando el estilo de combate de Arquero (+2 a golpear) e infusión (+1).
-    *   **Action Surge:** Ejecutar una segunda acción de ataque completo (3 ataques adicionales con ballesta).
-*   **Bonus Action:**
-    *   **Dirigir al Defensor de Acero:** Ordenar al Defensor que realice un ataque de Fuerza en cuerpo a cuerpo (1d8 + PB daño) o se posicione para dar cobertura.
-    *   **Segundo Viento (Second Wind):** Curación menor de emergencia.
-*   **Reaction:**
-    *   🔵 **Shield:** Reacción mágica para aumentar la CA en +5 hasta el inicio de su siguiente turno.
-    *   🟢 **Deflect Attack (Defensor de Acero):** El Defensor de Acero usa su reacción para imponer desventaja a un ataque enemigo contra el Fartificer si está a 5 pies de él.
+* **Preparación (Pre-Combate):**
+  * Activar la infusión *Repeating Shot* sobre la ballesta y convocar al Defensor de Acero (*Steel Defender*) para que marche a su lado.
+* **Action:**
+  * **Turno 1 [Ataque Triple de Rango]:** Realizar 3 ataques con su ballesta pesada usando Destreza. Aplica la dote *Sharpshooter* (-5 a golpear, +10 al daño plano) aprovechando el estilo de combate de Arquero (+2 a golpear) e infusión (+1).
+  * **Action Surge:** Ejecutar una segunda acción de ataque completo (3 ataques adicionales con ballesta).
+* **Bonus Action:**
+  * **Dirigir al Defensor de Acero:** Ordenar al Defensor que realice un ataque de Fuerza en cuerpo a cuerpo (1d8 + PB daño) o se posicione para dar cobertura.
+  * **Segundo Viento (Second Wind):** Curación menor de emergencia.
+* **Reaction:**
+  * 🔵 **Shield:** Reacción mágica para aumentar la CA en +5 hasta el inicio de su siguiente turno.
+  * 🟢 **Deflect Attack (Defensor de Acero):** El Defensor de Acero usa su reacción para imponer desventaja a un ataque enemigo contra el Fartificer si está a 5 pies de él.
 
 ## 3. The META Combo: La Torreta Blindada Móvil
 
@@ -79,5 +79,6 @@ El Battle Smith aporta el Defensor de Acero y herramientas de combate que potenc
 ## 5. Home Rules
 
 Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
+
 1. **Foco del Mecánico:** Las herramientas de inventor o el arma infundida sirven de foco unificado para todos sus conjuros de Eldritch Knight y Artificer, permitiendo lanzar magia reactiva con el arma empuñada.
 2. **Disparo Sin Carga:** La infusión de Disparo Repetido anula la carga de cualquier arma de rango, permitiendo el uso del ataque triple del Guerrero de nivel 11+ sin penalizaciones.
