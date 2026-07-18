@@ -17,7 +17,7 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.8/dist/katex.min.css">
 
     <!-- Custom Style Sheet -->
-    <link rel="stylesheet" href="style.css?v=1.0.8">
+    <link rel="stylesheet" href="style.css?v=1.0.9">
 
     <!-- Marked.js for Markdown parsing -->
     <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
@@ -72,6 +72,14 @@
                     <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                         stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
                         <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
+                    </svg>
+                </button>
+
+                <button id="btn-show-radar-table" class="btn btn-secondary radar-table-toggle-btn" title="Ver tabla de radar">
+                    <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                        <line x1="18" y1="20" x2="18" y2="10"></line>
+                        <line x1="12" y1="20" x2="12" y2="4"></line>
+                        <line x1="6" y1="20" x2="6" y2="14"></line>
                     </svg>
                 </button>
 
@@ -192,6 +200,15 @@
                                 <span class="stat-label">Edición 2014</span>
                             </div>
                         </div>
+
+                        <button id="welcome-btn-radar-table" class="btn btn-primary welcome-radar-btn" style="margin-top: 2rem; display: flex; align-items: center; gap: 0.5rem; margin-left: auto; margin-right: auto; padding: 0.75rem 1.5rem;">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18" style="vertical-align: middle;">
+                                <line x1="18" y1="20" x2="18" y2="10"></line>
+                                <line x1="12" y1="20" x2="12" y2="4"></line>
+                                <line x1="6" y1="20" x2="6" y2="14"></line>
+                            </svg>
+                            Ver Tabla Comparativa de Radar
+                        </button>
                     </div>
                 </div>
 
@@ -328,6 +345,31 @@
                             <div class="compare-table-container" id="compare-table-container">
                                 <!-- Comparison Table will be injected here -->
                             </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Radar Table View Pane -->
+                <div class="radar-table-view hidden" id="radar-table-view">
+                    <header class="radar-table-header">
+                        <button id="btn-close-radar-table-mobile" class="btn btn-secondary btn-back-mobile" title="Cerrar tabla de radar">
+                            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                                stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                                <line x1="19" y1="12" x2="5" y2="12"></line>
+                                <polyline points="12 19 5 12 12 5"></polyline>
+                            </svg>
+                        </button>
+                        <div class="radar-table-title-area">
+                            <h2>📊 Tabla de Radar de Optimización</h2>
+                            <p>Matriz completa y ordenada de puntuaciones para todas las builds del catálogo</p>
+                        </div>
+                        <button id="btn-close-radar-table" class="btn btn-secondary btn-close-radar-table-desktop" title="Volver al catálogo">
+                            Cerrar Tabla
+                        </button>
+                    </header>
+                    <div class="radar-table-workspace">
+                        <div class="radar-table-container" id="radar-table-container-div">
+                            <!-- Comparison Table will be injected here -->
                         </div>
                     </div>
                 </div>

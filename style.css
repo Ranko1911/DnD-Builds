@@ -2039,7 +2039,6 @@ body {
         width: 1.8rem !important;
         height: 1.8rem !important;
     }
-    
     .search-filter-bar {
         gap: 0.4rem !important;
         margin-top: 0 !important;
@@ -2049,14 +2048,7 @@ body {
         padding: 0.4rem 0.75rem 0.4rem 2rem !important;
         font-size: 0.8rem !important;
     }
-    
-    .filter-toggle-btn {
-        height: 32px !important;
-        width: 32px !important;
-        padding: 0 !important;
-    }
-    
-    .layout-settings-btn {
+    .filter-toggle-btn, .radar-table-toggle-btn, .layout-settings-btn {
         height: 32px !important;
         width: 32px !important;
         padding: 0 !important;
@@ -2079,6 +2071,269 @@ body {
         display: none !important;
     }
 }
+
+/* ==========================================================================
+   TABLA DE RADAR DE OPTIMIZACIÓN (#radar-table-view)
+   ========================================================================== */
+
+.radar-table-view {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    overflow: hidden;
+    background-color: var(--bg-dark);
+}
+
+.radar-table-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.5rem 2.5rem;
+    background-color: rgba(16, 21, 36, 0.4);
+    border-bottom: 1px solid var(--border-color);
+    flex-shrink: 0;
+}
+
+.radar-table-title-area h2 {
+    font-family: var(--font-heading);
+    font-size: 1.75rem;
+    font-weight: 800;
+    color: white;
+}
+
+.radar-table-title-area p {
+    color: var(--color-text-muted);
+    font-size: 0.85rem;
+    margin-top: 0.2rem;
+}
+
+.btn-close-radar-table-desktop {
+    background-color: rgba(255, 255, 255, 0.04);
+    border: 1px solid var(--border-color);
+    color: var(--color-text-muted);
+}
+
+.btn-close-radar-table-desktop:hover {
+    background-color: rgba(255, 255, 255, 0.08);
+    color: white;
+    border-color: var(--border-color-hover);
+}
+
+.radar-table-workspace {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+    overflow: hidden;
+    padding: 2rem;
+}
+
+.radar-table-container {
+    width: 100%;
+    overflow: auto;
+    flex-grow: 1;
+    background-color: rgba(16, 21, 36, 0.3);
+    border: 1px solid var(--border-color);
+    border-radius: var(--border-radius-lg);
+    box-shadow: var(--shadow-premium);
+}
+
+.radar-compare-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9rem;
+    color: var(--color-text-main);
+    text-align: left;
+}
+
+.th-content {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.35rem;
+    white-space: nowrap;
+    vertical-align: middle;
+}
+
+.radar-compare-table th, .radar-compare-table td {
+    padding: 0.85rem 1.25rem;
+    border-bottom: 1px solid var(--border-color);
+    vertical-align: middle;
+}
+
+.radar-compare-table th {
+    font-family: var(--font-heading);
+    font-weight: 600;
+    color: white;
+    background-color: var(--bg-surface);
+    position: sticky;
+    top: 0;
+    z-index: 5;
+    cursor: pointer;
+    user-select: none;
+    transition: var(--transition-smooth);
+    border-bottom: 2px solid rgba(255, 255, 255, 0.08);
+}
+.radar-compare-table th:hover {
+    background-color: #1e2331; /* Opaque white blend over #101524 */
+    color: var(--color-primary);
+}
+
+.radar-compare-table th.sorted {
+    color: var(--color-primary);
+    background-color: #13182c; /* Opaque primary blend over #101524 */
+}
+
+.radar-table-row {
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.radar-table-row:hover td {
+    background-color: rgba(255, 255, 255, 0.02);
+}
+
+.radar-table-row:nth-child(even) td {
+    background-color: rgba(255, 255, 255, 0.005);
+}
+
+/* Centering utility and rating columns */
+.text-center {
+    text-align: center !important;
+}
+
+.radar-compare-table td:nth-child(n+5) .rating-cell {
+    justify-content: center;
+}
+
+/* Rating cells and bars */
+.rating-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    justify-content: flex-start;
+}
+
+.rating-val {
+    font-family: var(--font-heading);
+    font-weight: 700;
+    min-width: 22px;
+    text-align: right;
+    font-size: 0.95rem;
+}
+
+.rating-bar-bg {
+    width: 90px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.06);
+    border-radius: 3px;
+    overflow: hidden;
+    flex-grow: 1;
+}
+
+.rating-bar-fill {
+    height: 100%;
+    border-radius: 3px;
+    transition: width 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+/* Rating Bar Colors */
+.dpr-color {
+    background: linear-gradient(90deg, #f43f5e, #fb7185);
+    box-shadow: 0 0 8px rgba(244, 63, 94, 0.35);
+}
+
+.ehp-color {
+    background: linear-gradient(90deg, #10b981, #34d399);
+    box-shadow: 0 0 8px rgba(16, 185, 129, 0.35);
+}
+
+.control-color {
+    background: linear-gradient(90deg, #3b82f6, #60a5fa);
+    box-shadow: 0 0 8px rgba(59, 130, 246, 0.35);
+}
+
+.support-color {
+    background: linear-gradient(90deg, #ec4899, #f472b6);
+    box-shadow: 0 0 8px rgba(236, 72, 153, 0.35);
+}
+
+.complexity-color {
+    background: linear-gradient(90deg, #eab308, #fbbf24);
+    box-shadow: 0 0 8px rgba(234, 179, 8, 0.35);
+}
+
+.sort-indicator {
+    font-size: 0.7rem;
+    margin-left: 0.35rem;
+    transition: var(--transition-smooth);
+    display: inline-block;
+    color: var(--color-primary);
+}
+
+.sort-indicator.placeholder {
+    opacity: 0;
+}
+
+th:hover .sort-indicator.placeholder {
+    opacity: 0.5;
+}
+
+.sort-indicator.asc, .sort-indicator.desc {
+    opacity: 1;
+}
+
+/* Welcome Button Style */
+.welcome-radar-btn {
+    background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%) !important;
+    border: none !important;
+    border-radius: var(--border-radius-md) !important;
+    font-weight: 600;
+    transition: var(--transition-smooth);
+    color: white !important;
+}
+
+.welcome-radar-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px rgba(99, 102, 241, 0.4);
+    filter: brightness(1.1);
+}
+
+@media (max-width: 768px) {
+    .radar-table-header {
+        padding: 1rem 1.5rem !important;
+    }
+    
+    .radar-table-title-area h2 {
+        font-size: 1.3rem !important;
+    }
+    
+    .radar-table-workspace {
+        padding: 1rem !important;
+    }
+    
+    .btn-close-radar-table-desktop {
+        display: none !important;
+    }
+    
+    .radar-compare-table {
+        font-size: 0.8rem;
+    }
+    
+    .radar-compare-table th, .radar-compare-table td {
+        padding: 0.6rem 0.75rem;
+    }
+    
+    .rating-bar-bg {
+        width: 45px;
+    }
+    
+    .classes-cell, .role-cell {
+        max-width: 120px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+    }
+}
+
 
 
 

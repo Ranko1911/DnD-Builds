@@ -17,14 +17,30 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Santuario Divino (Sanctuary) (Nivel 9):**
+* **Santuario Divino (Sanctuary) (Nivel 5):**
   * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Meditate / Pray (Obtener bendición de Furia / Clérigo).
-  * *Sinergia con el Build:* Permite purificar y consagrar objetos, además de conceder ventajas en salvaciones a los defensores del bastión.
-* **Escribanía (Scriptorium) (Nivel 5):**
+  * *Orden de Bastión Especial:* Meditate / Pray (Obtener bendiciones celestiales y agua bendita).
+  * *Sinergia con el Build:* Requiere símbolo sagrado (el cual posees). Permite consagrar objetos e imbuir fe en tus defensores.
+* **Biblioteca (Library) (Nivel 5):**
   * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Research / Scribe (Escribir pergaminos mágicos).
-  * *Sinergia con el Build:* Permite escribir pergaminos de *Bless* y *Cure Wounds* a mitad de coste de tiempo muerto.
+  * *Orden de Bastión Especial:* Research (Investigar escrituras sagradas, mitos y genealogía del crepúsculo).
+  * *Sinergia con el Build:* Otorga ventajas en pruebas de Religión o Historia y ayuda a descifrar reliquias.
+* **Escribanía (Scriptorium) (Nivel 9):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Scribe (Escribir pergaminos mágicos).
+  * *Sinergia con el Build:* Requiere símbolo sagrado. Permite escribir pergaminos de *Bless* y *Cure Wounds* a mitad de coste de tiempo muerto.
+* **Establecimiento de Caballería / Establo (Stable) (Nivel 9):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Breed / Train (Criar y entrenar monturas adaptadas al crepúsculo).
+  * *Sinergia con el Build:* Permite criar monturas nocturnas con sigilo y velocidad de viaje superior.
+* **Relicario (Reliquary) (Nivel 13):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Research / Sacred Focus (Almacenar y canalizar poder a través de reliquias crepusculares).
+  * *Sinergia con el Build:* Requiere símbolo sagrado. Proporciona una bendición protectora a los habitantes del bastión.
+* **Gremio de Beneficencia (Guildhall) (Nivel 17):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Trade / Influence (Administrar la red de templos y el flujo de donaciones del ocaso).
+  * *Sinergia con el Build:* Requiere pericia (la cual tienes). Maximiza el alcance social de tu orden.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

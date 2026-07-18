@@ -44,16 +44,22 @@ Esta lista detalla la selección de conjuros sugerida para el build **Bear with 
 
 ### Nivel 4 (4th Level) — 3 ranuras
 1.  **Polymorph 🔵 [Excelente]:** Transforma a un aliado al borde de la muerte en un Tiranosaurio Rex para reponer su barra de vida virtual.
+2.  **Freedom of Movement 🟢 [Soporte]:** Inmunidad a condiciones de paralizado, apresado y terreno difícil.
 
 ### Nivel 3 (3rd Level) — 3 ranuras
 1.  **Revivify 🔵 [Indispensable]:** Revivir a un aliado caído dentro del último minuto.
 2.  **Dispel Magic 🟢 [Excelente]:** Elimina efectos mágicos molestos sobre el terreno o aliados.
+3.  **Sleet Storm 🟢 [Excelente - Control]:** Cegar y derribar enemigos en área, rompiendo concentraciones.
+4.  **Conjure Animals 🟢 [Soporte]:** Invocar espíritus de bestias para asistir en combate.
 
 ### Nivel 2 (2nd Level) — 3 ranuras
-1.  **Spike Growth 🔵 [Excelente - Control]:** Transforma el terreno en espinas que infligen 2d4 por cada 5 pies que se mueva un enemigo (letal en combinación con empujones del Cañón Fuerza).
-2.  **Mirror Image 🔵 [Excelente - Defensa]:** Excelente defensa sin concentración que se puede lanzar antes del Wild Shape.
+1.  **Spike Growth 🔵 [Excelente - Control]:** Transforma el terreno en espinas que infligen $2d4$ por cada 5 pies que se mueva un enemigo (letal al empujarlos dentro con el Cañón de Fuerza).
+2.  **Mirror Image 🔵 [Excelente - Defensa]:** Excelente defensa sin concentración que se puede lanzar antes de usar *Wild Shape*.
+3.  **Pass without Trace 🔵 [Roto - Utilidad]:** $+10$ a Sigilo para todo el grupo durante 1 hora.
+4.  **Wither and Bloom 🟢 [Excelente]:** Daña enemigos y permite curar aliados usando sus Dados de Golpe.
 
 ### Nivel 1 (1st Level) — 4 ranuras
-1.  **Absorb Elements 🔵 [Indispensable - Defensa]:** Mitiga a la mitad el daño mágico elemental y lo almacena para tu siguiente golpe físico.
-2.  **Cure Wounds 🟢 [Excelente]:** Curación básica.
-3.  **Healing Word 🔵 [Excelente]:** Curación como acción adicional.
+1.  **Absorb Elements 🔵 [Indispensable - Defensa]:** Mitiga a la mitad el daño mágico elemental recibido.
+2.  **Shield 🔵 [Roto - Defensa - Artificer]:** $+5$ a la CA como reacción ante ataques.
+3.  **Cure Wounds 🟢 [Excelente]:** Curación básica.
+4.  **Healing Word 🔵 [Excelente]:** Levantar aliados inconscientes a distancia como Acción Adicional.

@@ -19,10 +19,26 @@
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Crafting (Fabricación rápida de herramientas, munición y dispositivos mecánicos).
   - _Sinergia con el Build:_ Representa la identidad creativa del personaje. Permite fabricar piezas y componentes a coste reducido.
+- **Herrería (Smithy) (Nivel 5):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Crafting (Forjar y mejorar armaduras pesadas y escudos).
+  - _Sinergia con el Build:_ Como Armorer, te permite forjar y mantener tu Armadura de Placas Arcana con facilidad.
 - **Laboratorio Alquímico (Nivel 9):**
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Research / Crafting (Creación de pociones y sustancias combustibles o ácidos).
   - _Sinergia con el Build:_ Excelente para crear consumibles para el grupo (ácidos, aceites, fuego alquímico) a mitad de coste.
+- **Escribanía (Scriptorium) (Nivel 9):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Scribe (Diseñar diagramas mecánicos, esquemas de inventos y pergaminos).
+  - _Sinergia con el Build:_ Permite transcribir fórmulas de inventores y pergaminos de utilidad a menor coste.
+- **Círculo de Teletransporte (Teleportation Circle) (Nivel 13):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Travel (Conectar con redes de teleportación planar).
+  - _Sinergia con el Build:_ Requiere capacidad de lanzar conjuros (la cual tienes). Te permite moverte y transportar tus pesadas creaciones metálicas en segundos.
+- **Gremio de Inventores (Guildhall) (Nivel 17):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Trade / Influence (Gestionar el comercio de tus patentes e inventos a nivel nacional).
+  - _Sinergia con el Build:_ Requiere pericia (la cual tienes). Establece tu monopolio y genera enormes ingresos comerciales.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

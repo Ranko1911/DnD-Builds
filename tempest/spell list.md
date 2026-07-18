@@ -12,17 +12,20 @@ Esta sección detalla los conjuros que mantienes preparados activamente para usa
 
 *No consumen espacios de preparación.*
 
-### 🧙‍♂️ Mago (3 trucos)
+### 🧙‍♂️ Mago (5 trucos)
 
 1. **True Strike (2024) 🔵 [Roto]:** Ataque cuerpo a cuerpo usando **Inteligencia** para impactar y dañar. Añade $+3d6$ de daño radiante/fuego a nivel 17+.
 2. **Shocking Grasp (2024) 🟢 [Excelente]:** Daño de relámpago a corta distancia que **cancela las reacciones** del enemigo.
-3. **Minor Illusion 🟡 [Decente]:** Utilidad visual táctica para sigilo o distracción.
+3. **Mind Sliver (TCoE) 🟢 [Excelente]:** Daño psíquico a distancia ($4d6$ a nivel 17+). El enemigo debe superar una salvación de Inteligencia o restar $1d4$ a su siguiente tirada de salvación (sinergia perfecta para preparar tus conjuros de área devastadores).
+4. **Mage Hand (2024) 🟢 [Excelente]:** Manipulación de objetos y utilidades tácticas a distancia.
+5. **Minor Illusion 🟡 [Decente]:** Utilidad visual o auditiva táctica para sigilo o distracción.
 
-### ⛪ Clérigo (3 trucos)
+### ⛪ Clérigo (4 trucos)
 
 1. **Guidance (2024) 🔵 [Roto]:** $+1d4$ a pruebas de característica como reacción cuando un aliado falla.
 2. **Sacred Flame (2024) 🟢 [Excelente]:** Daño radiante a distancia (salvación de Destreza, ignora coberturas).
-3. **Spare the Dying 🟡 [Decente]:** Estabilizar aliados a 30 pies.
+3. **Spare the Dying (2024) 🟢 [Excelente]:** Estabilizar aliados a distancia sin contacto físico. Rango inicial de 15 pies que escala a **120 pies** a nivel 17+.
+4. **Thaumaturgy 🟡 [Decente]:** Utilidad de rol para crear efectos sobrenaturales menores (amplificar voz, luces parpadeantes, temblores de tierra).
 
 ---
 

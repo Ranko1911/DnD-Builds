@@ -3,10 +3,10 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Daga Retornable (1 slot), Goggles of Night (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Daga Retornable (1 slot), Escudo Mejorado (1 slot), Cloak of Elvenkind (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Ring of Protection (1 slot), Daga Retornable (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Evasion (1 slot), Ioun Stone of Insight (1 slot). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Cloak of Elvenkind (1 slot). (Las infusiones *Returning Weapon*, *Enhanced Defense* y *Goggles of Night* no requieren sintonización). (Total: 1).
+*   **Tier 2 (Niveles 5-10):** Cloak of Displacement (1 slot), Ring of Protection (1 slot), Cloak of Elvenkind (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Ring of Protection (1 slot), Amulet of Health (1 slot). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Evasion (1 slot), Robe of Stars (1 slot). (Total: 3).
 
 ---
 

@@ -51,6 +51,18 @@ Esta lista detalla la selección de conjuros sugerida para el build **Furry Fury
 1. **Conjure Minor Elementals** 🔵 *[PILAR DEL DAÑO NOVA - MAGICAL SECRETS]:* Invoca elementales menores que giran a tu alrededor. Cada impacto de tus ataques cuerpo a cuerpo o de tus rayos de Eldritch Blast inflige daño extra (comienza en +2d8 a nivel 4, aumentando en +2d8 por cada nivel de espacio superior).
 2. **Dimension Door** 🟢 *[Movilidad]:* Teletransportación de emergencia para ti y un aliado a gran distancia.
 
+### Nivel 3 (3 Ranuras de Nivel 3)
+
+1. **Counterspell** 🔵 *[Roto - Magical Secrets]:* Interrumpe y cancela instantáneamente los conjuros enemigos como Reacción.
+2. **Hypnotic Pattern** 🔵 *[Roto - Control]:* Incapacita a un grupo de enemigos en un área si fallan su salvación de Sabiduría.
+3. **Dispel Magic** 🟢 *[Excelente]:* Cancela efectos mágicos enemigos activos.
+
+### Nivel 2 (3 Ranuras de Nivel 2)
+
+1. **Misty Step** 🔵 *[Roto - Magical Secrets]:* Teletransportación rápida de 30 pies como Acción Adicional.
+2. **Shatter** 🟢 *[Excelente]:* Daño de trueno en área y destrucción de coberturas/objetos.
+3. **Suggestion** 🟢 *[Excelente]:* Control de masas no-violento e influencia social durante el combate.
+
 ### Nivel 1 (4 Ranuras de Nivel 1)
 
 1. **Healing Word** 🔵 *[Soporte]:* Curación a distancia rápida como Acción Adicional para reanimar aliados caídos.

@@ -19,10 +19,26 @@
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Gather Intel (Reunir información sobre objetivos locales).
   - _Sinergia con el Build:_ Facilita las misiones de infiltración y da ventaja al planificar los ataques.
+- **Salón de Juego (Gaming Hall) (Nivel 5):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Trade / Gamble (Operar partidas de cartas y apuestas).
+  - _Sinergia con el Build:_ Excelente para un Swashbuckler enfocado en el carisma, atrayendo clientela rica y generando fondos.
 - **Laboratorio Arcano (Nivel 9):**
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Crafting (Fabricar pociones e investigar pergaminos de utilidad).
   - _Sinergia con el Build:_ Permite producir pociones de curación y pergaminos de _Shield_ de bajo nivel.
+- **Sala de Trofeos (Trophy Room) (Nivel 9):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Maintain (Exhibir piezas valiosas de arte, gemas o cabezas de monstruos robados).
+  - _Sinergia con el Build:_ Otorga un beneficio estético e incrementa la reputación social en tu bastión.
+- **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Empower (Concentrar tu mente y reflejos felinos).
+  - _Sinergia con el Build:_ Te da ventaja temporal en tiradas de salvación de Destreza o Carisma.
+- **Gremio de Ladrones (Guildhall) (Nivel 17):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Trade / Influence (Dirigir operaciones del bajo mundo y contrabandear).
+  - _Sinergia con el Build:_ Requiere pericia (la cual tienes). Establece tu base de poder secreta en el reino.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

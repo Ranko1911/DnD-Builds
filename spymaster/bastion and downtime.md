@@ -17,14 +17,30 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Gremio de Infiltradores (Guildhall) (Nivel 9):**
+* **Taller (Workshop) (Nivel 5):**
   * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Gather Intel (Reunir información de la campaña).
-  * *Sinergia con el Build:* Genera una red de informantes que provee pistas y ventajas narrativas durante las misiones de espionaje.
-* **Laboratorio Alquímico (Laboratory) (Nivel 5):**
+  * *Orden de Bastión Especial:* Crafting (Fabricar gadgets de infiltración, poleas, cables y herramientas).
+  * *Sinergia con el Build:* Como inventor e infiltrador, te permite diseñar herramientas a coste y tiempo reducidos.
+* **Taberna (Pub) (Nivel 5):**
   * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Crafting (Fabricar venenos especiales o pociones).
-  * *Sinergia con el Build:* Permite crear veneno básico y pociones de curación en tiempo muerto reduciendo el coste a la mitad.
+  * *Orden de Bastión Especial:* Gather Intel (Atraer viajeros y recopilar cotilleos o rumores).
+  * *Sinergia con el Build:* Sutil nido de espías ideal para recolectar información e identificar objetivos sin levantar sospechas.
+* **Laboratorio Alquímico (Laboratory) (Nivel 9):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Crafting (Fabricar venenos especiales o pociones de curación).
+  * *Sinergia con el Build:* Requiere herramientas de Alquimista (las cuales tienes). Te permite producir venenos para tus armas a mitad de coste.
+* **Escribanía (Scriptorium) (Nivel 9):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Research / Copy (Cifrar informes y falsificar documentos).
+  * *Sinergia con el Build:* Requiere foco de herramientas (el cual tienes). Imprescindible para el envío seguro de correspondencia secreta.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Empower (Afinar el foco mental y las hojas psiónicas).
+  * *Sinergia con el Build:* Otorga ventajas en salvaciones mentales y potencia tu habilidad de *Psi-Bolstered Knack*.
+* **Gremio de Espías (Guildhall) (Nivel 17):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Trade / Influence (Dirigir la Red Sombra en todo el reino).
+  * *Sinergia con el Build:* Requiere pericia (la cual tienes). Establece tu monopolio de información nacional.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

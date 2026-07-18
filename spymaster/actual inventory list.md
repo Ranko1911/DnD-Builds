@@ -8,9 +8,7 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Daga infundida (Returning Weapon)** (Sintonizado)
-2. **Escudo infundido (Enhanced Defense)** (Sintonizado)
-3. **Goggles of Night (Replicado)** (Sintonizado)
+*El personaje no cuenta con objetos sintonizados activos en su equipamiento inicial estándar (las infusiones activas del Artificer como *Returning Weapon*, *Enhanced Defense* y *Goggles of Night* no requieren sintonización, dejando sus 3 ranuras completamente libres para su equipamiento a lo largo de la campaña).*
 
 ## Inventario General (Mochila / Bag of Holding)
 

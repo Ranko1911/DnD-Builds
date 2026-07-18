@@ -19,10 +19,26 @@
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Perform / Gather Income (Organizar representaciones o recitales que atraen clientela noble y generan fondos).
   - _Sinergia con el Build:_ Representa tu faceta de Bardo de Valor. Otorga influencia social y una fuente de ingresos regular.
+- **Armería (Armory) (Nivel 5):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Maintain (Mantenimiento de armas y armaduras para tus seguidores).
+  - _Sinergia con el Build:_ Como Bardo de Valor, esta instalación asegura que tu contingente de bugbears esté excelentemente equipado para el combate.
 - **Casino / Casa de Apuestas (Nivel 9):**
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Gamble / Gather Intel (Recibir apuestas y recolectar rumores o secretos de viajeros borradores).
   - _Sinergia con el Build:_ Excelente para recopilar pistas sobre mazmorras ricas y tesoros exóticos sin salir de tu bastión.
+- **Escribanía (Scriptorium) (Nivel 9):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Scribe (Copiar partituras musicales, baladas heroicas y pergaminos de conjuros).
+  - _Sinergia con el Build:_ Como Bardo 19, te permite transcribir tus cantos mágicos y pergaminos a coste y tiempo reducidos.
+- **Área de Entrenamiento (Training Area) (Nivel 13):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Train (Adiestrar reclutas y pulir habilidades de combate táctico).
+  - _Sinergia con el Build:_ Permite entrenar a tus guardaespaldas bugbears en maniobras avanzadas y canciones de combate de la escuela de Valor.
+- **Gremio de Espectáculos (Guildhall) (Nivel 17):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Trade / Influence (Dirigir una cofradía de bardos y artistas para influir en las cortes).
+  - _Sinergia con el Build:_ Requiere pericia en una habilidad (la cual tienes). Extiende tu influencia social y comercial por todo el reino.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

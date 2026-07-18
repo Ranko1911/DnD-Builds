@@ -17,14 +17,26 @@ Esta lista detalla la selección de conjuros del build **Beelzebub's Ballista**,
 ---
 
 ## 🎒 Conjuros Preparados (Pact Slots de Nivel 5)
-*El Warlock Celestial conoce hasta 15 conjuros. Se lanzan todos al nivel 5.*
+*El Warlock Celestial prepara 15 conjuros de su lista básica, más los conjuros de su lista Celestial que se preparan automáticamente de forma gratuita.*
 
-1.  **Armor of Agathys** 🟢 *[Defensa/Thorns]:* +25 HP temporales y 25 de daño de frío a cualquiera que te golpee en combate cuerpo a cuerpo.
-2.  **Hex** 🟢 *[Daño Extra]:* +1d6 daño por impacto y desventaja en tiradas de habilidad de un atributo (ej. Fuerza para resistir empujones).
-3.  **Wall of Fire** 🟢 *[Control de Masas]:* Gran barrera de fuego que causa daño de fuego masivo y bloquea el paso de los enemigos. Sinergiza con Repelling Blast para empujar a los enemigos dentro del fuego.
-4.  **Synaptic Static** 🟢 *[Ráfaga Psíquica]:* Bola de fuego psíquica que debilita las tiradas de ataque y salvación de los objetivos afectados por 1d6.
-5.  **Hold Monster** 🟢 *[Control Duro]:* Paraliza a un monstruo. Los ataques CaC contra él son críticos automáticos.
-6.  **Revivify** 🟢 *[Soporte]:* Trae de vuelta a la vida a un aliado caído en los últimos 1 minutos (gasta slot de nivel 5).
+1. **Armor of Agathys** 🟢 *[Defensa/Thorns]:* +25 HP temporales y 25 de daño de frío a atacantes cuerpo a cuerpo.
+2. **Hex** 🟢 *[Daño Extra]:* +1d6 daño por impacto y desventaja en tiradas de habilidad de un atributo (ej. Fuerza).
+3. **Misty Step** 🔵 *[Movilidad]:* Escape rápido de 30 pies como Acción Adicional.
+4. **Mirror Image** 🔵 *[Defensa sin Concentración]:* Crea 3 duplicados que absorben ataques.
+5. **Counterspell** 🔵 *[Roto - Interrupción]:* Corta conjuros enemigos como Reacción.
+6. **Dispel Magic** 🟢 *[Excelente]:* Elimina efectos mágicos molestos sobre el terreno o aliados.
+7. **Fly** 🟢 *[Movilidad]:* Velocidad de vuelo de 60 pies para posicionar tu ballesta en el aire.
+8. **Banishment** 🟢 *[Control]:* Destierra a un enemigo a otra dimensión si falla su salvación de Carisma.
+9. **Dimension Door** 🟢 *[Movilidad]:* Teletransportación de hasta 500 pies para ti y un compañero.
+10. **Synaptic Static** 🟢 *[Daño/Debilitamiento]:* Bola de fuego psíquica ($8d6$) que reduce las tiradas de ataque y salvación afectadas en $1d6$.
+11. **Hold Monster** 🟢 *[Control Duro]:* Paraliza a una criatura.
+12. **Cure Wounds** 🟢 *[Subclase Celestial - Gratis]:* Curación de $5d8 + 5$ como acción.
+13. **Guiding Bolt** 🟢 *[Subclase Celestial - Gratis]:* Daño radiante de $8d6$ a distancia y ventaja en el siguiente ataque.
+14. **Lesser Restoration** 🟢 *[Subclase Celestial - Gratis]:* Elimina cegueras, sorderas, parálisis o venenos.
+15. **Revivify** 🔵 *[Subclase Celestial - Gratis]:* Revive a un aliado caído en el último minuto.
+16. **Wall of Fire** 🟢 *[Subclase Celestial - Gratis]:* Gran barrera de fuego. Sinergiza empujando enemigos dentro con *Repelling Blast*.
+17. **Greater Restoration** 🟢 *[Subclase Celestial - Gratis]:* Elimina maldiciones, reducciones de características o efectos debilitantes.
+18. **Flame Strike** 🟢 *[Subclase Celestial - Gratis]:* Daño en área radiante y fuego ($4d6$ de cada uno).
 
 ---
 

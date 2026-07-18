@@ -19,10 +19,26 @@
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Harvest / Bless (Obtener agua bendita, bendiciones o curación gratuita para el grupo).
   - _Sinergia con el Build:_ Representa tu conexión celestial. Proporciona recursos de curación gratuitos entre aventuras.
+- **Armería (Armory) (Nivel 5):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Maintain (Mantener y afilar tu Ballesta Pesada y armaduras).
+  - _Sinergia con el Build:_ Mantiene tu ballesta pesada y munición en estado impecable.
 - **Scriptorium (Nivel 9):**
   - _Estado:_ Activo
   - _Orden de Bastión Especial:_ Research / Copy (Copiar conjuros en pergaminos y estudiar textos sagrados/infernales).
   - _Sinergia con el Build:_ Permite crear pergaminos de utilidad de Warlock (como _Counterspell_ o _Armor of Agathys_) a coste reducido.
+- **Estudio Arcano (Arcane Study) (Nivel 9):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Research (Estudiar planos y secretos de los astros o pactos infernales).
+  - _Sinergia con el Build:_ Requiere un foco arcano (el cual tienes). Otorga ventajas en pruebas de conocimiento arcano y facilita la comprensión de reliquias.
+- **Círculo de Teletransporte (Teleportation Circle) (Nivel 13):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Travel (Conectar tu bastión con círculos rúnicos de todo el plano material).
+  - _Sinergia con el Build:_ Requiere capacidad de lanzar conjuros (la cual tienes). Movilidad estratégica instantánea para tu grupo.
+- **Sagrario (Sanctum) (Nivel 17):**
+  - _Estado:_ Activo
+  - _Orden de Bastión Especial:_ Empower (Canalizar poder celestial puro).
+  - _Sinergia con el Build:_ Requiere capacidad de lanzar conjuros. Otorga un aura defensiva protectora e inmunidad temporal a condiciones en tu bastión.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

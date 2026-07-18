@@ -4,12 +4,12 @@
 
 > **Filosofía de objetos:** Priorizar varitas y cetros mágicos con cargas (para disparar como Acción Adicional vía Fast Hands), mejorar la CA pasiva y aumentar la Inteligencia.
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Magic Item Savant)
+### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Magic Item Master)
 
-* **Tier 1 (Niveles 1-4):** Enhanced Defense (1 slot), Mind Sharpener (1 slot).
-* **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Wand of Magic Missiles (sin sintonización).
-* **Tier 3 (Niveles 11-16):** Wand of Fireballs (1 slot), Winged Boots (1 slot), Gem of Seeing (1 slot), Ring of Protection (1 slot).
-* **Tier 4 (Niveles 17-20):** Tome of Clear Thought (consumible), Wand of Fireballs (1 slot), Ring of Spell Storing (1 slot), Winged Boots (1 slot), Belt of Giant Strength (1 slot), Ring of Protection (1 slot).
+* **Tier 1 (Niveles 1-4):** Sin objetos sintonizados. (Las infusiones *Enhanced Defense* y *Mind Sharpener* no consumen ranuras de sintonización).
+* **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Wand of Paralysis (1 slot). (Total: 2).
+* **Tier 3 (Niveles 11-16):** Ring of Protection (1 slot), Wand of Paralysis (1 slot), Wand of Fireballs (1 slot), Winged Boots (1 slot). (Total: 4).
+* **Tier 4 (Niveles 17-20):** Staff of the Magi (1 slot), Ring of Spell Storing (1 slot), Wand of Fireballs (1 slot), Winged Boots (1 slot), Ring of Protection (1 slot). (Total: 5).
 
 ---
 

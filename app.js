@@ -372,11 +372,16 @@ document.addEventListener('DOMContentLoaded', () => {
             const compareView = document.getElementById('compare-view');
             if (compareView) compareView.classList.add('hidden');
 
+            // Hide radar-table-view
+            const radarTableView = document.getElementById('radar-table-view');
+            if (radarTableView) radarTableView.classList.add('hidden');
+
             // Un-highlight all cards
             document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
             
             // Reset to default theme
             applyDynamicTheme(null);
+            if (btnShowRadarTable) btnShowRadarTable.classList.remove('active');
             
             // Hide resource tracker
             const tracker = document.getElementById('resource-tracker');
@@ -386,7 +391,35 @@ document.addEventListener('DOMContentLoaded', () => {
 
         const params = new URLSearchParams(hash);
         const buildId = params.get('build');
+        const view = params.get('view');
         const file = params.get('file') || 'character guide.md';
+
+        if (view === 'radar-table') {
+            document.body.classList.add('has-build-selected');
+            
+            // Hide other views
+            welcomeView.classList.add('hidden');
+            buildContentView.classList.add('hidden');
+            const compareView = document.getElementById('compare-view');
+            if (compareView) compareView.classList.add('hidden');
+            
+            // Show radar table view
+            const radarTableView = document.getElementById('radar-table-view');
+            if (radarTableView) radarTableView.classList.remove('hidden');
+            if (btnShowRadarTable) btnShowRadarTable.classList.add('active');
+            
+            // Un-highlight all cards
+            document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
+            
+            // Render the data
+            renderRadarTableData();
+            applyDynamicTheme(null);
+            
+            // Close filters in mobile view
+            if (filterGroup) filterGroup.classList.remove('active');
+            if (btnToggleFilters) btnToggleFilters.classList.remove('active');
+            return;
+        }
 
         if (buildId) {
             const build = buildsData.find(b => b.id === buildId);
@@ -399,8 +432,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 const compareView = document.getElementById('compare-view');
                 if (compareView) compareView.classList.add('hidden');
 
+                // Hide radar table view
+                const radarTableView = document.getElementById('radar-table-view');
+                if (radarTableView) radarTableView.classList.add('hidden');
+
                 // Apply dynamic class theme
                 applyDynamicTheme(getColorsForClasses(build.classes));
+                if (btnShowRadarTable) btnShowRadarTable.classList.remove('active');
 
                 // Close filters in mobile view
                 if (filterGroup) filterGroup.classList.remove('active');
@@ -1092,6 +1130,12 @@ document.addEventListener('DOMContentLoaded', () => {
     const btnCloseCompare = document.getElementById('btn-close-compare');
     const btnCloseCompareMobile = document.getElementById('btn-close-compare-mobile');
 
+    // Radar Table elements
+    const btnShowRadarTable = document.getElementById('btn-show-radar-table');
+    const welcomeBtnRadarTable = document.getElementById('welcome-btn-radar-table');
+    const btnCloseRadarTable = document.getElementById('btn-close-radar-table');
+    const btnCloseRadarTableMobile = document.getElementById('btn-close-radar-table-mobile');
+
     function toggleBuildCompare(buildId, isChecked) {
         if (isChecked) {
             if (!compareBuildIds.includes(buildId)) {
@@ -1419,6 +1463,180 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    // --- Lógica de la Tabla Comparativa de Radar ---
+    let radarTableSortKey = 'name';
+    let radarTableSortDir = 'asc';
+
+    function closeRadarTableView() {
+        const radarTableView = document.getElementById('radar-table-view');
+        if (radarTableView) {
+            radarTableView.classList.add('hidden');
+        }
+        
+        if (selectedBuild) {
+            buildContentView.classList.remove('hidden');
+            location.hash = `#build=${selectedBuild.id}&file=${encodeURIComponent(selectedFile)}`;
+        } else {
+            welcomeView.classList.remove('hidden');
+            document.body.classList.remove('has-build-selected');
+            location.hash = '';
+        }
+    }
+
+    function renderRadarTableData() {
+        const container = document.getElementById('radar-table-container-div');
+        if (!container) return;
+        
+        const sortedBuilds = [...buildsData].sort((a, b) => {
+            let valA, valB;
+            
+            if (radarTableSortKey === 'name') {
+                valA = a.name.toLowerCase();
+                valB = b.name.toLowerCase();
+            } else if (radarTableSortKey === 'classes') {
+                valA = a.classes.toLowerCase();
+                valB = b.classes.toLowerCase();
+            } else if (radarTableSortKey === 'system') {
+                valA = a.system.toLowerCase();
+                valB = b.system.toLowerCase();
+            } else if (radarTableSortKey === 'role') {
+                valA = a.role.toLowerCase();
+                valB = b.role.toLowerCase();
+            } else {
+                valA = (a.ratings && a.ratings[radarTableSortKey]) || 0;
+                valB = (b.ratings && b.ratings[radarTableSortKey]) || 0;
+            }
+            
+            if (valA < valB) return radarTableSortDir === 'asc' ? -1 : 1;
+            if (valA > valB) return radarTableSortDir === 'asc' ? 1 : -1;
+            return 0;
+        });
+
+        const getSortIndicator = (key) => {
+            if (radarTableSortKey === key) {
+                return radarTableSortDir === 'asc' ? ' <span class="sort-indicator asc">▲</span>' : ' <span class="sort-indicator desc">▼</span>';
+            }
+            return ' <span class="sort-indicator placeholder">▲</span>';
+        };
+
+        let html = `
+            <table class="radar-compare-table">
+                <thead>
+                    <tr>
+                        <th data-sort="name" class="${radarTableSortKey === 'name' ? 'sorted' : ''}"><div class="th-content">Nombre${getSortIndicator('name')}</div></th>
+                        <th data-sort="classes" class="${radarTableSortKey === 'classes' ? 'sorted' : ''}"><div class="th-content">Clases${getSortIndicator('classes')}</div></th>
+                        <th data-sort="system" class="${radarTableSortKey === 'system' ? 'sorted' : ''}"><div class="th-content">Reglamento${getSortIndicator('system')}</div></th>
+                        <th data-sort="role" class="${radarTableSortKey === 'role' ? 'sorted' : ''}"><div class="th-content">Rol${getSortIndicator('role')}</div></th>
+                        <th data-sort="dpr" class="${radarTableSortKey === 'dpr' ? 'sorted text-center' : 'text-center'}"><div class="th-content">⚔️ Daño (DPR)${getSortIndicator('dpr')}</div></th>
+                        <th data-sort="ehp" class="${radarTableSortKey === 'ehp' ? 'sorted text-center' : 'text-center'}"><div class="th-content">🛡️ Tanque (EHP)${getSortIndicator('ehp')}</div></th>
+                        <th data-sort="control" class="${radarTableSortKey === 'control' ? 'sorted text-center' : 'text-center'}"><div class="th-content">🌪️ Control${getSortIndicator('control')}</div></th>
+                        <th data-sort="support" class="${radarTableSortKey === 'support' ? 'sorted text-center' : 'text-center'}"><div class="th-content">💖 Soporte${getSortIndicator('support')}</div></th>
+                        <th data-sort="complexity" class="${radarTableSortKey === 'complexity' ? 'sorted text-center' : 'text-center'}"><div class="th-content">🧠 Mecánicas${getSortIndicator('complexity')}</div></th>
+                    </tr>
+                </thead>
+                <tbody>
+        `;
+
+        sortedBuilds.forEach(build => {
+            const colors = getColorsForClasses(build.classes) || { primary: '#6366f1' };
+            const is2024 = build.system.includes('2024');
+            const systemClass = is2024 ? 'system-2024' : 'system-2014';
+            const systemLabel = is2024 ? '2024 (5.5e)' : '2014 (5e)';
+            
+            const ratings = build.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 };
+            
+            html += `
+                <tr class="radar-table-row" data-id="${build.id}">
+                    <td class="build-name-cell font-heading font-bold" style="color: ${colors.primary};">
+                        ${build.name}
+                    </td>
+                    <td class="classes-cell">${build.classes}</td>
+                    <td><span class="system-badge ${systemClass}">${systemLabel}</span></td>
+                    <td class="role-cell">${build.role}</td>
+                    
+                    <!-- DPR -->
+                    <td>
+                        <div class="rating-cell">
+                            <span class="rating-val">${ratings.dpr}</span>
+                            <div class="rating-bar-bg">
+                                <div class="rating-bar-fill dpr-color" style="width: ${(ratings.dpr / 50) * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    <!-- EHP -->
+                    <td>
+                        <div class="rating-cell">
+                            <span class="rating-val">${ratings.ehp}</span>
+                            <div class="rating-bar-bg">
+                                <div class="rating-bar-fill ehp-color" style="width: ${(ratings.ehp / 50) * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    <!-- Control -->
+                    <td>
+                        <div class="rating-cell">
+                            <span class="rating-val">${ratings.control}</span>
+                            <div class="rating-bar-bg">
+                                <div class="rating-bar-fill control-color" style="width: ${(ratings.control / 50) * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    <!-- Support -->
+                    <td>
+                        <div class="rating-cell">
+                            <span class="rating-val">${ratings.support}</span>
+                            <div class="rating-bar-bg">
+                                <div class="rating-bar-fill support-color" style="width: ${(ratings.support / 50) * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
+                    
+                    <!-- Complexity -->
+                    <td>
+                        <div class="rating-cell">
+                            <span class="rating-val">${ratings.complexity}</span>
+                            <div class="rating-bar-bg">
+                                <div class="rating-bar-fill complexity-color" style="width: ${(ratings.complexity / 50) * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
+                </tr>
+            `;
+        });
+
+        html += `
+                </tbody>
+            </table>
+        `;
+        
+        container.innerHTML = html;
+
+        // Add event listeners for sorting by clicking on headers
+        container.querySelectorAll('thead th').forEach(th => {
+            th.addEventListener('click', () => {
+                const sortKey = th.getAttribute('data-sort');
+                if (radarTableSortKey === sortKey) {
+                    radarTableSortDir = radarTableSortDir === 'asc' ? 'desc' : 'asc';
+                } else {
+                    radarTableSortKey = sortKey;
+                    radarTableSortDir = ['name', 'classes', 'system', 'role'].includes(sortKey) ? 'asc' : 'desc';
+                }
+                renderRadarTableData();
+            });
+        });
+
+        // Add event listener to row clicking to navigate to the build!
+        container.querySelectorAll('.radar-table-row').forEach(row => {
+            row.addEventListener('click', () => {
+                const buildId = row.getAttribute('data-id');
+                location.hash = `#build=${buildId}&file=character%20guide.md`;
+            });
+        });
+    }
+
     if (btnCompare) {
         btnCompare.addEventListener('click', showCompareView);
     }
@@ -1427,6 +1645,29 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (btnCloseCompareMobile) {
         btnCloseCompareMobile.addEventListener('click', closeCompareView);
+    }
+
+    // Radar Table listeners
+    if (btnShowRadarTable) {
+        btnShowRadarTable.addEventListener('click', () => {
+            const isRadarView = location.hash === '#view=radar-table' || location.hash.includes('view=radar-table');
+            if (isRadarView) {
+                closeRadarTableView();
+            } else {
+                location.hash = '#view=radar-table';
+            }
+        });
+    }
+    if (welcomeBtnRadarTable) {
+        welcomeBtnRadarTable.addEventListener('click', () => {
+            location.hash = '#view=radar-table';
+        });
+    }
+    if (btnCloseRadarTable) {
+        btnCloseRadarTable.addEventListener('click', closeRadarTableView);
+    }
+    if (btnCloseRadarTableMobile) {
+        btnCloseRadarTableMobile.addEventListener('click', closeRadarTableView);
     }
 
     // ==========================================

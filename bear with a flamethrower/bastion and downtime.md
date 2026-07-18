@@ -17,14 +17,30 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Invernadero Natural (Greenhouse) (Nivel 5):**
+* **Taller (Workshop) (Nivel 5):**
   * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Harvest / Cultivate (Cosechar hierbas y componentes raros).
-  * *Sinergia con el Build:* Proporciona ingredientes botánicos frescos para la confección de pociones mágicas y venenos.
-* **Casa de Fieras (Menagerie) (Nivel 9):**
+  * *Orden de Bastión Especial:* Crafting (Fabricar y reparar el Cañón Eldritch u otros mecanismos).
+  * *Sinergia con el Build:* Como Artificer, te permite fabricar tus cañones y municiones con costes de materiales y tiempo reducidos.
+* **Santuario Divino (Sanctuary) (Nivel 5):**
   * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Train Beasts / Breed (Entrenar y criar bestias del bosque).
-  * *Sinergia con el Build:* El druida de la luna puede estudiar nuevas especies salvajes para agregarlas a su catálogo de transformaciones.
+  * *Orden de Bastión Especial:* Meditate / Pray (Canalizar energía de la naturaleza).
+  * *Sinergia con el Build:* Requiere foco druídico (el cual posees). Concede ventajas espirituales a los defensores de la arboleda.
+* **Invernadero Natural (Greenhouse) (Nivel 9):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Harvest / Cultivate (Cosechar plantas exóticas, raíces de hierro y componentes mágicos).
+  * *Sinergia con el Build:* Requiere foco druídico. Suministra ingredientes para pociones y ungüentos botánicos.
+* **Laboratorio Alquímico (Laboratory) (Nivel 9):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Crafting (Destilar combustibles y aceites de fuego alquímico).
+  * *Sinergia con el Build:* Requiere herramientas de Alquimista (las cuales tienes). Ideal para abastecer el cañón flamante de tu cañón Eldritch.
+* **Casa de Fieras (Menagerie) (Nivel 13):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Train Beasts / Breed (Entrenar y criar bestias salvajes y fantásticas).
+  * *Sinergia con el Build:* El Druida de la Luna puede estudiar de forma directa especies salvajes poderosas para integrarlas en sus transformaciones de *Wild Shape*.
+* **Demiplano Botánico (Demiplane) (Nivel 17):**
+  * *Estado:* Activo (Maintain)
+  * *Orden de Bastión Especial:* Empower / Connection (Conectar la arboleda con planos elementales o de naturaleza).
+  * *Sinergia con el Build:* Requiere capacidad de lanzar conjuros. Otorga un refugio dimensional impenetrable y regenerador.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

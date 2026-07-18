@@ -22,24 +22,37 @@ Esta lista detalla la selección de conjuros sugerida para el build **Nick Nack 
 ### Nivel 5 (Disponibles desde Artificer 17)
 
 1. **Wall of Force** 🔵 *[Control Absoluto - Subclase]:* Crea una barrera invisible e indestructible que divide el campo de batalla a la mitad o aísla al jefe enemigo.
-2. **Animate Objects** 🟢 *[Daño Sostenido]:* Da vida a 10 objetos pequeños (como monedas o dagas) para realizar ataques masivos por turno.
+2. **Passwall** 🟡 *[Movilidad/Utilidad - Subclase]:* Crea un pasaje de hasta 20 pies de profundidad a través de una pared de madera, yeso o piedra.
+3. **Animate Objects** 🟢 *[Daño Sostenido]:* Da vida a 10 objetos pequeños para realizar ataques masivos por turno.
+4. **Wall of Stone** 🟢 *[Excelente - Control]:* Crea muros permanentes de piedra para dividir o bloquear enemigos.
 
 ### Nivel 4
 
 1. **Greater Invisibility** 🟢 *[Ofensivo/Defensivo - Subclase]:* Otorga ventaja en tus ataques y desventaja en los ataques enemigos dirigidos a ti.
-2. **Fire Shield** 🟢 *[Defensa de Espinas - Subclase]:* Otorga resistencia al daño de fuego o frío y causa daño automático a cualquiera que te golpee cuerpo a cuerpo.
+2. **Fire Shield** 🟢 *[Defensa de Espinas - Subclase]:* Otorga resistencia al daño de fuego o frío y causa daño automático a atacantes cuerpo a cuerpo.
+3. **Arcane Eye** 🟢 *[Excelente - Exploración]:* Ojo invisible flotante para explorar zonas peligrosas con seguridad.
+4. **Freedom of Movement** 🟢 *[Soporte]:* Inmunidad a condiciones de paralizado, apresado y terreno difícil.
 
 ### Nivel 3
 
 1. **Hypnotic Pattern** 🟢 *[Control de Masas - Subclase]:* Incapacita a un grupo de enemigos en un área si fallan su salvación de Sabiduría.
-2. **Dispel Magic** 🟢 *[Utilidad]:* Cancela efectos mágicos activos de los enemigos.
+2. **Lightning Bolt** 🟢 *[Daño de Línea - Subclase]:* Descarga eléctrica de 8d6 de daño.
+3. **Dispel Magic** 🟢 *[Utilidad]:* Cancela efectos mágicos activos de los enemigos.
+4. **Revivify** 🔵 *[Soporte - Indispensable]:* Revive a un aliado caído dentro de 1 minuto.
+5. **Haste** 🟢 *[Buff]:* Otorga +2 CA, ventaja en Destreza y una acción adicional a ti o a un aliado.
 
 ### Nivel 2
 
-1. **Web** 🔵 *[PILAR DEL SPELL-STORING ITEM]:* Crea una telaraña que inmoviliza y restringe a los enemigos. Es el conjuro principal almacenado en tu Spell-Storing Item para ser lanzado como Acción Adicional.
-2. **Mirror Image** 🟢 *[Defensivo - Subclase]:* Crea 3 duplicados ilusorios que absorben ataques. No requiere concentración.
+1. **Mirror Image** 🟢 *[Defensivo - Subclase]:* Crea 3 duplicados ilusorios que absorben ataques sin requerir concentración.
+2. **Shatter** 🟢 *[Daño Trueno - Subclase]:* Área de daño y ruptura de estructuras.
+3. **Web** 🔵 *[PILAR DEL SPELL-STORING ITEM]:* Crea una telaraña que restringe a los enemigos. Almacenado en tu *Spell-Storing Item* para lanzarse como Acción Adicional vía *Fast Hands*.
+4. **Aid** 🟢 *[Excelente - Buff]:* Aumenta la vida máxima de 3 aliados por 8 horas.
 
 ### Nivel 1
 
-1. **Cure Wounds** 🔵 *[Soporte/Emergencia]:* Conjuro alternativo para almacenar en tu Spell-Storing Item. Permite levantar aliados caídos como Acción Adicional con tu acción Magic de Thief.
-2. **Absorb Elements** 🔵 *[Defensa Elemental]:* Reacción para obtener resistencia al daño elemental recibido y potenciar tu siguiente ataque CaC.
+1. **Magic Missile** 🟢 *[Daño Seguro - Subclase]:* Proyectiles de fuerza ineludibles.
+2. **Thunderwave** 🟢 *[Control CaC - Subclase]:* Ola de empuje e impacto de trueno.
+3. **Absorb Elements** 🔵 *[Defensa Elemental]:* Reacción para obtener resistencia al daño elemental recibido y potenciar tu siguiente ataque de guantelete.
+4. **Cure Wounds** 🔵 *[Soporte]:* Curación básica. Ideal para curar como Acción Adicional con tu acción *Magic* de Thief si se almacena en el *Spell-Storing Item*.
+5. **Detect Magic** 🟡 *[Ritual]:* Detecta fuentes mágicas.
+6. **Identify** 🟡 *[Ritual]:* Identifica propiedades de objetos mágicos.
