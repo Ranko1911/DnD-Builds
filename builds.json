@@ -118,5 +118,55 @@
     "folder": "eldritch shadow",
     "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
     "ratings": { "dpr": 8, "ehp": 7, "control": 6, "support": 2, "complexity": 5 }
+  },
+  {
+    "id": "magical-mischief-murder-man",
+    "name": "Magical Mischief Murder Man",
+    "classes": "Sorcerer 1 / Rogue (Swashbuckler) 19",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Striker / Face / Skill Monkey",
+    "folder": "magical mischief murder man",
+    "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
+    "ratings": { "dpr": 8, "ehp": 6, "control": 4, "support": 3, "complexity": 5 }
+  },
+  {
+    "id": "beelzebubs-ballista",
+    "name": "Beelzebub's Ballista",
+    "classes": "Warlock (Celestial) 19 / Fighter 1",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Ranged Control Striker / Turret",
+    "folder": "beelzebubs ballista",
+    "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
+    "ratings": { "dpr": 9, "ehp": 7, "control": 8, "support": 5, "complexity": 6 }
+  },
+  {
+    "id": "nick-nack-nabber",
+    "name": "The Nick Nack Nabber",
+    "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Frontline Utility / Item Specialist",
+    "folder": "nick nack nabber",
+    "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
+    "ratings": { "dpr": 6, "ehp": 8, "control": 7, "support": 8, "complexity": 8 }
+  },
+  {
+    "id": "furry-fury",
+    "name": "The Furry Fury",
+    "classes": "Bard (Valor) 19 / Warlock 1",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Melee/Ranged Nova Striker",
+    "folder": "furry fury",
+    "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
+    "ratings": { "dpr": 10, "ehp": 6, "control": 6, "support": 7, "complexity": 7 }
+  },
+  {
+    "id": "furious-paradox",
+    "name": "The Furious Paradox",
+    "classes": "Wizard (Bladesinger) 18 / Barbarian 2",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Thorns EHP Tank / Gish",
+    "folder": "furious paradox",
+    "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
+    "ratings": { "dpr": 7, "ehp": 10, "control": 5, "support": 4, "complexity": 8 }
   }
 ]
