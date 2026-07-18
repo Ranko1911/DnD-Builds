@@ -946,6 +946,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!toggleRadar || !toggleRadar.checked || !build.ratings) { panel.classList.add('hidden'); return; }
 
         const r = build.ratings;
+        const MAX_RATING = 50;
         const axes = [
             { key: 'dpr',        label: 'DPR',         val: r.dpr        || 0 },
             { key: 'ehp',        label: 'EHP',         val: r.ehp        || 0 },
@@ -962,12 +963,17 @@ document.addEventListener('DOMContentLoaded', () => {
             return { x: cx + Math.cos(a) * maxR * scale, y: cy + Math.sin(a) * maxR * scale };
         }
 
-        // Grid rings
+        // Grid rings at 10, 20, 30, 40, 50
         let gridSvg = '';
-        [0.25, 0.5, 0.75, 1.0].forEach(s => {
+        let ringLabelsSvg = '';
+        [10, 20, 30, 40, 50].forEach(val => {
+            const s = val / MAX_RATING;
             const pts = [];
             for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x},${p.y}`); }
-            gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>`;
+            const isFull = val === MAX_RATING;
+            gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,${isFull ? '0.12' : '0.06'})" stroke-width="${isFull ? 1.5 : 1}"/>`;
+            // Etiqueta sobre el eje DPR (apunta arriba), desplazada 6px a la derecha
+            ringLabelsSvg += `<text x="${cx + 6}" y="${cy - s * maxR}" dominant-baseline="central" fill="rgba(255,255,255,0.28)" style="font-size:8px; font-family:var(--font-body);">${val}</text>`;
         });
 
         // Axis lines
@@ -980,7 +986,7 @@ document.addEventListener('DOMContentLoaded', () => {
         // Data polygon
         const dataPts = [];
         for (let i = 0; i < n; i++) {
-            const p = polar(i, axes[i].val / 10);
+            const p = polar(i, axes[i].val / MAX_RATING);
             dataPts.push(`${p.x},${p.y}`);
         }
         const dataFill = `rgba(99, 102, 241, 0.25)`;
@@ -991,20 +997,19 @@ document.addEventListener('DOMContentLoaded', () => {
         let dotsSvg = '';
         let labelsSvg = '';
         for (let i = 0; i < n; i++) {
-            const pDot = polar(i, axes[i].val / 10);
+            const pDot = polar(i, axes[i].val / MAX_RATING);
             dotsSvg += `<circle cx="${pDot.x}" cy="${pDot.y}" r="3" fill="${dataStroke}"/>`;
-            // Axis label (outside)
-            const pLabel = polar(i, 1.2);
+            // Axis label con valor integrado (evita superposición con etiquetas de anillos)
+            const pLabel = polar(i, 1.22);
             const anchor = pLabel.x < cx - 5 ? 'end' : pLabel.x > cx + 5 ? 'start' : 'middle';
-            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y}" text-anchor="${anchor}" dominant-baseline="central" class="radar-label">${axes[i].label}</text>`;
-            // Value label
-            const pVal = polar(i, 1.08);
-            labelsSvg += `<text x="${pVal.x}" y="${pVal.y + 11}" text-anchor="${anchor}" class="radar-value-label">${axes[i].val}/10</text>`;
+            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y - 6}" text-anchor="${anchor}" dominant-baseline="central" class="radar-label">${axes[i].label}</text>`;
+            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y + 8}" text-anchor="${anchor}" dominant-baseline="central" class="radar-value-label">${axes[i].val}/50</text>`;
         }
 
-        panel.innerHTML = `<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${dataSvg}${dotsSvg}${labelsSvg}</svg>`;
+        panel.innerHTML = `<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${dataSvg}${dotsSvg}${ringLabelsSvg}${labelsSvg}</svg>`;
         panel.classList.remove('hidden');
     }
+
 
     // --- Level slider logic ---
     if (levelSlider) {
@@ -1309,6 +1314,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: 'complexity', label: 'Complejidad' }
         ];
         const n = axes.length;
+        const MAX_RATING = 50;
         const cx = 180, cy = 140, maxR = 100;
         const angleOff = -Math.PI / 2;
 
@@ -1317,12 +1323,17 @@ document.addEventListener('DOMContentLoaded', () => {
             return { x: cx + Math.cos(a) * maxR * scale, y: cy + Math.sin(a) * maxR * scale };
         }
 
-        // Grid rings
+        // Grid rings at 10, 20, 30, 40, 50
         let gridSvg = '';
-        [0.25, 0.5, 0.75, 1.0].forEach(s => {
+        let ringLabelsSvg = '';
+        [10, 20, 30, 40, 50].forEach(val => {
+            const s = val / MAX_RATING;
             const pts = [];
             for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x},${p.y}`); }
-            gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,0.06)" stroke-width="1"/>`;
+            const isFull = val === MAX_RATING;
+            gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,${isFull ? '0.12' : '0.06'})" stroke-width="${isFull ? 1.5 : 1}"/>`;
+            // Etiqueta sobre el eje DPR (apunta arriba), desplazada 6px a la derecha
+            ringLabelsSvg += `<text x="${cx + 6}" y="${cy - s * maxR}" dominant-baseline="central" fill="rgba(255,255,255,0.28)" style="font-size:8px; font-family:var(--font-body);">${val}</text>`;
         });
 
         // Axis lines
@@ -1344,7 +1355,7 @@ document.addEventListener('DOMContentLoaded', () => {
             for (let i = 0; i < n; i++) {
                 const key = axes[i].key;
                 const val = r[key] || 0;
-                const p = polar(i, val / 50);
+                const p = polar(i, val / MAX_RATING);
                 dataPts.push(`${p.x},${p.y}`);
                 
                 dotsSvg += `<circle cx="${p.x}" cy="${p.y}" r="3.5" fill="${colors.primary}" class="compare-polygon" data-build-id="${build.id}" style="pointer-events: none;"/>`;
@@ -1374,10 +1385,12 @@ document.addEventListener('DOMContentLoaded', () => {
                 ${axisSvg}
                 ${polygonsSvg}
                 ${dotsSvg}
+                ${ringLabelsSvg}
                 ${labelsSvg}
             </svg>
         `;
     }
+
 
     function renderCompareLegend(builds) {
         const legendContainer = document.getElementById('compare-legend');

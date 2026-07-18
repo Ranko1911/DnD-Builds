@@ -86,3 +86,41 @@ El inicio como Artificer concede salvaciones de Constitución nativas sin retras
 Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
 1. **Estoques como Foco Mágico:** Se ratifica el estoque de acero como canalizador universal de ambas clases.
 2. **Mantenimiento de Rasgos en Transformación:** El Bladesinger mantiene activo su Bladesong, dotes (*Mobile*, *War Caster*) y rasgos (*Song of Victory*) al usar *Shapechange*.
+
+---
+
+## 6. Análisis del Archivero — Planetar vs. Marilith para Shapechange
+
+### 🔵 PLANETAR (CR 16) — *Forma Óptima del Build*
+
+| Parámetro | Valor | Evaluación |
+| :--- | :--- | :---: |
+| **CA base** | 19 (armadura natural) | 🔵 |
+| **Velocidad de vuelo** | 120 ft (+10 Bladesong +10 Mobile = **140 ft**) | 🔵 |
+| **Resistencia Mágica** | Ventaja en todas las ST contra magia | 🔵 |
+| **Daño extra en arma** | 5d8 radiante en **cada** ataque cuerpo a cuerpo | 🟢 |
+| **True Sight** | 120 ft | 🟢 |
+| **CA final con combo** | 19 + 5 (INT Bladesong) + 5 (Shield gratis) = **29 CA** | 🔵 |
+| **DPR Turno Base** | ~92.5 sin consumir espacios de conjuro | 🔵 |
+
+### 🟡 MARILITH (CR 16) — *Candidata Descartada*
+
+| Parámetro | Valor | Evaluación |
+| :--- | :--- | :---: |
+| **CA base** | 18 (armadura natural) | 🟡 |
+| **Velocidad** | 40 ft en tierra, **SIN VUELO** | 🔴 |
+| **Resistencia Mágica** | ✅ Sí | 🔵 |
+| **7 ataques (Multiattack)** | No se usan — el loop de ataque sigue siendo del Bladesinger (2 ataques + GFB) | 🔴 |
+| **Daño extra en arma** | Ninguno equivalente al 5d8 Radiante del Planetar | 🔴 |
+| **CA final con combo** | 18 + 5 (INT) + 5 (Shield) = **28 CA** | 🟡 |
+
+### ⚖️ Veredicto
+
+**El Planetar gana en todos los vectores que importan.**
+
+Los 7 ataques de la Marilith son un **espejismo mecánico**: Shapechange otorga los rasgos pasivos del monstruo, pero el loop de ataque del Bladesinger opera sobre sus acciones de clase, no sobre la Multiattack de la criatura. El Planetar aporta **5d8 radiante pasivos que sí se suman** a cada golpe.
+
+La ausencia de vuelo en la Marilith inutiliza por completo el bucle aéreo de 140 pies que es el núcleo del build: atacar, alejarse sin provocar ataques de oportunidad (Mobile), y mantenerse fuera de alcance cuerpo a cuerpo. En tierra, el Iron Dancer pierde su ventaja táctica definitoria.
+
+> **Conclusión:** El Planetar es la forma Shapechange óptima e irremplazable para este build bajo las reglas de la mesa. La Marilith solo sería competitiva en campañas con house rule que permita usar su Multiattack completa Y en encuentros completamente cerrados sin espacio aéreo.
+
