@@ -5,10 +5,11 @@
 *Nota de Mesa:* El Collar del Moldeador de Tormentas (CMT) está fusionado con el Amulet of the Devout como un solo objeto con una única ranura de sintonización (homebrew de mesa).
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Devout+CMT +1. (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Devout+CMT +2, Arcane Grimoire +2, Amulet of Health. (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Devout+CMT +3, Arcane Grimoire +3, Staff of Power. (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Staff of Power (o Ioun Stone). (Tome of Clear Thought y Plate +3 no requieren sintonización). (Total: 3).
+
+* **Tier 1 (Niveles 1-4):** Devout+CMT +1. (Total: 1).
+* **Tier 2 (Niveles 5-10):** Devout+CMT +2, Amulet of Health, Weapon of Warning. (Total: 3).
+* **Tier 3 (Niveles 11-16):** Devout+CMT +3, Staff of Power, Rod of Absorption. (Total: 3).
+* **Tier 4 (Niveles 17-20):** Devout+CMT +3, Staff of the Magi, Ioun Stone of Mastery. (Tome of Clear Thought y Plate +3 no requieren sintonización). (Total: 3).
 
 ---
 
@@ -55,7 +56,8 @@
 | :--- | :---: | :---: | :--- |
 | **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora directa de Staff of Power. Absorción de conjuros enemigos, arsenal ofensivo devastador, y ventaja en salvaciones contra conjuros. El objeto definitivo para un gish que lucha en primera línea contra lanzadores. La Staff puede usarse como arma cuerpo a cuerpo ($+3$ hit/daño). |
 | **Ioun Stone of Mastery** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ al bonificador de competencia (que sube a $+7$). Afecta a **todo**: ataques, CD de conjuros, salvaciones con competencia, Canalizar Divinidad, y pruebas de habilidad. Incremento universal de poder. |
-| **Armor +3 (Plate) y Shield +3** | No | — | **Prioridad 3:** CA pasiva sube a un absurdo **26 CA** ($18 + 3 + 2 + 3 = 26$). Con *Shield* alcanzas **31 CA**. Virtualmente intocable. |
+| **Amulet of the Devout +3 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 3:** Se mantiene del Tier anterior. Foco universal definitivo para maximizar tus CDs de conjuro (+3) y usos de Canalizar Divinidad, permitiendo usar Esculpir la Tormenta sin dañar aliados. |
+| **Armor +3 (Plate) y Shield +3** | No | — | **Prioridad Alta:** CA pasiva sube a un absurdo **26 CA** ($18 + 3 + 2 + 3 = 26$). Con *Shield* alcanzas **31 CA**. Virtualmente intocable. |
 | **Robe of the Archmage** | Sí | No | Prioridad Nula para este build: CA base de 15 + DEX es inferior a Plate +3 (21 CA). Solo considerarlo si hay una mesa que permita vestirlo sobre armadura pesada. |
 
 ---
