@@ -245,31 +245,20 @@ document.addEventListener('DOMContentLoaded', () => {
         // Sort filtered array
         const sortValue = sortSelect ? sortSelect.value : 'name-asc';
         filtered.sort((a, b) => {
-            if (sortValue === 'name-asc') {
-                return a.name.localeCompare(b.name);
-            } else if (sortValue === 'name-desc') {
-                return b.name.localeCompare(a.name);
-            } else if (sortValue === 'class-asc') {
-                return a.classes.localeCompare(b.classes);
-            } else if (sortValue === 'dpr-desc') {
-                const dprA = (a.ratings && a.ratings.dpr) || 0;
-                const dprB = (b.ratings && b.ratings.dpr) || 0;
-                return dprB - dprA;
-            } else if (sortValue === 'ehp-desc') {
-                const ehpA = (a.ratings && a.ratings.ehp) || 0;
-                const ehpB = (b.ratings && b.ratings.ehp) || 0;
-                return ehpB - ehpA;
-            } else if (sortValue === 'complexity-asc') {
-                const compA = (a.ratings && a.ratings.complexity) || 0;
-                const compB = (b.ratings && b.ratings.complexity) || 0;
-                return compA - compB;
-            } else if (sortValue === 'complexity-desc') {
-                const compA = (a.ratings && a.ratings.complexity) || 0;
-                const compB = (b.ratings && b.ratings.complexity) || 0;
-                return compB - compA;
-            }
+            const r = (build, key) => (build.ratings && build.ratings[key]) || 0;
+            if (sortValue === 'name-asc')        return a.name.localeCompare(b.name);
+            if (sortValue === 'name-desc')       return b.name.localeCompare(a.name);
+            if (sortValue === 'class-asc')       return a.classes.localeCompare(b.classes);
+            if (sortValue === 'class-desc')      return b.classes.localeCompare(a.classes);
+            if (sortValue === 'dpr-desc')        return r(b, 'dpr')        - r(a, 'dpr');
+            if (sortValue === 'ehp-desc')        return r(b, 'ehp')        - r(a, 'ehp');
+            if (sortValue === 'control-desc')    return r(b, 'control')    - r(a, 'control');
+            if (sortValue === 'support-desc')    return r(b, 'support')    - r(a, 'support');
+            if (sortValue === 'complexity-asc')  return r(a, 'complexity') - r(b, 'complexity');
+            if (sortValue === 'complexity-desc') return r(b, 'complexity') - r(a, 'complexity');
             return 0;
         });
+
 
         buildsCount.textContent = filtered.length;
 
@@ -1199,7 +1188,7 @@ document.addEventListener('DOMContentLoaded', () => {
             return;
         }
         
-        const ratingsKeys = ['dpr', 'ehp', 'control', 'support'];
+        const ratingsKeys = ['dpr', 'ehp', 'control', 'support', 'complexity'];
         const maxRatings = {};
         ratingsKeys.forEach(key => {
             maxRatings[key] = Math.max(...builds.map(b => (b.ratings && b.ratings[key]) || 0));
@@ -1259,10 +1248,10 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `<tr><td>${ratingLabels[key]}</td>`;
             builds.forEach(build => {
                 const val = (build.ratings && build.ratings[key]) || 0;
-                let cellContent = `${val}/10`;
+                let cellContent = `${val}/50`;
                 
-                if (key !== 'complexity' && val === maxRatings[key] && val > 0) {
-                    cellContent = `<span class="stat-winner">${val}/10</span>`;
+                if (val === maxRatings[key] && val > 0) {
+                    cellContent = `<span class="stat-winner">${val}/50</span>`;
                 }
                 
                 html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${cellContent}</td>`;
@@ -1355,7 +1344,7 @@ document.addEventListener('DOMContentLoaded', () => {
             for (let i = 0; i < n; i++) {
                 const key = axes[i].key;
                 const val = r[key] || 0;
-                const p = polar(i, val / 10);
+                const p = polar(i, val / 50);
                 dataPts.push(`${p.x},${p.y}`);
                 
                 dotsSvg += `<circle cx="${p.x}" cy="${p.y}" r="3.5" fill="${colors.primary}" class="compare-polygon" data-build-id="${build.id}" style="pointer-events: none;"/>`;
