@@ -1,3 +1,1 @@
-- arreglar tempest spell list para que muestre todo en nivel 20
-- las fichas nuevas faltan por revisar cosas como bastiones, spell list, lista de objetos.
-- una tabla con los datos del radar.
+- algo para elegir una clase y que muestre los personajes que tienen esa clase

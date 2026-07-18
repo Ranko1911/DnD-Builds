@@ -118,6 +118,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const searchInput = document.getElementById('build-search');
     const filterSystem = document.getElementById('filter-system');
     const filterRole = document.getElementById('filter-role');
+    const filterClass = document.getElementById('filter-class');
     const buildsCount = document.getElementById('builds-count');
     const sortSelect = document.getElementById('sort-select');
     
@@ -215,6 +216,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const searchQuery = searchInput.value.toLowerCase().trim();
         const systemFilter = filterSystem.value;
         const roleFilter = filterRole.value.toLowerCase();
+        const classFilter = filterClass.value.toLowerCase();
         
         const filtered = buildsData.filter(build => {
             // Search match
@@ -229,6 +231,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 (systemFilter === '2024' && build.system.includes('2024')) ||
                 (systemFilter === '2014' && build.system.includes('2014'));
             
+            // Class match
+            const matchesClass = 
+                classFilter === 'all' || 
+                build.classes.toLowerCase().includes(classFilter);
+            
             // Role match
             let matchesRole = false;
             if (roleFilter === 'all') {
@@ -239,7 +246,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 matchesRole = keywords.some(keyword => buildRoleLower.includes(keyword));
             }
                 
-            return matchesSearch && matchesSystem && matchesRole;
+            return matchesSearch && matchesSystem && matchesRole && matchesClass;
         });
 
         // Sort filtered array
@@ -685,6 +692,7 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderBuildsList);
     filterSystem.addEventListener('change', renderBuildsList);
     filterRole.addEventListener('change', renderBuildsList);
+    filterClass.addEventListener('change', renderBuildsList);
     if (sortSelect) {
         sortSelect.addEventListener('change', renderBuildsList);
     }
