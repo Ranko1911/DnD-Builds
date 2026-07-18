@@ -168,5 +168,125 @@
     "folder": "furious paradox",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": { "dpr": 7, "ehp": 10, "control": 5, "support": 4, "complexity": 8 }
+  },
+  {
+    "id": "spymaster",
+    "name": "Spymaster",
+    "classes": "Rogue (Soulknife) 18 / Artificer 2",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Infiltrator / Utility / Skill Monkey / Gish",
+    "folder": "spymaster",
+    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
+    "ratings": { "dpr": 7, "ehp": 6, "control": 5, "support": 5, "complexity": 6 }
+  },
+  {
+    "id": "the-bonk",
+    "name": "The BONK",
+    "classes": "Barbarian (Beast) 3 / Monk (Long Death) 17",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Striker / Grappler / Temp HP Tank",
+    "folder": "the bonk",
+    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
+    "ratings": { "dpr": 9, "ehp": 9, "control": 6, "support": 1, "complexity": 5 }
+  },
+  {
+    "id": "le-biter",
+    "name": "Le Biter",
+    "classes": "Fighter (Battle Master) 17 / Bard (Swords) 3",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Gish / Controller / Face",
+    "folder": "le biter",
+    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
+    "ratings": { "dpr": 8, "ehp": 7, "control": 7, "support": 6, "complexity": 7 }
+  },
+  {
+    "id": "penny-pinchin-preacher",
+    "name": "Penny Pinchin' Preacher",
+    "classes": "Rogue (Soulknife) 18 / Cleric (Twilight) 2",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Resilient Passive Support / Skill Monkey",
+    "folder": "penny pinchin preacher",
+    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
+    "ratings": { "dpr": 7, "ehp": 8, "control": 6, "support": 9, "complexity": 6 }
+  },
+  {
+    "id": "bear-with-a-flamethrower",
+    "name": "Bear with a Flamethrower",
+    "classes": "Druid (Moon) 17 / Artificer (Artillerist) 3",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Wild Shape Fire Blaster / Temp HP Tank",
+    "folder": "bear with a flamethrower",
+    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
+    "ratings": { "dpr": 7, "ehp": 10, "control": 5, "support": 7, "complexity": 8 }
+  },
+  {
+    "id": "the-fartificer",
+    "name": "The Fartificer",
+    "classes": "Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3",
+    "system": "D&D 5e (2014)",
+    "role": "Ranged Gadget Sniper / Heavy Striker",
+    "folder": "the fartificer",
+    "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
+    "ratings": { "dpr": 9, "ehp": 8, "control": 5, "support": 4, "complexity": 7 }
+  },
+  {
+    "id": "fist-of-god",
+    "name": "Fist of God",
+    "classes": "Monk (Way of Mercy) 12 / Cleric (War Domain) 8",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Striker / Divine Healer / Controller",
+    "folder": "fist of god",
+    "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
+    "ratings": { "dpr": 8, "ehp": 7, "control": 8, "support": 8, "complexity": 8 }
+  },
+  {
+    "id": "priest-of-the-wilds",
+    "name": "Priest of the Wilds",
+    "classes": "Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8",
+    "system": "D&D 5e (2014)",
+    "role": "Ranged Nova Sniper / Support Turret",
+    "folder": "priest of the wilds",
+    "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
+    "ratings": { "dpr": 9, "ehp": 7, "control": 6, "support": 8, "complexity": 7 }
+  },
+  {
+    "id": "shadow-tank",
+    "name": "The Shadow Tank",
+    "classes": "Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Thorns Tank / Heavy Striker",
+    "folder": "shadow tank",
+    "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
+    "ratings": { "dpr": 8, "ehp": 10, "control": 6, "support": 2, "complexity": 6 }
+  },
+  {
+    "id": "sneaky-smasher",
+    "name": "The Sneaky Smasher",
+    "classes": "Rogue (Soulknife) 17 / Barbarian (Totem Warrior) 3",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Evasion Striker / Grappler",
+    "folder": "sneaky smasher",
+    "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
+    "ratings": { "dpr": 8, "ehp": 9, "control": 6, "support": 3, "complexity": 5 }
+  },
+  {
+    "id": "warrior-of-flame",
+    "name": "Warrior of Flame",
+    "classes": "Sorcerer (Draconic) 14 / Paladin (Devotion) 6",
+    "system": "D&D 5e (2014)",
+    "role": "Frontline Nova Striker / Aura Support",
+    "folder": "warrior of flame",
+    "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
+    "ratings": { "dpr": 10, "ehp": 8, "control": 5, "support": 7, "complexity": 8 }
+  },
+  {
+    "id": "iron-dancer",
+    "name": "Iron Dancer",
+    "classes": "Wizard (Bladesinger) 18 / Artificer 2",
+    "system": "D&D 5e (2014)",
+    "role": "Evasion Tank / Spell Mastery / Shapechange Angel",
+    "folder": "iron dancer",
+    "youtube": "https://www.youtube.com/watch?v=o6-7L7cx6WI",
+    "ratings": { "dpr": 9, "ehp": 10, "control": 8, "support": 4, "complexity": 9 }
   }
 ]

@@ -217,6 +217,38 @@ body {
     color: white;
 }
 
+.sidebar-controls {
+    padding: 0.75rem 1.5rem;
+    border-bottom: 1px solid var(--border-color);
+    background-color: rgba(8, 11, 19, 0.2);
+}
+
+.sort-select {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.03);
+    border: 1px solid var(--border-color);
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.85rem;
+    padding: 0.5rem 0.75rem;
+    border-radius: var(--border-radius-sm);
+    outline: none;
+    cursor: pointer;
+    transition: var(--transition-smooth);
+}
+
+.sort-select:focus,
+.sort-select:hover {
+    border-color: var(--color-primary);
+    color: var(--color-text-main);
+    background-color: rgba(255, 255, 255, 0.06);
+}
+
+.sort-select option {
+    background-color: var(--bg-surface);
+    color: var(--color-text-main);
+}
+
 .cards-list {
     flex-grow: 1;
     overflow-y: auto;

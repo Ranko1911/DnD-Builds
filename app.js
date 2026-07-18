@@ -119,6 +119,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterSystem = document.getElementById('filter-system');
     const filterRole = document.getElementById('filter-role');
     const buildsCount = document.getElementById('builds-count');
+    const sortSelect = document.getElementById('sort-select');
     
     // Stats elements
     const statTotal = document.getElementById('stat-total');
@@ -239,6 +240,35 @@ document.addEventListener('DOMContentLoaded', () => {
             }
                 
             return matchesSearch && matchesSystem && matchesRole;
+        });
+
+        // Sort filtered array
+        const sortValue = sortSelect ? sortSelect.value : 'name-asc';
+        filtered.sort((a, b) => {
+            if (sortValue === 'name-asc') {
+                return a.name.localeCompare(b.name);
+            } else if (sortValue === 'name-desc') {
+                return b.name.localeCompare(a.name);
+            } else if (sortValue === 'class-asc') {
+                return a.classes.localeCompare(b.classes);
+            } else if (sortValue === 'dpr-desc') {
+                const dprA = (a.ratings && a.ratings.dpr) || 0;
+                const dprB = (b.ratings && b.ratings.dpr) || 0;
+                return dprB - dprA;
+            } else if (sortValue === 'ehp-desc') {
+                const ehpA = (a.ratings && a.ratings.ehp) || 0;
+                const ehpB = (b.ratings && b.ratings.ehp) || 0;
+                return ehpB - ehpA;
+            } else if (sortValue === 'complexity-asc') {
+                const compA = (a.ratings && a.ratings.complexity) || 0;
+                const compB = (b.ratings && b.ratings.complexity) || 0;
+                return compA - compB;
+            } else if (sortValue === 'complexity-desc') {
+                const compA = (a.ratings && a.ratings.complexity) || 0;
+                const compB = (b.ratings && b.ratings.complexity) || 0;
+                return compB - compA;
+            }
+            return 0;
         });
 
         buildsCount.textContent = filtered.length;
@@ -628,6 +658,9 @@ document.addEventListener('DOMContentLoaded', () => {
     searchInput.addEventListener('input', renderBuildsList);
     filterSystem.addEventListener('change', renderBuildsList);
     filterRole.addEventListener('change', renderBuildsList);
+    if (sortSelect) {
+        sortSelect.addEventListener('change', renderBuildsList);
+    }
 
     // Mobile Back Button handler
     if (btnBackCatalog) {

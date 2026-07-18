@@ -136,6 +136,17 @@
                     <h2>Catálogo de Builds</h2>
                     <span id="builds-count" class="badge-count">0</span>
                 </div>
+                <div class="sidebar-controls">
+                    <select id="sort-select" class="sort-select">
+                        <option value="name-asc">Ordenar por: Nombre (A-Z)</option>
+                        <option value="name-desc">Ordenar por: Nombre (Z-A)</option>
+                        <option value="class-asc">Ordenar por: Clase (A-Z)</option>
+                        <option value="dpr-desc">Ordenar por: DPR (Mayor a Menor)</option>
+                        <option value="ehp-desc">Ordenar por: EHP (Mayor a Menor)</option>
+                        <option value="complexity-asc">Ordenar por: Complejidad (Menor a Mayor)</option>
+                        <option value="complexity-desc">Ordenar por: Complejidad (Mayor a Menor)</option>
+                    </select>
+                </div>
                 <div class="cards-list" id="builds-list">
                     <!-- Cards will be dynamically injected here -->
                     <div class="skeleton-loader"></div>
