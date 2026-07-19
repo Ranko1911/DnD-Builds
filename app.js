@@ -252,6 +252,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const sortValue = sortSelect ? sortSelect.value : 'name-asc';
         filtered.sort((a, b) => {
             const r = (build, key) => (build.ratings && build.ratings[key]) || 0;
+            const getAvg = (build) => {
+                const rt = build.ratings || {};
+                return ((rt.dpr || 0) + (rt.ehp || 0) + (rt.control || 0) + (rt.support || 0) + (rt.complexity || 0)) / 5;
+            };
+            if (sortValue === 'avg-desc') return getAvg(b) - getAvg(a);
+            if (sortValue === 'avg-asc') return getAvg(a) - getAvg(b);
             if (sortValue === 'name-asc') return a.name.localeCompare(b.name);
             if (sortValue === 'name-desc') return b.name.localeCompare(a.name);
             if (sortValue === 'class-asc') return a.classes.localeCompare(b.classes);
