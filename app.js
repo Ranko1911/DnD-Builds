@@ -64,10 +64,10 @@ document.addEventListener('DOMContentLoaded', () => {
     // Extract D&D class colors dynamically from classes string
     function getColorsForClasses(classesStr) {
         if (!classesStr) return null;
-        
+
         const lowerStr = classesStr.toLowerCase();
         const knownClasses = ['barbarian', 'bard', 'cleric', 'druid', 'fighter', 'monk', 'paladin', 'ranger', 'rogue', 'sorcerer', 'warlock', 'wizard', 'artificer'];
-        
+
         const classIndices = [];
         knownClasses.forEach(cls => {
             const index = lowerStr.indexOf(cls);
@@ -75,18 +75,18 @@ document.addEventListener('DOMContentLoaded', () => {
                 classIndices.push({ cls, index });
             }
         });
-        
+
         classIndices.sort((a, b) => a.index - b.index);
         const classes = classIndices.map(item => item.cls);
-        
+
         if (classes.length === 0) return null;
-        
+
         const primaryClass = classes[0];
         const secondaryClass = classes[1] || primaryClass;
-        
+
         const primaryColor = CLASS_COLORS[primaryClass].primary;
         const secondaryColor = classes.length > 1 ? CLASS_COLORS[secondaryClass].primary : CLASS_COLORS[primaryClass].secondary;
-        
+
         return {
             primary: primaryColor,
             primaryGlow: hexToRgba(primaryColor, 0.15),
@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
             root.style.setProperty('--color-secondary-glow', 'rgba(168, 85, 247, 0.15)');
             return;
         }
-        
+
         root.style.setProperty('--color-primary', colors.primary);
         root.style.setProperty('--color-primary-glow', colors.primaryGlow);
         root.style.setProperty('--color-secondary', colors.secondary);
@@ -121,23 +121,23 @@ document.addEventListener('DOMContentLoaded', () => {
     const filterClass = document.getElementById('filter-class');
     const buildsCount = document.getElementById('builds-count');
     const sortSelect = document.getElementById('sort-select');
-    
+
     // Stats elements
     const statTotal = document.getElementById('stat-total');
     const stat2024 = document.getElementById('stat-2024');
     const stat2014 = document.getElementById('stat-2014');
-    
+
     // View panels
     const welcomeView = document.getElementById('welcome-view');
     const buildContentView = document.getElementById('build-content-view');
-    
+
     // Detail headers
     const detailBuildName = document.getElementById('detail-build-name');
     const detailSystemBadge = document.getElementById('detail-system-badge');
     const detailClasses = document.getElementById('detail-classes');
     const detailYoutubeBtn = document.getElementById('detail-youtube-btn');
     const detailBreadcrumbs = document.getElementById('detail-breadcrumbs');
-    
+
     // Tabs & Viewer
     const tabButtons = document.querySelectorAll('.tab-btn');
     const markdownViewer = document.getElementById('markdown-viewer');
@@ -187,7 +187,7 @@ document.addEventListener('DOMContentLoaded', () => {
             buildsData = data;
             updateStats();
             renderBuildsList();
-            
+
             // Handle initial URL hash on page load
             handleHashChange();
         })
@@ -201,7 +201,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const total = buildsData.length;
         const count2024 = buildsData.filter(b => b.system.includes('2024')).length;
         const count2014 = total - count2024;
-        
+
         statTotal.textContent = total;
         stat2024.textContent = count2024;
         stat2014.textContent = count2014;
@@ -211,30 +211,30 @@ document.addEventListener('DOMContentLoaded', () => {
     // Render Build Cards List
     function renderBuildsList() {
         buildsList.innerHTML = '';
-        
+
         const searchQuery = searchInput.value.toLowerCase().trim();
         const systemFilter = filterSystem.value;
         const roleFilter = filterRole.value.toLowerCase();
         const classFilter = filterClass.value.toLowerCase();
-        
+
         const filtered = buildsData.filter(build => {
             // Search match
-            const matchesSearch = 
+            const matchesSearch =
                 build.name.toLowerCase().includes(searchQuery) ||
                 build.classes.toLowerCase().includes(searchQuery) ||
                 build.role.toLowerCase().includes(searchQuery);
-            
+
             // System match
-            const matchesSystem = 
-                systemFilter === 'all' || 
+            const matchesSystem =
+                systemFilter === 'all' ||
                 (systemFilter === '2024' && build.system.includes('2024')) ||
                 (systemFilter === '2014' && build.system.includes('2014'));
-            
+
             // Class match
-            const matchesClass = 
-                classFilter === 'all' || 
+            const matchesClass =
+                classFilter === 'all' ||
                 build.classes.toLowerCase().includes(classFilter);
-            
+
             // Role match
             let matchesRole = false;
             if (roleFilter === 'all') {
@@ -244,7 +244,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 const buildRoleLower = build.role.toLowerCase();
                 matchesRole = keywords.some(keyword => buildRoleLower.includes(keyword));
             }
-                
+
             return matchesSearch && matchesSystem && matchesRole && matchesClass;
         });
 
@@ -252,15 +252,15 @@ document.addEventListener('DOMContentLoaded', () => {
         const sortValue = sortSelect ? sortSelect.value : 'name-asc';
         filtered.sort((a, b) => {
             const r = (build, key) => (build.ratings && build.ratings[key]) || 0;
-            if (sortValue === 'name-asc')        return a.name.localeCompare(b.name);
-            if (sortValue === 'name-desc')       return b.name.localeCompare(a.name);
-            if (sortValue === 'class-asc')       return a.classes.localeCompare(b.classes);
-            if (sortValue === 'class-desc')      return b.classes.localeCompare(a.classes);
-            if (sortValue === 'dpr-desc')        return r(b, 'dpr')        - r(a, 'dpr');
-            if (sortValue === 'ehp-desc')        return r(b, 'ehp')        - r(a, 'ehp');
-            if (sortValue === 'control-desc')    return r(b, 'control')    - r(a, 'control');
-            if (sortValue === 'support-desc')    return r(b, 'support')    - r(a, 'support');
-            if (sortValue === 'complexity-asc')  return r(a, 'complexity') - r(b, 'complexity');
+            if (sortValue === 'name-asc') return a.name.localeCompare(b.name);
+            if (sortValue === 'name-desc') return b.name.localeCompare(a.name);
+            if (sortValue === 'class-asc') return a.classes.localeCompare(b.classes);
+            if (sortValue === 'class-desc') return b.classes.localeCompare(a.classes);
+            if (sortValue === 'dpr-desc') return r(b, 'dpr') - r(a, 'dpr');
+            if (sortValue === 'ehp-desc') return r(b, 'ehp') - r(a, 'ehp');
+            if (sortValue === 'control-desc') return r(b, 'control') - r(a, 'control');
+            if (sortValue === 'support-desc') return r(b, 'support') - r(a, 'support');
+            if (sortValue === 'complexity-asc') return r(a, 'complexity') - r(b, 'complexity');
             if (sortValue === 'complexity-desc') return r(b, 'complexity') - r(a, 'complexity');
             return 0;
         });
@@ -277,11 +277,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const card = document.createElement('div');
             card.className = `build-card ${selectedBuild && selectedBuild.id === build.id ? 'active' : ''}`;
             card.setAttribute('data-id', build.id);
-            
+
             const is2024 = build.system.includes('2024');
             const systemClass = is2024 ? 'system-2024' : 'system-2014';
             const systemLabel = is2024 ? '5.5e (2024)' : '5e (2014)';
-            
+
             // Roles list tags
             const roles = build.role.split('/').map(r => r.trim());
             const rolesHTML = roles.map(r => `<span class="role-badge">${r}</span>`).join('');
@@ -302,7 +302,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     ${rolesHTML}
                 </div>
             `;
-            
+
             // Prevent card selection when clicking on the checkbox area
             const compareSelector = card.querySelector('.card-compare-selector');
             if (compareSelector) {
@@ -310,7 +310,7 @@ document.addEventListener('DOMContentLoaded', () => {
                     e.stopPropagation();
                 });
             }
-            
+
             // Add change handlers to checkboxes
             const checkbox = card.querySelector('.compare-checkbox');
             if (checkbox) {
@@ -333,16 +333,16 @@ document.addEventListener('DOMContentLoaded', () => {
             roleBadges.forEach(badge => {
                 badge.addEventListener('click', (e) => {
                     e.stopPropagation(); // Avoid selecting the card
-                    
+
                     const badgeText = badge.textContent.toLowerCase().trim();
                     let filterValue = 'all';
-                    
+
                     if (badgeText.includes('tank') || badgeText.includes('frontline')) filterValue = 'tank';
                     else if (badgeText.includes('blaster') || badgeText.includes('aoe')) filterValue = 'blaster';
                     else if (badgeText.includes('controller') || badgeText.includes('controlador')) filterValue = 'controller';
                     else if (badgeText.includes('striker') || badgeText.includes('dps') || badgeText.includes('melee')) filterValue = 'striker';
                     else if (badgeText.includes('healer') || badgeText.includes('support') || badgeText.includes('soporte') || badgeText.includes('sanador')) filterValue = 'healer';
-                    
+
                     filterRole.value = filterValue;
                     renderBuildsList();
                 });
@@ -373,7 +373,7 @@ document.addEventListener('DOMContentLoaded', () => {
             welcomeView.classList.remove('hidden');
             buildContentView.classList.add('hidden');
             document.body.classList.remove('has-build-selected');
-            
+
             // Hide compare-view
             const compareView = document.getElementById('compare-view');
             if (compareView) compareView.classList.add('hidden');
@@ -384,11 +384,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
             // Un-highlight all cards
             document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
-            
+
             // Reset to default theme
             applyDynamicTheme(null);
             if (btnShowRadarTable) btnShowRadarTable.classList.remove('active');
-            
+
             // Hide resource tracker
             const tracker = document.getElementById('resource-tracker');
             if (tracker) tracker.classList.add('hidden');
@@ -402,25 +402,25 @@ document.addEventListener('DOMContentLoaded', () => {
 
         if (view === 'radar-table') {
             document.body.classList.add('has-build-selected');
-            
+
             // Hide other views
             welcomeView.classList.add('hidden');
             buildContentView.classList.add('hidden');
             const compareView = document.getElementById('compare-view');
             if (compareView) compareView.classList.add('hidden');
-            
+
             // Show radar table view
             const radarTableView = document.getElementById('radar-table-view');
             if (radarTableView) radarTableView.classList.remove('hidden');
             if (btnShowRadarTable) btnShowRadarTable.classList.add('active');
-            
+
             // Un-highlight all cards
             document.querySelectorAll('.build-card').forEach(c => c.classList.remove('active'));
-            
+
             // Render the data
             renderRadarTableData();
             applyDynamicTheme(null);
-            
+
             // Close filters in mobile view
             if (filterGroup) filterGroup.classList.remove('active');
             if (btnToggleFilters) btnToggleFilters.classList.remove('active');
@@ -466,7 +466,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Populate headers
                 detailBuildName.textContent = build.name;
                 detailClasses.textContent = build.classes;
-                
+
                 const is2024 = build.system.includes('2024');
                 detailSystemBadge.className = `system-badge ${is2024 ? 'system-2024' : 'system-2014'}`;
                 detailSystemBadge.textContent = is2024 ? 'D&D 2024 (5.5e)' : 'D&D 5e (2014)';
@@ -525,7 +525,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!selectedBuild) return;
 
         markdownViewer.innerHTML = '<div class="skeleton-loader" style="height: 250px;"></div>';
-        
+
         const filePath = `${selectedBuild.folder}/${selectedFile}`;
 
         fetch(filePath)
@@ -546,7 +546,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
                 // 2. Extract math blocks to protect them from marked.js parsing
                 const mathBlocks = [];
-                
+
                 // Protect display math $$...$$
                 processedMarkdown = processedMarkdown.replace(/\$\$([\s\S]+?)\$\$/g, (match, math) => {
                     const id = `MATHDISPLAYPLACEHOLDER${mathBlocks.length}`;
@@ -571,7 +571,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
 
                 markdownViewer.innerHTML = `<div class="markdown-viewer-content">${htmlContent}</div>`;
-                
+
                 // Scroll details to top on file load
                 markdownViewer.scrollTop = 0;
                 buildContentView.classList.remove('hide-details-nav');
@@ -583,10 +583,10 @@ document.addEventListener('DOMContentLoaded', () => {
                 if (window.renderMathInElement) {
                     renderMathInElement(markdownViewer, {
                         delimiters: [
-                            {left: '$$', right: '$$', display: true},
-                            {left: '$', right: '$', display: false},
-                            {left: '\\(', right: '\\)', display: false},
-                            {left: '\\[', right: '\\]', display: true}
+                            { left: '$$', right: '$$', display: true },
+                            { left: '$', right: '$', display: false },
+                            { left: '\\(', right: '\\)', display: false },
+                            { left: '\\[', right: '\\]', display: true }
                         ],
                         throwOnError: false
                     });
@@ -670,18 +670,18 @@ document.addEventListener('DOMContentLoaded', () => {
     markdownViewer.addEventListener('click', (e) => {
         const anchor = e.target.closest('a');
         if (!anchor) return;
-        
+
         const href = anchor.getAttribute('href');
         if (!href) return;
-        
+
         // Decoded filename for matching
         const decodedHref = decodeURIComponent(href);
-        
+
         // Match relative links like ./roadmap.md or roadmap.md
         if (decodedHref.endsWith('.md') && (decodedHref.startsWith('./') || !decodedHref.includes('/'))) {
             e.preventDefault();
             const filename = decodedHref.replace('./', '');
-            
+
             if (ORDERED_FILES.includes(filename)) {
                 navigateTo(selectedBuild.id, filename);
             }
@@ -745,7 +745,7 @@ document.addEventListener('DOMContentLoaded', () => {
             lastScrollTop = scrollTop;
             return;
         }
-        
+
         // Don't trigger if scroll change is too small
         if (Math.abs(scrollTop - lastScrollTop) <= scrollThreshold) {
             return;
@@ -758,7 +758,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Scrolling up -> show header and tabs
             buildContentView.classList.remove('hide-details-nav');
         }
-        
+
         lastScrollTop = scrollTop;
     });
 
@@ -793,7 +793,7 @@ document.addEventListener('DOMContentLoaded', () => {
             paladin: 0, ranger: 0, rogue: 0, sorcerer: 0, warlock: 0, wizard: 0, artificer: 0
         };
         if (!classesStr) return result;
-        
+
         const parts = classesStr.split('/');
         parts.forEach(part => {
             const lowerPart = part.toLowerCase();
@@ -813,11 +813,11 @@ document.addEventListener('DOMContentLoaded', () => {
         const tracker = document.getElementById('resource-tracker');
         if (!tracker) return;
         if (!toggleTracker || !toggleTracker.checked) { tracker.classList.add('hidden'); return; }
-        
+
         // Use level-aware class split when available
         let levels;
         if (Object.keys(currentBuildLevelsMap).length > 0 && selectedLevel < 20) {
-            const base = { barbarian:0, bard:0, cleric:0, druid:0, fighter:0, monk:0, paladin:0, ranger:0, rogue:0, sorcerer:0, warlock:0, wizard:0, artificer:0 };
+            const base = { barbarian: 0, bard: 0, cleric: 0, druid: 0, fighter: 0, monk: 0, paladin: 0, ranger: 0, rogue: 0, sorcerer: 0, warlock: 0, wizard: 0, artificer: 0 };
             let t = selectedLevel;
             while (t > 0 && !currentBuildLevelsMap[t]) t--;
             levels = { ...base, ...(currentBuildLevelsMap[t] || {}) };
@@ -825,9 +825,9 @@ document.addEventListener('DOMContentLoaded', () => {
             levels = parseClasses(build.classes);
         }
         const casterLevel = levels.sorcerer + levels.cleric + levels.druid + levels.wizard + levels.bard + Math.floor(levels.paladin / 2) + Math.ceil(levels.artificer / 2);
-        
+
         let resources = [];
-        
+
         // 1. Barbarian Rages
         if (levels.barbarian > 0) {
             let ragesCount = 2;
@@ -837,7 +837,7 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (levels.barbarian > 16) ragesCount = 6;
             resources.push({ id: 'rage', label: 'Furias (Rage)', count: ragesCount });
         }
-        
+
         // 2. Bardic Inspiration (CHA mod uses, min 1; die scales with bard level)
         if (levels.bard > 0) {
             const biUses = Math.max(1, 5); // Assuming CHA 20 = mod 5
@@ -847,12 +847,12 @@ document.addEventListener('DOMContentLoaded', () => {
             else if (levels.bard >= 5) biDie = 'd8';
             resources.push({ id: 'inspiration', label: `Inspiración Bárdica (${biDie})`, count: biUses });
         }
-        
+
         // 3. Sorcery Points
         if (levels.sorcerer >= 2) {
             resources.push({ id: 'sorcery', label: 'Puntos de Sorcería', count: levels.sorcerer });
         }
-        
+
         // 4. Warlock Pact Slots
         if (levels.warlock > 0) {
             let warlockSlots = 2;
@@ -865,7 +865,7 @@ document.addEventListener('DOMContentLoaded', () => {
             else { warlockSlots = (levels.warlock >= 17) ? 4 : 3; warlockSlotLevel = 5; }
             resources.push({ id: 'pact', label: `Espacios de Pacto (Nv. ${warlockSlotLevel})`, count: warlockSlots });
         }
-        
+
         // 5. Wild Shape (Druid 2+)
         if (levels.druid >= 2) {
             const wsUses = (levels.druid >= 20) ? 999 : 2; // Unlimited at 20, else 2/short rest
@@ -910,14 +910,14 @@ document.addEventListener('DOMContentLoaded', () => {
                 resources.push({ id: `slot-${idx + 1}`, label: `Espacios Nivel ${idx + 1}`, count: count });
             });
         }
-        
+
         if (resources.length === 0) {
             tracker.classList.add('hidden');
             return;
         }
-        
+
         tracker.classList.remove('hidden');
-        
+
         let html = `
             <div class="tracker-header">
                 <h4>⚔️ Control de Recursos (Sesión Activa)</h4>
@@ -925,17 +925,17 @@ document.addEventListener('DOMContentLoaded', () => {
             </div>
             <div class="tracker-grid">
         `;
-        
+
         resources.forEach(res => {
             let bubblesHtml = '';
             const storageKey = `tracker-${build.id}-${res.id}`;
             const checkedCount = parseInt(sessionStorage.getItem(storageKey) || '0');
-            
+
             for (let i = 0; i < res.count; i++) {
                 const isChecked = i < checkedCount ? 'checked' : '';
                 bubblesHtml += `<div class="tracker-bubble ${isChecked}" data-index="${i}"></div>`;
             }
-            
+
             html += `
                 <div class="tracker-group" data-res-id="${res.id}">
                     <span class="group-label">${res.label}</span>
@@ -943,27 +943,27 @@ document.addEventListener('DOMContentLoaded', () => {
                 </div>
             `;
         });
-        
+
         html += `</div>`;
         tracker.innerHTML = html;
-        
+
         // Add click events to bubbles
         tracker.querySelectorAll('.tracker-group').forEach(group => {
             const resId = group.getAttribute('data-res-id');
             const bubbles = group.querySelectorAll('.tracker-bubble');
             const storageKey = `tracker-${build.id}-${resId}`;
-            
+
             bubbles.forEach((bubble, idx) => {
                 bubble.addEventListener('click', () => {
                     const currentChecked = parseInt(sessionStorage.getItem(storageKey) || '0');
                     let newChecked = idx + 1;
-                    
+
                     if (currentChecked === newChecked) {
                         newChecked = idx; // Uncheck one slot
                     }
-                    
+
                     sessionStorage.setItem(storageKey, newChecked);
-                    
+
                     bubbles.forEach((b, bIdx) => {
                         if (bIdx < newChecked) {
                             b.classList.add('checked');
@@ -974,7 +974,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             });
         });
-        
+
         // Reset button event
         document.getElementById('btn-reset-tracker').addEventListener('click', () => {
             resources.forEach(res => {
@@ -994,10 +994,10 @@ document.addEventListener('DOMContentLoaded', () => {
         const r = build.ratings;
         const MAX_RATING = 50;
         const axes = [
-            { key: 'dpr',        label: 'DPR',         val: r.dpr        || 0 },
-            { key: 'ehp',        label: 'EHP',         val: r.ehp        || 0 },
-            { key: 'control',    label: 'Control',     val: r.control    || 0 },
-            { key: 'support',    label: 'Soporte',     val: r.support    || 0 },
+            { key: 'dpr', label: 'DPR', val: r.dpr || 0 },
+            { key: 'ehp', label: 'EHP', val: r.ehp || 0 },
+            { key: 'control', label: 'Control', val: r.control || 0 },
+            { key: 'support', label: 'Soporte', val: r.support || 0 },
             { key: 'complexity', label: 'Complejidad', val: r.complexity || 0 }
         ];
         const n = axes.length;
@@ -1106,12 +1106,12 @@ document.addEventListener('DOMContentLoaded', () => {
         const map = {};
         const accum = {};
         const CLASS_MAP = {
-            barbarian:'barbarian', bard:'bard', cleric:'cleric', 'clérigo':'cleric',
-            druid:'druid', druida:'druid', fighter:'fighter', guerrero:'fighter',
-            monk:'monk', monje:'monk', paladin:'paladin', 'paladín':'paladin',
-            ranger:'ranger', explorador:'ranger', rogue:'rogue', 'pícaro':'rogue',
-            sorcerer:'sorcerer', hechicero:'sorcerer', warlock:'warlock', brujo:'warlock',
-            wizard:'wizard', mago:'wizard', artificer:'artificer', 'artífice':'artificer'
+            barbarian: 'barbarian', bard: 'bard', cleric: 'cleric', 'clérigo': 'cleric',
+            druid: 'druid', druida: 'druid', fighter: 'fighter', guerrero: 'fighter',
+            monk: 'monk', monje: 'monk', paladin: 'paladin', 'paladín': 'paladin',
+            ranger: 'ranger', explorador: 'ranger', rogue: 'rogue', 'pícaro': 'rogue',
+            sorcerer: 'sorcerer', hechicero: 'sorcerer', warlock: 'warlock', brujo: 'warlock',
+            wizard: 'wizard', mago: 'wizard', artificer: 'artificer', 'artífice': 'artificer'
         };
         md.split('\n').forEach(line => {
             const t = line.trim();
@@ -1138,7 +1138,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     // --- Lógica del Comparador Interactivo (Fase 3) ---
-    
+
     const compareBar = document.getElementById('compare-bar');
     const compareCount = document.getElementById('compare-count');
     const btnCompare = document.getElementById('btn-compare');
@@ -1177,12 +1177,12 @@ document.addEventListener('DOMContentLoaded', () => {
     function showCompareView() {
         welcomeView.classList.add('hidden');
         buildContentView.classList.add('hidden');
-        
+
         const compareView = document.getElementById('compare-view');
         if (compareView) {
             compareView.classList.remove('hidden');
         }
-        
+
         document.body.classList.add('has-build-selected');
         renderCompareData();
     }
@@ -1192,7 +1192,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (compareView) {
             compareView.classList.add('hidden');
         }
-        
+
         if (selectedBuild) {
             buildContentView.classList.remove('hidden');
         } else {
@@ -1209,7 +1209,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 el.classList.remove('highlighted');
             }
         });
-        
+
         document.querySelectorAll('.compare-polygon').forEach(poly => {
             if (poly.getAttribute('data-build-id') === buildId) {
                 poly.classList.remove('dimmed');
@@ -1219,7 +1219,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 poly.classList.add('dimmed');
             }
         });
-        
+
         document.querySelectorAll('.legend-item').forEach(item => {
             if (item.getAttribute('data-build-id') === buildId) {
                 item.classList.add('highlighted');
@@ -1244,22 +1244,28 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderCompareData() {
         const tableContainer = document.getElementById('compare-table-container');
         if (!tableContainer) return;
-        
+
         const builds = compareBuildIds.map(id => buildsData.find(b => b.id === id)).filter(Boolean);
-        
+
         if (builds.length === 0) {
             tableContainer.innerHTML = '<p class="no-results">No hay builds seleccionadas para comparar.</p>';
             return;
         }
-        
+
+        const getBuildAvg = (b) => {
+            const r = b.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 };
+            return parseFloat(((r.dpr + r.ehp + r.control + r.support + r.complexity) / 5).toFixed(1));
+        };
+
         const ratingsKeys = ['dpr', 'ehp', 'control', 'support', 'complexity'];
         const maxRatings = {};
         ratingsKeys.forEach(key => {
             maxRatings[key] = Math.max(...builds.map(b => (b.ratings && b.ratings[key]) || 0));
         });
-        
+        maxRatings['avg'] = Math.max(...builds.map(getBuildAvg));
+
         let html = `<table class="compare-table">`;
-        
+
         // Cabecera
         html += `<thead><tr><th>Característica</th>`;
         builds.forEach(build => {
@@ -1274,14 +1280,14 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         });
         html += `</tr></thead><tbody>`;
-        
+
         // Fila Clases
         html += `<tr><td>Clases</td>`;
         builds.forEach(build => {
             html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${build.classes}</td>`;
         });
         html += `</tr>`;
-        
+
         // Fila Reglamento
         html += `<tr><td>Reglamento</td>`;
         builds.forEach(build => {
@@ -1291,50 +1297,52 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `<td class="build-col-${build.id}" data-build-id="${build.id}"><span class="system-badge ${systemClass}">${systemLabel}</span></td>`;
         });
         html += `</tr>`;
-        
+
         // Fila Rol
         html += `<tr><td>Rol Principal</td>`;
         builds.forEach(build => {
             html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${build.role}</td>`;
         });
         html += `</tr>`;
-        
+
         // Filas Ratings
         const ratingLabels = {
             dpr: 'Daño (DPR)',
             ehp: 'Tanque (EHP)',
             control: 'Control',
             support: 'Soporte',
-            complexity: 'Mecánicas'
+            complexity: 'Mecánicas',
+            avg: '📊 Media Total'
         };
-        
+
         Object.keys(ratingLabels).forEach(key => {
-            html += `<tr><td>${ratingLabels[key]}</td>`;
+            const isAvg = key === 'avg';
+            html += `<tr class="${isAvg ? 'font-bold' : ''}"><td>${ratingLabels[key]}</td>`;
             builds.forEach(build => {
-                const val = (build.ratings && build.ratings[key]) || 0;
+                const val = isAvg ? getBuildAvg(build) : ((build.ratings && build.ratings[key]) || 0);
                 let cellContent = `${val}/50`;
-                
+
                 if (val === maxRatings[key] && val > 0) {
                     cellContent = `<span class="stat-winner">${val}/50</span>`;
                 }
-                
+
                 html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${cellContent}</td>`;
             });
             html += `</tr>`;
         });
-        
+
         html += `</tbody></table>`;
         tableContainer.innerHTML = html;
-        
+
         // Eliminar columnas
         tableContainer.querySelectorAll('.btn-remove-col').forEach(btn => {
             btn.addEventListener('click', (e) => {
                 const id = btn.getAttribute('data-id');
                 const chk = document.getElementById(`chk-${id}`);
                 if (chk) chk.checked = false;
-                
+
                 toggleBuildCompare(id, false);
-                
+
                 if (compareBuildIds.length < 2) {
                     closeCompareView();
                     renderBuildsList();
@@ -1343,7 +1351,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 }
             });
         });
-        
+
         // Hovers interactivos
         builds.forEach(build => {
             const cols = tableContainer.querySelectorAll(`.build-col-${build.id}`);
@@ -1356,7 +1364,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 });
             });
         });
-        
+
         renderCompareRadar(builds);
         renderCompareLegend(builds);
     }
@@ -1364,12 +1372,12 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderCompareRadar(builds) {
         const container = document.getElementById('compare-radar-chart');
         if (!container) return;
-        
+
         const axes = [
-            { key: 'dpr',        label: 'DPR' },
-            { key: 'ehp',        label: 'EHP' },
-            { key: 'control',    label: 'Control' },
-            { key: 'support',    label: 'Soporte' },
+            { key: 'dpr', label: 'DPR' },
+            { key: 'ehp', label: 'EHP' },
+            { key: 'control', label: 'Control' },
+            { key: 'support', label: 'Soporte' },
             { key: 'complexity', label: 'Complejidad' }
         ];
         const n = axes.length;
@@ -1405,21 +1413,21 @@ document.addEventListener('DOMContentLoaded', () => {
         // Data Polygons
         let polygonsSvg = '';
         let dotsSvg = '';
-        
+
         builds.forEach(build => {
             const r = build.ratings || {};
             const colors = getColorsForClasses(build.classes) || { primary: '#6366f1' };
             const dataPts = [];
-            
+
             for (let i = 0; i < n; i++) {
                 const key = axes[i].key;
                 const val = r[key] || 0;
                 const p = polar(i, val / MAX_RATING);
                 dataPts.push(`${p.x},${p.y}`);
-                
+
                 dotsSvg += `<circle cx="${p.x}" cy="${p.y}" r="3.5" fill="${colors.primary}" class="compare-polygon" data-build-id="${build.id}" style="pointer-events: none;"/>`;
             }
-            
+
             polygonsSvg += `
                 <polygon points="${dataPts.join(' ')}" 
                          fill="${colors.primary}" 
@@ -1454,7 +1462,7 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderCompareLegend(builds) {
         const legendContainer = document.getElementById('compare-legend');
         if (!legendContainer) return;
-        
+
         let html = '';
         builds.forEach(build => {
             const colors = getColorsForClasses(build.classes) || { primary: '#6366f1' };
@@ -1466,7 +1474,7 @@ document.addEventListener('DOMContentLoaded', () => {
             `;
         });
         legendContainer.innerHTML = html;
-        
+
         legendContainer.querySelectorAll('.legend-item').forEach(item => {
             const buildId = item.getAttribute('data-build-id');
             item.addEventListener('mouseenter', () => {
@@ -1487,7 +1495,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (radarTableView) {
             radarTableView.classList.add('hidden');
         }
-        
+
         if (selectedBuild) {
             buildContentView.classList.remove('hidden');
             location.hash = `#build=${selectedBuild.id}&file=${encodeURIComponent(selectedFile)}`;
@@ -1501,10 +1509,10 @@ document.addEventListener('DOMContentLoaded', () => {
     function renderRadarTableData() {
         const container = document.getElementById('radar-table-container-div');
         if (!container) return;
-        
+
         const sortedBuilds = [...buildsData].sort((a, b) => {
             let valA, valB;
-            
+
             if (radarTableSortKey === 'name') {
                 valA = a.name.toLowerCase();
                 valB = b.name.toLowerCase();
@@ -1517,11 +1525,16 @@ document.addEventListener('DOMContentLoaded', () => {
             } else if (radarTableSortKey === 'role') {
                 valA = a.role.toLowerCase();
                 valB = b.role.toLowerCase();
+            } else if (radarTableSortKey === 'avg') {
+                const rA = a.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 };
+                const rB = b.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 };
+                valA = (rA.dpr + rA.ehp + rA.control + rA.support + rA.complexity) / 5;
+                valB = (rB.dpr + rB.ehp + rB.control + rB.support + rB.complexity) / 5;
             } else {
                 valA = (a.ratings && a.ratings[radarTableSortKey]) || 0;
                 valB = (b.ratings && b.ratings[radarTableSortKey]) || 0;
             }
-            
+
             if (valA < valB) return radarTableSortDir === 'asc' ? -1 : 1;
             if (valA > valB) return radarTableSortDir === 'asc' ? 1 : -1;
             return 0;
@@ -1547,6 +1560,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <th data-sort="control" class="${radarTableSortKey === 'control' ? 'sorted text-center' : 'text-center'}"><div class="th-content">🌪️ Control${getSortIndicator('control')}</div></th>
                         <th data-sort="support" class="${radarTableSortKey === 'support' ? 'sorted text-center' : 'text-center'}"><div class="th-content">💖 Soporte${getSortIndicator('support')}</div></th>
                         <th data-sort="complexity" class="${radarTableSortKey === 'complexity' ? 'sorted text-center' : 'text-center'}"><div class="th-content">🧠 Mecánicas${getSortIndicator('complexity')}</div></th>
+                        <th data-sort="avg" class="${radarTableSortKey === 'avg' ? 'sorted text-center' : 'text-center'}"><div class="th-content">📊 Media${getSortIndicator('avg')}</div></th>
                     </tr>
                 </thead>
                 <tbody>
@@ -1557,9 +1571,11 @@ document.addEventListener('DOMContentLoaded', () => {
             const is2024 = build.system.includes('2024');
             const systemClass = is2024 ? 'system-2024' : 'system-2014';
             const systemLabel = is2024 ? '2024 (5.5e)' : '2014 (5e)';
-            
+
             const ratings = build.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 };
-            
+            const avgVal = (ratings.dpr + ratings.ehp + ratings.control + ratings.support + ratings.complexity) / 5;
+            const avgStr = avgVal.toFixed(1);
+
             html += `
                 <tr class="radar-table-row" data-id="${build.id}">
                     <td class="build-name-cell font-heading font-bold" style="color: ${colors.primary};">
@@ -1618,6 +1634,16 @@ document.addEventListener('DOMContentLoaded', () => {
                             </div>
                         </div>
                     </td>
+
+                    <!-- Media -->
+                    <td>
+                        <div class="rating-cell">
+                            <span class="rating-val" style="color: #a78bfa; font-weight: 800;">${avgStr}</span>
+                            <div class="rating-bar-bg">
+                                <div class="rating-bar-fill avg-color" style="width: ${(avgVal / 50) * 100}%"></div>
+                            </div>
+                        </div>
+                    </td>
                 </tr>
             `;
         });
@@ -1626,7 +1652,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 </tbody>
             </table>
         `;
-        
+
         container.innerHTML = html;
 
         // Add event listeners for sorting by clicking on headers
@@ -1746,16 +1772,16 @@ document.addEventListener('DOMContentLoaded', () => {
     // 3. Alternar colapso de barra lateral (Sidebar)
     function toggleSidebarCollapsed(collapsed) {
         if (!buildsSidebar) return;
-        
+
         if (collapsed) {
             buildsSidebar.classList.add('collapsed');
         } else {
             buildsSidebar.classList.remove('collapsed');
         }
-        
+
         // Sincronizar checkbox si existe
         if (settingToggleSidebar) settingToggleSidebar.checked = collapsed;
-        
+
         localStorage.setItem('sidebar-collapsed', collapsed);
     }
 
@@ -1776,7 +1802,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // 4. Alternar colapso de cabecera (Header / Modo Enfoque)
     function toggleHeaderCollapsed(collapsed) {
         if (!appHeader) return;
-        
+
         if (collapsed) {
             appHeader.classList.add('collapsed');
             if (btnRestoreHeader) btnRestoreHeader.classList.remove('hidden');
@@ -1784,10 +1810,10 @@ document.addEventListener('DOMContentLoaded', () => {
             appHeader.classList.remove('collapsed');
             if (btnRestoreHeader) btnRestoreHeader.classList.add('hidden');
         }
-        
+
         // Sincronizar checkbox si existe
         if (settingToggleHeader) settingToggleHeader.checked = collapsed;
-        
+
         localStorage.setItem('header-collapsed', collapsed);
     }
 
@@ -1829,7 +1855,7 @@ document.addEventListener('DOMContentLoaded', () => {
             sidebarResizer.classList.remove('active');
             document.body.style.cursor = '';
             document.body.style.userSelect = '';
-            
+
             if (buildsSidebar && buildsSidebar.style.width) {
                 const width = parseInt(buildsSidebar.style.width);
                 localStorage.setItem('sidebar-width', width);

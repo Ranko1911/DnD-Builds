@@ -2203,6 +2203,11 @@ body {
     box-shadow: 0 0 8px rgba(234, 179, 8, 0.35);
 }
 
+.avg-color {
+    background: linear-gradient(90deg, #8b5cf6, #a78bfa);
+    box-shadow: 0 0 8px rgba(139, 92, 246, 0.35);
+}
+
 .sort-indicator {
     font-size: 0.7rem;
     margin-left: 0.35rem;
