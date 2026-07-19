@@ -41,11 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
         'bard': { primary: '#ec4899', secondary: '#a855f7' },      // Pink/Purple
         'cleric': { primary: '#eab308', secondary: '#ca8a04' },    // Golds
         'druid': { primary: '#10b981', secondary: '#047857' },     // Greens
-        'fighter': { primary: '#64748b', secondary: '#475569' },   // Steels
+        'fighter': { primary: '#94a3b8', secondary: '#64748b' },   // Radiant Steel Silver
         'monk': { primary: '#06b6d4', secondary: '#0891b2' },      // Cyans
         'paladin': { primary: '#f59e0b', secondary: '#d97706' },    // Ambers
         'ranger': { primary: '#84cc16', secondary: '#65a30d' },     // Lime/Olive
-        'rogue': { primary: '#334155', secondary: '#0f172a' },      // Dark Slate
+        'rogue': { primary: '#818cf8', secondary: '#4f46e5' },      // Shadow Indigo
         'sorcerer': { primary: '#ec4899', secondary: '#db2777' },   // Deep Pink
         'warlock': { primary: '#8b5cf6', secondary: '#6d28d9' },    // Violet/Purple
         'wizard': { primary: '#3b82f6', secondary: '#1d4ed8' },     // Blues
