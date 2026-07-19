@@ -3,10 +3,10 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Túnica con infusión (Mind Sharpener) (1 slot), Cloak of Protection (1 slot). (Total: 2).
+*   **Tier 1 (Niveles 1-4):** Túnica infundida (Mind Sharpener) (1 slot), Cloak of Protection (1 slot). (Total: 2).
 *   **Tier 2 (Niveles 5-10):** Mind Sharpener (1 slot), Ring of Protection (1 slot), Winged Boots (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Robe of the Archmage (1 slot), Cloak of Displacement (1 slot), Amulet of Health (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Robe of the Archmage (1 slot), Tome of Clear Thought (1 slot), Ring of Spell Turning (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot, reemplaza Capa), Amulet of Health (1 slot), Mind Sharpener (1 slot). (Total: 3).
+*   **Tier 4 (Niveles 17-20):** Ascendant Dragon's Wrath Rapier (1 slot), Robe of the Archmagi (1 slot), Staff of the Magi (1 slot). (Total: 3).
 
 ---
 
@@ -14,8 +14,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Cloak of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. |
-| **Mind Sharpener Robe** | Sí | [⚔️ Sí] | **Priorizar 2:** Infusión de artífice que permite forzar un éxito en concentración fallida 4 veces al día. |
+| **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 1:** +1 a la CA y a todas las tiradas de salvación. |
+| **Mind Sharpener Robe** | Sí | ⚔️ **Sí** | **Priorizar 2:** Infusión de Artífice. Éxito automático en concentración fallida 4/día. |
+| **Rapier +1** | No | — | Prioridad Alta: +1 al ataque y al daño cuerpo a cuerpo sin consumir sintonización. |
 
 ---
 
@@ -23,9 +24,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones adicionales. |
-| **Winged Boots** | Sí | [⚔️ Sí] | **Priorizar 2:** Otorga velocidad de vuelo igual a tu velocidad de caminar por hasta 4 horas al día, combinando con tu dote *Mobile*. |
-| **Cloak of Displacement** | Sí | [—] | Prioridad Alta. Impone desventaja a todos los ataques dirigidos a ti. |
+| **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 1:** +1 a la CA y salvaciones (acumula con la capa para un +2 total). |
+| **Winged Boots** | Sí | ⚔️ **Sí** | **Priorizar 2:** Velocidad de vuelo por hasta 4 horas al día, combinando con tu dote *Mobile*. |
+| **Rapier +2** | No | — | Prioridad Alta: +2 al ataque y daño cuerpo a cuerpo. |
 
 ---
 
@@ -33,8 +34,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Robe of the Archmage** | Sí | [⚔️ Sí] | **Priorizar 1:** Eleva la CA base a 15 + DES, otorga ventaja en salvaciones contra conjuros y aumenta tu CD y tiradas de ataque mágico en +2. |
-| **Amulet of Health** | Sí | [⚔️ Sí] | **Priorizar 2:** Establece tu Constitución en 19, aumentando tu HP máximo y tus salvaciones de concentración. |
+| **Cloak of Displacement** | Sí | ⚔️ **Sí** | **Priorizar 1:** Desventaja a todos los ataques enemigos dirigidos a ti. Reemplaza la Cloak of Protection. |
+| **Amulet of Health** | Sí | ⚔️ **Sí** | **Priorizar 2:** Fija tu Constitución en 19 (Mod +4), aumentando tus HP y salvaciones de concentración. |
+| **Rapier +3** | No | — | Prioridad Alta: +3 al ataque y daño cuerpo a cuerpo sin consumir sintonización. |
 
 ---
 
@@ -42,10 +44,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ascendant Dragon's Wrath Rapier** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por golpe, Aliento 12d6 y Ráfaga Crítica. Eleva el DPR a **98/100**. |
-| **Robe of the Archmagi** | Sí | [⚔️ Sí] | **Priorizar 2 (META):** CA base 15+DES, ventaja en salvaciones contra conjuros y +2 a CD de conjuros. |
-| **Staff of the Magi** | Sí | [⚔️ Sí] | **Priorizar 3 (META):** +2 a CD de conjuros, absorción de conjuros enemigos y 50 cargas. |
-| **Tome of Clear Thought** | No | [—] | Prioridad Alta: +2 permanente a Inteligencia. |
+| **Ascendant Dragon's Wrath Rapier (Fuego/Radiante)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por golpe, Aliento 12d6 y Ráfaga Crítica. Eleva el DPR a **98/100**. |
+| **Robe of the Archmagi** | Sí | ⚔️ **Sí** | **Priorizar 2 (META):** CA base 15+DES (CA 20 base), ventaja en salvaciones contra conjuros y +2 a CD de conjuros. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 3 (META):** +2 a CD de conjuros, absorción de conjuros enemigos y 50 cargas de nivel alto. |
+| **Tome of Clear Thought** | No | Consumido | Prioridad Alta: +2 permanente a Inteligencia (superando el límite de 20 a 22). |
 
 ---
 
@@ -53,5 +55,6 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Rapier +3** | Raro | **Prioridad 1:** Incremento mágico de ataque e impacto cuerpo a cuerpo. |
+| **Rapier +3** | Muy Raro | **Prioridad 1:** Incremento mágico +3 de ataque e impacto cuerpo a cuerpo. |
+| **Tome of Clear Thought** | Muy Raro | **Prioridad 1:** +2 permanente a la Inteligencia (superando 20). |
 | **Enduring Spellbook** | Poco Común | **Prioridad Media:** Evita que tu libro de conjuros sea dañado por agua, fuego o tiempo. |
