@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Santuario Sagrado (Sanctuary) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Commune / Pray (Comulgar y obtener bendiciones sagradas).
-  * *Sinergia con el Build:* Proporciona un sitio de descanso espiritual y curación para mantener el Aura de Protección activa.
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
 * **Armería Gremial (Armory) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Equip / Inspect (Mantener el equipo de defensa de la fortaleza).
-  * *Sinergia con el Build:* Suministra espadas y armaduras reforzadas para los defensores del bastión.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Forja de Armaduras Doradas.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Equipamiento y mantenimiento de placas de oro, espadones flamígeros y escudos para los paladines de la flama.
+* **Santuario Sagrado (Sanctuary) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Altar de la Flama Sagrada.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sitio de comunión sagrada que recarga Puntos de Lay on Hands y otorga bendiciones de Aura de Protección.
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Transcripción de Pergaminos Flamígeros.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Copiado de pergaminos sagrados y dracónicos (*Shield*, *Haste*, *Divine Smite*) a coste reducido.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Combate a Caballo / Montura Dracónica.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento en tácticas de carga sagrada y ataques con *Divine Smite* en primera línea.
+* **Relicario Dracónico (Reliquary) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Custodia de Reliquias de Oro.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Preservación de reliquias dracónicas y artefactos sagrados que potencian el Carisma y poder de conjuración.
+* **Sala de Guerra / Sagrario de la Flama (War Room) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Comando de la Cruzada de Fuego.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dirección táctica de la orden de caballeros que otorga ventaja en tiradas defensivas e iniciativas coordinadas.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

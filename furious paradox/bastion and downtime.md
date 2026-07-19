@@ -15,14 +15,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-- **Laboratorio de Mago (Nivel 5):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Research / Crafting (Identificación de objetos mágicos y copia de conjuros).
-  - _Sinergia con el Build:_ Representa tu faceta de Mago. Permite copiar conjuros en tu libro a coste reducido.
-- **Menagerie / Zoológico de Bestias (Nivel 9):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Harvest / Train (Entrenamiento de criaturas y recolección de materiales orgánicos para alquimia).
-  - _Sinergia con el Build:_ Representa tu conexión salvaje y de Bárbaro. Proporciona componentes e ingredientes de monstruos para tus pociones.
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
+* **Laboratorio Arcano (Laboratory) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Alquimia Expansiva.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Preparación de elixires de resistencia y pociones de combate para potenciar la furia.
+* **Estudio Arcano (Arcane Study) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Transcripción de Conjuros Sin Concentración.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite copiar conjuros arcanos en el libro que se activan antes de la Furia (*Fire Shield*, *Mirror Image*, *Longstrider*).
+* **Casa de Fieras (Menagerie) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Crianza y Extracción de Ingredientes Salvajes.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Proporciona componentes orgánicos de bestias para rituales arcanos y elixires de furia.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Danza de la Furia.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Práctica combinada de la danza de hojas (*Bladesong*) y la furia destructiva de Bárbaro.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Equilibrio Mente-Furia.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga ventaja en salvaciones de Inteligencia y Constitución, manteniendo el foco analítico en combate.
+* **Demiplano de la Paradoja (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Dominio Extrapolar.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga 100 PG temporales tras un descanso largo y refugio seguro fuera de las leyes de la física.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

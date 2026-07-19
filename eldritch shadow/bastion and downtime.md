@@ -21,26 +21,31 @@
 
 *Desbloqueadas por nivel. Máximo de instalaciones especiales = Bastion Level / 5 (redondeado arriba). Indicar si están activas (Maintain), construyéndose (Build) o paradas (Paused).*
 
-* **Scriptorium (Nivel 5):**
-  * *Estado:* Activa
-  * *Orden de Bastión Especial:* Copiar conjuros — el personaje puede investigar y transcribir nuevos conjuros EK durante el tiempo muerto (Shadow Blade, Counterspell, etc.).
-  * *Sinergia con el Build:* Permite ampliar la lista de conjuros conocidos más rápido y a menor coste que los precios estándar.
-* **Armería (Nivel 9):**
-  * *Estado:* Activa
-  * *Orden de Bastión Especial:* Crafting de equipo mundano y mejora de armas. Mantenimiento y actualización de armaduras ligeras, componentes para conjuros.
-  * *Sinergia con el Build:* Fabricación de Studded Leather mejorado y componentes físicos para rituales arcanos (cristales de foco, herrajes de concentración).
-* **Santuario de las Sombras \[Arcane Study\] (Nivel 13):**
-  * *Estado:* En Construcción (3 turnos restantes)
-  * *Orden de Bastión Especial:* Ritual de 1 semana para preparar un espacio de Penumbra permanente (oscuridad mágica tenue, activa el bonus de Shadow Blade permanentemente dentro del bastión).
-  * *Sinergia con el Build:* El personaje puede practicar y entrenar dentro del bastión con la ventaja de Shadow Blade siempre activa.
-* **Sala de Entrenamiento \[Training Room\] (Nivel 13):**
-  * *Estado:* Activa
-  * *Orden de Bastión Especial:* Train — permite entrenar a los defensores del bastión y al personaje en técnicas de combate; reduce a 5 días las semanas de Downtime para aprender habilidades de combate nuevas.
-  * *Sinergia con el Build:* Entrenamiento de Herramientas de Ladrón e infiltración. Los guardias del bastión ganan +1 a tiradas de ataque tras 4 semanas de entrenamiento intensivo.
-* **Biblioteca Arcana \[Library\] (Nivel 17):**
-  * *Estado:* Planificada (requiere BP 100 acumulados para construir)
-  * *Orden de Bastión Especial:* Research — permite investigar objetos mágicos y conjuros raros sin necesidad de acceder a una ciudad. Reduce el coste de identificar objetos y encontrar fórmulas de encantamiento.
-  * *Sinergia con el Build:* Investigación de Shadow Blade (slot nivel 4, escala a 5d8) y de formas de obtener el homebrew Shadow Weave Bracers.
+* **Estudio Arcano (Arcane Study) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Transcripción y Análisis Arcano.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite fabricar y copiar pergaminos arcanos clave (*Shield*, *Shadow Blade*, *Absorb Elements*) a coste y tiempo reducidos.
+* **Armería (Armory) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Fabricación y Mejora Táctica.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Fabricación de cuero tachonado mejorado, dagas finas y mantenimiento de equipo de infiltración.
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Copiado de Registros e Infiltración.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Duplica la velocidad de transcripción de tomos arcanos y mapas tácticos de misiones.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Instrucción de Combate y Sigilo.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento intensivo en maniobras de Eldritch Knight y técnicas de sigilo de Arcane Trickster.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Enfoque Sombrío.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Otorga ventaja en salvaciones de Inteligencia y Sabiduría para resistir encantos y mantener la concentración.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Refugio Extrapolar de Sombras.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dominio privado en el Plano de la Sombra que otorga 100 PG temporales tras un descanso largo y refugio inexpugnable.
+
 
 ### Seguidores y Personal (Staff & Hirelings)
 

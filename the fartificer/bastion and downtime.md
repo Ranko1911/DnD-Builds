@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
 * **Taller del Inventor (Workshop) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Crafting (Fabricar municiones especiales, trampas o artilugios).
-  * *Sinergia con el Build:* Proporciona un sitio óptimo para que el Fartificer repare y mejore su equipamiento técnico.
-* **Forja de Armas (Forge) (Nivel 9):**
-  * *Estado:* En Construcción (2 turnos restantes)
-  * *Orden de Bastión Especial:* Craft Magic Item (Crear armaduras o armas mágicas básicas).
-  * *Sinergia con el Build:* Facilita la creación de armaduras de placas reforzadas y escudos de alta resistencia.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Fabricación de Bombas y Trampas.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Fabricación de municiones de gas, bombas de humo y dispositivos mecánicos especiales para el Artificiero.
+* **Forja / Herrería (Smithy) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Refuerzo de Armaduras Mecánicas.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Creación y optimización de la armadura pesada de placas (*Armorer Plate*) y escudos de alta resistencia.
+* **Laboratorio Alquímico (Laboratory) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Destilación de Compuestos Volátiles.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Preparación de reactivos químicos y elixires para infusiones de combate.
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Esquemas Técnicos e Infusiones.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Transcripción acelerada de planos arcanos y pergaminos de infusión para el Artificiero.
+* **Relicario Tecnológico (Reliquary) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Preservación de Núcleos Arcanos.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Conservación de artefactos y prototipos de alto nivel que amplifican la efectividad del equipo.
+* **Demiplano de Experimentación (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Campo de Pruebas Extrapolar.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dimensión de pruebas libre de riesgos que otorga 100 PG temporales tras descansar y prototipos ilimitados.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

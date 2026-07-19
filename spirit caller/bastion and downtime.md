@@ -23,20 +23,29 @@
 
 * **Cementerio / Mausoleo (Cemetery / Mausoleum) (Nivel 5):**
   * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Cosechar Restos Huesudos y Alzar Esqueletos.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sirve para almacenar y organizar a tus siervos no muertos (esqueletos de Necromancer) fuera de la campaña activa y regenerar energía necrótica.
+  * *Orden de Bastión Especial:* Cosecha de Restos y Almacén de Huesos.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite resguardar y organizar al ejército de esqueletos del Nigromante fuera de campaña y regenerar energía necrótica.
 * **Estudio Arcano (Arcane Study) (Nivel 5):**
   * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiar Conjuros de Necromancia.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite copiar conjuros arcanos en el libro de hechizos con descuentos del 50% en oro y tiempo arcanos.
-* **Laboratorio (Laboratory) (Nivel 5) [OBTENER - Nivel 9+]:**
-  * *Estado:* Inactiva / Planificada
-  * *Orden de Bastión Especial:* Destilación Alquímica de Líquidos de Preservación.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Para elaborar ungüentos de embalsamamiento y elixires de reanimación orgánica.
-* **Scriptorium (Nivel 9) [OBTENER - Nivel 13+]:**
-  * *Estado:* Inactiva / Planificada
+  * *Orden de Bastión Especial:* Transcripción de Nigromancia.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Permite copiar conjuros arcanos de Nigromancia (*Animate Dead*, *Summon Undead*, *Shield*) con un 50% de descuento en oro y tiempo.
+* **Laboratorio Alquímico (Laboratory) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Destilación de Preservantes y Bálsamos.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Elaboración de unguentos de embalsamamiento y elixires para reforzar la resistencia de los no muertos.
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
   * *Orden de Bastión Especial:* Copiado Masivo de Pergaminos.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite transcribir pergaminos de *Animate Dead* y conjuros de defensa a gran velocidad.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Duplica la velocidad de transcripción de pergaminos defensivos y conjuros de alzamiento.
+* **Círculo de Teletransporte / Cripta (Teleportation Circle) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Despliegue Rápido de Tropas No Muertas.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite movilizar huestes de esqueletos de forma instantánea a cualquier punto del mapa sin levantar sospechas en ciudades.
+* **Demiplano Necrótico (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Depósito Extrapolar Prohibido.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dimensión privada para resguardar ejércitos masivos de no muertos y ganar 100 PG temporales tras un descanso largo.
+
 
 ### Seguidores y Personal (Staff & Hirelings)
 

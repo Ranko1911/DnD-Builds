@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Teatro / Salón de Recitales (Theater) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Perform / Carouse (Ganar prestigio social e influencia).
-  * *Sinergia con el Build:* Incrementa enormemente la red de contactos sociales de alta alcurnia del bardo.
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
 * **Armería Militar (Armory) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Equip / Inspect (Mantener tropas equipadas).
-  * *Sinergia con el Build:* Permite equipar a los defensores del bastión con estoques y escudos de excelente calidad.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Equipamiento y Mantenimiento de Élite.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Mantiene estoques, escudos (+2 CA) y armaduras en perfecto estado para el bardo guerrero.
+* **Teatro / Salón de Recitales (Theater) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Actuación e Inspiración.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Incrementa la reputación social y otorga bonificadores a la Inspiración Bárdica y perspicacia social.
+* **Salón de Juegos / Taberna (Gaming Hall) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Contactos de Alta Sociedad y Apuestas.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Genera ingresos sustanciales y permite entablar relaciones con nobles y patronos de la ciudad.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Floreos de Espada (*Blade Flourishes*).
+  * *Sinergia con el Build:* 🟢 **Excelente**. Instrucción en esgrima de vanguardia y maniobras del *College of Swords*.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Enfoque Armónico.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Otorga ventaja en tiradas de salvación de Carisma y Constitución para sostener conjuros de control en combate.
+* **Gremio de Artistas y Espadachines (Guildhall) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Sindicato de Duelistas.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Red de contactos políticos e influencias nobles a escala internacional con apoyo logístico militar.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

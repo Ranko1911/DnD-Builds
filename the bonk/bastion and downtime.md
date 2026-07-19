@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
 * **Arena de Entrenamiento (Training Area) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Training (Entrenar reclutas o perfeccionar dotes).
-  * *Sinergia con el Build:* Proporciona un sitio de práctica física para perfeccionar el agarre y las maniobras desarmadas del build.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Práctica de Agarre y Sumisión.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sitio de acondicionamiento físico extremo para perfeccionar llaves de sumisión (*Grapple*) y llaves de derribo.
+* **Armería (Armory) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Mantenimiento de Escudos y Garrotes.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Inspección y refuerzo de escudos, garrotes y arneses pesados para combate cercano.
 * **Santuario Meditativo (Sanctuary) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Meditate / Empower (Obtener ventajas espirituales).
-  * *Sinergia con el Build:* Ayuda a recuperar la paz espiritual y Ki después de prolongados accesos de Furia salvaje.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Armonía de Ki y Furia.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Comunión espiritual que permite restaurar Puntos de Ki y enfocar la Furia salvaje del personaje.
+* **Salón de Juegos / Taberna (Gaming Hall) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Combates de Foso (*Pit Fighting*).
+  * *Sinergia con el Build:* 🟢 **Excelente**. Generación de oro rápido mediante combates de foso no letales explotando la inmensa Fuerza y resistencia de Tortle.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Acondicionamiento Mental Supremo.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga ventaja en salvaciones de Sabiduría y Constitución, impidiendo que rompan su concentración o agarre.
+* **Gremio de Guerreros (Guildhall) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Bastión de Vanguardia Pesada.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Red de luchadores de elite y campeones de lucha que apoyan la defensa del bastión con guardia pesada.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

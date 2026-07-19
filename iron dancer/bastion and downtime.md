@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
+* **Estudio Arcano (Arcane Study) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Investigación de la Danza Arcana.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite fabricar pergaminos arcanos de defensa (*Shield*, *Absorb Elements*, *Counterspell*) a coste reducido.
 * **Laboratorio de Alquimia (Laboratory) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Research / Craft (Investigar y crear reactivos).
-  * *Sinergia con el Build:* Facilita la creación de pergaminos y reactivos para escribir nuevos conjuros.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Destilación de Elixires de Velocidad.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Creación acelerada de pociones de velocidad y reactivos para potenciar la agilidad de *Bladesong*.
 * **Gran Biblioteca (Library) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Copy Spell / Study (Transcribir conjuros).
-  * *Sinergia con el Build:* Reduce a la mitad el coste en monedas de oro y el tiempo necesario para copiar conjuros de Mago en su libro personal.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Copiado e Investigación Arcana.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Reduces a la mitad el coste en oro y tiempo necesario para copiar conjuros de Mago en el libro personal.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Esgrima Acrobática.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento intensivo con estoques y maniobras evasivas que optimizan el rendimiento de combate.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Concentración Perfecta.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Garantiza ventaja en salvaciones de Inteligencia y Constitución para mantener conjuros en primera línea.
+* **Demiplano (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Bastión de Cristal Extrapolar.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga 100 PG temporales tras descansar y laboratorio de alta magia completamente inexpugnable.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

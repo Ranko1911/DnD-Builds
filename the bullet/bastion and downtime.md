@@ -19,22 +19,31 @@
 
 *Desbloqueadas por nivel. Máximo de instalaciones especiales = Bastion Level / 5 (redondeado arriba). Indicar si están activas (Maintain), construyéndose (Build) o paradas (Paused).*
 
+* **Taller del Inventor (Workshop) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Invención de Mecanismos Aceleradores.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Fabricación de aparatos de velocidad, infusiones de Artificiero y dispositivos aerodinámicos.
 * **Laboratorio de Alquimia (Laboratory) (Nivel 5):**
-  * *Estado:* Activa.
-  * *Orden de Bastión Especial:* Crafting (Creación de Pociones de Velocidad y Elixires Experimentales).
-  * *Sinergia con el Build:* Facilita la fabricación masiva de *Potion of Speed* a coste reducido. Con Magic Item Adept (Artif. 10) el coste se reduce a la mitad.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Destilación de Pociones de Velocidad.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Producción masiva de *Potion of Speed* y elixires de *Swiftness* a mitad de tiempo y coste.
 * **Invernadero (Greenhouse) (Nivel 5):**
-  * *Estado:* Activa.
-  * *Orden de Bastión Especial:* Harvest (Cosecha de hierbas e ingredientes raros).
-  * *Sinergia con el Build:* Proporciona los materiales para los elixires de *Swiftness* de forma gratuita. Reducción del coste de materiales del Laboratorio en ≈70%.
-* **Taller de Glifos \[Scriptorium / Reliquary\] (Nivel 9):**
-  * *Estado:* Activa.
-  * *Orden de Bastión Especial:* Craft (Copia e inscripción de Glifos de Guardiaán en el Libro de Glifos). El escriba residente reduce el tiempo de inscripción un 20%.
-  * *Sinergia con el Build:* La estrategia central del build depende de tener el Libro lleno de glifos de *Haste* y *Dissonant Whispers*. Esta instalación es el corazón de la logística ofensiva.
-* **Sala de Entrenamiento \[Training Room\] (Nivel 13):**
-  * *Estado:* Activa.
-  * *Orden de Bastión Especial:* Train — el personaje puede entrenar habilidades no combatívas (Herramientas de Matemáticas, navegación, etc.) a ritmo acelerado. Los guardias del bastión ganan +1 a Iniciativa y velocidad de movimiento +5 ft. tras 4 semanas.
-  * *Sinergia con el Build:* Optimización de rutas de sprint y entrenamiento físico para mantener la resistencia física en el nivel de rendimiento máximo.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Cosecha de Reactivos Botánicos.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Suministro gratuito de hierbas e ingredientes raros para elixires, reduciendo el coste de laboratorio en un 70%.
+* **Taller de Glifos / Scriptorium (Scriptorium) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Inscripción de Glifos de Guardia.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Corazón de la estrategia del build: permite inscribir glifos de *Haste* y *Dissonant Whispers* en el Libro de Glifos.
+* **Sala de Entrenamiento (Training Room) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Acondicionamiento Físico de Sprint.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento intensivo para mantener la aceleración metabólica y otorgar +5 ft. de velocidad y +1 a Iniciativa a la guarnición.
+* **Demiplano de Alta Velocidad (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Laboratorio Extrapolar Acelerado.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Refugio dimensional que otorga 100 PG temporales tras un descanso y aceleración temporal de experimentos.
+
 
 ### Seguidores y Personal (Staff & Hirelings)
 

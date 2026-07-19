@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Cripta de los Antiguos (Crypt) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Commune / Raise (Comulgar con los espíritus de la sombra).
-  * *Sinergia con el Build:* Proporciona un sitio de comunión espiritual para potenciar al Warlock Hexblade y estudiar rituales de nigromancia.
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
 * **Armería Acero Sombrío (Armory) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Equip / Maintain (Equipar y entrenar a la guarnición).
-  * *Sinergia con el Build:* Mantiene los pertrechos de los soldados en perfecto estado táctico.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Equipamiento y Forja Oscura.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Mantenimiento de armaduras medias/pesadas y pertrechos tácticos para vanguardia pesada.
+* **Estudio Arcano (Arcane Study) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Transcripción de Pergaminos de Pacto.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Fabricación de pergaminos de *Armor of Agathys* e *Hypnotic Pattern* a coste y tiempo reducidos para activar pre-furia.
+* **Cripta de los Antiguos (Crypt) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Comunión Sombría y Pacto.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Sitio de comunión con el Warlock Hexblade y la Reina de los Cuervos para canalizar energías espectrales.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Resistencia e Intimidación.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Instrucción en técnicas de tanque de vanguardia, control de aggro y encajado de impactos masivos.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Enfoque Mental Inquebrantable.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga ventaja en salvaciones de Sabiduría y Carisma para evitar ser dominado o controlado en primera línea.
+* **Sala de Guerra (War Room) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Comando de Asalto Sombrío.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Planificación táctica de invasiones que otorga ventaja defensiva e iniciativas coordinadas a la guarnición.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
+* **Santuario Druídico (Sacrosanct Grove) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Comunión Silvestre.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Arboleda sagrada para comunión con la naturaleza, recuperación de conjuros divinos y bendiciones de protección.
 * **Invernadero de Plantas Mágicas (Greenhouse) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Harvest / Craft (Cosechar y destilar componentes para el grupo).
-  * *Sinergia con el Build:* Facilita la creación de elixires y componentes necesarios para curar o potenciar ataques del grupo.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Cosecha y Botica Natural.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Cultivo de herbolaria rara, ungüentos y remedios para sanar y potenciar las flechas y habilidades del grupo.
 * **Casa de Fieras (Menagerie) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Breed / Train Beasts (Entrenar bestias de apoyo).
-  * *Sinergia con el Build:* Cría halcones mensajeros y lobos centinelas que asisten en la defensa del bastión.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Crianza y Adiestramiento de Bestias.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Cría y adiestramiento de lobos centinela y halcones exploradores para la guardia del bastión.
+* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Tiro con Arco y Caza Silvestre.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Perfeccionamiento del disparo con arco largo y tácticas de emboscada en el bosque.
+* **Observatorio de la Naturaleza (Observatory) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Lectura Astrológica y Meteorológica.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Predicción del clima y astros para obtener ventaja en tiradas de iniciativa y supervivencia en cualquier terreno.
+* **Demiplano Botánico (Demiplane) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Reserva Natural Extrapolar.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Refugio natural dimensionado que proporciona 100 PG temporales tras un descanso e ingredientes místico-botánicos ilimitados.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

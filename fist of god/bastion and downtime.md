@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
-* **Santuario Divino (Sanctuary) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Meditate / Bless (Obtener bendición divina de combate).
-  * *Sinergia con el Build:* Proporciona un sitio de comunión espiritual para recuperar Ki y dados de Canalizar Divinidad de Guerra.
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
+* **Santuario Divino (Sanctuary) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Bendición Divina y Comunión.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sitio de comunión espiritual para recuperar Puntos de Ki y dados de Canalizar Divinidad de Guerra.
 * **Invernadero de Hierbas Médicas (Greenhouse) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Harvest / Craft (Cosechar plantas raras para ungüentos).
-  * *Sinergia con el Build:* Facilita la creación de cataplasmas y medicinas especiales empleadas en los rasgos de curación del Mercy Monk.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Cosecha y Botica Sanadora.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Cultivo de plantas raras para confeccionar ungüentos y cataplasmas del Camino de la Misericordia (*Way of Mercy*).
+* **Área de Entrenamiento (Training Area) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Acondicionamiento Marcial.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Perfeccionamiento del combate desarmado (*Unarmored Strike*) y técnicas de impacto sanador/dañino.
+* **Scriptorium (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Copiado de Sutras y Pergaminos.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Transcripción de pergaminos sagrados de curación y bendición a mitad de coste.
+* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Armonía Espiritual.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Enfoque mental profundo que otorga ventaja en tiradas de salvación de Sabiduría y Constitución.
+* **Gremio de Beneficencia (Guildhall) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Red de Sanación y Milagros.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Centro de peregrinaje que acoge necesitados, otorga bendiciones divinas mayores y genera reputación sagrada.
 
 ### Seguidores y Personal (Staff & Hirelings)
 

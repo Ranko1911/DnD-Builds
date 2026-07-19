@@ -17,14 +17,32 @@
 
 ### Instalaciones Especiales (Special Facilities)
 
+*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+
+* **Armería Clandestina (Armory) (Nivel 5):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Forja de Armas Pesadas y Finas.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Equipamiento de garrotes pesados y dagas de precisión para ejecutar el ataque sigiloso contundente (*Sneak Attack* de fuerza).
 * **Campo de Entrenamiento (Training Area) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Train / Spar (Entrenar tácticas de combate y agarre).
-  * *Sinergia con el Build:* Permite al Sneaky Smasher practicar llaves de sumisión y combate temerario con sus acólitos.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Agarre y Ataque Temerario.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Perfeccionamiento de llaves de sumisión desarmada y combinaciones de *Reckless Attack* con Pícaro.
 * **Sala de Juegos (Gaming Hall) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Gamble / Earn (Organizar juegos de azar clandestinos).
-  * *Sinergia con el Build:* Genera ingresos en monedas de oro utilizando la pericia de juego y los dados psiónicos del personaje para inclinar las probabilidades.
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Juegos de Azar y Trucos Psiónicos.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Generación de ingresos constantes inclinando las probabilidades mediante dados psiónicos (*Psi-Bolstered Knack*).
+* **Taberna de Contrabando (Pub) (Nivel 9):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Infiltración y Red de Información.
+  * *Sinergia con el Build:* 🟢 **Excelente**. Recopilación de secretos urbanos y reclutamiento de informadores para operaciones encubiertas.
+* **Cámara de Meditación Psiónica (Meditation Chamber) (Nivel 13):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Recarga y Foco Psiónico.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Enfoque mental que regenera dados de energía psiónica de *Soulknife* y otorga ventaja en tiradas de Sabiduría/Fuerza.
+* **Gremio de Ladrones (Guildhall) (Nivel 17):**
+  * *Estado:* Activa (Mantener)
+  * *Orden de Bastión Especial:* Red de Extorsión y Sombras.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sindicato criminal propio que otorga inmunidad diplomática en los bajos fondos y recursos ilimitados.
 
 ### Seguidores y Personal (Staff & Hirelings)
 
