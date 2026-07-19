@@ -24,7 +24,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. Acumula con la capa. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones. Acumula con la capa. |
 | **Cloak of Displacement** | Sí | [⚔️ Sí] | **Priorizar 2:** Los ataques enemigos contra ti se realizan con desventaja. Excelente para un francotirador. |
 | **Bag of Holding** | No | [—] | Prioridad Media. Obtenible gratis vía infusión. |
 
@@ -35,7 +35,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Amulet of Health** | Sí | [⚔️ Sí] | **Priorizar 1:** Establece tu Constitución en 19 (+4), elevando tu HP total y asegurando tus salvaciones de concentración. |
-| **Heavy Crossbow +2** | No | [—] | Prioridad Alta. Sustituye la infusión si se consiguen flechas/saetas infinitas ordinarias, aunque Repeating Shot sigue siendo superior por comodidad de carga. |
+| **Heavy Crossbow +3** | No | [—] | Prioridad Alta. Sustituye la infusión si se consiguen flechas/saetas infinitas ordinarias, aunque Repeating Shot sigue siendo superior por comodidad de carga. |
 
 ---
 
@@ -52,5 +52,5 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Plate Armor +1** | Raro | **Prioridad 1:** Eleva tu CA base a 19 sin gastar espacio de sintonización. |
+| **Plate Armor +3** | Raro | **Prioridad 1:** Eleva tu CA base a 19 sin gastar espacio de sintonización. |
 | **Manual of Quickness of Action** | Muy Raro | **Prioridad Alta:** +2 permanente a la Destreza (superando el límite de 20). |

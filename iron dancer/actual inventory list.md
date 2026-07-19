@@ -2,7 +2,7 @@
 
 ## Equipamiento Actual
 
-* **Arma Principal:** Estoque de Acero infundido (*Enhanced Weapon Rapier* - 1d8 perforante, sutil, mágico +1) / Hoja Psiónica Convocada (*Shadow Blade* - 3d8 psíquico)
+* **Arma Principal:** Estoque +3 (*Rapier +3* - 1d8+3 perforante, sutil, mágico) / Hoja Psiónica Convocada (*Shadow Blade* - 3d8 psíquico)
 * **Armadura:** Armadura de Cuero Tachonado (*Studded Leather*, 12 CA + 5 DES = 17 CA)
 * **Foco / Reliquias:** Su estoque infundido sirve como foco universal de Artífice y Mago.
 

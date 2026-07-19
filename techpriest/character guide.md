@@ -87,7 +87,7 @@ Si el Master permite infundir y bendecir objetos mágicos preexistentes, puedes 
 ##### 1. Variante "El Bastión Imperturbable" (Foco en CA Máxima)
 
 * **Sintonización (5/5):** Ring of Protection, Cloak of Protection, Repulsion Shield (infundido), Núcleo del Dios Máquina (Homebrew), Amulet of the Devout +3.
-* **Infusiones (5/5):** Enhanced Defense +2 (en Placas +3), Repulsion Shield +1 (en Escudo +3), Enhanced Weapon +2 (en Puños), Ring of Protection, Cloak of Protection.
+* **Infusiones (5/5):** Enhanced Defense +2 (en Placas +3), Repulsion Shield +3 (en Escudo +3), Enhanced Weapon +2 (en Puños), Ring of Protection, Cloak of Protection.
 $$\text{AC Pasiva} = 21 \text{ (Placas +3)} + 5 \text{ (Escudo +3)} + 1 \text{ (Warforged)} + 1 \text{ (Blessing)} + 1 \text{ (Soul)} + 2 \text{ (Enhanced Def.)} + 1 \text{ (Rep. Shield)} + 2 \text{ (Ring + Cloak)} = 34 \text{ AC}$$
 $$\text{AC con Escudo (Conjuro)} = 34 + 5 = 39 \text{ CA}$$
 
@@ -111,7 +111,7 @@ $$\text{AC con Escudo (Conjuro)} = 33 + 5 = 38 \text{ CA}$$
 Al nivel 14 de Artífice, tus **5 infusiones activas** se distribuyen para optimizar tu AC y tus estadísticas secundarias:
 
 1. **Enhanced Defense +2** (Aplicado a tu armadura de pecho).
-2. **Repulsion Shield +1** (Aplicado a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
+2. **Repulsion Shield +3** (Aplicado a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
 3. **Ring of Protection** (Aplicado a un anillo común).
 4. **Cloak of Protection** (Aplicado a una capa común).
 5. **Enhanced Weapon +2** o **Radiant Weapon** (Aplicado a tus puños de trueno para asegurar impacto y dar opción de ceguera).

@@ -26,7 +26,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 1:** +1 a la CA y +1 a todas las tiradas de salvación. |
+| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 1:** +2 a la CA y +1 a todas las tiradas de salvación. |
 | **Wand of Paralysis** | Sí | ⚔️ Sí | **Priorizar 2:** Permite paralizar objetivos (CD 15) como Acción Adicional con tu varita. Extremadamente fuerte para un Rogue/Artificer. |
 | **Winged Boots** | Sí | — | Prioridad Alta: Capacidad de volar durante 4 horas al día. Excelente para posicionarte y lanzar telarañas desde el aire. |
 
@@ -38,7 +38,7 @@
 | :--- | :---: | :---: | :--- |
 | **Wand of Fireballs** | Sí | ⚔️ Sí | **Priorizar 1:** Lanza una Bola de Fuego (8d6 fuego, CD 15) como Acción Adicional. Permite infligir un daño de área devastador. |
 | **Tome of Clear Thought** | No | Consumido | **Priorizar 2:** Aumento permanente de +2 a Inteligencia y su máximo natural. Tu INT sube a 22 (Modificador +6). |
-| **Plate Armor +2** | No | — | Prioridad Media: Aumenta tu CA base a 20 sin consumir ranura de sintonización. |
+| **Plate Armor +3** | No | — | Prioridad Media: Aumenta tu CA base a 20 sin consumir ranura de sintonización. |
 
 ---
 

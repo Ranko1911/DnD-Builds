@@ -3,8 +3,8 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +1. (1 slot ocupado, 2 libres).
-*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2, Illusionist's Bracers, Reloj de Arena del Caos Ordenado. (3 slots ocupados).
+*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +3. (1 slot ocupado, 2 libres).
+*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +3, Illusionist's Bracers, Reloj de Arena del Caos Ordenado. (3 slots ocupados).
 *   **Tier 3 (Niveles 11-16):** Bloodwell Vial +3, Illusionist's Bracers, Robe of the Archmagi. (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Robe of the Archmagi, Illusionist's Bracers, Staff of the Magi. (Tome of Leadership y escudos no requieren sintonización). (Total: 3).
 
@@ -27,7 +27,7 @@
 | :--- | :---: | :---: | :--- |
 | **Bloodwell Vial +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Incrementa tu CD de Sorcerer y precisión a $+2$. |
 | **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a la CA y a todas tus salvaciones (clave para mantener concentración). |
-| **Armor +1 (Half-Plate) y Shield +1** | No | — | Prioridad Alta (3): Aumenta tu CA base pasiva a 21. |
+| **Armor +1 (Half-Plate) y Shield +2** | No | — | Prioridad Alta (3): Aumenta tu CA base pasiva a 21. |
 | **Ring of Spell Storing** | Sí | No | Prioridad Media: Permite delegar la concentración de tu *Darkness* o *Hex* a tu familiar. |
 
 ---
@@ -38,7 +38,7 @@
 | :--- | :---: | :---: | :--- |
 | **Illusionist's Bracers** (GGR) | Sí | ⚔️ **Sí** | **Priorizar 1:** Te permite duplicar *Eldritch Blast* como Acción Adicional gratis cada vez que lo lanzas como Acción, ahorrándote 2 puntos de sorcería por turno. |
 | **Bloodwell Vial +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Bonificador definitivo de $+3$ a tus CD de conjuro. |
-| **Armor +2 (Half-Plate) y Shield +2** | No | — | **Priorizar 3:** CA pasiva sube a 23. |
+| **Armor +2 (Half-Plate) y Shield +3** | No | — | **Priorizar 3:** CA pasiva sube a 23. |
 | **Cloak of Displacement** | Sí | No | Prioridad Alta: Los atacantes tienen desventaja contra ti mientras no sufras daño, facilitando mantener tu concentración. |
 
 ---

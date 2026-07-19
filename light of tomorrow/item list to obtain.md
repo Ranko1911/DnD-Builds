@@ -3,8 +3,8 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +1 (1 slot), Corona de la Doncella Divina (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +2 (1, reemplaza +1), Corona de la Doncella Divina (1), Illusionist's Bracers (1). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +3 (1 slot), Corona de la Doncella Divina (Homebrew) (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +3 (1, reemplaza +1), Corona de la Doncella Divina (1), Illusionist's Bracers (1). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Corona de la Doncella Divina (1), Illusionist's Bracers (1), Robe of the Archmagi (1). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Robe of the Archmagi (1), Illusionist's Bracers (1), Staff of the Magi (1). (Corona de la Doncella Divina y Tome of Leadership no requieren sintonización o se rotan). (Total: 3).
 
@@ -30,7 +30,7 @@
 | **Bloodwell Vial +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a la CD y ataque de Sorcerer. Mayor consistencia en Twinned Heal, Synaptic Static, Banishment y todo tu arsenal principal. Tus curaciones de Divine Soul también usan esta CD. |
 | **Ring of Spell Storing** | Sí | ⚔️ **Sí** | **Priorizar 2:** Almacena *Shield*, *Absorb Elements* o *Healing Word*. Si usas familiar (Pact of the Tome + Find Familiar), el familiar puede lanzar conjuros del anillo, manteniendo concentración por ti. Almacena *Death Ward* al final del día con slots sobrantes para protección gratuita al día siguiente. |
 | **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 3:** $+1$ a CA y salvaciones. Esencial para mantener concentración en *Hex*, *Haste* o *Animate Objects*. Cada $+1$ a CON saves reduce drásticamente la pérdida de concentración en un backline caster. |
-| **Armor +1 (Half-Plate) y Shield +1** | No | — | Prioridad Alta: CA pasiva sube a 21 (26 con *Shield*). No requiere sintonización, por lo que no compite con tus objetos críticos. |
+| **Armor +1 (Half-Plate) y Shield +2** | No | — | Prioridad Alta: CA pasiva sube a 21 (26 con *Shield*). No requiere sintonización, por lo que no compite con tus objetos críticos. |
 | **Staff of Healing** | Sí | No | Prioridad Baja: Ahorra slots al lanzar Cure Wounds y Lesser Restoration con cargas. Sin embargo, tus Twinned Heals ya cubren la curación del grupo de forma superior. Solo útil si necesitas conservar puntos de sorcería. |
 
 ---
@@ -41,7 +41,7 @@
 | :--- | :---: | :---: | :--- |
 | **Illusionist's Bracers** (GGR) | Sí | ⚔️ **Sí** | **Priorizar 1:** El santo grial de cualquier Sorlock. Cuando lanzas un truco como acción (*Eldritch Blast*, 4 rayos), puedes volver a lanzarlo como **Acción Adicional** sin consumir puntos de sorcería. Ahorra 2 puntos por turno respecto a Quickened Spell. Con Hex + Hexblade's Curse + Agonizing Blast + Radiant Soul, tus 8 rayos por turno generan un DPR de ~180 sin gastar un solo punto de sorcería. |
 | **Bloodwell Vial +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+3$ definitivo a la CD de Sorcerer. Tus Twinned Banishments, Synaptic Statics y curaciones de Divine Soul son prácticamente irresistibles (CD 21+ con este objeto). |
-| **Armor +2 (Half-Plate) y Shield +2** | No | — | **Priorizar 3:** CA pasiva sube a 23 (28 con *Shield*). No requiere sintonización. |
+| **Armor +2 (Half-Plate) y Shield +3** | No | — | **Priorizar 3:** CA pasiva sube a 23 (28 con *Shield*). No requiere sintonización. |
 | **Cloak of Displacement** | Sí | No | Prioridad Alta: Los enemigos tienen desventaja al atacarte mientras no sufras daño en la ronda. Con la Corona o la capa, reduce la probabilidad de romper concentración. |
 
 ---

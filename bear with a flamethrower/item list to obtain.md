@@ -24,7 +24,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Barrier Tattoo (Rare)** | Sí | [⚔️ Sí] | **Priorizar 1:** Establece tu CA base en 18 (incluso en Forma Salvaje si no usas armadura, lo cual eleva drásticamente la CA de bestias como el Oso de CA 11 a CA 18!). |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** Acumula otro +1 a la CA y salvaciones. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** Acumula otro +2 a la CA y salvaciones. |
 | **Staff of Woodlands** | Sí | [—] | Prioridad Alta. +2 a los ataques mágicos de Druida, permite lanzar *Pass without Trace* a voluntad sin ranuras. |
 
 ---

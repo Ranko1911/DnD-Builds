@@ -4,7 +4,7 @@
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
 *   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Amulet of the Devout +1 (1 slot). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Oathbow (1 slot), Cloak of Displacement (1 slot), Ring of Protection (1 slot). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Oathbow (1 slot), Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot). (Total: 3).
 
@@ -23,7 +23,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. Acumula con la capa. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones. Acumula con la capa. |
 | **Longbow +2** | No | [—] | **Priorizar 2:** Aumenta las tiradas de ataque y daño en +2. No requiere sintonización. |
 | **Cloak of Displacement** | Sí | [—] | Prioridad Alta. Impone desventaja a todos los ataques enemigos dirigidos a ti. |
 

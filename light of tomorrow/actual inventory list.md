@@ -4,7 +4,7 @@
 
 * **Arma Principal/Foco:** Foco Arcano (Rod/Vial) o Cimitarra de Velocidad (*Scimitar of Speed*)
 * **Armadura:** Armadura de Placas de Mitad (Half-Plate, CA 15 + DEX)
-* **Escudo:** Escudo Metálico Estándar (+2 CA)
+* **Escudo:** Escudo +3 (+5 CA)
 
 ## Objetos Mágicos Sintonizados (Attuned)
 

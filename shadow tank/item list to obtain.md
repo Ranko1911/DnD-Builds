@@ -24,7 +24,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones adicionales. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones adicionales. |
 | **Cloak of Displacement** | Sí | [—] | Prioridad Alta. Impone desventaja a ataques enemigos. Excelente combinación con tu Furia para que no te impacten y prolongar tu armadura de Agathys. |
 
 ---
@@ -34,7 +34,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Amulet of Health** | Sí | [⚔️ Sí] | **Priorizar 1:** Otorga CON 19 (+4), elevando sustancialmente tu HP máximo (que se duplica por furia). |
-| **Greatsword +2** | No | [—] | Prioridad Media. +2 a golpear y daño (no requiere sintonización). |
+| **Greatsword +3** | No | [—] | Prioridad Media. +2 a golpear y daño (no requiere sintonización). |
 
 ---
 
@@ -51,5 +51,5 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Half-Plate Armor +1** | Raro | **Prioridad 1:** Eleva tu CA base a 16 + 2 = 18 CA sin ocupar ranuras. |
+| **Half-Plate Armor +3** | Raro | **Prioridad 1:** Eleva tu CA base a 16 + 2 = 18 CA sin ocupar ranuras. |
 | **Greatsword +3** | Legendario | **Prioridad Alta:** +3 de ataque y daño mágico plano. |

@@ -3,8 +3,8 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot), Amulet of the Devout +1 (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Amulet of the Devout +2 (1 slot), Ring of Protection (1 slot), Cloak of Protection (1 slot). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Amulet of the Devout +3 (1 slot), Ring of Protection (1 slot), Cloak of Protection (1 slot). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Ring of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of the Devout +3 (1 slot). (Total: 3).
 
@@ -24,7 +24,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Amulet of the Devout +2** | Sí | [⚔️ Sí] | **Priorizar 1:** Incrementa tu CD de conjuros en +2 y otorga el uso de Canalizar Divinidad extra. Reemplaza el de +1. |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** +1 a la CA y tiradas de salvación. Acumula con la capa. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** +2 a la CA y tiradas de salvación. Acumula con la capa. |
 | **Eyes of the Eagle** | No | [—] | Prioridad Alta. Ventaja en tiradas de Percepción visuales. Excelente para el rol de explorador. |
 
 ---
@@ -52,5 +52,5 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Shield +2** | Raro | **Prioridad 1:** Incrementa tu CA en +2 sin consumir ranuras de sintonización. |
+| **Shield +3** | Raro | **Prioridad 1:** Incrementa tu CA en +2 sin consumir ranuras de sintonización. |
 | **Slippers of Spider Climb** | Poco Común | **Prioridad Media:** Permite caminar por techos y paredes, útil para posicionarse a salvo durante combates. |

@@ -3,9 +3,9 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Artificer 14)
-*   **Tier 1 (Niveles 1-4):** Amulet of the Devout +1 (1 slot), Núcleo del Dios Máquina (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Núcleo del Dios Máquina (1 slot), All-Purpose Tool +1 (1 slot), Amulet of the Devout +2 (1 slot), Cloak of Protection (1 slot), Ring of Protection (1 slot). (Total: 5).
-*   **Tier 3 (Niveles 11-16):** Núcleo del Dios Máquina (1), All-Purpose Tool +2 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Total: 5).
+*   **Tier 1 (Niveles 1-4):** Amulet of the Devout +3 (1 slot), Núcleo del Dios Máquina (Homebrew) (1 slot). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Núcleo del Dios Máquina (1 slot), All-Purpose Tool +3 (1 slot), Amulet of the Devout +3 (1 slot), Cloak of Protection (1 slot), Ring of Protection (1 slot). (Total: 5).
+*   **Tier 3 (Niveles 11-16):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Total: 5).
 *   **Tier 4 (Niveles 17-20):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Tome of Clear Thought y Armadura +3 no requieren sintonización). (Total: 5).
 
 ---
@@ -25,11 +25,11 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **All-Purpose Tool +1** | Sí | ⚔️ **Sí** | **Priorizar 1:** Objeto específico para Artífices. $+1$ a tu CD y ataques de conjuros de Artífice. Otorga competencia en cualquier herramienta de artesano a voluntad y te permite aprender un cantrip de cualquier clase por 8 horas. |
+| **All-Purpose Tool +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Objeto específico para Artífices. $+1$ a tu CD y ataques de conjuros de Artífice. Otorga competencia en cualquier herramienta de artesano a voluntad y te permite aprender un cantrip de cualquier clase por 8 horas. |
 | **Amulet of the Devout +2** | Sí | No | **Priorizar 2:** Incrementa la CD de tus conjuros de Clérigo en $+2$. |
 | **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 3:** $+1$ a la CA y a todas tus salvaciones (apila con tu *Aura of Protection* de aliados y tus infusiones arcanas). |
 | **Ring of Spell Storing** | Sí | No | Prioridad Alta: Permite almacenar conjuros como *Shield*, *Absorb Elements* o *Heal* de nivel bajo para delegar concentración a tu familiar. |
-| **Armor +1 (Plate) y Shield +1** | No | — | Prioridad Media: CA pasiva sube a 22 (sin contar infusiones). |
+| **Armor +1 (Plate) y Shield +2** | No | — | Prioridad Media: CA pasiva sube a 22 (sin contar infusiones). |
 
 ---
 
@@ -37,9 +37,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **All-Purpose Tool +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Incrementa tu CD de Artífice y precisión a $+2$. |
+| **All-Purpose Tool +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** Incrementa tu CD de Artífice y precisión a $+2$. |
 | **Amulet of the Devout +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Incrementa la CD de tus conjuros de Clérigo en $+3$. |
-| **Armor +2 (Plate) y Shield +2** | No | — | **Priorizar 3:** CA pasiva sube a 24. |
+| **Armor +2 (Plate) y Shield +3** | No | — | **Priorizar 3:** CA pasiva sube a 24. |
 | **Spellguard Shield** | Sí | No | Prioridad Alta: Ventaja en salvaciones contra conjuros y otros efectos mágicos. |
 
 ---
@@ -60,7 +60,7 @@
 *Puedes tener hasta 5 infusiones activas simultáneamente en tus piezas de equipo arcano:*
 
 1. **Enhanced Defense +2** (Aplicada a la placa del pecho de tu armadura).
-2. **Repulsion Shield +1** (Aplicada a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
+2. **Repulsion Shield +3** (Aplicada a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
 3. **Ring of Protection** (Aplicada a un anillo común, $+1$ CA y $+1$ a salvaciones).
 4. **Cloak of Protection** (Aplicada a una capa común, $+1$ CA y $+1$ a salvaciones).
 5. **Enhanced Weapon +2** o **Radiant Weapon** (Aplicada a tus puños de trueno *Thunder Gauntlets*).

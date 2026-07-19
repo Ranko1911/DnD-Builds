@@ -23,7 +23,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones adicionales. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones adicionales. |
 | **Winged Boots** | Sí | [⚔️ Sí] | **Priorizar 2:** Otorga velocidad de vuelo igual a tu velocidad de caminar por hasta 4 horas al día, combinando con tu dote *Mobile*. |
 | **Cloak of Displacement** | Sí | [—] | Prioridad Alta. Impone desventaja a todos los ataques dirigidos a ti. |
 
@@ -53,5 +53,5 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Rapier +2** | Raro | **Prioridad 1:** Incremento mágico de ataque e impacto cuerpo a cuerpo. |
+| **Rapier +3** | Raro | **Prioridad 1:** Incremento mágico de ataque e impacto cuerpo a cuerpo. |
 | **Enduring Spellbook** | Poco Común | **Prioridad Media:** Evita que tu libro de conjuros sea dañado por agua, fuego o tiempo. |

@@ -32,7 +32,7 @@
 | **Amulet of the Devout +2 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora directa. $+2$ a la CD y ataques de Clérigo. Tu Destructive Wrath + Chromatic Orb con CD más alta = menos salvaciones superadas por los enemigos. El uso extra de Canalizar Divinidad escala enormemente con el nivel. |
 | **Amulet of Health** | Sí | ⚔️ **Sí** | **Priorizar 2:** Fija tu CON a 19 ($+4$). Sube tus HP retroactivamente (+1 HP/nivel respecto a CON 15), y tus salvaciones de concentración mejoran en $+2$. Para un gish de primera línea que mantiene *Spirit Guardians*, la concentración es vida. |
 | **Weapon of Warning (Warhammer)** | Sí | ⚔️ **Sí** | **Priorizar 3:** Ventaja en Iniciativa (apila con Sentinel Shield para una doble capa de probabilidad), y tu grupo no puede ser sorprendido. Un gish con *Spirit Guardians* que actúa primero puede establecer su zona de control antes de que los enemigos se muevan. |
-| **Armor +1 (Plate) y Shield +1** | No | — | Prioridad Alta: CA pasiva sube a 22 (27 con *Shield*). |
+| **Armor +1 (Plate) y Shield +2** | No | — | Prioridad Alta: CA pasiva sube a 22 (27 con *Shield*). |
 | **Ring of Free Action** | Sí | No | Prioridad Media: Inmunidad a ser paralizado o restringido. Ideal contra enemigos que intentan incapacitarte para romper tu concentración en *Spirit Guardians*. |
 | **Cloak of Protection** | Sí | No | Prioridad Baja: $+1$ a CA y salvaciones. Buena pero compite con tres ranuras de sintonización ya ocupadas (CMT+Devout, Amulet of Health, Weapon of Warning). |
 
@@ -45,7 +45,7 @@
 | **Staff of Power** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a CA, salvaciones y ataques de conjuros (aplica a ambas clases). Conjuros extra cargados (*Cone of Cold*, *Globe of Invulnerability*, *Wall of Force*) que ahorran tus ranuras limitadas de multiclase. La vara puede usarse como arma cuerpo a cuerpo ($+2$ hit/daño) en lugar del Warhammer. |
 | **Rod of Absorption** | Sí | ⚔️ **Sí** | **Priorizar 2:** Absorbe conjuros lanzados contra ti y convierte esa energía en ranuras de conjuro adicionales. Para un gish de primera línea que es objetivo constante de conjuros, genera economía de recursos extraordinaria. Combinado con Destructive Wrath, cada ranura recuperada puede ser otra maximización de daño. |
 | **Amulet of the Devout +3 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 3:** $+3$ definitivo a la CD de Clérigo. Tu CD de salvación contra Destructive Wrath es casi inalcanzable. Maximiza la eficacia de *Spirit Guardians* y control de área. |
-| **Armor +2 (Plate) y Shield +2** | No | — | Prioridad Alta: CA pasiva sube a 24 (29 con *Shield*). |
+| **Armor +2 (Plate) y Shield +3** | No | — | Prioridad Alta: CA pasiva sube a 24 (29 con *Shield*). |
 | **Spellguard Shield** | Sí | No | Prioridad Media: Ventaja en salvaciones contra conjuros. Si sustituyes el Sentinel Shield por este, pierdes ventaja en Iniciativa pero ganas una defensa mágica superior. Opción de reserva para campañas con muchos casters enemigos. |
 
 ---

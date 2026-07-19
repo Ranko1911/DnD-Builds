@@ -28,7 +28,7 @@
 | **Flame Tongue (Rapier)** | Sí | ⚔️ **Sí** | **Priorizar 1:** Agrega $+2d6$ de daño de fuego a cada golpe cuerpo a cuerpo. Al duplicarse con tus ataques extra, es un multiplicador de daño colosal. |
 | **Belt of Dwarvenkind** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+2$ a tu Constitución (aumenta HP y salvaciones de concentración) y te otorga **Visión en la Oscuridad (60 pies)**, lo que soluciona la debilidad principal de jugar un Dragonborn en la oscuridad. |
 | **Cloak of Protection** | Sí | No | Prioridad Alta: $+1$ a la CA y a todas tus salvaciones (potencia tu defensa en melee). |
-| **Armor +1 (Plate) y Shield +1** | No | — | Prioridad Alta: CA pasiva sube a 22. |
+| **Armor +1 (Plate) y Shield +2** | No | — | Prioridad Alta: CA pasiva sube a 22. |
 | **Ring of Free Action** | Sí | No | Prioridad Media: Inmunidad a ser paralizado o restringido por terreno difícil. |
 
 ---
@@ -40,7 +40,7 @@
 | **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CA y salvaciones (apila con la capa para un $+2$ total). |
 | **Scimitar of Speed** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+2$ a ataque y daño. Te permite realizar un ataque cuerpo a cuerpo como Acción Adicional sin condiciones, permitiéndote atacar y aplicar *Divine Smite* incluso en turnos en los que usas tu Acción para lanzar un conjuro de control. |
 | **Sun Blade** | Sí | No | Prioridad Alta: Daño radiante adicional y propiedad de finura, temático y destructivo. |
-| **Armor +2 (Plate) y Shield +2** | No | — | Prioridad Alta: CA pasiva sube a 24. |
+| **Armor +2 (Plate) y Shield +3** | No | — | Prioridad Alta: CA pasiva sube a 24. |
 | **Spellguard Shield** | Sí | No | Prioridad Media: Ventaja en salvaciones contra conjuros y otros efectos mágicos. |
 
 ---

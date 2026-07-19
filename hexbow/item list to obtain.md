@@ -5,9 +5,9 @@
 *Nota de Reglas de Manos Libres:* No se incluyen escudos en esta lista, ya que disparar una ballesta de mano con la propiedad *munición* requiere una mano libre para recargar en cada disparo (incluso con la dote *Crossbow Expert*).
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Rod of the Pact Keeper +1 (1 slot), Aljaba del Susurro Colérico (Homebrew) (1 slot). (Hand Crossbow +1 no requiere sintonización). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Aljaba del Susurro Colérico (1 slot), Amulet of Health (1 slot), Cloak of Protection o Rod of the Pact Keeper +2 (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Aljaba del Susurro Colérico (1), Amulet of Health (1), Cloak of Displacement (1). (Hand Crossbow +2/3 y Quiver of Ehlonna no requieren sintonización). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Rod of the Pact Keeper +3 (1 slot), Aljaba del Susurro Colérico (Homebrew) (1 slot). (Hand Crossbow +3 no requiere sintonización). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Aljaba del Susurro Colérico (1 slot), Amulet of Health (1 slot), Cloak of Protection o Rod of the Pact Keeper +3 (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Aljaba del Susurro Colérico (1), Amulet of Health (1), Cloak of Displacement (1). (Hand Crossbow +3/3 y Quiver of Ehlonna no requieren sintonización). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Amulet of Health (1), Cloak of Displacement (1), Ring of Protection o Rod of the Pact Keeper +3 (1). (La ballesta de mano Hand Crossbow +3 es no sintonizada, liberando la sintonización para defensas y utilidad. Tome of Leadership no requiere sintonización). (Total: 3).
 
 ---

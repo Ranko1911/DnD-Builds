@@ -3,8 +3,8 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Pearl of Power (1 slot), Arcane Grimoire +1 (1 slot). (Broom of Flying no requiere sintonización). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Anillo del Pastor de Almas (Homebrew) (1 slot), Amulet of Health (1 slot), Arcane Grimoire +2 (1, reemplaza +1). (Pearl of Power y Ring of Spell Storing se llevan sin sintonizar). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Pearl of Power (1 slot), Arcane Grimoire +3 (1 slot). (Broom of Flying no requiere sintonización). (Total: 2).
+*   **Tier 2 (Niveles 5-10):** Anillo del Pastor de Almas (Homebrew) (1 slot), Amulet of Health (1 slot), Arcane Grimoire +3 (1, reemplaza +1). (Pearl of Power y Ring of Spell Storing se llevan sin sintonizar). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Anillo del Pastor de Almas (1), Staff of Power (1), Arcane Grimoire +3 (1, reemplaza +2) o Cloak of Displacement (1). (Amulet of Health sin sintonizar). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Anillo del Pastor de Almas (1), Wand of Orcus (1), Robe of the Archmage (1). (Staff of the Magi, Staff of Power y Arcane Grimoire +3 se llevan sin sintonizar). (Total: 3).
 

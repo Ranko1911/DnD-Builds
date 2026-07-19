@@ -24,7 +24,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones adicionales. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones adicionales. |
 | **Eldritch Claw Tattoo** | Sí | [⚔️ Sí] | **Priorizar 2:** Otorga +1 a las tiradas de ataque y daño de tus golpes desarmados y armas psíquicas. Permite realizar ataques a 15 pies con daño de fuerza adicional por 1 minuto al día. |
 
 ---

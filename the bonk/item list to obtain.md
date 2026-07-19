@@ -24,8 +24,8 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Bracers of Defense** | Sí | [⚔️ Sí] | **Priorizar 1:** Otorga +2 a la CA mientras no uses armadura física ni escudo. Funciona con el caparazón natural Tortle, elevando la CA base a 19. |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** +1 a la CA y a todas las tiradas de salvación. |
-| **Cloak of Protection** | Sí | [—] | Prioridad Media. +1 a la CA y salvaciones. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** +2 a la CA y a todas las tiradas de salvación. |
+| **Cloak of Protection** | Sí | [—] | Prioridad Media. +2 a la CA y salvaciones. |
 
 ---
 

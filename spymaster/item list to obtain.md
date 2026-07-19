@@ -26,7 +26,7 @@
 | :--- | :---: | :---: | :--- |
 | **Boots of Elvenkind** | No | [—] | **Priorizar 1:** Hace que tus pasos sean completamente silenciosos (ventaja en sigilo acústico). No gasta slot. |
 | **Cloak of Displacement** | Sí | [⚔️ Sí] | **Priorizar 2:** Los enemigos atacan con desventaja contra ti mientras no recibas daño. Excelente para un pícaro escurridizo. |
-| **Ring of Protection** | Sí | [⚔️ Sí] | Prioridad Alta. +1 a la CA y a todas las tiradas de salvación. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | Prioridad Alta. +2 a la CA y a todas las tiradas de salvación. |
 
 ---
 
@@ -52,5 +52,5 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Dagger +2** | Raro | **Prioridad 1:** Daga mágica que no requiere sintonización. Mantiene altos los ataques físicos convencionales. |
+| **Dagger +3** | Raro | **Prioridad 1:** Daga mágica que no requiere sintonización. Mantiene altos los ataques físicos convencionales. |
 | **Sovereign Glue** | Legendario | **Prioridad Baja:** Objeto táctico para sabotear mecanismos o puertas durante infiltraciones. |

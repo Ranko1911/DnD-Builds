@@ -3,7 +3,7 @@
 ## Equipamiento Actual
 
 * **Arma Principal:** Espada Larga Sagrada (*Longsword* - 1d8 cortante, versátil)
-* **Armadura:** Armadura de Placas Completa (*Plate*, 18 CA) + Escudo de Acero (+2 CA)
+* **Armadura:** Armadura de Placas +3 (*Plate Armor +3*, 21 CA) + Escudo de Acero +3 (+5 CA)
 * **Estilo de Combate:** Defensa (+1 CA). CA base total: 21.
 * **Foco / Reliquias:** El blasón sagrado de dragón dorado grabado en el escudo funciona como foco unificado.
 

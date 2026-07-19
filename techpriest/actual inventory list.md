@@ -9,8 +9,8 @@
 ## Objetos Mágicos Sintonizados (Attuned)
 
 1. **Armor of Invulnerability (Plate)** (Sintonizado - Resistencia pasiva a daño no mágico; 10 min/día Inmunidad a daño no mágico y resistencia a daño mágico)
-2. **Amulet of the Devout +1** (Sintonizado)
-3. **All-Purpose Tool +1** (Sintonizado)
+2. **Amulet of the Devout +3** (Sintonizado)
+3. **All-Purpose Tool +3** (Sintonizado)
 4. **Cloak of Protection** (Sintonizado - Infusión de Artífice)
 5. **Ring of Protection** (Sintonizado - Infusión de Artífice)
 

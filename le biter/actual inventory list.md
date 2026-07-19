@@ -3,7 +3,7 @@
 ## Equipamiento Actual
 
 * **Arma Principal:** Estoque de Acero Fino (*Rapier* - 1d8 perforante, Finesse)
-* **Armadura:** Armadura de Placas Completa (*Plate*, 18 CA) + Escudo de Acero (+2 CA)
+* **Armadura:** Armadura de Placas +3 (*Plate Armor +3*, 21 CA) + Escudo de Acero +3 (+5 CA)
 * **Foco / Reliquias:** Su Estoque actúa como canalizador y foco para sus conjuros de Bardo.
 
 ## Objetos Mágicos Sintonizados (Attuned)

@@ -5,8 +5,8 @@
 *Nota de Build:* Este personaje usa armas de asta de dos manos (Glaive/Halberd) con *Polearm Master* y *Great Weapon Master*. Viste Half-Plate (armadura media, DEX +2). No puede usar escudo. Su sinergia principal es *Armor of Agathys* + Rage (daño reflejado protegido por resistencia). Los objetos priorizan: supervivencia de Temp HP > CD de conjuros Warlock > daño cuerpo a cuerpo.
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo o Rod of the Pact Keeper +1 (1 slot). (2 libres).
-*   **Tier 2 (Niveles 5-10):** Belt of Hill Giant Strength (1 slot), Reliquia de la Furia Infernal (Homebrew) (1 slot), Eldritch Claw Tattoo o Rod of the Pact Keeper +2 (1 slot). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo o Rod of the Pact Keeper +3 (1 slot). (2 libres).
+*   **Tier 2 (Niveles 5-10):** Belt of Hill Giant Strength (1 slot), Reliquia de la Furia Infernal (Homebrew) (1 slot), Eldritch Claw Tattoo o Rod of the Pact Keeper +3 (1 slot). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Reliquia de la Furia Infernal (1), Belt of Fire Giant Strength (1), Cloak of Displacement o Rod of the Pact Keeper +3 (1). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Reliquia de la Furia Infernal (1), Belt of Fire/Cloud Giant Strength (1), Cloak of Displacement o Rod of the Pact Keeper +3 (1). (El Rod permite recuperar 1 espacio de nivel 5 de Warlock para lanzar *Armor of Agathys* adicional antes de la Furia. Blackrazor y Cape of the Mountebank no requieren sintonización). (Total: 3).
 
@@ -17,7 +17,7 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Eldritch Claw Tattoo** | Sí | ⚔️ **Sí** | **Priorizar 1:** Tus ataques desarmados o con armas se consideran mágicos, superando resistencias a daño no-mágico desde nivel 1. Además, una vez al día (acción adicional), tus ataques ganan alcance de 15 pies e infligen $+1d6$ de daño de fuerza durante 1 minuto. Sinergiza con PAM ($+1d6$ en cada uno de tus 3 ataques/turno = $+3d6$ adicionales). |
-| **Glaive / Halberd +1** | No | — | **Priorizar 2:** $+1$ a tiradas de ataque y daño. Compensa directamente el $-5$ de *Great Weapon Master*, reduciendo la penalización efectiva a $-4$. Aplica en los 3 ataques por turno (2 + PAM bonus). |
+| **Glaive +1** | No | — | **Priorizar 2:** $+1$ a tiradas de ataque y daño. Compensa directamente el $-5$ de *Great Weapon Master*, reduciendo la penalización efectiva a $-4$. Aplica en los 3 ataques por turno (2 + PAM bonus). |
 | **Half-Plate Armor** | No | — | **Prioridad Alta:** CA base de $15 + 2 (\text{DEX}) = 17$. No puedes usar escudo (arma de dos manos). La armadura media es tu única defensa pasiva; priorizarla temprano te evita mortalidades antes de obtener Rage. |
 | **Bag of Holding** | No | — | Prioridad Media: Almacenamiento de grupo. Útil para cargar materiales de cuerpo a cuerpo de repuesto (glaives adicionales por si una se rompe o desintegra). |
 

@@ -3,7 +3,7 @@
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot), Amulet of the Devout +1 (1 slot). (Total: 2).
+*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 2).
 *   **Tier 2 (Niveles 5-10):** Flame Tongue (1 slot), Ring of Protection (1 slot), Cloak of Protection (1 slot). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Flame Tongue (1 slot), Belt of Fire Giant Strength (1 slot), Cloak of Displacement (1 slot). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Holy Avenger (1 slot), Belt of Fire Giant Strength (1 slot), Ring of Spell Turning (1 slot). (Total: 3).
@@ -24,8 +24,8 @@
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
 | **Flame Tongue (Longsword)** | Sí | [⚔️ Sí] | **Priorizar 1:** Añade +2d6 de daño de fuego a cada impacto de espada. Sinergia perfecta con tus ataques acelerados de fuego. |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** Acumula otro +1 a la CA y salvaciones. |
-| **Shield +1** | No | [—] | Prioridad Alta. Incrementa tu CA en +1 sin consumir ranura de sintonización. |
+| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** Acumula otro +2 a la CA y salvaciones. |
+| **Shield +2** | No | [—] | Prioridad Alta. Incrementa tu CA en +1 sin consumir ranura de sintonización. |
 
 ---
 
@@ -53,5 +53,5 @@
 
 | Objeto | Rareza | Prioridad / Notas |
 | :--- | :---: | :--- |
-| **Plate Armor +1** | Raro | **Prioridad 1:** Eleva tu CA base de placas a 19 sin requerir sintonización. |
-| **Shield +2** | Raro | **Prioridad Media:** +2 CA adicional sin sintonización. |
+| **Plate Armor +3** | Raro | **Prioridad 1:** Eleva tu CA base de placas a 19 sin requerir sintonización. |
+| **Shield +3** | Raro | **Prioridad Media:** +2 CA adicional sin sintonización. |

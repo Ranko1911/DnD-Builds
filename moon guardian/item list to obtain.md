@@ -28,7 +28,7 @@
 | **Bracers of Defense** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a CA cuando no llevas armadura ni escudo. Perfecto para Unarmored Defense y crucial en Wild Shape donde no tienes escudo. Tu AC en forma humanoide sin escudo sube a 18. |
 | **Periapt of Wound Closure** | Sí | ⚔️ **Sí** | **Priorizar 2:** Estabilización automática al caer a 0 HP, y cuando tiras dados de golpe para curarte, duplicas el resultado. Sinergiza con la autocuración de Wild Shape ($Xd8$ × 2 = curación masiva). |
 | **Cloak of Protection** | Sí | No | **Priorizar 3:** $+1$ a CA y a todas las salvaciones. Si no necesitas Periapt, este es mejor defensa general. |
-| **Dragonhide Belt +1** | Sí | No | Prioridad Alta: $+1$ a CD de conjuros druídicos y recuperas un uso de Wild Shape al gastar un espacio de conjuro (muy potente para combates largos). |
+| **Dragonhide Belt +2** | Sí | No | Prioridad Alta: $+1$ a CD de conjuros druídicos y recuperas un uso de Wild Shape al gastar un espacio de conjuro (muy potente para combates largos). |
 
 ---
 
@@ -36,7 +36,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora del +1. $+2$ a CD de conjuros druídicos y recuperación de Wild Shape al gastar slot. Esencial para el Earth Elemental (que cuesta 2 usos de Wild Shape). |
+| **Dragonhide Belt +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora del +1. $+2$ a CD de conjuros druídicos y recuperación de Wild Shape al gastar slot. Esencial para el Earth Elemental (que cuesta 2 usos de Wild Shape). |
 | **Bracers of Defense** | Sí | ⚔️ **Sí** | **Mantener del Tier anterior.** |
 | **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ CA y salvaciones adicional (apila con Cloak of Protection si lo tienes). |
 | **Ioun Stone (Fortitude)** | Sí | No | Prioridad Alta: $+2$ a CON (si aún no has llegado a 20). |

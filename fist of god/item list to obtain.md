@@ -4,8 +4,8 @@
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
 *   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Dragonhide Belt +1 (1 slot), Bracers of Defense (1 slot), Cloak of Protection (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Dragonhide Belt +2 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Protection (1 slot). (Total: 3).
+*   **Tier 3 (Niveles 11-16):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).
 
 ---
@@ -23,9 +23,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +1** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CD de salvación de tus habilidades de Ki (Stunning Strike CD) y permite recuperar Ki tirando el dado de artes marciales una vez al día. |
+| **Dragonhide Belt +2** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CD de salvación de tus habilidades de Ki (Stunning Strike CD) y permite recuperar Ki tirando el dado de artes marciales una vez al día. |
 | **Bracers of Defense** | Sí | [⚔️ Sí] | **Priorizar 2:** +2 a la CA mientras no uses armadura física ni escudo. Wielding a longsword two-handed allows this, raising CA to 22! |
-| **Amulet of the Devout +1** | Sí | [—] | Prioridad Media. +1 a la CD de tus conjuros de clérigo y 1 CD extra de Canalizar Divinidad. |
+| **Amulet of the Devout +2** | Sí | [—] | Prioridad Media. +2 a la CD de tus conjuros de clérigo y 1 CD extra de Canalizar Divinidad. |
 
 ---
 
@@ -33,7 +33,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +2** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CD de tu Ki y recuperación de Ki potenciada. Reemplaza el cinturón anterior. |
+| **Dragonhide Belt +3** | Sí | [⚔️ Sí] | **Priorizar 1:** +3 a la CD de tu Ki y recuperación de Ki potenciada. Reemplaza el cinturón anterior. |
 | **Cloak of Displacement** | Sí | [⚔️ Sí] | **Priorizar 2:** Los ataques enemigos contra ti se realizan con desventaja. Excelente combo defensivo con tu alta CA. |
 
 ---

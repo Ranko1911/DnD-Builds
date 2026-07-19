@@ -3,7 +3,7 @@
 ## Equipamiento Actual
 
 * **Arma Principal:** Ballesta Pesada de Acero infundida (*Repeating Shot Heavy Crossbow* - 1d10 perforante, rango 100/400 ft, invocación de saetas mágicas ilimitadas)
-* **Armadura:** Armadura de Placas Completa (*Plate*, 18 CA)
+* **Armadura:** Armadura de Placas +3 (*Plate Armor +3*, 21 CA)
 * **Foco / Reliquias:** Su Ballesta Pesada infundida sirve como canalizador y foco unificado para todos sus conjuros.
 
 ## Objetos Mágicos Sintonizados (Attuned)

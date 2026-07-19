@@ -27,7 +27,7 @@ Combat Role: Frontline Gish (Tank / Tactical Controller / AoE Burst Damage / Sup
 
 * **Universal Spellcasting Focus:** Se aplica la Regla de Casa 1. La joyería mágica fusionada (Amulet of the Devout + Stormshaper's Amulet) funciona como el foco de lanzamiento universal para conjuros de Clérigo y de Mago.
 * **Free-Hand Economy:** Escudo equipado en la mano secundaria. La mano principal queda completamente libre para portar armas (Martillo de Guerra / Staff of the Magi) o manipular componentes Somáticos/Materiales. No se aplican penalizaciones por intercambio de armas.
-* **Armor Proficiency:** Armadura Pesada (Plate Armor +2) + Escudo +2. CA pasiva base: **24 CA**. Con el conjuro *Shield* (reacción) tu CA alcanza **29 CA**.
+* **Armor Proficiency:** Armadura Pesada (Plate Armor +3) + Escudo +3. CA pasiva base: **24 CA**. Con el conjuro *Shield* (reacción) tu CA alcanza **29 CA**.
 
 ## 2. Action Economy & Combat Loop
 

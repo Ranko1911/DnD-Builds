@@ -5,8 +5,8 @@
 *Nota de Build:* Este personaje es un Druida 20 con acceso homebrew a la lista de conjuros de Mago. Prioriza objetos que aumenten CD de conjuros (WIS), protección de concentración, y CA sin armadura pesada (restricción de Druida). Como Archidruida (nivel 20), puede lanzar conjuros ignorando componentes materiales sin coste.
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Moon Sickle +1 (1 slot), Cloak of Elvenkind (1 slot), Brújula Maldita del Mar Sin Sol (Homebrew) (1 slot). (Total: 3).
-*   **Tier 2 (Niveles 5-10):** Moon Sickle +2 (1, reemplaza +1), Brújula Maldita del Mar Sin Sol (1), Robe of the Archmagi (1). (Total: 3).
+*   **Tier 1 (Niveles 1-4):** Moon Sickle +3 (1 slot), Cloak of Elvenkind (1 slot), Brújula Maldita del Mar Sin Sol (Homebrew) (1 slot). (Total: 3).
+*   **Tier 2 (Niveles 5-10):** Moon Sickle +3 (1, reemplaza +1), Brújula Maldita del Mar Sin Sol (1), Robe of the Archmagi (1). (Total: 3).
 *   **Tier 3 (Niveles 11-16):** Robe of the Archmagi (1), Staff of Power (1), Moon Sickle +3 (1). (Total: 3).
 *   **Tier 4 (Niveles 17-20):** Orb of Dragonkind (1), Robe of the Archmagi (1), Moon Sickle +3 (1). (Staff of Power se usa sin sintonizar si es necesario, o se rota. Tome of Understanding no requiere sintonización). (Total: 3).
 
@@ -30,7 +30,7 @@
 | :--- | :---: | :---: | :--- |
 | **Moon Sickle +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora a $+2$ CD, ataques y curación. Tu Starry Form: Archer escala con WIS; más CD = más daño garantizado de tus conjuros de control arcano (Wall of Force, Forcecage). |
 | **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a CA y todas las salvaciones. Para un caster que necesita mantener concentración en Wall of Force o Spirit Guardians (acceso arcano), las salvaciones de CON son vitales. Con Dragon Form, tu concentración ya es impecable; la capa protege contra todo lo demás (WIS saves, charme). |
-| **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 3:** Se acumula con la capa para un $+2$ total a CA y salvaciones. Tu CA sube a $14 + 2 + 1 + 1 + 1 = 19$ (con Shield +1, Cloak y Ring). |
+| **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 3:** Se acumula con la capa para un $+2$ total a CA y salvaciones. Tu CA sube a $14 + 2 + 1 + 1 + 1 = 19$ (con Shield +2, Cloak y Ring). |
 | **Necklace of Prayer Beads** | Sí | No | Prioridad Media: Conjuros de curación gratuitos sin gastar tus ranuras principales. Bless, Cure Wounds y Restoration sin coste de slot. |
 | **Elven Chain** | No | — | Prioridad Media: CA base de 14 + DEX (si tu mesa permite armadura media al Druida). Alternativa a Studded Leather con +2 CA. |
 
