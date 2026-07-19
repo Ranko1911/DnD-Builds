@@ -42,10 +42,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Staff of the Magi** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +2 a CD de conjuros, absorción de conjuros enemigos y 50 cargas de nivel alto. |
+| **Ascendant Dragon's Wrath Rapier** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por golpe, Aliento 12d6 y Ráfaga Crítica. Eleva el DPR a **98/100**. |
 | **Robe of the Archmagi** | Sí | [⚔️ Sí] | **Priorizar 2 (META):** CA base 15+DES, ventaja en salvaciones contra conjuros y +2 a CD de conjuros. |
-| **Tome of Clear Thought** | No | [—] | **Priorizar 3:** +2 permanente a tu Inteligencia (superando el límite de 20 hasta 22). |
-| **Ring of Spell Turning** | Sí | [—] | Prioridad Media. Ventaja en salvaciones contra conjuros individuales. |
+| **Staff of the Magi** | Sí | [⚔️ Sí] | **Priorizar 3 (META):** +2 a CD de conjuros, absorción de conjuros enemigos y 50 cargas. |
+| **Tome of Clear Thought** | No | [—] | Prioridad Alta: +2 permanente a Inteligencia. |
 
 ---
 

@@ -61,15 +61,15 @@ La sinergia destructiva final de este build radica en usar _Shapechange_ a nivel
 3. **[Paso 3]:** Su velocidad de vuelo como Planetar (120 ft) se incrementa por Bladesong (+10 ft) y la dote _Mobile_ (+10 ft), alcanzando un **vuelo de 140 pies**. No provoca ataques de oportunidad de los enemigos que ataque.
 4. **[Paso 4]:** Goza de Resistencia Mágica (ventaja en salvaciones contra magia) y Visión Verdadera a 120 pies. Su concentración es indestructible gracias al bono de +13 y el zapping protector de la túnica _Mind Sharpener_.
 
-🧮 Mathematical Engine (Reglas 2014):
+🧮 Mathematical Engine (Nivel 20 con Ascendant Dragon's Wrath Rapier + Planetar Shapechange):
 
-$$\text{Daño Ataque 1 (Estoque)} = 1d8 (\text{Estoque}) + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 5d8 (\text{Radiante Planetar}) = 6d8 + 10 = 37 \text{ de daño medio}$$
+$$\text{Daño Ataque 1 (Estoque)} = 1\text{d}8 (\text{Estoque}) + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 5\text{d}8 (\text{Planetar Radiante}) + 3\text{d}6 (\text{Dragon's Wrath}) + 3 (\text{Magia}) = 6\text{d}8 + 3\text{d}6 + 13 = \mathbf{50.5 \text{ daño medio}}$$
 
-$$\text{Daño Ataque 2 (GFB)} = 1d8 (\text{Estoque}) + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 5d8 (\text{Radiante}) + 3d8 (\text{Fuego GFB}) + 5 (\text{Afinidad GFB}) = 9d8 + 15 = 55.5 \text{ de daño medio}$$
+$$\text{Daño Ataque 2 (GFB)} = 1\text{d}8 + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 5\text{d}8 (\text{Planetar}) + 3\text{d}8 (\text{GFB}) + 3\text{d}6 (\text{Dragon's Wrath}) + 5 (\text{INT GFB}) + 3 (\text{Magia}) = 9\text{d}8 + 3\text{d}6 + 18 = \mathbf{69.0 \text{ daño medio}}$$
 
-$$\text{Daño Salto de Llama (2º Objetivo)} = 3d8 + 10 = 23.5 \text{ de daño de fuego}$$
+$$\text{Daño Salto de Llama (2.º Objetivo)} = 3\text{d}8 + 10 = \mathbf{23.5 \text{ daño de fuego}}$$
 
-$$\text{Daño Total de Ráfaga Aérea} = 37 + 55.5 = 92.5 \text{ de daño plano al objetivo principal y 23.5 al secundario sin consumir ranuras de daño}$$
+$$\text{Daño Total de Ráfaga Aérea} = 50.5 + 69.0 = \mathbf{119.5 \text{ daño plano al objetivo principal (más 23.5 al secundario) sin consumir ranuras de conjuro}}$$
 
 ## 4. Bladesinger & Artificer Blueprint
 

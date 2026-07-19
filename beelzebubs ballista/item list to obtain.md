@@ -45,6 +45,7 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Heavy Crossbow +3** | No | — | **Priorizar 1:** +3 a las tiradas de ataque y daño. No requiere sintonización. |
-| **Ring of Spell Storing** | Sí | ⚔️ Sí | **Priorizar 2:** Permite almacenar hasta 5 niveles de conjuros (como Shield, Silvery Barbs o Absorb Elements) lanzados por ti o tus aliados para usarlos como reacción. |
-| **Rod of the Pact Keeper +3** | Sí | ⚔️ Sí | **Priorizar 3:** Aumenta la CD de salvación de tus conjuros principales a 19. |
+| **Ascendant Dragon's Wrath Heavy Crossbow** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 y Ráfaga Crítica. Eleva el DPR a **96/100**. |
+| **Rod of the Pact Keeper +3** | Sí | ⚔️ Sí | **Priorizar 2:** Aumenta la CD de salvación de tus conjuros principales a 19. |
+| **Amulet of Health** | Sí | ⚔️ Sí | **Priorizar 3:** Fija CON a 19 (HP masivo y salvaciones de concentración). |
+| **Half-Plate Armor +3** | No | — | CA pasiva 22 sin gastar ranura de sintonización. |

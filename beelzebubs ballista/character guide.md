@@ -57,18 +57,19 @@ El combo insignia explota la redefinición del truco **True Strike** en 2024, qu
 4. **Archery Fighting Style (+2 a impactar):** Suma +2 a tu tirada de ataque con armas a distancia, compensando cualquier cobertura.
 5. **Efecto de Empuje (Repelling Blast):** Al impactar con True Strike (cantrip de Warlock), empujas al enemigo 10 pies hacia atrás.
 
-🧮 Mathematical Engine (D&D 5e 2024 — Nivel 11, CA enemigo 17):
+🧮 Mathematical Engine (D&D 5e 2024 — Nivel 20 con Ascendant Dragon's Wrath Heavy Crossbow):
 
-**Estadísticas de ataque a nivel 11 (Celestial 10 / Fighter 1):**
+**Estadísticas de ataque a nivel 20 (Celestial 19 / Fighter 1):**
 
-- Modificador de ataque: +11 (+5 CAR, +4 PB, +2 Archery) con Ventaja constante (ayuda del Imp invisible).
-- Daño de Ballesta Pesada: $1\text{d}10 + 5$ (CAR base) + $5$ (Agonizing) + $5$ (Radiant Soul) + $2\text{d}6$ (True Strike a nivel 11) = $1\text{d}10 + 2\text{d}6 + 15$ promedio: (5.5 + 7 + 15 = 27.5).
-- Adicionalmente, el objetivo es empujado 10 pies (Repelling Blast) y su velocidad se reduce en 10 pies (Lance of Lethargy).
+- Modificador de ataque: $+16$ ($+5$ CAR, $+6$ PB, $+2$ Archery, $+3$ Arma Mágica) con Ventaja constante (ayuda del Imp invisible).
+- **Daño por Impacto con True Strike (Nivel 17+):**
+  $$1\text{d}10 \text{ (Ballesta)} + 3\text{d}6 \text{ (True Strike)} + 3\text{d}6 \text{ (Dragon's Wrath)} + 5 \text{ (CAR Base)} + 5 \text{ (Agonizing)} + 5 \text{ (Radiant Soul)} + 3 \text{ (Magia)} = 1\text{d}10 + 6\text{d}6 + 18$$
+  $$\text{Daño Promedio por Impacto} = 5.5 + 21 + 18 = \mathbf{44.5 \text{ daño/turno}}$$
+- **Efectos de Control Adicionales:** Empuja al objetivo **10 pies** (*Repelling Blast*), reduce su velocidad en **10 pies** (*Lance of Lethargy*) y activa un Aliento Dracónico de **12d6** en área 1/día.
 
-$$\text{P(Impactar con ventaja)} = 1 - (1 - \frac{21 - (17 - 11)}{20})^2 = 1 - (1 - 0.75)^2 = 1 - 0.0625 = 0.9375$$
-$$\text{DPR promedio sostenido} = 0.9375 \times 27.5 + 0.0975 \times (\text{Daño crítico extra: } 5.5 + 7) \approx 25.78 + 1.22 = 27 \text{ daño/turno}$$
+$$\text{DPR promedio sostenido a CA 18 (con ventaja)} = 0.98 \times 44.5 + 0.0975 \times (26.5) = \mathbf{46.2 \text{ DPR sostenido a distancia}}$$
 
-_(Nota: Este daño se realiza con un solo ataque de cantrip a gran distancia, sin consumir recursos ni ranuras de conjuro, empujando al enemigo e impidiendo que se acerque)._
+_(Nota: Este daño masivo se realiza con un solo disparo de True Strike sin gastar ranuras de conjuro, manteniendo al enemigo en bucle de control a distancia)._
 
 ## 4. Celestial Warlock / Fighter Blueprint
 
