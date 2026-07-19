@@ -1953,63 +1953,7 @@ body {
     justify-content: space-between;
 }
 
-.dropdown-item.slider-setting {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.5rem;
-    border-top: 1px solid var(--border-color);
-    padding-top: 0.75rem;
-}
 
-.slider-label-row {
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.7rem;
-    font-weight: 700;
-    text-transform: uppercase;
-    letter-spacing: 0.03em;
-    color: var(--color-text-muted);
-}
-
-.slider-val {
-    color: var(--color-primary);
-    font-weight: 800;
-}
-
-.width-slider {
-    -webkit-appearance: none;
-    appearance: none;
-    width: 100%;
-    height: 4px;
-    border-radius: 2px;
-    background: rgba(255, 255, 255, 0.1);
-    outline: none;
-}
-
-.width-slider::-webkit-slider-thumb {
-    -webkit-appearance: none;
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: var(--color-primary);
-    cursor: pointer;
-    box-shadow: 0 0 6px var(--color-primary-glow);
-    transition: transform 0.15s, box-shadow 0.15s;
-}
-
-.width-slider::-webkit-slider-thumb:hover {
-    transform: scale(1.25);
-    box-shadow: 0 0 10px var(--color-secondary-glow);
-}
-
-.width-slider::-moz-range-thumb {
-    width: 14px;
-    height: 14px;
-    border-radius: 50%;
-    background: var(--color-primary);
-    cursor: pointer;
-    border: none;
-}
 
 @keyframes fadeInScale {
     from { opacity: 0; transform: scale(0.95) translateY(-5px); }
@@ -2063,9 +2007,7 @@ body {
         width: 220px;
     }
 
-    .layout-settings-dropdown .slider-setting {
-        display: none !important; /* Slider no aplica a móviles */
-    }
+
     
     .sidebar-resizer {
         display: none !important;

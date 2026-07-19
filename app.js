@@ -155,6 +155,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Level selector
     const levelSlider = document.getElementById('level-slider');
     const levelValueEl = document.getElementById('level-value');
+    const levelSelectorArea = document.getElementById('level-selector-area');
 
     // Panel toggles
     const toggleTracker = document.getElementById('toggle-tracker');
@@ -169,8 +170,6 @@ document.addEventListener('DOMContentLoaded', () => {
     const layoutSettingsDropdown = document.getElementById('layout-settings-dropdown');
     const settingToggleSidebar = document.getElementById('setting-toggle-sidebar');
     const settingToggleHeader = document.getElementById('setting-toggle-header');
-    const settingSidebarWidth = document.getElementById('setting-sidebar-width');
-    const valSidebarWidth = document.getElementById('val-sidebar-width');
     const btnRestoreHeader = document.getElementById('btn-restore-header');
 
     // Configure Marked Options
@@ -502,6 +501,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 updateNavButtons();
                 renderResourceTracker(build);
                 renderRadarChart(build);
+                updateLevelSelectorVisibility();
             }
         }
     }
@@ -1067,10 +1067,17 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
+    function updateLevelSelectorVisibility() {
+        if (!levelSelectorArea) return;
+        const isVisible = toggleTracker && toggleTracker.checked;
+        levelSelectorArea.classList.toggle('hidden', !isVisible);
+    }
+
     // --- Panel toggle logic ---
     if (toggleTracker) {
         toggleTracker.addEventListener('change', () => {
             if (selectedBuild) renderResourceTracker(selectedBuild);
+            updateLevelSelectorVisibility();
         });
     }
     if (toggleRadar) {
@@ -1712,10 +1719,9 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!buildsSidebar) return;
         const w = Math.max(260, Math.min(550, parseInt(width)));
         buildsSidebar.style.width = `${w}px`;
-        
-        if (settingSidebarWidth) settingSidebarWidth.value = w;
-        if (valSidebarWidth) valSidebarWidth.textContent = `${w}px`;
     }
+
+    updateLevelSelectorVisibility();
 
     // 2. Eventos del menú desplegable de ajustes
     if (btnLayoutSettings && layoutSettingsDropdown) {
@@ -1797,14 +1803,7 @@ document.addEventListener('DOMContentLoaded', () => {
         });
     }
 
-    // 5. Cambiar ancho de la barra lateral desde el slider del dropdown
-    if (settingSidebarWidth) {
-        settingSidebarWidth.addEventListener('input', () => {
-            const width = settingSidebarWidth.value;
-            applySidebarWidth(width);
-            localStorage.setItem('sidebar-width', width);
-        });
-    }
+
 
     // 6. Redimensionamiento manual con arrastre del divisor (Drag and Resize)
     if (sidebarResizer) {

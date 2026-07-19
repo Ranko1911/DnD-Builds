@@ -1,1 +1,0 @@
-- algo para elegir una clase y que muestre los personajes que tienen esa clase
