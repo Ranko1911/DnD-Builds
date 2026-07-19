@@ -42,7 +42,8 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Spell Turning** | Sí | [⚔️ Sí] | **Priorizar 1:** Otorga ventaja en salvaciones contra hechizos de objetivo único e intenta reflejarlos contra su emisor. |
+| **Ascendant Dragon's Wrath Rapier (Fuego/Frío)** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 1/día y Ráfaga Crítica 5d6 en área. Multiplica masivamente el DPR en Action Surge y Blade Flourishes. Eleva DPR a 44. |
+| **Ring of Spell Turning** | Sí | [⚔️ Sí] | **Priorizar 2:** Otorga ventaja en salvaciones contra hechizos de objetivo único e intenta reflejarlos contra su emisor. |
 | **Defender (Rapier)** | Sí | [⚔️ Sí] | Prioridad Media. Estoque legendario +3 que permite transferir parte del bono de ataque a tu CA. |
 
 ---

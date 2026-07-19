@@ -48,8 +48,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Clear Thought** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Inteligencia de forma permanente (superando el límite de 20 hasta **22**). Incrementa tu bonificador de ataque, CD de conjuros de Artífice, usos de *Flash of Genius* ($+6$ en vez de $+5$), y daño de infusiones. Tu CD de conjuros sube a **18** (8 + 6 + 6 mod). |
-| **Armor +3 (Plate) y Shield +3** | No | — | **Priorizar 2:** Máxima CA pasiva posible. Eleva la CA base combinada a **26** ($18 + 3 + 2 + 3$). **Nota de Reglas (Depende del Master):** Bajo reglas oficiales (RAW), no pueden ser bendecidos ni infundidos por ser mágicos, resultando en **CA 30 pasiva / 35 activa**. Si el Master permite el apilamiento (Homebrew), alcanzas **CA 34 pasiva / 39 activa** (o **CA 33 / 38** en la build recomendada *Heraldo de la Forja* al priorizar el All-Purpose Tool +3 e infundir *Mind Sharpener*). |
+| **Armor of Invulnerability (Plate)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** Resistencia pasiva a daño no mágico; 10 min/día de Inmunidad total a daño no mágico y resistencia a daño mágico. Eleva EHP a 50 (MÁX). |
+| **Tome of Clear Thought** | No | — | **Priorizar 2:** $+2$ a tu puntuación de Inteligencia de forma permanente (superando el límite de 20 hasta **22**). |
+| **Armor +3 (Plate) y Shield +3** | No | — | **Priorizar 3:** Máxima CA pasiva posible. Eleva la CA base combinada a **26**. |
 | **Ioun Stone of Mastery** | Sí | No | Prioridad Alta: $+1$ al bonificador de competencia (sube a $+7$). Afecta CD de conjuros, ataques, salvaciones con competencia y Flash of Genius. Incremento universal modesto pero que apila con todo. |
 
 ---

@@ -42,7 +42,8 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Holy Avenger (Longsword)** | Sí | [⚔️ Sí] | **Priorizar 1:** El arma definitiva de Paladín. +3 a golpear y daño, +2d10 de daño radiante contra fiados/muertos vivientes y otorga ventaja en tiradas contra conjuros a todos los aliados a 10 pies (que se suma a tu Aura de Protección). |
+| **Ascendant Dragon's Wrath Greatsword (Fuego)** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño de fuego por impacto, Aliento Dracónico 12d6 y Ráfaga Crítica 5d6 en área. Sinergia total con la Afinidad Elemental Dracónica. Eleva DPR a 50 (MÁX). |
+| **Holy Avenger (Longsword)** | Sí | [⚔️ Sí] | **Priorizar 2:** El arma alternativa de Paladín. +3 a golpear y daño, +2d10 de daño radiante contra demonios/muertos vivientes y ventaja en tiradas contra conjuros a todos los aliados a 10 pies. |
 | **Tome of Leadership and Influence** | No | [—] | Prioridad Alta. +2 de Carisma permanente (superando el límite de 20), beneficiando tu Aura de salvaciones, tus conjuros y tu afinidad dracónica. |
 | **Ring of Spell Turning** | Sí | [⚔️ Sí] | Prioridad Media. Ventaja en salvaciones contra conjuros individuales e intenta devolverlos. |
 

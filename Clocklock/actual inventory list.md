@@ -8,7 +8,7 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Bloodwell Vial +1** (Sintonizado)
+1. **Luckblade (Estoque/Espada Corta)** (Sintonizado - +1 CA/salvaciones, reroll d20 1/día, 1d3 deseos Wish)
 2. **Illusionist's Bracers** (Sintonizado)
 3. **Robe of the Archmagi** (Sintonizado)
 

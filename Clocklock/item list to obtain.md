@@ -47,9 +47,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Leadership and Influence** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Carisma de forma permanente, permitiéndote alcanzar un **22** (+6 modificador). Aumenta tu daño de *Eldritch Blast*, CD de conjuros y salvaciones. |
-| **Armor +3 (Half-Plate) y Shield +3** | No | — | **Priorizar 2:** CA pasiva sube a un absurdo **25 CA**. Con el conjuro *Shield* alcanzas **30 CA**. |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 3:** Arsenal masivo de conjuros y absorción reactiva. Reemplaza al Bloodwell Vial +3 en la sintonización activa. |
+| **Luckblade (Estoque/Espada Corta)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +1 a CA/salvaciones, reroll de d20 1/día y 1d3 deseos Wish. Eleva Complejidad a 44 y Control a 48. |
+| **Tome of Leadership and Influence** | No | — | **Priorizar 2:** $+2$ a Carisma permanente (superando 20). |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 3:** Arsenal de conjuros y absorción reactiva. |
 
 ---
 

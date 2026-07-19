@@ -8,9 +8,9 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Pearl of Power** (Sintonizado)
-2. **Arcane Grimoire +1** (Sintonizado)
-3. **Ring of Spell Storing** (Sintonizado)
+1. **Staff of the Magi** (Sintonizado - +2 CD, ventaja en salvaciones vs magia, absorción de conjuros y 50 cargas)
+2. **Robe of the Archmagi** (Sintonizado - CA base 15+DEX, ventaja vs conjuros, +2 CD)
+3. **Anillo del Pastor de Almas / Ring of Soul Shepherd** (Sintonizado - Invoca esbirros ectoplásmicos sin cadáveres físicos)
 
 ## Equipamiento de Esbirros (Skeletons)
 

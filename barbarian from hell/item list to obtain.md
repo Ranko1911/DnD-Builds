@@ -49,8 +49,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Manual of Gainful Exercise** | No | — | **Priorizar 1:** $+2$ permanente a Fuerza (hasta 22, $+6$ mod). Afecta a **cada ataque**: +1 hit/daño × 3 ataques/turno × cada turno del combate. También incrementa Atletismo para agarres y derribos (que aplican prono para ventaja en ataques cuerpo a cuerpo aliados). |
-| **Armor +3 (Half-Plate)** | No | — | **Priorizar 2:** CA pasiva sube a 20. Con Cloak + Ring, alcanzas 22 CA sin escudo, lo que es excepcional para un usuario de arma de dos manos. |
+| **Ascendant Dragon's Wrath Greataxe / Glaive** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño de fuego/ácido por impacto. Combina con la ventaja constante de Reckless Attack para críticos y daño explosivo plano. Eleva DPR a 42. |
+| **Manual of Gainful Exercise** | No | — | **Priorizar 2:** $+2$ permanente a Fuerza (hasta 22, $+6$ mod). |
+| **Armor +3 (Half-Plate)** | No | — | **Priorizar 3:** CA pasiva sube a 20. |
 | **Blackrazor (Greatsword Legendaria)** | Sí | No | Prioridad Media (pero temáticamente épica): Al matar, ganas HP temporales iguales a los HP máximos de la víctima y ventaja en ataques/salvaciones/pruebas. **Trade-off**: pierdes el alcance de 10 pies y los ataques de oportunidad de PAM (Glaive), pero ganas un arma $+3$ que genera HP temporales masivos que apilan con Rage. Consultar con el DM si los Temp HP de Blackrazor activan el daño de frío de *Armor of Agathys* (RAW: solo los HP temporales del propio conjuro activan el daño reflejado). |
 | **Manual of Bodily Health** | No | — | Prioridad Alta: $+2$ permanente a CON. HP máximos suben en +40 (efectivamente +80 con Rage). Tu supervivencia bruta escala enormemente. |
 

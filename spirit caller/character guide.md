@@ -3,81 +3,71 @@
 ## General Data
 
 * **System Standard:** D&D 5th Edition (2024 / 5.5e Update)
-* **Character Level:** Wizard (Necromancer) 6
+* **Character Level:** Wizard (Necromancer) 20
 * **Species:** Reborn (Legacy / Creature Type: Undead + Humanoid)
 * **Background:** Acolyte (Origin Feat: Magic Initiate (Cleric))
-* **Stats (Point Buy + Background):**
+* **Stats (Point Buy + Background + ASIs):**
   * **STR:** 8 (-1)
   * **DEX:** 14 (+2)
-  * **CON:** 14 (+2)
-  * **INT:** 18 (+4) *(15 Base + 2 Background + 1 Feat o 16 Base + 2 ASI)*
-  * **WIS:** 13 (+1) *(12 Base + 1 Background)*
+  * **CON:** 15 (+2) *(14 Base + 1 Resilient CON)*
+  * **INT:** 20 (+5) *(15 Base + 2 Background + 1 War Caster + 2 ASI)*
+  * **WIS:** 13 (+1)
   * **CHA:** 8 (-1)
 
 Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 ### Actual Item List
 
-1. **Component Pouch / Arcane Focus:** A skull or a carved bone focus.
-2. **Spellbook:** Bound in dark leather and containing your necromantic studies.
-3. **Skeletons Equipment:** 4 Shortbows, 4 Quivers (with 20 arrows each), and 4 sets of leather scraps (to armor them if DM allows).
-4. **Flying Broom**: A tool that allows the character to fly
+Actual Item List: ./actual inventory list.md
+
+1. **Staff of the Magi / Arcane Focus:** Bastón legendario canalizador arcano.
+2. **Spellbook:** Tomo de cuero oscuro con todos los conjuros de Mago hasta nivel 9.
+3. **Equipamiento de Esqueletos:** 8 Arcos Cortos, 8 Aljabas (flechas ilimitadas por Bastión).
+4. **Broom of Flying:** Montura voladora (50 ft velocidad de vuelo sin sintonización).
 
 ---
 
-## Combat Role: Backline Aerial Summoner (Controller + Support + Blaster)
+## Combat Role: Backline Aerial Summoner & Master Controller
 
 ### 1. Resource Management & Inventory Rules
 
-* **Undead Upkeep:** You must reserve one 3rd-level spell slot daily to cast **Animate Dead** (reasserting control over your 4 skeletons). This leaves you with:
-  * 1st level slots: 4/4
-  * 2nd level slots: 3/3
-  * 3rd level slots: 2/3
-* **Corpse Economy:** Deberás conseguir y llevar un registro de los cadáveres u huesos humanoides disponibles. Si te quedas sin cuerpos físicos, dependes de **Summon Undead** (que usa un foco reutilizable). *Nota:* Esta limitación se elimina por completo una vez que obtienes el **Anillo del Pastor de Almas**, el cual te permite alzar sirvientes a partir de ectoplasma del Plano de la Sombra sin necesidad de restos físicos.
-* **Ammunition Tracking:** Maintain a tally of arrows fired by your skeletons (average 4 arrows per round total).
-* **Aerial Mobility:** Con la **Flying Broom** (Escoba Voladora), tienes una velocidad de vuelo de 50 pies sin requerir sintonización. Mantente siempre flotando a una altura segura (20-30 pies) para evitar por completo a los enemigos cuerpo a cuerpo.
+* **Undead Upkeep & Signature Spells:** A nivel 20, utilizas tu rasgo *Signature Spells* de nivel 20 para recuperar 1 uso gratuito por descanso corto de **Animate Dead** (nivel 3) y **Counterspell** (nivel 3) sin gastar espacios de conjuro.
+* **Mastery Spells (A voluntad):** Con *Spell Mastery* (nivel 18), lanzas **Shield** (nivel 1) y **Misty Step** (nivel 2) **a voluntad sin consumir espacios**.
+* **Corpse Economy & Anillo del Pastor:** Con el **Anillo del Pastor de Almas**, alzas sirvientes a partir de ectoplasma del Plano de la Sombra sin requerir restos físicos.
+* **Command Undead (Nivel 14):** Controlas de forma permanente a un Muerto Viviente legendario (ej. Señor de las Momias / *Mummy Lord* o *Nightwalker*) sin gastar concentración.
+* **Mobility Aerial:** Con la **Broom of Flying**, mantente flotando a 30 pies de altura para evadir cualquier amenaza cuerpo a cuerpo mientras diriges tus tropas desde el aire.
 
 ### 2. Action Economy & Combat Loop
 
-* **Pre-combat:** Asegúrate de que tus esqueletos están armados y de estar montado en tu **Flying Broom**.
-* **Turn 1:**
-  * **Action:** Lanza **Bless** (1.º nivel) sobre ti y tus esbirros.
-  * **Movement:** Vuela hacia arriba (20-30 pies de altura) para posicionarte fuera del alcance cuerpo a cuerpo.
-  * **Bonus Action:** Ordena a tus esqueletos concentrar el fuego en un objetivo clave (ej. lanzador de conjuros enemigo).
-* **Turn 2+:**
-  * **Action:** Lanza **Toll the Dead** (rango 60 pies, ideal desde el aire) o **Mind Sliver**.
-  * **Bonus Action:** Ordena atacar a los esqueletos.
-  * **Reaction:** Lanza **Shield** o **Absorb Elements** contra ataques a distancia o conjuros enemigos. Si eres derribado o desmontado en el aire, reserva tu reacción para **Feather Fall** (evitando daño por caída e interrupción de concentración).
+* **Pre-combat:** Invoca tu simulacro (*Simulacrum*), sintoniza tu montura voladora y mantén tu *Mage Armor* y *Mind Blank* (24h) activos.
+* **Turno 1:**
+  * **Action:** Lanza **Summon Undead** (nivel 8 o 9) o **Wall of Force** / **Forcecage**.
+  * **Movement:** Eleva tu escoba a 30 pies de altura.
+  * **Bonus Action:** Ordena a tu ejército de esqueletos y al Señor de las Momias concentrar el fuego.
+* **Turno 2+:**
+  * **Action:** Lanza **Toll the Dead** (4d12 necrótico) o un conjuro de control/ataque masivo (*Wish*, *Sunburst*, *Finger of Death*).
+  * **Bonus Action:** Dirige ataques de esbirros o *Misty Step* a voluntad.
+  * **Reaction:** *Shield* (a voluntad para CA 22+), *Counterspell* (gratis 1/descanso corto) o *Absorb Elements*.
 
 ---
 
-## 3. The META: Summon Undead and Boost Them with Wizard Spells
+## 3. The META Engine: Level 20 Necromancy Battery
 
-The core optimization of the **Spirit Caller** relies on two synergistic pillars:
+### A. Army of Skeletons + Undead Thralls (Nivel 20)
 
-### A. The Skeleton Archer Battery (*Animate Dead* + *Bless*)
+Con **Undead Thralls** a nivel 20 (PB +6), cada esqueleto tiene:
+* **HP Máximos:** $13 + 20 = 33$ HP por esqueleto.
+* **Daño por Flecha:** $1\text{d}6 + 2 + 6 (\text{PB}) = 1\text{d}6 + 8$ de daño perforante.
 
-At level 6, **Undead Thralls** increases your skeletons' HP to 19 ($13 + 6$) and their shortbow damage by +3 (your PB).
+### B. Upcast Summon Undead (8.º / 9.º Nivel)
 
-* **Without Bless:** A skeleton has +4 to hit. Against CA 15, it has a 50% hit chance.
-* **With Bless:** A skeleton gets +1d4 (average +2.5) to hit. Against CA 15, its hit chance increases to **62.5%**.
-* **DPR Equation (4 Skeletons + Bless):**
-    $$\text{DPR} = 4 \times \left(0.625 \times (1d6 + 5) + 0.05 \times 1d6\right) = 4 \times 5.4875 = 21.95 \text{ DPR}$$
-* Combined with your own **Toll the Dead** (approx. 7.80 DPR), this setup yields **29.75 DPR** sustainably without expending high-level slots in active combat.
-
-### B. The Single Dreadful Spirit (*Summon Undead* - 3rd/4th Level)
-
-When physical bodies are unavailable, use **Summon Undead** (Ghostly, Putrid, or Skeletal):
-
-* **Putrid Option:** Excellent for control. Its attacks can poison the enemy, and poisoned enemies within 5 feet of it must save or become **Paralyzed**.
-* **Skeletal Option (3rd level slot):** Makes 1 Grave Bolt attack at +7 to hit ($P = 0.65$ against CA 15).
-    $$\text{DPR} = 0.65 \times (1d6 + 6) + 0.05 \times 1d6 = 6.35 \text{ DPR}$$
-* **Skeletal Option (4th level slot):** Makes 2 attacks.
-    $$\text{DPR} = 2 \times 7.00 = 14.00 \text{ DPR}$$
+Al invocar *Summon Undead* a 8.º o 9.º nivel:
+* Realiza **4 ataques por turno** a $+11$ de impacto.
+* **Daño:** $4 \times (1\text{d}6 + 11) = 4 \times 14.5 = 58 \text{ DPR}$ adicional garantizado por la invocación.
 
 ---
 
 ## 4. Home Rules & Species Specifics
 
-* **Undead Type Immunity:** As a Reborn (Undead), you are immune to humanoid-targeting spells.
-* **Knowledge from a Past Life:** You can roll a $1d4$ (or $1d6$ depending on legacy version) and add it to skill checks $PB$ times per long rest. Use this for crucial Arcana or History checks.
+* **Undead Type Immunity (Reborn):** Inmune a conjuros dirigidos a humanoides (*Hold Person*, *Charm Person*).
+* **Knowledge from a Past Life:** $+1d6$ a pruebas de característica $PB$ (6) veces por descanso largo.

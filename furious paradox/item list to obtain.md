@@ -46,6 +46,6 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Sun Blade (Estoque)** | Sí | ⚔️ Sí | **Priorizar 1:** Estoque de pura luz solar radiante. +3 a tiradas de ataque y daño, e inflige daño radiante extra contra muertos vivientes. Cuenta como estoque Finesse para Bladesong. |
-| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 2:** +1 a CA y salvaciones, apilado con tus Bracers of Defense. |
-| **Robe of the Archmagi** | Sí | — | Prioridad Baja: No se puede combinar con Unarmored Defense ya que establece tu CA base en 15+DEX (no apila con CON). |
+| **Armor of Invulnerability (Plate)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** Resistencia pasiva a daño no mágico; 10 min/día Inmunidad a daño no mágico. Combina con Armor of Agathys para devolver daño sin recibirlo. Eleva EHP a 50 (MÁX). |
+| **Sun Blade (Estoque)** | Sí | ⚔️ Sí | **Priorizar 2:** Estoque de pura luz solar radiante. +3 a tiradas de ataque y daño. |
+| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 3:** +1 a CA y salvaciones, apilado con tus Bracers of Defense. |

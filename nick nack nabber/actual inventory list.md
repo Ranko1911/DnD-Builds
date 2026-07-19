@@ -18,6 +18,9 @@ Esta lista detalla el equipamiento actual del personaje a nivel 20.
 ## 🔮 Foco Arcano y Componentes
 
 * **Armadura Arcana:** La propia armadura actúa como el foco universal de lanzamiento de conjuros para tu Artificer, permitiendo lanzar conjuros con las manos ocupadas (Escudo + Varita).
+## 💍 Objetos Mágicos Sintonizados (Attuned)
+
+1. **Luckblade (Daga / Estoque)** (Sintonizado - +1 CA/salvaciones, reroll d20 1/día, 1d3 deseos Wish)
 
 ## 🎒 Herramientas y Miscelánea
 

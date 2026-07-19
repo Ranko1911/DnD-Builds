@@ -49,9 +49,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Holy Avenger (Rapier)** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+3$ a ataques y daño. $+2d10$ de daño radiante adicional contra demonios/muertos vivientes y ventaja en salvaciones contra conjuros para ti y tus aliados. |
-| **Tome of Leadership and Influence** | No | — | **Priorizar 2:** $+2$ a tu puntuación de Carisma de forma permanente, permitiéndote alcanzar un **22** (+6 modificador). |
-| **Armor +3 (Plate) y Shield +3** | No | — | **Prioridad Alta (3):** Eleva tu CA base pasiva a un absurdo **26 CA** ($18 + 3 \text{ (Plate)} + 2 + 3 \text{ (Shield)} = 26$). |
+| **Ollamh Harp (Instrument of the Bards)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** Desventaja a salvaciones enemigas vs conjuros de encantamiento/charma y 7 conjuros de control gratis al día. Eleva Control a 42. |
+| **Holy Avenger (Rapier)** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+3$ a ataques y daño. $+2d10$ de daño radiante adicional contra demonios/muertos vivientes y ventaja en salvaciones contra conjuros. |
+| **Tome of Leadership and Influence** | No | — | **Priorizar 3:** $+2$ a tu puntuación de Carisma de forma permanente. |
 
 ---
 

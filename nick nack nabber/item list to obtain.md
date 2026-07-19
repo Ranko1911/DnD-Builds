@@ -46,5 +46,6 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Staff of the Magi** | Sí | ⚔️ Sí | **Priorizar 1:** +2 a ataques y salvaciones con conjuros. Contiene conjuros masivos (como Plane Shift o Fireball) y te permite absorber conjuros enemigos. Sintonizado ignorando restricciones de clase gracias a Artificer 14. |
-| **Ring of Spell Storing** | Sí | ⚔️ Sí | **Priorizar 2:** Almacena Shield o Silvery Barbs para usarlos de forma reactiva. |
+| **Luckblade (Daga / Estoque)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +1 a CA/salvaciones, reroll de tirada d20 1/día y 1d3 deseos Wish. Eleva Complejidad a 46. |
+| **Staff of the Magi** | Sí | ⚔️ Sí | **Priorizar 2:** +2 a ataques y salvaciones con conjuros y absorción de conjuros. |
+| **Ring of Spell Storing** | Sí | ⚔️ Sí | Prioridad Media. |

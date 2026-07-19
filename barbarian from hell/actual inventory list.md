@@ -8,7 +8,7 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Eldritch Claw Tattoo** o **Rod of the Pact Keeper +1** (Sintonizado - El Rod permite recuperar 1 espacio de conjuro al día para *Armor of Agathys*)
+1. **Ascendant Dragon's Wrath Greataxe / Glaive (Fuego/Ácido)** (Sintonizado - +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 1/día, Ráfaga Crítica 5d6 en área)
 2. **Belt of Fire Giant Strength** (Sintonizado - Fuerza 25)
 3. **Cloak of Displacement** (Sintonizado)
 

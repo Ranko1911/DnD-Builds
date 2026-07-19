@@ -8,7 +8,7 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-El personaje no cuenta con objetos mágicos sintonizados activos en su equipamiento por defecto inicial.
+1. **Ascendant Dragon's Wrath Rapier (Fuego/Frío)** (Sintonizado - +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 1/día, Ráfaga Crítica 5d6 en área).
 
 ## Inventario General (Mochila / Bag of Holding)
 

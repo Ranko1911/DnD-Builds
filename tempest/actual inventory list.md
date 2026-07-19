@@ -9,9 +9,9 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Arcane Grimoire +3** (Sintonizado - Reemplaza Wand of the War Mage)
-2. **Amulet of the Devout +1 + CMT** (Sintonizado - Combo Homebrew)
-3. **Staff of Power** (Sintonizado)
+1. **Staff of the Magi** (Sintonizado - +2 CD, ventaja en salvaciones vs magia, absorción de conjuros, 50 cargas)
+2. **Arcane Grimoire +3** (Sintonizado)
+3. **Amulet of the Devout +1** (Sintonizado)
 
 ## Inventario General (Mochila)
 

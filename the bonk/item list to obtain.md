@@ -42,7 +42,8 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Belt of Cloud Giant Strength** | Sí | [⚔️ Sí] | **Priorizar 1:** Establece tu Fuerza en 27 (+8), maximizando el poder de tus 5 golpes desarmados/garras. |
+| **Ascendant Dragon's Wrath Quarterstaff (Rayo)** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por impacto. Con 4 ataques por turno (Flurry of Blows), añade +12d6 de daño plano constante por asalto. Eleva DPR a 48. |
+| **Belt of Cloud Giant Strength** | Sí | [⚔️ Sí] | **Priorizar 2:** Establece tu Fuerza en 27 (+8), maximizando el poder de tus 5 golpes desarmados/garras. |
 | **Ring of Spell Turning** | Sí | [—] | Prioridad Media. Ventaja en salvaciones contra hechizos que te tomen como objetivo individual e intenta reflejarlos. |
 
 ---

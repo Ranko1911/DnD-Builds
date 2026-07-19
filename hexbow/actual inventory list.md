@@ -8,9 +8,9 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Amulet of Health** (Sintonizado - CON 19)
-2. **Cloak of Displacement** (Sintonizado)
-3. **Ring of Protection** o **Rod of the Pact Keeper +1** (Sintonizado - El Rod ayuda a la CD de conjuros fuera de combate y da 1 ranura extra)
+1. **Ascendant Dragon's Wrath Hand Crossbow / Longbow (Rayo/Ácido)** (Sintonizado - +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 1/día, Ráfaga Crítica 5d6 en área)
+2. **Amulet of Health** (Sintonizado - CON 19)
+3. **Cloak of Displacement** (Sintonizado)
 
 ## Inventario General (Mochila)
 

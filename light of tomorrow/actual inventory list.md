@@ -8,7 +8,7 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Bloodwell Vial +1** (Sintonizado)
+1. **Book of Exalted Deeds** (Sintonizado - Carisma a 24, True Sight 60 ft, cura automáticamente maximizada)
 2. **Illusionist's Bracers** (Sintonizado)
 3. **Robe of the Archmagi** (Sintonizado)
 

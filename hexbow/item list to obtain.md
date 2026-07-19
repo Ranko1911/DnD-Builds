@@ -49,8 +49,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Leadership and Influence** | No | — | **Priorizar 1:** $+2$ a tu puntuación de Carisma de forma permanente (superando el límite de 20 hasta **22**). Incrementa tu daño de ballesta de mano por duplicado (ataque básico $+$ *Lifedrinker*), CD de conjuros y salvaciones. |
-| **Armor +3 (Half-Plate)** | No | — | **Priorizar 2:** CA pasiva sube a 20 (25 con *Shield*). |
+| **Ascendant Dragon's Wrath Hand Crossbow / Longbow** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 y Ráfaga Crítica 5d6 en área. Detona explosiones de área masivas con Elven Accuracy y Hexblade's Curse (crítico 19-20). Eleva DPR a 50 (MÁX) y Control a 18. |
+| **Tome of Leadership and Influence** | No | — | **Priorizar 2:** $+2$ a tu puntuación de Carisma de forma permanente (superando el límite de 20 hasta **22**). |
+| **Armor +3 (Half-Plate)** | No | — | **Priorizar 3:** CA pasiva sube a 20 (25 con *Shield*). |
 | **Ring of Spell Turning** | Sí | ⚔️ **Sí** | **Priorizar 3:** Ventaja en salvaciones contra conjuros dirigidos exclusivamente a ti y los devuelve en caso de obtener un 20 en el dado. Reemplaza a Ring of Protection en la sintonización activa. |
 
 ---

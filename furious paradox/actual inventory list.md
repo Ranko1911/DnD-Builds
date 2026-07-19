@@ -17,6 +17,9 @@ Esta lista detalla el equipamiento actual del personaje a nivel 20.
 ## 🔮 Foco Arcano y Componentes
 
 * **Estoque Rúnico (Foco Universal):** Tu estoque de combate principal está inscrito con runas arcanas y actúa como tu foco universal de lanzamiento para todos tus conjuros de mago, eliminando la necesidad de manos libres.
+## 💍 Objetos Mágicos Sintonizados (Attuned)
+
+1. **Armor of Invulnerability (Plate)** (Sintonizado - Resistencia pasiva a daño no mágico; 10 min/día Inmunidad a daño no mágico)
 
 ## 🎒 Herramientas y Miscelánea
 

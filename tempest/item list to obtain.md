@@ -54,10 +54,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora directa de Staff of Power. Absorción de conjuros enemigos, arsenal ofensivo devastador, y ventaja en salvaciones contra conjuros. El objeto definitivo para un gish que lucha en primera línea contra lanzadores. La Staff puede usarse como arma cuerpo a cuerpo ($+3$ hit/daño). |
-| **Ioun Stone of Mastery** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ al bonificador de competencia (que sube a $+7$). Afecta a **todo**: ataques, CD de conjuros, salvaciones con competencia, Canalizar Divinidad, y pruebas de habilidad. Incremento universal de poder. |
-| **Amulet of the Devout +3 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 3:** Se mantiene del Tier anterior. Foco universal definitivo para maximizar tus CDs de conjuro (+3) y usos de Canalizar Divinidad, permitiendo usar Esculpir la Tormenta sin dañar aliados. |
-| **Armor +3 (Plate) y Shield +3** | No | — | **Prioridad Alta:** CA pasiva sube a un absurdo **26 CA** ($18 + 3 + 2 + 3 = 26$). Con *Shield* alcanzas **31 CA**. Virtualmente intocable. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** $+2$ a CD de conjuros, ventaja en salvaciones vs magia, absorción de conjuros y 50 cargas de nivel alto. Eleva Control a 48 y EHP a 44. |
+| **Ioun Stone of Mastery** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ al bonificador de competencia (que sube a $+7$). |
+| **Armor +3 (Plate) y Shield +3** | No | — | **Prioridad Alta (3):** CA pasiva sube a **26 CA** ($18 + 3 + 2 + 3 = 26$). |
 | **Robe of the Archmage** | Sí | No | Prioridad Nula para este build: CA base de 15 + DEX es inferior a Plate +3 (21 CA). Solo considerarlo si hay una mesa que permita vestirlo sobre armadura pesada. |
 
 ---

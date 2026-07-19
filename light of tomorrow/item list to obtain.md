@@ -50,9 +50,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Leadership and Influence** | No | — | **Priorizar 1:** Otorga $+2$ a tu puntuación de Carisma de forma permanente, permitiéndote superar el límite de 20 hasta un **22** (+6 modificador). Aumenta tu daño, curaciones y precisión. |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 2:** Arsenal ofensivo masivo y absorción mágica defensiva. Reemplaza al Bloodwell Vial +3 en la sintonización activa. |
-| **Armor +3 (Half-Plate) y Shield +3** | No | — | **Prioridad Alta (3):** Eleva tu AC base pasiva a un absurdo **25 CA** ($15 \text{ (Half-Plate)} + 3 + 2 \text{ (DEX)} + 2 \text{ (Shield)} + 3 = 25$). Con el conjuro *Shield* alcanzas **30 CA**. |
+| **Book of Exalted Deeds** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** Eleva Carisma a 24 (+7), True Sight 60 ft, aura de salvaciones aliadas y maximización automática de dados de curación. Soporte eleva a 50 (MÁX). |
+| **Tome of Leadership and Influence** | No | — | **Priorizar 2:** $+2$ a Carisma permanente. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 3:** Arsenal ofensivo masivo y absorción mágica defensiva. |
 | **Robe of the Archmage** | Sí | No | Prioridad Media: Si bien es excelente para magos puros, como gish acorazado con escudo, la combinación de armadura +3 suele ser preferible a menos que se prefiera la ventaja contra conjuros. |
 
 ---

@@ -8,8 +8,8 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Holy Avenger (Rapier)** (Sintonizado)
-2. **Scimitar of Speed** (Sintonizado)
+1. **Ollamh Harp (Instrument of the Bards)** (Sintonizado - Desventaja a salvaciones enemigas vs encantos, 7 conjuros de control de alto nivel al día)
+2. **Holy Avenger (Rapier)** (Sintonizado)
 3. **Cloak of Displacement** (Sintonizado)
 
 ## Inventario General (Mochila / Bag of Holding)
