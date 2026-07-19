@@ -42,8 +42,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Clear Thought** | No | [—] | **Priorizar 1:** +2 permanente a tu puntuación de Inteligencia (superando el límite de 20), mejorando todas tus CA y habilidades. |
-| **Ring of Spell Turning** | Sí | [⚔️ Sí] | Prioridad Media. Ventaja en salvaciones contra conjuros individuales e intenta devolverlos. |
+| **Staff of the Magi** | Sí | [⚔️ Sí] | **Priorizar 1 (META):** +2 a CD de conjuros, absorción de conjuros enemigos y 50 cargas de nivel alto. |
+| **Robe of the Archmagi** | Sí | [⚔️ Sí] | **Priorizar 2 (META):** CA base 15+DES, ventaja en salvaciones contra conjuros y +2 a CD de conjuros. |
+| **Tome of Clear Thought** | No | [—] | **Priorizar 3:** +2 permanente a tu Inteligencia (superando el límite de 20 hasta 22). |
+| **Ring of Spell Turning** | Sí | [—] | Prioridad Media. Ventaja en salvaciones contra conjuros individuales. |
 
 ---
 

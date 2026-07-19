@@ -8,8 +8,9 @@
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **Estoques infundidos (Enhanced Weapon)** (Sintonizado)
-2. **Túnica infundida (Mind Sharpener)** (Sintonizado)
+1. **Robe of the Archmagi** (Sintonizado - CA base 15+DES, ventaja en salvaciones contra conjuros, +2 a CD y ataques de conjuro).
+2. **Staff of the Magi** (Sintonizado - +2 a CD de conjuros, absorción de magia enemiga, 50 cargas).
+3. **Túnica infundida (Mind Sharpener)** (Sintonizado - Éxito automático en salvación de concentración fallida 4/día).
 
 ## Inventario General (Mochila / Bag of Holding)
 

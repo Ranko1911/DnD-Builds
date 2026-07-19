@@ -7,7 +7,13 @@
     "role": "Frontline Thorns Tank / Heavy Striker",
     "folder": "barbarian from hell",
     "youtube": null,
-    "ratings": { "dpr": 42, "ehp": 40, "control": 12, "support": 8, "complexity": 18 }
+    "ratings": {
+      "dpr": 84,
+      "ehp": 80,
+      "control": 24,
+      "support": 16,
+      "complexity": 36
+    }
   },
   {
     "id": "clocklock",
@@ -17,7 +23,13 @@
     "role": "Backline Blaster / Probability Manipulator ( soporte )",
     "folder": "Clocklock",
     "youtube": null,
-    "ratings": { "dpr": 34, "ehp": 22, "control": 48, "support": 32, "complexity": 44 }
+    "ratings": {
+      "dpr": 68,
+      "ehp": 44,
+      "control": 96,
+      "support": 64,
+      "complexity": 88
+    }
   },
   {
     "id": "cursed-pirate",
@@ -27,7 +39,13 @@
     "role": "Controller / Blaster ",
     "folder": "cursed pirate",
     "youtube": null,
-    "ratings": { "dpr": 26, "ehp": 22, "control": 44, "support": 28, "complexity": 28 }
+    "ratings": {
+      "dpr": 52,
+      "ehp": 44,
+      "control": 88,
+      "support": 56,
+      "complexity": 56
+    }
   },
   {
     "id": "hexbow",
@@ -37,7 +55,13 @@
     "role": "Ranged Nova Striker / Battlefield Sniper",
     "folder": "hexbow",
     "youtube": null,
-    "ratings": { "dpr": 50, "ehp": 18, "control": 18, "support": 4, "complexity": 22 }
+    "ratings": {
+      "dpr": 100,
+      "ehp": 36,
+      "control": 36,
+      "support": 8,
+      "complexity": 44
+    }
   },
   {
     "id": "light-of-tomorrow",
@@ -47,7 +71,13 @@
     "role": "Backline Blaster / Primary Healer / Support",
     "folder": "light of tomorrow",
     "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y",
-    "ratings": { "dpr": 32, "ehp": 22, "control": 26, "support": 50, "complexity": 38 }
+    "ratings": {
+      "dpr": 64,
+      "ehp": 44,
+      "control": 52,
+      "support": 100,
+      "complexity": 76
+    }
   },
   {
     "id": "spirit-caller",
@@ -57,7 +87,13 @@
     "role": "Backline Aerial Summoner / Master Controller",
     "folder": "spirit caller",
     "youtube": null,
-    "ratings": { "dpr": 42, "ehp": 36, "control": 48, "support": 24, "complexity": 42 }
+    "ratings": {
+      "dpr": 84,
+      "ehp": 72,
+      "control": 96,
+      "support": 48,
+      "complexity": 84
+    }
   },
   {
     "id": "techpriest",
@@ -67,7 +103,13 @@
     "role": "Frontline Dread Tank / Aggro Controller  ",
     "folder": "techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8",
-    "ratings": { "dpr": 18, "ehp": 50, "control": 32, "support": 26, "complexity": 24 }
+    "ratings": {
+      "dpr": 36,
+      "ehp": 100,
+      "control": 64,
+      "support": 52,
+      "complexity": 48
+    }
   },
   {
     "id": "tempest-demiurge",
@@ -77,7 +119,13 @@
     "role": "Frontline Gish Tank  Tactical AoE blaster",
     "folder": "tempest",
     "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ",
-    "ratings": { "dpr": 38, "ehp": 44, "control": 48, "support": 22, "complexity": 44 }
+    "ratings": {
+      "dpr": 76,
+      "ehp": 88,
+      "control": 96,
+      "support": 44,
+      "complexity": 88
+    }
   },
   {
     "id": "wrathful-whisperer",
@@ -87,7 +135,13 @@
     "role": "Frontline Striker / Evasion Tank",
     "folder": "Wrathful Whisperer",
     "youtube": null,
-    "ratings": { "dpr": 36, "ehp": 32, "control": 42, "support": 38, "complexity": 28 }
+    "ratings": {
+      "dpr": 72,
+      "ehp": 64,
+      "control": 84,
+      "support": 76,
+      "complexity": 56
+    }
   },
   {
     "id": "moon-guardian",
@@ -97,7 +151,13 @@
     "role": "Frontline Protector Tank / Off-Healer ( support )",
     "folder": "moon guardian",
     "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
-    "ratings": { "dpr": 18, "ehp": 48, "control": 26, "support": 36, "complexity": 18 }
+    "ratings": {
+      "dpr": 36,
+      "ehp": 96,
+      "control": 52,
+      "support": 72,
+      "complexity": 36
+    }
   },
   {
     "id": "the-bullet",
@@ -107,7 +167,13 @@
     "role": "Speed Gimmick / Ranged Sprinter",
     "folder": "the bullet",
     "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
-    "ratings": { "dpr": 12, "ehp": 22, "control": 8, "support": 16, "complexity": 44 }
+    "ratings": {
+      "dpr": 24,
+      "ehp": 44,
+      "control": 16,
+      "support": 32,
+      "complexity": 88
+    }
   },
   {
     "id": "eldritch-shadow",
@@ -117,7 +183,13 @@
     "role": "Frontline Gish Striker / Battlefield Controller",
     "folder": "eldritch shadow",
     "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
-    "ratings": { "dpr": 36, "ehp": 32, "control": 26, "support": 8, "complexity": 24 }
+    "ratings": {
+      "dpr": 72,
+      "ehp": 64,
+      "control": 52,
+      "support": 16,
+      "complexity": 48
+    }
   },
   {
     "id": "magical-mischief-murder-man",
@@ -127,7 +199,13 @@
     "role": "Striker / Face / Skill Monkey",
     "folder": "magical mischief murder man",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
-    "ratings": { "dpr": 36, "ehp": 26, "control": 18, "support": 12, "complexity": 24 }
+    "ratings": {
+      "dpr": 72,
+      "ehp": 52,
+      "control": 36,
+      "support": 24,
+      "complexity": 48
+    }
   },
   {
     "id": "beelzebubs-ballista",
@@ -137,7 +215,13 @@
     "role": "Ranged Control Striker / Turret",
     "folder": "beelzebubs ballista",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
-    "ratings": { "dpr": 42, "ehp": 32, "control": 36, "support": 22, "complexity": 28 }
+    "ratings": {
+      "dpr": 84,
+      "ehp": 64,
+      "control": 72,
+      "support": 44,
+      "complexity": 56
+    }
   },
   {
     "id": "nick-nack-nabber",
@@ -147,7 +231,13 @@
     "role": "Frontline Utility / Item Specialist",
     "folder": "nick nack nabber",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
-    "ratings": { "dpr": 26, "ehp": 36, "control": 32, "support": 36, "complexity": 46 }
+    "ratings": {
+      "dpr": 52,
+      "ehp": 72,
+      "control": 64,
+      "support": 72,
+      "complexity": 92
+    }
   },
   {
     "id": "furry-fury",
@@ -157,7 +247,13 @@
     "role": "Melee/Ranged Nova Striker",
     "folder": "furry fury",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
-    "ratings": { "dpr": 46, "ehp": 26, "control": 26, "support": 32, "complexity": 34 }
+    "ratings": {
+      "dpr": 92,
+      "ehp": 52,
+      "control": 52,
+      "support": 64,
+      "complexity": 68
+    }
   },
   {
     "id": "furious-paradox",
@@ -167,7 +263,13 @@
     "role": "Frontline Thorns EHP Tank / Gish",
     "folder": "furious paradox",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
-    "ratings": { "dpr": 32, "ehp": 50, "control": 22, "support": 16, "complexity": 38 }
+    "ratings": {
+      "dpr": 64,
+      "ehp": 100,
+      "control": 44,
+      "support": 32,
+      "complexity": 76
+    }
   },
   {
     "id": "spymaster",
@@ -177,7 +279,13 @@
     "role": "Infiltrator / Utility / Skill Monkey / Gish",
     "folder": "spymaster",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
-    "ratings": { "dpr": 32, "ehp": 26, "control": 22, "support": 22, "complexity": 28 }
+    "ratings": {
+      "dpr": 64,
+      "ehp": 52,
+      "control": 44,
+      "support": 44,
+      "complexity": 56
+    }
   },
   {
     "id": "the-bonk",
@@ -187,7 +295,13 @@
     "role": "Frontline Striker / Grappler / Temp HP Tank",
     "folder": "the bonk",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
-    "ratings": { "dpr": 48, "ehp": 42, "control": 26, "support": 4, "complexity": 24 }
+    "ratings": {
+      "dpr": 96,
+      "ehp": 84,
+      "control": 52,
+      "support": 8,
+      "complexity": 48
+    }
   },
   {
     "id": "le-biter",
@@ -197,7 +311,13 @@
     "role": "Frontline Gish / Controller / Face",
     "folder": "le biter",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
-    "ratings": { "dpr": 44, "ehp": 32, "control": 32, "support": 26, "complexity": 34 }
+    "ratings": {
+      "dpr": 88,
+      "ehp": 64,
+      "control": 64,
+      "support": 52,
+      "complexity": 68
+    }
   },
   {
     "id": "penny-pinchin-preacher",
@@ -207,7 +327,13 @@
     "role": "Resilient Passive Support / Skill Monkey",
     "folder": "penny pinchin preacher",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
-    "ratings": { "dpr": 32, "ehp": 36, "control": 26, "support": 42, "complexity": 28 }
+    "ratings": {
+      "dpr": 64,
+      "ehp": 72,
+      "control": 52,
+      "support": 84,
+      "complexity": 56
+    }
   },
   {
     "id": "bear-with-a-flamethrower",
@@ -217,7 +343,13 @@
     "role": "Wild Shape Fire Blaster / Temp HP Tank",
     "folder": "bear with a flamethrower",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
-    "ratings": { "dpr": 32, "ehp": 48, "control": 22, "support": 32, "complexity": 38 }
+    "ratings": {
+      "dpr": 64,
+      "ehp": 96,
+      "control": 44,
+      "support": 64,
+      "complexity": 76
+    }
   },
   {
     "id": "the-fartificer",
@@ -227,7 +359,13 @@
     "role": "Ranged Gadget Sniper / Heavy Striker",
     "folder": "the fartificer",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
-    "ratings": { "dpr": 40, "ehp": 36, "control": 22, "support": 16, "complexity": 34 }
+    "ratings": {
+      "dpr": 80,
+      "ehp": 72,
+      "control": 44,
+      "support": 32,
+      "complexity": 68
+    }
   },
   {
     "id": "fist-of-god",
@@ -237,7 +375,13 @@
     "role": "Frontline Striker / Divine Healer / Controller",
     "folder": "fist of god",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
-    "ratings": { "dpr": 36, "ehp": 32, "control": 36, "support": 36, "complexity": 38 }
+    "ratings": {
+      "dpr": 72,
+      "ehp": 64,
+      "control": 72,
+      "support": 72,
+      "complexity": 76
+    }
   },
   {
     "id": "priest-of-the-wilds",
@@ -247,7 +391,13 @@
     "role": "Ranged Nova Sniper / Support Turret",
     "folder": "priest of the wilds",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
-    "ratings": { "dpr": 40, "ehp": 32, "control": 26, "support": 36, "complexity": 34 }
+    "ratings": {
+      "dpr": 80,
+      "ehp": 64,
+      "control": 52,
+      "support": 72,
+      "complexity": 68
+    }
   },
   {
     "id": "shadow-tank",
@@ -257,7 +407,13 @@
     "role": "Frontline Thorns Tank / Heavy Striker",
     "folder": "shadow tank",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
-    "ratings": { "dpr": 36, "ehp": 48, "control": 26, "support": 8, "complexity": 28 }
+    "ratings": {
+      "dpr": 72,
+      "ehp": 96,
+      "control": 52,
+      "support": 16,
+      "complexity": 56
+    }
   },
   {
     "id": "sneaky-smasher",
@@ -267,7 +423,13 @@
     "role": "Frontline Evasion Striker / Grappler",
     "folder": "sneaky smasher",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
-    "ratings": { "dpr": 36, "ehp": 42, "control": 26, "support": 12, "complexity": 24 }
+    "ratings": {
+      "dpr": 72,
+      "ehp": 84,
+      "control": 52,
+      "support": 24,
+      "complexity": 48
+    }
   },
   {
     "id": "warrior-of-flame",
@@ -277,7 +439,13 @@
     "role": "Frontline Nova Striker / Aura Support",
     "folder": "warrior of flame",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
-    "ratings": { "dpr": 50, "ehp": 36, "control": 22, "support": 32, "complexity": 38 }
+    "ratings": {
+      "dpr": 100,
+      "ehp": 72,
+      "control": 44,
+      "support": 64,
+      "complexity": 76
+    }
   },
   {
     "id": "iron-dancer",
@@ -287,6 +455,12 @@
     "role": "Evasion Tank / Spell Mastery / Shapechange Angel",
     "folder": "iron dancer",
     "youtube": "https://www.youtube.com/watch?v=o6-7L7cx6WI",
-    "ratings": { "dpr": 42, "ehp": 50, "control": 36, "support": 18, "complexity": 44 }
+    "ratings": {
+      "dpr": 84,
+      "ehp": 100,
+      "control": 72,
+      "support": 36,
+      "complexity": 88
+    }
   }
 ]

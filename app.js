@@ -992,7 +992,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (!toggleRadar || !toggleRadar.checked || !build.ratings) { panel.classList.add('hidden'); return; }
 
         const r = build.ratings;
-        const MAX_RATING = 50;
+        const MAX_RATING = 100;
         const axes = [
             { key: 'dpr', label: 'DPR', val: r.dpr || 0 },
             { key: 'ehp', label: 'EHP', val: r.ehp || 0 },
@@ -1009,10 +1009,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return { x: cx + Math.cos(a) * maxR * scale, y: cy + Math.sin(a) * maxR * scale };
         }
 
-        // Grid rings at 10, 20, 30, 40, 50
+        // Grid rings at 20, 40, 60, 80, 100
         let gridSvg = '';
         let ringLabelsSvg = '';
-        [10, 20, 30, 40, 50].forEach(val => {
+        [20, 40, 60, 80, 100].forEach(val => {
             const s = val / MAX_RATING;
             const pts = [];
             for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x},${p.y}`); }
@@ -1049,7 +1049,7 @@ document.addEventListener('DOMContentLoaded', () => {
             const pLabel = polar(i, 1.22);
             const anchor = pLabel.x < cx - 5 ? 'end' : pLabel.x > cx + 5 ? 'start' : 'middle';
             labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y - 6}" text-anchor="${anchor}" dominant-baseline="central" class="radar-label">${axes[i].label}</text>`;
-            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y + 8}" text-anchor="${anchor}" dominant-baseline="central" class="radar-value-label">${axes[i].val}/50</text>`;
+            labelsSvg += `<text x="${pLabel.x}" y="${pLabel.y + 8}" text-anchor="${anchor}" dominant-baseline="central" class="radar-value-label">${axes[i].val}/100</text>`;
         }
 
         panel.innerHTML = `<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${dataSvg}${dotsSvg}${ringLabelsSvg}${labelsSvg}</svg>`;
@@ -1320,10 +1320,10 @@ document.addEventListener('DOMContentLoaded', () => {
             html += `<tr class="${isAvg ? 'font-bold' : ''}"><td>${ratingLabels[key]}</td>`;
             builds.forEach(build => {
                 const val = isAvg ? getBuildAvg(build) : ((build.ratings && build.ratings[key]) || 0);
-                let cellContent = `${val}/50`;
+                let cellContent = `${val}/100`;
 
                 if (val === maxRatings[key] && val > 0) {
-                    cellContent = `<span class="stat-winner">${val}/50</span>`;
+                    cellContent = `<span class="stat-winner">${val}/100</span>`;
                 }
 
                 html += `<td class="build-col-${build.id}" data-build-id="${build.id}">${cellContent}</td>`;
@@ -1381,7 +1381,7 @@ document.addEventListener('DOMContentLoaded', () => {
             { key: 'complexity', label: 'Complejidad' }
         ];
         const n = axes.length;
-        const MAX_RATING = 50;
+        const MAX_RATING = 100;
         const cx = 180, cy = 140, maxR = 100;
         const angleOff = -Math.PI / 2;
 
@@ -1390,10 +1390,10 @@ document.addEventListener('DOMContentLoaded', () => {
             return { x: cx + Math.cos(a) * maxR * scale, y: cy + Math.sin(a) * maxR * scale };
         }
 
-        // Grid rings at 10, 20, 30, 40, 50
+        // Grid rings at 20, 40, 60, 80, 100
         let gridSvg = '';
         let ringLabelsSvg = '';
-        [10, 20, 30, 40, 50].forEach(val => {
+        [20, 40, 60, 80, 100].forEach(val => {
             const s = val / MAX_RATING;
             const pts = [];
             for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x},${p.y}`); }
@@ -1590,7 +1590,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rating-cell">
                             <span class="rating-val">${ratings.dpr}</span>
                             <div class="rating-bar-bg">
-                                <div class="rating-bar-fill dpr-color" style="width: ${(ratings.dpr / 50) * 100}%"></div>
+                                <div class="rating-bar-fill dpr-color" style="width: ${ratings.dpr}%"></div>
                             </div>
                         </div>
                     </td>
@@ -1600,7 +1600,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rating-cell">
                             <span class="rating-val">${ratings.ehp}</span>
                             <div class="rating-bar-bg">
-                                <div class="rating-bar-fill ehp-color" style="width: ${(ratings.ehp / 50) * 100}%"></div>
+                                <div class="rating-bar-fill ehp-color" style="width: ${ratings.ehp}%"></div>
                             </div>
                         </div>
                     </td>
@@ -1610,7 +1610,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rating-cell">
                             <span class="rating-val">${ratings.control}</span>
                             <div class="rating-bar-bg">
-                                <div class="rating-bar-fill control-color" style="width: ${(ratings.control / 50) * 100}%"></div>
+                                <div class="rating-bar-fill control-color" style="width: ${ratings.control}%"></div>
                             </div>
                         </div>
                     </td>
@@ -1620,7 +1620,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rating-cell">
                             <span class="rating-val">${ratings.support}</span>
                             <div class="rating-bar-bg">
-                                <div class="rating-bar-fill support-color" style="width: ${(ratings.support / 50) * 100}%"></div>
+                                <div class="rating-bar-fill support-color" style="width: ${ratings.support}%"></div>
                             </div>
                         </div>
                     </td>
@@ -1630,7 +1630,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rating-cell">
                             <span class="rating-val">${ratings.complexity}</span>
                             <div class="rating-bar-bg">
-                                <div class="rating-bar-fill complexity-color" style="width: ${(ratings.complexity / 50) * 100}%"></div>
+                                <div class="rating-bar-fill complexity-color" style="width: ${ratings.complexity}%"></div>
                             </div>
                         </div>
                     </td>
@@ -1640,7 +1640,7 @@ document.addEventListener('DOMContentLoaded', () => {
                         <div class="rating-cell">
                             <span class="rating-val" style="color: #a78bfa; font-weight: 800;">${avgStr}</span>
                             <div class="rating-bar-bg">
-                                <div class="rating-bar-fill avg-color" style="width: ${(avgVal / 50) * 100}%"></div>
+                                <div class="rating-bar-fill avg-color" style="width: ${avgVal}%"></div>
                             </div>
                         </div>
                     </td>
