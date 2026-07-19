@@ -101,26 +101,26 @@ DnDbuilds/
 | Build | Clases | Sistema | Rol | YouTube |
 | :--- | :--- | :---: | :--- | :---: |
 | **Barbarian from Hell** | Barbarian (Zealot) 6 / Warlock (Fiend) 14 | D&D 5e (2014) | Frontline Thorns Tank / Heavy Striker | — |
-| **Clocklock** | Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2 | D&D 5e (2014) | Backline Blaster / Probability Manipulator ( soporte ) | — |
-| **Cursed Pirate** | Druid (Circle of the Stars) 20 | D&D 5e (2014) | Controller / Blaster  | — |
+| **Clocklock** | Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2 | D&D 5e (2014) | Backline Blaster / Support / Probability Controller | — |
+| **Cursed Pirate** | Druid (Circle of the Stars) 20 | D&D 5e (2014) | Controller / Blaster / Star Shape Striker | — |
 | **Hexbow** | Warlock (Hexblade) 17 / Fighter (Battle Master) 3 | D&D 5e (2014) | Ranged Nova Striker / Battlefield Sniper | — |
 | **Light of Tomorrow** | Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2 | D&D 5e (2014) | Backline Blaster / Primary Healer / Support | [Vídeo](https://www.youtube.com/watch?v=mStIR0mOJ1Y) |
 | **Spirit Caller** | Wizard (Necromancer) 20 | D&D 5e (2024 / 5.5e) | Backline Aerial Summoner / Master Controller | — |
-| **Techpriest** | Artificer (Armorer) 14 / Cleric (Forge) 6 | D&D 5e (2014) | Frontline Dread Tank / Aggro Controller   | [Vídeo](https://www.youtube.com/watch?v=2AlDD4nQW-8) |
-| **Tempest Demiurge** | Cleric (Tempest) 4 / Wizard (Scribes) 16 | D&D 5e (2024 / 5.5e) | Frontline Gish Tank  Tactical AoE blaster | [Vídeo](https://www.youtube.com/watch?v=E3uPr0wLiaQ) |
+| **Techpriest** | Artificer (Armorer) 14 / Cleric (Forge) 6 | D&D 5e (2014) | Frontline Dread Tank / Aggro Controller | [Vídeo](https://www.youtube.com/watch?v=2AlDD4nQW-8) |
+| **Tempest Demiurge** | Cleric (Tempest) 4 / Wizard (Scribes) 16 | D&D 5e (2024 / 5.5e) | Frontline Gish Tank / Tactical AoE Blaster | [Vídeo](https://www.youtube.com/watch?v=E3uPr0wLiaQ) |
 | **Wrathful Whisperer** | Paladin 2 / Bard (College of Swords) 18 | D&D 5e (2014) | Frontline Striker / Evasion Tank | — |
-| **Moon Guardian** | Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13 | D&D 5e (2014) | Frontline Protector Tank / Off-Healer ( support ) | [Vídeo](https://www.youtube.com/watch?v=WXXzI8kzwnY) |
-| **The Bullet** | Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2 | D&D 5e (2014) | Speed Gimmick / Ranged Sprinter | [Vídeo](https://www.youtube.com/watch?v=2VaxXiIcgDU) |
+| **Moon Guardian** | Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13 | D&D 5e (2014) | Frontline Protector Tank / Off-Healer Support | [Vídeo](https://www.youtube.com/watch?v=WXXzI8kzwnY) |
+| **The Bullet** | Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2 | D&D 5e (2014) | Speed Gimmick / Ranged Sprinter / Mobility Specialist | [Vídeo](https://www.youtube.com/watch?v=2VaxXiIcgDU) |
 | **Eldritch Shadow** | Fighter (Eldritch Knight) 20 | D&D 5e (2014) | Frontline Gish Striker / Battlefield Controller | [Vídeo](https://www.youtube.com/watch?v=3cTpabjXj90) |
-| **Magical Mischief Murder Man** | Sorcerer 1 / Rogue (Swashbuckler) 19 | D&D 5e (2024 / 5.5e) | Striker / Face / Skill Monkey | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
-| **Beelzebub's Ballista** | Warlock (Celestial) 19 / Fighter 1 | D&D 5e (2024 / 5.5e) | Ranged Control Striker / Turret | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
-| **Nick Nack Nabber** | Artificer (Armorer) 17 / Rogue (Thief) 3 | D&D 5e (2024 / 5.5e) | Frontline Utility / Item Specialist | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
-| **Furry Fury** | Bard (Valor) 19 / Warlock 1 | D&D 5e (2024 / 5.5e) | Melee/Ranged Nova Striker | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
+| **Magical Mischief Murder Man** | Sorcerer 1 / Rogue (Swashbuckler) 19 | D&D 5e (2024 / 5.5e) | Frontline Striker / Face / Skill Monkey | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
+| **Beelzebub's Ballista** | Warlock (Celestial) 19 / Fighter 1 | D&D 5e (2024 / 5.5e) | Ranged Control Striker / Artillery Turret | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
+| **Nick Nack Nabber** | Artificer (Armorer) 17 / Rogue (Thief) 3 | D&D 5e (2024 / 5.5e) | Frontline Tank / Utility / Item Specialist | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
+| **Furry Fury** | Bard (Valor) 19 / Warlock 1 | D&D 5e (2024 / 5.5e) | Melee / Ranged Nova Striker / Support | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
 | **Furious Paradox** | Wizard (Bladesinger) 18 / Barbarian 2 | D&D 5e (2014) | Frontline Thorns EHP Tank / Gish | [Vídeo](https://www.youtube.com/watch?v=CwWNdQ_7uGc) |
-| **Spymaster** | Rogue (Soulknife) 18 / Artificer 2 | D&D 5e (2024 / 5.5e) | Infiltrator / Utility / Skill Monkey / Gish | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
+| **Spymaster** | Rogue (Soulknife) 18 / Artificer 2 | D&D 5e (2024 / 5.5e) | Infiltrator / Skill Monkey / Utility Gish | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
 | **The BONK** | Barbarian (Beast) 3 / Monk (Long Death) 17 | D&D 5e (2014) | Frontline Striker / Grappler / Temp HP Tank | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
 | **Le Biter** | Fighter (Battle Master) 17 / Bard (Swords) 3 | D&D 5e (2014) | Frontline Gish / Controller / Face | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
-| **Penny Pinchin' Preacher** | Rogue (Soulknife) 18 / Cleric (Twilight) 2 | D&D 5e (2024 / 5.5e) | Resilient Passive Support / Skill Monkey | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
+| **Penny Pinchin' Preacher** | Rogue (Soulknife) 18 / Cleric (Twilight) 2 | D&D 5e (2024 / 5.5e) | Resilient Support / Skill Monkey / Infiltrator | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
 | **Bear with a Flamethrower** | Druid (Moon) 17 / Artificer (Artillerist) 3 | D&D 5e (2024 / 5.5e) | Wild Shape Fire Blaster / Temp HP Tank | [Vídeo](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
 | **Fartificer** | Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3 | D&D 5e (2014) | Ranged Gadget Sniper / Heavy Striker | [Vídeo](https://www.youtube.com/watch?v=29_n1luQRmI) |
 | **Fist of God** | Monk (Way of Mercy) 12 / Cleric (War Domain) 8 | D&D 5e (2014) | Frontline Striker / Divine Healer / Controller | [Vídeo](https://www.youtube.com/watch?v=29_n1luQRmI) |
@@ -128,7 +128,7 @@ DnDbuilds/
 | **Shadow Tank** | Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3 | D&D 5e (2014) | Frontline Thorns Tank / Heavy Striker | [Vídeo](https://www.youtube.com/watch?v=Yddy6J-_VMU) |
 | **Sneaky Smasher** | Rogue (Soulknife) 17 / Barbarian (Totem Warrior) 3 | D&D 5e (2014) | Frontline Evasion Striker / Grappler | [Vídeo](https://www.youtube.com/watch?v=Yddy6J-_VMU) |
 | **Warrior of Flame** | Sorcerer (Draconic) 14 / Paladin (Devotion) 6 | D&D 5e (2014) | Frontline Nova Striker / Aura Support | [Vídeo](https://www.youtube.com/watch?v=Yddy6J-_VMU) |
-| **Iron Dancer** | Wizard (Bladesinger) 18 / Artificer 2 | D&D 5e (2014) | Evasion Tank / Spell Mastery / Shapechange Angel | [Vídeo](https://www.youtube.com/watch?v=o6-7L7cx6WI) |
+| **Iron Dancer** | Wizard (Bladesinger) 18 / Artificer 2 | D&D 5e (2014) | Frontline Evasion Tank / Shapechange Angel / Spell Master | [Vídeo](https://www.youtube.com/watch?v=o6-7L7cx6WI) |
 
 ---
 

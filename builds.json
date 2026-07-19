@@ -20,7 +20,7 @@
     "name": "Clocklock",
     "classes": "Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2",
     "system": "D&D 5e (2014)",
-    "role": "Backline Blaster / Probability Manipulator ( soporte )",
+    "role": "Backline Blaster / Support / Probability Controller",
     "folder": "Clocklock",
     "youtube": null,
     "ratings": {
@@ -36,7 +36,7 @@
     "name": "Cursed Pirate",
     "classes": "Druid (Circle of the Stars) 20",
     "system": "D&D 5e (2014)",
-    "role": "Controller / Blaster ",
+    "role": "Controller / Blaster / Star Shape Striker",
     "folder": "cursed pirate",
     "youtube": null,
     "ratings": {
@@ -100,7 +100,7 @@
     "name": "Techpriest",
     "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Dread Tank / Aggro Controller  ",
+    "role": "Frontline Dread Tank / Aggro Controller",
     "folder": "techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8",
     "ratings": {
@@ -116,7 +116,7 @@
     "name": "Tempest Demiurge",
     "classes": "Cleric (Tempest) 4 / Wizard (Scribes) 16",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Frontline Gish Tank  Tactical AoE blaster",
+    "role": "Frontline Gish Tank / Tactical AoE Blaster",
     "folder": "tempest",
     "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ",
     "ratings": {
@@ -148,7 +148,7 @@
     "name": "Moon Guardian",
     "classes": "Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Protector Tank / Off-Healer ( support )",
+    "role": "Frontline Protector Tank / Off-Healer Support",
     "folder": "moon guardian",
     "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
     "ratings": {
@@ -164,7 +164,7 @@
     "name": "The Bullet",
     "classes": "Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2",
     "system": "D&D 5e (2014)",
-    "role": "Speed Gimmick / Ranged Sprinter",
+    "role": "Speed Gimmick / Ranged Sprinter / Mobility Specialist",
     "folder": "the bullet",
     "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
     "ratings": {
@@ -196,7 +196,7 @@
     "name": "Magical Mischief Murder Man",
     "classes": "Sorcerer 1 / Rogue (Swashbuckler) 19",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Striker / Face / Skill Monkey",
+    "role": "Frontline Striker / Face / Skill Monkey",
     "folder": "magical mischief murder man",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -212,7 +212,7 @@
     "name": "Beelzebub's Ballista",
     "classes": "Warlock (Celestial) 19 / Fighter 1",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Ranged Control Striker / Turret",
+    "role": "Ranged Control Striker / Artillery Turret",
     "folder": "beelzebubs ballista",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -228,7 +228,7 @@
     "name": "Nick Nack Nabber",
     "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Frontline Utility / Item Specialist",
+    "role": "Frontline Tank / Utility / Item Specialist",
     "folder": "nick nack nabber",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -244,7 +244,7 @@
     "name": "Furry Fury",
     "classes": "Bard (Valor) 19 / Warlock 1",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Melee/Ranged Nova Striker",
+    "role": "Melee / Ranged Nova Striker / Support",
     "folder": "furry fury",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -276,7 +276,7 @@
     "name": "Spymaster",
     "classes": "Rogue (Soulknife) 18 / Artificer 2",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Infiltrator / Utility / Skill Monkey / Gish",
+    "role": "Infiltrator / Skill Monkey / Utility Gish",
     "folder": "spymaster",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -313,7 +313,7 @@
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 88,
-      "ehp": 64,
+      "ehp": 88,
       "control": 64,
       "support": 52,
       "complexity": 68
@@ -324,7 +324,7 @@
     "name": "Penny Pinchin' Preacher",
     "classes": "Rogue (Soulknife) 18 / Cleric (Twilight) 2",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Resilient Passive Support / Skill Monkey",
+    "role": "Resilient Support / Skill Monkey / Infiltrator",
     "folder": "penny pinchin preacher",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -452,7 +452,7 @@
     "name": "Iron Dancer",
     "classes": "Wizard (Bladesinger) 18 / Artificer 2",
     "system": "D&D 5e (2014)",
-    "role": "Evasion Tank / Spell Mastery / Shapechange Angel",
+    "role": "Frontline Evasion Tank / Shapechange Angel / Spell Master",
     "folder": "iron dancer",
     "youtube": "https://www.youtube.com/watch?v=o6-7L7cx6WI",
     "ratings": {
