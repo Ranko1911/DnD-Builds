@@ -70,13 +70,17 @@ DnDbuilds/
 ├── style.css               # Estilos (dark mode, glassmorphism)
 ├── app.js                  # Lógica de la app y renderizado de gráficos
 ├── builds.json             # Índice de todos los builds y ratings (0-100)
-└── <nombre-del-build>/     # Una carpeta por build
-    ├── character guide.md      # Resumen general, combat loop, matemáticas
-    ├── roadmap.md              # Progresión nivel 1-20
-    ├── spell list.md           # Lista de conjuros optimizada
-    ├── actual inventory list.md # Inventario actual (Nivel 20 / Tier 4)
-    ├── item list to obtain.md  # Objetos mágicos a conseguir por Tier (1 a 4)
-    └── bastion and downtime.md # Bastión (6 instalaciones), tiempo muerto y logística
+├── builds/                 # Catálogo de builds (29 personajes + plantilla)
+│   └── <nombre-del-build>/ # Una carpeta por build
+│       ├── character guide.md      # Resumen general, combat loop, matemáticas
+│       ├── roadmap.md              # Progresión nivel 1-20
+│       ├── spell list.md           # Lista de conjuros optimizada
+│       ├── actual inventory list.md # Inventario actual (Nivel 20 / Tier 4)
+│       ├── item list to obtain.md  # Objetos mágicos a conseguir por Tier (1 a 4)
+│       └── bastion and downtime.md # Bastión (6 instalaciones), tiempo muerto y logística
+├── docs/                   # Documentación adicional e ideas de implementación
+├── scratch/                # Transcripciones y scripts utilitarios
+└── ollama-agent.js         # Agente LLM local para consultar e interactuar
 ```
 
 ### `builds.json` — Esquema de Entrada
@@ -88,7 +92,7 @@ DnDbuilds/
   "classes": "Clase (Subclase) X / Clase Y",
   "system": "D&D 5e (2014)",    // o "D&D 5e (2024 / 5.5e)"
   "role": "Rol en combate",
-  "folder": "nombre de carpeta",
+  "folder": "builds/nombre de carpeta",
   "youtube": "https://...",     // null si no tiene vídeo
   "ratings": { "dpr": 0-100, "ehp": 0-100, "control": 0-100, "support": 0-100, "complexity": 0-100 }
 }

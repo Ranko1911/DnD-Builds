@@ -20,15 +20,21 @@ async function listBuilds() {
 }
 
 async function resolveRealFolder(folderName) {
-    // Si la carpeta existe físicamente, la usamos directamente
+    // Si la carpeta existe físicamente en la raíz o dentro de builds/, la usamos directamente
     try {
         const stats = await fs.stat(path.join(__dirname, folderName));
         if (stats.isDirectory()) {
             return folderName;
         }
-    } catch (e) {
-        // No existe la carpeta directamente, procedemos a buscar en builds.json
-    }
+    } catch (e) {}
+
+    try {
+        const buildsPath = path.join(__dirname, 'builds', folderName);
+        const stats = await fs.stat(buildsPath);
+        if (stats.isDirectory()) {
+            return path.join('builds', folderName);
+        }
+    } catch (e) {}
 
     // Buscar en builds.json
     try {
@@ -42,7 +48,8 @@ async function resolveRealFolder(folderName) {
         // Buscar por ID reemplazando guiones por espacios
         const sanitized = folderName.replace(/-/g, ' ').toLowerCase();
         match = builds.find(b => b.id.replace(/-/g, ' ').toLowerCase() === sanitized || 
-                                 b.folder.toLowerCase() === sanitized);
+                                 b.folder.toLowerCase() === sanitized ||
+                                 b.folder.replace('builds/', '').toLowerCase() === sanitized);
         if (match && match.folder) return match.folder;
         
         // Si no hay coincidencias, devolvemos el original

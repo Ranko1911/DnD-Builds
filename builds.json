@@ -5,7 +5,7 @@
     "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
-    "folder": "barbarian from hell",
+    "folder": "builds/barbarian from hell",
     "youtube": null,
     "ratings": {
       "dpr": 84,
@@ -21,7 +21,7 @@
     "classes": "Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2",
     "system": "D&D 5e (2014)",
     "role": "Backline Blaster / Support / Probability Controller",
-    "folder": "Clocklock",
+    "folder": "builds/Clocklock",
     "youtube": null,
     "ratings": {
       "dpr": 68,
@@ -37,7 +37,7 @@
     "classes": "Druid (Circle of the Stars) 20",
     "system": "D&D 5e (2014)",
     "role": "Controller / Blaster / Star Shape Striker",
-    "folder": "cursed pirate",
+    "folder": "builds/cursed pirate",
     "youtube": null,
     "ratings": {
       "dpr": 52,
@@ -53,7 +53,7 @@
     "classes": "Warlock (Hexblade) 17 / Fighter (Battle Master) 3",
     "system": "D&D 5e (2014)",
     "role": "Ranged Nova Striker / Battlefield Sniper",
-    "folder": "hexbow",
+    "folder": "builds/hexbow",
     "youtube": null,
     "ratings": {
       "dpr": 100,
@@ -69,7 +69,7 @@
     "classes": "Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2",
     "system": "D&D 5e (2014)",
     "role": "Backline Blaster / Primary Healer / Support",
-    "folder": "light of tomorrow",
+    "folder": "builds/light of tomorrow",
     "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y",
     "ratings": {
       "dpr": 64,
@@ -85,7 +85,7 @@
     "classes": "Wizard (Necromancer) 20",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Backline Aerial Summoner / Master Controller",
-    "folder": "spirit caller",
+    "folder": "builds/spirit caller",
     "youtube": null,
     "ratings": {
       "dpr": 84,
@@ -101,7 +101,7 @@
     "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
     "system": "D&D 5e (2014)",
     "role": "Frontline Dread Tank / Aggro Controller",
-    "folder": "techpriest",
+    "folder": "builds/techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8",
     "ratings": {
       "dpr": 36,
@@ -117,7 +117,7 @@
     "classes": "Cleric (Tempest) 4 / Wizard (Scribes) 16",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Gish Tank / Tactical AoE Blaster",
-    "folder": "tempest",
+    "folder": "builds/tempest",
     "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ",
     "ratings": {
       "dpr": 76,
@@ -133,7 +133,7 @@
     "classes": "Paladin 2 / Bard (College of Swords) 18",
     "system": "D&D 5e (2014)",
     "role": "Frontline Striker / Evasion Tank",
-    "folder": "Wrathful Whisperer",
+    "folder": "builds/Wrathful Whisperer",
     "youtube": null,
     "ratings": {
       "dpr": 72,
@@ -149,7 +149,7 @@
     "classes": "Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13",
     "system": "D&D 5e (2014)",
     "role": "Frontline Protector Tank / Off-Healer Support",
-    "folder": "moon guardian",
+    "folder": "builds/moon guardian",
     "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
     "ratings": {
       "dpr": 36,
@@ -165,7 +165,7 @@
     "classes": "Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2",
     "system": "D&D 5e (2014)",
     "role": "Speed Gimmick / Ranged Sprinter / Mobility Specialist",
-    "folder": "the bullet",
+    "folder": "builds/the bullet",
     "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
     "ratings": {
       "dpr": 24,
@@ -181,7 +181,7 @@
     "classes": "Fighter (Eldritch Knight) 20",
     "system": "D&D 5e (2014)",
     "role": "Frontline Gish Striker / Battlefield Controller",
-    "folder": "eldritch shadow",
+    "folder": "builds/eldritch shadow",
     "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
     "ratings": {
       "dpr": 72,
@@ -197,7 +197,7 @@
     "classes": "Sorcerer 1 / Rogue (Swashbuckler) 19",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Striker / Face / Skill Monkey",
-    "folder": "magical mischief murder man",
+    "folder": "builds/magical mischief murder man",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
       "dpr": 72,
@@ -213,7 +213,7 @@
     "classes": "Warlock (Celestial) 19 / Fighter 1",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Ranged Control Striker / Artillery Turret",
-    "folder": "beelzebubs ballista",
+    "folder": "builds/beelzebubs ballista",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
       "dpr": 96,
@@ -229,7 +229,7 @@
     "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Tank / Utility / Item Specialist",
-    "folder": "nick nack nabber",
+    "folder": "builds/nick nack nabber",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
       "dpr": 52,
@@ -245,7 +245,7 @@
     "classes": "Bard (Valor) 19 / Warlock 1",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Melee / Ranged Nova Striker / Support",
-    "folder": "furry fury",
+    "folder": "builds/furry fury",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
       "dpr": 92,
@@ -261,7 +261,7 @@
     "classes": "Wizard (Bladesinger) 18 / Barbarian 2",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns EHP Tank / Gish",
-    "folder": "furious paradox",
+    "folder": "builds/furious paradox",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
       "dpr": 64,
@@ -277,7 +277,7 @@
     "classes": "Rogue (Soulknife) 18 / Artificer 2",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Infiltrator / Skill Monkey / Utility Gish",
-    "folder": "spymaster",
+    "folder": "builds/spymaster",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 64,
@@ -293,7 +293,7 @@
     "classes": "Barbarian (Beast) 3 / Monk (Long Death) 17",
     "system": "D&D 5e (2014)",
     "role": "Frontline Striker / Grappler / Temp HP Tank",
-    "folder": "the bonk",
+    "folder": "builds/the bonk",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 96,
@@ -309,7 +309,7 @@
     "classes": "Fighter (Battle Master) 17 / Bard (Swords) 3",
     "system": "D&D 5e (2014)",
     "role": "Frontline Gish / Controller / Face",
-    "folder": "le biter",
+    "folder": "builds/le biter",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 88,
@@ -325,7 +325,7 @@
     "classes": "Rogue (Soulknife) 18 / Cleric (Twilight) 2",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Resilient Support / Skill Monkey / Infiltrator",
-    "folder": "penny pinchin preacher",
+    "folder": "builds/penny pinchin preacher",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 64,
@@ -341,7 +341,7 @@
     "classes": "Druid (Moon) 17 / Artificer (Artillerist) 3",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Wild Shape Fire Blaster / Temp HP Tank",
-    "folder": "bear with a flamethrower",
+    "folder": "builds/bear with a flamethrower",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 64,
@@ -357,7 +357,7 @@
     "classes": "Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3",
     "system": "D&D 5e (2014)",
     "role": "Ranged Gadget Sniper / Heavy Striker",
-    "folder": "the fartificer",
+    "folder": "builds/the fartificer",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
       "dpr": 80,
@@ -373,7 +373,7 @@
     "classes": "Monk (Way of Mercy) 12 / Cleric (War Domain) 8",
     "system": "D&D 5e (2014)",
     "role": "Frontline Striker / Divine Healer / Controller",
-    "folder": "fist of god",
+    "folder": "builds/fist of god",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
       "dpr": 72,
@@ -389,7 +389,7 @@
     "classes": "Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8",
     "system": "D&D 5e (2014)",
     "role": "Ranged Nova Sniper / Support Turret",
-    "folder": "priest of the wilds",
+    "folder": "builds/priest of the wilds",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
       "dpr": 80,
@@ -405,7 +405,7 @@
     "classes": "Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
-    "folder": "shadow tank",
+    "folder": "builds/shadow tank",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
       "dpr": 72,
@@ -421,7 +421,7 @@
     "classes": "Rogue (Soulknife) 17 / Barbarian (Totem Warrior) 3",
     "system": "D&D 5e (2014)",
     "role": "Frontline Evasion Striker / Grappler",
-    "folder": "sneaky smasher",
+    "folder": "builds/sneaky smasher",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
       "dpr": 72,
@@ -437,7 +437,7 @@
     "classes": "Sorcerer (Draconic) 14 / Paladin (Devotion) 6",
     "system": "D&D 5e (2014)",
     "role": "Frontline Nova Striker / Aura Support",
-    "folder": "warrior of flame",
+    "folder": "builds/warrior of flame",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
       "dpr": 100,
@@ -453,7 +453,7 @@
     "classes": "Wizard (Bladesinger) 18 / Artificer 2",
     "system": "D&D 5e (2014)",
     "role": "Frontline Evasion Tank / Shapechange Angel / Spell Master",
-    "folder": "iron dancer",
+    "folder": "builds/iron dancer",
     "youtube": "https://www.youtube.com/watch?v=o6-7L7cx6WI",
     "ratings": {
       "dpr": 98,
