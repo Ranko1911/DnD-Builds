@@ -317,10 +317,26 @@ body {
     background: linear-gradient(to bottom, var(--color-primary), var(--color-secondary));
 }
 
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.card-header h3 {
+    font-family: var(--font-heading);
+    font-size: 1rem;
+    font-weight: 700;
+    color: white;
+    margin: 0;
+    flex-grow: 1;
+    line-height: 1.3;
+}
+
 .card-title-row {
     display: flex;
     justify-content: space-between;
-    align-items: flex-start;
+    align-items: center;
     gap: 0.5rem;
 }
 
@@ -329,6 +345,7 @@ body {
     font-size: 1rem;
     font-weight: 700;
     color: white;
+    margin: 0;
 }
 
 .system-badge {
