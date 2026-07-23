@@ -8,8 +8,8 @@
     "folder": "builds/barbarian from hell",
     "youtube": null,
     "ratings": {
-      "dpr": 84,
-      "ehp": 80,
+      "dpr": 76,
+      "ehp": 84,
       "control": 24,
       "support": 16,
       "complexity": 36
@@ -25,7 +25,7 @@
     "youtube": null,
     "ratings": {
       "dpr": 68,
-      "ehp": 44,
+      "ehp": 52,
       "control": 96,
       "support": 64,
       "complexity": 88
@@ -40,10 +40,10 @@
     "folder": "builds/cursed pirate",
     "youtube": null,
     "ratings": {
-      "dpr": 52,
-      "ehp": 44,
+      "dpr": 56,
+      "ehp": 48,
       "control": 88,
-      "support": 56,
+      "support": 60,
       "complexity": 56
     }
   },
@@ -56,11 +56,11 @@
     "folder": "builds/hexbow",
     "youtube": null,
     "ratings": {
-      "dpr": 100,
-      "ehp": 36,
-      "control": 36,
+      "dpr": 84,
+      "ehp": 40,
+      "control": 40,
       "support": 8,
-      "complexity": 44
+      "complexity": 48
     }
   },
   {
@@ -73,8 +73,8 @@
     "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y",
     "ratings": {
       "dpr": 64,
-      "ehp": 44,
-      "control": 52,
+      "ehp": 52,
+      "control": 56,
       "support": 100,
       "complexity": 76
     }
@@ -88,7 +88,7 @@
     "folder": "builds/spirit caller",
     "youtube": null,
     "ratings": {
-      "dpr": 84,
+      "dpr": 80,
       "ehp": 72,
       "control": 96,
       "support": 48,
@@ -106,8 +106,8 @@
     "ratings": {
       "dpr": 36,
       "ehp": 100,
-      "control": 64,
-      "support": 52,
+      "control": 68,
+      "support": 56,
       "complexity": 48
     }
   },
@@ -120,7 +120,7 @@
     "folder": "builds/tempest",
     "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ",
     "ratings": {
-      "dpr": 76,
+      "dpr": 84,
       "ehp": 88,
       "control": 96,
       "support": 44,
@@ -136,11 +136,11 @@
     "folder": "builds/Wrathful Whisperer",
     "youtube": null,
     "ratings": {
-      "dpr": 72,
-      "ehp": 64,
+      "dpr": 68,
+      "ehp": 68,
       "control": 84,
       "support": 76,
-      "complexity": 56
+      "complexity": 60
     }
   },
   {
@@ -154,9 +154,9 @@
     "ratings": {
       "dpr": 36,
       "ehp": 96,
-      "control": 52,
+      "control": 56,
       "support": 72,
-      "complexity": 36
+      "complexity": 40
     }
   },
   {
@@ -169,9 +169,9 @@
     "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
     "ratings": {
       "dpr": 24,
-      "ehp": 44,
+      "ehp": 48,
       "control": 16,
-      "support": 32,
+      "support": 36,
       "complexity": 88
     }
   },
@@ -184,8 +184,8 @@
     "folder": "builds/eldritch shadow",
     "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
     "ratings": {
-      "dpr": 72,
-      "ehp": 64,
+      "dpr": 68,
+      "ehp": 68,
       "control": 52,
       "support": 16,
       "complexity": 48
@@ -200,8 +200,8 @@
     "folder": "builds/magical mischief murder man",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 72,
-      "ehp": 52,
+      "dpr": 64,
+      "ehp": 56,
       "control": 36,
       "support": 24,
       "complexity": 48
@@ -216,10 +216,10 @@
     "folder": "builds/beelzebubs ballista",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 96,
+      "dpr": 84,
       "ehp": 64,
-      "control": 72,
-      "support": 44,
+      "control": 76,
+      "support": 48,
       "complexity": 56
     }
   },
@@ -232,10 +232,10 @@
     "folder": "builds/nick nack nabber",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 52,
-      "ehp": 72,
-      "control": 64,
-      "support": 72,
+      "dpr": 48,
+      "ehp": 76,
+      "control": 68,
+      "support": 76,
       "complexity": 92
     }
   },
@@ -248,9 +248,9 @@
     "folder": "builds/furry fury",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 92,
-      "ehp": 52,
-      "control": 52,
+      "dpr": 80,
+      "ehp": 56,
+      "control": 56,
       "support": 64,
       "complexity": 68
     }
@@ -264,7 +264,7 @@
     "folder": "builds/furious paradox",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 64,
+      "dpr": 60,
       "ehp": 100,
       "control": 44,
       "support": 32,
@@ -280,8 +280,8 @@
     "folder": "builds/spymaster",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 64,
-      "ehp": 52,
+      "dpr": 56,
+      "ehp": 56,
       "control": 44,
       "support": 44,
       "complexity": 56
@@ -296,9 +296,9 @@
     "folder": "builds/the bonk",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 96,
-      "ehp": 84,
-      "control": 52,
+      "dpr": 76,
+      "ehp": 88,
+      "control": 56,
       "support": 8,
       "complexity": 48
     }
@@ -312,7 +312,7 @@
     "folder": "builds/le biter",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 88,
+      "dpr": 76,
       "ehp": 88,
       "control": 64,
       "support": 52,
@@ -328,10 +328,10 @@
     "folder": "builds/penny pinchin preacher",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 64,
-      "ehp": 72,
+      "dpr": 56,
+      "ehp": 76,
       "control": 52,
-      "support": 84,
+      "support": 88,
       "complexity": 56
     }
   },
@@ -360,7 +360,7 @@
     "folder": "builds/the fartificer",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 80,
+      "dpr": 72,
       "ehp": 72,
       "control": 44,
       "support": 32,
@@ -376,7 +376,7 @@
     "folder": "builds/fist of god",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 72,
+      "dpr": 68,
       "ehp": 64,
       "control": 72,
       "support": 72,
@@ -392,9 +392,9 @@
     "folder": "builds/priest of the wilds",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 80,
+      "dpr": 72,
       "ehp": 64,
-      "control": 52,
+      "control": 56,
       "support": 72,
       "complexity": 68
     }
@@ -408,7 +408,7 @@
     "folder": "builds/shadow tank",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 72,
+      "dpr": 68,
       "ehp": 96,
       "control": 52,
       "support": 16,
@@ -424,7 +424,7 @@
     "folder": "builds/sneaky smasher",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 72,
+      "dpr": 64,
       "ehp": 84,
       "control": 52,
       "support": 24,
@@ -440,10 +440,10 @@
     "folder": "builds/warrior of flame",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 100,
-      "ehp": 72,
+      "dpr": 84,
+      "ehp": 76,
       "control": 44,
-      "support": 64,
+      "support": 68,
       "complexity": 76
     }
   },
@@ -456,9 +456,9 @@
     "folder": "builds/iron dancer",
     "youtube": "https://www.youtube.com/watch?v=o6-7L7cx6WI",
     "ratings": {
-      "dpr": 98,
+      "dpr": 84,
       "ehp": 100,
-      "control": 72,
+      "control": 76,
       "support": 36,
       "complexity": 88
     }
