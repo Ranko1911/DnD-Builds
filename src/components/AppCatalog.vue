@@ -32,7 +32,7 @@
           <path d="M2 17L12 22L22 17" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
           <path d="M2 12L12 17L22 12" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
         </svg>
-        <div class="logo-text" @click="resetHome" style="cursor: pointer;">
+        <div class="logo-text" style="cursor: pointer;" @click="resetHome">
           <h1>D&D Build Archivist</h1>
           <p>Optimización y Archivo de Fichas de Personaje</p>
         </div>
@@ -291,7 +291,7 @@
               <div id="detail-classes" class="detail-subtitle">{{ selectedBuild.classes }}</div>
             </div>
 
-            <div id="level-selector-area" class="level-selector-area" :class="{ hidden: !showTracker }">
+            <div id="level-selector-area" class="level-selector-area" :class="{ hidden: !showTracker && selectedFile !== 'roadmap.md' }">
               <label class="level-selector-label" for="level-slider">Nv. <span id="level-value">{{ currentLevel }}</span></label>
               <input id="level-slider" v-model.number="currentLevel" type="range" min="1" max="20" class="level-slider">
             </div>
@@ -361,7 +361,9 @@
           </nav>
 
           <!-- Rendered Document View -->
-          <div id="markdown-viewer" class="markdown-container" @click="handleMarkdownClick" v-html="renderedMarkdownHtml"></div>
+          <div id="markdown-viewer" class="markdown-container" @click="handleMarkdownClick">
+            <div class="markdown-viewer-content" v-html="renderedMarkdownHtml"></div>
+          </div>
 
           <!-- Bottom Navigation Buttons -->
           <div id="content-nav-buttons" class="content-nav-buttons">
@@ -480,7 +482,7 @@
 </template>
 
 <script setup lang="ts">
-import { ref, computed, onMounted, watch } from 'vue';
+import { ref, computed, onMounted, nextTick } from 'vue';
 import { marked } from 'marked';
 import katex from 'katex';
 
@@ -556,7 +558,7 @@ const ratingCategories = [
 
 const compareColors = ['#10b981', '#f59e0b', '#0ea5e9', '#ec4899', '#a855f7'];
 
-// Reactive state
+// State
 const builds = ref<Build[]>([]);
 const selectedBuild = ref<Build | null>(null);
 const selectedFile = ref('character guide.md');
@@ -621,7 +623,6 @@ const filteredBuilds = computed(() => {
     return true;
   });
 
-  // Sort list
   return list.sort((a, b) => {
     const avgA = parseFloat(getAverageRating(a.ratings));
     const avgB = parseFloat(getAverageRating(b.ratings));
@@ -772,6 +773,10 @@ async function loadMarkdown() {
     const res = await fetch(filePath);
     if (!res.ok) throw new Error('File not found');
     rawMarkdown.value = await res.text();
+    await nextTick();
+    if (selectedFile.value === 'roadmap.md') {
+      applyRoadmapTableFilter();
+    }
   } catch (err) {
     rawMarkdown.value = `### Contenido No Disponible\nNo se pudo cargar el archivo \`${selectedFile.value}\`.`;
   }
@@ -789,7 +794,7 @@ const renderedMarkdownHtml = computed(() => {
     return ` [${label}](${encodeURI(cleanPath)})`;
   });
 
-  // 2. Protect math blocks with unique placeholders
+  // 2. Protect math blocks with placeholders BEFORE marked parsing
   const mathBlocks: { id: string; math: string; display: boolean }[] = [];
 
   text = text.replace(/\$\$([\s\S]+?)\$\$/g, (_, math) => {
@@ -819,6 +824,28 @@ const renderedMarkdownHtml = computed(() => {
 
   return html;
 });
+
+function applyRoadmapTableFilter() {
+  const container = document.getElementById('markdown-viewer');
+  if (!container) return;
+  const rows = container.querySelectorAll('table tbody tr, table tr');
+  rows.forEach(row => {
+    const firstTd = row.querySelector('td');
+    if (!firstTd) return;
+    const m = firstTd.textContent?.match(/\d+/);
+    if (!m) return;
+    const rowLvl = parseInt(m[0]);
+    if (rowLvl === currentLevel.value) {
+      row.classList.add('current-level-row');
+      row.classList.remove('future-level-row');
+    } else if (rowLvl > currentLevel.value) {
+      row.classList.add('future-level-row');
+      row.classList.remove('current-level-row');
+    } else {
+      row.classList.remove('current-level-row', 'future-level-row');
+    }
+  });
+}
 
 // Intercept link clicks inside markdown to switch tabs
 function handleMarkdownClick(e: MouseEvent) {
@@ -987,7 +1014,7 @@ function resetResourceTracker() {
   });
 }
 
-// Single SVG Radar SVG renderer
+// Single Radar SVG renderer
 function renderSingleRadarSvg(ratings: Ratings): string {
   const MAX = 100;
   const axes = [
