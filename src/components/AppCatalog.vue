@@ -149,7 +149,7 @@
     <!-- Main Workspace -->
     <main class="app-main">
       <!-- Sidebar with Build Cards -->
-      <aside id="builds-sidebar" class="builds-sidebar" :class="{ hidden: isSidebarHidden }">
+      <aside id="builds-sidebar" class="builds-sidebar" :class="{ hidden: isSidebarHidden, 'builds-sidebar-has-compare': compareBuildIds.length >= 2 }">
         <div class="sidebar-header">
           <h2>Catálogo de Builds</h2>
           <span id="builds-count" class="badge-count">{{ filteredBuilds.length }}</span>
@@ -215,7 +215,7 @@
         </div>
 
         <!-- Floating Compare Bar in Sidebar -->
-        <div id="compare-bar" class="compare-bar" :class="{ hidden: compareBuildIds.length === 0 }">
+        <div id="compare-bar" class="compare-bar" :class="{ hidden: compareBuildIds.length < 2 }">
           <button id="btn-compare" class="btn btn-compare" @click="currentView = 'compare'">
             <span>📊</span> Comparar (<span id="compare-count">{{ compareBuildIds.length }}</span>)
           </button>
@@ -382,11 +382,17 @@
         <!-- Compare View Pane -->
         <div v-else-if="currentView === 'compare'" id="compare-view" class="compare-view">
           <header class="compare-header">
+            <button id="btn-close-compare-mobile" class="btn btn-secondary btn-back-mobile" title="Cerrar comparación" @click="closeCompare">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+            </button>
             <div class="compare-title-area">
               <h2>📊 Comparador de Builds</h2>
               <p>Comparativa detallada y perfiles de optimización superpuestos</p>
             </div>
-            <button id="btn-close-compare" class="btn btn-secondary btn-close-compare-desktop" @click="currentView = selectedBuild ? 'detail' : 'welcome'">
+            <button id="btn-close-compare" class="btn btn-secondary btn-close-compare-desktop" @click="closeCompare">
               Cerrar Comparación
             </button>
           </header>
@@ -394,36 +400,127 @@
           <div class="compare-workspace">
             <div class="compare-radar-section">
               <h3>Perfil de Optimización Superpuesto</h3>
-              <div class="compare-radar-container" v-html="renderOverlayRadarSvg(selectedCompareBuilds)"></div>
-              <div class="compare-legend">
-                <div v-for="(b, idx) in selectedCompareBuilds" :key="b.id" class="legend-item">
-                  <span class="legend-color" :style="{ backgroundColor: getCompareColor(idx) }"></span>
-                  <span class="legend-name">{{ b.name }}</span>
+              <div id="compare-radar-chart" class="compare-radar-container" v-html="renderOverlayRadarSvg(selectedCompareBuilds)"></div>
+              <div id="compare-legend" class="compare-legend">
+                <div
+                  v-for="b in selectedCompareBuilds"
+                  :key="b.id"
+                  class="legend-item"
+                  :class="{ highlighted: hoveredCompareBuildId === b.id }"
+                  :data-build-id="b.id"
+                  @mouseenter="hoveredCompareBuildId = b.id"
+                  @mouseleave="hoveredCompareBuildId = null"
+                >
+                  <span class="legend-color" :style="{ backgroundColor: getClassColor(b.classes) }"></span>
+                  <span>{{ b.name }}</span>
                 </div>
               </div>
             </div>
 
             <div class="compare-table-section">
               <h3>Tabla de Características</h3>
-              <div class="compare-table-container">
-                <table class="compare-table">
+              <div id="compare-table-container" class="compare-table-container">
+                <p v-if="selectedCompareBuilds.length === 0" class="no-results">No hay builds seleccionadas para comparar.</p>
+                <table v-else class="compare-table">
                   <thead>
                     <tr>
-                      <th>Categoría</th>
-                      <th v-for="b in selectedCompareBuilds" :key="b.id">{{ b.name }}</th>
+                      <th>Característica</th>
+                      <th
+                        v-for="b in selectedCompareBuilds"
+                        :key="b.id"
+                        :class="[`build-col-${b.id}`, { highlighted: hoveredCompareBuildId === b.id }]"
+                        :data-build-id="b.id"
+                        @mouseenter="hoveredCompareBuildId = b.id"
+                        @mouseleave="hoveredCompareBuildId = null"
+                      >
+                        <div class="compare-header-cell">
+                          <span :style="{ color: getClassColor(b.id), fontWeight: 700 }">{{ b.name }}</span>
+                          <button class="btn-remove-col" title="Quitar de la comparación" @click.stop="toggleCompareBuild(b.id)">×</button>
+                        </div>
+                      </th>
                     </tr>
                   </thead>
                   <tbody>
-                    <tr v-for="cat in ratingCategories" :key="cat.key">
-                      <td class="font-bold">{{ cat.label }}</td>
-                      <td v-for="b in selectedCompareBuilds" :key="b.id" :class="{ winner: isWinner(b.id, cat.key, selectedCompareBuilds) }">
-                        {{ b.ratings[cat.key] || 0 }}
+                    <!-- Row: Clases -->
+                    <tr>
+                      <td>Clases</td>
+                      <td
+                        v-for="b in selectedCompareBuilds"
+                        :key="b.id"
+                        :class="[`build-col-${b.id}`, { highlighted: hoveredCompareBuildId === b.id }]"
+                        :data-build-id="b.id"
+                        @mouseenter="hoveredCompareBuildId = b.id"
+                        @mouseleave="hoveredCompareBuildId = null"
+                      >
+                        {{ b.classes }}
                       </td>
                     </tr>
+                    <!-- Row: Reglamento -->
                     <tr>
-                      <td class="font-bold">Media Total</td>
-                      <td v-for="b in selectedCompareBuilds" :key="b.id" class="font-bold text-primary">
-                        {{ getAverageRating(b.ratings) }}
+                      <td>Reglamento</td>
+                      <td
+                        v-for="b in selectedCompareBuilds"
+                        :key="b.id"
+                        :class="[`build-col-${b.id}`, { highlighted: hoveredCompareBuildId === b.id }]"
+                        :data-build-id="b.id"
+                        @mouseenter="hoveredCompareBuildId = b.id"
+                        @mouseleave="hoveredCompareBuildId = null"
+                      >
+                        <span class="system-badge" :class="b.system.includes('2024') ? 'system-2024' : 'system-2014'">
+                          {{ b.system.includes('2024') ? '2024 (5.5e)' : '2014 (5e)' }}
+                        </span>
+                      </td>
+                    </tr>
+                    <!-- Row: Rol -->
+                    <tr>
+                      <td>Rol Principal</td>
+                      <td
+                        v-for="b in selectedCompareBuilds"
+                        :key="b.id"
+                        :class="[`build-col-${b.id}`, { highlighted: hoveredCompareBuildId === b.id }]"
+                        :data-build-id="b.id"
+                        @mouseenter="hoveredCompareBuildId = b.id"
+                        @mouseleave="hoveredCompareBuildId = null"
+                      >
+                        {{ b.role }}
+                      </td>
+                    </tr>
+                    <!-- Ratings rows -->
+                    <tr v-for="cat in ratingCategories" :key="cat.key">
+                      <td>{{ cat.label }}</td>
+                      <td
+                        v-for="b in selectedCompareBuilds"
+                        :key="b.id"
+                        :class="[`build-col-${b.id}`, { highlighted: hoveredCompareBuildId === b.id }]"
+                        :data-build-id="b.id"
+                        @mouseenter="hoveredCompareBuildId = b.id"
+                        @mouseleave="hoveredCompareBuildId = null"
+                      >
+                        <span v-if="isWinner(b.id, cat.key, selectedCompareBuilds)" class="stat-winner">
+                          {{ b.ratings[cat.key] || 0 }}/100
+                        </span>
+                        <span v-else>
+                          {{ b.ratings[cat.key] || 0 }}/100
+                        </span>
+                      </td>
+                    </tr>
+                    <!-- Average row -->
+                    <tr class="font-bold">
+                      <td>📊 Media Total</td>
+                      <td
+                        v-for="b in selectedCompareBuilds"
+                        :key="b.id"
+                        :class="[`build-col-${b.id}`, { highlighted: hoveredCompareBuildId === b.id }]"
+                        :data-build-id="b.id"
+                        @mouseenter="hoveredCompareBuildId = b.id"
+                        @mouseleave="hoveredCompareBuildId = null"
+                      >
+                        <span v-if="isAvgWinner(b.id, selectedCompareBuilds)" class="stat-winner">
+                          {{ getAverageRating(b.ratings) }}/100
+                        </span>
+                        <span v-else>
+                          {{ getAverageRating(b.ratings) }}/100
+                        </span>
                       </td>
                     </tr>
                   </tbody>
@@ -436,6 +533,12 @@
         <!-- Radar Table View Pane -->
         <div v-else-if="currentView === 'radar-table'" id="radar-table-view" class="radar-table-view">
           <header class="radar-table-header">
+            <button id="btn-close-radar-table-mobile" class="btn btn-secondary btn-back-mobile" title="Cerrar tabla de radar" @click="currentView = selectedBuild ? 'detail' : 'welcome'">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+            </button>
             <div class="radar-table-title-area">
               <h2>📊 Tabla de Radar de Optimización</h2>
               <p>Matriz completa y ordenada de puntuaciones para todas las builds del catálogo</p>
@@ -447,29 +550,75 @@
 
           <div class="radar-table-workspace">
             <div class="radar-table-container">
-              <table class="radar-matrix-table">
+              <table class="radar-compare-table">
                 <thead>
                   <tr>
-                    <th @click="sortRadarTable('name')">Build</th>
-                    <th @click="sortRadarTable('system')">Reglamento</th>
-                    <th @click="sortRadarTable('dpr')">⚔️ DPR</th>
-                    <th @click="sortRadarTable('ehp')">🛡️ EHP</th>
-                    <th @click="sortRadarTable('control')">🌪️ Control</th>
-                    <th @click="sortRadarTable('support')">💖 Soporte</th>
-                    <th @click="sortRadarTable('complexity')">🧠 Complejidad</th>
-                    <th @click="sortRadarTable('avg')">📊 Media</th>
+                    <th :class="{ sorted: radarSortColumn === 'name' }" @click="sortRadarTable('name')">
+                      <span class="th-content">Build <span class="sort-indicator" :class="getSortDirClass('name')">{{ getSortDirIcon('name') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'system' }" @click="sortRadarTable('system')">
+                      <span class="th-content">Reglamento <span class="sort-indicator" :class="getSortDirClass('system')">{{ getSortDirIcon('system') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'dpr' }" @click="sortRadarTable('dpr')">
+                      <span class="th-content">⚔️ DPR <span class="sort-indicator" :class="getSortDirClass('dpr')">{{ getSortDirIcon('dpr') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'ehp' }" @click="sortRadarTable('ehp')">
+                      <span class="th-content">🛡️ EHP <span class="sort-indicator" :class="getSortDirClass('ehp')">{{ getSortDirIcon('ehp') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'control' }" @click="sortRadarTable('control')">
+                      <span class="th-content">🌪️ Control <span class="sort-indicator" :class="getSortDirClass('control')">{{ getSortDirIcon('control') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'support' }" @click="sortRadarTable('support')">
+                      <span class="th-content">💖 Soporte <span class="sort-indicator" :class="getSortDirClass('support')">{{ getSortDirIcon('support') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'complexity' }" @click="sortRadarTable('complexity')">
+                      <span class="th-content">🧠 Complejidad <span class="sort-indicator" :class="getSortDirClass('complexity')">{{ getSortDirIcon('complexity') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'avg' }" @click="sortRadarTable('avg')">
+                      <span class="th-content">📊 Media <span class="sort-indicator" :class="getSortDirClass('avg')">{{ getSortDirIcon('avg') }}</span></span>
+                    </th>
                   </tr>
                 </thead>
                 <tbody>
-                  <tr v-for="b in sortedRadarTableBuilds" :key="b.id" :class="{ highlight: selectedBuild?.id === b.id }">
-                    <td class="font-bold cursor-pointer" @click="selectBuild(b.id, 'character guide.md')">{{ b.name }}</td>
-                    <td><span class="system-badge" :class="b.system.includes('2024') ? 'system-2024' : 'system-2014'">{{ b.system.includes('2024') ? 'D&D 2024' : 'D&D 2014' }}</span></td>
-                    <td>{{ b.ratings.dpr }}</td>
-                    <td>{{ b.ratings.ehp }}</td>
-                    <td>{{ b.ratings.control }}</td>
-                    <td>{{ b.ratings.support }}</td>
-                    <td>{{ b.ratings.complexity }}</td>
-                    <td class="font-bold text-primary">{{ getAverageRating(b.ratings) }}</td>
+                  <tr v-for="b in sortedRadarTableBuilds" :key="b.id" class="radar-table-row" :class="{ highlight: selectedBuild?.id === b.id }" @click="selectBuild(b.id, 'character guide.md')">
+                    <td class="font-bold cursor-pointer">{{ b.name }}</td>
+                    <td><span class="system-badge" :class="b.system.includes('2024') ? 'system-2024' : 'system-2014'">{{ b.system.includes('2024') ? '2024 (5.5e)' : '2014 (5e)' }}</span></td>
+                    <td>
+                      <div class="rating-cell">
+                        <span class="rating-val">{{ b.ratings.dpr }}</span>
+                        <div class="rating-bar-bg"><div class="rating-bar-fill dpr-color" :style="{ width: `${b.ratings.dpr}%` }"></div></div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rating-cell">
+                        <span class="rating-val">{{ b.ratings.ehp }}</span>
+                        <div class="rating-bar-bg"><div class="rating-bar-fill ehp-color" :style="{ width: `${b.ratings.ehp}%` }"></div></div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rating-cell">
+                        <span class="rating-val">{{ b.ratings.control }}</span>
+                        <div class="rating-bar-bg"><div class="rating-bar-fill control-color" :style="{ width: `${b.ratings.control}%` }"></div></div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rating-cell">
+                        <span class="rating-val">{{ b.ratings.support }}</span>
+                        <div class="rating-bar-bg"><div class="rating-bar-fill support-color" :style="{ width: `${b.ratings.support}%` }"></div></div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rating-cell">
+                        <span class="rating-val">{{ b.ratings.complexity }}</span>
+                        <div class="rating-bar-bg"><div class="rating-bar-fill complexity-color" :style="{ width: `${b.ratings.complexity}%` }"></div></div>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="rating-cell">
+                        <span class="rating-val text-primary font-bold">{{ getAverageRating(b.ratings) }}</span>
+                        <div class="rating-bar-bg"><div class="rating-bar-fill avg-color" :style="{ width: `${getAverageRating(b.ratings)}%` }"></div></div>
+                      </div>
+                    </td>
                   </tr>
                 </tbody>
               </table>
@@ -549,14 +698,12 @@ const CLASS_COLORS: Record<string, { primary: string; secondary: string }> = {
 };
 
 const ratingCategories = [
-  { key: 'dpr' as const, label: '⚔️ DPR' },
-  { key: 'ehp' as const, label: '🛡️ EHP' },
-  { key: 'control' as const, label: '🌪️ Control' },
-  { key: 'support' as const, label: '💖 Soporte' },
-  { key: 'complexity' as const, label: '🧠 Complejidad' }
+  { key: 'dpr' as const, label: 'Daño (DPR)' },
+  { key: 'ehp' as const, label: 'Tanque (EHP)' },
+  { key: 'control' as const, label: 'Control' },
+  { key: 'support' as const, label: 'Soporte' },
+  { key: 'complexity' as const, label: 'Mecánicas' }
 ];
-
-const compareColors = ['#10b981', '#f59e0b', '#0ea5e9', '#ec4899', '#a855f7'];
 
 // State
 const builds = ref<Build[]>([]);
@@ -578,6 +725,7 @@ const showRadar = ref(false);
 const currentLevel = ref(20);
 
 const compareBuildIds = ref<string[]>([]);
+const hoveredCompareBuildId = ref<string | null>(null);
 const rawMarkdown = ref('');
 const resourceStorage = ref<Record<string, number>>({});
 const radarSortColumn = ref<string>('avg');
@@ -589,7 +737,7 @@ const count2014 = computed(() => builds.value.filter(b => b.system.includes('201
 const currentFileIndex = computed(() => ORDERED_FILES.indexOf(selectedFile.value));
 
 const selectedCompareBuilds = computed(() => {
-  return builds.value.filter(b => compareBuildIds.value.includes(b.id));
+  return compareBuildIds.value.map(id => builds.value.find(b => b.id === id)).filter((b): b is Build => !!b);
 });
 
 const filteredBuilds = computed(() => {
@@ -668,6 +816,17 @@ const sortedRadarTableBuilds = computed(() => {
   });
 });
 
+function getClassColor(buildIdOrClasses: string): string {
+  const b = builds.value.find(x => x.id === buildIdOrClasses);
+  const str = b ? b.classes : buildIdOrClasses;
+  if (!str) return '#6366f1';
+  const lower = str.toLowerCase();
+  for (const [cls, colors] of Object.entries(CLASS_COLORS)) {
+    if (lower.includes(cls)) return colors.primary;
+  }
+  return '#6366f1';
+}
+
 function getFileLabel(f: string): string { return FILE_LABELS[f] || f; }
 function getFileIcon(f: string): string { return FILE_ICONS[f] || '📄'; }
 
@@ -693,8 +852,18 @@ function getAverageRating(r: Ratings): string {
 
 function toggleCompareBuild(id: string) {
   const idx = compareBuildIds.value.indexOf(id);
-  if (idx === -1) compareBuildIds.value.push(id);
-  else compareBuildIds.value.splice(idx, 1);
+  if (idx === -1) {
+    compareBuildIds.value.push(id);
+  } else {
+    compareBuildIds.value.splice(idx, 1);
+  }
+  if (compareBuildIds.value.length < 2 && currentView.value === 'compare') {
+    closeCompare();
+  }
+}
+
+function closeCompare() {
+  currentView.value = selectedBuild.value ? 'detail' : 'welcome';
 }
 
 function isWinner(buildId: string, key: keyof Ratings, buildsList: Build[]): boolean {
@@ -703,8 +872,10 @@ function isWinner(buildId: string, key: keyof Ratings, buildsList: Build[]): boo
   return buildVal === maxVal && maxVal > 0;
 }
 
-function getCompareColor(idx: number): string {
-  return compareColors[idx % compareColors.length];
+function isAvgWinner(buildId: string, buildsList: Build[]): boolean {
+  const maxVal = Math.max(...buildsList.map(b => parseFloat(getAverageRating(b.ratings))));
+  const buildVal = parseFloat(getAverageRating(buildsList.find(b => b.id === buildId)?.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 }));
+  return buildVal === maxVal && maxVal > 0;
 }
 
 function sortRadarTable(col: string) {
@@ -714,6 +885,16 @@ function sortRadarTable(col: string) {
     radarSortColumn.value = col;
     radarSortAsc.value = false;
   }
+}
+
+function getSortDirClass(col: string): string {
+  if (radarSortColumn.value !== col) return 'placeholder';
+  return radarSortAsc.value ? 'asc' : 'desc';
+}
+
+function getSortDirIcon(col: string): string {
+  if (radarSortColumn.value !== col) return '▲';
+  return radarSortAsc.value ? '▲' : '▼';
 }
 
 function toggleRadarTableView() {
@@ -786,7 +967,6 @@ async function loadMarkdown() {
 const renderedMarkdownHtml = computed(() => {
   if (!rawMarkdown.value) return '<div class="skeleton-loader"></div>';
 
-  // 1. Auto-link relative path references (./roadmap.md)
   let text = rawMarkdown.value.replace(/(?:^|\s)(\.\/[a-zA-Z0-9\s_-]+\.md)/g, (match, path) => {
     const cleanPath = path.trim();
     const fileName = cleanPath.replace('./', '');
@@ -794,7 +974,6 @@ const renderedMarkdownHtml = computed(() => {
     return ` [${label}](${encodeURI(cleanPath)})`;
   });
 
-  // 2. Protect math blocks with placeholders BEFORE marked parsing
   const mathBlocks: { id: string; math: string; display: boolean }[] = [];
 
   text = text.replace(/\$\$([\s\S]+?)\$\$/g, (_, math) => {
@@ -809,10 +988,8 @@ const renderedMarkdownHtml = computed(() => {
     return id;
   });
 
-  // 3. Parse with marked
   let html = marked.parse(text) as string;
 
-  // 4. Restore and render KaTeX
   mathBlocks.forEach(({ id, math, display }) => {
     try {
       const rendered = katex.renderToString(math.trim(), { displayMode: display, throwOnError: false });
@@ -847,7 +1024,6 @@ function applyRoadmapTableFilter() {
   });
 }
 
-// Intercept link clicks inside markdown to switch tabs
 function handleMarkdownClick(e: MouseEvent) {
   const target = e.target as HTMLElement;
   const anchor = target.closest('a');
@@ -1014,7 +1190,7 @@ function resetResourceTracker() {
   });
 }
 
-// Single Radar SVG renderer
+// Single SVG Radar SVG renderer
 function renderSingleRadarSvg(ratings: Ratings): string {
   const MAX = 100;
   const axes = [
@@ -1068,9 +1244,15 @@ function renderSingleRadarSvg(ratings: Ratings): string {
 // Overlay SVG Radar renderer for compare mode
 function renderOverlayRadarSvg(buildsList: Build[]): string {
   const MAX = 100;
-  const keys: (keyof Ratings)[] = ['dpr', 'ehp', 'control', 'support', 'complexity'];
-  const n = keys.length;
-  const cx = 200, cy = 160, maxR = 120;
+  const axes = [
+    { key: 'dpr' as const, label: 'DPR' },
+    { key: 'ehp' as const, label: 'EHP' },
+    { key: 'control' as const, label: 'Control' },
+    { key: 'support' as const, label: 'Soporte' },
+    { key: 'complexity' as const, label: 'Complejidad' }
+  ];
+  const n = axes.length;
+  const cx = 180, cy = 140, maxR = 100;
   const angleOff = -Math.PI / 2;
 
   function polar(i: number, scale: number) {
@@ -1079,24 +1261,53 @@ function renderOverlayRadarSvg(buildsList: Build[]): string {
   }
 
   let gridSvg = '';
+  let ringLabelsSvg = '';
   [20, 40, 60, 80, 100].forEach(val => {
     const s = val / MAX;
     const pts = [];
     for (let i = 0; i < n; i++) { const p = polar(i, s); pts.push(`${p.x.toFixed(1)},${p.y.toFixed(1)}`); }
-    gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,${val === 100 ? '0.15' : '0.08'})" stroke-width="1"/>`;
+    const isFull = val === MAX;
+    gridSvg += `<polygon points="${pts.join(' ')}" fill="none" stroke="rgba(255,255,255,${isFull ? '0.12' : '0.06'})" stroke-width="${isFull ? 1.5 : 1}"/>`;
+    ringLabelsSvg += `<text x="${(cx + 6).toFixed(1)}" y="${(cy - s * maxR).toFixed(1)}" dominant-baseline="central" fill="rgba(255,255,255,0.28)" style="font-size:8px; font-family:var(--font-body);">${val}</text>`;
   });
 
-  let overlays = '';
-  buildsList.forEach((b, idx) => {
-    const color = getCompareColor(idx);
-    const pts = keys.map((k, i) => {
-      const p = polar(i, (b.ratings[k] || 0) / MAX);
-      return `${p.x.toFixed(1)},${p.y.toFixed(1)}`;
-    });
-    overlays += `<polygon points="${pts.join(' ')}" fill="${color}22" stroke="${color}" stroke-width="2.5"/>`;
+  let axisSvg = '';
+  for (let i = 0; i < n; i++) {
+    const p = polar(i, 1);
+    axisSvg += `<line x1="${cx}" y1="${cy}" x2="${p.x.toFixed(1)}" y2="${p.y.toFixed(1)}" stroke="rgba(255,255,255,0.08)" stroke-width="1"/>`;
+  }
+
+  let polygonsSvg = '';
+  let dotsSvg = '';
+
+  buildsList.forEach(build => {
+    const color = getClassColor(build.classes);
+    const isHighlighted = hoveredCompareBuildId.value === build.id;
+    const isDimmed = hoveredCompareBuildId.value !== null && !isHighlighted;
+    const polyClass = `compare-polygon ${isHighlighted ? 'highlighted' : isDimmed ? 'dimmed' : ''}`;
+
+    const dataPts: string[] = [];
+
+    for (let i = 0; i < n; i++) {
+      const key = axes[i].key;
+      const val = (build.ratings && build.ratings[key]) || 0;
+      const p = polar(i, val / MAX);
+      dataPts.push(`${p.x.toFixed(1)},${p.y.toFixed(1)}`);
+
+      dotsSvg += `<circle cx="${p.x.toFixed(1)}" cy="${p.y.toFixed(1)}" r="3.5" fill="${color}" class="${polyClass}" data-build-id="${build.id}" style="pointer-events: none;"/>`;
+    }
+
+    polygonsSvg += `<polygon points="${dataPts.join(' ')}" fill="${color}" stroke="${color}" class="${polyClass}" data-build-id="${build.id}" style="stroke: ${color}; fill: ${color};" />`;
   });
 
-  return `<svg viewBox="0 0 400 320" style="width:100%; max-width:440px; margin:0 auto; display:block;">${gridSvg}${overlays}</svg>`;
+  let labelsSvg = '';
+  for (let i = 0; i < n; i++) {
+    const pLabel = polar(i, 1.22);
+    const anchor = pLabel.x < cx - 5 ? 'end' : pLabel.x > cx + 5 ? 'start' : 'middle';
+    labelsSvg += `<text x="${pLabel.x.toFixed(1)}" y="${pLabel.y.toFixed(1)}" text-anchor="${anchor}" dominant-baseline="central" fill="var(--color-text-muted)" style="font-size: 10px; font-weight: 600; font-family: var(--font-body);">${axes[i].label}</text>`;
+  }
+
+  return `<svg viewBox="0 0 360 280" xmlns="http://www.w3.org/2000/svg">${gridSvg}${axisSvg}${polygonsSvg}${dotsSvg}${ringLabelsSvg}${labelsSvg}</svg>`;
 }
 
 // Hash router handler
