@@ -946,9 +946,10 @@ function nextFile() {
 async function loadMarkdown() {
   if (!selectedBuild.value) return;
 
+  const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
   const folderEncoded = encodeURI(selectedBuild.value.folder);
   const fileEncoded = encodeURIComponent(selectedFile.value);
-  const filePath = `/${folderEncoded}/${fileEncoded}`;
+  const filePath = `${baseUrl}/${folderEncoded}/${fileEncoded}`;
 
   try {
     const res = await fetch(filePath);
@@ -1335,7 +1336,8 @@ function syncHash() {
 
 onMounted(async () => {
   try {
-    const res = await fetch('/builds.json');
+    const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
+    const res = await fetch(`${baseUrl}/builds.json`);
     builds.value = await res.json();
     syncHash();
     window.addEventListener('hashchange', syncHash);
