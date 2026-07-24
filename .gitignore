@@ -70,4 +70,5 @@ coverage
 # Astro build outputs
 .astro/
 dist/
+scratch/
 
