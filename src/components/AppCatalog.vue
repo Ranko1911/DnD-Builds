@@ -452,7 +452,20 @@
                         @mouseenter="hoveredCompareBuildId = b.id"
                         @mouseleave="hoveredCompareBuildId = null"
                       >
-                        {{ b.classes }}
+                        <div class="class-badges-container">
+                          <span
+                            v-for="badge in getClassBadges(b.classes)"
+                            :key="badge.text"
+                            class="class-pill"
+                            :style="{
+                              backgroundColor: badge.color + '22',
+                              borderColor: badge.color + '66',
+                              color: badge.color
+                            }"
+                          >
+                            {{ badge.text }}
+                          </span>
+                        </div>
                       </td>
                     </tr>
                     <!-- Row: Reglamento -->
@@ -482,7 +495,15 @@
                         @mouseenter="hoveredCompareBuildId = b.id"
                         @mouseleave="hoveredCompareBuildId = null"
                       >
-                        {{ b.role }}
+                        <div class="card-role-row compact">
+                          <span
+                            v-for="roleTag in getRoleTags(b.role)"
+                            :key="roleTag"
+                            class="role-badge"
+                          >
+                            {{ roleTag }}
+                          </span>
+                        </div>
                       </td>
                     </tr>
                     <!-- Ratings rows -->
@@ -496,12 +517,21 @@
                         @mouseenter="hoveredCompareBuildId = b.id"
                         @mouseleave="hoveredCompareBuildId = null"
                       >
-                        <span v-if="isWinner(b.id, cat.key, selectedCompareBuilds)" class="stat-winner">
-                          {{ b.ratings[cat.key] || 0 }}/100
-                        </span>
-                        <span v-else>
-                          {{ b.ratings[cat.key] || 0 }}/100
-                        </span>
+                        <div class="rating-cell">
+                          <span
+                            class="rating-val"
+                            :class="[getScoreColorClass(b.ratings[cat.key] || 0), { 'stat-winner': isWinner(b.id, cat.key, selectedCompareBuilds) }]"
+                          >
+                            {{ b.ratings[cat.key] || 0 }}
+                          </span>
+                          <div class="rating-bar-bg">
+                            <div
+                              class="rating-bar-fill"
+                              :class="`${cat.key}-color`"
+                              :style="{ width: `${b.ratings[cat.key] || 0}%` }"
+                            ></div>
+                          </div>
+                        </div>
                       </td>
                     </tr>
                     <!-- Average row -->
@@ -515,12 +545,20 @@
                         @mouseenter="hoveredCompareBuildId = b.id"
                         @mouseleave="hoveredCompareBuildId = null"
                       >
-                        <span v-if="isAvgWinner(b.id, selectedCompareBuilds)" class="stat-winner">
-                          {{ getAverageRating(b.ratings) }}/100
-                        </span>
-                        <span v-else>
-                          {{ getAverageRating(b.ratings) }}/100
-                        </span>
+                        <div class="rating-cell">
+                          <span
+                            class="rating-val font-bold"
+                            :class="[getScoreColorClass(parseFloat(getAverageRating(b.ratings))), { 'stat-winner': isAvgWinner(b.id, selectedCompareBuilds) }]"
+                          >
+                            {{ getAverageRating(b.ratings) }}
+                          </span>
+                          <div class="rating-bar-bg">
+                            <div
+                              class="rating-bar-fill avg-color"
+                              :style="{ width: `${getAverageRating(b.ratings)}%` }"
+                            ></div>
+                          </div>
+                        </div>
                       </td>
                     </tr>
                   </tbody>
@@ -556,6 +594,12 @@
                     <th :class="{ sorted: radarSortColumn === 'name' }" @click="sortRadarTable('name')">
                       <span class="th-content">Build <span class="sort-indicator" :class="getSortDirClass('name')">{{ getSortDirIcon('name') }}</span></span>
                     </th>
+                    <th :class="{ sorted: radarSortColumn === 'classes' }" @click="sortRadarTable('classes')">
+                      <span class="th-content">Clases <span class="sort-indicator" :class="getSortDirClass('classes')">{{ getSortDirIcon('classes') }}</span></span>
+                    </th>
+                    <th :class="{ sorted: radarSortColumn === 'role' }" @click="sortRadarTable('role')">
+                      <span class="th-content">Rol <span class="sort-indicator" :class="getSortDirClass('role')">{{ getSortDirIcon('role') }}</span></span>
+                    </th>
                     <th :class="{ sorted: radarSortColumn === 'system' }" @click="sortRadarTable('system')">
                       <span class="th-content">Reglamento <span class="sort-indicator" :class="getSortDirClass('system')">{{ getSortDirIcon('system') }}</span></span>
                     </th>
@@ -581,41 +625,71 @@
                 </thead>
                 <tbody>
                   <tr v-for="b in sortedRadarTableBuilds" :key="b.id" class="radar-table-row" :class="{ highlight: selectedBuild?.id === b.id }" @click="selectBuild(b.id, 'character guide.md')">
-                    <td class="font-bold cursor-pointer">{{ b.name }}</td>
+                    <td class="font-bold cursor-pointer build-name-cell">
+                      <span class="class-color-indicator" :style="{ backgroundColor: getClassColor(b.classes), boxShadow: `0 0 6px ${getClassColor(b.classes)}` }"></span>
+                      {{ b.name }}
+                    </td>
+                    <td>
+                      <div class="class-badges-container">
+                        <span
+                          v-for="badge in getClassBadges(b.classes)"
+                          :key="badge.text"
+                          class="class-pill"
+                          :style="{
+                            backgroundColor: badge.color + '22',
+                            borderColor: badge.color + '66',
+                            color: badge.color
+                          }"
+                        >
+                          {{ badge.text }}
+                        </span>
+                      </div>
+                    </td>
+                    <td>
+                      <div class="card-role-row compact">
+                        <span
+                          v-for="roleTag in getRoleTags(b.role)"
+                          :key="roleTag"
+                          class="role-badge"
+                        >
+                          {{ roleTag }}
+                        </span>
+                      </div>
+                    </td>
                     <td><span class="system-badge" :class="b.system.includes('2024') ? 'system-2024' : 'system-2014'">{{ b.system.includes('2024') ? '2024 (5.5e)' : '2014 (5e)' }}</span></td>
                     <td>
                       <div class="rating-cell">
-                        <span class="rating-val">{{ b.ratings.dpr }}</span>
+                        <span class="rating-val" :class="getScoreColorClass(b.ratings.dpr)">{{ b.ratings.dpr }}</span>
                         <div class="rating-bar-bg"><div class="rating-bar-fill dpr-color" :style="{ width: `${b.ratings.dpr}%` }"></div></div>
                       </div>
                     </td>
                     <td>
                       <div class="rating-cell">
-                        <span class="rating-val">{{ b.ratings.ehp }}</span>
+                        <span class="rating-val" :class="getScoreColorClass(b.ratings.ehp)">{{ b.ratings.ehp }}</span>
                         <div class="rating-bar-bg"><div class="rating-bar-fill ehp-color" :style="{ width: `${b.ratings.ehp}%` }"></div></div>
                       </div>
                     </td>
                     <td>
                       <div class="rating-cell">
-                        <span class="rating-val">{{ b.ratings.control }}</span>
+                        <span class="rating-val" :class="getScoreColorClass(b.ratings.control)">{{ b.ratings.control }}</span>
                         <div class="rating-bar-bg"><div class="rating-bar-fill control-color" :style="{ width: `${b.ratings.control}%` }"></div></div>
                       </div>
                     </td>
                     <td>
                       <div class="rating-cell">
-                        <span class="rating-val">{{ b.ratings.support }}</span>
+                        <span class="rating-val" :class="getScoreColorClass(b.ratings.support)">{{ b.ratings.support }}</span>
                         <div class="rating-bar-bg"><div class="rating-bar-fill support-color" :style="{ width: `${b.ratings.support}%` }"></div></div>
                       </div>
                     </td>
                     <td>
                       <div class="rating-cell">
-                        <span class="rating-val">{{ b.ratings.complexity }}</span>
+                        <span class="rating-val" :class="getScoreColorClass(b.ratings.complexity)">{{ b.ratings.complexity }}</span>
                         <div class="rating-bar-bg"><div class="rating-bar-fill complexity-color" :style="{ width: `${b.ratings.complexity}%` }"></div></div>
                       </div>
                     </td>
                     <td>
                       <div class="rating-cell">
-                        <span class="rating-val text-primary font-bold">{{ getAverageRating(b.ratings) }}</span>
+                        <span class="rating-val font-bold" :class="getScoreColorClass(parseFloat(getAverageRating(b.ratings)))">{{ getAverageRating(b.ratings) }}</span>
                         <div class="rating-bar-bg"><div class="rating-bar-fill avg-color" :style="{ width: `${getAverageRating(b.ratings)}%` }"></div></div>
                       </div>
                     </td>
@@ -799,6 +873,8 @@ const sortedRadarTableBuilds = computed(() => {
     let valB: number | string = 0;
 
     if (radarSortColumn.value === 'name') { valA = a.name; valB = b.name; }
+    else if (radarSortColumn.value === 'classes') { valA = a.classes; valB = b.classes; }
+    else if (radarSortColumn.value === 'role') { valA = a.role; valB = b.role; }
     else if (radarSortColumn.value === 'system') { valA = a.system; valB = b.system; }
     else if (radarSortColumn.value === 'avg') {
       valA = parseFloat(getAverageRating(a.ratings));
@@ -825,6 +901,30 @@ function getClassColor(buildIdOrClasses: string): string {
     if (lower.includes(cls)) return colors.primary;
   }
   return '#6366f1';
+}
+
+function getScoreColorClass(val: number): string {
+  if (val >= 80) return 'score-high';
+  if (val >= 60) return 'score-mid-high';
+  if (val >= 40) return 'score-mid';
+  return 'score-low';
+}
+
+function getClassBadges(classesStr: string) {
+  if (!classesStr) return [];
+  const parts = classesStr.split('/');
+  return parts.map(part => {
+    const trimmed = part.trim();
+    const lower = trimmed.toLowerCase();
+    let color = '#6366f1';
+    for (const [cls, colors] of Object.entries(CLASS_COLORS)) {
+      if (lower.includes(cls)) {
+        color = colors.primary;
+        break;
+      }
+    }
+    return { text: trimmed, color };
+  });
 }
 
 function getFileLabel(f: string): string { return FILE_LABELS[f] || f; }

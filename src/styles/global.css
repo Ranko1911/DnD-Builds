@@ -2298,6 +2298,71 @@ th:hover .sort-indicator.placeholder {
     }
 }
 
+/* Build Name cell indicator dot */
+.build-name-cell {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    white-space: nowrap;
+}
+
+.class-color-indicator {
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    display: inline-block;
+    flex-shrink: 0;
+}
+
+/* Class Pill Tags */
+.class-badges-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.35rem;
+    align-items: center;
+}
+
+.class-pill {
+    display: inline-flex;
+    align-items: center;
+    padding: 0.15rem 0.5rem;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border-radius: 6px;
+    border: 1px solid;
+    white-space: nowrap;
+    line-height: 1.2;
+}
+
+/* Compact Role Row for Tables */
+.card-role-row.compact {
+    gap: 0.25rem;
+    flex-wrap: wrap;
+}
+
+.card-role-row.compact .role-badge {
+    font-size: 0.7rem;
+    padding: 0.1rem 0.4rem;
+}
+
+/* Score Color Classes */
+.rating-val.score-high {
+    color: #34d399 !important; /* Emerald */
+    text-shadow: 0 0 8px rgba(52, 211, 153, 0.3);
+}
+
+.rating-val.score-mid-high {
+    color: #60a5fa !important; /* Sky Blue */
+}
+
+.rating-val.score-mid {
+    color: #fbbf24 !important; /* Amber */
+}
+
+.rating-val.score-low {
+    color: #fb7185 !important; /* Rose Red */
+}
+
 
 
 
