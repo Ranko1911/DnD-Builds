@@ -2363,6 +2363,48 @@ th:hover .sort-indicator.placeholder {
     color: #fb7185 !important; /* Rose Red */
 }
 
+/* Global & Detail Edition Toggle Pills */
+.edition-toggle-bar, .edition-toggle-pill {
+    display: inline-flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.35);
+    border: 1px solid var(--border-color);
+    border-radius: 20px;
+    padding: 2px;
+    gap: 2px;
+    flex-shrink: 0;
+}
+
+.edition-toggle-btn {
+    border: none;
+    background: transparent;
+    color: var(--color-text-muted);
+    font-family: var(--font-body);
+    font-size: 0.75rem;
+    font-weight: 600;
+    padding: 0.25rem 0.75rem;
+    border-radius: 16px;
+    cursor: pointer;
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+    white-space: nowrap;
+}
+
+.edition-toggle-btn:hover {
+    color: white;
+}
+
+.edition-toggle-btn.edition-2014.active {
+    background: linear-gradient(135deg, #f59e0b, #d97706);
+    color: white;
+    box-shadow: 0 0 12px rgba(245, 158, 11, 0.45);
+}
+
+.edition-toggle-btn.edition-2024.active {
+    background: linear-gradient(135deg, #10b981, #06b6d4);
+    color: white;
+    box-shadow: 0 0 12px rgba(16, 185, 129, 0.45);
+}
+
 
 
 

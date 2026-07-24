@@ -13,6 +13,30 @@
       "control": 24,
       "support": 16,
       "complexity": 36
+    },
+    "v2014": {
+      "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Thorns Tank / Heavy Striker",
+      "ratings": {
+        "dpr": 76,
+        "ehp": 84,
+        "control": 24,
+        "support": 16,
+        "complexity": 36
+      }
+    },
+    "v2024": {
+      "classes": "Barbarian (Berserker) 6 / Warlock (Fiend) 14",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Frontline Frenzy Tank / Pact Striker",
+      "ratings": {
+        "dpr": 82,
+        "ehp": 88,
+        "control": 30,
+        "support": 16,
+        "complexity": 38
+      }
     }
   },
   {
@@ -29,6 +53,30 @@
       "control": 96,
       "support": 64,
       "complexity": 88
+    },
+    "v2014": {
+      "classes": "Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2",
+      "system": "D&D 5e (2014)",
+      "role": "Backline Blaster / Support / Probability Controller",
+      "ratings": {
+        "dpr": 68,
+        "ehp": 52,
+        "control": 96,
+        "support": 64,
+        "complexity": 88
+      }
+    },
+    "v2024": {
+      "classes": "Sorcerer (Clockwork Soul) 17 / Warlock (Archfey) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Metamagic Master / Teleport Controller / Support",
+      "ratings": {
+        "dpr": 74,
+        "ehp": 60,
+        "control": 98,
+        "support": 68,
+        "complexity": 90
+      }
     }
   },
   {
@@ -45,6 +93,30 @@
       "control": 88,
       "support": 60,
       "complexity": 56
+    },
+    "v2014": {
+      "classes": "Druid (Circle of the Stars) 20",
+      "system": "D&D 5e (2014)",
+      "role": "Controller / Blaster / Star Shape Striker",
+      "ratings": {
+        "dpr": 56,
+        "ehp": 48,
+        "control": 88,
+        "support": 60,
+        "complexity": 56
+      }
+    },
+    "v2024": {
+      "classes": "Druid (Circle of the Stars) 20",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Constellation Blaster / Primary Healer / Flight Controller",
+      "ratings": {
+        "dpr": 64,
+        "ehp": 58,
+        "control": 90,
+        "support": 72,
+        "complexity": 52
+      }
     }
   },
   {
@@ -61,6 +133,30 @@
       "control": 40,
       "support": 8,
       "complexity": 48
+    },
+    "v2014": {
+      "classes": "Warlock (Hexblade) 17 / Fighter (Battle Master) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Ranged Nova Striker / Battlefield Sniper",
+      "ratings": {
+        "dpr": 84,
+        "ehp": 40,
+        "control": 40,
+        "support": 8,
+        "complexity": 48
+      }
+    },
+    "v2024": {
+      "classes": "Warlock (Archfey) 17 / Fighter (Battle Master) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Pact Blade Bow Sniper / Tactical Push Striker",
+      "ratings": {
+        "dpr": 88,
+        "ehp": 48,
+        "control": 52,
+        "support": 12,
+        "complexity": 52
+      }
     }
   },
   {
@@ -77,6 +173,30 @@
       "control": 56,
       "support": 100,
       "complexity": 76
+    },
+    "v2014": {
+      "classes": "Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2",
+      "system": "D&D 5e (2014)",
+      "role": "Backline Blaster / Primary Healer / Support",
+      "ratings": {
+        "dpr": 64,
+        "ehp": 52,
+        "control": 56,
+        "support": 100,
+        "complexity": 76
+      }
+    },
+    "v2024": {
+      "classes": "Sorcerer (Divine Soul) 17 / Warlock (Celestial) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Radiant Metamagic Healer / Eldritch Blaster",
+      "ratings": {
+        "dpr": 70,
+        "ehp": 62,
+        "control": 60,
+        "support": 100,
+        "complexity": 78
+      }
     }
   },
   {
@@ -93,6 +213,30 @@
       "control": 96,
       "support": 48,
       "complexity": 84
+    },
+    "v2014": {
+      "classes": "Wizard (Necromancer) 20",
+      "system": "D&D 5e (2014)",
+      "role": "Backline Swarm Summoner / Master Controller",
+      "ratings": {
+        "dpr": 76,
+        "ehp": 64,
+        "control": 92,
+        "support": 40,
+        "complexity": 80
+      }
+    },
+    "v2024": {
+      "classes": "Wizard (Necromancer) 20",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Backline Aerial Summoner / Undead Thrall Controller",
+      "ratings": {
+        "dpr": 80,
+        "ehp": 72,
+        "control": 96,
+        "support": 48,
+        "complexity": 84
+      }
     }
   },
   {
@@ -109,6 +253,30 @@
       "control": 68,
       "support": 56,
       "complexity": 48
+    },
+    "v2014": {
+      "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Dread Tank / Aggro Controller",
+      "ratings": {
+        "dpr": 36,
+        "ehp": 100,
+        "control": 68,
+        "support": 56,
+        "complexity": 48
+      }
+    },
+    "v2024": {
+      "classes": "Artificer (Armorer) 17 / Cleric (Forge) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Infused Guardian Tank / Thunder Pulse Controller",
+      "ratings": {
+        "dpr": 42,
+        "ehp": 100,
+        "control": 74,
+        "support": 62,
+        "complexity": 52
+      }
     }
   },
   {
@@ -125,6 +293,30 @@
       "control": 96,
       "support": 44,
       "complexity": 88
+    },
+    "v2014": {
+      "classes": "Cleric (Tempest) 4 / Wizard (Scribes) 16",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Gish Tank / Maximize Lightning Blaster",
+      "ratings": {
+        "dpr": 80,
+        "ehp": 84,
+        "control": 92,
+        "support": 40,
+        "complexity": 84
+      }
+    },
+    "v2024": {
+      "classes": "Cleric (Tempest) 3 / Wizard (Scribes) 17",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Frontline Gish Tank / Tactical AoE Blaster",
+      "ratings": {
+        "dpr": 84,
+        "ehp": 88,
+        "control": 96,
+        "support": 44,
+        "complexity": 88
+      }
     }
   },
   {
@@ -141,6 +333,30 @@
       "control": 84,
       "support": 76,
       "complexity": 60
+    },
+    "v2014": {
+      "classes": "Paladin 2 / Bard (College of Swords) 18",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Smite Striker / Evasion Tank",
+      "ratings": {
+        "dpr": 68,
+        "ehp": 68,
+        "control": 84,
+        "support": 76,
+        "complexity": 60
+      }
+    },
+    "v2024": {
+      "classes": "Paladin 3 / Bard (College of Swords) 17",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Bonus Action Smite Striker / Blade Flourish Gish",
+      "ratings": {
+        "dpr": 74,
+        "ehp": 72,
+        "control": 86,
+        "support": 78,
+        "complexity": 64
+      }
     }
   },
   {
@@ -157,6 +373,30 @@
       "control": 56,
       "support": 72,
       "complexity": 40
+    },
+    "v2014": {
+      "classes": "Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Protector Tank / Off-Healer Support",
+      "ratings": {
+        "dpr": 36,
+        "ehp": 96,
+        "control": 56,
+        "support": 72,
+        "complexity": 40
+      }
+    },
+    "v2024": {
+      "classes": "Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Temp HP Wild Shape Tank / Beast Controller",
+      "ratings": {
+        "dpr": 42,
+        "ehp": 100,
+        "control": 62,
+        "support": 76,
+        "complexity": 44
+      }
     }
   },
   {
@@ -173,6 +413,30 @@
       "control": 16,
       "support": 36,
       "complexity": 88
+    },
+    "v2014": {
+      "classes": "Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2",
+      "system": "D&D 5e (2014)",
+      "role": "Speed Gimmick / Ranged Sprinter / Mobility Specialist",
+      "ratings": {
+        "dpr": 24,
+        "ehp": 48,
+        "control": 16,
+        "support": 36,
+        "complexity": 88
+      }
+    },
+    "v2024": {
+      "classes": "Artificer (Alchemist) 13 / Fighter 2 / Wizard (Bladesinger) 3 / Monk 2",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Sonic Sprint Gish / Tactical Item Sprinter",
+      "ratings": {
+        "dpr": 30,
+        "ehp": 54,
+        "control": 22,
+        "support": 40,
+        "complexity": 90
+      }
     }
   },
   {
@@ -189,6 +453,30 @@
       "control": 52,
       "support": 16,
       "complexity": 48
+    },
+    "v2014": {
+      "classes": "Fighter (Eldritch Knight) 20",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Gish Striker / Battlefield Controller",
+      "ratings": {
+        "dpr": 68,
+        "ehp": 68,
+        "control": 52,
+        "support": 16,
+        "complexity": 48
+      }
+    },
+    "v2024": {
+      "classes": "Fighter (Eldritch Knight) 20",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "War Magic Cantrip Striker / Master Weapon Tank",
+      "ratings": {
+        "dpr": 76,
+        "ehp": 74,
+        "control": 58,
+        "support": 20,
+        "complexity": 52
+      }
     }
   },
   {
@@ -205,6 +493,30 @@
       "control": 36,
       "support": 24,
       "complexity": 48
+    },
+    "v2014": {
+      "classes": "Sorcerer 1 / Rogue (Swashbuckler) 19",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Sneak Striker / Face / Skill Monkey",
+      "ratings": {
+        "dpr": 60,
+        "ehp": 52,
+        "control": 32,
+        "support": 20,
+        "complexity": 44
+      }
+    },
+    "v2024": {
+      "classes": "Sorcerer 3 / Rogue (Swashbuckler) 17",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Frontline Striker / Face / Skill Monkey",
+      "ratings": {
+        "dpr": 64,
+        "ehp": 56,
+        "control": 36,
+        "support": 24,
+        "complexity": 48
+      }
     }
   },
   {
@@ -221,6 +533,30 @@
       "control": 76,
       "support": 48,
       "complexity": 56
+    },
+    "v2014": {
+      "classes": "Warlock (Celestial) 19 / Fighter 1",
+      "system": "D&D 5e (2014)",
+      "role": "Ranged Eldritch Sniper / Radiant Turret",
+      "ratings": {
+        "dpr": 80,
+        "ehp": 60,
+        "control": 72,
+        "support": 44,
+        "complexity": 52
+      }
+    },
+    "v2024": {
+      "classes": "Warlock (Celestial) 19 / Fighter 1",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Ranged Control Striker / Artillery Turret",
+      "ratings": {
+        "dpr": 84,
+        "ehp": 64,
+        "control": 76,
+        "support": 48,
+        "complexity": 56
+      }
     }
   },
   {
@@ -237,6 +573,30 @@
       "control": 68,
       "support": 76,
       "complexity": 92
+    },
+    "v2014": {
+      "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Bonus Action Fast Hands Tank / Item Specialist",
+      "ratings": {
+        "dpr": 44,
+        "ehp": 72,
+        "control": 64,
+        "support": 72,
+        "complexity": 88
+      }
+    },
+    "v2024": {
+      "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Frontline Tank / Utility / Item Specialist",
+      "ratings": {
+        "dpr": 48,
+        "ehp": 76,
+        "control": 68,
+        "support": 76,
+        "complexity": 92
+      }
     }
   },
   {
@@ -253,6 +613,30 @@
       "control": 56,
       "support": 64,
       "complexity": 68
+    },
+    "v2014": {
+      "classes": "Bard (Valor) 19 / Warlock 1",
+      "system": "D&D 5e (2014)",
+      "role": "Melee Battle Bard / Inspiring Support",
+      "ratings": {
+        "dpr": 74,
+        "ehp": 52,
+        "control": 52,
+        "support": 60,
+        "complexity": 64
+      }
+    },
+    "v2024": {
+      "classes": "Bard (Valor) 17 / Warlock 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Melee / Ranged Nova Striker / Support",
+      "ratings": {
+        "dpr": 80,
+        "ehp": 56,
+        "control": 56,
+        "support": 64,
+        "complexity": 68
+      }
     }
   },
   {
@@ -269,6 +653,30 @@
       "control": 44,
       "support": 32,
       "complexity": 76
+    },
+    "v2014": {
+      "classes": "Wizard (Bladesinger) 18 / Barbarian 2",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Thorns EHP Tank / Gish",
+      "ratings": {
+        "dpr": 60,
+        "ehp": 100,
+        "control": 44,
+        "support": 32,
+        "complexity": 76
+      }
+    },
+    "v2024": {
+      "classes": "Wizard (Bladesinger) 17 / Barbarian 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Rage Bladesinger Gish / EHP Thorns Tank",
+      "ratings": {
+        "dpr": 64,
+        "ehp": 100,
+        "control": 48,
+        "support": 32,
+        "complexity": 80
+      }
     }
   },
   {
@@ -285,6 +693,30 @@
       "control": 44,
       "support": 44,
       "complexity": 56
+    },
+    "v2014": {
+      "classes": "Rogue (Soulknife) 18 / Artificer 2",
+      "system": "D&D 5e (2014)",
+      "role": "Psionic Infiltrator / Skill Monkey / Infused Utility",
+      "ratings": {
+        "dpr": 52,
+        "ehp": 52,
+        "control": 40,
+        "support": 40,
+        "complexity": 52
+      }
+    },
+    "v2024": {
+      "classes": "Rogue (Soulknife) 17 / Artificer 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Infiltrator / Skill Monkey / Utility Gish",
+      "ratings": {
+        "dpr": 56,
+        "ehp": 56,
+        "control": 44,
+        "support": 44,
+        "complexity": 56
+      }
     }
   },
   {
@@ -301,6 +733,30 @@
       "control": 56,
       "support": 8,
       "complexity": 48
+    },
+    "v2014": {
+      "classes": "Barbarian (Beast) 3 / Monk (Long Death) 17",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Striker / Grappler / Temp HP Tank",
+      "ratings": {
+        "dpr": 76,
+        "ehp": 88,
+        "control": 56,
+        "support": 8,
+        "complexity": 48
+      }
+    },
+    "v2024": {
+      "classes": "Barbarian (Wild Heart) 3 / Monk (Open Hand) 17",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Unarmed Striker / Grappler / Focus Tank",
+      "ratings": {
+        "dpr": 82,
+        "ehp": 92,
+        "control": 62,
+        "support": 12,
+        "complexity": 50
+      }
     }
   },
   {
@@ -317,6 +773,30 @@
       "control": 64,
       "support": 52,
       "complexity": 68
+    },
+    "v2014": {
+      "classes": "Fighter (Battle Master) 17 / Bard (Swords) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Gish / Controller / Face",
+      "ratings": {
+        "dpr": 76,
+        "ehp": 88,
+        "control": 64,
+        "support": 52,
+        "complexity": 68
+      }
+    },
+    "v2024": {
+      "classes": "Fighter (Battle Master) 17 / Bard (Swords) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Tactical Maneuver Gish / Master Duelist",
+      "ratings": {
+        "dpr": 80,
+        "ehp": 90,
+        "control": 68,
+        "support": 56,
+        "complexity": 70
+      }
     }
   },
   {
@@ -333,6 +813,30 @@
       "control": 52,
       "support": 88,
       "complexity": 56
+    },
+    "v2014": {
+      "classes": "Rogue (Soulknife) 18 / Cleric (Twilight) 2",
+      "system": "D&D 5e (2014)",
+      "role": "Resilient Support / Skill Monkey / Infiltrator",
+      "ratings": {
+        "dpr": 56,
+        "ehp": 76,
+        "control": 52,
+        "support": 88,
+        "complexity": 56
+      }
+    },
+    "v2024": {
+      "classes": "Rogue (Soulknife) 17 / Cleric (Twilight) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Aura Temp HP Support / Psionic Infiltrator",
+      "ratings": {
+        "dpr": 60,
+        "ehp": 80,
+        "control": 56,
+        "support": 92,
+        "complexity": 60
+      }
     }
   },
   {
@@ -349,6 +853,30 @@
       "control": 44,
       "support": 64,
       "complexity": 76
+    },
+    "v2014": {
+      "classes": "Druid (Moon) 17 / Artificer (Artillerist) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Wild Shape Fire Blaster / Temp HP Tank",
+      "ratings": {
+        "dpr": 64,
+        "ehp": 96,
+        "control": 44,
+        "support": 64,
+        "complexity": 76
+      }
+    },
+    "v2024": {
+      "classes": "Druid (Moon) 17 / Artificer (Artillerist) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Elemental Beast Blaster / Eldritch Cannon Tank",
+      "ratings": {
+        "dpr": 70,
+        "ehp": 98,
+        "control": 50,
+        "support": 68,
+        "complexity": 78
+      }
     }
   },
   {
@@ -365,6 +893,30 @@
       "control": 44,
       "support": 32,
       "complexity": 68
+    },
+    "v2014": {
+      "classes": "Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Ranged Gadget Sniper / Heavy Striker",
+      "ratings": {
+        "dpr": 72,
+        "ehp": 72,
+        "control": 44,
+        "support": 32,
+        "complexity": 68
+      }
+    },
+    "v2024": {
+      "classes": "Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "INT Weapon Master / Gadget Artillery Sniper",
+      "ratings": {
+        "dpr": 78,
+        "ehp": 76,
+        "control": 50,
+        "support": 36,
+        "complexity": 70
+      }
     }
   },
   {
@@ -381,6 +933,30 @@
       "control": 72,
       "support": 72,
       "complexity": 76
+    },
+    "v2014": {
+      "classes": "Monk (Way of Mercy) 12 / Cleric (War Domain) 8",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Striker / Divine Healer / Controller",
+      "ratings": {
+        "dpr": 68,
+        "ehp": 64,
+        "control": 72,
+        "support": 72,
+        "complexity": 76
+      }
+    },
+    "v2024": {
+      "classes": "Monk (Way of Mercy) 12 / Cleric (War Domain) 8",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Unarmed Divine Striker / War Priest Healer",
+      "ratings": {
+        "dpr": 74,
+        "ehp": 70,
+        "control": 76,
+        "support": 76,
+        "complexity": 78
+      }
     }
   },
   {
@@ -397,6 +973,30 @@
       "control": 56,
       "support": 72,
       "complexity": 68
+    },
+    "v2014": {
+      "classes": "Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8",
+      "system": "D&D 5e (2014)",
+      "role": "Ranged Nova Sniper / Support Turret",
+      "ratings": {
+        "dpr": 72,
+        "ehp": 64,
+        "control": 56,
+        "support": 72,
+        "complexity": 68
+      }
+    },
+    "v2024": {
+      "classes": "Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Weapon Mastery Bow Sniper / Divine Support",
+      "ratings": {
+        "dpr": 78,
+        "ehp": 68,
+        "control": 62,
+        "support": 76,
+        "complexity": 70
+      }
     }
   },
   {
@@ -413,6 +1013,30 @@
       "control": 52,
       "support": 16,
       "complexity": 56
+    },
+    "v2014": {
+      "classes": "Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Thorns Tank / Heavy Striker",
+      "ratings": {
+        "dpr": 68,
+        "ehp": 96,
+        "control": 52,
+        "support": 16,
+        "complexity": 56
+      }
+    },
+    "v2024": {
+      "classes": "Warlock (Fiend) 17 / Barbarian (Wild Heart) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Dark One Temp HP Tank / Pact Striker",
+      "ratings": {
+        "dpr": 74,
+        "ehp": 98,
+        "control": 58,
+        "support": 20,
+        "complexity": 58
+      }
     }
   },
   {
@@ -429,6 +1053,30 @@
       "control": 52,
       "support": 24,
       "complexity": 48
+    },
+    "v2014": {
+      "classes": "Rogue (Soulknife) 17 / Barbarian (Totem Warrior) 3",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Evasion Striker / Grappler",
+      "ratings": {
+        "dpr": 64,
+        "ehp": 84,
+        "control": 52,
+        "support": 24,
+        "complexity": 48
+      }
+    },
+    "v2024": {
+      "classes": "Rogue (Soulknife) 17 / Barbarian (Wild Heart) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Rage Soulknife Striker / Grappling Evasion Tank",
+      "ratings": {
+        "dpr": 70,
+        "ehp": 88,
+        "control": 58,
+        "support": 28,
+        "complexity": 50
+      }
     }
   },
   {
@@ -445,6 +1093,30 @@
       "control": 44,
       "support": 68,
       "complexity": 76
+    },
+    "v2014": {
+      "classes": "Sorcerer (Draconic) 14 / Paladin (Devotion) 6",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Nova Striker / Aura Support",
+      "ratings": {
+        "dpr": 84,
+        "ehp": 76,
+        "control": 44,
+        "support": 68,
+        "complexity": 76
+      }
+    },
+    "v2024": {
+      "classes": "Sorcerer (Draconic) 17 / Paladin (Devotion) 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Metamagic Smite Blaster / Radiant Aura Tank",
+      "ratings": {
+        "dpr": 88,
+        "ehp": 80,
+        "control": 50,
+        "support": 72,
+        "complexity": 78
+      }
     }
   },
   {
@@ -461,6 +1133,30 @@
       "control": 76,
       "support": 36,
       "complexity": 88
+    },
+    "v2014": {
+      "classes": "Wizard (Bladesinger) 18 / Artificer 2",
+      "system": "D&D 5e (2014)",
+      "role": "Frontline Evasion Tank / Shapechange Angel / Spell Master",
+      "ratings": {
+        "dpr": 84,
+        "ehp": 100,
+        "control": 76,
+        "support": 36,
+        "complexity": 88
+      }
+    },
+    "v2024": {
+      "classes": "Wizard (Bladesinger) 17 / Artificer 3",
+      "system": "D&D 5e (2024 / 5.5e)",
+      "role": "Frontline Evasion Tank / Shapechange Angel / Spell Master",
+      "ratings": {
+        "dpr": 88,
+        "ehp": 100,
+        "control": 80,
+        "support": 40,
+        "complexity": 90
+      }
     }
   }
 ]

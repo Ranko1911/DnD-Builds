@@ -39,6 +39,25 @@
       </div>
 
       <div class="search-filter-bar">
+        <div class="edition-toggle-bar">
+          <button
+            class="edition-toggle-btn edition-2014"
+            :class="{ active: activeEdition === '2014' }"
+            title="Ver reglamento 2014 (5e)"
+            @click="setEdition('2014')"
+          >
+            📜 2014 (5e)
+          </button>
+          <button
+            class="edition-toggle-btn edition-2024"
+            :class="{ active: activeEdition === '2024' }"
+            title="Ver reglamento 2024 (5.5e)"
+            @click="setEdition('2024')"
+          >
+            ✨ 2024 (5.5e)
+          </button>
+        </div>
+
         <div class="search-wrapper">
           <svg class="search-icon" viewBox="0 0 24 24" fill="none">
             <circle cx="11" cy="11" r="8" stroke="currentColor" stroke-width="2" />
@@ -194,16 +213,15 @@
               <h3>{{ build.name }}</h3>
               <span
                 class="system-badge"
-                :class="build.system.includes('2024') ? 'system-2024' : 'system-2014'"
-                @click.stop="filterSystem = build.system.includes('2024') ? '2024' : '2014'"
+                :class="getBuildActiveData(build, activeEdition).system.includes('2024') ? 'system-2024' : 'system-2014'"
               >
-                {{ build.system.includes('2024') ? 'D&D 2024' : 'D&D 5e (2014)' }}
+                {{ getBuildActiveData(build, activeEdition).system.includes('2024') ? 'D&D 2024' : 'D&D 5e (2014)' }}
               </span>
             </div>
-            <div class="card-classes">{{ build.classes }}</div>
+            <div class="card-classes">{{ getBuildActiveData(build, activeEdition).classes }}</div>
             <div class="card-role-row">
               <span
-                v-for="roleTag in getRoleTags(build.role)"
+                v-for="roleTag in getRoleTags(getBuildActiveData(build, activeEdition).role)"
                 :key="roleTag"
                 class="role-badge"
                 @click.stop="filterRoleByBadge(roleTag)"
@@ -284,11 +302,26 @@
             <div class="detail-title-area">
               <div class="detail-title-row">
                 <h2 id="detail-build-name">{{ selectedBuild.name }}</h2>
-                <span id="detail-system-badge" class="system-badge" :class="selectedBuild.system.includes('2024') ? 'system-2024' : 'system-2014'">
-                  {{ selectedBuild.system.includes('2024') ? 'D&D 2024' : 'D&D 5e (2014)' }}
-                </span>
+                <div class="edition-toggle-pill">
+                  <button
+                    class="edition-toggle-btn edition-2014"
+                    :class="{ active: activeEdition === '2014' }"
+                    title="Ver versión 2014 (5e)"
+                    @click="setEdition('2014')"
+                  >
+                    📜 2014 (5e)
+                  </button>
+                  <button
+                    class="edition-toggle-btn edition-2024"
+                    :class="{ active: activeEdition === '2024' }"
+                    title="Ver versión 2024 (5.5e)"
+                    @click="setEdition('2024')"
+                  >
+                    ✨ 2024 (5.5e)
+                  </button>
+                </div>
               </div>
-              <div id="detail-classes" class="detail-subtitle">{{ selectedBuild.classes }}</div>
+              <div id="detail-classes" class="detail-subtitle">{{ getBuildActiveData(selectedBuild, activeEdition).classes }}</div>
             </div>
 
             <div id="level-selector-area" class="level-selector-area" :class="{ hidden: !showTracker && selectedFile !== 'roadmap.md' }">
@@ -717,6 +750,14 @@ interface Ratings {
   complexity: number;
 }
 
+interface BuildEditionData {
+  classes: string;
+  system: string;
+  role: string;
+  folder?: string;
+  ratings: Ratings;
+}
+
 interface Build {
   id: string;
   name: string;
@@ -726,6 +767,8 @@ interface Build {
   folder: string;
   youtube: string | null;
   ratings: Ratings;
+  v2014?: BuildEditionData;
+  v2024?: BuildEditionData;
 }
 
 const ORDERED_FILES = [
@@ -789,6 +832,46 @@ const filterSystem = ref('all');
 const filterClass = ref('all');
 const filterRole = ref('all');
 const sortOption = ref('name-asc');
+const activeEdition = ref<'2014' | '2024'>('2024');
+
+function getBuildActiveData(build: Build | null, edition?: '2014' | '2024'): BuildEditionData {
+  const ed = edition || activeEdition.value;
+  if (!build) return { classes: '', system: '', role: '', folder: '', ratings: { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 } };
+  if (ed === '2014' && build.v2014) {
+    return {
+      classes: build.v2014.classes || build.classes,
+      system: build.v2014.system || 'D&D 5e (2014)',
+      role: build.v2014.role || build.role,
+      folder: build.v2014.folder || build.folder,
+      ratings: build.v2014.ratings || build.ratings
+    };
+  }
+  if (ed === '2024' && build.v2024) {
+    return {
+      classes: build.v2024.classes || build.classes,
+      system: build.v2024.system || 'D&D 5e (2024 / 5.5e)',
+      role: build.v2024.role || build.role,
+      folder: build.v2024.folder || build.folder,
+      ratings: build.v2024.ratings || build.ratings
+    };
+  }
+  return {
+    classes: build.classes,
+    system: build.system,
+    role: build.role,
+    folder: build.folder,
+    ratings: build.ratings
+  };
+}
+
+function setEdition(edition: '2014' | '2024') {
+  activeEdition.value = edition;
+  if (selectedBuild.value) {
+    const data = getBuildActiveData(selectedBuild.value, edition);
+    applyDynamicThemeForBuild(data.classes);
+    loadMarkdown();
+  }
+}
 
 const isSidebarHidden = ref(false);
 const isHeaderHidden = ref(false);
@@ -805,8 +888,8 @@ const resourceStorage = ref<Record<string, number>>({});
 const radarSortColumn = ref<string>('avg');
 const radarSortAsc = ref(false);
 
-const count2024 = computed(() => builds.value.filter(b => b.system.includes('2024')).length);
-const count2014 = computed(() => builds.value.filter(b => b.system.includes('2014')).length);
+const count2024 = computed(() => builds.value.filter(b => getBuildActiveData(b, activeEdition.value).system.includes('2024')).length);
+const count2014 = computed(() => builds.value.filter(b => getBuildActiveData(b, activeEdition.value).system.includes('2014')).length);
 
 const currentFileIndex = computed(() => ORDERED_FILES.indexOf(selectedFile.value));
 
@@ -816,16 +899,17 @@ const selectedCompareBuilds = computed(() => {
 
 const filteredBuilds = computed(() => {
   let list = builds.value.filter(build => {
-    if (filterSystem.value === '2014' && !build.system.includes('2014')) return false;
-    if (filterSystem.value === '2024' && !build.system.includes('2024')) return false;
+    const data = getBuildActiveData(build, activeEdition.value);
+    if (filterSystem.value === '2014' && !data.system.includes('2014')) return false;
+    if (filterSystem.value === '2024' && !data.system.includes('2024')) return false;
 
-    if (filterClass.value !== 'all' && !build.classes.toLowerCase().includes(filterClass.value.toLowerCase())) {
+    if (filterClass.value !== 'all' && !data.classes.toLowerCase().includes(filterClass.value.toLowerCase())) {
       return false;
     }
 
     if (filterRole.value !== 'all') {
       const r = filterRole.value.toLowerCase();
-      const roleStr = build.role.toLowerCase();
+      const roleStr = data.role.toLowerCase();
       if (r === 'tank' && !roleStr.includes('tank') && !roleStr.includes('frontline')) return false;
       if (r === 'blaster' && !roleStr.includes('blaster') && !roleStr.includes('aoe')) return false;
       if (r === 'controller' && !roleStr.includes('control') && !roleStr.includes('controller')) return false;
@@ -837,8 +921,8 @@ const filteredBuilds = computed(() => {
       const q = searchQuery.value.toLowerCase();
       return (
         build.name.toLowerCase().includes(q) ||
-        build.classes.toLowerCase().includes(q) ||
-        build.role.toLowerCase().includes(q)
+        data.classes.toLowerCase().includes(q) ||
+        data.role.toLowerCase().includes(q)
       );
     }
 
@@ -846,22 +930,24 @@ const filteredBuilds = computed(() => {
   });
 
   return list.sort((a, b) => {
-    const avgA = parseFloat(getAverageRating(a.ratings));
-    const avgB = parseFloat(getAverageRating(b.ratings));
+    const dataA = getBuildActiveData(a, activeEdition.value);
+    const dataB = getBuildActiveData(b, activeEdition.value);
+    const avgA = parseFloat(getAverageRating(dataA.ratings));
+    const avgB = parseFloat(getAverageRating(dataB.ratings));
 
     switch (sortOption.value) {
       case 'name-asc': return a.name.localeCompare(b.name);
       case 'name-desc': return b.name.localeCompare(a.name);
       case 'avg-desc': return avgB - avgA;
       case 'avg-asc': return avgA - avgB;
-      case 'class-asc': return a.classes.localeCompare(b.classes);
-      case 'class-desc': return b.classes.localeCompare(a.classes);
-      case 'dpr-desc': return (b.ratings.dpr || 0) - (a.ratings.dpr || 0);
-      case 'ehp-desc': return (b.ratings.ehp || 0) - (a.ratings.ehp || 0);
-      case 'control-desc': return (b.ratings.control || 0) - (a.ratings.control || 0);
-      case 'support-desc': return (b.ratings.support || 0) - (a.ratings.support || 0);
-      case 'complexity-asc': return (a.ratings.complexity || 0) - (b.ratings.complexity || 0);
-      case 'complexity-desc': return (b.ratings.complexity || 0) - (a.ratings.complexity || 0);
+      case 'class-asc': return dataA.classes.localeCompare(dataB.classes);
+      case 'class-desc': return dataB.classes.localeCompare(dataA.classes);
+      case 'dpr-desc': return (dataB.ratings.dpr || 0) - (dataA.ratings.dpr || 0);
+      case 'ehp-desc': return (dataB.ratings.ehp || 0) - (dataA.ratings.ehp || 0);
+      case 'control-desc': return (dataB.ratings.control || 0) - (dataA.ratings.control || 0);
+      case 'support-desc': return (dataB.ratings.support || 0) - (dataA.ratings.support || 0);
+      case 'complexity-asc': return (dataA.ratings.complexity || 0) - (dataB.ratings.complexity || 0);
+      case 'complexity-desc': return (dataB.ratings.complexity || 0) - (dataA.ratings.complexity || 0);
       default: return 0;
     }
   });
@@ -869,20 +955,22 @@ const filteredBuilds = computed(() => {
 
 const sortedRadarTableBuilds = computed(() => {
   return [...filteredBuilds.value].sort((a, b) => {
+    const dataA = getBuildActiveData(a, activeEdition.value);
+    const dataB = getBuildActiveData(b, activeEdition.value);
     let valA: number | string = 0;
     let valB: number | string = 0;
 
     if (radarSortColumn.value === 'name') { valA = a.name; valB = b.name; }
-    else if (radarSortColumn.value === 'classes') { valA = a.classes; valB = b.classes; }
-    else if (radarSortColumn.value === 'role') { valA = a.role; valB = b.role; }
-    else if (radarSortColumn.value === 'system') { valA = a.system; valB = b.system; }
+    else if (radarSortColumn.value === 'classes') { valA = dataA.classes; valB = dataB.classes; }
+    else if (radarSortColumn.value === 'role') { valA = dataA.role; valB = dataB.role; }
+    else if (radarSortColumn.value === 'system') { valA = dataA.system; valB = dataB.system; }
     else if (radarSortColumn.value === 'avg') {
-      valA = parseFloat(getAverageRating(a.ratings));
-      valB = parseFloat(getAverageRating(b.ratings));
+      valA = parseFloat(getAverageRating(dataA.ratings));
+      valB = parseFloat(getAverageRating(dataB.ratings));
     } else {
       const k = radarSortColumn.value as keyof Ratings;
-      valA = a.ratings[k] || 0;
-      valB = b.ratings[k] || 0;
+      valA = dataA.ratings[k] || 0;
+      valB = dataB.ratings[k] || 0;
     }
 
     if (typeof valA === 'string' && typeof valB === 'string') {
@@ -894,7 +982,7 @@ const sortedRadarTableBuilds = computed(() => {
 
 function getClassColor(buildIdOrClasses: string): string {
   const b = builds.value.find(x => x.id === buildIdOrClasses);
-  const str = b ? b.classes : buildIdOrClasses;
+  const str = b ? getBuildActiveData(b, activeEdition.value).classes : buildIdOrClasses;
   if (!str) return '#6366f1';
   const lower = str.toLowerCase();
   for (const [cls, colors] of Object.entries(CLASS_COLORS)) {
@@ -967,14 +1055,16 @@ function closeCompare() {
 }
 
 function isWinner(buildId: string, key: keyof Ratings, buildsList: Build[]): boolean {
-  const maxVal = Math.max(...buildsList.map(b => b.ratings[key] || 0));
-  const buildVal = buildsList.find(b => b.id === buildId)?.ratings[key] || 0;
+  const maxVal = Math.max(...buildsList.map(b => getBuildActiveData(b, activeEdition.value).ratings[key] || 0));
+  const bObj = buildsList.find(b => b.id === buildId) || null;
+  const buildVal = getBuildActiveData(bObj, activeEdition.value).ratings[key] || 0;
   return buildVal === maxVal && maxVal > 0;
 }
 
 function isAvgWinner(buildId: string, buildsList: Build[]): boolean {
-  const maxVal = Math.max(...buildsList.map(b => parseFloat(getAverageRating(b.ratings))));
-  const buildVal = parseFloat(getAverageRating(buildsList.find(b => b.id === buildId)?.ratings || { dpr: 0, ehp: 0, control: 0, support: 0, complexity: 0 }));
+  const maxVal = Math.max(...buildsList.map(b => parseFloat(getAverageRating(getBuildActiveData(b, activeEdition.value).ratings))));
+  const bObj = buildsList.find(b => b.id === buildId) || null;
+  const buildVal = parseFloat(getAverageRating(getBuildActiveData(bObj, activeEdition.value).ratings));
   return buildVal === maxVal && maxVal > 0;
 }
 
@@ -1046,13 +1136,18 @@ function nextFile() {
 async function loadMarkdown() {
   if (!selectedBuild.value) return;
 
+  const data = getBuildActiveData(selectedBuild.value, activeEdition.value);
   const baseUrl = import.meta.env.BASE_URL.replace(/\/$/, '');
-  const folderEncoded = encodeURI(selectedBuild.value.folder);
+  const folderEncoded = encodeURI(data.folder);
   const fileEncoded = encodeURIComponent(selectedFile.value);
-  const filePath = `${baseUrl}/${folderEncoded}/${fileEncoded}`;
 
   try {
-    const res = await fetch(filePath);
+    let filePath = `${baseUrl}/${folderEncoded}/${activeEdition.value}/${fileEncoded}`;
+    let res = await fetch(filePath);
+    if (!res.ok) {
+      filePath = `${baseUrl}/${folderEncoded}/${fileEncoded}`;
+      res = await fetch(filePath);
+    }
     if (!res.ok) throw new Error('File not found');
     rawMarkdown.value = await res.text();
     await nextTick();
