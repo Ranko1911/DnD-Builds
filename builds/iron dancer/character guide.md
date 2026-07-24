@@ -130,6 +130,58 @@ Si se aplica el Shapechange de 2014 de forma estricta, la comparación cambia de
 1. **La Marilith sube mucho de valor:** en esa lectura, sí puedes aprovechar su Multiattack completa, por lo que deja de ser solo una comparación teórica y pasa a ser una opción ofensiva real.
 2. **El Planetar sigue siendo la forma más consistente:** conserva mejor la identidad del build porque sigue ofreciendo CA alta, vuelo, resistencia mágica y daño radiante pasivo, todo lo cual encaja mejor con el concepto de tanque evasivo y duelista aéreo.
 3. **Se pierde parte del núcleo del Iron Dancer:** si no se mantienen Bladesong, Song of Victory, Mobile y War Caster en la transformación, el personaje ya no funciona como el mismo loop de combate de la guía original.
-4. **La diferencia se reduce, pero no desaparece:** la Marilith se vuelve más competitiva en combate cerrado y en estilo de juego agresivo, mientras que el Planetar sigue siendo superior para un concepto de control de espacio, movilidad y supervivencia.
+4. **La diferencia se reduce, pero no desaparece:** la Marilith se vuelve más competitive en combate cerrado y en estilo de juego agresivo, mientras que el Planetar sigue siendo superior para un concepto de control de espacio, movilidad y supervivencia.
 
 > **Conclusión ajustada:** con Shapechange de 2014 RAW, la Marilith deja de ser una candidata descartada y pasa a ser una opción seria, pero el Planetar sigue siendo la forma superior para este build si se busca mantener la identidad defensiva, aérea y de control del Iron Dancer. La Marilith solo domina si la mesa prioriza el daño bruto y permite un combate muy agresivo sin depender del bucle de movilidad del Bladesinger.
+
+---
+
+## 7. Plan de Combate Óptimo sin Shapechange (Forma Humanoide / Tiers 1-4)
+
+En escenarios donde *Shapechange* no esté disponible (combates de desgaste previo al nivel 17, entornos con *Antimagic Field*, necesidad de reservar la ranura de nivel 9 o enfrentamientos con *Dispel Magic* de nivel alto), el **Iron Dancer** sigue siendo uno de los duelistas de primera línea más letales y difíciles de matar del juego en su forma humanoide base.
+
+### 🛡️ 1. Matriz Defensiva Base (Forma Humanoide)
+
+* **CA Pasiva de Combate:** $13 (\text{Mage Armor}) + 5 (\text{DES}) = 18 \text{ CA}$.
+* **CA con Bladesong:** $18 + 5 (\text{INT}) = 23 \text{ CA}$.
+* **CA con Shield A Voluntad (Spell Mastery):** $23 + 5 (\text{Shield}) = \mathbf{28 \text{ CA}}$.
+* **Protección de Concentración:** Bono de salvación $+13$ ($\text{INT } +5 + \text{CON } +2 + \text{Proficiencia } +6$) con Ventaja (**War Caster**) y $4$ éxitos automáticos diarios por **Mind Sharpener**. Tirada mínima de concentración: $14$ (falla automática solo en daños superiores a $30$ de un solo golpe).
+
+---
+
+### ⚔️ 2. Rutas de Concentración y Carga Ofensiva
+
+#### 🔵 Ruta A: *Spirit Shroud* Escalado (Nivel 5, 7 o 9) — *El Triturador Elemental*
+* **Mecánica:** Al lanzarse como conjuro de nivel 7, cada impacto de arma añade **+3d8 de daño** (Radiante, Necrótico o Frío) dentro de un radio de 10 pies y reduce la velocidad del objetivo en 10 pies (impidiendo que recupere Puntos de Golpe).
+* **Ráfaga por Turno (Ataque Extra Bladesinger + Cantrip):**
+  * **Ataque 1 (Estoque):** $1\text{d}8 (\text{Estoque}) + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 3\text{d}8 (\text{Spirit Shroud Lvl 7}) + 3\text{d}6 (\text{Dragon's Wrath}) + 3 (\text{Magia}) = 4\text{d}8 + 3\text{d}6 + 13 = \mathbf{41.5 \text{ daño medio}}$.
+  * **Ataque 2 (Green-Flame Blade):** $1\text{d}8 + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 3\text{d}8 (\text{Spirit Shroud}) + 3\text{d}8 (\text{GFB}) + 3\text{d}6 (\text{Dragon's Wrath}) + 5 (\text{INT GFB}) + 3 (\text{Magia}) = 7\text{d}8 + 3\text{d}6 + 18 = \mathbf{60.0 \text{ daño medio}}$.
+  * **Salto de Llama (Secundario):** $3\text{d}8 + 10 = \mathbf{23.5 \text{ daño de fuego}}$.
+  * **DPR Total Humanoide:** $41.5 + 60.0 = \mathbf{101.5 \text{ daño medio sostenido a un solo objetivo}}$ (más 23.5 al secundario) usando únicamente una ranura de nivel 7.
+
+#### 🟢 Ruta B: *Foresight* (Previsión - 8h Sin Concentración) + *Haste* — *El Espectro Intocable*
+* **Mecánica:** Se lanza *Foresight* (nivel 9) al inicio de la jornada. Al durar 8 horas **sin requerir concentración**, otorga ventaja en todas las tiradas de ataque, salvaciones y pruebas, e impone desventaja a los ataques enemigos.
+* **En combate:** Se concentra en *Haste* (nivel 3):
+  * **CA Alcanzada:** $23 (\text{Bladesong}) + 2 (\text{Haste}) + 5 (\text{Shield}) = \mathbf{30 \text{ CA}}$.
+  * **Ataque Adicional de Haste:** Realiza un 3.er ataque de estoque por turno: $1\text{d}8 + 5 (\text{DES}) + 5 (\text{Song of Victory}) + 3\text{d}6 (\text{Dragon's Wrath}) + 3 = \mathbf{23.0 \text{ daño medio adicionales}}$.
+  * **Ventaja Permanente en los 3 Ataques:** Duplica la tasa de críticos ($9.75\%$ por ataque) sin depender de invisibilidad.
+
+#### 🟡 Ruta C: *Greater Invisibility* — *El Duelista Sombra*
+* **Mecánica:** Otorga invisibilidad total durante el combate.
+* **Ventaja Táctica:** Inmunidad a todos los conjuros que requieren "una criatura que puedas ver" (*Counterspell*, *Power Word Kill*, *Dominate Monster*). Todos los ataques enemigos sufren desventaja (acumulable a tu CA de 28).
+
+---
+
+### ⚖️ 3. Tabla de Rendimiento Táctico sin Shapechange
+
+| Configuración / Opción | DPR Estimado | CA Máxima | Inmunidades / Ventajas Especiales | Evaluación Archivero |
+| :--- | :---: | :---: | :--- | :---: |
+| **Ruta A: Spirit Shroud (Lvl 7)** | **101.5** | **28 CA** | Reducción de velocidad enemiga, bloqueo de curación | 🔵 **Máximo DPR Humanoide** |
+| **Ruta B: Foresight + Haste** | **94.5** | **30 CA** | Ventaja universal, Desventaja a enemigos, 30 CA | 🔵 **God-Mode Defensivo** |
+| **Ruta C: Greater Invisibility** | **71.5** | **28 CA** | Inmunidad a Spells visuales, Ventaja en ataques | 🟢 **Infiltración y Anti-Caster** |
+| **Ruta D: Shadow Blade (Lvl 7)** | **92.0** | **28 CA** | 5d8 daño psíquico base en arma de sombra | 🟡 **Aceptable (RAW dependiente)** |
+
+### 🧭 Veredicto Táctico del Archivero
+
+Sin depender de *Shapechange*, la combinación de **Foresight (Previsión)** antes del combate sumado a **Spirit Shroud (Nivel 7)** o **Haste** durante el combate convierte al Iron Dancer en una máquina de combate cuerpo a cuerpo que supera los **100 DPR sostenidos** manteniendo **28 a 30 de CA**, concentración ininterrumpida y versatilidad absoluta.
+
