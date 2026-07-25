@@ -21,6 +21,28 @@
 
     <!-- Main Workspace -->
     <main class="app-main">
+      <!-- Backdrop para el panel lateral en móvil -->
+      <div
+        v-if="!isSidebarHidden"
+        class="sidebar-backdrop"
+        title="Cerrar catálogo"
+        @click="isSidebarHidden = true"
+      ></div>
+
+      <!-- Botón Flotante en Móvil para Abrir Catálogo -->
+      <button
+        v-if="isSidebarHidden"
+        class="mobile-fab-catalog"
+        title="Abrir Catálogo de Builds"
+        @click="isSidebarHidden = false"
+      >
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="18" height="18">
+          <rect x="3" y="3" width="18" height="18" rx="2" ry="2"></rect>
+          <line x1="9" y1="3" x2="9" y2="21"></line>
+        </svg>
+        <span>Builds</span>
+      </button>
+
       <!-- Sidebar with Build Cards -->
       <BuildSidebar
         v-model:searchQuery="searchQuery"
@@ -333,6 +355,10 @@ function selectBuild(buildId: string, file: string = 'character guide.md') {
   applyDynamicThemeForBuild(build.classes);
   loadMarkdown();
   window.location.hash = `#build=${buildId}&file=${encodeURIComponent(file)}`;
+
+  if (typeof window !== 'undefined' && window.innerWidth < 900) {
+    isSidebarHidden.value = true;
+  }
 }
 
 function switchTab(file: string) {
