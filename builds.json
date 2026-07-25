@@ -1,18 +1,34 @@
 [
   {
     "id": "barbarian-from-hell",
-    "name": "Barbarian from Hell",
+    "name": "Barbarian from Hell (Barbarian from Hell)",
     "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
     "folder": "builds/barbarian from hell",
-    "youtube": null,
+    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
       "dpr": 76,
       "ehp": 84,
       "control": 24,
       "support": 16,
       "complexity": 36
+    }
+  },
+  {
+    "id": "non-hexblade-fire-genie",
+    "name": "Non-Hexblade Fire Genie",
+    "classes": "Barbarian (Zealot) 6 / Warlock (Genie - Efreeti) 14",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Offensive Fire Striker / Mobile Gish",
+    "folder": "builds/non hexblade fire genie",
+    "youtube": "https://www.youtube.com/watch?v=UmiNKz9TXvw",
+    "ratings": {
+      "dpr": 72,
+      "ehp": 74,
+      "control": 32,
+      "support": 42,
+      "complexity": 48
     }
   },
   {

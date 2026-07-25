@@ -1,0 +1,11 @@
+# 🏰 Bastión y Tiempo Muerto (D&D 2024 DMG)
+
+## Instalaciones del Bastión
+
+* **Taller del Genio (Sanctuary Workshop):** Vinculado a tu *Genie Vessel*. Permite forjar objetos mágicos de fuego y pociones de resistencia elemental durante el tiempo muerto.
+* **Campo de Entrenamiento Marcial:** Entrena el uso de *Weapon Masteries* (Glaive, Halberd, Pike).
+
+## Actividades de Tiempo Muerto
+
+* **Crafting de Wand of Magic Missiles / Fire Resistance Potions:** Utiliza las reglas de tiempo muerto de 2024 para craftear consumibles por 200 po.
+* **Descansos en la Vasija:** Tu *Sanctuary Vessel* de Nivel 10 te permite descansar con el grupo dentro de la vasija durante solo 10 minutos.
