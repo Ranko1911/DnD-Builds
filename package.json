@@ -10,7 +10,8 @@
     "start": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "control": "ejecutar.bat"
   },
   "dependencies": {
     "@astrojs/vue": "^5.0.0",

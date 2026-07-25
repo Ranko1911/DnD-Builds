@@ -48,18 +48,27 @@
           placeholder="Buscar por nombre, clase, rol..."
           @input="$emit('update:searchQuery', ($event.target as HTMLInputElement).value)"
         />
+        <button
+          v-if="searchQuery"
+          class="clear-search-btn"
+          title="Limpiar búsqueda"
+          @click="$emit('update:searchQuery', '')"
+        >
+          ✕
+        </button>
       </div>
 
       <button
         id="btn-toggle-filters"
         class="btn btn-secondary filter-toggle-btn"
-        :class="{ active: isFilterVisible }"
-        title="Filtrar builds"
+        :class="{ active: isFilterVisible || activeFilterCount > 0 }"
+        title="Filtrar por Clase, Rol y Edición"
         @click="$emit('update:isFilterVisible', !isFilterVisible)"
       >
         <svg class="btn-icon-svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" width="18" height="18">
           <polygon points="22 3 2 3 10 12.46 10 19 14 21 14 12.46 22 3"></polygon>
         </svg>
+        <span v-if="activeFilterCount > 0" class="filter-count-badge">{{ activeFilterCount }}</span>
       </button>
 
       <button
@@ -139,7 +148,7 @@
     </div>
 
     <div class="filter-group">
-      <label for="class-select">Clase Principal:</label>
+      <label for="class-select">🛡️ Buscador por Clase:</label>
       <select id="class-select" :value="filterClass" class="filter-select" @change="$emit('update:filterClass', ($event.target as HTMLSelectElement).value)">
         <option value="all">Todas las Clases</option>
         <option value="barbarian">Bárbaro (Barbarian)</option>
@@ -159,7 +168,7 @@
     </div>
 
     <div class="filter-group">
-      <label for="role-select">Rol Tactico:</label>
+      <label for="role-select">🎯 Buscador por Rol Táctico:</label>
       <select id="role-select" :value="filterRole" class="filter-select" @change="$emit('update:filterRole', ($event.target as HTMLSelectElement).value)">
         <option value="all">Todos los Roles</option>
         <option value="tank">Tanque / Frontline</option>
@@ -170,7 +179,9 @@
       </select>
     </div>
 
-    <button id="btn-reset-filters" class="btn btn-text" @click="$emit('reset-filters')">Restablecer Filtros</button>
+    <button v-if="activeFilterCount > 0" id="btn-reset-filters" class="btn btn-text" @click="$emit('reset-filters')">
+      Restablecer Filtros ({{ activeFilterCount }})
+    </button>
   </div>
 </template>
 
@@ -189,6 +200,7 @@ defineProps<{
   filterClass: string;
   filterRole: string;
   currentView: BuildView;
+  activeFilterCount: number;
 }>();
 
 defineEmits<{

@@ -80,7 +80,7 @@ DnDbuilds/
 │       └── bastion and downtime.md # Bastión (6 instalaciones), tiempo muerto y logística
 ├── docs/                   # Documentación adicional e ideas de implementación
 ├── scratch/                # Transcripciones y scripts utilitarios
-└── ollama-agent.js         # Agente LLM local para consultar e interactuar
+└── ollama-agent.cjs        # Agente LLM local para consultar e interactuar
 ```
 
 ### `builds.json` — Esquema de Entrada

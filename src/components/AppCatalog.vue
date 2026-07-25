@@ -13,6 +13,7 @@
       v-model:filterClass="filterClass"
       v-model:filterRole="filterRole"
       :current-view="currentView"
+      :active-filter-count="activeFilterCount"
       @reset-home="resetHome"
       @toggle-radar-table="toggleRadarTableView"
       @reset-filters="resetFilters"
@@ -22,16 +23,22 @@
     <main class="app-main">
       <!-- Sidebar with Build Cards -->
       <BuildSidebar
+        v-model:searchQuery="searchQuery"
+        v-model:filterClass="filterClass"
+        v-model:filterRole="filterRole"
+        v-model:filterSystem="filterSystem"
         v-model:sortOption="sortOption"
         :filtered-builds="filteredBuilds"
         :selected-build-id="selectedBuild?.id"
         :compare-build-ids="compareBuildIds"
         :is-sidebar-hidden="isSidebarHidden"
+        :active-filter-count="activeFilterCount"
         @select-build="selectBuild"
         @toggle-compare="toggleCompareBuild"
         @filter-system="(sys) => filterSystem = sys"
         @filter-role-badge="filterRoleByBadge"
         @open-compare="currentView = 'compare'"
+        @reset-filters="resetFilters"
       />
 
       <!-- Sidebar Resizer -->
@@ -173,6 +180,15 @@ const selectedCompareBuilds = computed(() => {
   return compareBuildIds.value.map(id => builds.value.find(b => b.id === id)).filter((b): b is Build => !!b);
 });
 
+const activeFilterCount = computed(() => {
+  let count = 0;
+  if (filterSystem.value !== 'all') count++;
+  if (filterClass.value !== 'all') count++;
+  if (filterRole.value !== 'all') count++;
+  if (searchQuery.value.trim() !== '') count++;
+  return count;
+});
+
 const filteredBuilds = computed(() => {
   const list = builds.value.filter(build => {
     if (filterSystem.value === '2014' && !build.system.includes('2014')) return false;
@@ -188,7 +204,7 @@ const filteredBuilds = computed(() => {
       if (r === 'tank' && !roleStr.includes('tank') && !roleStr.includes('frontline')) return false;
       if (r === 'blaster' && !roleStr.includes('blaster') && !roleStr.includes('aoe')) return false;
       if (r === 'controller' && !roleStr.includes('control') && !roleStr.includes('controller')) return false;
-      if (r === 'striker' && !roleStr.includes('striker') && !roleStr.includes('dps') && !roleStr.includes('melee')) return false;
+      if (r === 'striker' && !roleStr.includes('striker') && !roleStr.includes('dps') && !roleStr.includes('melee') && !roleStr.includes('nova') && !roleStr.includes('sniper')) return false;
       if (r === 'healer' && !roleStr.includes('healer') && !roleStr.includes('support') && !roleStr.includes('soporte') && !roleStr.includes('sanador')) return false;
     }
 
