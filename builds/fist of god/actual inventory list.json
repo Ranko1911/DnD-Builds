@@ -1,0 +1,38 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Actual Inventory List — Fist of God",
+      "level": 1,
+      "lines": []
+    },
+    {
+      "title": "Equipamiento Actual",
+      "level": 2,
+      "lines": [
+        "* **Arma Principal:** Espada Larga Celestial (*Longsword* - usada a dos manos para 1d10 cortante, considerada arma de Monje mediante *Dedicated Weapon*)",
+        "* **Armadura:** Ninguna (Defensa Sin Armadura del Monje, CA 20 fijo basándose en DES y SAB)",
+        "* **Foco / Reliquias:** Vendajes sagrados bordados con runas divinas (foco de clérigo unificado en sus propias manos)"
+      ]
+    },
+    {
+      "title": "Objetos Mágicos Sintonizados (Attuned)",
+      "level": 2,
+      "lines": [
+        "El personaje no cuenta con objetos mágicos sintonizados activos en su equipamiento inicial estándar."
+      ]
+    },
+    {
+      "title": "Inventario General (Mochila / Bag of Holding)",
+      "level": 2,
+      "lines": [
+        "* Máscara de la Misericordia (Máscara de cuervo tallada en madera blanca para su identidad de Mercy Monk)",
+        "* Macuto de explorador",
+        "* Útiles de calígrafo",
+        "* 3 Pociones de Curación Superior (*Superior Healing Potions*)",
+        "* 180 po"
+      ]
+    }
+  ],
+  "tables": []
+}

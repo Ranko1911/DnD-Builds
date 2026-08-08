@@ -1,0 +1,201 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta del Bárbaro del Infierno (Nivel 1 - 20) — Barbarian from Hell",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Barbarian from Hell** (Bárbaro Fanático 6 / Brujo del Fiend 14), diseñado por el **Archivero de Optimización** basándose en la guía de **d4: D&D Deep Dive**.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "*Se inicia como Bárbaro para obtener competencia en salvaciones de Fuerza/Constitución, armas marciales y la salud inicial más alta.*",
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1. **Polearm Master (Nivel 1 / Barbarian 1):**",
+        "* *Sinergia:* Te permite realizar un ataque adicional con tu acción adicional ($1d4 + \\text{STR} + \\text{Rage}$) usando un arma de asta (Glaive o Halberd). También te da un ataque de oportunidad automático cuando un enemigo entra en tu radio de amenaza (10 pies), maximizando tu presencia y daño.",
+        "2. **Great Weapon Master (Nivel 4 / Barbarian 4):**",
+        "* *Sinergia:* Permite sumar $+10$ de daño plano a tus ataques a cambio de un $-5$ a la tirada. Como bárbaro, puedes usar *Reckless Attack* a voluntad para tener ventaja constante, mitigando casi por completo la penalización del ataque.",
+        "3. **ASI: Mejora de Característica (Nivel 10 / Warlock 4):**",
+        "* *Sinergia:* Incrementa tu Fuerza de 17 a 19 para mayor acierto y daño físico básico.",
+        "4. **ASI: Mejora de Característica (Nivel 14 / Warlock 8):**",
+        "* *Sinergia:* Reparte $+1$ a Fuerza (alcanzando el máximo de **20**) y $+1$ a Carisma (alcanzando **14**), maximizando tus capacidades ofensivas físicas y cumpliendo con la progresión del multiclaseo.",
+        "5. **Tough (Nivel 18 / Warlock 12):**",
+        "* *Sinergia:* Te otorga $+2$ HP por nivel de personaje (total $+40$ HP máximos a nivel 20). Esto amortigua el daño extra recibido por el uso constante de *Reckless Attack* y prolonga tu resistencia física en combates prolongados de final de juego."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Barbarian 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Furia (Rage) y Defensa sin Armadura. Feat inicial: **Polearm Master**.",
+        "Espacios de Conjuro / Ranuras de Pacto": "—",
+        "Características Obtenidas": "Competencia en Constitución y Fuerza en salvaciones."
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Barbarian 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Reckless Attack** (Ataque Temerario) y Danger Sense (Sentido del peligro).",
+        "Espacios de Conjuro / Ranuras de Pacto": "—",
+        "Características Obtenidas": "Ventaja en ataques a cambio de recibir ventaja."
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Barbarian 3",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Subclase: **Path of the Zealot**. *Divine Fury* y *Warrior of the Gods*.",
+        "Espacios de Conjuro / Ranuras de Pacto": "—",
+        "Características Obtenidas": "Daño extra sagrado/oscuro y resurrección gratis."
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Barbarian 4",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Dote 2: Great Weapon Master** (GWM).",
+        "Espacios de Conjuro / Ranuras de Pacto": "—",
+        "Características Obtenidas": "$+10$ de daño a cambio de $-5$ a la tirada."
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Barbarian 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Extra Attack** (Ataque Extra) y Fast Movement (Movimiento rápido).",
+        "Espacios de Conjuro / Ranuras de Pacto": "—",
+        "Características Obtenidas": "Doble ataque por acción."
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Barbarian 6",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Fanatical Focus** (Rerroll de una salvación fallida por furia).",
+        "Espacios de Conjuro / Ranuras de Pacto": "—",
+        "Características Obtenidas": "Hito intermedio defensivo del Bárbaro."
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Warlock 1",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Patron: **The Fiend**. **Dark One's Blessing** (Temp HP por bajas).",
+        "Espacios de Conjuro / Ranuras de Pacto": "1 de 1.º (Pacto)",
+        "Características Obtenidas": "Obtienes *Eldritch Blast* y *Armor of Agathys* (Nivel 1)."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Warlock 2",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Invocaciones arcanas básicas.",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 1.º",
+        "Características Obtenidas": "Invocaciones: **Devil's Sight** y **Fiendish Vigor**."
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Warlock 3",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Pact Boon: **Pact of the Blade** (Arma del Pacto).",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 2.º",
+        "Características Obtenidas": "Tus ranuras suben a nivel 2. Tu arma es mágica."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Warlock 4",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 3: ASI (+2 Fuerza -> STR 19)**.",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 2.º",
+        "Características Obtenidas": "CD de conjuros e impacto físico mejorados."
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Warlock 5",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Invocación Clave: Eldritch Smite**.",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 3.º",
+        "Características Obtenidas": "Ranuras de nivel 3 (Armor of Agathys otorga 15 HP). Swap de invocación."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Warlock 6",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dark One's Own Luck** (Añade $1d10$ a una salvación una vez por descanso corto).",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 3.º",
+        "Características Obtenidas": "Excelente recurso defensivo."
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Warlock 7",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 4.",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 4.º",
+        "Características Obtenidas": "Ranuras de nivel 4 (Armor of Agathys otorga 20 HP). Invocation: **Cloak of Flies**."
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Warlock 8",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 4: ASI (+1 Fuerza / +1 Carisma -> STR 20, CHA 14)**.",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 4.º",
+        "Características Obtenidas": "Fuerza al máximo (20) y Carisma a 14."
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Warlock 9",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 5 (Máximo de slots).",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 5.º",
+        "Características Obtenidas": "**Armor of Agathys al máximo nivel** (25 HP / 25 Daño)."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Warlock 10",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Fiendish Resilience** (Resistencia elegida por descanso).",
+        "Espacios de Conjuro / Ranuras de Pacto": "2 de 5.º",
+        "Características Obtenidas": "Elige resistencia a un daño común no físico (como fuego o psíquico)."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Warlock 11",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Mystic Arcanum (6.º nivel)** y 3.ᵉʳ espacio de conjuro.",
+        "Espacios de Conjuro / Ranuras de Pacto": "3 de 5.º, 1 de 6.º",
+        "Características Obtenidas": "Spell de 6.º: *Scatter*. Tres ranuras de nivel 5 por descanso corto."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Warlock 12",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 5: Tough** (+40 HP máximos) o **Sentinel**.",
+        "Espacios de Conjuro / Ranuras de Pacto": "3 de 5.º, 1 de 6.º",
+        "Características Obtenidas": "Invocation: **Lifedrinker** ($+2$ daño necrótico por impacto)."
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Warlock 13",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Mystic Arcanum (7.º nivel)**.",
+        "Espacios de Conjuro / Ranuras de Pacto": "3 de 5.º, 1 de 6.º, 1 de 7.º",
+        "Características Obtenidas": "Spell de 7.º: *Forcecage*."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Warlock 14",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Hurl Through Hell** (Destierro temporal e inflige 10d10 daño psíquico).",
+        "Espacios de Conjuro / Ranuras de Pacto": "3 de 5.º, 1 de 6.º, 1 de 7.º",
+        "Características Obtenidas": "**Hito Final del Build** (Daño Nova brutal una vez por día)."
+      }
+    ]
+  ]
+}

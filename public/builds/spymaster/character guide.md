@@ -52,9 +52,9 @@ Combat Role: Infiltrador Técnico, Utilidad de Campo, Skill Monkey y Gish Elusiv
 
 El combo clave consiste en abusar de la dote *Booming Blade* obtenida por la clase Artificer y la acción de *Cunning Action (Disengage)* del Pícaro:
 
-1. **[Paso 1]:** El personaje se aproxima al enemigo portando un escudo (+2 CA, más +1 CA de la infusión *Enhanced Defense*) y ataca con la acción principal usando *Booming Blade*.
-2. **[Paso 2]:** Si impacta, inflige el daño del arma, el daño del truco y el daño total de *Sneak Attack* del Pícaro de nivel 18.
-3. **[Paso 3]:** Usa la Acción Adicional para realizar *Disengage* y se retira 30 pies. El enemigo se ve obligado a quedarse quieto o moverse y recibir un brutal daño sónico automático.
+1. **Paso 1 (Preparación):** El personaje se aproxima al enemigo portando un escudo (+2 CA, más +1 CA de la infusión *Enhanced Defense*) y ataca con la acción principal usando *Booming Blade*.
+2. **Paso 2 (Ataque y Recarga):** Si impacta, inflige el daño del arma, el daño del truco y el daño total de *Sneak Attack* del Pícaro de nivel 18.
+3. **Paso 3 (Sinergia y Remate):** Usa la Acción Adicional para realizar *Disengage* y se retira 30 pies. El enemigo se ve obligado a quedarse quieto o moverse y recibir un brutal daño sónico automático.
 
 🧮 Mathematical Engine (Reglas 2024 / 5.5e):
 

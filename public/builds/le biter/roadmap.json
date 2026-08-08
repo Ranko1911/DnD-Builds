@@ -1,0 +1,196 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta de Le Biter (Nivel 1 - 20)",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Le Biter**, diseñado por el **Archivero de Optimización**. El build se centra en maximizar el control marcial mediante maniobras de Guerrero combinadas con floreos de Bardo.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1.  **Fey Touched (Nivel 8 / Fighter 8):**",
+        "*   *Sinergia:* +1 Carisma. Permite lanzar *Misty Step* gratis una vez por día y añade un conjuro de nivel 1 a tu repertorio. Elegimos *Silvery Barbs*, expandiendo enormemente la utilidad de reacción.",
+        "2.  **Alerta (Alert) (Nivel 12 / Fighter 12):**",
+        "*   *Sinergia:* +5 a la iniciativa. Combinado con *Jack of All Trades* (+3 de medio PB) y +5 de DES, el personaje tiene una iniciativa total de +13, garantizando golpear primero para derribar y controlar la mesa.",
+        "3.  **Lanzador de Conjuros de Guerra (War Caster) (Nivel 19 / Fighter 16):**",
+        "*   *Sinergia:* Ventaja en tiradas de salvación de Constitución para mantener la concentración. Permite usar conjuros de un solo objetivo (como *Hold Person* o *Dissonant Whispers*) como ataques de oportunidad."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Fighter 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Salvaciones de CON y FUER. Competencia con armaduras pesadas.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Dueling Fighting Style, Second Wind"
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Fighter 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Obtención de ráfaga extra de acciones por descanso.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Action Surge (1/descanso)"
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Fighter 3",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Subclase: **Battle Master**. 3 Maniobras y 4d8.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Combat Superiority (4d8), Student of War"
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Fighter 4",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Dote 1:** +1 DES (alcanzando 18).",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Fighter 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Hito ofensivo inicial: Ataque adicional.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Extra Attack (1)"
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Fighter 6",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 2:** +2 DES (alcanzando 20). Máxima Destreza física.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Fighter 7",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Dos maniobras nuevas y un dado adicional (+1d8).",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Know Your Enemy, Superiority Die (5d8)"
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Fighter 8",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 3:** **Fey Touched** (+1 CAR y Silvery Barbs).",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Fighter 9",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Repetir tirada de salvación fallida una vez al día.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Indomitable (1)"
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Fighter 10",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Los dados de superioridad escalan a d10.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Improved Combat Superiority (d10)"
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Fighter 11",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Hito mayor de combate: Tres ataques por acción de ataque.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Extra Attack (2)"
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Fighter 12",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 4:** **Alerta** (Alert). Iniciativa máxima.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Bard 1",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Multiclase a Bardo. 2 trucos y Inspiración.",
+        "Espacios de Conjuro": "2 (Lvl 1)",
+        "Características Obtenidas": "Bardic Inspiration (d6), Spellcasting"
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Bard 2",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Sumar medio PB a habilidades no competentes e Iniciativa.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Jack of All Trades, Song of Rest (d6)"
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Bard 3",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Subclase: **College of Swords**. Floreos y escudo/estoque foco.",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Blade Flourishes, Fighting Style (Defensa), Expertise"
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Fighter 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Repetir dos salvaciones fallidas al día.",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Indomitable (2)"
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Fighter 14",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 5:** **Tough** (Dureza).",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Fighter 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Ganar dado de superioridad si inicias combate sin ninguno.",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Relentless, Superiority Die (6d10)"
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Fighter 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 6:** **War Caster** (Lanzador de Conjuros de Guerra).",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Fighter 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Capstone: Dos usos de Action Surge por descanso corto.",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Action Surge (2/descanso), Indomitable (3)"
+      }
+    ]
+  ]
+}

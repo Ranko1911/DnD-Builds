@@ -54,9 +54,9 @@ Combat Role: Luchador/Agarrador Cuerpo a Cuerpo (Grappler God), Atacante Nova Ps
 
 La sinergia principal del Sneaky Smasher radica en forzar ataques con ventaja constante mediante *Reckless Attack* para activar el Ataque Furtivo de Rogue usando Fuerza:
 
-1. **[Paso 1]:** El personaje entra en combate. Gracias a ser un Bugbear, si ataca antes de que el enemigo actúe, añade **+2d6 de daño extra** en cada golpe.
-2. **[Paso 2]:** Declara *Reckless Attack*. Esto le otorga ventaja a sus golpes de Fuerza.
-3. **[Paso 3]:** Al atacar con ventaja usando Fuerza y un arma Sutil (hoja psiónica), suma los bonos de Furia (+2) y su Ataque Furtivo (+9d6) de manera garantizada cada turno sin requerir aliados.
+1. **Paso 1 (Preparación):** El personaje entra en combate. Gracias a ser un Bugbear, si ataca antes de que el enemigo actúe, añade **+2d6 de daño extra** en cada golpe.
+2. **Paso 2 (Ataque y Recarga):** Declara *Reckless Attack*. Esto le otorga ventaja a sus golpes de Fuerza.
+3. **Paso 3 (Sinergia y Remate):** Al atacar con ventaja usando Fuerza y un arma Sutil (hoja psiónica), suma los bonos de Furia (+2) y su Ataque Furtivo (+9d6) de manera garantizada cada turno sin requerir aliados.
 
 🧮 Mathematical Engine (Reglas 2014):
 

@@ -1,0 +1,138 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — [Nombre del Build]",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** [Objeto A] (1 slot), [Objeto B] (1 slot). (Total: [X]).",
+        "*   **Tier 2 (Niveles 5-10):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).",
+        "*   **Tier 3 (Niveles 11-16):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).",
+        "*   **Tier 4 (Niveles 17-20):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**[Objeto 1]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[⚔️ Sí / —]",
+        "Prioridad / Notas": "**Priorizar 1:** [Razón y sinergia con el build]."
+      },
+      {
+        "Objeto": "**[Objeto 2]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[⚔️ Sí / —]",
+        "Prioridad / Notas": "**Priorizar 2:** [Razón]."
+      },
+      {
+        "Objeto": "**[Objeto 3]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. [Razón]."
+      }
+    ],
+    [
+      {
+        "Objeto": "**[Objeto 1]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[⚔️ Sí / —]",
+        "Prioridad / Notas": "**Priorizar 1:** [Razón y sinergia]."
+      },
+      {
+        "Objeto": "**[Objeto 2]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[⚔️ Sí / —]",
+        "Prioridad / Notas": "**Priorizar 2:** [Razón]."
+      },
+      {
+        "Objeto": "**[Objeto 3]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. [Razón]."
+      }
+    ],
+    [
+      {
+        "Objeto": "**[Objeto 1]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[⚔️ Sí / —]",
+        "Prioridad / Notas": "**Priorizar 1:** [Razón y sinergia]."
+      },
+      {
+        "Objeto": "**[Objeto 2]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. [Razón]."
+      }
+    ],
+    [
+      {
+        "Objeto": "**[Objeto 1]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[⚔️ Sí / —]",
+        "Prioridad / Notas": "**Priorizar 1:** [Razón y sinergia]."
+      },
+      {
+        "Objeto": "**[Objeto 2]**",
+        "Requiere Sintonización": "[Sí / No]",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. [Razón]."
+      }
+    ],
+    [
+      {
+        "Objeto": "**[Objeto 1]**",
+        "Rareza": "[Rareza]",
+        "Prioridad / Notas": "**Prioridad [X]:** [Razón y sinergia]."
+      },
+      {
+        "Objeto": "**[Objeto 2]**",
+        "Rareza": "[Rareza]",
+        "Prioridad / Notas": "**Prioridad [X]:** [Razón]."
+      }
+    ]
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Actual Inventory List — Sneaky Smasher",
+      "level": 1,
+      "lines": []
+    },
+    {
+      "title": "Equipamiento Actual",
+      "level": 2,
+      "lines": [
+        "* **Arma Principal:** Hojas Psiónicas (*Psychic Blades* - Mano principal: 1d6 psíquico, Rango 60 ft; Mano secundaria: 1d4 psíquico, Rango 60 ft)",
+        "* **Arma Secundaria (Respaldo):** Daga de Plata (1d4 perforante, sutil, arrojadiza)",
+        "* **Armadura:** Armadura de Media Cota (*Half-Plate*, 15 CA + 2 DES = 17 CA)",
+        "* **Foco / Reliquias:** Su propio cerebro (fuente de energía psiónica)."
+      ]
+    },
+    {
+      "title": "Objetos Mágicos Sintonizados (Attuned)",
+      "level": 2,
+      "lines": [
+        "El personaje no cuenta con objetos mágicos sintonizados activos en su equipamiento inicial estándar."
+      ]
+    },
+    {
+      "title": "Inventario General (Mochila / Bag of Holding)",
+      "level": 2,
+      "lines": [
+        "* Macuto de explorador",
+        "* Herramientas de Ladrón (*Thieves' Tools*)",
+        "* 3 Pociones de Curación Superior (*Superior Healing Potions*)",
+        "* 110 po"
+      ]
+    }
+  ],
+  "tables": []
+}

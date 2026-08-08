@@ -1,0 +1,126 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Sneaky Smasher",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "* **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).",
+        "* **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Eldritch Claw Tattoo (1 slot). (Total: 3).",
+        "* **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Amulet of Health (1 slot), Ring of Protection (1 slot). (Total: 3).",
+        "* **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of Health (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a la CA y salvaciones."
+      },
+      {
+        "Objeto": "**Boots of Elvenkind**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. Ventaja en tiradas de Sigilo para moverse en absoluto silencio. No consume sintonización."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +2 a la CA y salvaciones adicionales."
+      },
+      {
+        "Objeto": "**Eldritch Claw Tattoo**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Otorga +1 a las tiradas de ataque y daño de tus golpes desarmados y armas psíquicas. Permite realizar ataques a 15 pies con daño de fuerza adicional por 1 minuto al día."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Amulet of Health**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Eleva tu Constitución a 19 (+4), sumando gran cantidad de puntos de golpe y mejorando tus salvaciones."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Los enemigos tienen desventaja al atacarte. Combina con tu Furia y Esquiva Asombrosa para volverte invulnerable."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Tome of Gainful Exercise**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** Aumenta de forma permanente tu Fuerza en +2 (hasta 22), incrementando tu modificador de ataque, daño e intentos de agarre."
+      },
+      {
+        "Objeto": "**Ring of Spell Turning**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "Prioridad Media. Ventaja en salvaciones de conjuros dirigidos e intenta devolverlos."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Boots of Elvenkind**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad 1:** Sigilo sin ruido."
+      },
+      {
+        "Objeto": "**Manual of Quickness of Action**",
+        "Rareza": "Muy Raro",
+        "Prioridad / Notas": "**Prioridad Media:** +2 permanente a la Destreza (aumenta tu CA máxima con armadura media a 18)."
+      }
+    ]
+  ]
+}

@@ -1,0 +1,198 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta de Nick Nack Nabber (Nivel 1 - 20)",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Nick Nack Nabber**, optimizado para control en primera línea y la máxima eficiencia en economía de acciones.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1. **Fey Touched (Nivel 4 / Artificer 4):**",
+        "* *Sinergia:* Aumenta tu INT a 18 y te da *Misty Step* gratis, una herramienta de movilidad ideal para un combatiente que usa armadura pesada y no tiene Cunning Action todavía.",
+        "2. **Ability Score Improvement (+2 INT) (Nivel 8 / Artificer 8):**",
+        "* *Sinergia:* Maximiza tu INT a 20. Aumenta tus probabilidades de impactar con Guanteletes, la CD de tus salvaciones a 18 y el número de usos diarios de tu Spell-Storing Item a 10.",
+        "3. **War Caster (Nivel 15 / Artificer 12):**",
+        "* *Sinergia:* Ventaja en tiradas de salvación de concentración. Esencial dado que juegas en primera línea controlando el aggro de los enemigos.",
+        "4. **Tough (Nivel 19 / Artificer 16):**",
+        "* *Sinergia:* Añade +40 HP a tu reserva de vida total. Convierte a tu personaje en un tanque pesado y resistente ante cualquier enemigo en niveles altos."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Artificer 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Atributos Iniciales (Dex 14, Con 14, Int 17)**. Herramientas: Tinker, Thieves'.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Magical Tinkering, Spellcasting"
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Artificer 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Infusiones activas:** Enhanced Defense, Mind Sharpener.",
+        "Espacios de Conjuro": "2 (Lvl 1)",
+        "Características Obtenidas": "Infuse Item"
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Artificer 3",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Subclase: Armorer**. Armadura pesada sin STR, Thunder Gauntlets.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Armadura Arcana, Modelo de Armadura (Guardian)"
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Artificer 4",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Dote 1:** Fey Touched (+1 INT → INT 18)",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "—"
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Artificer 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Extra Attack** para golpear dos veces con tus guanteletes.",
+        "Espacios de Conjuro": "4 (Lvl 1), 2 (Lvl 2)",
+        "Características Obtenidas": "Extra Attack"
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Artificer 6",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Tool Expertise** (Bono de competencia doble con herramientas).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2)",
+        "Características Obtenidas": "Tool Expertise, Infusiones Adicionales"
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Artificer 7",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Flash of Genius** (Suma INT a tiradas de salvación cercanas).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2)",
+        "Características Obtenidas": "Flash of Genius"
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Artificer 8",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 2:** ASI (+2 INT → INT 20)",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2)",
+        "Características Obtenidas": "—"
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Rogue 1",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Multiclase en Rogue**. Habilidad extra y Expertise.",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2)",
+        "Características Obtenidas": "Sneak Attack (1d6), Thieves' Cant, Expertise"
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Rogue 2",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "—",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2)",
+        "Características Obtenidas": "Cunning Action"
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Rogue 3",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Subclase: Thief**. Fast Hands (Acción Magic como BA).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2)",
+        "Características Obtenidas": "Fast Hands, Second-Story Work"
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Artificer 9",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Armor Modifications** (Cada parte de la armadura puede infundirse por separado).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 2 (Lvl 3)",
+        "Características Obtenidas": "Armor Modifications"
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Artificer 10",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Magic Item Rogue** (Sintoniza hasta 4 objetos).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3)",
+        "Características Obtenidas": "Magic Item Adept"
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Artificer 11",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Spell-Storing Item** (Almacena 10 usos de Web).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3)",
+        "Características Obtenidas": "Spell-Storing Item"
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Artificer 12",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 3:** War Caster",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3)",
+        "Características Obtenidas": "—"
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Artificer 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "—",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3), 1 (Lvl 4)",
+        "Características Obtenidas": "—"
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Artificer 14",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Magic Item Savant** (Sintoniza hasta 5 objetos, ignora restricciones de clase/raza).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3), 2 (Lvl 4)",
+        "Características Obtenidas": "Magic Item Savant"
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Artificer 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Hito de Armorer** (Tracción magnética de Guardian).",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3), 3 (Lvl 4), 1 (Lvl 5)",
+        "Características Obtenidas": "Armor Specialized upgrade"
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Artificer 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 4:** Tough",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3), 3 (Lvl 4), 2 (Lvl 5)",
+        "Características Obtenidas": "—"
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Artificer 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "—",
+        "Espacios de Conjuro": "4 (Lvl 1), 3 (Lvl 2), 3 (Lvl 3), 3 (Lvl 4), 3 (Lvl 5)",
+        "Características Obtenidas": "—"
+      }
+    ]
+  ]
+}

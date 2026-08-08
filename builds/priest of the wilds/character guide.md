@@ -52,9 +52,9 @@ Combat Role: Francotirador de Daño Sostenido (Ranged Nova Striker) y Soporte T�
 
 La sinergia principal radica en mitigar por completo la penalización de la dote *Sharpshooter* usando *Guided Strike* y *Bless*:
 
-1. **[Paso 1]:** El explorador mantiene activo *Bless* (+1d4 a tiradas de ataque) y el estilo de combate de Arquero (+2). Esto prácticamente anula la penalización de -5 de *Sharpshooter*.
-2. **[Paso 2]:** Si aun así falla una flecha cargada con +10 de daño por la dote, usa su reacción para invocar *Guided Strike* sumando +10 plano al ataque, garantizando el impacto.
-3. **[Paso 3]:** En total, realiza 3 ataques por turno añadiendo *Sharpshooter*, *Dreadful Strikes* y *Hunter's Mark*.
+1. **Paso 1 (Preparación):** El explorador mantiene activo *Bless* (+1d4 a tiradas de ataque) y el estilo de combate de Arquero (+2). Esto prácticamente anula la penalización de -5 de *Sharpshooter*.
+2. **Paso 2 (Ataque y Recarga):** Si aun así falla una flecha cargada con +10 de daño por la dote, usa su reacción para invocar *Guided Strike* sumando +10 plano al ataque, garantizando el impacto.
+3. **Paso 3 (Sinergia y Remate):** En total, realiza 3 ataques por turno añadiendo *Sharpshooter*, *Dreadful Strikes* y *Hunter's Mark*.
 
 🧮 Mathematical Engine (Reglas 2014):
 

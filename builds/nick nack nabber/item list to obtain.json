@@ -1,0 +1,126 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Nick Nack Nabber",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`",
+        "> **Filosofía de objetos:** Priorizar varitas y cetros mágicos con cargas (para disparar como Acción Adicional vía Fast Hands), mejorar la CA pasiva y aumentar la Inteligencia."
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Magic Item Master)",
+      "level": 3,
+      "lines": [
+        "* **Tier 1 (Niveles 1-4):** Sin objetos sintonizados. (Las infusiones *Enhanced Defense* y *Mind Sharpener* no consumen ranuras de sintonización).",
+        "* **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Wand of Paralysis (1 slot). (Total: 2).",
+        "* **Tier 3 (Niveles 11-16):** Ring of Protection (1 slot), Wand of Paralysis (1 slot), Wand of Fireballs (1 slot), Winged Boots (1 slot). (Total: 4).",
+        "* **Tier 4 (Niveles 17-20):** Staff of the Magi (1 slot), Ring of Spell Storing (1 slot), Wand of Fireballs (1 slot), Winged Boots (1 slot), Ring of Protection (1 slot). (Total: 5).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Wand of Magic Missiles**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "**Priorizar 1:** Daño de fuerza garantizado. Con Fast Hands, puedes descargar varias cargas usando tu Acción Adicional y golpear cuerpo a cuerpo con tu Acción principal."
+      },
+      {
+        "Objeto": "**Goggles of Night**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Media: Otorga Visión en la oscuridad si es necesario."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 1:** +2 a la CA y +1 a todas las tiradas de salvación."
+      },
+      {
+        "Objeto": "**Wand of Paralysis**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 2:** Permite paralizar objetivos (CD 15) como Acción Adicional con tu varita. Extremadamente fuerte para un Rogue/Artificer."
+      },
+      {
+        "Objeto": "**Winged Boots**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Alta: Capacidad de volar durante 4 horas al día. Excelente para posicionarte y lanzar telarañas desde el aire."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Wand of Fireballs**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 1:** Lanza una Bola de Fuego (8d6 fuego, CD 15) como Acción Adicional. Permite infligir un daño de área devastador."
+      },
+      {
+        "Objeto": "**Tome of Clear Thought**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "Consumido",
+        "Prioridad / Notas": "**Priorizar 2:** Aumento permanente de +2 a Inteligencia y su máximo natural. Tu INT sube a 22 (Modificador +6)."
+      },
+      {
+        "Objeto": "**Plate Armor +3**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Media: Aumenta tu CA base a 20 sin consumir ranura de sintonización."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Luckblade (Daga / Estoque)**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 1 (META):** +1 a CA/salvaciones, reroll de tirada d20 1/día y 1d3 deseos Wish. Eleva Complejidad a 46."
+      },
+      {
+        "Objeto": "**Staff of the Magi**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 2:** +2 a ataques y salvaciones con conjuros y absorción de conjuros."
+      },
+      {
+        "Objeto": "**Ring of Spell Storing**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "Prioridad Media."
+      }
+    ]
+  ]
+}

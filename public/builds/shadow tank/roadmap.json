@@ -1,0 +1,194 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta de Shadow Tank (Nivel 1 - 20)",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Shadow Tank**, diseñado por el **Archivero de Optimización**. El build combina el aguante físico de Bárbaro del Tótem del Oso con los pactos y maldiciones de Hexblade Warlock.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1. **Fey Touched (Nivel 7 / Warlock 4):**",
+        "* *Sinergia:* +1 Carisma. Permite obtener *Misty Step* gratis una vez al día sin gastar ranuras del pacto y añade un conjuro útil de nivel 1.",
+        "2. **Dureza (Tough) (Nivel 19 / Warlock 16):**",
+        "* *Sinergia:* Suma +40 puntos de golpe máximos que se duplican virtualmente en combate debido a las resistencias de Furia."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Barbarian 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Inicio con salvaciones de CON para concentración y d12 hit die.",
+        "Espacios de Conjuro": "—",
+        "Características Obtenidas": "Rage (2/día), Unarmored Defense"
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Warlock 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Transición a Hexblade. Atacar con Carisma usando arma de una mano.",
+        "Espacios de Conjuro": "1 (Lvl 1)",
+        "Características Obtenidas": "Hexblade's Curse, Hex Warrior"
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Barbarian 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Habilidad para atacar con ventaja a cambio de recibirla.",
+        "Espacios de Conjuro": "1 (Lvl 1)",
+        "Características Obtenidas": "Reckless Attack, Danger Sense"
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Barbarian 3",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Subclase: **Totem Warrior (Bear)**. Resistencia casi total.",
+        "Espacios de Conjuro": "1 (Lvl 1)",
+        "Características Obtenidas": "Bear Totem Spirit, Rage (3/día)"
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Warlock 2",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Primeras Invocaciones mágicas de Warlock.",
+        "Espacios de Conjuro": "2 (Lvl 1)",
+        "Características Obtenidas": "Invocaciones (*Agonizing Blast*, *Devil's Sight*)"
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Warlock 3",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Elección de Pacto de la Hoja. Atacar con Espadón de dos manos usando Carisma.",
+        "Espacios de Conjuro": "2 (Lvl 2)",
+        "Características Obtenidas": "Pact of the Blade"
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Warlock 4",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 1:** **Fey Touched** (+1 CAR a 16).",
+        "Espacios de Conjuro": "2 (Lvl 2)",
+        "Características Obtenidas": "Mejora de Atributo (ASI), *Misty Step*"
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Warlock 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Hito ofensivo mayor: Dos ataques e invocación de *Eldritch Smite*.",
+        "Espacios de Conjuro": "2 (Lvl 3)",
+        "Características Obtenidas": "*Thirsting Blade* (Extra Attack), *Eldritch Smite*"
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Warlock 6",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Invocar espectro tras matar a un enemigo humanoide.",
+        "Espacios de Conjuro": "2 (Lvl 3)",
+        "Características Obtenidas": "Accursed Specter"
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Warlock 7",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Ranuras de nivel 4 y cuarta invocación.",
+        "Espacios de Conjuro": "2 (Lvl 4)",
+        "Características Obtenidas": "Nueva Invocación (*Eldritch Mind*)"
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Warlock 8",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 2:** **ASI** (+2 CAR a 18).",
+        "Espacios de Conjuro": "2 (Lvl 4)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Warlock 9",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Ranuras al máximo nivel (5).",
+        "Espacios de Conjuro": "2 (Lvl 5)",
+        "Características Obtenidas": "Nueva Invocación (*Maddening Hex*)"
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Warlock 10",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Probabilidad del 50% de evadir impactos de enemigos malditos.",
+        "Espacios de Conjuro": "2 (Lvl 5)",
+        "Características Obtenidas": "Armor of Hexes"
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Warlock 11",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Tercera ranura corta y Misticismo Arcano de nivel 6.",
+        "Espacios de Conjuro": "3 (Lvl 5)",
+        "Características Obtenidas": "Misticismo Arcano (Nivel 6)"
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Warlock 12",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 3:** **ASI** (+2 CAR a 20). Daño necrótico extra.",
+        "Espacios de Conjuro": "3 (Lvl 5)",
+        "Características Obtenidas": "*Lifedrinker* (Necrótico +5)"
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Warlock 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Misticismo Arcano de nivel 7 (*Forcecage*).",
+        "Espacios de Conjuro": "3 (Lvl 5)",
+        "Características Obtenidas": "Misticismo Arcano (Nivel 7)"
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Warlock 14",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Traspasar la maldición a otro enemigo tras morir el primero.",
+        "Espacios de Conjuro": "3 (Lvl 5)",
+        "Características Obtenidas": "Master of Curses"
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Warlock 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Misticismo Arcano de nivel 8 (*Demiplane*).",
+        "Espacios de Conjuro": "3 (Lvl 5)",
+        "Características Obtenidas": "Misticismo Arcano (Nivel 8)"
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Warlock 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 4:** **Tough**. Máxima durabilidad.",
+        "Espacios de Conjuro": "3 (Lvl 5)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Warlock 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Capstone: Espacio de nivel 9 (*Foresight*) y 4 ranuras cortas.",
+        "Espacios de Conjuro": "4 (Lvl 5)",
+        "Características Obtenidas": "Misticismo Arcano (Nivel 9)"
+      }
+    ]
+  ]
+}

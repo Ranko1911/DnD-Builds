@@ -1,0 +1,199 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta del Sacerdote de la Máquina (Nivel 1 - 20) — Armorer & Forge Cleric",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Tech Priest** (Artífice Armero 14 / Clérigo de la Forja 6), optimizado para maximizar la Clase de Armadura pasiva (AC) y la utilidad técnica en campaña.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "*Se inicia como Artífice para asegurar competencia en salvaciones de Constitución (concentración) e Inteligencia.*",
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1. **Fey Touched (Nivel 5 / Artificer 4):**",
+        "* *Sinergia:* Sube tu Inteligencia de 17 a 18. Te otorga *Misty Step* gratis una vez por día (clave para posicionar tu *Aura de Spirit Guardians* o salir de trampas) y *Gift of Alacrity* (para sumar un $+1d8$ a tus tiradas de iniciativa, permitiéndote tomar el frente rápido).",
+        "2. **ASI: Mejora de Característica (Nivel 9 / Cleric 4):**",
+        "* *Sinergia:* Incrementa tu Inteligencia al máximo de **20**. Esto maximiza la CD de salvación de tus conjuros, la efectividad de tu *Flash of Genius* ($+5$ plano), tu bonificador de ataque con tus puños de trueno (*Thunder Gauntlets*) y los usos del *Spell-Storing Item*.",
+        "3. **War Caster (Nivel 14 / Artificer 8):**",
+        "* *Sinergia:* Vital para un tanque en primera línea. Te otorga ventaja en tiradas de salvación de Constitución para mantener tus conjuros de concentración (como *Spirit Guardians* o *Heat Metal*). También te permite realizar componentes somáticos mientras empuñas un escudo físico y lanzar conjuros como reacciones de oportunidad.",
+        "4. **Sentinel (Nivel 18 / Artificer 12):**",
+        "* *Sinergia:* Cuando golpeas a un enemigo con un ataque de oportunidad, su velocidad se reduce a 0. Esto bloquea por completo su movilidad dentro de tu zona de *Spirit Guardians* y asegura que tengan que atacarte a ti en lugar de escapar hacia tu retaguardia."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Artificer 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Constitución como salvación primaria. Inteligencia y herramientas.",
+        "Espacios de Conjuro (Slot Level)": "2 de 1.º",
+        "Características Obtenidas": "Reparación mágica básica, *Guidance*, *Mending*."
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Cleric (Forge) 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Blessing of the Forge** ($+1$ AC o Arma). Competencia en armadura pesada.",
+        "Espacios de Conjuro (Slot Level)": "3 de 1.º",
+        "Características Obtenidas": "Conjuros de dominio: *Identify*, *Searing Smite*."
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Artificer 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Infusiones de Artífice** (Enhanced Defense, Enhanced Weapon).",
+        "Espacios de Conjuro (Slot Level)": "3 de 1.º",
+        "Características Obtenidas": "Primeras personalizaciones de equipo mágico."
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Artificer 3",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Subclase: **Armorer** (Modelo Guardian). Ignora requisitos de Fuerza.",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 2 de 2.º",
+        "Características Obtenidas": "*Thunder Gauntlets*, *Defensive Field* (Temp HP)."
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Artificer 4",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 1: Fey Touched** (+1 INT -> **INT 18**).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º",
+        "Características Obtenidas": "Obtienes *Misty Step* y *Gift of Alacrity*."
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Artificer 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Extra Attack** (Ataque Extra con tus puños de trueno).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 2 de 3.º",
+        "Características Obtenidas": "El potencial de daño y doble provocación se duplica."
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Cleric (Forge) 2",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Channel Divinity: **Artisan's Blessing** (Creación de metal).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º",
+        "Características Obtenidas": "Utilidad extrema de fabricación en campo."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Cleric (Forge) 3",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de Clérigo de 2.º nivel.",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 1 de 4.º",
+        "Características Obtenidas": "*Heat Metal* (daño garantizado sin salvación)."
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Cleric (Forge) 4",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 2: ASI (+2 INT -> INT 20)**.",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 2 de 4.º",
+        "Características Obtenidas": "Inteligencia al máximo nivel posible."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Cleric (Forge) 5",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de Clérigo de 3.ᵉʳ nivel.",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 1 de 5.º",
+        "Características Obtenidas": "**Spirit Guardians** (daño y ralentización de área)."
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Cleric (Forge) 6",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Soul of the Forge** ($+1$ AC pasivo y resistencia al fuego).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 2 de 5.º",
+        "Características Obtenidas": "**Hito de AC completo**. La resistencia al fuego es excelente."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Artificer 6",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Nuevas Invocaciones (ej. *Repulsion Shield* para $+1$ AC y empujón).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 1 de 6.º",
+        "Características Obtenidas": "*Tool Expertise* (pericia en todas las herramientas)."
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Artificer 7",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Flash of Genius** (añade INT $+5$ a tiradas tuyas o de aliados).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º",
+        "Características Obtenidas": "Increíble protección reactiva de grupo."
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Artificer 8",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 3: War Caster** (Mago de Guerra).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 1 de 7.º",
+        "Características Obtenidas": "Ventaja de concentración en combate cuerpo a cuerpo."
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Artificer 9",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Armor Modifications** (+2 slots de infusión en tu armadura).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 1 de 7.º, 1 de 8.º",
+        "Características Obtenidas": "Separa tu armadura en casco, pecho, botas y puños."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Artificer 10",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Las infusiones suben a $+2$ de bonificador (Enhanced Defense).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 1 de 7.º, 1 de 8.º, 1 de 9.º",
+        "Características Obtenidas": "Acceso a *Magic Item Adept* (sintonizar 4 objetos)."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Artificer 11",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Spell-Storing Item** (Almacena *Cure Wounds* o *Warder's Bond* en un objeto).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 2 de 7.º, 1 de 8.º, 1 de 9.º",
+        "Características Obtenidas": "Lanza el conjuro almacenado hasta 10 veces al día."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Artificer 12",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 4: Sentinel** (Centinela).",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 2 de 7.º, 1 de 8.º, 1 de 9.º (slot extra)",
+        "Características Obtenidas": "Detén el movimiento enemigo y castiga los ataques a aliados."
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Artificer 13",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de Artífice de 4.º nivel.",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 2 de 7.º, 1 de 8.º, 1 de 9.º",
+        "Características Obtenidas": "*Fire Shield* o *Otiluke's Resilient Sphere*."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Artificer 14",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Sintonización Máxima** (hasta 5 objetos sintonizados) e infusiones finales.",
+        "Espacios de Conjuro (Slot Level)": "4 de 1.º, 3 de 2.º, 3 de 3.º, 3 de 4.º, 3 de 5.º, 2 de 6.º, 2 de 7.º, 1 de 8.º, 1 de 9.º",
+        "Características Obtenidas": "*Amulet of Health* o *Ring of Protection* a voluntad."
+      }
+    ]
+  ]
+}

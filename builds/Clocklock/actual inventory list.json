@@ -1,0 +1,41 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Actual Inventory List — Clocklock",
+      "level": 1,
+      "lines": []
+    },
+    {
+      "title": "Equipamiento Actual",
+      "level": 2,
+      "lines": [
+        "* **Arma Principal:** Eldritch Blast (Foco arcano integrado en guantelete).",
+        "* **Armadura:** Breastplate (Armadura de pecho media) + Escudo de Acero Común.",
+        "* **Foco / Reliquias:** Foco Arcano de Cristal (engarzado en anillo de oro)."
+      ]
+    },
+    {
+      "title": "Objetos Mágicos Sintonizados (Attuned)",
+      "level": 2,
+      "lines": [
+        "1. **Luckblade (Estoque/Espada Corta)** (Sintonizado - +1 CA/salvaciones, reroll d20 1/día, 1d3 deseos Wish)",
+        "2. **Illusionist's Bracers** (Sintonizado)",
+        "3. **Robe of the Archmagi** (Sintonizado)"
+      ]
+    },
+    {
+      "title": "Inventario General (Mochila)",
+      "level": 2,
+      "lines": [
+        "* **Shield +3** (No requiere sintonización)",
+        "* **Eversmoking Bottle** (No requiere sintonización - Sinergia con Devil's Sight)",
+        "* Thieves' Tools (Herramientas de ladrón)",
+        "* Poción de curación común (3)",
+        "* Gema de 100 po (para usar como componente si aplica)",
+        "* Pergamino de *Misty Step* (1)"
+      ]
+    }
+  ],
+  "tables": []
+}

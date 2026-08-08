@@ -11,6 +11,7 @@
     "build": "astro build",
     "preview": "astro preview",
     "astro": "astro",
+    "md-to-json": "node scripts/md-to-json.js",
     "control": "ejecutar.bat"
   },
   "dependencies": {

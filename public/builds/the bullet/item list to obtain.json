@@ -1,0 +1,109 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — The Bullet",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Bag of Holding**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** Clave para la estrategia del Libro de Glifos y llevar el inventario sin sobrecarga. Obtenido gratis por infusión."
+      },
+      {
+        "Objeto": "**Mind Sharpener**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 2:** Permite pasar automáticamente una salvación de concentración fallida hasta 4 veces al día. Obtenido gratis por infusión."
+      },
+      {
+        "Objeto": "**Goggles of Night**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. Otorga visión en la oscuridad de 60 ft. Los Tabaxi **no tienen Darkvision nativo** en 5e 2014 — estas gafas cubren esa carencia."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Boots of Speed**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Duplica la velocidad de movimiento como acción adicional. Esquina angular del build. Replicado gratis por infusión a nivel 10."
+      },
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** $+1$ a la CA y salvaciones para mitigar la falta de armadura. Replicado gratis por infusión a nivel 10."
+      },
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. Más defensa apilada."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ring of Free Action**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Inmunidad a ser paralizado, ralentizado o atrapado en terreno difícil. Clave para sprints imparables. Replicado gratis por infusión a nivel 14."
+      },
+      {
+        "Objeto": "**Amulet of Health**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. Fija la CON en 19 para compensar la baja vida base de este build multiclase."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Tome of Clear Thought**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** Aumenta la INT en $+2$ (y su máximo), lo cual beneficia directamente a todos los rasgos de Artífice y Mago."
+      },
+      {
+        "Objeto": "**Ring of Spell Storing**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. Permite almacenar conjuros como *Haste* o *Longstrider* para que otros los lancen por ti."
+      }
+    ]
+  ]
+}

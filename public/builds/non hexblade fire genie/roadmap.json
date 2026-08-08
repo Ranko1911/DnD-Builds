@@ -1,0 +1,41 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Roadmap de Progresión — Non-Hexblade Fire Genie",
+      "level": 1,
+      "lines": []
+    },
+    {
+      "title": "Niveles 1-6 (Fundación de Bárbaro y Acceso a Brujo)",
+      "level": 2,
+      "lines": [
+        "* **Nivel 1 (Bárbaro 1):** Vida alta (12 + CON), Salvaciones de Fuerza y Constitución, Defensa sin Armadura y Furia.",
+        "* **Nivel 2 (Bárbaro 2):** *Reckless Attack* (Ataque Temerario) y *Danger Sense* (Sentido del Peligro).",
+        "* **Nivel 3 (Brujo 1):** Subclase Genie (Efreeti). Obtienes *Genie's Wrath* (+Fuego al impactar), *Genie's Vessel* y el conjuro *Armor of Agathys*.",
+        "* **Nivel 4 (Brujo 2):** Invocaciones Eldritch (*Eldritch Mind* o *Fiendish Vigor*).",
+        "* **Nivel 5 (Brujo 3):** Pacto de la Hoja (*Pact of the Blade*). Tus armas de melé son mágicas.",
+        "* **Nivel 6 (Bárbaro 3):** Subclase Zealot. Obtienes *Divine Fury* ($1\\text{d}6 + 1$ de daño adicional)."
+      ]
+    },
+    {
+      "title": "Niveles 7-14 (Vuelo y Ataque Extra)",
+      "level": 2,
+      "lines": [
+        "* **Nivel 7 (Bárbaro 4):** Dote: *Great Weapon Master* (+1 a Fuerza y suma Competencia al daño).",
+        "* **Nivel 8 (Bárbaro 5):** *Extra Attack* (Ataque Extra) y Movimiento Rápido (+10 pies).",
+        "* **Nivel 9 (Bárbaro 6):** *Fanatical Focus* (Repetir salvación fallida 1 vez por Furia).",
+        "* **Nivel 10-12 (Brujo 4-6):** Dote *Polearm Master*. *Elemental Gift* (Vuelo sin concentración de 30 pies por 10 min).",
+        "* **Nivel 13-16 (Brujo 7-10):** *Sanctuary Vessel* (Descanso corto de 10 minutos para todo el grupo)."
+      ]
+    },
+    {
+      "title": "Niveles 17-20 (Poder Máximo)",
+      "level": 2,
+      "lines": [
+        "* **Nivel 17-20 (Brujo 11-14):** Ranuras de nivel 5 de Warlock, *Limited Wish* (Genie 14: puedes solicitar un conjuro de nivel 6 o inferior de cualquier lista sin componentes de coste)."
+      ]
+    }
+  ],
+  "tables": []
+}

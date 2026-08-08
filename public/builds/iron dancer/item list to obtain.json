@@ -1,0 +1,161 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Iron Dancer",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** Túnica infundida (Mind Sharpener) (1 slot), Cloak of Protection (1 slot). (Total: 2).",
+        "*   **Tier 2 (Niveles 5-10):** Mind Sharpener (1 slot), Ring of Protection (1 slot), Winged Boots (1 slot). (Total: 3).",
+        "*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot, reemplaza Capa), Amulet of Health (1 slot), Mind Sharpener (1 slot). (Total: 3).",
+        "*   **Tier 4 (Niveles 17-20):** Ascendant Dragon's Wrath Rapier (1 slot), Robe of the Archmagi (1 slot), Staff of the Magi (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a la CA y a todas las tiradas de salvación."
+      },
+      {
+        "Objeto": "**Mind Sharpener Robe**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 2:** Infusión de Artífice. Éxito automático en concentración fallida 4/día."
+      },
+      {
+        "Objeto": "**Rapier +1**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Alta: +1 al ataque y al daño cuerpo a cuerpo sin consumir sintonización."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a la CA y salvaciones (acumula con la capa para un +2 total)."
+      },
+      {
+        "Objeto": "**Winged Boots**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 2:** Velocidad de vuelo por hasta 4 horas al día, combinando con tu dote *Mobile*."
+      },
+      {
+        "Objeto": "**Rapier +2**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Alta: +2 al ataque y daño cuerpo a cuerpo."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 1:** Desventaja a todos los ataques enemigos dirigidos a ti. Reemplaza la Cloak of Protection."
+      },
+      {
+        "Objeto": "**Amulet of Health**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 2:** Fija tu Constitución en 19 (Mod +4), aumentando tus HP y salvaciones de concentración."
+      },
+      {
+        "Objeto": "**Rapier +3**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Alta: +3 al ataque y daño cuerpo a cuerpo sin consumir sintonización."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ascendant Dragon's Wrath Rapier (Fuego/Radiante)**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por golpe, Aliento 12d6 y Ráfaga Crítica. Eleva el DPR a **98/100**."
+      },
+      {
+        "Objeto": "**Robe of the Archmagi**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 2 (META):** CA base 15+DES (CA 20 base), ventaja en salvaciones contra conjuros y +2 a CD de conjuros."
+      },
+      {
+        "Objeto": "**Staff of the Magi**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 3 (META):** +2 a CD de conjuros, absorción de conjuros enemigos y 50 cargas de nivel alto."
+      },
+      {
+        "Objeto": "**Tome of Clear Thought**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "Consumido",
+        "Prioridad / Notas": "Prioridad Alta: +2 permanente a Inteligencia (superando el límite de 20 a 22)."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Rapier +3**",
+        "Rareza": "Muy Raro",
+        "Prioridad / Notas": "**Prioridad 1:** Incremento mágico +3 de ataque e impacto cuerpo a cuerpo."
+      },
+      {
+        "Objeto": "**Tome of Clear Thought**",
+        "Rareza": "Muy Raro",
+        "Prioridad / Notas": "**Prioridad 1:** +2 permanente a la Inteligencia (superando 20)."
+      },
+      {
+        "Objeto": "**Enduring Spellbook**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad Media:** Evita que tu libro de conjuros sea dañado por agua, fuego o tiempo."
+      }
+    ]
+  ]
+}

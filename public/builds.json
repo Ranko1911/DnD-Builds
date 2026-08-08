@@ -1,7 +1,7 @@
 [
   {
     "id": "barbarian-from-hell",
-    "name": "Barbarian from Hell (Barbarian from Hell)",
+    "name": "Barbarian from Hell",
     "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
@@ -134,7 +134,7 @@
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Frontline Gish Tank / Tactical AoE Blaster",
     "folder": "builds/tempest",
-    "youtube": "https://www.youtube.com/watch?v=E3uPr0wLiaQ",
+    "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
       "dpr": 84,
       "ehp": 88,
@@ -310,7 +310,7 @@
     "system": "D&D 5e (2014)",
     "role": "Frontline Striker / Grappler / Temp HP Tank",
     "folder": "builds/the bonk",
-    "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
+    "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
       "dpr": 76,
       "ehp": 88,
@@ -470,13 +470,29 @@
     "system": "D&D 5e (2014)",
     "role": "Frontline Evasion Tank / Shapechange Angel / Spell Master",
     "folder": "builds/iron dancer",
-    "youtube": "https://www.youtube.com/watch?v=o6-7L7cx6WI",
+    "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
       "dpr": 84,
       "ehp": 100,
       "control": 76,
       "support": 36,
       "complexity": 88
+    }
+  },
+  {
+    "id": "super-sneaker-life-deleter",
+    "name": "Super Sneaker Life Deleter",
+    "classes": "Rogue (Assassin) 14 / Fighter (Battle Master) 6",
+    "system": "D&D 5e (2014 / 2024)",
+    "role": "Ambush Assassin / First-Turn Burst Striker",
+    "folder": "builds/super sneaker life deleter",
+    "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
+    "ratings": {
+      "dpr": 88,
+      "ehp": 60,
+      "control": 36,
+      "support": 12,
+      "complexity": 42
     }
   }
 ]

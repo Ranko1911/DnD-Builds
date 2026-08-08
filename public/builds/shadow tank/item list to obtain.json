@@ -1,0 +1,126 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Shadow Tank",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "* **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).",
+        "* **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Ring of Protection (1 slot), Weapon of Warning (1 slot). (Total: 3).",
+        "* **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Amulet of Health (1 slot), Ring of Protection (1 slot). (Total: 3).",
+        "* **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of Health (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a la CA y salvaciones. Incrementa tu aguante general."
+      },
+      {
+        "Objeto": "**Weapon of Warning (Greatsword)**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Otorga ventaja en tiradas de iniciativa e inmunidad a la sorpresa para todo el grupo a 30 pies."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +2 a la CA y salvaciones adicionales."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. Impone desventaja a ataques enemigos. Excelente combinación con tu Furia para que no te impacten y prolongar tu armadura de Agathys."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Amulet of Health**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Otorga CON 19 (+4), elevando sustancialmente tu HP máximo (que se duplica por furia)."
+      },
+      {
+        "Objeto": "**Greatsword +3**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. +2 a golpear y daño (no requiere sintonización)."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Tome of Leadership and Influence**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** Incremento permanente de +2 a Carisma (superando el límite de 20), mejorando tus tiradas de ataque y daño Lifedrinker."
+      },
+      {
+        "Objeto": "**Ring of Spell Turning**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "Prioridad Media. Ventaja contra conjuros de objetivo individual e intenta devolverlos."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Half-Plate Armor +3**",
+        "Rareza": "Raro",
+        "Prioridad / Notas": "**Prioridad 1:** Eleva tu CA base a 16 + 2 = 18 CA sin ocupar ranuras."
+      },
+      {
+        "Objeto": "**Greatsword +3**",
+        "Rareza": "Legendario",
+        "Prioridad / Notas": "**Prioridad Alta:** +3 de ataque y daño mágico plano."
+      }
+    ]
+  ]
+}

@@ -53,9 +53,9 @@ Combat Role: Gish de Primera Línea, Controlador Táctico y Líder del Grupo (Fa
 
 La fuerza del build radica en combinar en un único impacto un dado de superioridad de *Battle Master* y un dado de floreo de *Swords Bard*:
 
-1. **[Paso 1]:** El guerrero realiza sus 3 ataques con ventaja. Al impactar el primero, activa la maniobra *Trip Attack* (CD 19 de Fuerza) para derribar al enemigo.
-2. **[Paso 2]:** En ese mismo impacto, activa *Defensive Flourish* del Bardo de las Espadas, sumando 1d6 al daño y añadiendo el resultado a su Clase de Armadura hasta su siguiente turno.
-3. **[Paso 3]:** Con el enemigo derribado en el suelo, realiza los otros 2 ataques de su acción principal con ventaja absoluta cuerpo a cuerpo. Su CA se eleva a niveles absurdos.
+1. **Paso 1 (Preparación):** El guerrero realiza sus 3 ataques con ventaja. Al impactar el primero, activa la maniobra *Trip Attack* (CD 19 de Fuerza) para derribar al enemigo.
+2. **Paso 2 (Ataque y Recarga):** En ese mismo impacto, activa *Defensive Flourish* del Bardo de las Espadas, sumando 1d6 al daño y añadiendo el resultado a su Clase de Armadura hasta su siguiente turno.
+3. **Paso 3 (Sinergia y Remate):** Con el enemigo derribado en el suelo, realiza los otros 2 ataques de su acción principal con ventaja absoluta cuerpo a cuerpo. Su CA se eleva a niveles absurdos.
 
 🧮 Mathematical Engine (Reglas 2014):
 

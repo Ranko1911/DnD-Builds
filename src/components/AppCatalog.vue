@@ -116,6 +116,7 @@
           :selected-file="selectedFile"
           :show-tracker="showTracker"
           :raw-markdown="rawMarkdown"
+          :parsed-json-data="parsedJsonData"
           :calculated-resources="calculatedResources"
           :get-resource-checked="getResourceChecked"
           @reset-home="resetHome"
@@ -189,6 +190,7 @@ const currentLevel = ref(20);
 const compareBuildIds = ref<string[]>([]);
 const hoveredCompareBuildId = ref<string | null>(null);
 const rawMarkdown = ref('');
+const parsedJsonData = ref<any>(null);
 const resourceStorage = ref<Record<string, number>>({});
 const radarSortColumn = ref<string>('avg');
 const radarSortAsc = ref(false);
@@ -388,6 +390,26 @@ async function loadMarkdown() {
   const folderEncoded = encodeURI(selectedBuild.value.folder);
   const baseName = selectedFile.value.replace('.md', '');
 
+  // 1. Fetch JSON data counterpart if available
+  const editionJsonName = `${baseName} ${currentEdition.value}.json`;
+  const editionJsonPath = `${baseUrl}/${folderEncoded}/${encodeURIComponent(editionJsonName)}`;
+  const defaultJsonPath = `${baseUrl}/${folderEncoded}/${encodeURIComponent(baseName + '.json')}`;
+
+  try {
+    let jsonRes = await fetch(editionJsonPath);
+    if (!jsonRes.ok) {
+      jsonRes = await fetch(defaultJsonPath);
+    }
+    if (jsonRes.ok) {
+      parsedJsonData.value = await jsonRes.json();
+    } else {
+      parsedJsonData.value = null;
+    }
+  } catch (e) {
+    parsedJsonData.value = null;
+  }
+
+  // 2. Fetch Markdown text
   const editionFileName = `${baseName} ${currentEdition.value}.md`;
   const editionFileEncoded = encodeURIComponent(editionFileName);
   const editionPath = `${baseUrl}/${folderEncoded}/${editionFileEncoded}`;

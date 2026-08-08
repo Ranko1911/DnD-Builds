@@ -1,0 +1,198 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta de Spymaster (Nivel 1 - 20)",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Spymaster**, diseñado por el **Archivero de Optimización**. El build se enfoca en maximizar la utilidad, el sigilo y la elusión táctica en combate cuerpo a cuerpo y a distancia.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1.  **Alerta (Alert) (Nivel 1 - Dote de Origen):**",
+        "*   *Sinergia:* Crucial para que el Spymaster actúe primero, se posicione y ejecute su combinación táctica antes de que los enemigos puedan reaccionar.",
+        "2.  **Mejora de Característica (ASI) (Nivel 6 / Rogue 4):**",
+        "*   *Sinergia:* Aumenta Destreza a 18 para elevar las probabilidades de acierto, el daño medio y la CA.",
+        "3.  **Mejora de Característica (ASI) (Nivel 10 / Rogue 8):**",
+        "*   *Sinergia:* Maximiza la Destreza a 20. El modificador de +5 optimiza los ataques físicos/psíquicos y la CA.",
+        "4.  **Móvil (Mobile) (Nivel 12 / Rogue 10):**",
+        "*   *Sinergia:* Añade +10 pies de velocidad y permite retirar la dote de oportunidad contra cualquier criatura que ataques, liberando tu acción adicional de usar Disengage constantemente."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Artificer 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Inicio con salvaciones de CON e INT. Competencia con escudos y herramientas.",
+        "Espacios de Conjuro": "2 (Lvl 1)",
+        "Características Obtenidas": "Magical Tinkering, Conjuros"
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Artificer 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Infundir objetos (Enhanced Defense, Returning Weapon).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Infusiones de Artificer (4 conocidas, 2 activas)"
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Rogue 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Competencia en habilidades adicionales y Expertise (Sigilo, Herramientas).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Sneak Attack (1d6), Thieves' Cant, Expertise"
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Rogue 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Movilidad elusiva en combate como acción adicional.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Cunning Action (Dash, Disengage, Hide)"
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Rogue 3",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Subclase: **Soulknife**. Daño psíquico e interacción mental.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Psychic Blades, Psionic Power (1d6), Sneak Attack (2d6)"
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Rogue 4",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 1:** +1 DES (ASI o Dote de Iniciativa).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Rogue 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Mitigación activa de daño.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Uncanny Dodge, Sneak Attack (3d6), Dado Psíquico (1d8)"
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Rogue 6",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Expertise adicional (Investigación, Percepción).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Expertise adicional"
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Rogue 7",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Evasión de daño en área.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Evasion, Sneak Attack (4d6)"
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Rogue 8",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 2:** +1 DES (Maximizando a 20).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Rogue 9",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Teletransporte y corrección de tiros errados.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Homing Strikes, Psychic Teleportation, Sneak Attack (5d6)"
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Rogue 10",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 3:** Alerta o Móvil (Mobile).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Dote adicional de Pícaro"
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Rogue 11",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Nunca sacar menos de 10 en habilidades competentes.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Reliable Talent, Sneak Attack (6d6), Dado Psíquico (1d10)"
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Rogue 12",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 4:** Tough (Dureza) o Resilient (WIS).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Rogue 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Invisibilidad psíquica de alto nivel.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Psychic Veil, Sneak Attack (7d6)"
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Rogue 14",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Detectar enemigos ocultos.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Blindsense"
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Rogue 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Salvaguarda contra control mental.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Slippery Mind, Sneak Attack (8d6)"
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Rogue 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 5:** Lucky (Afortunado) o ASI.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Rogue 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Aturdir enemigos con ataques psíquicos.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Rend Mind, Sneak Attack (9d6), Dado Psíquico (1d12)"
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Rogue 18",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Nadie puede tener ventaja contra ti.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Elusive (Level 18 Capstone)"
+      }
+    ]
+  ]
+}

@@ -53,9 +53,9 @@ Combat Role: Soporte Pasivo Resiliente, Sanador de Emergencia, Infiltrador e Ini
 
 El combo central maximiza el daño del primer asalto de combate gracias a la iniciativa de Twilight Cleric y el rasgo racial del Bugbear:
 
-1. **[Paso 1]:** Twilight Cleric otorga ventaja permanente en iniciativa mediante *Vigilant Blessing*. Sumado a la dote *Alert*, el Preacher tiene casi asegurado actuar primero.
-2. **[Paso 2]:** Al atacar a una criatura que no ha actuado en el combate, el Bugbear añade +2d6 de daño a *cada* impacto de arma.
-3. **[Paso 3]:** Se ejecutan dos ataques de Hojas Psíquicas (Acción + Acción Adicional), aplicando el *Sneak Attack* de nivel 18 y el modificador de Destreza en ambos.
+1. **Paso 1 (Preparación):** Twilight Cleric otorga ventaja permanente en iniciativa mediante *Vigilant Blessing*. Sumado a la dote *Alert*, el Preacher tiene casi asegurado actuar primero.
+2. **Paso 2 (Ataque y Recarga):** Al atacar a una criatura que no ha actuado en el combate, el Bugbear añade +2d6 de daño a *cada* impacto de arma.
+3. **Paso 3 (Sinergia y Remate):** Se ejecutan dos ataques de Hojas Psíquicas (Acción + Acción Adicional), aplicando el *Sneak Attack* de nivel 18 y el modificador de Destreza en ambos.
 
 🧮 Mathematical Engine (Reglas 2024 / 5.5e):
 

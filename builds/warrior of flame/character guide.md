@@ -51,9 +51,9 @@ Combat Role: Tanque de Apoyo (Aura Tank), Atacante Nova de Fuego/Fuerza, Volador
 
 La sinergia principal del Warrior of Flame radica en añadir el modificador de Carisma (+5) a los ataques de *Green-Flame Blade* mediante el rasgo dracónico de nivel 6 (*Elemental Affinity*) y acelerar este ataque como Acción Adicional:
 
-1. **[Paso 1]:** El personaje ataca dos veces con su acción (Espada Larga + Castigo Divino).
-2. **[Paso 2]:** Usa *Quickened Metamagic* para lanzar *Green-Flame Blade* como Acción Adicional.
-3. **[Paso 3]:** Al impactar con la espada infundida de fuego, añade el daño del arma + 3d8 de fuego + 5 (CAR) por Afinidad Elemental. El fuego salta a un enemigo cercano infligiendo 3d8 + 5 (CAR) + 5 (Afinidad dracónica). Puede aplicar un tercer Castigo Divino en este golpe.
+1. **Paso 1 (Preparación):** El personaje ataca dos veces con su acción (Espada Larga + Castigo Divino).
+2. **Paso 2 (Ataque y Recarga):** Usa *Quickened Metamagic* para lanzar *Green-Flame Blade* como Acción Adicional.
+3. **Paso 3 (Sinergia y Remate):** Al impactar con la espada infundida de fuego, añade el daño del arma + 3d8 de fuego + 5 (CAR) por Afinidad Elemental. El fuego salta a un enemigo cercano infligiendo 3d8 + 5 (CAR) + 5 (Afinidad dracónica). Puede aplicar un tercer Castigo Divino en este golpe.
 
 🧮 Mathematical Engine (Reglas 2014):
 

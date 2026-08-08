@@ -1,0 +1,199 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta del Ballestero Siniestro (Nivel 1 - 20) — Hexbow",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Hexbow** (Hexblade Warlock 17 / Battle Master Fighter 3), diseñado por el **Archivero de Optimización** basándose en la guía de **Darth Bober**.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "*Se inicia como Fighter para obtener competencia en salvaciones de Constitución (concentración) y el estilo de combate de Arquero.*",
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1. **Crossbow Expert (Nivel 5 / Warlock 4):**",
+        "* *Sinergia:* Te permite disparar a bocajarro sin desventaja en cuerpo a cuerpo, elimina la propiedad de *carga* de la ballesta de mano, y te otorga un ataque adicional con tu acción adicional después de atacar con una mano, dándote 3 ataques constantes.",
+        "2. **Elven Accuracy (Nivel 11 / Warlock 8):**",
+        "* *Sinergia:* Sube tu Carisma de 17 a 18. Cuando tienes ventaja en tus tiradas con Carisma (frecuente gracias a *Shadow of Moil* o *Darkness*), puedes volver a tirar uno de los dados (ventaja triple). Esto aumenta radicalmente tu probabilidad de acertar y de infligir impactos críticos.",
+        "3. **Sharpshooter (Nivel 15 / Warlock 12):**",
+        "* *Sinergia:* Permite disparar a máxima distancia sin desventaja (120 pies para ballesta de mano), ignorar cobertura media y tres cuartos, y aplicar un $+10$ al daño físico plano a cambio de $-5$ a la tirada. El $-5$ es compensado por el estilo de combate Archery ($+2$), ventaja triple ($+5$ equivalente) y la maniobra *Precision Attack*.",
+        "4. **ASI: Mejora de Característica (Nivel 19 / Warlock 16):**",
+        "* *Sinergia:* Lleva tu Carisma al máximo de **20**. Esto añade $+5$ de daño por impacto gracias a *Lifedrinker* (acumulando $+10$ de daño plano por golpe junto con el modificador de ataque básico de Carisma) y sube tu CD de conjuros."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Fighter 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Salvación de Constitución. **Archery Fighting Style (+2 a hit)**.",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Segunda oportunidad, recuperación de HP."
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Warlock 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Subclase: **Hexblade**. *Hex Warrior* (CAR para ballesta) y *Hexblade's Curse*.",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Modificador de Carisma en lugar de Destreza."
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Warlock 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Invocaciones: **Devil's Sight** y **Agonizing Blast** (para EB secundario).",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Ranuras de nivel 1."
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Warlock 3",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Pact Boon: **Pact of the Blade**. Invocación swap: **Improved Pact Weapon**.",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Tu arma cuenta como foco mágico y gana $+1$ a hit/daño."
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Warlock 4",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 1: Crossbow Expert** (quita carga, ataque bonus action).",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Carisma inicial sube en efectividad."
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Warlock 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Thirsting Blade** (Extra Attack) y **Eldritch Smite**.",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Ranuras de nivel 3. Primera gran fase de daño."
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Fighter 2",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Action Surge** (Acción Adicional por descanso corto).",
+        "Dado de Superioridad": "—",
+        "Características Obtenidas": "Ráfaga destructiva en turnos decisivos."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Fighter 3",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Subclase: **Battle Master**. Maniobras de combate.",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Maniobras: **Precision Attack**, **Menacing Attack**, **Trip Attack**."
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Warlock 6",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Accursed Specter (espectro de enemigos caídos).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Utilidad defensiva y de exploración."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Warlock 7",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de 4.º nivel.",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "**Shadow of Moil** (Ventaja absoluta sin cegar aliados)."
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Warlock 8",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 2: Elven Accuracy** (+1 CAR -> **CAR 18**).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Ventaja triple con *Shadow of Moil* o *Darkness*."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Warlock 9",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de 5.º nivel.",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Las ranuras suben a nivel 5 (Eldritch Smite hace $+5d8$)."
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Warlock 10",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Armor of Hexes (50% de probabilidad de errar ataques del objetivo maldito).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Capacidad defensiva brutal contra jefes."
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Warlock 11",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Mystic Arcanum (6.º nivel). Ranura de conjuro extra (3 ranuras total).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Spell de 6.º: *Scatter* o *Mental Prison*."
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Warlock 12",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 3: Sharpshooter** e Invocación **Lifedrinker**.",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "$+10$ de daño Sharpshooter y $+5$ daño Lifedrinker por impacto."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Warlock 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Mystic Arcanum (7.º nivel).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Spell de 7.º: *Forcecage*."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Warlock 14",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Master of Hexes (transfiere maldición de Hexblade).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Maldición infinita en encuentros múltiples."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Warlock 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Mystic Arcanum (8.º nivel).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Spell de 8.º: **Foresight** (Ventaja constante pasiva)."
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Warlock 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 4: ASI (+2 CAR -> CAR 20)**.",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Carisma al máximo para daño Lifedrinker e impactos."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Warlock 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Mystic Arcanum (9.º nivel). Ranura de conjuro extra (4 ranuras total).",
+        "Dado de Superioridad": "4 de $d8$",
+        "Características Obtenidas": "Spell de 9.º: *Foresight* o *Psychic Scream*."
+      }
+    ]
+  ]
+}

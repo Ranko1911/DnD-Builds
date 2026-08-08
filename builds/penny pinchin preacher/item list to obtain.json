@@ -1,0 +1,138 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Penny Pinchin' Preacher",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 2).",
+        "*   **Tier 2 (Niveles 5-10):** Amulet of the Devout +3 (1 slot), Ring of Protection (1 slot), Cloak of Protection (1 slot). (Total: 3).",
+        "*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Ring of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 3).",
+        "*   **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of the Devout +3 (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Amulet of the Devout +1**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a las tiradas de ataque y CD de tus conjuros de clérigo. Te otorga un uso adicional gratis de Canalizar Divinidad por día."
+      },
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** +1 a la CA y a todas las tiradas de salvación."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Amulet of the Devout +2**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Incrementa tu CD de conjuros en +2 y otorga el uso de Canalizar Divinidad extra. Reemplaza el de +1."
+      },
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** +2 a la CA y tiradas de salvación. Acumula con la capa."
+      },
+      {
+        "Objeto": "**Eyes of the Eagle**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. Ventaja en tiradas de Percepción visuales. Excelente para el rol de explorador."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Amulet of the Devout +3**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Eleva tu CD de salvación de conjuros a +3 y da el uso extra de Canalizar Divinidad. Reemplaza el anterior."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Los enemigos atacan con desventaja contra ti. Indispensable para no perder concentración en *Bless*."
+      },
+      {
+        "Objeto": "**Ring of Evasion**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. Consumir cargas para asegurar salvaciones de Destreza."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Tome of Understanding**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** Lectura de 48 horas que incrementa tu Sabiduría en +2 de forma permanente (superando el límite de 20)."
+      },
+      {
+        "Objeto": "**Ring of Spell Turning**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "Prioridad Media. Ventaja en salvaciones contra conjuros dirigidos e intenta devolverlos."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Shield +3**",
+        "Rareza": "Raro",
+        "Prioridad / Notas": "**Prioridad 1:** Incrementa tu CA en +2 sin consumir ranuras de sintonización."
+      },
+      {
+        "Objeto": "**Slippers of Spider Climb**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad Media:** Permite caminar por techos y paredes, útil para posicionarse a salvo durante combates."
+      }
+    ]
+  ]
+}

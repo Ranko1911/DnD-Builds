@@ -54,11 +54,11 @@ Combat Role: Tanque Evasivo de Primera Línea, Duelista Psíquico/Radiante, Conc
 
 La sinergia destructiva final de este build radica en usar _Shapechange_ a nivel 9 para transformarse en un Planetar mientras mantiene las dotes y rasgos defensivos de Bladesinger:
 
-1. **[Paso 1]:** Se transforma en Planetar. Su CA base natural pasa a ser de 19.
-2. **[Paso 2]:** Activa _Bladesong_. Su CA se convierte en:
+1. **Paso 1 (Preparación):** Se transforma en Planetar. Su CA base natural pasa a ser de 19.
+2. **Paso 2 (Ataque y Recarga):** Activa _Bladesong_. Su CA se convierte en:
    $$\text{CA de Bladesong (Planetar)} = 19 (\text{Natural}) + 5 (\text{INT}) = 24 \text{ CA}$$
    Si lanza el conjuro _Shield_ (gratis vía Maestría de Conjuros) asciende a **29 CA**.
-3. **[Paso 3]:** Su velocidad de vuelo como Planetar (120 ft) se incrementa por Bladesong (+10 ft) y la dote _Mobile_ (+10 ft), alcanzando un **vuelo de 140 pies**. No provoca ataques de oportunidad de los enemigos que ataque.
+3. **Paso 3 (Sinergia y Remate):** Su velocidad de vuelo como Planetar (120 ft) se incrementa por Bladesong (+10 ft) y la dote _Mobile_ (+10 ft), alcanzando un **vuelo de 140 pies**. No provoca ataques de oportunidad de los enemigos que ataque.
 4. **[Paso 4]:** Goza de Resistencia Mágica (ventaja en salvaciones contra magia) y Visión Verdadera a 120 pies. Su concentración es indestructible gracias al bono de +13 y el zapping protector de la túnica _Mind Sharpener_.
 
 🧮 Mathematical Engine (Nivel 20 con Ascendant Dragon's Wrath Rapier + Planetar Shapechange):

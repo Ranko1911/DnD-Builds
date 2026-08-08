@@ -53,9 +53,9 @@ Combat Role: Francotirador de Rango Pesado, Tanque de Cobertura y Especialista e
 
 El combo principal radica en la inmunidad a la propiedad de carga de la ballesta pesada y la cobertura activa del Defensor de Acero:
 
-1. **[Paso 1]:** El personaje se posiciona a rango medio/largo (hasta 400 pies sin desventaja por *Sharpshooter*).
-2. **[Paso 2]:** Mantiene activo a su Defensor de Acero en cuerpo a cuerpo con el enemigo o como cobertura móvil a su lado. El defensor puede imponer desventaja en ataques entrantes.
-3. **[Paso 3]:** Descarga 3 ataques de ballesta pesada por turno (6 con Action Surge) aplicando el daño masivo de *Sharpshooter*.
+1. **Paso 1 (Preparación):** El personaje se posiciona a rango medio/largo (hasta 400 pies sin desventaja por *Sharpshooter*).
+2. **Paso 2 (Ataque y Recarga):** Mantiene activo a su Defensor de Acero en cuerpo a cuerpo con el enemigo o como cobertura móvil a su lado. El defensor puede imponer desventaja en ataques entrantes.
+3. **Paso 3 (Sinergia y Remate):** Descarga 3 ataques de ballesta pesada por turno (6 con Action Surge) aplicando el daño masivo de *Sharpshooter*.
 
 🧮 Mathematical Engine (Reglas 2014):
 

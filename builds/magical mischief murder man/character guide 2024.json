@@ -1,0 +1,68 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Guía de Personaje — Magical Mischief Murder Man (Edición 2024 / 5.5e)",
+      "level": 1,
+      "lines": []
+    },
+    {
+      "title": "General Data",
+      "level": 2,
+      "lines": [
+        "System Standard: D&D 5th Edition (2024 Ruleset - 5.5e)",
+        "Character Level: 20 (Total)",
+        "Class Split: Sorcerer (Shadow/Clockwork) 1 / Rogue (Swashbuckler/Arcane Trickster) 19",
+        "Species: Mediano Piesligeros (2024) [Dote de Origen: Alerta]",
+        "Stats (Point Buy 2024 / Trasfondo):",
+        "- **FUER (STR):** 8",
+        "- **DES (DEX):** 20",
+        "- **CON:** 14",
+        "- **INT:** 10",
+        "- **SAB (WIS):** 10",
+        "- **CAR (CHA):** 16",
+        "Actual Item List: ./actual inventory list.md",
+        "Roadmap de Progresión 2024: ./roadmap.md",
+        "Bastión y Tiempo Muerto: ./bastion and downtime.md",
+        "Combat Role: Evasive Single-Target Striker / Stealth Operative",
+        "---"
+      ]
+    },
+    {
+      "title": "1. Resource Management & Inventory Rules (2024 Ruleset)",
+      "level": 2,
+      "lines": [
+        "- **Maestría de Armas (Weapon Masteries 2024):**",
+        "- **Rapier (Vex) & Shortsword (Vex):** Optimiza la economía de acciones y garantiza ventaja o daño secundario plano en cada asalto.",
+        "- **Economía de Recursos 2024:**",
+        "- Integración completa de las reglas de 2024: dotes de origen a Nivel 1, preparación de conjuros ajustada a nivel de lanzador y sinergia de Acción Adicional.",
+        "---"
+      ]
+    },
+    {
+      "title": "2. Action Economy & Combat Loop (2024)",
+      "level": 2,
+      "lines": [
+        "- **Preparación (Pre-Combate):**",
+        "- Lanzamiento de conjuros defensivos clave o habilidades de protección.",
+        "- **Action:**",
+        "- **Turno 1:** Acción principal de ataque o lanzamiento de conjuro de área/control.",
+        "- **Turnos subsiguientes:** Ciclo de ataques con Weapon Mastery y habilidades avanzadas de subclase.",
+        "- **Bonus Action:**",
+        "- Uso de habilidades de subclase, metamagia o ataques secundarios.",
+        "- **Reaction:**",
+        "- Reacción principal de protección o contraataque.",
+        "---"
+      ]
+    },
+    {
+      "title": "3. The META Combo 2024: Shield Spell Reaction + True Strike 2024 + Sneak Attack 10d6",
+      "level": 2,
+      "lines": [
+        "🧮 Mathematical Engine 2024:",
+        "$$\\text{DPR Sneak Attack 2024} = 1\\text{d}8 + 5 + 10\\text{d}6 + 3\\text{d}8 (\\text{True Strike}) = \\mathbf{58.0 \\text{ daño con Ventaja Vex}}$$"
+      ]
+    }
+  ],
+  "tables": []
+}

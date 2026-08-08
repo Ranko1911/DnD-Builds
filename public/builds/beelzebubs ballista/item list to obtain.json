@@ -1,0 +1,132 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Beelzebub's Ballista",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`",
+        "> **Filosofía de objetos:** Priorizar el acierto con ataques a distancia (+X en ballesta pesada), mejorar la CA de armadura media y asegurar la concentración."
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** Sin objetos sintonizados.",
+        "*   **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Rod of the Pact Keeper +3 (1 slot).",
+        "*   **Tier 3 (Niveles 11-16):** Amulet of Health (1 slot), Rod of the Pact Keeper +3 (1 slot), Ring of Protection (1 slot).",
+        "*   **Tier 4 (Niveles 17-20):** Heavy Crossbow +3 (sin sintonización), Ring of Spell Storing (1 slot), Amulet of Health (1 slot), Rod of the Pact Keeper +3 (1 slot).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Goggles of Night**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Alta: Visión en la oscuridad de 60 ft. si tu especie no la tiene o para extenderla."
+      },
+      {
+        "Objeto": "**Heavy Crossbow +1**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a las tiradas de ataque y daño con tu arma principal. Crucial para mitigar la falta de multi-ataque físico."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 1:** +2 a la CA y +1 a todas las tiradas de salvación."
+      },
+      {
+        "Objeto": "**Rod of the Pact Keeper +2**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 2:** Incrementa la CD de salvación de tus conjuros de control (+2) y te permite recuperar un Pact Slot por acción adicional una vez al día."
+      },
+      {
+        "Objeto": "**Heavy Crossbow +2**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "Prioridad Alta: Mejora directa del arma principal."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Amulet of Health**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 1:** Fija tu Constitución en 19 (Mod +4). Aumenta enormemente tus puntos de golpe y tu salvación de concentración (+8 total con competencia de Fighter)."
+      },
+      {
+        "Objeto": "**Half Plate Armor +3**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "**Priorizar 2:** CA base 17 + DEX (+2) = CA 19. Te convierte en una torreta blindada a distancia."
+      },
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "Prioridad Media: Apila con la Cloak of Protection (+2 total a CA y salvaciones)."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ascendant Dragon's Wrath Heavy Crossbow**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ **Sí**",
+        "Prioridad / Notas": "**Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por impacto, Aliento Dracónico 12d6 y Ráfaga Crítica. Eleva el DPR a **96/100**."
+      },
+      {
+        "Objeto": "**Rod of the Pact Keeper +3**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 2:** Aumenta la CD de salvación de tus conjuros principales a 19."
+      },
+      {
+        "Objeto": "**Amulet of Health**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "⚔️ Sí",
+        "Prioridad / Notas": "**Priorizar 3:** Fija CON a 19 (HP masivo y salvaciones de concentración)."
+      },
+      {
+        "Objeto": "**Half-Plate Armor +3**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "—",
+        "Prioridad / Notas": "CA pasiva 22 sin gastar ranura de sintonización."
+      }
+    ]
+  ]
+}

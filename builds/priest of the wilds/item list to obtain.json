@@ -1,0 +1,132 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Priest of the Wilds",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).",
+        "*   **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Amulet of the Devout +3 (1 slot). (Total: 3).",
+        "*   **Tier 3 (Niveles 11-16):** Oathbow (1 slot), Cloak of Displacement (1 slot), Ring of Protection (1 slot). (Total: 3).",
+        "*   **Tier 4 (Niveles 17-20):** Oathbow (1 slot), Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a la CA y salvaciones."
+      },
+      {
+        "Objeto": "**Amulet of the Devout +1**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** +1 a la CD de salvación de clérigo y concede 1 uso adicional de Canalizar Divinidad por día."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +2 a la CA y salvaciones. Acumula con la capa."
+      },
+      {
+        "Objeto": "**Longbow +2**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 2:** Aumenta las tiradas de ataque y daño en +2. No requiere sintonización."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Alta. Impone desventaja a todos los ataques enemigos dirigidos a ti."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Oathbow**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** El arco definitivo de explorador. Otorga ventaja en ataques contra tu objetivo jurado, ignora cobertura y inflige +3d6 de daño perforante adicional."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Excelente defensa para mantener la posición de francotirador inmóvil."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Tome of Understanding**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** +2 permanente a tu puntuación de Sabiduría (superando el límite de 20), mejorando tus ataques War Priest y tus CD."
+      },
+      {
+        "Objeto": "**Ring of Spell Turning**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "Prioridad Media. Ventaja en salvaciones de conjuros dirigidos e intenta devolverlos."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Bracers of Archery**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad 1:** +2 de daño plano a todos los disparos con arco largo (no requiere sintonización en esta mesa)."
+      },
+      {
+        "Objeto": "**Quiver of Ehlonna**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad Media:** Almacena gran cantidad de flechas mágicas de distintos tipos de forma compacta."
+      }
+    ]
+  ]
+}

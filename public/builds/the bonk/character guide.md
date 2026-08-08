@@ -57,9 +57,9 @@ Combat Role: Tanque de Primera Línea, Daño de Ráfaga Física, Controlador por
 
 El combo de "The BONK" radica en la sinergia de la Furia, Reckless Attack y las Garras de la Bestia con los ataques adicionales de Monje:
 
-1. **[Paso 1]:** El personaje entra en Furia, ganando resistencia a daños físicos y un bono de +2 a todo ataque de Fuerza.
-2. **[Paso 2]:** Activa *Reckless Attack* para tener ventaja en todos sus ataques cuerpo a cuerpo de Fuerza durante el turno.
-3. **[Paso 3]:** Ejecuta la acción de Ataque con Garras, logrando 3 ataques por el rasgo de garras y Extra Attack. Luego usa la acción adicional para *Flurry of Blows* (2 ataques). Son 5 ataques por turno, todos con ventaja y añadiendo Fuerza + Rage flat damage.
+1. **Paso 1 (Preparación):** El personaje entra en Furia, ganando resistencia a daños físicos y un bono de +2 a todo ataque de Fuerza.
+2. **Paso 2 (Ataque y Recarga):** Activa *Reckless Attack* para tener ventaja en todos sus ataques cuerpo a cuerpo de Fuerza durante el turno.
+3. **Paso 3 (Sinergia y Remate):** Ejecuta la acción de Ataque con Garras, logrando 3 ataques por el rasgo de garras y Extra Attack. Luego usa la acción adicional para *Flurry of Blows* (2 ataques). Son 5 ataques por turno, todos con ventaja y añadiendo Fuerza + Rage flat damage.
 
 🧮 Mathematical Engine (Reglas 2014):
 

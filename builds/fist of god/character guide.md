@@ -54,9 +54,9 @@ Combat Role: Gish de Primera Línea, Atacante de Daño Radiante/Necrótico, Sana
 
 El combo del "Fist of God" radica en encadenar múltiples golpes infundidos con daño radiante y aplicar un veneno inevitable en el primer golpe exitoso:
 
-1. **[Paso 1]:** El personaje activa *Divine Favor* (Acción Adicional). A partir de ese momento, cada golpe exitoso inflige +1d4 de daño radiante.
-2. **[Paso 2]:** Realiza la acción de Ataque (2 golpes de espada larga de 1d10) y sigue con la Ráfaga de Golpes (2 golpes desarmados de 1d8). Son 4 ataques en total.
-3. **[Paso 3]:** Al impactar el primero, activa *Hand of Harm* (1 Ki), sumando daño necrótico e imponiendo **Envenenado** sin salvación. Si el ataque hubiera fallado, activa *Guided Strike* (+10 reactivo) para forzar el impacto.
+1. **Paso 1 (Preparación):** El personaje activa *Divine Favor* (Acción Adicional). A partir de ese momento, cada golpe exitoso inflige +1d4 de daño radiante.
+2. **Paso 2 (Ataque y Recarga):** Realiza la acción de Ataque (2 golpes de espada larga de 1d10) y sigue con la Ráfaga de Golpes (2 golpes desarmados de 1d8). Son 4 ataques en total.
+3. **Paso 3 (Sinergia y Remate):** Al impactar el primero, activa *Hand of Harm* (1 Ki), sumando daño necrótico e imponiendo **Envenenado** sin salvación. Si el ataque hubiera fallado, activa *Guided Strike* (+10 reactivo) para forzar el impacto.
 
 🧮 Mathematical Engine (Reglas 2014):
 

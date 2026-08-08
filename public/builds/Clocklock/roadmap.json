@@ -1,0 +1,199 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta del Reloj de la Sombra (Nivel 1 - 20) — Clocklock",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Clocklock** (Alma de Relojería 18 / Brujo Hexblade 2), optimizado para maximizar el daño por críticas con *Elven Accuracy* y el control probabilístico.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "*Se inicia como Sorcerer para garantizar la competencia en salvaciones de Constitución (vital para mantener Darkness y otros buffs arcanos).*",
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1. **Elven Accuracy (Nivel 6 / Sorcerer 4):**",
+        "* *Sinergia:* Incrementa tu Carisma de 17 a 18. Cuando atacas con ventaja usando Carisma (lo cual es constante gracias a la combinación de *Darkness* y *Devil's Sight*), puedes relanzar uno de los dados. Esto te da \"triple ventaja\" (tiras 3 dados y eliges el más alto), maximizando tu acierto y duplicando la tasa de golpes críticos.",
+        "2. **ASI: Mejora de Característica (Nivel 10 / Sorcerer 8):**",
+        "* *Sinergia:* Lleva tu Carisma al máximo de **20**. Aumenta tu bonificador de ataque y suma un $+5$ neto al daño de cada rayo de *Eldritch Blast* a través de la invocación *Agonizing Blast*.",
+        "3. **War Caster (Nivel 14 / Sorcerer 12):**",
+        "* *Sinergia:* Indispensable para asegurar que no pierdes la concentración en *Darkness* o *Wall of Force* al recibir daño. Otorga ventaja en salvaciones de Constitución y te permite usar componentes somáticos con las manos ocupadas por un escudo físico.",
+        "4. **Alert (Nivel 18 / Sorcerer 16):**",
+        "* *Sinergia:* Añade $+5$ a tus tiradas de iniciativa y evita que seas sorprendido. Actuar primero en la ronda te permite desplegar tu *Darkness* defensiva antes de que los enemigos puedan actuar, asegurando tu cobertura."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Sorcerer 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Constitución como salvación primaria. *Restore Balance*.",
+        "Puntos de Sorcería": "—",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Shield*, *Absorb Elements*, *Mending*."
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Warlock 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Competencia en armadura media y escudo. *Hexblade's Curse*.",
+        "Puntos de Sorcería": "—",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Eldritch Blast*, *Hex*, *Armor of Agathys* (vía Warlock)."
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Warlock 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "**Invocaciones de Daño y Visión**. Ranuras de pacto de nivel 1.",
+        "Puntos de Sorcería": "—",
+        "Conjuros Clave / Invocaciones / Metamagia": "Invocaciones: **Agonizing Blast** y **Devil's Sight**."
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Sorcerer 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "*Font of Magic*. Puedes convertir las ranuras de Warlock.",
+        "Puntos de Sorcería": "2",
+        "Conjuros Clave / Invocaciones / Metamagia": "Convierte las 2 ranuras de Warlock de nivel 1 en 2 Puntos de Sorcería."
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Sorcerer 3",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Metamagia**. *Eldritch Blast* dispara 2 rayos base.",
+        "Puntos de Sorcería": "3",
+        "Conjuros Clave / Invocaciones / Metamagia": "Metamagia: **Twinned Spell** y **Quickened Spell**."
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Sorcerer 4",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 1: Elven Accuracy** (+1 CAR -> **CAR 18**).",
+        "Puntos de Sorcería": "4",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Darkness* (Sorcerer 2). Empieza el combo de ventaja triple."
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Sorcerer 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 3.",
+        "Puntos de Sorcería": "5",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Counterspell* (Sustituir conjuro de Clockwork por abjuración/transmutación)."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Sorcerer 6",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "*Bastion of Law* (Barrera reductora de daño de subclase).",
+        "Puntos de Sorcería": "6",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Dispel Magic*, *Haste*."
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Sorcerer 7",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 4.",
+        "Puntos de Sorcería": "7",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Banishment* (Clockwork swap), *Greater Invisibility*."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Sorcerer 8",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 2: ASI (+2 CAR -> CAR 20)**.",
+        "Puntos de Sorcería": "8",
+        "Conjuros Clave / Invocaciones / Metamagia": "Carisma al máximo para CD y daño por rayo."
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Sorcerer 9",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 5. *Eldritch Blast* sube a 3 rayos.",
+        "Puntos de Sorcería": "9",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Wall of Force*, *Synaptic Static*."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Sorcerer 10",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Metamagia adicional**: Elegir **Empowered Spell** (para repetir dados bajos en EB).",
+        "Puntos de Sorcería": "10",
+        "Conjuros Clave / Invocaciones / Metamagia": "Optimiza el daño medio de tus descargas."
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Sorcerer 11",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 6.",
+        "Puntos de Sorcería": "11",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Globe of Invulnerability*."
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Sorcerer 12",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 3: War Caster** (Mago de Guerra).",
+        "Puntos de Sorcería": "12",
+        "Conjuros Clave / Invocaciones / Metamagia": "Ventaja en concentración indispensable para primera/media línea."
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Sorcerer 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 7.",
+        "Puntos de Sorcería": "13",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Reverse Gravity* o *Teleport*."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Sorcerer 14",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Trance of Order** (Rasgo defensivo y ofensivo de subclase).",
+        "Puntos de Sorcería": "14",
+        "Conjuros Clave / Invocaciones / Metamagia": "Mínimo de 10 en todas las tiradas de ataque y salvación."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Sorcerer 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 8. *Eldritch Blast* a 4 rayos base.",
+        "Puntos de Sorcería": "15",
+        "Conjuros Clave / Invocaciones / Metamagia": "*Power Word Stun* o *Demiplane*."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Sorcerer 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 4: Alert** (Alerta) o **Tough**.",
+        "Puntos de Sorcería": "16",
+        "Conjuros Clave / Invocaciones / Metamagia": "Sumar iniciativa para meter la Darkness antes de que se muevan."
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Sorcerer 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Acceso a conjuros de nivel 9.",
+        "Puntos de Sorcería": "17",
+        "Conjuros Clave / Invocaciones / Metamagia": "**Wish** (utilidad/flexibilidad absoluta)."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Sorcerer 18",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Clockwork Cavalcade** (Rasgo de nivel 18, curación y reparación masiva).",
+        "Puntos de Sorcería": "18",
+        "Conjuros Clave / Invocaciones / Metamagia": "Invoca espíritus mecánicos para curar 100 HP y reparar objetos."
+      }
+    ]
+  ]
+}

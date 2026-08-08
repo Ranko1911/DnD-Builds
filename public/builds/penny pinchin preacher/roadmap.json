@@ -1,0 +1,196 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta de Penny Pinchin' Preacher (Nivel 1 - 20)",
+      "level": 1,
+      "lines": [
+        "Esta hoja de ruta detalla la progresión nivel a nivel para el build **Penny Pinchin' Preacher**, diseñado por el **Archivero de Optimización**. El build combina las capacidades tácticas divinas del Clérigo de la Penumbra con el sigilo psíquico del Pícaro Cuchillo Mental.",
+        "---"
+      ]
+    },
+    {
+      "title": "📊 Tabla de Progresión Completa (1 - 20)",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🎯 Progresión de Dotes (Feats) Explicada",
+      "level": 2,
+      "lines": [
+        "1.  **Alerta (Alert) (Nivel 1 - Dote de Origen):**",
+        "*   *Sinergia:* +5 a la iniciativa. Permite actuar primero y activar la sorpresa de Bugbear en el primer asalto.",
+        "2.  **Observador (Observant) (Nivel 12 / Rogue 10):**",
+        "*   *Sinergia:* +1 Sabiduría. Aumenta tu Percepción e Investigación pasiva en +5, lo que sumado a Reliable Talent y Expertise te otorga un valor de Percepción Pasiva inmejorable de 31.",
+        "3.  **Afortunado (Lucky) (Nivel 18 / Rogue 16):**",
+        "*   *Sinergia:* Otorga puntos de suerte para repetir tiradas críticas fallidas (como concentración o salvaciones vitales)."
+      ]
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Cleric 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Inicio con salvaciones de SAB e iniciación en armaduras/escudos.",
+        "Espacios de Conjuro": "2 (Lvl 1)",
+        "Características Obtenidas": "Twilight Domain (Vigilant Blessing, Eyes of Night), Conjuros"
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Cleric 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Hito defensivo masivo: Generación de HP temporales.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Channel Divinity: Twilight Sanctuary"
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Rogue 1",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Transición a Pícaro. Expertise en Sigilo y Percepción.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Sneak Attack (1d6), Thieves' Cant, Expertise"
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Rogue 2",
+        "PB": "+2",
+        "Hitos y Decisiones de Optimización": "Movilidad rápida por Acción Adicional.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Cunning Action (Dash, Disengage, Hide)"
+      },
+      {
+        "Nivel Total": "**5**",
+        "Clase y Nivel": "Rogue 3",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Subclase: **Soulknife**. Hojas de energía psíquica.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Psychic Blades, Psionic Power (1d6), Sneak Attack (2d6)"
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Rogue 4",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "**Dote 1:** +1 DES (alcanzando 18).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Rogue 5",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Mitigación reactiva de daño.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Uncanny Dodge, Sneak Attack (3d6), Dado Psíquico (1d8)"
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Rogue 6",
+        "PB": "+3",
+        "Hitos y Decisiones de Optimización": "Expertise adicional (Perspicacia, Investigación).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Expertise adicional"
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Rogue 7",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Evasión de daño en área.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Evasion, Sneak Attack (4d6)"
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Rogue 8",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 2:** +1 DES (alcanzando 20). Máxima Destreza física.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Rogue 9",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "Teletransporte psíquico y precisión.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Homing Strikes, Psychic Teleportation, Sneak Attack (5d6)"
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Rogue 10",
+        "PB": "+4",
+        "Hitos y Decisiones de Optimización": "**Dote 3:** **Observador (Observant)** (+1 SAB a 18).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Dote adicional de Pícaro"
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Rogue 11",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Nunca sacar menos de 10 en tiradas competentes.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Reliable Talent, Sneak Attack (6d6), Dado Psíquico (1d10)"
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Rogue 12",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "**Dote 4:** **ASI** (+2 SAB a 20). Máxima Sabiduría.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Rogue 13",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Invisibilidad psíquica de alto nivel.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Psychic Veil, Sneak Attack (7d6)"
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Rogue 14",
+        "PB": "+5",
+        "Hitos y Decisiones de Optimización": "Detección de enemigos ocultos a corta distancia.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Blindsense"
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Rogue 15",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Salvaguarda mental total.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Slippery Mind, Sneak Attack (8d6)"
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Rogue 16",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "**Dote 5:** **Lucky** (Afortunado).",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Mejora de Atributo (ASI)"
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Rogue 17",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Aturdir enemigos con ataques psíquicos.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Rend Mind, Sneak Attack (9d6), Dado Psíquico (1d12)"
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Rogue 18",
+        "PB": "+6",
+        "Hitos y Decisiones de Optimización": "Los enemigos no pueden ganar ventaja contra ti.",
+        "Espacios de Conjuro": "3 (Lvl 1)",
+        "Características Obtenidas": "Elusive (Rogue Capstone)"
+      }
+    ]
+  ]
+}

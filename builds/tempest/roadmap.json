@@ -1,0 +1,399 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "🗺️ Hoja de Ruta Optimizada a Nivel 20 — Tempest Demiurge (2024 / 5.5e)",
+      "level": 1,
+      "lines": [
+        "Este documento contiene la planificación estratégica nivel a nivel para el personaje **Tempest Demiurge**, redactada por el **Archivero de Optimización** y adaptada al estado actual del personaje: **Clérigo 3 / Mago 4 (Nivel Total 7)** bajo el reglamento casero (*homebrew*) de la mesa.",
+        "---"
+      ]
+    },
+    {
+      "title": "📍 Estado Actual del Personaje (Nivel 7)",
+      "level": 2,
+      "lines": [
+        "* **Clase y Reparto:** Clérigo (Dominio de la Tempestad) 3 / Mago (Orden de los Escribas) 4",
+        "* **Nivel de Lanzador (Caster Level):** 7 (Caster Level unificado)",
+        "* **Hitos Activos:**",
+        "* Armadura Pesada + Escudo (CA 24 base con equipo definitivo, 29 con *Shield*).",
+        "* *Wrath of the Storm* (Reacción de daño reactivo).",
+        "* *Ira Destructiva* (**2 usos** de Canalizar Divinidad por descanso largo/corto gracias a la Regla Homebrew 3).",
+        "* *Awakened Spellbook* (Transmutación de tipo de daño de conjuros de Mago).",
+        "* **Dote 1 (Mago 4):** **War Caster** (INT 16, ventaja en concentración y lanzamientos como reacción).",
+        "---"
+      ]
+    },
+    {
+      "title": "⚡ El Impacto de las Reglas Homebrew en tu Progresión",
+      "level": 2,
+      "lines": [
+        "1. **Regla Homebrew 1 (Foco Universal Único):** El collar fusionado canaliza conjuros de Clérigo y Mago. Puedes llevar arma/escudo sin penalización de componentes somáticos o materiales sin coste en oro.",
+        "2. **Regla Homebrew 2 (Progresión Full Caster Integrada):** Al ser ambas clases *Full Casters*, tu nivel de lanzador es **igual a tu nivel total (20 a Nivel 20)**. Puedes preparar conjuros de nivel superior de **ambas listas** (Clérigo y Mago) siempre que dispongas de ranuras de dicho nivel.",
+        "3. **Regla Homebrew 3 (Canalizar Divinidad Fijo):** Obtienes **2 usos** de Canalizar Divinidad desde Clérigo 2. No necesitas subir a Clérigo 6 para obtener el segundo uso.",
+        "4. **Regla Homebrew 4 (Fusión de Sintonización):** *Amulet of the Devout* + *Stormshaper's Amulet* ocupan **1 sola ranura de sintonización**.",
+        "---"
+      ]
+    },
+    {
+      "title": "⚖️ Comparativa de Rutas de Progresión",
+      "level": 2,
+      "lines": []
+    },
+    {
+      "title": "Ruta 0: 👑 Clérigo 2 / Mago 18 (LA RUTA SUPREMA DE SPELL MASTERY)",
+      "level": 3,
+      "lines": [
+        "* **Enfoque:** Reajustar 1 nivel de Clérigo a Mago (quedando en Clérigo 2 / Mago 5 a Nivel 7 total).",
+        "* **Ventaja Clave:** Desbloquea **Spell Mastery (Mago 18)** a Nivel 20. Te permite lanzar ***Shield* a voluntad de forma ininterrumpida** (CA 29 permanente en Reacción) y *Misty Step* / *Absorb Elements* a voluntad sin gastar ranuras.",
+        "* **Dotes:** 5 dotes de clase (Mago 4, 8, 12, 16, 18/Epic Boon) + 1 dote de Origen = **6 Dotes totales**."
+      ]
+    },
+    {
+      "title": "Ruta 1: 🔵 Clérigo 3 / Mago 17 (RECOMENDADA SIN REAJUSTE DE CLASE)",
+      "level": 3,
+      "lines": [
+        "* **Enfoque:** Mantener Clérigo 3 y subir exclusivamente Mago a partir del Nivel 8.",
+        "* **Ventaja Clave:** Alcanzas **Mago 17** a Nivel 20, lo que te permite aprender **nativamente conjuros de 9.º nivel de Mago** (*Wish*, *Meteor Swarm*, *Prismatic Wall*) al subir de nivel sin depender de encontrar pergaminos.",
+        "* **Dotes:** 4 dotes de Mago + 1 dote de Origen = **5 Dotes totales**."
+      ]
+    },
+    {
+      "title": "Ruta 2: 🟢 Clérigo 4 / Mago 16 (La Ruta de las 6 Dotes)",
+      "level": 3,
+      "lines": [
+        "* **Enfoque:** Subir a Clérigo 4 a Nivel 8 total, y luego Mago 5 a 16.",
+        "* **Ventaja Clave:** Obtienes **1 Dote adicional** a Nivel 8 (Clérigo 4), sumando **6 Dotes totales** (permitiendo equipar *Epic Boon* a Nivel 20).",
+        "* **Matiz:** Para usar conjuros de 9.º nivel de Mago debes transcribirlos desde libros/pergaminos encontrados (permitido por tu Caster Level 20)."
+      ]
+    },
+    {
+      "title": "Ruta 3: 🌪️ Clérigo 6 / Mago 14 (El Titán de Control Espacial)",
+      "level": 3,
+      "lines": [
+        "* **Enfoque:** Subir a Clérigo 6 a Nivel 10 total, y luego Mago 5 a 14.",
+        "* **Ventaja Clave:** **Thunderbolt Strike** (Clérigo 6). Empujas 10 pies a enemigos Grandes o menores al infligir daño de Relámpago transmutado.",
+        "---"
+      ]
+    },
+    {
+      "title": "👑 Progresión Detallada: Ruta 0 (Clérigo 2 / Mago 18 — Spell Mastery)",
+      "level": 2,
+      "lines": [
+        "*Esta es la build óptima teórica absoluta del Archivero si el DM permite reajustar 1 nivel de Clérigo a Mago (quedando en Clérigo 2 / Mago 5 a Nivel 7).*",
+        "---"
+      ]
+    },
+    {
+      "title": "📈 Progresión Detallada: Ruta 1 (Clérigo 3 / Mago 17)",
+      "level": 2,
+      "lines": [
+        "*Esta es la ruta recomendada si mantienes tus 3 niveles actuales de Clérigo y no realizas reajustes de clase.*",
+        "---"
+      ]
+    },
+    {
+      "title": "📈 Progresión Alternativa: Ruta 2 (Clérigo 4 / Mago 16)",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🎲 Análisis Matemático de Ráfaga y Combos META (LaTeX)",
+      "level": 2,
+      "lines": []
+    },
+    {
+      "title": "1. El Combo del \"Cataclismo de Meteoros Relámpago\" (Nivel 17+)",
+      "level": 3,
+      "lines": [
+        "* **Conjuro Base:** *Meteor Swarm* (Wizard, 9.º).",
+        "* **Mecanismo de Transmutación:** Con *Prismatic Wall* (Wizard, 9.º) en tu libro de conjuros, transmutas el daño de *Meteor Swarm* (Fuego/Contundente) a **Relámpago**.",
+        "* **Ira Destructiva:** Activas Canalizar Divinidad para maximizar el daño de Relámpago.",
+        "* **Cálculo de Daño (LaTeX):**",
+        "$$\\text{Daño Plano} = 40 \\times 6 = \\mathbf{240 \\text{ daño de Relámpago en área.}}$$",
+        "* Los enemigos que superen la salvación de Destreza (CD 21) sufren **120 de daño de relámpago plano**.",
+        "* Los enemigos que la fallen sufren **240 de daño de relámpago plano** en 4 impactos esféricos de 40 pies de radio."
+      ]
+    },
+    {
+      "title": "2. Cadena de Rayos Maximizada (Nivel 11+)",
+      "level": 3,
+      "lines": [
+        "* **Conjuro Base:** *Chain Lightning* (Wizard, 6.º).",
+        "* **Cálculo de Daño (LaTeX):**",
+        "$$\\text{Daño por Objetivo} = 10 \\times 8 = \\mathbf{80 \\text{ daño de Relámpago plano a 4 objetivos.}}$$",
+        "---"
+      ]
+    },
+    {
+      "title": "⚖️ Tabla de Rendimiento Táctico Final (Nivel 20)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Nivel Total": "**1**",
+        "Clase y Nivel": "Clérigo 1",
+        "Caster Level": "**1**",
+        "Hitos y Decisiones de Optimización": "Armadura Pesada, Escudo, *Wrath of the Storm*, Dote de Origen (*Alert* / *Tough*)."
+      },
+      {
+        "Nivel Total": "**2**",
+        "Clase y Nivel": "Clérigo 2",
+        "Caster Level": "**2**",
+        "Hitos y Decisiones de Optimización": "**Ira Destructiva** (**2 usos** de Canalizar Divinidad por Regla 3)."
+      },
+      {
+        "Nivel Total": "**3**",
+        "Clase y Nivel": "Clérigo 2 / Mago 1",
+        "Caster Level": "**3**",
+        "Hitos y Decisiones de Optimización": "Acceso a *Spellbook* de Mago. Caster Level 3."
+      },
+      {
+        "Nivel Total": "**4**",
+        "Clase y Nivel": "Clérigo 2 / Mago 2",
+        "Caster Level": "**4**",
+        "Hitos y Decisiones de Optimización": "**Awakened Spellbook (Escriba 2):** Transmutación elemental de tipo de daño."
+      },
+      {
+        "Nivel Total": "**6**",
+        "Clase y Nivel": "Clérigo 2 / Mago 4",
+        "Caster Level": "**6**",
+        "Hitos y Decisiones de Optimización": "**Dote 1 (Mago 4): War Caster.** Tu **INT sube a 16**. Ventaja en tiradas de salvación de concentración."
+      },
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "**Clérigo 2 / Mago 5**",
+        "Caster Level": "**7**",
+        "Hitos y Decisiones de Optimización": "**ESTADO TRAS REAJUSTE.** Aprendes conjuros de 3.er nivel de Mago (*Lightning Bolt*, *Counterspell*)."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Clérigo 2 / Mago 6",
+        "Caster Level": "**8**",
+        "Hitos y Decisiones de Optimización": "**Manifest Mind (Escriba 6):** Proyectas la mente espectral para lanzar hechizos desde su posición."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Clérigo 2 / Mago 8",
+        "Caster Level": "**10**",
+        "Hitos y Decisiones de Optimización": "**Dote 2 (Mago 8): Resilient (Constitución).** Tu **CON sube a 16** (proficiencia en TS CON)."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Clérigo 2 / Mago 10",
+        "Caster Level": "**12**",
+        "Hitos y Decisiones de Optimización": "**Master Scrivener (Escriba 10):** Pergaminos de 1.º o 2.º nivel sobrecargados gratis al día."
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Clérigo 2 / Mago 12",
+        "Caster Level": "**14**",
+        "Hitos y Decisiones de Optimización": "**Dote 3 (Mago 12): ASI (+2 INT).** Tu **INT sube de 16 a 18** (modificador $+4$)."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Clérigo 2 / Mago 14",
+        "Caster Level": "**16**",
+        "Hitos y Decisiones de Optimización": "**One with the Word (Escriba 14):** Inmunidad al daño reactiva sacrificando páginas del libro."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Clérigo 2 / Mago 15",
+        "Caster Level": "**17**",
+        "Hitos y Decisiones de Optimización": "**Pico de Caster Level 17:** Preparación de conjuros de **Nivel 9** de Clérigo (*Mass Heal*) y Mago (*Prismatic Wall*)."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Clérigo 2 / Mago 16",
+        "Caster Level": "**18**",
+        "Hitos y Decisiones de Optimización": "**Dote 4 (Mago 16): ASI (+2 INT).** Tu **INT alcanza 20 (+5 máximo).** CD de conjuros sube a **21+**."
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Clérigo 2 / Mago 17",
+        "Caster Level": "**19**",
+        "Hitos y Decisiones de Optimización": "**Mago 17:** Aprendes nativamente *Wish* y *Meteor Swarm*. Combo de **240 daño de relámpago en área**."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "**Clérigo 2 / Mago 18**",
+        "Caster Level": "**20**",
+        "Hitos y Decisiones de Optimización": "**SANTO GRIAL: SPELL MASTERY (Mago 18).** *Shield* (+5 CA) a voluntad sin gastar ranuras (**CA 29 reactiva permanente**) + *Misty Step* / *Absorb Elements* a voluntad. **Dote 5 (Mago 18 / Epic Boon):** *Epic Boon of Dimensional Travel*."
+      }
+    ],
+    [
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "**Clérigo 3 / Mago 4**",
+        "Caster Level": "**7**",
+        "Hitos y Decisiones de Optimización": "**ESTADO ACTUAL.** Dote *War Caster* (INT 16). Conjuros preparados de Nivel 4 de Clérigo y Mago. 2 usos de Canalizar Divinidad."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "Clérigo 3 / Mago 5",
+        "Caster Level": "**8**",
+        "Hitos y Decisiones de Optimización": "Espacios y preparaciones de **Nivel 4**. Aprendes conjuros de Mago de 4.º nivel (*Fire Shield*, *Dimension Door*)."
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Clérigo 3 / Mago 6",
+        "Caster Level": "**9**",
+        "Hitos y Decisiones de Optimización": "**Rasgo Clave (Mago 6): Manifest Mind.** Proyectas una mente espectral flotante para lanzar conjuros transmutados desde su posición. Espacios/Prep de **Nivel 5**."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Clérigo 3 / Mago 7",
+        "Caster Level": "**10**",
+        "Hitos y Decisiones de Optimización": "Preparación de conjuros de Nivel 5 de Clérigo (*Greater Restoration*, *Flame Strike*) y Mago (*Cone of Cold*, *Wall of Force*)."
+      },
+      {
+        "Nivel Total": "**11**",
+        "Clase y Nivel": "Clérigo 3 / Mago 8",
+        "Caster Level": "**11**",
+        "Hitos y Decisiones de Optimización": "**Dote 2 (Mago 8): Resilient (Constitución).** Tu **CON sube a 16** (obtiene proficiencia en TS de Constitución). Espacios/Prep de **Nivel 6**. Acceso a *Chain Lightning* (80 daño plano de relámpago a 4 objetivos)."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Clérigo 3 / Mago 9",
+        "Caster Level": "**12**",
+        "Hitos y Decisiones de Optimización": "Preparación de conjuros de Nivel 6 de Clérigo (*Heal*, *Heroes' Feast*) y Mago (*Globe of Invulnerability*, *Disintegrate*)."
+      },
+      {
+        "Nivel Total": "**13**",
+        "Clase y Nivel": "Clérigo 3 / Mago 10",
+        "Caster Level": "**13**",
+        "Hitos y Decisiones de Optimización": "**Rasgo Escriba: Master Scrivener.** Creas pergaminos de 1.º o 2.º nivel sobrecargados de poder gratis cada día. Espacios/Prep de **Nivel 7**."
+      },
+      {
+        "Nivel Total": "**14**",
+        "Clase y Nivel": "Clérigo 3 / Mago 11",
+        "Caster Level": "**14**",
+        "Hitos y Decisiones de Optimización": "Preparación de conjuros de Nivel 7 (*Forcecage*, *Prismatic Spray*, *Plane Shift*)."
+      },
+      {
+        "Nivel Total": "**15**",
+        "Clase y Nivel": "Clérigo 3 / Mago 12",
+        "Caster Level": "**15**",
+        "Hitos y Decisiones de Optimización": "**Dote 3 (Mago 12): ASI (+2 Inteligencia).** Tu **INT sube de 16 a 18** (modificador $+4$). Espacios/Prep de **Nivel 8**."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Clérigo 3 / Mago 13",
+        "Caster Level": "**16**",
+        "Hitos y Decisiones de Optimización": "Preparación de conjuros de Nivel 8 (*Illusory Dragon*, *Sunburst*, *Holy Aura*)."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Clérigo 3 / Mago 14",
+        "Caster Level": "**17**",
+        "Hitos y Decisiones de Optimización": "**Pico del Multiverso (Caster 17):** Espacios y preparaciones de **Nivel 9**. **Rasgo Escriba: One with the Word.** Inmunidad al daño reactiva sacrificando páginas de tu libro. Puedes preparar *Mass Heal* (Clérigo) y *Prismatic Wall* (Mago)."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Clérigo 3 / Mago 15",
+        "Caster Level": "**18**",
+        "Hitos y Decisiones de Optimización": "Ranuras adicionales de 9.º nivel para conjuros transmutados."
+      },
+      {
+        "Nivel Total": "**19**",
+        "Clase y Nivel": "Clérigo 3 / Mago 16",
+        "Caster Level": "**19**",
+        "Hitos y Decisiones de Optimización": "**Dote 4 (Mago 16): ASI (+2 Inteligencia).** Tu **INT alcanza 20 (+5 máximo).** Tu CD de conjuros llega a **21+** y tus ataques con *True Strike* obtienen el bonificador definitivo."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "Clérigo 3 / Mago 17",
+        "Caster Level": "**20**",
+        "Hitos y Decisiones de Optimización": "**Pico del Mago 17:** Aprendes nativamente **conjuros de 9.º nivel de Mago** (*Wish*, *Meteor Swarm*). Completa el combo: **Meteor Swarm Relámpago Maximizado (240 daño de relámpago en área)**."
+      }
+    ],
+    [
+      {
+        "Nivel Total": "**7**",
+        "Clase y Nivel": "Clérigo 3 / Mago 4",
+        "Caster Level": "**7**",
+        "Hitos y Decisiones de Optimización": "Estado actual. Dote *War Caster* (INT 16)."
+      },
+      {
+        "Nivel Total": "**8**",
+        "Clase y Nivel": "**Clérigo 4 / Mago 4**",
+        "Caster Level": "**8**",
+        "Hitos y Decisiones de Optimización": "**Dote 2 (Clérigo 4): Resilient (Constitución).** CON sube a 16."
+      },
+      {
+        "Nivel Total": "**9**",
+        "Clase y Nivel": "Clérigo 4 / Mago 5",
+        "Caster Level": "**9**",
+        "Hitos y Decisiones de Optimización": "Espacios/Prep de Nivel 5."
+      },
+      {
+        "Nivel Total": "**10**",
+        "Clase y Nivel": "Clérigo 4 / Mago 6",
+        "Caster Level": "**10**",
+        "Hitos y Decisiones de Optimización": "**Manifest Mind** (Escriba 6)."
+      },
+      {
+        "Nivel Total": "**12**",
+        "Clase y Nivel": "Clérigo 4 / Mago 8",
+        "Caster Level": "**12**",
+        "Hitos y Decisiones de Optimización": "**Dote 3 (Mago 8): ASI (+2 INT).** INT sube a 18."
+      },
+      {
+        "Nivel Total": "**16**",
+        "Clase y Nivel": "Clérigo 4 / Mago 12",
+        "Caster Level": "**16**",
+        "Hitos y Decisiones de Optimización": "**Dote 4 (Mago 12): ASI (+2 INT).** INT sube a 20."
+      },
+      {
+        "Nivel Total": "**17**",
+        "Clase y Nivel": "Clérigo 4 / Mago 13",
+        "Caster Level": "**17**",
+        "Hitos y Decisiones de Optimización": "Caster Level 17 (Espacios/Prep de Nivel 9)."
+      },
+      {
+        "Nivel Total": "**18**",
+        "Clase y Nivel": "Clérigo 4 / Mago 14",
+        "Caster Level": "**18**",
+        "Hitos y Decisiones de Optimización": "**One with the Word** (Escriba 14)."
+      },
+      {
+        "Nivel Total": "**20**",
+        "Clase y Nivel": "**Clérigo 4 / Mago 16**",
+        "Caster Level": "**20**",
+        "Hitos y Decisiones de Optimización": "**Dote 5 (Mago 16): Epic Boon of Dimensional Travel.** Teletransporte reactivo de 30 pies."
+      }
+    ],
+    [
+      {
+        "Criterio": "**Daño Monobjetivo**",
+        "Valoración": "🟢 Excelente",
+        "Justificación Mecánica": "Ataques de *True Strike* con INT 20 + relámpagos maximizados contra jefes."
+      },
+      {
+        "Criterio": "**Control de Masas (CC)**",
+        "Valoración": "🔵 Roto",
+        "Justificación Mecánica": "*Forcecage*, *Wall of Force*, *Sleet Storm* y empujón elemental de área."
+      },
+      {
+        "Criterio": "**Supervivencia (EHP)**",
+        "Valoración": "🔵 Roto",
+        "Justificación Mecánica": "CA 24/29 con *Shield*, proficiencia en TS CON + ventaja (*War Caster*), *One with the Word*."
+      },
+      {
+        "Criterio": "**Economía de Acciones**",
+        "Valoración": "🔵 Roto",
+        "Justificación Mecánica": "Acción (Conjuro AoE / *True Strike*), Bonus (Teletransporte / Curación), Reacción (*Shield* / *Wrath*)."
+      },
+      {
+        "Criterio": "**Sustentabilidad**",
+        "Valoración": "🟢 Excelente",
+        "Justificación Mecánica": "2 usos de Canalizar Divinidad por descanso corto y pergaminos gratis diarios."
+      }
+    ]
+  ]
+}

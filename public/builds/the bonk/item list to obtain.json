@@ -1,0 +1,138 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — The BONK",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo (1 slot). (Total: 1).",
+        "*   **Tier 2 (Niveles 5-10):** Eldritch Claw Tattoo (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot). (Total: 3).",
+        "*   **Tier 3 (Niveles 11-16):** Eldritch Claw Tattoo (1 slot), Bracers of Defense (1 slot), Belt of Fire Giant Strength (1 slot). (Total: 3).",
+        "*   **Tier 4 (Niveles 17-20):** Bracers of Defense (1 slot), Belt of Cloud Giant Strength (1 slot), Cloak of Displacement (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Insignia of Claws**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a las tiradas de ataque y daño de tus golpes desarmados y armas naturales (garras). No requiere sintonización."
+      },
+      {
+        "Objeto": "**Eldritch Claw Tattoo**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** +1 a las tiradas de ataque y daño con golpes desarmados. Permite activar alcance extendido de 15 pies y daño por fuerza de 1d6 extra una vez por día."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Bracers of Defense**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Otorga +2 a la CA mientras no uses armadura física ni escudo. Funciona con el caparazón natural Tortle, elevando la CA base a 19."
+      },
+      {
+        "Objeto": "**Ring of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** +2 a la CA y a todas las tiradas de salvación."
+      },
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. +2 a la CA y salvaciones."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Belt of Fire Giant Strength**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** Eleva tu Fuerza a 25 (+7), aumentando enormemente tu precisión, tu daño y la fiabilidad de tus agarres."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "Prioridad Alta. Los enemigos atacan con desventaja contra ti. Combina brutalmente bien con los puntos de golpe temporales."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Ascendant Dragon's Wrath Quarterstaff (Rayo)**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño por impacto. Con 4 ataques por turno (Flurry of Blows), añade +12d6 de daño plano constante por asalto. Eleva DPR a 48."
+      },
+      {
+        "Objeto": "**Belt of Cloud Giant Strength**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Establece tu Fuerza en 27 (+8), maximizando el poder de tus 5 golpes desarmados/garras."
+      },
+      {
+        "Objeto": "**Ring of Spell Turning**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. Ventaja en salvaciones contra hechizos que te tomen como objetivo individual e intenta reflejarlos."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Insignia of Claws**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad 1:** Incremento pasivo de daño y ataque desarmado sin consumir espacio de sintonización."
+      },
+      {
+        "Objeto": "**Potion of Speed**",
+        "Rareza": "Raro",
+        "Prioridad / Notas": "**Prioridad Media:** Otorga los efectos de *Haste* por 1 minuto sin concentración para lograr un ataque extra por turno."
+      }
+    ]
+  ]
+}

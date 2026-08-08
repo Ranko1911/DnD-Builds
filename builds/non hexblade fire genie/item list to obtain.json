@@ -1,0 +1,28 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "💎 Lista de Objetos Mágicos a Obtener",
+      "level": 1,
+      "lines": []
+    },
+    {
+      "title": "Prioridad Alta (Meta-Objetos)",
+      "level": 2,
+      "lines": [
+        "* **Belt of Fire Giant Strength (Muy Raro):** Otorga Fuerza 25 (+7 a impactar y daño).",
+        "* **Armor of Agathys / Ring of Warmth:** Inmunidad a daño de frío adicional o resistencia a elementos.",
+        "* **Glaive of the Fire Drake (Raro):** $+1\\text{d}6$ de daño de fuego adicional por impacto."
+      ]
+    },
+    {
+      "title": "Prioridad Media",
+      "level": 2,
+      "lines": [
+        "* **Mantle of Spell Resistance:** Ventaja en tiradas de salvación contra conjuros.",
+        "* **Cloak of Displacement:** Los enemigos tienen desventaja al atacarte hasta que sufras daño."
+      ]
+    }
+  ],
+  "tables": []
+}

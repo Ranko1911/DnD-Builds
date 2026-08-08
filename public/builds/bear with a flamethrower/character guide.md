@@ -56,9 +56,9 @@ Combat Role: Tanque de Primera Línea Inquebrantable, Daño de Fuego Sostenido e
 
 El combo principal radica en la combinación de la dote racial de Warforged, el Cañón en modo Protector/Lanzallamas y la inmensa cantidad de PG del Mamut:
 
-1. **[Paso 1]:** El personaje adopta la forma de un Mamut (126 PG base). Gracias al chasis Warforged, su CA de Mamut se incrementa de 12 a 13.
-2. **[Paso 2]:** Lleva acoplado en el hombro su Cañón diminuto en modo *Protector* o *Lanzallamas*.
-3. **[Paso 3]:** Cada turno, usa su acción principal para pisotear enemigos (4d10 + 7 de daño físico). Usa su acción adicional para disparar un cono de llamas de 2d8 (*Flamethrower*) o para autolanzarse 1d8 + 2 PG temporales (*Protector*), blindando su forma animal de forma infinita.
+1. **Paso 1 (Preparación):** El personaje adopta la forma de un Mamut (126 PG base). Gracias al chasis Warforged, su CA de Mamut se incrementa de 12 a 13.
+2. **Paso 2 (Ataque y Recarga):** Lleva acoplado en el hombro su Cañón diminuto en modo *Protector* o *Lanzallamas*.
+3. **Paso 3 (Sinergia y Remate):** Cada turno, usa su acción principal para pisotear enemigos (4d10 + 7 de daño físico). Usa su acción adicional para disparar un cono de llamas de 2d8 (*Flamethrower*) o para autolanzarse 1d8 + 2 PG temporales (*Protector*), blindando su forma animal de forma infinita.
 
 🧮 Mathematical Engine (Reglas 2024 / 5.5e):
 

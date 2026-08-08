@@ -62,7 +62,7 @@ Análisis y clasificación de las 30 multiclases presentadas en los 6 vídeos de
 
 | Build / Nombre | Multiclase | Concepto Resumido | Enlace al Vídeo |
 | :--- | :--- | :--- | :--- |
-| **Super Sneaker Life Defender** | Clérigo (Vida/Engaño) / Pícaro | *Pass Without Trace* (+10 a Sigilo a todo el grupo) + curación masiva potenciada desde el sigilo. | [Ver Vídeo (29_n1luQRmI)](https://www.youtube.com/watch?v=29_n1luQRmI) |
+| **Super Sneaker Life Deleter** | Pícaro (Asesino) / Guerrero (Battle Master) | Emboscada letal en Turno 1 combinando *Surprise Auto-Crits* de Asesino con *Action Surge* y Maniobras de Battle Master. | [Ver Vídeo (29_n1luQRmI)](https://www.youtube.com/watch?v=29_n1luQRmI) |
 | **The Shadow Master Thief** | Pícaro / Clérigo (Engaño) | Uso de escudos + *Guidance* + *Pass Without Trace* + duplicados ilusorios para distraer e inspirar tiradas de grupo. | [Ver Vídeo (gZEG5HBO2mo)](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
 | **The Ultimate Skill Master** | Bardo (Lore) / Pícaro / Explorador | Obtiene competencia en las **18 habilidades del juego** y Pericia (*Expertise*) en 8 de ellas. Imposible fallar tiradas de exploración. | [Ver Vídeo (gZEG5HBO2mo)](https://www.youtube.com/watch?v=gZEG5HBO2mo) |
 | **The Mama Bear Hero** | Artífice (Armero) / Bardo (Lore) | Armadura pesada + Escudo + *Shield spell* + Inspiración bárdica para proteger tiradas de salvación de los aliados. | [Ver Vídeo (d8UVPXnVIcc)](https://www.youtube.com/watch?v=d8UVPXnVIcc&t=365s) |

@@ -53,9 +53,9 @@ Combat Role: Tanque de Espinas de Primera Línea, Atacante de Daño Frío/Fuerza
 
 La sinergia destructiva de este build radica en duplicar la durabilidad del escudo temporal *Armor of Agathys* mediante la Furia del Tótem del Oso:
 
-1. **[Paso 1]:** El Warlock lanza *Armor of Agathys* a nivel 5 antes de combatir. Otorga **25 PG Temporales**. Cualquier criatura que lo golpee cuerpo a cuerpo recibe **25 de daño de frío automático** sin tirada de salvación.
-2. **[Paso 2]:** Entra en Furia (Tótem del Oso). La furia reduce a la mitad todo daño físico y elemental entrante. Por lo tanto, para quitarle los 25 PG temporales al Shadow Tank, los enemigos deben infligirle **50 de daño real**.
-3. **[Paso 3]:** Durante el tiempo en que los enemigos intentan agotar el escudo de 25 PG temporales, cada golpe cuerpo a cuerpo que reciba el Shadow Tank devuelve 25 de daño de frío plano al atacante.
+1. **Paso 1 (Preparación):** El Warlock lanza *Armor of Agathys* a nivel 5 antes de combatir. Otorga **25 PG Temporales**. Cualquier criatura que lo golpee cuerpo a cuerpo recibe **25 de daño de frío automático** sin tirada de salvación.
+2. **Paso 2 (Ataque y Recarga):** Entra en Furia (Tótem del Oso). La furia reduce a la mitad todo daño físico y elemental entrante. Por lo tanto, para quitarle los 25 PG temporales al Shadow Tank, los enemigos deben infligirle **50 de daño real**.
+3. **Paso 3 (Sinergia y Remate):** Durante el tiempo en que los enemigos intentan agotar el escudo de 25 PG temporales, cada golpe cuerpo a cuerpo que reciba el Shadow Tank devuelve 25 de daño de frío plano al atacante.
 
 🧮 Mathematical Engine (Reglas 2014):
 

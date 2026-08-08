@@ -1,0 +1,132 @@
+{
+  "metadata": {},
+  "sections": [
+    {
+      "title": "Item List — Fist of God",
+      "level": 1,
+      "lines": [
+        "**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`"
+      ]
+    },
+    {
+      "title": "⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)",
+      "level": 3,
+      "lines": [
+        "*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).",
+        "*   **Tier 2 (Niveles 5-10):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Protection (1 slot). (Total: 3).",
+        "*   **Tier 3 (Niveles 11-16):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).",
+        "*   **Tier 4 (Niveles 17-20):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).",
+        "---"
+      ]
+    },
+    {
+      "title": "🟢 Tier 1 (Niveles 1-4) — Poco Comunes",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Tier 2 (Niveles 5-10) — Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟣 Tier 3 (Niveles 11-16) — Muy Raros",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos",
+      "level": 2,
+      "lines": [
+        "---"
+      ]
+    },
+    {
+      "title": "🔵 Objetos Útiles Sin Sintonización (No-Attunement)",
+      "level": 2,
+      "lines": []
+    }
+  ],
+  "tables": [
+    [
+      {
+        "Objeto": "**Cloak of Protection**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +1 a la CA y salvaciones. Afecta tanto a tus defensas como a tu concentración de *Divine Favor*."
+      },
+      {
+        "Objeto": "**Insignia of Claws**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 2:** +1 a las tiradas de ataque y daño de tus golpes desarmados (Flurry of Blows). No gasta ranura."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Dragonhide Belt +2**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +2 a la CD de salvación de tus habilidades de Ki (Stunning Strike CD) y permite recuperar Ki tirando el dado de artes marciales una vez al día."
+      },
+      {
+        "Objeto": "**Bracers of Defense**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** +2 a la CA mientras no uses armadura física ni escudo. Wielding a longsword two-handed allows this, raising CA to 22!"
+      },
+      {
+        "Objeto": "**Amulet of the Devout +2**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "Prioridad Media. +2 a la CD de tus conjuros de clérigo y 1 CD extra de Canalizar Divinidad."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Dragonhide Belt +3**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 1:** +3 a la CD de tu Ki y recuperación de Ki potenciada. Reemplaza el cinturón anterior."
+      },
+      {
+        "Objeto": "**Cloak of Displacement**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "**Priorizar 2:** Los ataques enemigos contra ti se realizan con desventaja. Excelente combo defensivo con tu alta CA."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Tome of Understanding**",
+        "Requiere Sintonización": "No",
+        "¿Sintonizado?": "[—]",
+        "Prioridad / Notas": "**Priorizar 1:** Lectura de 48 horas que incrementa tu Sabiduría en +2 permanentemente (superando el límite de 20), beneficiando tu CA, tu CD de Ki y de clérigo."
+      },
+      {
+        "Objeto": "**Dragonhide Belt +3**",
+        "Requiere Sintonización": "Sí",
+        "¿Sintonizado?": "[⚔️ Sí]",
+        "Prioridad / Notas": "Prioridad Alta. +3 a la CD de tu Ki. Reemplaza el cinturón anterior."
+      }
+    ],
+    [
+      {
+        "Objeto": "**Manual of Quickness of Action**",
+        "Rareza": "Muy Raro",
+        "Prioridad / Notas": "**Prioridad 1:** Incremento permanente de +2 a la Destreza (aumenta tu CA, ataque y daño)."
+      },
+      {
+        "Objeto": "**Insignia of Claws**",
+        "Rareza": "Poco Común",
+        "Prioridad / Notas": "**Prioridad Media:** Aumento pasivo a tus ataques desarmados de misericordia."
+      }
+    ]
+  ]
+}
