@@ -1,1 +1,0 @@
-- actualizar los calculos en todos los personajes en base a nueva equipacion
