@@ -4,7 +4,7 @@ Archivo personal de builds optimizados para **Dungeons & Dragons 5e** (ediciones
 
 ---
 
-## 🌐 Web App  
+## 🌐 Web App
 
 La app se sirve estáticamente. Para abrirla localmente:
 
