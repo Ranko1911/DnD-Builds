@@ -1,0 +1,375 @@
+---
+import Layout from '../layouts/Layout.astro';
+import buildsData from '../../builds.json';
+
+const base = import.meta.env.BASE_URL;
+
+// Pre-compute total score for each build
+const builds = buildsData.map(b => ({
+  ...b,
+  total: Math.round(
+    (b.ratings.dpr + b.ratings.ehp + b.ratings.control + b.ratings.support) / 4
+  ),
+}));
+---
+
+<Layout title="Ranking" description="Tabla comparativa de builds ordenadas por puntuaciones.">
+  <section class="hero" style="padding-bottom:1rem">
+    <h1 class="hero-title" style="font-size:clamp(2rem,4vw,3.5rem)">Ranking</h1>
+    <p class="hero-subtitle" style="margin-bottom:0">
+      Compara todas las builds por estadísticas. Haz clic en una columna para ordenar.
+    </p>
+  </section>
+
+  <div class="rank-wrap">
+    <!-- Controls -->
+    <div class="rank-bar">
+      <div class="search-wrap">
+        <svg class="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+             stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        <input id="rank-search" type="search" class="search-input" placeholder="Filtrar…"
+               aria-label="Filtrar builds" autocomplete="off" />
+      </div>
+      <span class="filter-label" style="margin-left:auto">
+        <span id="rank-count">{builds.length}</span> builds
+      </span>
+    </div>
+
+    <!-- Table -->
+    <div class="rank-table-wrap">
+      <table class="rank-table" id="rank-table" aria-label="Tabla de ranking de builds">
+        <thead>
+          <tr>
+            <th class="col-rank">#</th>
+            <th class="col-name sortable" data-col="name" data-type="str">
+              Nombre <span class="sort-icon" aria-hidden="true">⇅</span>
+            </th>
+            <th class="col-classes">Clases</th>
+            <th class="col-sys">Sistema</th>
+            <th class="col-stat sortable active desc" data-col="total" data-type="num">
+              Total <span class="sort-icon" aria-hidden="true">↓</span>
+            </th>
+            <th class="col-stat sortable" data-col="dpr"     data-type="num" style="color:var(--dpr)">
+              DPR <span class="sort-icon" aria-hidden="true">⇅</span>
+            </th>
+            <th class="col-stat sortable" data-col="ehp"     data-type="num" style="color:var(--ehp)">
+              EHP <span class="sort-icon" aria-hidden="true">⇅</span>
+            </th>
+            <th class="col-stat sortable" data-col="control" data-type="num" style="color:var(--control)">
+              Ctrl <span class="sort-icon" aria-hidden="true">⇅</span>
+            </th>
+            <th class="col-stat sortable" data-col="support" data-type="num" style="color:var(--support)">
+              Supp <span class="sort-icon" aria-hidden="true">⇅</span>
+            </th>
+            <th class="col-stat sortable" data-col="complexity" data-type="num" style="color:var(--complexity)">
+              Cmplx <span class="sort-icon" aria-hidden="true">⇅</span>
+            </th>
+          </tr>
+        </thead>
+        <tbody id="rank-body">
+          {builds
+            .slice()
+            .sort((a, b) => b.total - a.total)
+            .map((build, i) => (
+              <tr
+                class="rank-row"
+                data-name={build.name.toLowerCase()}
+                data-classes={build.classes.toLowerCase()}
+                data-system={build.system}
+              >
+                <td class="col-rank td-rank">{i + 1}</td>
+
+                <td class="col-name td-name">
+                  <a href={`${base}builds/${build.id}`} class="rank-link">
+                    {build.name}
+                  </a>
+                </td>
+
+                <td class="col-classes td-classes">{build.classes}</td>
+
+                <td class="col-sys">
+                  <span class={`card-system ${
+                    build.system.includes('2024') && build.system.includes('2014') ? 'sboth'
+                    : build.system.includes('2024') ? 's2024'
+                    : 's2014'
+                  }`} style="font-size:0.6rem">
+                    {build.system.includes('2024') && build.system.includes('2014') ? '2014/24'
+                     : build.system.includes('2024') ? '5.5e'
+                     : '2014'}
+                  </span>
+                </td>
+
+                <td class="col-stat td-total" data-val={build.total}>
+                  <div class="rank-bar-cell">
+                    <span class="rank-num" style="color:var(--gold)">{build.total}</span>
+                    <div class="rank-bar-bg">
+                      <div class="rank-bar-fill" style={`width:${build.total}%;background:var(--gold)`}></div>
+                    </div>
+                  </div>
+                </td>
+
+                {[
+                  { val: build.ratings.dpr,        color: 'var(--dpr)'        },
+                  { val: build.ratings.ehp,        color: 'var(--ehp)'        },
+                  { val: build.ratings.control,    color: 'var(--control)'    },
+                  { val: build.ratings.support,    color: 'var(--support)'    },
+                  { val: build.ratings.complexity, color: 'var(--complexity)' },
+                ].map(s => (
+                  <td class="col-stat" data-val={s.val}>
+                    <div class="rank-bar-cell">
+                      <span class="rank-num" style={`color:${s.color}`}>{s.val}</span>
+                      <div class="rank-bar-bg">
+                        <div class="rank-bar-fill" style={`width:${s.val}%;background:${s.color}`}></div>
+                      </div>
+                    </div>
+                  </td>
+                ))}
+              </tr>
+            ))
+          }
+        </tbody>
+      </table>
+    </div>
+
+    <p class="empty-state" id="rank-empty" style="display:none">
+      No hay builds con ese criterio.
+    </p>
+  </div>
+</Layout>
+
+<!-- ─────────────────────────────────────────────────────────────── Styles -->
+<style>
+.rank-wrap {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 2rem 5rem;
+}
+
+.rank-bar {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Scrollable table container */
+.rank-table-wrap {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  background: var(--bg-card);
+}
+
+.rank-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  min-width: 800px;
+}
+
+/* Header */
+.rank-table thead tr {
+  background: rgba(201,168,76,0.05);
+  border-bottom: 1px solid var(--border-hover);
+}
+.rank-table th {
+  padding: 0.75rem 0.875rem;
+  text-align: left;
+  font-weight: 700;
+  color: var(--text-2);
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.07em;
+  white-space: nowrap;
+  user-select: none;
+}
+.rank-table th.sortable {
+  cursor: pointer;
+  transition: color var(--t);
+}
+.rank-table th.sortable:hover { color: var(--text); }
+.rank-table th.active { color: var(--gold); }
+
+.sort-icon {
+  display: inline-block;
+  margin-left: 3px;
+  font-size: 0.65rem;
+  opacity: 0.5;
+}
+th.active .sort-icon { opacity: 1; }
+
+/* Rows */
+.rank-table tbody tr {
+  border-bottom: 1px solid var(--border);
+  transition: background var(--t);
+}
+.rank-table tbody tr:last-child { border-bottom: none; }
+.rank-table tbody tr:hover { background: rgba(201,168,76,0.03); }
+
+.rank-table td {
+  padding: 0.5625rem 0.875rem;
+  vertical-align: middle;
+}
+
+/* Column widths */
+.col-rank   { width: 36px; text-align: center; }
+.col-name   { min-width: 160px; }
+.col-classes{ min-width: 200px; color: var(--text-2); font-size: 0.75rem; }
+.col-sys    { width: 72px; }
+.col-stat   { width: 110px; }
+
+.td-rank {
+  font-family: var(--font-display);
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 700;
+}
+
+/* Top 3 gold/silver/bronze */
+.rank-row:nth-child(1) .td-rank { color: #fbbf24; }
+.rank-row:nth-child(2) .td-rank { color: #9ca3af; }
+.rank-row:nth-child(3) .td-rank { color: #b45309; }
+
+.rank-link {
+  color: var(--text);
+  font-weight: 600;
+  text-decoration: none;
+  transition: color var(--t);
+}
+.rank-link:hover { color: var(--gold-bright); }
+
+/* Mini bar inside cell */
+.rank-bar-cell {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+.rank-num {
+  font-weight: 700;
+  font-size: 0.8125rem;
+  width: 26px;
+  flex-shrink: 0;
+  text-align: right;
+}
+.rank-bar-bg {
+  flex: 1;
+  height: 4px;
+  background: rgba(255,255,255,0.06);
+  border-radius: 999px;
+  overflow: hidden;
+}
+.rank-bar-fill {
+  height: 100%;
+  border-radius: 999px;
+  transition: width 300ms ease;
+}
+
+@media (max-width: 640px) {
+  .rank-wrap { padding: 0 1rem 3rem; }
+}
+</style>
+
+<!-- ─────────────────────────────────────────────────────────────── Script -->
+<script>
+  const headers   = document.querySelectorAll<HTMLElement>('th.sortable');
+  const tbody     = document.getElementById('rank-body')!;
+  const search    = document.getElementById('rank-search') as HTMLInputElement;
+  const countEl   = document.getElementById('rank-count')!;
+  const emptyEl   = document.getElementById('rank-empty')!;
+
+  let sortCol = 'total';
+  let sortDir: 'asc' | 'desc' = 'desc';
+
+  // Map column key → td index (0-based in the row)
+  const COL_INDEX: Record<string, number> = {
+    name: 1, dpr: 5, ehp: 6, control: 7, support: 8, complexity: 9, total: 4,
+  };
+
+  function getVal(row: HTMLElement, col: string): string | number {
+    const idx = COL_INDEX[col];
+    const td  = row.querySelectorAll('td')[idx];
+    if (!td) return '';
+    const dv = td.getAttribute('data-val');
+    if (dv !== null) return Number(dv);
+    return td.textContent?.trim().toLowerCase() ?? '';
+  }
+
+  function rerank() {
+    const rows = [...tbody.querySelectorAll<HTMLElement>('.rank-row')].filter(
+      r => r.style.display !== 'none'
+    );
+    let rank = 1;
+    // Rows are already sorted — just update the rank column
+    rows.forEach(row => {
+      const rankCell = row.querySelector('.td-rank');
+      if (rankCell) rankCell.textContent = String(rank++);
+    });
+  }
+
+  function sortTable() {
+    const rows = [...tbody.querySelectorAll<HTMLElement>('.rank-row')];
+
+    rows.sort((a, b) => {
+      const va = getVal(a, sortCol);
+      const vb = getVal(b, sortCol);
+      let cmp = 0;
+      if (typeof va === 'number' && typeof vb === 'number') {
+        cmp = va - vb;
+      } else {
+        cmp = String(va).localeCompare(String(vb));
+      }
+      return sortDir === 'desc' ? -cmp : cmp;
+    });
+
+    rows.forEach(r => tbody.appendChild(r));
+
+    // Update header icons
+    headers.forEach(h => {
+      const active = h.dataset.col === sortCol;
+      h.classList.toggle('active', active);
+      const icon = h.querySelector<HTMLElement>('.sort-icon');
+      if (!icon) return;
+      if (!active) { icon.textContent = '⇅'; return; }
+      icon.textContent = sortDir === 'desc' ? '↓' : '↑';
+    });
+
+    rerank();
+  }
+
+  function filterTable() {
+    const q = search.value.toLowerCase().trim();
+    const rows = tbody.querySelectorAll<HTMLElement>('.rank-row');
+    let visible = 0;
+
+    rows.forEach(row => {
+      const hit = !q
+        || (row.dataset.name    ?? '').includes(q)
+        || (row.dataset.classes ?? '').includes(q);
+      row.style.display = hit ? '' : 'none';
+      if (hit) visible++;
+    });
+
+    countEl.textContent = String(visible);
+    emptyEl.style.display = visible === 0 ? '' : 'none';
+    rerank();
+  }
+
+  headers.forEach(h => {
+    h.addEventListener('click', () => {
+      const col = h.dataset.col!;
+      if (col === sortCol) {
+        sortDir = sortDir === 'desc' ? 'asc' : 'desc';
+      } else {
+        sortCol = col;
+        sortDir = h.dataset.type === 'num' ? 'desc' : 'asc';
+      }
+      sortTable();
+    });
+  });
+
+  search.addEventListener('input', filterTable);
+</script>
