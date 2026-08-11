@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100">
+  <polygon
+    points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5"
+    fill="#07070f"
+    stroke="#c9a84c"
+    stroke-width="4"
+  />
+  <text
+    x="50" y="63"
+    text-anchor="middle"
+    fill="#c9a84c"
+    font-size="30"
+    font-family="Georgia, serif"
+    font-weight="bold"
+  >20</text>
+</svg>

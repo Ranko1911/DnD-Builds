@@ -1,0 +1,113 @@
+---
+import Layout from '../layouts/Layout.astro';
+import BuildCard from '../components/BuildCard.astro';
+import buildsData from '../../builds.json';
+
+const builds = buildsData;
+
+const counts = {
+  all:  builds.length,
+  y2014: builds.filter(b => b.system.includes('2014')).length,
+  y2024: builds.filter(b => b.system.includes('2024')).length,
+};
+---
+
+<Layout title="Compendio de Builds">
+  <!-- ── Hero ────────────────────────────────────────────────────────────── -->
+  <section class="hero">
+    <h1 class="hero-title">D&amp;D Builds</h1>
+    <p class="hero-subtitle">
+      Compendio de personajes optimizados para D&amp;D 5e,<br />
+      analizados por el Archivero del Multiverso.
+    </p>
+    <span class="hero-count">
+      <strong>{counts.all}</strong> builds cataloguadas
+    </span>
+  </section>
+
+  <!-- ── Filters ─────────────────────────────────────────────────────────── -->
+  <div class="filters">
+    <div class="search-wrap">
+      <svg class="icon-search" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+      </svg>
+      <input
+        id="build-search"
+        type="search"
+        class="search-input"
+        placeholder="Nombre, clase, rol…"
+        aria-label="Buscar builds"
+        autocomplete="off"
+      />
+    </div>
+
+    <span class="filter-label">Sistema</span>
+    <div class="filter-group" role="group" aria-label="Filtrar por sistema">
+      <button class="filter-btn active" data-filter="all"  aria-pressed="true">Todos ({counts.all})</button>
+      <button class="filter-btn"        data-filter="2014" aria-pressed="false">2014 ({counts.y2014})</button>
+      <button class="filter-btn"        data-filter="2024" aria-pressed="false">2024 / 5.5e ({counts.y2024})</button>
+    </div>
+  </div>
+
+  <!-- ── Grid ────────────────────────────────────────────────────────────── -->
+  <div class="builds-grid" id="builds-grid">
+    {builds.map(build => (
+      <div
+        data-card
+        data-system={build.system}
+        data-name={build.name.toLowerCase()}
+        data-classes={build.classes.toLowerCase()}
+        data-role={build.role.toLowerCase()}
+      >
+        <BuildCard build={build} />
+      </div>
+    ))}
+    <p class="empty-state" id="no-results" style="display:none">
+      No se encontraron builds con ese criterio.
+    </p>
+  </div>
+</Layout>
+
+<script>
+  const cards    = document.querySelectorAll<HTMLElement>('[data-card]');
+  const btnGroup = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
+  const search   = document.getElementById('build-search') as HTMLInputElement;
+  const noResults = document.getElementById('no-results')!;
+
+  let activeFilter = 'all';
+  let query = '';
+
+  function apply() {
+    let visible = 0;
+    cards.forEach(card => {
+      const sys     = card.dataset.system ?? '';
+      const name    = card.dataset.name ?? '';
+      const classes = card.dataset.classes ?? '';
+      const role    = card.dataset.role ?? '';
+
+      const matchSys    = activeFilter === 'all' || sys.includes(activeFilter);
+      const matchSearch = !query ||
+        name.includes(query) || classes.includes(query) || role.includes(query);
+
+      const show = matchSys && matchSearch;
+      card.style.display = show ? '' : 'none';
+      if (show) visible++;
+    });
+    noResults.style.display = visible === 0 ? '' : 'none';
+  }
+
+  btnGroup.forEach(btn => {
+    btn.addEventListener('click', () => {
+      btnGroup.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
+      btn.classList.add('active');
+      btn.setAttribute('aria-pressed', 'true');
+      activeFilter = btn.dataset.filter ?? 'all';
+      apply();
+    });
+  });
+
+  search?.addEventListener('input', e => {
+    query = (e.target as HTMLInputElement).value.toLowerCase().trim();
+    apply();
+  });
+</script>

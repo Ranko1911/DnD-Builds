@@ -1,0 +1,266 @@
+---
+import { readFileSync, readdirSync } from 'node:fs';
+import { join } from 'node:path';
+import Layout from '../../layouts/Layout.astro';
+import RadarChart from '../../components/RadarChart.astro';
+import buildsData from '../../../builds.json';
+import { parseMarkdown } from '../../utils/markdown.js';
+
+
+
+// ── Static path generation ───────────────────────────────────────────────────
+export async function getStaticPaths() {
+  // All config must live INSIDE getStaticPaths for Astro's SSG worker context
+  const TAB_ORDER = [
+    'character guide',
+    'character guide 2014',
+    'character guide 2024',
+    'roadmap',
+    'spell list',
+    'item list to obtain',
+    'actual inventory list',
+    'bastion and downtime',
+  ];
+
+  const TAB_LABEL: Record<string, string> = {
+    'character guide':       'Guía',
+    'character guide 2014':  'Guía (2014)',
+    'character guide 2024':  'Guía (2024)',
+    'roadmap':               'Roadmap',
+    'spell list':            'Conjuros',
+    'item list to obtain':   'Items',
+    'actual inventory list': 'Inventario',
+    'bastion and downtime':  'Bastión',
+  };
+
+  const TAB_EMOJI: Record<string, string> = {
+    'character guide':       '📖',
+    'character guide 2014':  '📖',
+    'character guide 2024':  '📖',
+    'roadmap':               '🗺️',
+    'spell list':            '✨',
+    'item list to obtain':   '🎒',
+    'actual inventory list': '🛡️',
+    'bastion and downtime':  '🏰',
+  };
+
+  const TAB_ID: Record<string, string> = {
+    'character guide':       'guide',
+    'character guide 2014':  'guide-2014',
+    'character guide 2024':  'guide-2024',
+    'roadmap':               'roadmap',
+    'spell list':            'spells',
+    'item list to obtain':   'items',
+    'actual inventory list': 'inventory',
+    'bastion and downtime':  'bastion',
+  };
+
+  const fileKey = (f: string) => f.replace(/\.md$/i, '').toLowerCase();
+
+  return buildsData.map(build => {
+    const folderPath = join(process.cwd(), build.folder);
+    let tabs: { id: string; label: string; emoji: string; html: string }[] = [];
+
+    try {
+      const mdFiles = readdirSync(folderPath).filter(f => /\.md$/i.test(f));
+
+      const sorted = [...mdFiles].sort((a, b) => {
+        const ai = TAB_ORDER.indexOf(fileKey(a));
+        const bi = TAB_ORDER.indexOf(fileKey(b));
+        if (ai === -1 && bi === -1) return a.localeCompare(b);
+        if (ai === -1) return 1;
+        if (bi === -1) return -1;
+        return ai - bi;
+      });
+
+      tabs = sorted.map(filename => {
+        const key     = fileKey(filename);
+        const content = readFileSync(join(folderPath, filename), 'utf-8');
+        return {
+          id:    TAB_ID[key]    ?? key.replace(/\s+/g, '-'),
+          label: TAB_LABEL[key] ?? filename.replace(/\.md$/i, ''),
+          emoji: TAB_EMOJI[key] ?? '📄',
+          html:  parseMarkdown(content),
+        };
+      });
+    } catch (err) {
+      console.warn(`[DnD Builds] Could not read folder: ${folderPath}`, err);
+    }
+
+    return { params: { id: build.id }, props: { build, tabs } };
+  });
+}
+
+
+// ── Component ────────────────────────────────────────────────────────────────
+const { build, tabs } = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+
+const roleTags = build.role.split('/').map((r: string) => r.trim()).filter(Boolean);
+
+function systemClass(s: string) {
+  if (s.includes('2024') && s.includes('2014')) return 'sboth';
+  if (s.includes('2024')) return 's2024';
+  return 's2014';
+}
+
+const ratings = [
+  { label: 'DPR',       value: build.ratings.dpr,        color: 'var(--dpr)'        },
+  { label: 'EHP',       value: build.ratings.ehp,        color: 'var(--ehp)'        },
+  { label: 'Control',   value: build.ratings.control,    color: 'var(--control)'    },
+  { label: 'Support',   value: build.ratings.support,    color: 'var(--support)'    },
+  { label: 'Complexity',value: build.ratings.complexity, color: 'var(--complexity)' },
+];
+---
+
+<Layout title={build.name} description={`${build.classes} — ${build.role}`}>
+  <div class="build-page">
+
+    <!-- ── Header ─────────────────────────────────────────────────────────── -->
+    <header class="build-header">
+      <div class="build-header-inner">
+        <a href={base} class="back-link">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+               stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <polyline points="15 18 9 12 15 6"/>
+          </svg>
+          Volver al compendio
+        </a>
+
+        <h1 class="build-title">{build.name}</h1>
+
+        <div class="build-meta">
+          <span class={`card-system ${systemClass(build.system)}`}>{build.system}</span>
+          <span class="build-classes">{build.classes}</span>
+        </div>
+
+        <div class="build-role-tags">
+          {roleTags.map((tag: string) => <span class="role-tag">{tag}</span>)}
+        </div>
+      </div>
+    </header>
+
+    <!-- ── Body ───────────────────────────────────────────────────────────── -->
+    <div class="build-body">
+
+      <!-- Main content: tabs + parsed markdown -->
+      <section class="build-content" aria-label="Documentos del personaje">
+        {tabs.length > 0 ? (
+          <>
+            <div class="tabs-header" role="tablist" aria-label="Secciones del build">
+              {tabs.map((tab, i) => (
+                <button
+                  class={`tab-btn${i === 0 ? ' active' : ''}`}
+                  data-tab={tab.id}
+                  role="tab"
+                  aria-selected={i === 0 ? 'true' : 'false'}
+                  aria-controls={`panel-${tab.id}`}
+                  id={`tab-${tab.id}`}
+                >
+                  <span aria-hidden="true">{tab.emoji}</span> {tab.label}
+                </button>
+              ))}
+            </div>
+
+            {tabs.map((tab, i) => (
+              <div
+                class={`tab-panel${i === 0 ? ' active' : ''}`}
+                id={`panel-${tab.id}`}
+                data-panel={tab.id}
+                role="tabpanel"
+                aria-labelledby={`tab-${tab.id}`}
+              >
+                <div class="prose" set:html={tab.html} />
+              </div>
+            ))}
+          </>
+        ) : (
+          <p class="text-muted" style="padding: 2rem 0;">
+            No se encontraron documentos para este build.
+          </p>
+        )}
+      </section>
+
+      <!-- Sidebar: radar + ratings + YouTube -->
+      <aside class="build-sidebar" aria-label="Estadísticas del build">
+
+        <!-- Radar chart -->
+        <div class="sidebar-card">
+          <p class="sidebar-section-title">Perfil de rendimiento</p>
+          <RadarChart ratings={build.ratings} />
+        </div>
+
+        <!-- Rating bars -->
+        <div class="sidebar-card">
+          <p class="sidebar-section-title">Estadísticas</p>
+          <div class="rating-rows">
+            {ratings.map(r => (
+              <div class="rating-row">
+                <span class="rating-row-label" style={`color:${r.color}`}>{r.label}</span>
+                <div
+                  class="rating-row-bar"
+                  role="progressbar"
+                  aria-valuenow={r.value}
+                  aria-valuemin={0}
+                  aria-valuemax={100}
+                >
+                  <div class="rating-row-fill" style={`width:${r.value}%;background:${r.color}`}></div>
+                </div>
+                <span class="rating-row-num" style={`color:${r.color}`}>{r.value}</span>
+              </div>
+            ))}
+          </div>
+        </div>
+
+        <!-- YouTube (only when available) -->
+        {build.youtube && (
+          <a
+            href={build.youtube}
+            class="yt-btn"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label={`Ver ${build.name} en YouTube`}
+          >
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+              <path d="M23.5 6.2s-.3-1.9-1.1-2.7c-1.1-1.1-2.3-1.1-2.8-1.2C16.7 2 12 2 12 2s-4.7 0-7.6.3c-.5.1-1.7.1-2.8 1.2C.8 4.3.5 6.2.5 6.2S.2 8.4.2 10.6v2.1c0 2.2.3 4.4.3 4.4s.3 1.9 1.1 2.7c1.1 1.1 2.5 1.1 3.1 1.2 2.3.2 9.7.3 9.7.3s4.7 0 7.6-.3c.5-.1 1.7-.1 2.8-1.2.8-.8 1.1-2.7 1.1-2.7s.3-2.2.3-4.4v-2C23.8 8.4 23.5 6.2 23.5 6.2zM9.7 15.5V8.3l7.6 3.6-7.6 3.6z"/>
+            </svg>
+            Ver en YouTube
+          </a>
+        )}
+
+      </aside>
+    </div>
+  </div>
+</Layout>
+
+<script>
+  // ── Tab switching with URL hash state ────────────────────────────────────
+  const tabBtns   = document.querySelectorAll<HTMLButtonElement>('[data-tab]');
+  const tabPanels = document.querySelectorAll<HTMLElement>('[data-panel]');
+
+  function activate(id: string) {
+    tabBtns.forEach(btn => {
+      const active = btn.dataset.tab === id;
+      btn.classList.toggle('active', active);
+      btn.setAttribute('aria-selected', active ? 'true' : 'false');
+    });
+    tabPanels.forEach(panel => {
+      panel.classList.toggle('active', panel.dataset.panel === id);
+    });
+    history.replaceState(null, '', `#${id}`);
+  }
+
+  tabBtns.forEach(btn => {
+    btn.addEventListener('click', () => activate(btn.dataset.tab!));
+  });
+
+  // Restore tab from URL hash on load
+  const hash = location.hash.slice(1);
+  const firstId = tabBtns[0]?.dataset.tab;
+  if (hash && document.querySelector(`[data-tab="${hash}"]`)) {
+    activate(hash);
+  } else if (firstId) {
+    activate(firstId);
+  }
+</script>

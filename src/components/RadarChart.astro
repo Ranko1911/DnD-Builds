@@ -1,0 +1,104 @@
+---
+interface Ratings {
+  dpr: number;
+  ehp: number;
+  control: number;
+  support: number;
+  complexity: number;
+}
+interface Props { ratings: Ratings }
+
+const { ratings } = Astro.props;
+
+// ── Geometry ────────────────────────────────────────────────────────────────
+const cx = 100, cy = 100, R = 72;
+const PI = Math.PI;
+
+// 5 axes clockwise from top: DPR, EHP, Control, Support, Complexity
+const angles = Array.from({ length: 5 }, (_, i) => -PI / 2 + (i * 2 * PI) / 5);
+
+const axisInfo = [
+  { key: 'dpr',        label: 'DPR',   color: '#ef4444', value: ratings.dpr        },
+  { key: 'ehp',        label: 'EHP',   color: '#14b8a6', value: ratings.ehp        },
+  { key: 'control',    label: 'Ctrl',  color: '#a855f7', value: ratings.control    },
+  { key: 'support',    label: 'Supp',  color: '#3b82f6', value: ratings.support    },
+  { key: 'complexity', label: 'Cmplx', color: '#f59e0b', value: ratings.complexity },
+];
+
+function pt(r: number, i: number) {
+  return {
+    x: +(cx + r * Math.cos(angles[i])).toFixed(2),
+    y: +(cy + r * Math.sin(angles[i])).toFixed(2),
+  };
+}
+
+function polygon(r: number) {
+  return angles.map((_, i) => { const p = pt(r, i); return `${p.x},${p.y}`; }).join(' ');
+}
+
+const dataPoints = axisInfo.map((a, i) => pt(R * (a.value / 100), i));
+const dataPolygon = dataPoints.map(p => `${p.x},${p.y}`).join(' ');
+
+const labelPts = angles.map((_, i) => pt(R + 16, i));
+---
+
+<div class="radar-wrap">
+  <svg viewBox="0 0 200 200" class="radar-svg" role="img" aria-label="Radar chart de estadísticas">
+    <!-- Grid rings (25 / 50 / 75 / 100 %) -->
+    {[0.25, 0.5, 0.75, 1].map((frac, li) => (
+      <polygon
+        points={polygon(R * frac)}
+        fill="none"
+        stroke={li === 3 ? 'rgba(201,168,76,0.28)' : 'rgba(201,168,76,0.1)'}
+        stroke-width={li === 3 ? '1' : '0.5'}
+      />
+    ))}
+
+    <!-- Axis lines -->
+    {angles.map((_, i) => {
+      const end = pt(R, i);
+      return <line x1={cx} y1={cy} x2={end.x} y2={end.y} stroke="rgba(201,168,76,0.18)" stroke-width="0.5" />;
+    })}
+
+    <!-- Data polygon -->
+    <polygon
+      points={dataPolygon}
+      fill="rgba(107,63,160,0.22)"
+      stroke="#7b2d8b"
+      stroke-width="1.5"
+      stroke-linejoin="round"
+    />
+
+    <!-- Data dots -->
+    {dataPoints.map((p, i) => (
+      <circle cx={p.x} cy={p.y} r="3" fill={axisInfo[i].color} />
+    ))}
+
+    <!-- Axis labels -->
+    {labelPts.map((p, i) => (
+      <text
+        x={p.x}
+        y={p.y}
+        text-anchor={p.x < cx - 4 ? 'end' : p.x > cx + 4 ? 'start' : 'middle'}
+        dominant-baseline="middle"
+        font-size="8"
+        font-family="Inter,sans-serif"
+        font-weight="700"
+        fill={axisInfo[i].color}
+      >
+        {axisInfo[i].label}
+      </text>
+    ))}
+  </svg>
+
+  <!-- Legend -->
+  <div class="radar-legend">
+    {axisInfo.map(a => (
+      <div class="radar-legend-item">
+        <span class="radar-dot" style={`background:${a.color}`}></span>
+        <span class="radar-label">{a.label}</span>
+        <span class="radar-value">{a.value}</span>
+      </div>
+    ))}
+  </div>
+</div>

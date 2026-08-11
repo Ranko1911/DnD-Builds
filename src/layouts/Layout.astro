@@ -1,0 +1,76 @@
+---
+import '../styles/global.css';
+interface Props {
+  title: string;
+  description?: string;
+}
+const {
+  title,
+  description = 'Compendio de builds optimizadas para D&D 5e, analizadas por el Archivero del Multiverso.',
+} = Astro.props;
+
+const base = import.meta.env.BASE_URL;
+---
+
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content={description} />
+  <title>{title} — D&D Builds</title>
+
+  <!-- Preconnect for Google Fonts (loaded in global.css) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+  <!-- KaTeX CSS — enables server-rendered math formulas (no JS needed) -->
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/katex@0.16.11/dist/katex.min.css"
+    integrity="sha384-nB0miv6/jRmo5UMMR1wu3Gz6NLsoTkbqJghGIsx//Rlm+ZU03BU6SQNC66uf4l5"
+    crossorigin="anonymous"
+  />
+
+  <link rel="icon" type="image/svg+xml" href={`${base}favicon.svg`} />
+</head>
+<body>
+  <nav class="nav">
+    <a href={base} class="nav-logo" aria-label="D&D Builds — inicio">
+      <!-- D20 icon -->
+      <svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+        <polygon
+          points="50,5 95,27.5 95,72.5 50,95 5,72.5 5,27.5"
+          stroke="currentColor"
+          stroke-width="4"
+          fill="rgba(201,168,76,0.08)"
+        />
+        <text
+          x="50" y="63"
+          text-anchor="middle"
+          fill="currentColor"
+          font-size="30"
+          font-family="Georgia,serif"
+          font-weight="bold"
+        >20</text>
+      </svg>
+      D&amp;D Builds
+    </a>
+    <div class="nav-spacer"></div>
+    <a
+      href="https://github.com/Ranko1911/DnD-Builds"
+      class="nav-link"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      GitHub
+    </a>
+  </nav>
+
+  <main>
+    <slot />
+  </main>
+</body>
+</html>
+
+

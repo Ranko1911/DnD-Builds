@@ -1,0 +1,65 @@
+---
+interface Build {
+  id: string;
+  name: string;
+  classes: string;
+  system: string;
+  role: string;
+  youtube: string | null;
+  ratings: {
+    dpr: number;
+    ehp: number;
+    control: number;
+    support: number;
+    complexity: number;
+  };
+}
+
+interface Props { build: Build }
+
+const { build } = Astro.props;
+const base = import.meta.env.BASE_URL;
+
+function systemClass(s: string) {
+  if (s.includes('2024') && s.includes('2014')) return 'sboth';
+  if (s.includes('2024')) return 's2024';
+  return 's2014';
+}
+function systemLabel(s: string) {
+  if (s.includes('2024') && s.includes('2014')) return '2014 / 2024';
+  if (s.includes('2024')) return '5.5e 2024';
+  return '5e 2014';
+}
+
+const ratings = [
+  { label: 'DPR',   value: build.ratings.dpr,        color: 'var(--dpr)'        },
+  { label: 'EHP',   value: build.ratings.ehp,        color: 'var(--ehp)'        },
+  { label: 'Ctrl',  value: build.ratings.control,    color: 'var(--control)'    },
+  { label: 'Supp',  value: build.ratings.support,    color: 'var(--support)'    },
+  { label: 'Cmplx', value: build.ratings.complexity, color: 'var(--complexity)' },
+];
+---
+
+<a href={`${base}builds/${build.id}`} class="build-card" aria-label={`Ver build: ${build.name}`}>
+  <span class={`card-system ${systemClass(build.system)}`}>
+    {systemLabel(build.system)}
+  </span>
+
+  <h2 class="card-name">{build.name}</h2>
+  <p class="card-classes">{build.classes}</p>
+  <p class="card-role">{build.role}</p>
+
+  <div class="card-spacer"></div>
+
+  <div class="card-ratings" aria-label="Ratings">
+    {ratings.map(r => (
+      <div class="card-rating-row">
+        <span class="card-rating-label" style={`color: ${r.color}`}>{r.label}</span>
+        <div class="card-rating-bar" role="progressbar" aria-valuenow={r.value} aria-valuemin={0} aria-valuemax={100}>
+          <div class="card-rating-fill" style={`width: ${r.value}%; background: ${r.color}`}></div>
+        </div>
+        <span class="card-rating-num" style={`color: ${r.color}`}>{r.value}</span>
+      </div>
+    ))}
+  </div>
+</a>
