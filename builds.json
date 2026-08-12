@@ -12,7 +12,8 @@
       "ehp": 84,
       "control": 24,
       "support": 16,
-      "complexity": 36
+      "complexity": 36,
+      "utility": 44
     }
   },
   {
@@ -28,7 +29,8 @@
       "ehp": 74,
       "control": 32,
       "support": 42,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 84
     }
   },
   {
@@ -44,7 +46,8 @@
       "ehp": 52,
       "control": 96,
       "support": 64,
-      "complexity": 88
+      "complexity": 88,
+      "utility": 88
     }
   },
   {
@@ -60,7 +63,8 @@
       "ehp": 48,
       "control": 88,
       "support": 60,
-      "complexity": 56
+      "complexity": 56,
+      "utility": 92
     }
   },
   {
@@ -76,7 +80,8 @@
       "ehp": 40,
       "control": 40,
       "support": 8,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 48
     }
   },
   {
@@ -92,7 +97,8 @@
       "ehp": 52,
       "control": 56,
       "support": 100,
-      "complexity": 76
+      "complexity": 76,
+      "utility": 86
     }
   },
   {
@@ -108,7 +114,8 @@
       "ehp": 72,
       "control": 96,
       "support": 48,
-      "complexity": 84
+      "complexity": 84,
+      "utility": 96
     }
   },
   {
@@ -124,7 +131,8 @@
       "ehp": 100,
       "control": 68,
       "support": 56,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 88
     }
   },
   {
@@ -140,7 +148,8 @@
       "ehp": 88,
       "control": 96,
       "support": 44,
-      "complexity": 88
+      "complexity": 88,
+      "utility": 90
     }
   },
   {
@@ -156,7 +165,8 @@
       "ehp": 68,
       "control": 84,
       "support": 76,
-      "complexity": 60
+      "complexity": 60,
+      "utility": 88
     }
   },
   {
@@ -172,7 +182,8 @@
       "ehp": 96,
       "control": 56,
       "support": 72,
-      "complexity": 40
+      "complexity": 40,
+      "utility": 72
     }
   },
   {
@@ -188,7 +199,8 @@
       "ehp": 48,
       "control": 16,
       "support": 36,
-      "complexity": 88
+      "complexity": 88,
+      "utility": 64
     }
   },
   {
@@ -204,7 +216,8 @@
       "ehp": 68,
       "control": 52,
       "support": 16,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 40
     }
   },
   {
@@ -220,7 +233,8 @@
       "ehp": 56,
       "control": 36,
       "support": 24,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 84
     }
   },
   {
@@ -236,7 +250,8 @@
       "ehp": 64,
       "control": 76,
       "support": 48,
-      "complexity": 56
+      "complexity": 56,
+      "utility": 76
     }
   },
   {
@@ -252,7 +267,8 @@
       "ehp": 76,
       "control": 68,
       "support": 76,
-      "complexity": 92
+      "complexity": 92,
+      "utility": 92
     }
   },
   {
@@ -268,7 +284,8 @@
       "ehp": 56,
       "control": 56,
       "support": 64,
-      "complexity": 68
+      "complexity": 68,
+      "utility": 86
     }
   },
   {
@@ -284,7 +301,8 @@
       "ehp": 100,
       "control": 44,
       "support": 32,
-      "complexity": 76
+      "complexity": 76,
+      "utility": 90
     }
   },
   {
@@ -300,7 +318,8 @@
       "ehp": 56,
       "control": 44,
       "support": 44,
-      "complexity": 56
+      "complexity": 56,
+      "utility": 94
     }
   },
   {
@@ -316,7 +335,8 @@
       "ehp": 88,
       "control": 56,
       "support": 8,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 36
     }
   },
   {
@@ -332,7 +352,8 @@
       "ehp": 88,
       "control": 64,
       "support": 52,
-      "complexity": 68
+      "complexity": 68,
+      "utility": 52
     }
   },
   {
@@ -348,7 +369,8 @@
       "ehp": 76,
       "control": 52,
       "support": 88,
-      "complexity": 56
+      "complexity": 56,
+      "utility": 90
     }
   },
   {
@@ -364,7 +386,8 @@
       "ehp": 96,
       "control": 44,
       "support": 64,
-      "complexity": 76
+      "complexity": 76,
+      "utility": 82
     }
   },
   {
@@ -380,7 +403,8 @@
       "ehp": 72,
       "control": 44,
       "support": 32,
-      "complexity": 68
+      "complexity": 68,
+      "utility": 50
     }
   },
   {
@@ -396,7 +420,8 @@
       "ehp": 64,
       "control": 72,
       "support": 72,
-      "complexity": 76
+      "complexity": 76,
+      "utility": 58
     }
   },
   {
@@ -412,7 +437,8 @@
       "ehp": 64,
       "control": 56,
       "support": 72,
-      "complexity": 68
+      "complexity": 68,
+      "utility": 74
     }
   },
   {
@@ -428,7 +454,8 @@
       "ehp": 96,
       "control": 52,
       "support": 16,
-      "complexity": 56
+      "complexity": 56,
+      "utility": 52
     }
   },
   {
@@ -444,7 +471,8 @@
       "ehp": 84,
       "control": 52,
       "support": 24,
-      "complexity": 48
+      "complexity": 48,
+      "utility": 68
     }
   },
   {
@@ -460,7 +488,8 @@
       "ehp": 76,
       "control": 44,
       "support": 68,
-      "complexity": 76
+      "complexity": 76,
+      "utility": 70
     }
   },
   {
@@ -476,7 +505,8 @@
       "ehp": 100,
       "control": 76,
       "support": 36,
-      "complexity": 88
+      "complexity": 88,
+      "utility": 94
     }
   },
   {
@@ -492,7 +522,8 @@
       "ehp": 60,
       "control": 36,
       "support": 12,
-      "complexity": 42
+      "complexity": 42,
+      "utility": 66
     }
   }
 ]

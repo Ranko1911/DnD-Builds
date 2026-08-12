@@ -11,6 +11,7 @@ interface Build {
     ehp: number;
     control: number;
     support: number;
+    utility: number;
     complexity: number;
   };
 }
@@ -36,6 +37,7 @@ const ratings = [
   { label: 'EHP',   value: build.ratings.ehp,        color: 'var(--ehp)'        },
   { label: 'Ctrl',  value: build.ratings.control,    color: 'var(--control)'    },
   { label: 'Supp',  value: build.ratings.support,    color: 'var(--support)'    },
+  { label: 'Util',  value: build.ratings.utility,    color: 'var(--utility)'    },
   { label: 'Cmplx', value: build.ratings.complexity, color: 'var(--complexity)' },
 ];
 ---

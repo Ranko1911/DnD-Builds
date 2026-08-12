@@ -5,7 +5,7 @@ import buildsData from '../../builds.json';
 
 const builds = buildsData.map(b => ({
   ...b,
-  total: Math.round((b.ratings.dpr + b.ratings.ehp + b.ratings.control + b.ratings.support) / 4)
+  total: Math.round((b.ratings.dpr + b.ratings.ehp + b.ratings.control + b.ratings.support + b.ratings.utility) / 5)
 }));
 
 const counts = {

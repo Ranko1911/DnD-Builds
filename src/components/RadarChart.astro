@@ -4,6 +4,7 @@ interface Ratings {
   ehp: number;
   control: number;
   support: number;
+  utility: number;
   complexity: number;
 }
 interface Props { ratings: Ratings }
@@ -14,14 +15,15 @@ const { ratings } = Astro.props;
 const cx = 100, cy = 100, R = 72;
 const PI = Math.PI;
 
-// 5 axes clockwise from top: DPR, EHP, Control, Support, Complexity
-const angles = Array.from({ length: 5 }, (_, i) => -PI / 2 + (i * 2 * PI) / 5);
+// 6 axes clockwise from top: DPR, EHP, Control, Support, Utility, Complexity
+const angles = Array.from({ length: 6 }, (_, i) => -PI / 2 + (i * 2 * PI) / 6);
 
 const axisInfo = [
   { key: 'dpr',        label: 'DPR',   color: '#ef4444', value: ratings.dpr        },
   { key: 'ehp',        label: 'EHP',   color: '#14b8a6', value: ratings.ehp        },
   { key: 'control',    label: 'Ctrl',  color: '#a855f7', value: ratings.control    },
   { key: 'support',    label: 'Supp',  color: '#3b82f6', value: ratings.support    },
+  { key: 'utility',    label: 'Util',  color: '#10b981', value: ratings.utility    },
   { key: 'complexity', label: 'Cmplx', color: '#f59e0b', value: ratings.complexity },
 ];
 
