@@ -1,4 +1,4 @@
-# 🏰 Bastión y Tiempo Muerto — The BONK
+# 🏰 Bastión y Tiempo Muerto — BONK
 
 ## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
 

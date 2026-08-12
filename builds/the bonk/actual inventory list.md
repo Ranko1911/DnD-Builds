@@ -1,4 +1,4 @@
-# Inventario Actual — The BONK
+# Inventario Actual — BONK
 
 ## Equipamiento Actual
 

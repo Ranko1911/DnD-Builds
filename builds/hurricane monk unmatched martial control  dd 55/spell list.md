@@ -1,6 +1,6 @@
-# 🌟 Lista de Conjuros Optimizada — Hurricane Monk: UNMATCHED Martial Control
+# 🌟 Lista de Conjuros Optimizada — Hurricane Monk
 
-Esta lista detalla la selección de conjuros sugerida para el build **Hurricane Monk: UNMATCHED Martial Control**, optimizada bajo las reglas de preparación de **D&D 5e (2024 / 5.5e)**.
+Esta lista detalla la selección de conjuros sugerida para el build **Hurricane Monk**, optimizada bajo las reglas de preparación de **D&D 5e (2024 / 5.5e)**.
 
 > **Nota Mesa:** El personaje es un Monje 19 / Ranger 1. Aunque es principalmente un combatiente marcial, utiliza conjuros clave de Nivel 1 (*Jump*, *Hunter's Mark*, *Longstrider*) para potenciar su movilidad y daño en combate.
 

@@ -324,11 +324,11 @@
   },
   {
     "id": "the-bonk",
-    "name": "The BONK",
+    "name": "BONK",
     "classes": "Barbarian (Beast) 3 / Monk (Long Death) 17",
     "system": "D&D 5e (2014)",
     "role": "Atacante de Vanguardia / Agarrador / Tanque de Vida Temporal",
-    "folder": "builds/the bonk",
+    "folder": "builds/BONK",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
       "dpr": 68,
@@ -528,7 +528,7 @@
   },
   {
     "id": "hurricane-monk-unmatched-martial-control--dd-55",
-    "name": "Hurricane Monk: UNMATCHED Martial Control ",
+    "name": "Hurricane Monk ",
     "classes": "Monk (Warrior of Elements) 19 / Ranger 1",
     "system": "D&D 5e (2024 / 5.5e)",
     "role": "Controlador Marcial de Vanguardia / Martinete Aéreo / Dominador de Campo",
@@ -540,6 +540,74 @@
       "control": 98,
       "support": 55,
       "complexity": 70,
+      "utility": 75
+    }
+  },
+  {
+    "id": "the-death-knight-a-frontline-necromancer--dd-5e",
+    "name": "Death Knight",
+    "classes": "Artificer (Battle Smith) 3 / Wizard (Necromancy) 17",
+    "system": "D&D 5e (2014)",
+    "role": "Tanque Gish de Vanguardia / Comandante Nigromante / Controlador Glaciar",
+    "folder": "builds/Death Knight a frontline necromancer  dd 5e",
+    "youtube": "https://www.youtube.com/watch?v=ACBnrSxzHoE",
+    "ratings": {
+      "dpr": 82,
+      "ehp": 90,
+      "control": 85,
+      "support": 45,
+      "complexity": 85,
+      "utility": 70
+    }
+  },
+  {
+    "id": "the-conductor-a-full-support-build--dd-5e",
+    "name": "The Conductor",
+    "classes": "Cleric (Order Domain) 1 / Bard (College of Glamour) 19",
+    "system": "D&D 5e (2014)",
+    "role": "Soporte Total / Habilitador de Reacciones / Director Táctico",
+    "folder": "builds/the conductor a full support build  dd 5e",
+    "youtube": "https://www.youtube.com/watch?v=9QPHif--dts",
+    "ratings": {
+      "dpr": 45,
+      "ehp": 82,
+      "control": 92,
+      "support": 100,
+      "complexity": 78,
+      "utility": 85
+    }
+  },
+  {
+    "id": "a-tank-that-dumps-strength-and-dex-the-armorlock--dd-5e-character-build",
+    "name": "Armorlock",
+    "classes": "Artificer (Armorer) 17 / Warlock (Fathomless) 3",
+    "system": "D&D 5e (2014)",
+    "role": "Tanque Pesado de Inteligencia / Provocador de Amenaza / Controlador de Velocidad",
+    "folder": "builds/a tank that dumps strength and dex Armorlock  dd 5e character build",
+    "youtube": "https://www.youtube.com/watch?v=4BNa8c2wR0w",
+    "ratings": {
+      "dpr": 68,
+      "ehp": 98,
+      "control": 88,
+      "support": 62,
+      "complexity": 75,
+      "utility": 75
+    }
+  },
+  {
+    "id": "the-shadow-mage-bladesinger-twilight",
+    "name": "Shadow Mage",
+    "classes": "Cleric (Twilight Domain) 2 / Wizard (Bladesinger) 18",
+    "system": "D&D 5e (2014)",
+    "role": "Atacante Gish de Súper Ventaja / Tanque de Evasión / Controlador del Crepúsculo",
+    "folder": "builds/Shadow Mage a bladesinger wizard twilight domain cleric multiclass",
+    "youtube": "https://www.youtube.com/watch?v=gXSIsFy_HA8",
+    "ratings": {
+      "dpr": 92,
+      "ehp": 90,
+      "control": 80,
+      "support": 60,
+      "complexity": 82,
       "utility": 75
     }
   }

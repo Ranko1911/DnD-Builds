@@ -1,12 +1,13 @@
-# Objetos a Obtener — The BONK
+# Objetos a Obtener — BONK
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo (1 slot). (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Eldritch Claw Tattoo (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Eldritch Claw Tattoo (1 slot), Bracers of Defense (1 slot), Belt of Fire Giant Strength (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Bracers of Defense (1 slot), Belt of Cloud Giant Strength (1 slot), Cloak of Displacement (1 slot). (Total: 3).
+
+* **Tier 1 (Niveles 1-4):** Eldritch Claw Tattoo (1 slot). (Total: 1).
+* **Tier 2 (Niveles 5-10):** Eldritch Claw Tattoo (1 slot), Bracers of Defense (1 slot), Ring of Protection (1 slot). (Total: 3).
+* **Tier 3 (Niveles 11-16):** Eldritch Claw Tattoo (1 slot), Bracers of Defense (1 slot), Belt of Fire Giant Strength (1 slot). (Total: 3).
+* **Tier 4 (Niveles 17-20):** Bracers of Defense (1 slot), Belt of Cloud Giant Strength (1 slot), Cloak of Displacement (1 slot). (Total: 3).
 
 ---
 

@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de Hurricane Monk: UNMATCHED Martial Control  (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Hurricane Monk  (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **Hurricane Monk: UNMATCHED Martial Control**, optimizada minuciosamente bajo **D&D 5e (2024 / 5.5e)**.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **Hurricane Monk**, optimizada minuciosamente bajo **D&D 5e (2024 / 5.5e)**.
 
 ---
 

@@ -1,4 +1,4 @@
-# Inventario Actual — Hurricane Monk: UNMATCHED Martial Control
+# Inventario Actual — Hurricane Monk
 
 ## Equipamiento Actual
 

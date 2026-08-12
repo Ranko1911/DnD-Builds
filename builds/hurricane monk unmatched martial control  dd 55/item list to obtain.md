@@ -1,4 +1,4 @@
-# Objetos a Obtener — Hurricane Monk: UNMATCHED Martial Control
+# Objetos a Obtener — Hurricane Monk
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

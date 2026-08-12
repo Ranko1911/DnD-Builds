@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The BONK (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de BONK (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The BONK**, diseñado por el **Archivero de Optimización**. El build se enfoca en maximizar la cantidad de ataques cuerpo a cuerpo y la supervivencia a través de puntos de golpe temporales y resistencias físicas.
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **BONK**, diseñado por el **Archivero de Optimización**. El build se enfoca en maximizar la cantidad de ataques cuerpo a cuerpo y la supervivencia a través de puntos de golpe temporales y resistencias físicas.
 
 ---
 
@@ -33,9 +33,9 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The BONK*
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **Triturador (Crusher) (Nivel 7 / Monk 4):**
-    *   *Sinergia:* +1 Fuerza (alcanzando 18). Permite empujar 5 pies a un objetivo una vez por turno al golpearlo con daño de contundencia (tus golpes desarmados de Fuerza). Si consigues un golpe crítico, todos los ataques de tus aliados contra ese objetivo tienen ventaja durante un asalto.
-2.  **Mejora de Característica (ASI) (Nivel 11 / Monk 8):**
-    *   *Sinergia:* +2 Fuerza. Maximiza tu atributo de ataque principal a 20, asegurando la máxima precisión (+11 a impactar con PB +6) y +5 al daño plano por cada uno de tus 5 golpes por turno.
-3.  **Dureza (Tough) (Nivel 15 / Monk 12):**
-    *   *Sinergia:* Suma +30 puntos de golpe máximos instantáneamente (y +2 PG adicionales por nivel subsiguiente), lo cual añade una resistencia espectacular combinada con las resistencias de Furia.
+1. **Triturador (Crusher) (Nivel 7 / Monk 4):**
+    * *Sinergia:* +1 Fuerza (alcanzando 18). Permite empujar 5 pies a un objetivo una vez por turno al golpearlo con daño de contundencia (tus golpes desarmados de Fuerza). Si consigues un golpe crítico, todos los ataques de tus aliados contra ese objetivo tienen ventaja durante un asalto.
+2. **Mejora de Característica (ASI) (Nivel 11 / Monk 8):**
+    * *Sinergia:* +2 Fuerza. Maximiza tu atributo de ataque principal a 20, asegurando la máxima precisión (+11 a impactar con PB +6) y +5 al daño plano por cada uno de tus 5 golpes por turno.
+3. **Dureza (Tough) (Nivel 15 / Monk 12):**
+    * *Sinergia:* Suma +30 puntos de golpe máximos instantáneamente (y +2 PG adicionales por nivel subsiguiente), lo cual añade una resistencia espectacular combinada con las resistencias de Furia.

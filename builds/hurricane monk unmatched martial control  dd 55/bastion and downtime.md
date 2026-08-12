@@ -1,4 +1,4 @@
-# 🏰 Bastión y Tiempo Muerto — Hurricane Monk: UNMATCHED Martial Control
+# 🏰 Bastión y Tiempo Muerto — Hurricane Monk
 
 ## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
 

@@ -1,4 +1,4 @@
-# Guía de Personaje — The BONK
+# Guía de Personaje — BONK
 
 ## Datos Generales
 
@@ -29,33 +29,33 @@ Combat Role: Tanque de Primera Línea, Daño de Ráfaga Física, Controlador por
 
 ## 1. Gestión de Recursos y Reglas de Inventario
 
-*   **Economía de Recursos y Manos:**
-    *   **Foco Universal Único:** No aplica directamente como lanzador de conjuros, pero sus propias garras naturales y golpes desarmados no requieren empuñar armas tradicionales, liberando sus manos completamente para realizar agarres (*Grappling*) y empujones (*Shoving*).
-    *   **Armadura Tortle:** Su caparazón natural le otorga una CA fija de 17. Esto permite ignorar la Destreza y Sabiduría para la CA convencional de Monje, permitiendo enfocar todos los recursos en Fuerza.
-*   **Gestión de Espacios/Ranuras:**
-    *   No tiene ranuras de conjuros. En su lugar, gestiona sus puntos de **Ki (17 por descanso corto)** y sus usos de **Furia (3 por descanso largo)**.
+* **Economía de Recursos y Manos:**
+  * **Foco Universal Único:** No aplica directamente como lanzador de conjuros, pero sus propias garras naturales y golpes desarmados no requieren empuñar armas tradicionales, liberando sus manos completamente para realizar agarres (*Grappling*) y empujones (*Shoving*).
+  * **Armadura Tortle:** Su caparazón natural le otorga una CA fija de 17. Esto permite ignorar la Destreza y Sabiduría para la CA convencional de Monje, permitiendo enfocar todos los recursos en Fuerza.
+* **Gestión de Espacios/Ranuras:**
+  * No tiene ranuras de conjuros. En su lugar, gestiona sus puntos de **Ki (17 por descanso corto)** y sus usos de **Furia (3 por descanso largo)**.
 
 ## 2. Action Economy & Combat Loop
 
-*   **Preparación (Pre-Combate):**
-    *   No requiere hechizos. Entrar en Furia (*Rage*) en el turno 1.
-*   **Action:**
-    *   **Turno 1 [Furia Activa]:** Declarar Ataque Temerario (*Reckless Attack*). Realizar la acción de ataque con las Garras de la Bestia (*Form of the Beast - Claws*):
-        *   Ataque 1: Garra de la bestia (Fuerza).
-        *   Ataque 2 (Garra Extra): Un ataque de garra adicional como parte de la misma acción.
-        *   Ataque 3 (Extra Attack de Monje): Tercer ataque de garra.
-    *   **Turnos 2+:** Repetir los 3 ataques con garras con ventaja. Opcionalmente, usar un ataque para derribar al enemigo y otro para agarrarlo (con ventaja por Furia).
-*   **Bonus Action:**
-    *   **Rage:** Activar Furia en el Turno 1.
-    *   **Flurry of Blows (Ráfaga de Golpes):** Realizar 2 ataques desarmados adicionales usando Fuerza.
-    *   **Patient Defense / Step of the Wind:** Opciones defensivas de Monje consumiendo 1 Ki.
-*   **Reaction:**
-    *   🔵 **Deflect Missiles:** Reducir daño de proyectiles físicos e intentar devolverlos.
-    *   🟢 **Mastery of Death:** Si cae a 0 PG, consume 1 punto de Ki para quedarse en 1 PG de forma reactiva (sin límite de veces por turno, mientras tenga Ki).
+* **Preparación (Pre-Combate):**
+  * No requiere hechizos. Entrar en Furia (*Rage*) en el turno 1.
+* **Action:**
+  * **Turno 1 [Furia Activa]:** Declarar Ataque Temerario (*Reckless Attack*). Realizar la acción de ataque con las Garras de la Bestia (*Form of the Beast - Claws*):
+    * Ataque 1: Garra de la bestia (Fuerza).
+    * Ataque 2 (Garra Extra): Un ataque de garra adicional como parte de la misma acción.
+    * Ataque 3 (Extra Attack de Monje): Tercer ataque de garra.
+  * **Turnos 2+:** Repetir los 3 ataques con garras con ventaja. Opcionalmente, usar un ataque para derribar al enemigo y otro para agarrarlo (con ventaja por Furia).
+* **Bonus Action:**
+  * **Rage:** Activar Furia en el Turno 1.
+  * **Flurry of Blows (Ráfaga de Golpes):** Realizar 2 ataques desarmados adicionales usando Fuerza.
+  * **Patient Defense / Step of the Wind:** Opciones defensivas de Monje consumiendo 1 Ki.
+* **Reaction:**
+  * 🔵 **Deflect Missiles:** Reducir daño de proyectiles físicos e intentar devolverlos.
+  * 🟢 **Mastery of Death:** Si cae a 0 PG, consume 1 punto de Ki para quedarse en 1 PG de forma reactiva (sin límite de veces por turno, mientras tenga Ki).
 
 ## 3. The META Combo: La Licuadora de Garras Temerarias
 
-El combo de "The BONK" radica en la sinergia de la Furia, Reckless Attack y las Garras de la Bestia con los ataques adicionales de Monje:
+El combo de "BONK" radica en la sinergia de la Furia, Reckless Attack y las Garras de la Bestia con los ataques adicionales de Monje:
 
 1. **Paso 1 (Preparación):** El personaje entra en Furia, ganando resistencia a daños físicos y un bono de +2 a todo ataque de Fuerza.
 2. **Paso 2 (Ataque y Recarga):** Activa *Reckless Attack* para tener ventaja en todos sus ataques cuerpo a cuerpo de Fuerza durante el turno.
@@ -84,5 +84,6 @@ La combinación con Monje de la Muerte Larga proporciona una supervivencia absur
 ## 5. Home Rules
 
 Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
+
 1. **Garras como Armas de Monje:** Las garras naturales de la Bestia Barbárica se consideran armas sencillas cuerpo a cuerpo y, por ende, califican como Armas de Monje para desencadenar la Ráfaga de Golpes y el dado de Artes Marciales (escalado a 1d10 por nivel 17).
 2. **Ignorar Armadura unificada:** El caparazón Tortle de CA 17 no interfiere con los rasgos de movimiento o defensa sin armadura del Monje o Bárbaro.

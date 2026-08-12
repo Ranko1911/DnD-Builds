@@ -1,4 +1,4 @@
-# Guía de Personaje — The BONK (Edición 2024 / 5.5e)
+# Guía de Personaje — BONK (Edición 2024 / 5.5e)
 
 ## Datos Generales
 
