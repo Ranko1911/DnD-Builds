@@ -51,19 +51,28 @@ Actual Item List: ./actual inventory list.md
 
 ---
 
-## 3. The META Engine: Level 20 Necromancy Battery
+## 3. The META Engine: Level 20 Necromancy Battery & Army Breakdown
 
-### A. Army of Skeletons + Undead Thralls (Nivel 20)
+### A. Desglose del Ejército Sostenible (Nivel 20)
 
-Con **Undead Thralls** a nivel 20 (PB +6), cada esqueleto tiene:
-* **HP Máximos:** $13 + 20 = 33$ HP por esqueleto.
-* **Daño por Flecha:** $1\text{d}6 + 2 + 6 (\text{PB}) = 1\text{d}6 + 8$ de daño perforante.
+| Unidad / Rango | Origen de Control | Ficha / Stat Block Base | Cantidad | Puntos de Golpe (PG) | Tipo de Daño Principal |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **Mago Comandante (Tú)** | Personaje Principal | Mago Nivel 20 | 1 | $122 \text{ PG}$ | Mágico variado (Wish, Control) |
+| **Simulacro (Simulacrum)** | Conjuro de Nivel 7 | Duplicado de Mago Nivel 20 | 1 | $122 \text{ PG}$ | Mágico variado |
+| **Titán: Nightwalker** | Dominar No-Muerto (Tú) | Nightwalker (CR 20) | 1 | $297 \text{ PG}$ | Necrótico (Reducción de PG máx.) |
+| **Teniente: Mummy Lord** | Dominar No-Muerto (Simulacro) | Mummy Lord (CR 15) | 1 | $97 \text{ PG}$ | Necrótico / Contundente + Maldición |
+| **Horda del Señor de las Momias** | Animate Dead (Mummy Lord) | Esqueletos / Zombis estándar | 6 a 8 | $8 \times 13 = 104 \text{ PG}$ | Perforante / Contundente |
+| **Guardia Real (Ghasts)** | Create Undead (Lvl 8 x2) | Ghast (CR 2) | 10 | $10 \times 36 = 360 \text{ PG}$ | Cortante (Parálisis) + Aura de Hedor |
+| **Arqueros Esqueleto (Élite)** | Animate Dead (Tú + Simulacro) | Skeleton (+Subclase) | 32 | $32 \times 33 = 1056 \text{ PG}$ | Perforante ($1\text{d}6 + 8$) |
+| **Espíritus de No-Muerto** | Summon Undead (Lvl 9 + Lvl 6) | Spirit of Undead (Putrid) | 2 | $110 + 80 = 190 \text{ PG}$ | Necrótico + Paralizado/Envenenado |
+| **RESUMEN TOTAL** | **Presupuesto Sostenible** | — | **55 Unidades** | **2,358 PG Totales** | **Formación Inmune al Aura Necrótica** |
 
-### B. Upcast Summon Undead (8.º / 9.º Nivel)
+### B. Análisis de Sinergias del Ejército
 
-Al invocar *Summon Undead* a 8.º o 9.º nivel:
-* Realiza **4 ataques por turno** a $+11$ de impacto.
-* **Daño:** $4 \times (1\text{d}6 + 11) = 4 \times 14.5 = 58 \text{ DPR}$ adicional garantizado por la invocación.
+* **Arqueros Esqueleto (+Undead Thralls):** Con *Undead Thralls* a Nivel 20 (PB +6), tus 32 esqueletos tienen $13 + 20 = 33 \text{ HP}$ cada uno y causan $1\text{d}6 + 8$ de daño perforante por flecha.
+* **Comandos Dobles con Simulacro:** Al contar con un Simulacro Nivel 20, utilizas su habilidad *Command Undead* para encadenar la subordinación del **Teniente Mummy Lord (CR 15)** mientras tú dominas al **Titán Nightwalker (CR 20)**.
+* **Formación Inmune al Aura Necrótica:** El aura de aniquilación del *Nightwalker* daña a seres vivos pero es inofensiva para tu personaje (Reborn / Undead) y la totalidad de la horda no-muerta, erradicando a enemigos en cuerpo a cuerpo sin fuego amigo.
+* **Espíritus de No-Muerto (Summon Undead):** Con invocaciones a nivel 9 y 6 (Forma *Putrid*), añades $110 + 80 = 190 \text{ PG}$ de cobertura táctica con ataques que aplican veneno y parálisis a $+11$ al impacto.
 
 ---
 

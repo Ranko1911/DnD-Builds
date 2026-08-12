@@ -55,6 +55,20 @@ Combat Role: Minion Master / Army Commander / Controller
 
 ## 3. The META Combo 2024: Undead Thralls + Grim Harvest + Summon Undead 2024
 
+### Desglose del Ejército Sostenible (Nivel 20)
+
+| Unidad / Rango | Origen de Control | Ficha / Stat Block Base | Cantidad | Puntos de Golpe (PG) | Tipo de Daño Principal |
+| :--- | :--- | :--- | :---: | :---: | :--- |
+| **Mago Comandante (Tú)** | Personaje Principal | Mago Nivel 20 | 1 | $122 \text{ PG}$ | Mágico variado (Wish, Control) |
+| **Simulacro (Simulacrum)** | Conjuro de Nivel 7 | Duplicado de Mago Nivel 20 | 1 | $122 \text{ PG}$ | Mágico variado |
+| **Titán: Nightwalker** | Dominar No-Muerto (Tú) | Nightwalker (CR 20) | 1 | $297 \text{ PG}$ | Necrótico (Reducción de PG máx.) |
+| **Teniente: Mummy Lord** | Dominar No-Muerto (Simulacro) | Mummy Lord (CR 15) | 1 | $97 \text{ PG}$ | Necrótico / Contundente + Maldición |
+| **Horda del Señor de las Momias** | Animate Dead (Mummy Lord) | Esqueletos / Zombis estándar | 6 a 8 | $8 \times 13 = 104 \text{ PG}$ | Perforante / Contundente |
+| **Guardia Real (Ghasts)** | Create Undead (Lvl 8 x2) | Ghast (CR 2) | 10 | $10 \times 36 = 360 \text{ PG}$ | Cortante (Parálisis) + Aura de Hedor |
+| **Arqueros Esqueleto (Élite)** | Animate Dead (Tú + Simulacro) | Skeleton (+Subclase) | 32 | $32 \times 33 = 1056 \text{ PG}$ | Perforante ($1\text{d}6 + 8$) |
+| **Espíritus de No-Muerto** | Summon Undead (Lvl 9 + Lvl 6) | Spirit of Undead (Putrid) | 2 | $110 + 80 = 190 \text{ PG}$ | Necrótico + Paralizado/Envenenado |
+| **RESUMEN TOTAL** | **Presupuesto Sostenible** | — | **55 Unidades** | **2,358 PG Totales** | **Formación Inmune al Aura Necrótica** |
+
 🧮 Mathematical Engine 2024:
 
 $$\text{DPR Horda Invocada} = 4 \times (1\text{d}6 + 4 + 6 (\text{Proficiency})) + 3\text{d}8 + 10 = \mathbf{82.0 \text{ daño}}$$
