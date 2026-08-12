@@ -61,8 +61,8 @@ Todas las valoraciones del radar y la tabla comparativa se evalúan en una escal
 
 7. **📊 Media Total (Rating Global):**
    - **Fórmula de la Tabla:**
-     $$\text{Media Total} = \frac{\text{DPR} + \text{EHP} + \text{Control} + \text{Soporte} + \text{Utilidad}}{5}$$
-   - Muestra la valoración global integrada sobre 100 en el catálogo y ranking. *(Nota: La Complejidad se mide de 0 a 100 como indicador de dificultad de juego para el jugador, pero se excluye del promedio de efectividad).*
+     $$\text{Media Total} = \frac{\text{DPR} + \text{EHP} + \text{Control} + \text{Soporte} + \text{Utilidad} + \text{Complejidad} \times 0.5}{5.5}$$
+   - La Complejidad se incluye con **la mitad de peso** respecto a las métricas de efectividad. Así un build difícil *y* potente escala algo más alto, sin que la dificultad por sí sola infle el score.
 
 ---
 
