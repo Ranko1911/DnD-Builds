@@ -242,7 +242,6 @@ const counts = {
       if (list.includes(id)) {
         list = list.filter(x => x !== id);
       } else {
-        if (list.length >= 4) list.shift();
         list.push(id);
       }
       saveStoredCompare(list);
