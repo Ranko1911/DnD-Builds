@@ -58,7 +58,7 @@ export async function getStaticPaths() {
   const fileKey = (f: string) => f.replace(/\.md$/i, '').toLowerCase();
 
   return buildsData.map(build => {
-    const folderPath = join(process.cwd(), build.folder);
+    const folderPath = join(process.cwd(), build.folder.trim());
     let tabs: { id: string; label: string; emoji: string; html: string }[] = [];
 
     try {

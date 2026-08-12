@@ -5,15 +5,15 @@
     "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
     "system": "D&D 5e (2014)",
     "role": "Frontline Thorns Tank / Heavy Striker",
-    "folder": "builds/barbarian from hell ",
+    "folder": "builds/barbarian from hell",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 76,
-      "ehp": 84,
-      "control": 24,
+      "dpr": 78,
+      "ehp": 86,
+      "control": 28,
       "support": 16,
-      "complexity": 36,
-      "utility": 44
+      "complexity": 42,
+      "utility": 48
     }
   },
   {
@@ -25,11 +25,11 @@
     "folder": "builds/non hexblade fire genie",
     "youtube": "https://www.youtube.com/watch?v=UmiNKz9TXvw",
     "ratings": {
-      "dpr": 72,
-      "ehp": 74,
-      "control": 32,
-      "support": 42,
-      "complexity": 48,
+      "dpr": 75,
+      "ehp": 76,
+      "control": 36,
+      "support": 44,
+      "complexity": 52,
       "utility": 84
     }
   },
@@ -42,12 +42,12 @@
     "folder": "builds/Clocklock",
     "youtube": null,
     "ratings": {
-      "dpr": 68,
-      "ehp": 52,
-      "control": 96,
-      "support": 64,
-      "complexity": 88,
-      "utility": 88
+      "dpr": 74,
+      "ehp": 62,
+      "control": 98,
+      "support": 68,
+      "complexity": 90,
+      "utility": 92
     }
   },
   {
@@ -59,12 +59,12 @@
     "folder": "builds/cursed pirate",
     "youtube": null,
     "ratings": {
-      "dpr": 56,
-      "ehp": 48,
-      "control": 88,
-      "support": 60,
-      "complexity": 56,
-      "utility": 92
+      "dpr": 60,
+      "ehp": 52,
+      "control": 90,
+      "support": 64,
+      "complexity": 58,
+      "utility": 94
     }
   },
   {
@@ -76,11 +76,11 @@
     "folder": "builds/hexbow",
     "youtube": null,
     "ratings": {
-      "dpr": 84,
-      "ehp": 40,
-      "control": 40,
-      "support": 8,
-      "complexity": 48,
+      "dpr": 90,
+      "ehp": 44,
+      "control": 42,
+      "support": 10,
+      "complexity": 50,
       "utility": 48
     }
   },
@@ -93,12 +93,12 @@
     "folder": "builds/light of tomorrow",
     "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y",
     "ratings": {
-      "dpr": 64,
-      "ehp": 52,
-      "control": 56,
+      "dpr": 68,
+      "ehp": 60,
+      "control": 60,
       "support": 100,
-      "complexity": 76,
-      "utility": 86
+      "complexity": 78,
+      "utility": 88
     }
   },
   {
@@ -110,11 +110,11 @@
     "folder": "builds/spirit caller",
     "youtube": null,
     "ratings": {
-      "dpr": 80,
-      "ehp": 72,
-      "control": 96,
-      "support": 48,
-      "complexity": 84,
+      "dpr": 86,
+      "ehp": 74,
+      "control": 98,
+      "support": 50,
+      "complexity": 88,
       "utility": 96
     }
   },
@@ -127,11 +127,11 @@
     "folder": "builds/techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8",
     "ratings": {
-      "dpr": 36,
+      "dpr": 40,
       "ehp": 100,
-      "control": 68,
-      "support": 56,
-      "complexity": 48,
+      "control": 72,
+      "support": 60,
+      "complexity": 54,
       "utility": 88
     }
   },
@@ -144,12 +144,12 @@
     "folder": "builds/tempest",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 84,
-      "ehp": 88,
+      "dpr": 92,
+      "ehp": 90,
       "control": 96,
-      "support": 44,
-      "complexity": 88,
-      "utility": 90
+      "support": 52,
+      "complexity": 90,
+      "utility": 94
     }
   },
   {
@@ -161,12 +161,12 @@
     "folder": "builds/Wrathful Whisperer",
     "youtube": null,
     "ratings": {
-      "dpr": 68,
-      "ehp": 68,
-      "control": 84,
-      "support": 76,
-      "complexity": 60,
-      "utility": 88
+      "dpr": 84,
+      "ehp": 78,
+      "control": 86,
+      "support": 78,
+      "complexity": 68,
+      "utility": 90
     }
   },
   {
@@ -178,12 +178,12 @@
     "folder": "builds/moon guardian",
     "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
     "ratings": {
-      "dpr": 36,
-      "ehp": 96,
-      "control": 56,
-      "support": 72,
-      "complexity": 40,
-      "utility": 72
+      "dpr": 40,
+      "ehp": 98,
+      "control": 60,
+      "support": 74,
+      "complexity": 44,
+      "utility": 74
     }
   },
   {
@@ -195,12 +195,12 @@
     "folder": "builds/the bullet",
     "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
     "ratings": {
-      "dpr": 24,
-      "ehp": 48,
-      "control": 16,
-      "support": 36,
+      "dpr": 30,
+      "ehp": 50,
+      "control": 20,
+      "support": 38,
       "complexity": 88,
-      "utility": 64
+      "utility": 68
     }
   },
   {
@@ -212,12 +212,12 @@
     "folder": "builds/eldritch shadow",
     "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
     "ratings": {
-      "dpr": 68,
-      "ehp": 68,
-      "control": 52,
-      "support": 16,
-      "complexity": 48,
-      "utility": 40
+      "dpr": 72,
+      "ehp": 72,
+      "control": 56,
+      "support": 18,
+      "complexity": 52,
+      "utility": 44
     }
   },
   {
@@ -229,12 +229,12 @@
     "folder": "builds/magical mischief murder man",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 64,
-      "ehp": 56,
-      "control": 36,
-      "support": 24,
-      "complexity": 48,
-      "utility": 84
+      "dpr": 68,
+      "ehp": 60,
+      "control": 40,
+      "support": 26,
+      "complexity": 50,
+      "utility": 86
     }
   },
   {
@@ -246,12 +246,12 @@
     "folder": "builds/beelzebubs ballista",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 84,
-      "ehp": 64,
-      "control": 76,
-      "support": 48,
-      "complexity": 56,
-      "utility": 76
+      "dpr": 86,
+      "ehp": 68,
+      "control": 78,
+      "support": 52,
+      "complexity": 58,
+      "utility": 78
     }
   },
   {
@@ -263,12 +263,12 @@
     "folder": "builds/nick nack nabber",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 48,
-      "ehp": 76,
-      "control": 68,
-      "support": 76,
-      "complexity": 92,
-      "utility": 92
+      "dpr": 52,
+      "ehp": 80,
+      "control": 70,
+      "support": 78,
+      "complexity": 94,
+      "utility": 94
     }
   },
   {
@@ -280,12 +280,12 @@
     "folder": "builds/furry fury",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 80,
-      "ehp": 56,
-      "control": 56,
-      "support": 64,
-      "complexity": 68,
-      "utility": 86
+      "dpr": 88,
+      "ehp": 60,
+      "control": 60,
+      "support": 68,
+      "complexity": 72,
+      "utility": 88
     }
   },
   {
@@ -297,12 +297,12 @@
     "folder": "builds/furious paradox",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
-      "dpr": 60,
+      "dpr": 64,
       "ehp": 100,
-      "control": 44,
-      "support": 32,
-      "complexity": 76,
-      "utility": 90
+      "control": 48,
+      "support": 34,
+      "complexity": 78,
+      "utility": 92
     }
   },
   {
@@ -314,12 +314,12 @@
     "folder": "builds/spymaster",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 56,
-      "ehp": 56,
-      "control": 44,
-      "support": 44,
-      "complexity": 56,
-      "utility": 94
+      "dpr": 58,
+      "ehp": 60,
+      "control": 46,
+      "support": 46,
+      "complexity": 58,
+      "utility": 96
     }
   },
   {
@@ -331,12 +331,12 @@
     "folder": "builds/the bonk",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 76,
-      "ehp": 88,
-      "control": 56,
-      "support": 8,
-      "complexity": 48,
-      "utility": 36
+      "dpr": 78,
+      "ehp": 90,
+      "control": 60,
+      "support": 10,
+      "complexity": 50,
+      "utility": 38
     }
   },
   {
@@ -348,12 +348,12 @@
     "folder": "builds/le biter",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 76,
+      "dpr": 80,
       "ehp": 88,
-      "control": 64,
-      "support": 52,
-      "complexity": 68,
-      "utility": 52
+      "control": 68,
+      "support": 54,
+      "complexity": 70,
+      "utility": 54
     }
   },
   {
@@ -365,12 +365,12 @@
     "folder": "builds/penny pinchin preacher",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 56,
-      "ehp": 76,
-      "control": 52,
-      "support": 88,
-      "complexity": 56,
-      "utility": 90
+      "dpr": 58,
+      "ehp": 78,
+      "control": 56,
+      "support": 92,
+      "complexity": 58,
+      "utility": 92
     }
   },
   {
@@ -382,12 +382,12 @@
     "folder": "builds/bear with a flamethrower",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
-      "dpr": 64,
+      "dpr": 68,
       "ehp": 96,
-      "control": 44,
-      "support": 64,
-      "complexity": 76,
-      "utility": 82
+      "control": 48,
+      "support": 66,
+      "complexity": 78,
+      "utility": 84
     }
   },
   {
@@ -399,12 +399,12 @@
     "folder": "builds/the fartificer",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 72,
-      "ehp": 72,
-      "control": 44,
-      "support": 32,
-      "complexity": 68,
-      "utility": 50
+      "dpr": 76,
+      "ehp": 74,
+      "control": 48,
+      "support": 34,
+      "complexity": 70,
+      "utility": 52
     }
   },
   {
@@ -416,12 +416,12 @@
     "folder": "builds/fist of god",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 68,
-      "ehp": 64,
-      "control": 72,
-      "support": 72,
-      "complexity": 76,
-      "utility": 58
+      "dpr": 72,
+      "ehp": 68,
+      "control": 74,
+      "support": 74,
+      "complexity": 78,
+      "utility": 60
     }
   },
   {
@@ -433,12 +433,12 @@
     "folder": "builds/priest of the wilds",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 72,
-      "ehp": 64,
-      "control": 56,
-      "support": 72,
-      "complexity": 68,
-      "utility": 74
+      "dpr": 76,
+      "ehp": 66,
+      "control": 60,
+      "support": 74,
+      "complexity": 70,
+      "utility": 76
     }
   },
   {
@@ -450,12 +450,12 @@
     "folder": "builds/shadow tank",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 68,
+      "dpr": 72,
       "ehp": 96,
-      "control": 52,
-      "support": 16,
-      "complexity": 56,
-      "utility": 52
+      "control": 54,
+      "support": 18,
+      "complexity": 58,
+      "utility": 54
     }
   },
   {
@@ -467,12 +467,12 @@
     "folder": "builds/sneaky smasher",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 64,
-      "ehp": 84,
-      "control": 52,
-      "support": 24,
-      "complexity": 48,
-      "utility": 68
+      "dpr": 66,
+      "ehp": 86,
+      "control": 56,
+      "support": 26,
+      "complexity": 50,
+      "utility": 70
     }
   },
   {
@@ -484,12 +484,12 @@
     "folder": "builds/warrior of flame",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 84,
-      "ehp": 76,
-      "control": 44,
-      "support": 68,
-      "complexity": 76,
-      "utility": 70
+      "dpr": 86,
+      "ehp": 80,
+      "control": 48,
+      "support": 70,
+      "complexity": 78,
+      "utility": 72
     }
   },
   {
@@ -501,12 +501,12 @@
     "folder": "builds/iron dancer",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
-      "dpr": 84,
+      "dpr": 88,
       "ehp": 100,
-      "control": 76,
-      "support": 36,
-      "complexity": 88,
-      "utility": 94
+      "control": 80,
+      "support": 40,
+      "complexity": 90,
+      "utility": 96
     }
   },
   {
@@ -518,12 +518,12 @@
     "folder": "builds/super sneaker life deleter",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
-      "dpr": 88,
-      "ehp": 60,
-      "control": 36,
-      "support": 12,
-      "complexity": 42,
-      "utility": 66
+      "dpr": 90,
+      "ehp": 62,
+      "control": 40,
+      "support": 14,
+      "complexity": 44,
+      "utility": 68
     }
   }
 ]
