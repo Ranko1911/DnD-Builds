@@ -1,4 +1,4 @@
-# Actual Inventory List — Herald of Hlal
+# Inventario Actual — Herald of Hlal
 
 ## Equipamiento Actual
 

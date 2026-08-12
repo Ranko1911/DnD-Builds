@@ -1,6 +1,6 @@
 # Guía de Personaje — Spymaster
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Infiltrador Técnico, Utilidad de Campo, Skill Monkey y Gish Elusivo.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** El canalizador del personaje es su herramienta de ladrón infundida o su propio foco arcano táctico en un guantelete. Esto le permite ignorar restricciones de manos libres mientras porta un Escudo infundido (+2 CA) en una mano y mantiene la otra libre para lanzar sus Hojas Psíquicas (*Psychic Blades*) u objetos arrojadizos.

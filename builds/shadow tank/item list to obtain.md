@@ -1,4 +1,4 @@
-# Item List — Shadow Tank
+# Objetos a Obtener — Shadow Tank
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

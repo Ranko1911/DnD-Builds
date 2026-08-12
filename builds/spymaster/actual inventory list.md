@@ -1,4 +1,4 @@
-# Actual Inventory List — Spymaster
+# Inventario Actual — Spymaster
 
 ## Equipamiento Actual
 

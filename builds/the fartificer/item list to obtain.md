@@ -1,4 +1,4 @@
-# Item List — Fartificer
+# Objetos a Obtener — Fartificer
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

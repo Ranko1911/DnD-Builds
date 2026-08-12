@@ -1,4 +1,4 @@
-# Item List — Hexbow
+# Objetos a Obtener — Hexbow
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

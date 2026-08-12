@@ -1,6 +1,6 @@
 # Guía de Personaje — Priest of the Wilds
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Francotirador de Daño Sostenido (Ranged Nova Striker) y Soporte Táctico del Terreno.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** Su arco largo consagrado actúa como foco de lanzamiento unificado para sus magias de explorador y de clérigo. No requiere manos libres adicionales para materializar componentes debido a que el foco está integrado en el arma de dos manos.

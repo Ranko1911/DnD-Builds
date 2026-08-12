@@ -1,4 +1,4 @@
-# Item List — Magical Mischief Murder Man
+# Objetos a Obtener — Magical Mischief Murder Man
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

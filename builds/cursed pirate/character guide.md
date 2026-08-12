@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -24,7 +24,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Spellcaster Controller / Blaster / Undead Tank (Controlador del campo de batalla mediante conjuros de mago, daño sostenido con *Starry Form: Archer* y resistencia de no muerto).
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Manos:**
   * Llevas tu mapa estelar en una mano (foco de Druida de las Estrellas) y el *Orb of Dragonkind* (u otra arma/escudo) en la otra. Tu Starry Form y conjuros arcanos se lanzan directamente ignorando componentes materiales gracias a *Archdruid* a nivel 20.

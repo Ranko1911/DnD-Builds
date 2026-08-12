@@ -1,6 +1,6 @@
 # Guía de Personaje — Sneaky Smasher
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Luchador/Agarrador Cuerpo a Cuerpo (Grappler God), Atacante Nova Psíquico, Tanque Evasivo.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Manos:**
   * **Foco Psiónico Único:** Sus armas principales son Hojas Psiónicas (*Psychic Blades*) convocadas mentalmente cuando tiene las manos vacías. Esto le permite combatir con las manos 100% libres, facilitando agarrar a dos enemigos simultáneamente (*Grappling*) y seguir atacándoles con su mente.

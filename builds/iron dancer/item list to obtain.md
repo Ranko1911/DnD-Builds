@@ -1,4 +1,4 @@
-# Item List — Iron Dancer
+# Objetos a Obtener — Iron Dancer
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

@@ -1,4 +1,4 @@
-# Item List — Nick Nack Nabber
+# Objetos a Obtener — Nick Nack Nabber
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

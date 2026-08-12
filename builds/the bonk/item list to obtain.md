@@ -1,4 +1,4 @@
-# Item List — The BONK
+# Objetos a Obtener — The BONK
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

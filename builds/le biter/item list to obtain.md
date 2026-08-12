@@ -1,4 +1,4 @@
-# Item List — Le Biter
+# Objetos a Obtener — Le Biter
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

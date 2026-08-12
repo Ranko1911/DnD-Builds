@@ -1,4 +1,4 @@
-# Actual Inventory List — [Nombre del Build]
+# Inventario Actual — [Nombre del Build]
 
 ## Equipamiento Actual
 

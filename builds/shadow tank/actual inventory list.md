@@ -1,4 +1,4 @@
-# Actual Inventory List — Shadow Tank
+# Inventario Actual — Shadow Tank
 
 ## Equipamiento Actual
 

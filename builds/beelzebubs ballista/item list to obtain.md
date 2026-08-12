@@ -1,4 +1,4 @@
-# Item List — Beelzebub's Ballista
+# Objetos a Obtener — Beelzebub's Ballista
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

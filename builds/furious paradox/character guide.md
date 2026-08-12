@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Frontline Thorns Tank / Gish Inmortal (Tanque pesado por evasión y reducción extrema de daño)
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - **Armas:** Estoque en la mano principal (Finesse). Bladesong prohíbe el uso de escudos o armas a dos manos.

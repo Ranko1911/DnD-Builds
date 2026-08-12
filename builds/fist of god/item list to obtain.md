@@ -1,4 +1,4 @@
-# Item List — Fist of God
+# Objetos a Obtener — Fist of God
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

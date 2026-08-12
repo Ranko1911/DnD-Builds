@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Dread Tank / Master Craftsman / Aggro Controller (Defensor indestructible en primera línea, capaz de atraer ataques mediante *Thunder Gauntlets* mientras mantiene inmunidad práctica gracias a su AC extrema).
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Armadura de Mago:**
   * Como **Armorer Artificer** de nivel 9 o superior, obtienes el rasgo **Armor Modifications**. Tu armadura arcana se divide en cuatro piezas independientes (pecho, botas, casco y arma), permitiéndote infundir cada pieza de forma individual. Esto te otorga $+2$ ranuras de infusión adicionales de uso exclusivo en tu armadura.

@@ -1,4 +1,4 @@
-# Actual Inventory List — Fist of God
+# Inventario Actual — Fist of God
 
 ## Equipamiento Actual
 

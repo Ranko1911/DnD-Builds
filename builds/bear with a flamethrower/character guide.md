@@ -1,6 +1,6 @@
 # Guía de Personaje — Bear with a Flamethrower
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Tanque de Primera Línea Inquebrantable, Daño de Fuego Sostenido en Área y Generador de PG Temporales.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** Su propio cuerpo mecánico (chasis Warforged) actúa como foco arcano y canalizador druídico. Esto le permite ignorar restricciones de manos libres.

@@ -1,4 +1,4 @@
-# Item List — The Bullet
+# Objetos a Obtener — The Bullet
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

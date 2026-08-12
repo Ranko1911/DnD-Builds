@@ -1,4 +1,4 @@
-# Actual Inventory List — Spirit Caller
+# Inventario Actual — Spirit Caller
 
 ## Equipamiento Actual
 

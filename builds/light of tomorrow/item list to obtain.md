@@ -1,4 +1,4 @@
-# Item List — Light of Tomorrow (Blasting Healer)
+# Objetos a Obtener — Light of Tomorrow (Blasting Healer)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

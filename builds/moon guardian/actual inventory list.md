@@ -1,4 +1,4 @@
-# Actual Inventory List — Moon Guardian
+# Inventario Actual — Moon Guardian
 
 ## Equipamiento Actual
 

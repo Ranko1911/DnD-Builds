@@ -1,4 +1,4 @@
-# Item List — Bear with a Flamethrower
+# Objetos a Obtener — Bear with a Flamethrower
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

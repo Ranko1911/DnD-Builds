@@ -1,6 +1,6 @@
 # Guía de Personaje — Shadow Tank
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Tanque de Espinas de Primera Línea, Atacante de Daño Frío/Fuerza, Crítico Nova.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Manos:**
   * **Foco Universal Único:** Su Espadón de Pacto (*Greatsword*) actúa como foco unificado para todos sus conjuros de Warlock. Puede conjurarla de la nada mediante el rasgo *Pact of the Blade*, eliminando la necesidad de portar armas físicas.

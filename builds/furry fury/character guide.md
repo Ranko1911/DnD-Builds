@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -25,7 +25,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Nova Melee/Ranged Striker (Daño explosivo en primer turno + alcance táctico)
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - **Armas:** Dos armas ligeras: un Estoque en la mano principal y un Cimitarra (con propiedad _Nick_) en la mano secundaria.

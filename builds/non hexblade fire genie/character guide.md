@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -29,7 +29,7 @@ Combat Role: Offensive Fire Striker / Mobile Gish / Elemental Tactician (Combina
 
 ---
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Genie's Wrath (Efreeti):** Una vez por turno, cuando golpeas con un ataque de arma, infliges **daño de Fuego plano igual a tu Bono de Competencia (+6 a nivel 20)**. Funciona perfectamente MIENTRAS estás en Furia.
 * **Elemental Gift (Genie 6):** Obtienes resistencia al daño de fuego y ganas **Velocidad de Vuelo de 30 pies sin concentración** durante 10 minutos (usos por día igual a tu Bono de Competencia).

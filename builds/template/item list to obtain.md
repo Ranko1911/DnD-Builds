@@ -1,4 +1,4 @@
-# Item List — [Nombre del Build]
+# Objetos a Obtener — [Nombre del Build]
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

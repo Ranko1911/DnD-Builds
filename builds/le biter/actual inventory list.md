@@ -1,4 +1,4 @@
-# Actual Inventory List — Le Biter
+# Inventario Actual — Le Biter
 
 ## Equipamiento Actual
 

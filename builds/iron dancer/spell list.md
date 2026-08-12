@@ -23,23 +23,23 @@ Esta lista detalla la selección de conjuros sugerida para el build **Iron Dance
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 9 (9th Level) — 1 ranura
+### Nivel 9 (Nivel 9) — 1 ranura
 1.  **Shapechange 🔵 [Roto - Indispensable]:** Te transforma en un Planetar (Ángel CR 16) manteniendo tus rasgos de clase (Bladesong, dotes, etc.). Vuelo de 140 pies, +5d8 de daño radiante por ataque.
 2.  **Wish 🔵 [Excelente]:** Duplicar cualquier conjuro de menor nivel sin componentes ni coste.
 
-### Nivel 8 (8th Level) — 1 ranura
+### Nivel 8 (Nivel 8) — 1 ranura
 1.  **Maze 🔵 [Excelente - Control]:** Destierra a un enemigo a un laberinto mental sin salvación.
 2.  **Feeblemind 🟢 [Excelente - Debilitador]:** Reduce la INT y el CAR de un enemigo a 1 si falla su salvación.
 
-### Nivel 7 (7th Level) — 2 ranuras
+### Nivel 7 (Nivel 7) — 2 ranuras
 1.  **Simulacrum 🔵 [Roto - Indispensable]:** Crea un clon idéntico de ti mismo para duplicar el DPR y control en combate.
 2.  **Forcecage 🔵 [Roto - Control]:** Atrapa a un enemigo en una celda de fuerza sin tiradas de salvación.
 
-### Nivel 6 (6th Level) — 2 ranuras
+### Nivel 6 (Nivel 6) — 2 ranuras
 1.  **Mass Suggestion 🔵 [Excelente - Control]:** Controla mentalmente a hasta 12 enemigos sin requerir concentración.
 2.  **Disintegrate 🟢 [Excelente - Nova]:** Daño masivo de fuerza plano a distancia.
 
-### Nivel 5 (5th Level) — 3 ranuras
+### Nivel 5 (Nivel 5) — 3 ranuras
 1.  **Wall of Force 🔵 [Roto - Control]:** Muro invisible e indestructible para aislar amenazas del combate.
 
 ### Nivel 3-4 (3rd & 4th Level) — 3 ranuras de cada uno

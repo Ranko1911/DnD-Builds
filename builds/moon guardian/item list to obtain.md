@@ -1,4 +1,4 @@
-# Item List — Moon Guardian
+# Objetos a Obtener — Moon Guardian
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

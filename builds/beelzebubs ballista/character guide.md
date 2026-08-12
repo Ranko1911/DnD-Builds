@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -25,7 +25,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Ranged Control Striker / Torreta de Artillería (Daño de ráfaga masivo a distancia + empuje constante)
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - **Armas:** Ballesta Pesada (Heavy Crossbow) (1d10 perforante, alcance 100/400).

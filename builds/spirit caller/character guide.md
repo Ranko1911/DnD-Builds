@@ -1,6 +1,6 @@
-# Character Build Overview: Spirit Caller
+# Resumen General del Personaje: Spirit Caller
 
-## General Data
+## Datos Generales
 
 * **System Standard:** D&D 5th Edition (2024 / 5.5e Update)
 * **Character Level:** Wizard (Necromancer) 20
@@ -29,7 +29,7 @@ Actual Item List: ./actual inventory list.md
 
 ## Combat Role: Backline Aerial Summoner & Master Controller
 
-### 1. Resource Management & Inventory Rules
+### 1. Gestión de Recursos y Reglas de Inventario
 
 * **Undead Upkeep & Signature Spells:** A nivel 20, utilizas tu rasgo *Signature Spells* de nivel 20 para recuperar 1 uso gratuito por descanso corto de **Animate Dead** (nivel 3) y **Counterspell** (nivel 3) sin gastar espacios de conjuro.
 * **Mastery Spells (A voluntad):** Con *Spell Mastery* (nivel 18), lanzas **Shield** (nivel 1) y **Misty Step** (nivel 2) **a voluntad sin consumir espacios**.

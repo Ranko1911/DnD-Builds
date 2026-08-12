@@ -27,13 +27,13 @@ Esta lista detalla la selección de conjuros sugerida para el build **Fartificer
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 2 (2nd Level) — 3 ranuras
+### Nivel 2 (Nivel 2) — 3 ranuras
 
 1. **Mirror Image 🔵 [Indispensable - Defensa]:** Crea tres copias que interceptan ataques enemigos. No consume concentración.
 2. **Misty Step 🔵 [Excelente - Movilidad]:** Teletransporte de 30 pies como acción adicional para escapar de emboscadas.
 3. **Warding Bond 🟢 [Excelente - Dominio]:** Otorga resistencia a todo daño y +1 CA al Defensor de Acero, dividiendo el daño recibido con el Fartificer.
 
-### Nivel 1 (1st Level) — 4 ranuras
+### Nivel 1 (Nivel 1) — 4 ranuras
 
 1. **Shield 🔵 [Roto - Defensa]:** Reacción rápida de Mago que suma +5 a tu CA hasta el inicio de tu siguiente turno, convirtiéndote en un objetivo casi intocable (CA 25).
 2. **Absorb Elements 🔵 [Excelente - Defensa]:** Resistencia reactiva a daño elemental (fuego, frío, etc.).

@@ -1,4 +1,4 @@
-# Item List — Spirit Caller
+# Objetos a Obtener — Spirit Caller
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

@@ -1,4 +1,4 @@
-# Item List — Tempest (Tempest Cleric 4 / Scribes Wizard 16)
+# Objetos a Obtener — Tempest (Tempest Cleric 4 / Scribes Wizard 16)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

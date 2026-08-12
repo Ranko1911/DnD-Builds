@@ -1,6 +1,6 @@
 # Guía de Personaje — Fist of God
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Gish de Primera Línea, Atacante de Daño Radiante/Necrótico, Sanador Táctico y Debilitador (Poisoner).
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** Su canalizador sagrado está tatuado en las palmas de sus manos (o en sus vendajes de combate), sirviendo como foco unificado. Esto le permite combatir con las manos completamente libres para realizar golpes desarmados o empuñar una Espada Larga a dos manos (*Versatile*, 1d10 de daño base) como arma dedicada de Monje.

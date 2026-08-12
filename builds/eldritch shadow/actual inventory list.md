@@ -1,4 +1,4 @@
-# Actual Inventory List — Eldritch Shadow
+# Inventario Actual — Eldritch Shadow
 
 ## Equipamiento Actual
 

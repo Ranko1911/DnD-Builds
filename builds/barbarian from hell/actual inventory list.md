@@ -1,4 +1,4 @@
-# Actual Inventory List — Barbarian from Hell
+# Inventario Actual — Barbarian from Hell
 
 ## Equipamiento Actual
 

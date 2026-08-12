@@ -1,4 +1,4 @@
-# Actual Inventory List — Warrior of Flame
+# Inventario Actual — Warrior of Flame
 
 ## Equipamiento Actual
 

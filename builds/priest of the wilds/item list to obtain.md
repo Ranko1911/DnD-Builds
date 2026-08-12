@@ -1,4 +1,4 @@
-# Item List — Priest of the Wilds
+# Objetos a Obtener — Priest of the Wilds
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

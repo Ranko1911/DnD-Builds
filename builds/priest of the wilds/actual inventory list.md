@@ -1,4 +1,4 @@
-# Actual Inventory List — Priest of the Wilds
+# Inventario Actual — Priest of the Wilds
 
 ## Equipamiento Actual
 

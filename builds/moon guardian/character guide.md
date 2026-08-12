@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Protector Tank / Battlefield Controller / Off-Healer (Protege a los aliados mediante Ancestral Protectors que fuerzan desventaja + resistencia al daño en los aliados, Spirit Shield para reducir daño, y absorbe cantidades masivas de daño gracias a Wild Shape + Rage + enormes reservas de HP temporales y permanentes. Feral Instinct garantiza actuar primero en combate. Aporta utilidad y curación fuera de combate como Druida de nivel 13, incluyendo conjuros de 7.º nivel).
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Formas:**
   * No puedes lanzar conjuros ni mantener concentración mientras estás en **Furia (Rage)**. Sin embargo, los conjuros lanzados ANTES de entrar en Furia y que no requieran concentración (como *Fire Shield*) permanecen activos durante la Furia y la Wild Shape.

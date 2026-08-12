@@ -1,4 +1,4 @@
-# Actual Inventory List — The Bullet
+# Inventario Actual — The Bullet
 
 ## Equipamiento Actual
 

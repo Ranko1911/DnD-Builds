@@ -1,6 +1,6 @@
-# SYSTEM_PROMPT: Character Build Overview
+# Resumen General del Personaje
 
- ## General Data
+ ## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -20,7 +20,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Frontline Gish Striker / Battlefield Controller (Daño mono-objetivo sostenido + control con Sentinel)
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Shadow Blade** se invoca como Acción Adicional en combate (turno 1) y se sostiene con Concentración. Como arma de Finesse, beneficia de DEX para ataque y daño. El build no usa escudo para maximizar los dados de daño de Shadow Blade a 2 manos (2d8 base psíquico).

@@ -26,9 +26,9 @@ export async function getStaticPaths() {
     'character guide':       'Guía',
     'character guide 2014':  'Guía (2014)',
     'character guide 2024':  'Guía (2024)',
-    'roadmap':               'Roadmap',
+    'roadmap':               'Progresión',
     'spell list':            'Conjuros',
-    'item list to obtain':   'Items',
+    'item list to obtain':   'Objetos',
     'actual inventory list': 'Inventario',
     'bastion and downtime':  'Bastión',
   };
@@ -106,12 +106,12 @@ function systemClass(s: string) {
 }
 
 const ratings = [
-  { label: 'DPR',       value: build.ratings.dpr,        color: 'var(--dpr)'        },
-  { label: 'EHP',       value: build.ratings.ehp,        color: 'var(--ehp)'        },
-  { label: 'Control',   value: build.ratings.control,    color: 'var(--control)'    },
-  { label: 'Support',   value: build.ratings.support,    color: 'var(--support)'    },
-  { label: 'Utility',   value: build.ratings.utility,    color: 'var(--utility)'    },
-  { label: 'Complexity',value: build.ratings.complexity, color: 'var(--complexity)' },
+  { label: 'DPR',         value: build.ratings.dpr,        color: 'var(--dpr)'        },
+  { label: 'EHP',         value: build.ratings.ehp,        color: 'var(--ehp)'        },
+  { label: 'Control',     value: build.ratings.control,    color: 'var(--control)'    },
+  { label: 'Soporte',     value: build.ratings.support,    color: 'var(--support)'    },
+  { label: 'Utilidad',    value: build.ratings.utility,    color: 'var(--utility)'    },
+  { label: 'Complejidad', value: build.ratings.complexity, color: 'var(--complexity)' },
 ];
 ---
 

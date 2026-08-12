@@ -1,4 +1,4 @@
-# Actual Inventory List — Sneaky Smasher
+# Inventario Actual — Sneaky Smasher
 
 ## Equipamiento Actual
 

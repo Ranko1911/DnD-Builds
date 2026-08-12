@@ -1,4 +1,4 @@
-# Actual Inventory List — Cursed Pirate
+# Inventario Actual — Cursed Pirate
 
 ## Equipamiento Actual
 

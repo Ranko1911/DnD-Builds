@@ -21,30 +21,30 @@ Esta lista detalla la selección de conjuros sugerida para el build **Priest of 
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 7 (7th Level) — 1 ranura
+### Nivel 7 (Nivel 7) — 1 ranura
 1.  **Divine Word 🟢 [Excelente]:** Incapacita o destruye de forma instantánea a múltiples criaturas débiles en área.
 
-### Nivel 6 (6th Level) — 1 ranura
+### Nivel 6 (Nivel 6) — 1 ranura
 1.  **Heal 🔵 [Indispensable]:** 70 PG de curación instantánea sin dados, limpiando efectos adversos.
 
-### Nivel 5 (5th Level) — 2 ranuras
+### Nivel 5 (Nivel 5) — 2 ranuras
 1.  **Greater Restoration 🟢 [Excelente]:** Elimina fatiga, reducciones de puntuaciones y maldiciones.
 
-### Nivel 4 (4th Level) — 3 ranuras
+### Nivel 4 (Nivel 4) — 3 ranuras
 1.  **Banishment 🔵 [Excelente - Control]:** Destierra a un enemigo a otro plano si falla la salvación.
 2.  **Death Ward 🟢 [Excelente - Apoyo]:** Protege contra la muerte una vez por descanso.
 
-### Nivel 3 (3rd Level) — 3 ranuras
+### Nivel 3 (Nivel 3) — 3 ranuras
 1.  **Conjure Animals 🔵 [Roto - Invocación]:** Invoca múltiples bestias del bosque para bloquear caminos e infligir daño acumulado.
 2.  **Revivify 🔵 [Indispensable]:** Resucitar a un compañero caído en el último minuto.
 3.  **Spirit Guardians 🔵 [Excelente - Defensivo]:** Aura dañina que ralentiza a los enemigos que logren saltar tu línea de tiro.
 
-### Nivel 2 (2nd Level) — 3 ranuras
+### Nivel 2 (Nivel 2) — 3 ranuras
 1.  **Spike Growth 🔵 [Excelente - Control]:** Convierte el terreno en espinas que destrozan al enemigo al avanzar.
 2.  **Pass without Trace 🔵 [Indispensable - Sigilo]:** +10 a las tiradas de sigilo de todo el grupo.
 3.  **Spiritual Weapon 🟢 [Excelente - Ofensivo]:** Arma espiritual para mantener daño de Acción Adicional cuando agotes *War Priest*.
 
-### Nivel 1 (1st Level) — 4 ranuras
+### Nivel 1 (Nivel 1) — 4 ranuras
 1.  **Bless 🔵 [Indispensable - Apoyo]:** +1d4 a ataques y salvaciones. Mitiga totalmente el penalizador de *Sharpshooter*.
 2.  **Hunter's Mark 🔵 [Indispensable - Ofensivo]:** +1d6 de daño por cada impacto de flecha contra el objetivo marcado.
 3.  **Healing Word 🔵 [Excelente - Curación]:** Levantar aliados caídos como acción adicional.

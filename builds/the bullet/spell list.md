@@ -20,19 +20,19 @@ Esta lista detalla la selección de conjuros sugerida para el build **The Bullet
 
 ## 🎒 Conjuros Preparados / Conocidos por Niveles
 
-### Nivel 4 (4th Level)
+### Nivel 4 (Nivel 4)
 1. **Freedom of Movement 🔵 [Excelente - Movilidad]:** Te hace inmune a terreno difícil, parálisis, ataduras y reduce a cero el coste de escapar de un agarre. Imprescindible para no perder velocidad.
 
-### Nivel 3 (3rd Level)
+### Nivel 3 (Nivel 3)
 1. **Haste 🔵 [Roto - Multiplicador]:** Duplica tu velocidad de movimiento, otorga $+2$ a la CA, ventaja en salvaciones de DEX y una acción adicional que puede usarse para hacer Dash.
 2. **Glyph of Warding 🔵 [Roto - Gimmick]:** Te permite pre-cargar hechizos de potenciación (como *Haste* o *Longstrider*) en un libro dentro de tu *Bag of Holding* sin requerir concentración en combate.
 3. **Fly 🟢 [Bueno - Movilidad]:** Otorga velocidad de vuelo igual a tu velocidad de caminata (que se beneficia de todos tus multiplicadores de velocidad).
 
-### Nivel 2 (2nd Level)
+### Nivel 2 (Nivel 2)
 1. **Misty Step 🔵 [Excelente - Teletransporte]:** Permite moverte 30 pies como acción adicional para cruzar obstáculos o escapar de zonas de peligro.
 2. **Blur 🟢 [Defensivo]:** Desventaja en ataques enemigos contra ti.
 
-### Nivel 1 (1st Level)
+### Nivel 1 (Nivel 1)
 1. **Longstrider 🔵 [Roto - Velocidad]:** $+10\text{ ft.}$ planos de movimiento durante 1 hora. No requiere concentración. Se guarda en el *Spell-Storing Item* del Artífice para lanzarse gratis.
 2. **Shield 🔵 [Excelente - Reacción]:** $+5$ a la CA como reacción frente a un ataque que te impacte.
 3. **Absorb Elements 🔵 [Excelente - Reacción]:** Resistencia contra daño elemental entrante y daño adicional en el siguiente ataque.

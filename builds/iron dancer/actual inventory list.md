@@ -1,4 +1,4 @@
-# Actual Inventory List — Iron Dancer
+# Inventario Actual — Iron Dancer
 
 ## Equipamiento Actual
 

@@ -1,4 +1,4 @@
-# Actual Inventory List — Tech Priest
+# Inventario Actual — Tech Priest
 
 ## Equipamiento Actual
 

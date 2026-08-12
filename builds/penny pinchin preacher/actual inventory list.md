@@ -1,4 +1,4 @@
-# Actual Inventory List — Penny Pinchin' Preacher
+# Inventario Actual — Penny Pinchin' Preacher
 
 ## Equipamiento Actual
 

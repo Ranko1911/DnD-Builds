@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Backline Blaster / Primary Healer / Ultimate Support Hybrid (La "Ametralladora" de Eldritch Blast combinada con curación de alto impacto).
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Ranuras de Pacto a Puntos de Sorcería:**
   * Como Warlock de Nivel 3, tienes **2 ranuras de conjuro de 2.º nivel** que se recuperan con un descanso corto.
@@ -105,44 +105,44 @@ Gracias al origen de **Divine Soul**, el personaje tiene acceso a toda la lista 
 * *Prestidigitation*
 * *Vicious Mockery*
 
-#### Nivel 1 (1st Level)
+#### Nivel 1 (Nivel 1)
 
 * *Healing Word* (Clérigo - Revivir aliados caídos)
 * *Absorb Elements* (Defensa elemental)
 
-#### Nivel 2 (2nd Level)
+#### Nivel 2 (Nivel 2)
 
 * *Aid* (Clérigo - Aumento de HP máximo)
 * *Spiritual Weapon* (Clérigo - Daño continuo de acción adicional)
 
-#### Nivel 3 (3rd Level)
+#### Nivel 3 (Nivel 3)
 
 * *Revivify* (Clérigo - Resurrección)
 * *Counterspell* (Denegación)
 * *Haste* (Soporte ofensivo)
 
-#### Nivel 4 (4th Level)
+#### Nivel 4 (Nivel 4)
 
 * *Death Ward* (Clérigo - Prevención de muerte)
 * *Banishment* (Control de masas)
 
-#### Nivel 5 (5th Level)
+#### Nivel 5 (Nivel 5)
 
 * *Greater Restoration* (Clérigo - Limpieza de estados)
 * *Synaptic Static* (Daño en área y debuff)
 
-#### Nivel 6 (6th Level)
+#### Nivel 6 (Nivel 6)
 
 * *Heal* (Clérigo - Curación masiva de 70 HP)
 
-#### Nivel 7 (7th Level)
+#### Nivel 7 (Nivel 7)
 
 * *Conjure Celestial* (Clérigo - Invocación potente)
 
-#### Nivel 8 (8th Level)
+#### Nivel 8 (Nivel 8)
 
 * *Holy Aura* (Clérigo - Búfalo defensivo del grupo)
 
-#### Nivel 9 (9th Level)
+#### Nivel 9 (Nivel 9)
 
 * *Wish* (Flexibilidad máxima)

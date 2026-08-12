@@ -1,4 +1,4 @@
-# Item List — Spymaster
+# Objetos a Obtener — Spymaster
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

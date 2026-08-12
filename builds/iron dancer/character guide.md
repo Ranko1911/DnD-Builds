@@ -1,6 +1,6 @@
 # Guía de Personaje — Iron Dancer
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Tanque Evasivo de Primera Línea, Duelista Psíquico/Radiante, Concentración Absoluta, Ángel Exterminador Aéreo.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - **Foco Universal Único:** Su estoque de combate actúa como foco unificado para todos sus conjuros de Mago y Artífice.

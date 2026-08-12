@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -25,7 +25,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Frontline Utility Tank / Especialista en Objetos Mágicos (Controlador de aggro + curación y control por acción adicional)
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - **Armas:** Guanteletes del Trueno (Thunder Gauntlets) integrados en la armadura modelo Guardián (Guardian model).

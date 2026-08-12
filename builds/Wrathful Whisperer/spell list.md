@@ -21,53 +21,53 @@ Esta lista detalla la selección de conjuros sugerida para el build **Herald of 
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 9 (9th Level)
+### Nivel 9 (Nivel 9)
 
 1. **Wish 🔵 [Roto - Utilidad/Magical Secret]:** Te permite duplicar cualquier conjuro de nivel 8 o inferior de cualquier lista de forma instantánea sin costes de componentes.
 2. **True Polymorph 🔵 [Roto - Control/Buff/Magical Secret]:** Transforma a una criatura u objeto en otra criatura de VD igual o menor (como un dragón) u otro objeto permanentemente tras concentrarse 1 hora.
 3. **Foresight 🟢 [Excelente - Buff de Bardo]:** Ventaja en todas las tiradas de ataque, salvaciones y pruebas de característica, y los ataques enemigos tienen desventaja contra ti por 8 horas.
 
-### Nivel 8 (8th Level)
+### Nivel 8 (Nivel 8)
 
 1. **Mind Blank 🟢 [Excelente - Defensa]:** Inmunidad al daño psíquico y a efectos de lectura de mente o adivinación durante 24 horas.
 2. **Glibness 🟢 [Excelente - Interacción]:** Tu tirada de Carisma mínima para cualquier prueba es 15, garantizando que nunca falles contra conjuros de *Counterspell* o *Dispel Magic*, y dominas las pruebas sociales.
 
-### Nivel 7 (7th Level)
+### Nivel 7 (Nivel 7)
 
 1. **Forcecage 🔵 [Roto - Control]:** Enciérralo en una caja de fuerza invisible sin tirada de salvación inicial. Si intentan teletransportarse, deben superar una salvación de Carisma.
 2. **Etherealness 🟢 [Excelente - Movilidad]:** Viaja al Plano Etereo para atravesar paredes y obstáculos sólidos.
 
-### Nivel 6 (6th Level)
+### Nivel 6 (Nivel 6)
 
 1. **Mass Suggestion 🔵 [Excelente - Control]:** Sugiere un curso de acción razonable a hasta 12 criaturas simultáneamente durante 24 horas sin requerir concentración.
 2. **Otto's Irresistible Dance 🟢 [Excelente - Control]:** Hace que un objetivo baile sin tirada de salvación inicial, otorgando ventaja a tus ataques melee y obligando al enemigo a gastar su acción si quiere intentar librarse.
 
-### Nivel 5 (5th Level)
+### Nivel 5 (Nivel 5)
 
 1. **Synaptic Static 🔵 [Excelente - Daño/Debuff]:** Explosión psíquica en área que inflige daño psíquico y resta $1d6$ a todas las tiradas de ataque y concentración de los enemigos afectados por 1 minuto.
 2. **Hold Monster 🔵 [Excelente - Control/Nova]:** Paraliza a cualquier criatura. Cualquier ataque cuerpo a cuerpo contra el objetivo paralizado a menos de 5 pies es un impacto crítico automático (ideal para Smites brutales).
 3. **Animate Objects 🔵 [Roto - Tempestad de Plata]:** Anima hasta 10 objetos pequeños (o 18 con ranura de nivel 9). Usar monedas de plata para evadir resistencias a daño físico no mágico. (Bardo)
 
-### Nivel 4 (4th Level)
+### Nivel 4 (Nivel 4)
 
 1. **Greater Invisibility 🔵 [Excelente - Ventaja]:** Invisibilidad en combate por 1 minuto. Te otorga ventaja en todos tus ataques de espada (facilitando críticos para Smites) y desventaja en los ataques enemigos hacia ti.
 2. **Polymorph 🟢 [Excelente - Utilidad/Curación]:** Transforma a un aliado al borde de la muerte en una bestia gigante (como un T-Rex) para otorgar un pozo gigante de HP temporales.
 3. **Dimension Door 🟢 [Excelente - Movilidad]:** Teletransporte de 500 pies para ti y un aliado.
 
-### Nivel 3 (3rd Level)
+### Nivel 3 (Nivel 3)
 
 1. **Hypnotic Pattern 🔵 [Excelente - Control]:** Incapacita y reduce a 0 la velocidad de todas las criaturas en un cubo de 30 pies que fallen su salvación de Sabiduría.
 2. **Dispel Magic 🟢 [Excelente - Utilidad]:** Neutraliza efectos mágicos enemigos.
 3. **Fear 🟢 [Excelente - Control / Bardo]:** Fuerza a los enemigos en un cono de 30 pies a soltar lo que lleven y quedar asustados (Frightened), teniendo que huir de ti mientras puedan verte.
 4. **Crusader's Mantle 🔵 [Excelente - Buff / Magical Secret]:** Aura de 30 pies que añade +1d4 de daño radiante a todos los ataques con arma de criaturas amistosas. Crucial para potenciar la Tempestad de Plata.
 
-### Nivel 2 (2nd Level)
+### Nivel 2 (Nivel 2)
 
 1. **Hold Person 🔵 [Excelente - Nova]:** Paraliza a un humanoide para impactos críticos automáticos cuerpo a cuerpo.
 2. **Suggestion 🟢 [Excelente - Control / Bardo]:** Sugiere una acción razonable a un objetivo que entienda tu idioma por hasta 8 horas (concentración).
 3. **Blindness/Deafness 🟢 [Excelente - Debuff / Bardo]:** Ciega o ensordece a un enemigo (salvación de CON) sin requerir concentración, ideal para mitigar amenazas físicas.
 
-### Nivel 1 (1st Level)
+### Nivel 1 (Nivel 1)
 
 1. **Bless 🔵 [Excelente - Soporte / Paladín]:** Añade $+1d4$ a ataques y salvaciones para ti y tus aliados.
 2. **Shield of Faith 🟢 [Excelente - Defensa / Paladín]:** $+2$ a la CA (Concentración) para aumentar tu resistencia en combate cerrado.

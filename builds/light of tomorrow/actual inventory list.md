@@ -1,4 +1,4 @@
-# Actual Inventory List — Light of Tomorrow
+# Inventario Actual — Light of Tomorrow
 
 ## Equipamiento Actual
 

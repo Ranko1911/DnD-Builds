@@ -1,6 +1,6 @@
 # Guía de Personaje — Priest of the Wilds (Edición 2024 / 5.5e)
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2024 Ruleset - 5.5e)
 
@@ -29,7 +29,7 @@ Combat Role: Ranged Divine Striker / Social Face / Utility
 
 ---
 
-## 1. Resource Management & Inventory Rules (2024 Ruleset)
+## 1. Gestión de Recursos y Reglas de Inventario (2024 Ruleset)
 
 - **Maestría de Armas (Weapon Masteries 2024):**
   - **Longbow (Slow) & Shortbow (Vex):** Optimiza la economía de acciones y garantiza ventaja o daño secundario plano en cada asalto.

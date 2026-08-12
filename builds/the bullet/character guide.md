@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -18,7 +18,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Speed Gimmick / Ranged Sprinter (El personaje más rápido del multiverso, diseñado para cubrir distancias extremas en un solo asalto mediante la acumulación y multiplicación de bonificadores de movimiento).
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Manos:**
   * **Sin Armas ni Escudo:** Para beneficiarse de *Unarmored Movement* del Monje, el personaje debe ir sin armadura y sin escudo. Sus manos están libres para activar objetos mágicos, pergaminos, abrir su libro de glifos o usar herramientas.

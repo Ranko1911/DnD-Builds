@@ -1,4 +1,4 @@
-# Item List — Barbarian from Hell (Zealot 6 / Fiend Warlock 14)
+# Objetos a Obtener — Barbarian from Hell (Zealot 6 / Fiend Warlock 14)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

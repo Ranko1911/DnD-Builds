@@ -1,6 +1,6 @@
 # Guía de Personaje — Warrior of Flame
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Tanque de Apoyo (Aura Tank), Atacante Nova de Fuego/Fuerza, Volador Táctico.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Sagrado/Arcano Único:** Su escudo lleva grabado el blasón sagrado de su linaje de dragón dorado, sirviendo como canalizador unificado. Al poseer la dote *War Caster*, puede realizar componentes somáticos e interactuar con magia incluso portando su Espada Larga y Escudo de forma simultánea.

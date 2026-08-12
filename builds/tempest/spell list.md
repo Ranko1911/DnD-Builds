@@ -119,7 +119,7 @@ Esta sección contiene la totalidad de conjuros que posees en tu libro de Escrib
 * **3.ᵉʳ Nivel:** *Lightning Bolt* (Relámpago).
 * **5.º Nivel:** *Summon Draconic Spirit* (Relámpago, Trueno, Frío, Fuego, Ácido, Veneno).
 
-### 👥 3. Conjuros Tácticos y de Tiempo Muerto (Downtime Spells)
+### 👥 3. Conjuros Tácticos y de Tiempo Muerto (Conjuros de Tiempo Muerto)
 
 *Conjuros de nivel alto copiados en tu libro que se lanzan fuera del combate diario y que, por tanto, no se preparan para la aventura regular:*
 

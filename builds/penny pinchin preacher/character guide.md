@@ -1,6 +1,6 @@
 # Guía de Personaje — Penny Pinchin' Preacher
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Soporte Pasivo Resiliente, Sanador de Emergencia, Infiltrador e Iniciador de Emboscadas (Nova Striker).
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** Su símbolo sagrado está grabado en su escudo (+2 CA). Utiliza sus Hojas Psíquicas (*Psychic Blades*), las cuales se materializan y desvanecen instantáneamente cuando ataca. Esto significa que puede sostener un escudo en una mano y mantener la otra completamente vacía para invocar y lanzar su magia mental sin penalizaciones.

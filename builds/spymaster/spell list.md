@@ -21,7 +21,7 @@ Esta lista detalla la selección de conjuros sugerida para el build **Spymaster*
 
 *Organizados por el nivel de la ranura de conjuro (Nivel 1).*
 
-### Nivel 1 (1st Level) — 4 ranuras
+### Nivel 1 (Nivel 1) — 4 ranuras
 1.  **Disguise Self 🔵 [Excelente - Utilidad]:** Indispensable para infiltrarse. Se puede describir estéticamente como máscaras realistas de simulación avanzada estilo espía técnico.
 2.  **Absorb Elements 🔵 [Indispensable - Defensa]:** Salvavidas reactivo contra daño de fuego, frío o electricidad. Mitiga a la mitad y añade un toque elemental al siguiente golpe.
 3.  **Faerie Fire 🔵 [Indispensable - Apoyo]:** Gran utilidad en área. Revela enemigos invisibles y otorga ventaja en ataques, activando el Daño de Sigilo (*Sneak Attack*) inmediatamente.

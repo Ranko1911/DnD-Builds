@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Thorns Tank / Heavy Physical Striker / Battlefield Grappler (Castiga a los enemigos cuerpo a cuerpo mediante el daño reflejado de *Armor of Agathys* mientras reduce el daño físico a la mitad por Furia, apoyado por el daño adicional del Zealot e impactos brutales con *Great Weapon Master* y *Eldritch Smite*).
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Espacios / Castigos en Furia:**
   * No puedes lanzar conjuros ni mantener concentración mientras estás en **Furia (Rage)**. Sin embargo, los conjuros que lances ANTES de entrar en Furia y que no requieran concentración (como *Armor of Agathys* o *Mirror Image*) permanecen activos y funcionales durante la Furia.

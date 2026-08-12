@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update || 2014 Ruleset)
 
@@ -25,7 +25,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: [Rol en Combate (ej: Tanque, Control de Campo, Daño de Ráfaga, Sanador)]
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - [Describir el foco de lanzamiento y la economía de manos libres. Ej: Martillo y Escudo sin penalizaciones].

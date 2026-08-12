@@ -1,6 +1,6 @@
 # Guía de Personaje — The BONK
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Tanque de Primera Línea, Daño de Ráfaga Física, Controlador por Agarre (Grappler).
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** No aplica directamente como lanzador de conjuros, pero sus propias garras naturales y golpes desarmados no requieren empuñar armas tradicionales, liberando sus manos completamente para realizar agarres (*Grappling*) y empujones (*Shoving*).

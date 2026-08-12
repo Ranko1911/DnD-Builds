@@ -1,4 +1,4 @@
-# Item List — Cursed Pirate (Stars Druid 20 + Acceso Arcano)
+# Objetos a Obtener — Cursed Pirate (Stars Druid 20 + Acceso Arcano)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

@@ -1,4 +1,4 @@
-# Item List — Warrior of Flame
+# Objetos a Obtener — Warrior of Flame
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

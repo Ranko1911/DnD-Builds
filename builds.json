@@ -4,7 +4,7 @@
     "name": "Barbarian from Hell",
     "classes": "Barbarian (Zealot) 6 / Warlock (Fiend) 14",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Thorns Tank / Heavy Striker",
+    "role": "Tanque de Espinas de Vanguardia / Atacante Pesado",
     "folder": "builds/barbarian from hell",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -21,7 +21,7 @@
     "name": "Non-Hexblade Fire Genie",
     "classes": "Barbarian (Zealot) 6 / Warlock (Genie - Efreeti) 14",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Offensive Fire Striker / Mobile Gish",
+    "role": "Atacante de Fuego Ofensivo / Gish Móvil",
     "folder": "builds/non hexblade fire genie",
     "youtube": "https://www.youtube.com/watch?v=UmiNKz9TXvw",
     "ratings": {
@@ -38,7 +38,7 @@
     "name": "Clocklock",
     "classes": "Sorcerer (Clockwork Soul) 18 / Warlock (Hexblade) 2",
     "system": "D&D 5e (2014)",
-    "role": "Backline Blaster / Support / Probability Controller",
+    "role": "Lanzador de Retaguardia / Soporte / Controlador de Probabilidades",
     "folder": "builds/Clocklock",
     "youtube": null,
     "ratings": {
@@ -55,7 +55,7 @@
     "name": "Cursed Pirate",
     "classes": "Druid (Circle of the Stars) 20",
     "system": "D&D 5e (2014)",
-    "role": "Controller / Blaster / Star Shape Striker",
+    "role": "Controlador / Lanzador / Atacante Estelar",
     "folder": "builds/cursed pirate",
     "youtube": null,
     "ratings": {
@@ -72,7 +72,7 @@
     "name": "Hexbow",
     "classes": "Warlock (Hexblade) 17 / Fighter (Battle Master) 3",
     "system": "D&D 5e (2014)",
-    "role": "Ranged Nova Striker / Battlefield Sniper",
+    "role": "Atacante Nova a Distancia / Francotirador de Campo",
     "folder": "builds/hexbow",
     "youtube": null,
     "ratings": {
@@ -89,7 +89,7 @@
     "name": "Light of Tomorrow",
     "classes": "Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2",
     "system": "D&D 5e (2014)",
-    "role": "Backline Blaster / Primary Healer / Support",
+    "role": "Lanzador de Retaguardia / Sanador Principal / Soporte",
     "folder": "builds/light of tomorrow",
     "youtube": "https://www.youtube.com/watch?v=mStIR0mOJ1Y",
     "ratings": {
@@ -106,7 +106,7 @@
     "name": "Spirit Caller",
     "classes": "Wizard (Necromancer) 20",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Backline Aerial Summoner / Master Controller",
+    "role": "Invocador Aéreo de Retaguardia / Maestro Controlador",
     "folder": "builds/spirit caller",
     "youtube": null,
     "ratings": {
@@ -123,7 +123,7 @@
     "name": "Techpriest",
     "classes": "Artificer (Armorer) 14 / Cleric (Forge) 6",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Dread Tank / Aggro Controller",
+    "role": "Tanque Temible de Vanguardia / Controlador de Amenaza",
     "folder": "builds/techpriest",
     "youtube": "https://www.youtube.com/watch?v=2AlDD4nQW-8",
     "ratings": {
@@ -140,7 +140,7 @@
     "name": "Tempest Demiurge",
     "classes": "Cleric (Tempest) 4 / Wizard (Scribes) 16",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Frontline Gish Tank / Tactical AoE Blaster",
+    "role": "Tanque Gish de Vanguardia / Lanzador Táctico en Área",
     "folder": "builds/tempest",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
@@ -157,7 +157,7 @@
     "name": "Wrathful Whisperer",
     "classes": "Paladin 2 / Bard (College of Swords) 18",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Striker / Evasion Tank",
+    "role": "Atacante de Vanguardia / Tanque de Evasión",
     "folder": "builds/Wrathful Whisperer",
     "youtube": null,
     "ratings": {
@@ -174,7 +174,7 @@
     "name": "Moon Guardian",
     "classes": "Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Protector Tank / Off-Healer Support",
+    "role": "Tanque Protector de Vanguardia / Soporte Sanador Secundario",
     "folder": "builds/moon guardian",
     "youtube": "https://www.youtube.com/watch?v=WXXzI8kzwnY",
     "ratings": {
@@ -191,7 +191,7 @@
     "name": "The Bullet",
     "classes": "Artificer (Alchemist) 14 / Fighter 2 / Wizard (Bladesinger) 2 / Monk 2",
     "system": "D&D 5e (2014)",
-    "role": "Speed Gimmick / Ranged Sprinter / Mobility Specialist",
+    "role": "Especialista en Velocidad / Corredor a Distancia / Especialista en Movilidad",
     "folder": "builds/the bullet",
     "youtube": "https://www.youtube.com/watch?v=2VaxXiIcgDU",
     "ratings": {
@@ -208,7 +208,7 @@
     "name": "Eldritch Shadow",
     "classes": "Fighter (Eldritch Knight) 20",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Gish Striker / Battlefield Controller",
+    "role": "Atacante Gish de Vanguardia / Controlador del Campo de Batalla",
     "folder": "builds/eldritch shadow",
     "youtube": "https://www.youtube.com/watch?v=3cTpabjXj90",
     "ratings": {
@@ -225,7 +225,7 @@
     "name": "Magical Mischief Murder Man",
     "classes": "Sorcerer 1 / Rogue (Swashbuckler) 19",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Frontline Striker / Face / Skill Monkey",
+    "role": "Atacante de Vanguardia / Líder Social / Maestro de Habilidades",
     "folder": "builds/magical mischief murder man",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -242,7 +242,7 @@
     "name": "Beelzebub's Ballista",
     "classes": "Warlock (Celestial) 19 / Fighter 1",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Ranged Control Striker / Artillery Turret",
+    "role": "Atacante de Control a Distancia / Torreta de Artillería",
     "folder": "builds/beelzebubs ballista",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -259,7 +259,7 @@
     "name": "Nick Nack Nabber",
     "classes": "Artificer (Armorer) 17 / Rogue (Thief) 3",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Frontline Tank / Utility / Item Specialist",
+    "role": "Tanque de Vanguardia / Utilidad / Especialista en Objetos",
     "folder": "builds/nick nack nabber",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -276,7 +276,7 @@
     "name": "Furry Fury",
     "classes": "Bard (Valor) 19 / Warlock 1",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Melee / Ranged Nova Striker / Support",
+    "role": "Atacante Nova Cuerpo a Cuerpo y Distancia / Soporte",
     "folder": "builds/furry fury",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -293,7 +293,7 @@
     "name": "Furious Paradox",
     "classes": "Wizard (Bladesinger) 18 / Barbarian 2",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Thorns EHP Tank / Gish",
+    "role": "Tanque de Espinas y Aguante / Gish",
     "folder": "builds/furious paradox",
     "youtube": "https://www.youtube.com/watch?v=CwWNdQ_7uGc",
     "ratings": {
@@ -310,7 +310,7 @@
     "name": "Spymaster",
     "classes": "Rogue (Soulknife) 18 / Artificer 2",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Infiltrator / Skill Monkey / Utility Gish",
+    "role": "Infiltrador / Maestro de Habilidades / Gish de Utilidad",
     "folder": "builds/spymaster",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -327,7 +327,7 @@
     "name": "The BONK",
     "classes": "Barbarian (Beast) 3 / Monk (Long Death) 17",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Striker / Grappler / Temp HP Tank",
+    "role": "Atacante de Vanguardia / Agarrador / Tanque de Vida Temporal",
     "folder": "builds/the bonk",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
@@ -344,7 +344,7 @@
     "name": "Le Biter",
     "classes": "Fighter (Battle Master) 17 / Bard (Swords) 3",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Gish / Controller / Face",
+    "role": "Gish de Vanguardia / Controlador / Líder Social",
     "folder": "builds/le biter",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -361,7 +361,7 @@
     "name": "Penny Pinchin' Preacher",
     "classes": "Rogue (Soulknife) 18 / Cleric (Twilight) 2",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Resilient Support / Skill Monkey / Infiltrator",
+    "role": "Soporte Resistente / Maestro de Habilidades / Infiltrador",
     "folder": "builds/penny pinchin preacher",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -378,7 +378,7 @@
     "name": "Bear with a Flamethrower",
     "classes": "Druid (Moon) 17 / Artificer (Artillerist) 3",
     "system": "D&D 5e (2024 / 5.5e)",
-    "role": "Wild Shape Fire Blaster / Temp HP Tank",
+    "role": "Lanzador de Fuego en Forma Salvaje / Tanque de Vida Temporal",
     "folder": "builds/bear with a flamethrower",
     "youtube": "https://www.youtube.com/watch?v=gZEG5HBO2mo",
     "ratings": {
@@ -395,7 +395,7 @@
     "name": "Fartificer",
     "classes": "Fighter (Eldritch Knight) 17 / Artificer (Battle Smith) 3",
     "system": "D&D 5e (2014)",
-    "role": "Ranged Gadget Sniper / Heavy Striker",
+    "role": "Francotirador de Artefactos / Atacante Pesado",
     "folder": "builds/the fartificer",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
@@ -412,7 +412,7 @@
     "name": "Fist of God",
     "classes": "Monk (Way of Mercy) 12 / Cleric (War Domain) 8",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Striker / Divine Healer / Controller",
+    "role": "Atacante de Vanguardia / Sanador Divino / Controlador",
     "folder": "builds/fist of god",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {
@@ -429,7 +429,7 @@
     "name": "Priest of the Wilds",
     "classes": "Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8",
     "system": "D&D 5e (2014)",
-    "role": "Ranged Nova Sniper / Support Turret",
+    "role": "Francotirador Nova a Distancia / Torreta de Soporte",
     "folder": "builds/priest of the wilds",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
@@ -446,7 +446,7 @@
     "name": "Shadow Tank",
     "classes": "Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Thorns Tank / Heavy Striker",
+    "role": "Tanque de Espinas / Atacante Pesado",
     "folder": "builds/shadow tank",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
@@ -463,7 +463,7 @@
     "name": "Sneaky Smasher",
     "classes": "Rogue (Soulknife) 17 / Barbarian (Totem Warrior) 3",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Evasion Striker / Grappler",
+    "role": "Atacante de Evasión de Vanguardia / Agarrador",
     "folder": "builds/sneaky smasher",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
@@ -480,7 +480,7 @@
     "name": "Warrior of Flame",
     "classes": "Sorcerer (Draconic) 14 / Paladin (Devotion) 6",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Nova Striker / Aura Support",
+    "role": "Atacante Nova de Vanguardia / Soporte de Auras",
     "folder": "builds/warrior of flame",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
@@ -497,7 +497,7 @@
     "name": "Iron Dancer",
     "classes": "Wizard (Bladesinger) 18 / Artificer 2",
     "system": "D&D 5e (2014)",
-    "role": "Frontline Evasion Tank / Shapechange Angel / Spell Master",
+    "role": "Tanque de Evasión / Ángel de Metamorfosis / Maestro de Conjuros",
     "folder": "builds/iron dancer",
     "youtube": "https://www.youtube.com/watch?v=Yddy6J-_VMU",
     "ratings": {
@@ -514,7 +514,7 @@
     "name": "Super Sneaker Life Deleter",
     "classes": "Rogue (Assassin) 14 / Fighter (Battle Master) 6",
     "system": "D&D 5e (2014 / 2024)",
-    "role": "Ambush Assassin / First-Turn Burst Striker",
+    "role": "Asesino de Emboscada / Atacante Ráfaga de Primer Turno",
     "folder": "builds/super sneaker life deleter",
     "youtube": "https://www.youtube.com/watch?v=29_n1luQRmI",
     "ratings": {

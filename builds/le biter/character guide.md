@@ -1,6 +1,6 @@
 # Guía de Personaje — Le Biter
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Gish de Primera Línea, Controlador Táctico y Líder del Grupo (Face).
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 *   **Economía de Recursos y Manos:**
     *   **Foco Universal Único:** Su estoque actua como foco de lanzamiento de conjuros gracias al rasgo de la subclase *College of Swords*. Esto le permite sostener un estoque en una mano y un escudo (+2 CA) en la otra sin verse penalizado para lanzar magia de bardo o guerrero.

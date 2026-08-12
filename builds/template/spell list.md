@@ -26,31 +26,31 @@ Esta lista detalla la selección de conjuros sugerida para el build **[Nombre de
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 9 (9th Level) — [X] ranura(s)
+### Nivel 9 (Nivel 9) — [X] ranura(s)
 1.  **[Conjuro] 🔵 [Calidad - Función]:** [Descripción de uso, cuándo lanzarlo y sinergia].
 
-### Nivel 8 (8th Level) — [X] ranura(s)
+### Nivel 8 (Nivel 8) — [X] ranura(s)
 1.  **[Conjuro] 🟢 [Calidad - Función]:** [Descripción].
 
-### Nivel 7 (7th Level) — [X] ranura(s)
+### Nivel 7 (Nivel 7) — [X] ranura(s)
 1.  **[Conjuro] 🟢 [Calidad - Función]:** [Descripción].
 
-### Nivel 6 (6th Level) — [X] ranura(s)
+### Nivel 6 (Nivel 6) — [X] ranura(s)
 1.  **[Conjuro] 🔵 [Calidad - Función]:** [Descripción].
 
-### Nivel 5 (5th Level) — [X] ranura(s)
+### Nivel 5 (Nivel 5) — [X] ranura(s)
 1.  **[Conjuro] 🟢 [Calidad - Función]:** [Descripción].
 
-### Nivel 4 (4th Level) — [X] ranura(s)
+### Nivel 4 (Nivel 4) — [X] ranura(s)
 1.  **[Conjuro] 🟢 [Calidad - Función]:** [Descripción].
 
-### Nivel 3 (3rd Level) — [X] ranura(s)
+### Nivel 3 (Nivel 3) — [X] ranura(s)
 1.  **[Conjuro] 🔵 [Calidad - Función]:** [Descripción].
 
-### Nivel 2 (2nd Level) — [X] ranura(s)
+### Nivel 2 (Nivel 2) — [X] ranura(s)
 1.  **[Conjuro] 🟢 [Calidad - Función]:** [Descripción].
 
-### Nivel 1 (1st Level) — [X] ranura(s)
+### Nivel 1 (Nivel 1) — [X] ranura(s)
 1.  **[Conjuro] 🔵 [Calidad - Función]:** [Descripción].
 
 ---

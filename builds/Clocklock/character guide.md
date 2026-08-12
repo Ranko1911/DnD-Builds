@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Backline Blaster / Battlefield Controller / Probability Manipulator (Ametralladora de *Eldritch Blast* con triple ventaja constante y alta probabilidad de críticos, protegido por barreras Clockwork y control de dados).
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 * **Magia de Relojería (Clockwork Magic):**
   * Este rasgo te permite reemplazar los conjuros predeterminados de la subclase por cualquier conjuro de la escuela de **Abjuración** o **Transmutación** de las listas de Sorcerer, Warlock o Wizard. Esto te permite aprender hechizos rotos como *Armor of Agathys* (de Warlock) y *Shield* o *Absorb Elements* (de Wizard).

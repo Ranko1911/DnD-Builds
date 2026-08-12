@@ -1,4 +1,4 @@
-# Actual Inventory List — Bear with a Flamethrower
+# Inventario Actual — Bear with a Flamethrower
 
 ## Equipamiento Actual
 

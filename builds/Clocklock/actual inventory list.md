@@ -1,4 +1,4 @@
-# Actual Inventory List — Clocklock
+# Inventario Actual — Clocklock
 
 ## Equipamiento Actual
 

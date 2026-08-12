@@ -1,4 +1,4 @@
-# Item List — Tech Priest (Armorer & Forge Cleric)
+# Objetos a Obtener — Tech Priest (Armorer & Forge Cleric)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

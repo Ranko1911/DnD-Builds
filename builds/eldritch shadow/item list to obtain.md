@@ -1,4 +1,4 @@
-# Item List — Eldritch Shadow
+# Objetos a Obtener — Eldritch Shadow
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

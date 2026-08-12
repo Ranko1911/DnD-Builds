@@ -1,4 +1,4 @@
-# Item List — Herald of Hlal (Swords Bard & Paladin)
+# Objetos a Obtener — Herald of Hlal (Swords Bard & Paladin)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

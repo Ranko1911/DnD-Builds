@@ -1,6 +1,6 @@
 # Guía de Personaje — Fartificer
 
-## General Data
+## Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -27,7 +27,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Francotirador de Rango Pesado, Tanque de Cobertura y Especialista en Artilugios.
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Manos:**
   * **Foco Universal Único:** Su ballesta pesada infundida con *Repeating Shot* actúa como su canalizador unificado.

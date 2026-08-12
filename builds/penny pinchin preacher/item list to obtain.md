@@ -1,4 +1,4 @@
-# Item List — Penny Pinchin' Preacher
+# Objetos a Obtener — Penny Pinchin' Preacher
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

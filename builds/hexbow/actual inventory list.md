@@ -1,4 +1,4 @@
-# Actual Inventory List — Hexbow
+# Inventario Actual — Hexbow
 
 ## Equipamiento Actual
 

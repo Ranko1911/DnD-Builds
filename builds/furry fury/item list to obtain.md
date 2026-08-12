@@ -1,4 +1,4 @@
-# Item List — Furry Fury
+# Objetos a Obtener — Furry Fury
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

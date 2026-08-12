@@ -21,11 +21,11 @@ Esta lista detalla la selección de conjuros sugerida para el build **Le Biter**
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 2 (2nd Level) — 2 ranuras
+### Nivel 2 (Nivel 2) — 2 ranuras
 1.  **Mirror Image 🔵 [Indispensable - Defensa]:** Crea tres duplicados ilusorios de ti mismo. Los ataques enemigos se desvían a las copias. No requiere concentración, lo que es óptimo para un guerrero.
 2.  **Hold Person 🔵 [Excelente - Control]:** Paraliza a un humanoide. Cualquier ataque que le impacte a menos de 5 pies es crítco automático. Combinado con Action Surge y 3 ataques, es letal.
 
-### Nivel 1 (1st Level) — 4 ranuras
+### Nivel 1 (Nivel 1) — 4 ranuras
 1.  **Silvery Barbs 🔵 [Indispensable - Reactivo]:** Reacción de bardo para forzar a un enemigo a repetir una tirada exitosa y dar ventaja a un aliado (o a ti mismo). Extremadamente útil para salvaguardar tu concentración o tus defensas.
 2.  **Faerie Fire 🔵 [Excelente - Apoyo]:** Ventaja grupal en ataques contra objetivos dentro del área de efecto.
 3.  **Dissonant Whispers 🟢 [Excelente - Táctico]:** Daño psíquico que obliga al objetivo a huir usando su reacción, provocando ataques de oportunidad para ti y tus aliados.

@@ -55,32 +55,32 @@ const counts = {
     <div class="filter-item">
       <select id="filter-class" class="filter-select" aria-label="Filtrar por clase">
         <option value="all">Clase: Todas</option>
-        <option value="artificer">Artificer (Artífice)</option>
-        <option value="barbarian">Barbarian (Bárbaro)</option>
-        <option value="bard">Bard (Bardo)</option>
-        <option value="cleric">Cleric (Clérigo)</option>
-        <option value="druid">Druid (Druida)</option>
-        <option value="fighter">Fighter (Guerrero)</option>
-        <option value="monk">Monk (Monje)</option>
-        <option value="paladin">Paladin (Paladín)</option>
-        <option value="ranger">Ranger (Explorador)</option>
-        <option value="rogue">Rogue (Pícaro)</option>
-        <option value="sorcerer">Sorcerer (Hechicero)</option>
-        <option value="warlock">Warlock (Brujo)</option>
-        <option value="wizard">Wizard (Mago)</option>
+        <option value="artificer">Artificer</option>
+        <option value="barbarian">Barbarian</option>
+        <option value="bard">Bard</option>
+        <option value="cleric">Cleric</option>
+        <option value="druid">Druid</option>
+        <option value="fighter">Fighter</option>
+        <option value="monk">Monk</option>
+        <option value="paladin">Paladin</option>
+        <option value="ranger">Ranger</option>
+        <option value="rogue">Rogue</option>
+        <option value="sorcerer">Sorcerer</option>
+        <option value="warlock">Warlock</option>
+        <option value="wizard">Wizard</option>
       </select>
     </div>
 
     <div class="filter-item">
       <select id="filter-role" class="filter-select" aria-label="Filtrar por rol">
         <option value="all">Rol: Todos</option>
-        <option value="tank">Tank / Tanque</option>
-        <option value="striker">Striker / Daño</option>
-        <option value="controller">Controller / Control</option>
-        <option value="support">Support / Apoyo</option>
-        <option value="blaster">Blaster / Áreas</option>
-        <option value="gish">Gish / Marcial-Mágico</option>
-        <option value="sniper">Sniper / Distancia</option>
+        <option value="tanque">Tanque</option>
+        <option value="atacante">Atacante (Striker)</option>
+        <option value="controlador">Controlador</option>
+        <option value="soporte">Soporte</option>
+        <option value="lanzador">Lanzador (Blaster)</option>
+        <option value="gish">Gish (Marcial-Mágico)</option>
+        <option value="francotirador">Francotirador (Sniper)</option>
       </select>
     </div>
 
@@ -123,6 +123,20 @@ const counts = {
   const scoreSelect = document.getElementById('filter-score') as HTMLSelectElement;
   const noResults = document.getElementById('no-results')!;
 
+  function matchRoleFilter(roleText: string, filterVal: string) {
+    if (filterVal === 'all') return true;
+    const r = roleText.toLowerCase();
+    const v = filterVal.toLowerCase();
+    if (v === 'tanque' || v === 'tank') return r.includes('tanque') || r.includes('tank');
+    if (v === 'atacante' || v === 'striker') return r.includes('atacante') || r.includes('striker');
+    if (v === 'controlador' || v === 'controller') return r.includes('controlador') || r.includes('control') || r.includes('controller');
+    if (v === 'soporte' || v === 'support') return r.includes('soporte') || r.includes('sanador') || r.includes('apoyo') || r.includes('support');
+    if (v === 'lanzador' || v === 'blaster') return r.includes('lanzador') || r.includes('blaster');
+    if (v === 'gish') return r.includes('gish');
+    if (v === 'francotirador' || v === 'sniper') return r.includes('francotirador') || r.includes('sniper');
+    return r.includes(v);
+  }
+
   function applyFilters() {
     const query = searchInput?.value.toLowerCase().trim() ?? '';
     const sysVal = systemSelect?.value ?? 'all';
@@ -140,7 +154,7 @@ const counts = {
 
       const matchSys = sysVal === 'all' || sys.includes(sysVal);
       const matchClass = classVal === 'all' || classes.includes(classVal);
-      const matchRole = roleVal === 'all' || role.includes(roleVal);
+      const matchRole = matchRoleFilter(role, roleVal);
 
       let matchScore = true;
       if (scoreVal === 'tier-s') matchScore = total >= 75;

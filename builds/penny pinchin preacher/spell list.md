@@ -21,7 +21,7 @@ Esta lista detalla la selección de conjuros sugerida para el build **Penny Pinc
 
 *Organizados por el nivel de la ranura de conjuro.*
 
-### Nivel 1 (1st Level) — 3 ranuras
+### Nivel 1 (Nivel 1) — 3 ranuras
 1.  **Bless 🔵 [Indispensable - Concentración]:** El núcleo de tu soporte pasivo. Añade +1d4 a todas las tiradas de ataque y salvación de tres criaturas. Al ser un pícaro sumamente elusivo con *Evasion* y *Uncanny Dodge*, es casi imposible que pierdas la concentración.
 2.  **Faerie Fire 🔵 [Indispensable - Dominio Penumbra]:** Conjuro de dominio. Otorga ventaja automática contra todos los enemigos en un cubo de 20 pies si fallan su salvación de Destreza, activando tu *Sneak Attack* instantáneamente.
 3.  **Healing Word 🔵 [Excelente - Sanación]:** Cura a distancia usando una Acción Adicional. Esencial para levantar a aliados inconscientes sin perder tu acción principal de ataque.

@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -25,7 +25,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Striker de Ráfaga Móvil / Face del grupo / Experto en Habilidades (Skill Monkey)
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 - **Economía de Recursos y Manos:**
   - **Armas:** Daga en mano principal (para lanzar/combate cuerpo a cuerpo) y un Estoque en la mano principal (Finesse). Al usar la regla de Foco Universal de la mesa, un único anillo o amuleto que sirva de foco canaliza todos los conjuros sin requerir manos libres.

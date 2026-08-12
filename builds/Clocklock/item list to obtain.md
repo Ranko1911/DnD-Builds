@@ -1,4 +1,4 @@
-# Item List — Clocklock (Clockwork Soul & Hexblade)
+# Objetos a Obtener — Clocklock (Clockwork Soul & Hexblade)
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

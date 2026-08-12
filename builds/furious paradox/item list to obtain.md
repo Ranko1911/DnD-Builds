@@ -1,4 +1,4 @@
-# Item List — Furious Paradox
+# Objetos a Obtener — Furious Paradox
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 

@@ -20,37 +20,37 @@ Esta lista detalla la selección de conjuros sugerida para el **Moon Guardian**.
 
 *Preparas $\text{WIS (+2)} + \text{Druid Level (13)} = 15$ conjuros por descanso largo. Tus ranuras se usan principalmente para self-heal en Wild Shape ($Xd8$ por nivel de slot) y utilidad fuera de combate.*
 
-### Nivel 7 (7th Level) — 1 ranura
+### Nivel 7 (Nivel 7) — 1 ranura
 
 1. **Plane Shift 🟢 [Transporte/Destierro]:** Transporta al grupo a otro plano de existencia, o como ataque de toque, destierra a un enemigo a otro plano (salvación de CAR). Utilidad estratégica inmensa.
 
-### Nivel 6 (6th Level) — 1 ranura
+### Nivel 6 (Nivel 6) — 1 ranura
 
 1. **Heal 🔵 [Curación masiva — Emergencia]:** Restaura 70 HP a una criatura tocada e elimina ceguera, sordera y enfermedades. El mejor conjuro de curación pura disponible. Usar fuera de combate o en emergencia absoluta (rompe Rage).
 2. **Heroes' Feast 🟢 [Buff de grupo — Pre-aventura]:** Cura enfermedades, otorga inmunidad a veneno y miedo, y $2d10$ HP máximos extra a todo el grupo durante 24 horas. Requiere 1 hora de festín y 1000 po en componentes.
 
-### Nivel 5 (5th Level) — 2 ranuras
+### Nivel 5 (Nivel 5) — 2 ranuras
 
 1. **Mass Cure Wounds 🟢 [Curación AoE]:** Cura hasta 6 criaturas dentro de 30 pies por $3d8 + \text{WIS}$ cada una. Excelente recuperación post-combate.
 2. **Greater Restoration 🔵 [Eliminación de condiciones]:** Elimina una condición devastadora (petrifacción, maldición, reducción de habilidad, HP máximo reducido). Imprescindible tener preparado.
 
-### Nivel 4 (4th Level) — 3 ranuras
+### Nivel 4 (Nivel 4) — 3 ranuras
 
 1. **Fire Shield 🔵 [Pre-combate — Sin Concentración — CLAVE]:** Otorga resistencia a fuego O frío (eliges al lanzar) durante 10 minutos sin concentración. Cuando un enemigo a 5 pies te golpea con cuerpo a cuerpo, sufre $2d8$ de daño (~9 media). **Funciona durante Wild Shape y Rage**. En un tanque que atrae ataques constantemente, genera daño pasivo brutal.
 2. **Freedom of Movement 🟢 [Utilidad — Sin Concentración]:** Un aliado o tú mismo no puede ser paralizado, restringido ni ralentizado por magia durante 1 hora. Excelente seguro.
 
-### Nivel 3 (3rd Level) — 3 ranuras
+### Nivel 3 (Nivel 3) — 3 ranuras
 
 1. **Aura of Vitality 🔵 [Curación masiva fuera de combate]:** Concentración, 1 minuto. Cada turno como bonus action curas $2d6$ HP a una criatura a 30 pies. Total: 10 rondas × $2d6$ = ~70 HP de curación distribuida. Ideal post-combate.
 2. **Revivify 🔵 [Resurrección de emergencia]:** Devuelve la vida a una criatura muerta en el último minuto. Cuesta 300 po en diamantes. Imprescindible tener preparado siempre.
 3. **Dispel Magic 🟢 [Utilidad general]:** Elimina conjuros de nivel 3 o inferior automáticamente. Situacional pero vital cuando se necesita.
 
-### Nivel 2 (2nd Level) — 3 ranuras
+### Nivel 2 (Nivel 2) — 3 ranuras
 
 1. **Pass Without Trace 🔵 [Sigilo de grupo]:** Concentración, 1 hora. Otorga $+10$ a pruebas de Sigilo a todo el grupo dentro de 30 pies. Convierte al grupo entero en fantasmas.
 2. **Lesser Restoration 🟢 [Eliminación de condiciones menores]:** Elimina una enfermedad o condición (ceguera, sordera, paralizado, envenenado).
 
-### Nivel 1 (1st Level) — 4 ranuras
+### Nivel 1 (Nivel 1) — 4 ranuras
 
 1. **Goodberry 🔵 [Curación y utilidad]:** Crea 10 bayas que curan 1 HP cada una. Útil para estabilizar aliados inconscientes a distancia.
 2. **Healing Word 🔵 [Curación a distancia — Bonus Action]:** Cura $1d4 + \text{WIS}$ a 60 pies como acción adicional. Crucial para levantar aliados caídos sin dejar de pelear (pero rompe Rage).

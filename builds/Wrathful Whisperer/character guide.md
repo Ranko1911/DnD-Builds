@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2014 Ruleset)
 
@@ -25,7 +25,7 @@ Roadmap de Progresión: ./roadmap.md
 
 Combat Role: Frontline Striker / Skirmisher / Crowd Controller / Party Face (Tanque de evasión por CA alta / Daño melee ráfaga mediante *Divine Smite* y floreos tácticos)
 
- 1. Resource Management & Inventory Rules
+ 1. Gestión de Recursos y Reglas de Inventario
 
 * **Economía de Recursos y Manos:**
   * Vistes **Plate Armor** y llevas un **Escudo** junto con tu Rapier para una CA base sólida. La característica clave de College of Swords te permite usar cualquier arma cuerpo a cuerpo en la que seas competente (como tu Rapier) como un foco de lanzamiento para tus conjuros de Bardo, solucionando la economía de manos libres mientras sostienes escudo y arma.

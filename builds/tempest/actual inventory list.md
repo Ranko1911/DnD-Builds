@@ -1,4 +1,4 @@
-# Actual Inventory List — Tempest Demiurge
+# Inventario Actual — Tempest Demiurge
 
 ## Equipamiento Actual
 

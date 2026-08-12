@@ -1,4 +1,4 @@
-# General Data
+# Datos Generales
 
 System Standard: D&D 5th Edition (2024 / 5.5e Update)
 
@@ -23,7 +23,7 @@ Bastión y Tiempo Muerto: ./bastion and downtime.md
 
 Combat Role: Frontline Gish (Tank / Tactical Controller / AoE Burst Damage / Support / Off-healer)
 
-## 1. Resource Management & Inventory Rules
+## 1. Gestión de Recursos y Reglas de Inventario
 
 * **Universal Spellcasting Focus:** Se aplica la Regla de Casa 1. La joyería mágica fusionada (Amulet of the Devout + Stormshaper's Amulet) funciona como el foco de lanzamiento universal para conjuros de Clérigo y de Mago.
 * **Free-Hand Economy:** Escudo equipado en la mano secundaria. La mano principal queda completamente libre para portar armas (Martillo de Guerra / Staff of the Magi) o manipular componentes Somáticos/Materiales. No se aplican penalizaciones por intercambio de armas.
