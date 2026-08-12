@@ -525,5 +525,22 @@
       "complexity": 42,
       "utility": 62
     }
+  },
+  {
+    "id": "hurricane-monk-unmatched-martial-control--dd-55",
+    "name": "Hurricane Monk: UNMATCHED Martial Control ",
+    "classes": "Monk (Warrior of Elements) 19 / Ranger 1",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Controlador Marcial de Vanguardia / Martinete Aéreo / Dominador de Campo",
+    "folder": "builds/hurricane monk unmatched martial control  dd 55",
+    "youtube": "https://www.youtube.com/watch?v=jtlTkKIYpJc",
+    "ratings": {
+      "dpr": 78,
+      "ehp": 88,
+      "control": 98,
+      "support": 55,
+      "complexity": 70,
+      "utility": 75
+    }
   }
 ]
