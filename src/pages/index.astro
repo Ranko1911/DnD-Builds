@@ -3,6 +3,8 @@ import Layout from '../layouts/Layout.astro';
 import BuildCard from '../components/BuildCard.astro';
 import buildsData from '../../builds.json';
 
+const base = import.meta.env.BASE_URL;
+
 const builds = buildsData.map(b => ({
   ...b,
   total: Math.round((b.ratings.dpr + b.ratings.ehp + b.ratings.control + b.ratings.support + b.ratings.utility) / 5)
@@ -112,6 +114,17 @@ const counts = {
       No se encontraron builds con ese criterio.
     </p>
   </div>
+
+  <!-- Floating Comparison Action Bar -->
+  <div id="compare-float-bar" class="compare-float-bar" style="display:none">
+    <div class="compare-float-inner">
+      <span id="compare-float-text" class="compare-float-text">0 personajes seleccionados</span>
+      <div class="compare-float-btns">
+        <button id="compare-float-clear" type="button" class="compare-float-clear">Limpiar</button>
+        <a id="compare-float-launch" href={`${base}compare`} class="compare-float-launch">Comparar Lado a Lado ⚔️</a>
+      </div>
+    </div>
+  </div>
 </Layout>
 
 <script>
@@ -177,4 +190,70 @@ const counts = {
   classSelect?.addEventListener('change', applyFilters);
   roleSelect?.addEventListener('change', applyFilters);
   scoreSelect?.addEventListener('change', applyFilters);
+
+  // ── Floating comparison handler ───────────────────────────────────────────
+  const compareBtns = document.querySelectorAll('[data-compare-id]');
+  const floatBar = document.getElementById('compare-float-bar');
+  const floatText = document.getElementById('compare-float-text');
+  const floatClear = document.getElementById('compare-float-clear');
+  const floatLaunch = document.getElementById('compare-float-launch') as HTMLAnchorElement | null;
+
+  function getStoredCompare(): string[] {
+    try {
+      return JSON.parse(localStorage.getItem('dnd_compare_builds') || '[]');
+    } catch(e) { return []; }
+  }
+
+  function saveStoredCompare(list: string[]) {
+    try {
+      localStorage.setItem('dnd_compare_builds', JSON.stringify(list));
+    } catch(e) {}
+  }
+
+  function updateFloatBar() {
+    const list = getStoredCompare();
+    compareBtns.forEach(btn => {
+      const id = (btn as HTMLElement).dataset.compareId!;
+      const selected = list.includes(id);
+      btn.classList.toggle('active', selected);
+      btn.textContent = selected ? '✓ Añadido' : '+ Comparar';
+    });
+
+    if (floatBar) {
+      if (list.length > 0) {
+        floatBar.style.display = 'flex';
+        if (floatText) floatText.textContent = `${list.length} personaje${list.length > 1 ? 's' : ''} para comparar`;
+        if (floatLaunch) {
+          const baseAttr = floatLaunch.getAttribute('href')?.split('?')[0] || '';
+          floatLaunch.href = `${baseAttr}?builds=${list.join(',')}`;
+        }
+      } else {
+        floatBar.style.display = 'none';
+      }
+    }
+  }
+
+  compareBtns.forEach(btn => {
+    btn.addEventListener('click', (e) => {
+      e.preventDefault();
+      e.stopPropagation();
+      const id = (btn as HTMLElement).dataset.compareId!;
+      let list = getStoredCompare();
+      if (list.includes(id)) {
+        list = list.filter(x => x !== id);
+      } else {
+        if (list.length >= 4) list.shift();
+        list.push(id);
+      }
+      saveStoredCompare(list);
+      updateFloatBar();
+    });
+  });
+
+  floatClear?.addEventListener('click', () => {
+    saveStoredCompare([]);
+    updateFloatBar();
+  });
+
+  updateFloatBar();
 </script>

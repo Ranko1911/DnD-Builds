@@ -42,26 +42,40 @@ const ratings = [
 ];
 ---
 
-<a href={`${base}builds/${build.id}`} class="build-card" aria-label={`Ver build: ${build.name}`}>
-  <span class={`card-system ${systemClass(build.system)}`}>
-    {systemLabel(build.system)}
-  </span>
-
-  <h2 class="card-name">{build.name}</h2>
-  <p class="card-classes">{build.classes}</p>
-  <p class="card-role">{build.role}</p>
-
-  <div class="card-spacer"></div>
-
-  <div class="card-ratings" aria-label="Ratings">
-    {ratings.map(r => (
-      <div class="card-rating-row">
-        <span class="card-rating-label" style={`color: ${r.color}`}>{r.label}</span>
-        <div class="card-rating-bar" role="progressbar" aria-valuenow={r.value} aria-valuemin={0} aria-valuemax={100}>
-          <div class="card-rating-fill" style={`width: ${r.value}%; background: ${r.color}`}></div>
-        </div>
-        <span class="card-rating-num" style={`color: ${r.color}`}>{r.value}</span>
-      </div>
-    ))}
+<div class="build-card">
+  <div class="build-card-header">
+    <span class={`card-system ${systemClass(build.system)}`}>
+      {systemLabel(build.system)}
+    </span>
+    <button
+      type="button"
+      class="card-compare-btn"
+      data-compare-id={build.id}
+      data-compare-name={build.name}
+      title="Añadir a la comparativa"
+      aria-label={`Añadir ${build.name} a la comparativa`}
+    >
+      + Comparar
+    </button>
   </div>
-</a>
+
+  <a href={`${base}builds/${build.id}`} class="build-card-link" aria-label={`Ver build: ${build.name}`}>
+    <h2 class="card-name">{build.name}</h2>
+    <p class="card-classes">{build.classes}</p>
+    <p class="card-role">{build.role}</p>
+
+    <div class="card-spacer"></div>
+
+    <div class="card-ratings" aria-label="Ratings">
+      {ratings.map(r => (
+        <div class="card-rating-row">
+          <span class="card-rating-label" style={`color: ${r.color}`}>{r.label}</span>
+          <div class="card-rating-bar" role="progressbar" aria-valuenow={r.value} aria-valuemin={0} aria-valuemax={100}>
+            <div class="card-rating-fill" style={`width: ${r.value}%; background: ${r.color}`}></div>
+          </div>
+          <span class="card-rating-num" style={`color: ${r.color}`}>{r.value}</span>
+        </div>
+      ))}
+    </div>
+  </a>
+</div>

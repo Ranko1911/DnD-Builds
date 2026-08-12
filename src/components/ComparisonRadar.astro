@@ -1,0 +1,209 @@
+---
+interface Ratings {
+  dpr: number;
+  ehp: number;
+  control: number;
+  support: number;
+  utility: number;
+  complexity: number;
+}
+
+interface BuildItem {
+  id: string;
+  name: string;
+  ratings: Ratings;
+}
+
+interface Props {
+  builds: BuildItem[];
+}
+
+const { builds } = Astro.props;
+
+// Extended 12-color palette for unlimited builds
+const PALETTE = [
+  '#c9a84c', // Gold
+  '#14b8a6', // Teal
+  '#a855f7', // Purple
+  '#ef4444', // Red
+  '#3b82f6', // Blue
+  '#10b981', // Green
+  '#f59e0b', // Amber
+  '#ec4899', // Pink
+  '#06b6d4', // Cyan
+  '#8b5cf6', // Indigo
+  '#f97316', // Orange
+  '#84cc16', // Lime
+];
+
+function getColor(index: number) {
+  const stroke = PALETTE[index % PALETTE.length];
+  // convert hex to rgba for fill
+  const hex = stroke.replace('#', '');
+  const r = parseInt(hex.substring(0, 2), 16);
+  const g = parseInt(hex.substring(2, 4), 16);
+  const b = parseInt(hex.substring(4, 6), 16);
+  return {
+    stroke,
+    fill: `rgba(${r}, ${g}, ${b}, 0.18)`,
+  };
+}
+
+// Geometry setup
+const cx = 140, cy = 140, R = 95;
+const PI = Math.PI;
+
+const angles = Array.from({ length: 6 }, (_, i) => -PI / 2 + (i * 2 * PI) / 6);
+
+const axisLabels = [
+  { key: 'dpr',        label: 'Daño (DPR)',   color: '#ef4444' },
+  { key: 'ehp',        label: 'Aguante (EHP)',color: '#14b8a6' },
+  { key: 'control',    label: 'Control',      color: '#a855f7' },
+  { key: 'support',    label: 'Soporte',      color: '#3b82f6' },
+  { key: 'utility',    label: 'Utilidad',     color: '#10b981' },
+  { key: 'complexity', label: 'Complejidad',  color: '#f59e0b' },
+];
+
+function pt(r: number, i: number) {
+  return {
+    x: +(cx + r * Math.cos(angles[i])).toFixed(2),
+    y: +(cy + r * Math.sin(angles[i])).toFixed(2),
+  };
+}
+
+function polygon(r: number) {
+  return angles.map((_, i) => { const p = pt(r, i); return `${p.x},${p.y}`; }).join(' ');
+}
+
+// Compute polygons for each build
+const buildPolygons = builds.map(b => {
+  const pts = [
+    pt(R * (b.ratings.dpr / 100), 0),
+    pt(R * (b.ratings.ehp / 100), 1),
+    pt(R * (b.ratings.control / 100), 2),
+    pt(R * (b.ratings.support / 100), 3),
+    pt(R * (b.ratings.utility / 100), 4),
+    pt(R * (b.ratings.complexity / 100), 5),
+  ];
+  return {
+    pointsStr: pts.map(p => `${p.x},${p.y}`).join(' '),
+    dots: pts,
+  };
+});
+
+const labelPts = angles.map((_, i) => pt(R + 18, i));
+---
+
+<div class="compare-radar-container">
+  <svg viewBox="0 0 280 280" class="compare-radar-svg" role="img" aria-label="Gráfico de radar comparativo">
+    <!-- Grid rings (25% / 50% / 75% / 100%) -->
+    {[0.25, 0.5, 0.75, 1].map((frac, li) => (
+      <polygon
+        points={polygon(R * frac)}
+        fill="none"
+        stroke={li === 3 ? 'rgba(201,168,76,0.35)' : 'rgba(201,168,76,0.12)'}
+        stroke-width={li === 3 ? '1.2' : '0.6'}
+      />
+    ))}
+
+    <!-- Axis lines -->
+    {angles.map((_, i) => {
+      const end = pt(R, i);
+      return <line x1={cx} y1={cy} x2={end.x} y2={end.y} stroke="rgba(201,168,76,0.2)" stroke-width="0.6" />;
+    })}
+
+    <!-- Build data polygons -->
+    {buildPolygons.map((bp, bi) => {
+      const c = getColor(bi);
+      return (
+        <>
+          <polygon
+            points={bp.pointsStr}
+            fill={c.fill}
+            stroke={c.stroke}
+            stroke-width="2"
+            stroke-linejoin="round"
+          />
+          {bp.dots.map(d => (
+            <circle cx={d.x} cy={d.y} r="3" fill={c.stroke} stroke="#0e0e1c" stroke-width="1" />
+          ))}
+        </>
+      );
+    })}
+
+    <!-- Axis text labels -->
+    {labelPts.map((p, i) => (
+      <text
+        x={p.x}
+        y={p.y}
+        text-anchor={p.x < cx - 5 ? 'end' : p.x > cx + 5 ? 'start' : 'middle'}
+        dominant-baseline="middle"
+        font-size="8.5"
+        font-family="Inter, sans-serif"
+        font-weight="700"
+        fill={axisLabels[i].color}
+      >
+        {axisLabels[i].label}
+      </text>
+    ))}
+  </svg>
+
+  <!-- Color Legend -->
+  <div class="compare-radar-legend">
+    {builds.map((b, bi) => {
+      const c = getColor(bi);
+      return (
+        <div class="compare-legend-item">
+          <span class="compare-legend-color" style={`background:${c.stroke}`}></span>
+          <span class="compare-legend-name">{b.name}</span>
+        </div>
+      );
+    })}
+  </div>
+</div>
+
+<style>
+.compare-radar-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.25rem;
+  width: 100%;
+}
+
+.compare-radar-svg {
+  width: 100%;
+  max-width: 360px;
+  height: auto;
+}
+
+.compare-radar-legend {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.5rem 1rem;
+}
+
+.compare-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  padding: 0.3rem 0.65rem;
+  border-radius: var(--r-md);
+}
+
+.compare-legend-color {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  flex-shrink: 0;
+}
+
+.compare-legend-name {
+  font-size: 0.775rem;
+  font-weight: 600;
+  color: var(--text);
+}
+</style>
