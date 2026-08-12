@@ -9,7 +9,7 @@ const base = import.meta.env.BASE_URL;
 // Calculate total ratings for builds
 const builds = buildsData.map(b => {
   const r = b.ratings;
-  const total = roundScore((r.dpr + r.ehp + r.control + r.support + r.utility + r.complexity) / 6);
+  const total = roundScore((r.dpr + r.ehp + r.control + r.support + r.utility) / 5);
   return { ...b, total };
 });
 
@@ -467,8 +467,11 @@ const statConfigs = [
 
   // Handle Quick Actions
   document.getElementById('btn-quick-top4')?.addEventListener('click', () => {
-    // Top 4 builds by score: tempest-demiurge, clocklock, iron-dancer, spirit-caller
-    selectedIds = ['tempest-demiurge', 'clocklock', 'iron-dancer', 'spirit-caller'];
+    // Dynamically select the Top 4 builds by total score
+    selectedIds = [...builds]
+      .sort((a, b) => b.total - a.total)
+      .slice(0, 4)
+      .map(b => b.id);
     saveState();
     renderAll();
   });

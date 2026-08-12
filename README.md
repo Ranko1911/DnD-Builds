@@ -139,7 +139,7 @@ DnDbuilds/
 | **Warrior of Flame** | Sorcerer (Draconic) 14 / Paladin (Devotion) 6 | D&D 5e (2014) | Atacante Nova de Vanguardia / Soporte de Auras | [Vídeo](https://www.youtube.com/watch?v=Yddy6J-_VMU) |
 | **Iron Dancer** | Wizard (Bladesinger) 18 / Artificer 2 | D&D 5e (2014) | Tanque de Evasión / Ángel de Metamorfosis / Maestro de Conjuros | [Vídeo](https://www.youtube.com/watch?v=Yddy6J-_VMU) |
 | **Super Sneaker Life Deleter** | Rogue (Assassin) 14 / Fighter (Battle Master) 6 | D&D 5e (2014 / 2024) | Asesino de Emboscada / Atacante Ráfaga de Primer Turno | [Vídeo](https://www.youtube.com/watch?v=29_n1luQRmI) |
-| **Hurricane Monk** | Monk (Warrior of Elements) 19 / Ranger 1 | D&D 5e (2024 / 5.5e) | Controlador Marcial de Vanguardia / Martinete Aéreo / Dominador de Campo | [Vídeo](https://www.youtube.com/watch?v=jtlTkKIYpJc) |
+| **Hurricane Monk ** | Monk (Warrior of Elements) 19 / Ranger 1 | D&D 5e (2024 / 5.5e) | Controlador Marcial de Vanguardia / Martinete Aéreo / Dominador de Campo | [Vídeo](https://www.youtube.com/watch?v=jtlTkKIYpJc) |
 | **Death Knight** | Artificer (Battle Smith) 3 / Wizard (Necromancy) 17 | D&D 5e (2014) | Tanque Gish de Vanguardia / Comandante Nigromante / Controlador Glaciar | [Vídeo](https://www.youtube.com/watch?v=ACBnrSxzHoE) |
 | **The Conductor** | Cleric (Order Domain) 1 / Bard (College of Glamour) 19 | D&D 5e (2014) | Soporte Total / Habilitador de Reacciones / Director Táctico | [Vídeo](https://www.youtube.com/watch?v=9QPHif--dts) |
 | **Armorlock** | Artificer (Armorer) 17 / Warlock (Fathomless) 3 | D&D 5e (2014) | Tanque Pesado de Inteligencia / Provocador de Amenaza / Controlador de Velocidad | [Vídeo](https://www.youtube.com/watch?v=4BNa8c2wR0w) |
