@@ -3,10 +3,13 @@ import Layout from '../layouts/Layout.astro';
 import BuildCard from '../components/BuildCard.astro';
 import buildsData from '../../builds.json';
 
-const builds = buildsData;
+const builds = buildsData.map(b => ({
+  ...b,
+  total: Math.round((b.ratings.dpr + b.ratings.ehp + b.ratings.control + b.ratings.support) / 4)
+}));
 
 const counts = {
-  all:  builds.length,
+  all: builds.length,
   y2014: builds.filter(b => b.system.includes('2014')).length,
   y2024: builds.filter(b => b.system.includes('2024')).length,
 };
@@ -21,7 +24,7 @@ const counts = {
       analizados por el Archivero del Multiverso.
     </p>
     <span class="hero-count">
-      <strong>{counts.all}</strong> builds cataloguadas
+      <strong>{counts.all}</strong> builds catalogadas
     </span>
   </section>
 
@@ -35,17 +38,59 @@ const counts = {
         id="build-search"
         type="search"
         class="search-input"
-        placeholder="Nombre, clase, rol…"
+        placeholder="Buscar por nombre, clase, rol…"
         aria-label="Buscar builds"
         autocomplete="off"
       />
     </div>
 
-    <span class="filter-label">Sistema</span>
-    <div class="filter-group" role="group" aria-label="Filtrar por sistema">
-      <button class="filter-btn active" data-filter="all"  aria-pressed="true">Todos ({counts.all})</button>
-      <button class="filter-btn"        data-filter="2014" aria-pressed="false">2014 ({counts.y2014})</button>
-      <button class="filter-btn"        data-filter="2024" aria-pressed="false">2024 / 5.5e ({counts.y2024})</button>
+    <div class="filter-item">
+      <select id="filter-system" class="filter-select" aria-label="Filtrar por sistema">
+        <option value="all">Sistema: Todos ({counts.all})</option>
+        <option value="2014">2014 ({counts.y2014})</option>
+        <option value="2024">2024 / 5.5e ({counts.y2024})</option>
+      </select>
+    </div>
+
+    <div class="filter-item">
+      <select id="filter-class" class="filter-select" aria-label="Filtrar por clase">
+        <option value="all">Clase: Todas</option>
+        <option value="artificer">Artificer (Artífice)</option>
+        <option value="barbarian">Barbarian (Bárbaro)</option>
+        <option value="bard">Bard (Bardo)</option>
+        <option value="cleric">Cleric (Clérigo)</option>
+        <option value="druid">Druid (Druida)</option>
+        <option value="fighter">Fighter (Guerrero)</option>
+        <option value="monk">Monk (Monje)</option>
+        <option value="paladin">Paladin (Paladín)</option>
+        <option value="ranger">Ranger (Explorador)</option>
+        <option value="rogue">Rogue (Pícaro)</option>
+        <option value="sorcerer">Sorcerer (Hechicero)</option>
+        <option value="warlock">Warlock (Brujo)</option>
+        <option value="wizard">Wizard (Mago)</option>
+      </select>
+    </div>
+
+    <div class="filter-item">
+      <select id="filter-role" class="filter-select" aria-label="Filtrar por rol">
+        <option value="all">Rol: Todos</option>
+        <option value="tank">Tank / Tanque</option>
+        <option value="striker">Striker / Daño</option>
+        <option value="controller">Controller / Control</option>
+        <option value="support">Support / Apoyo</option>
+        <option value="blaster">Blaster / Áreas</option>
+        <option value="gish">Gish / Marcial-Mágico</option>
+        <option value="sniper">Sniper / Distancia</option>
+      </select>
+    </div>
+
+    <div class="filter-item">
+      <select id="filter-score" class="filter-select" aria-label="Filtrar por puntuación total">
+        <option value="all">Puntuación: Todas</option>
+        <option value="tier-s">Tier S (≥ 75)</option>
+        <option value="tier-a">Tier A (60 - 74)</option>
+        <option value="tier-b">Tier B (&lt; 60)</option>
+      </select>
     </div>
   </div>
 
@@ -58,6 +103,7 @@ const counts = {
         data-name={build.name.toLowerCase()}
         data-classes={build.classes.toLowerCase()}
         data-role={build.role.toLowerCase()}
+        data-total={build.total}
       >
         <BuildCard build={build} />
       </div>
@@ -69,45 +115,52 @@ const counts = {
 </Layout>
 
 <script>
-  const cards    = document.querySelectorAll<HTMLElement>('[data-card]');
-  const btnGroup = document.querySelectorAll<HTMLButtonElement>('[data-filter]');
-  const search   = document.getElementById('build-search') as HTMLInputElement;
+  const cards = document.querySelectorAll<HTMLElement>('[data-card]');
+  const searchInput = document.getElementById('build-search') as HTMLInputElement;
+  const systemSelect = document.getElementById('filter-system') as HTMLSelectElement;
+  const classSelect = document.getElementById('filter-class') as HTMLSelectElement;
+  const roleSelect = document.getElementById('filter-role') as HTMLSelectElement;
+  const scoreSelect = document.getElementById('filter-score') as HTMLSelectElement;
   const noResults = document.getElementById('no-results')!;
 
-  let activeFilter = 'all';
-  let query = '';
+  function applyFilters() {
+    const query = searchInput?.value.toLowerCase().trim() ?? '';
+    const sysVal = systemSelect?.value ?? 'all';
+    const classVal = classSelect?.value ?? 'all';
+    const roleVal = roleSelect?.value ?? 'all';
+    const scoreVal = scoreSelect?.value ?? 'all';
 
-  function apply() {
     let visible = 0;
     cards.forEach(card => {
-      const sys     = card.dataset.system ?? '';
-      const name    = card.dataset.name ?? '';
+      const sys = card.dataset.system ?? '';
+      const name = card.dataset.name ?? '';
       const classes = card.dataset.classes ?? '';
-      const role    = card.dataset.role ?? '';
+      const role = card.dataset.role ?? '';
+      const total = Number(card.dataset.total ?? '0');
 
-      const matchSys    = activeFilter === 'all' || sys.includes(activeFilter);
+      const matchSys = sysVal === 'all' || sys.includes(sysVal);
+      const matchClass = classVal === 'all' || classes.includes(classVal);
+      const matchRole = roleVal === 'all' || role.includes(roleVal);
+
+      let matchScore = true;
+      if (scoreVal === 'tier-s') matchScore = total >= 75;
+      else if (scoreVal === 'tier-a') matchScore = total >= 60 && total < 75;
+      else if (scoreVal === 'tier-b') matchScore = total < 60;
+
       const matchSearch = !query ||
         name.includes(query) || classes.includes(query) || role.includes(query);
 
-      const show = matchSys && matchSearch;
+      const show = matchSys && matchClass && matchRole && matchScore && matchSearch;
       card.style.display = show ? '' : 'none';
       if (show) visible++;
     });
+
     noResults.style.display = visible === 0 ? '' : 'none';
   }
 
-  btnGroup.forEach(btn => {
-    btn.addEventListener('click', () => {
-      btnGroup.forEach(b => { b.classList.remove('active'); b.setAttribute('aria-pressed', 'false'); });
-      btn.classList.add('active');
-      btn.setAttribute('aria-pressed', 'true');
-      activeFilter = btn.dataset.filter ?? 'all';
-      apply();
-    });
-  });
-
-  search?.addEventListener('input', e => {
-    query = (e.target as HTMLInputElement).value.toLowerCase().trim();
-    apply();
-  });
+  searchInput?.addEventListener('input', applyFilters);
+  systemSelect?.addEventListener('change', applyFilters);
+  classSelect?.addEventListener('change', applyFilters);
+  roleSelect?.addEventListener('change', applyFilters);
+  scoreSelect?.addEventListener('change', applyFilters);
 </script>
