@@ -90,8 +90,11 @@ const counts = {
       <select id="filter-score" class="filter-select" aria-label="Filtrar por puntuación total">
         <option value="all">Puntuación: Todas</option>
         <option value="tier-s">Tier S (≥ 75)</option>
-        <option value="tier-a">Tier A (60 - 74)</option>
-        <option value="tier-b">Tier B (&lt; 60)</option>
+        <option value="tier-a">Tier A (65 – 74)</option>
+        <option value="tier-b">Tier B (55 – 64)</option>
+        <option value="tier-c">Tier C (45 – 54)</option>
+        <option value="tier-d">Tier D (35 – 44)</option>
+        <option value="tier-f">Tier F (&lt; 35)</option>
       </select>
     </div>
   </div>
@@ -170,9 +173,12 @@ const counts = {
       const matchRole = matchRoleFilter(role, roleVal);
 
       let matchScore = true;
-      if (scoreVal === 'tier-s') matchScore = total >= 75;
-      else if (scoreVal === 'tier-a') matchScore = total >= 60 && total < 75;
-      else if (scoreVal === 'tier-b') matchScore = total < 60;
+      if      (scoreVal === 'tier-s') matchScore = total >= 75;
+      else if (scoreVal === 'tier-a') matchScore = total >= 65 && total < 75;
+      else if (scoreVal === 'tier-b') matchScore = total >= 55 && total < 65;
+      else if (scoreVal === 'tier-c') matchScore = total >= 45 && total < 55;
+      else if (scoreVal === 'tier-d') matchScore = total >= 35 && total < 45;
+      else if (scoreVal === 'tier-f') matchScore = total < 35;
 
       const matchSearch = !query ||
         name.includes(query) || classes.includes(query) || role.includes(query);
