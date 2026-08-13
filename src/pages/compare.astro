@@ -53,16 +53,27 @@ const statConfigs = [
         </div>
 
         <!-- Add character select box -->
-        <div class="compare-add-box">
-          <label for="add-character-select" class="sr-only">Añadir personaje</label>
-          <select id="add-character-select" class="filter-select compare-add-select">
-            <option value="none">➕ Añadir personaje a la comparativa…</option>
-            {builds.map(b => (
-              <option value={b.id}>
-                {b.name} ({b.total} Pts) — {b.classes}
-              </option>
-            ))}
-          </select>
+        <div class="compare-add-box" id="compare-add-box">
+          <button id="btn-compare-add-toggle" type="button" class="compare-add-btn" aria-expanded="false">
+            <span>➕ Añadir personaje a la comparativa…</span>
+            <span id="compare-add-arrow">▼</span>
+          </button>
+
+          <div id="compare-add-popover" class="compare-add-popover hidden">
+            <div class="compare-search-wrap">
+              <span class="compare-search-icon">🔍</span>
+              <input
+                id="compare-search-input"
+                type="text"
+                class="compare-search-input"
+                placeholder="Buscar por nombre o clase..."
+                autocomplete="off"
+              />
+            </div>
+            <div id="compare-options-list" class="compare-options-list">
+              <!-- Rendered dynamically by JS -->
+            </div>
+          </div>
         </div>
       </div>
 
@@ -422,6 +433,92 @@ const statConfigs = [
     `;
   }
 
+  // ── Custom Searchable Character Select Popover Handler ─────────────────
+  const addBox = document.getElementById('compare-add-box');
+  const addBtn = document.getElementById('btn-compare-add-toggle');
+  const addPopover = document.getElementById('compare-add-popover');
+  const searchInput = document.getElementById('compare-search-input');
+  const optionsList = document.getElementById('compare-options-list');
+  const arrowEl = document.getElementById('compare-add-arrow');
+
+  function renderAddDropdownOptions() {
+    if (!optionsList) return;
+    const query = searchInput?.value.toLowerCase().trim() || '';
+
+    const filteredBuilds = builds.filter(b => {
+      if (!query) return true;
+      return b.name.toLowerCase().includes(query) ||
+             b.classes.toLowerCase().includes(query) ||
+             b.role.toLowerCase().includes(query) ||
+             b.system.toLowerCase().includes(query);
+    });
+
+    if (filteredBuilds.length === 0) {
+      optionsList.innerHTML = '<div style="padding:0.75rem; text-align:center; font-size:0.8125rem; color:var(--text-muted);">No se encontraron personajes</div>';
+      return;
+    }
+
+    optionsList.innerHTML = filteredBuilds.map(b => {
+      const isSelected = selectedIds.includes(b.id);
+      const sysTag = b.system.includes('2024') ? '5.5e' : '2014';
+      const sysClass = b.system.includes('2024') ? 's2024' : 's2014';
+
+      return `
+        <div class="compare-option-item ${isSelected ? 'is-selected' : ''}" data-add-id="${b.id}">
+          <div class="compare-option-main">
+            <div class="compare-option-header">
+              <span class="card-system ${sysClass}">${sysTag}</span>
+              <span class="compare-option-name">${b.name}</span>
+            </div>
+            <span class="compare-option-classes">${b.classes}</span>
+          </div>
+          <div class="compare-option-side">
+            <span class="compare-option-score">${b.total} Pts</span>
+            <span class="compare-option-badge ${isSelected ? 'badge-added' : 'badge-add'}">
+              ${isSelected ? '✓ Listo' : '+ Añadir'}
+            </span>
+          </div>
+        </div>
+      `;
+    }).join('');
+
+    optionsList.querySelectorAll('[data-add-id]').forEach(item => {
+      item.addEventListener('click', (e) => {
+        e.stopPropagation();
+        const id = item.getAttribute('data-add-id');
+        if (!id) return;
+        if (!selectedIds.includes(id)) {
+          selectedIds.push(id);
+          saveState();
+          renderAll();
+        }
+      });
+    });
+  }
+
+  addBtn?.addEventListener('click', (e) => {
+    e.stopPropagation();
+    const isHidden = addPopover?.classList.toggle('hidden');
+    addBtn.classList.toggle('active', !isHidden);
+    if (arrowEl) arrowEl.textContent = isHidden ? '▼' : '▲';
+    if (!isHidden && searchInput) {
+      searchInput.value = '';
+      renderAddDropdownOptions();
+      searchInput.focus();
+    }
+  });
+
+  searchInput?.addEventListener('input', renderAddDropdownOptions);
+
+  document.addEventListener('click', (e) => {
+    const target = e.target;
+    if (addBox && !addBox.contains(target)) {
+      addPopover?.classList.add('hidden');
+      addBtn?.classList.remove('active');
+      if (arrowEl) arrowEl.textContent = '▼';
+    }
+  });
+
   function renderAll() {
     renderChips();
     const activeBuilds = getActiveBuilds();
@@ -432,6 +529,7 @@ const statConfigs = [
     if (activeBuilds.length === 0) {
       if (container) container.style.display = 'none';
       if (emptyState) emptyState.style.display = 'block';
+      renderAddDropdownOptions();
       return;
     }
 
@@ -441,29 +539,8 @@ const statConfigs = [
     renderViewCards(activeBuilds);
     renderViewOverlay(activeBuilds);
     renderViewMatrix(activeBuilds);
-
-    // Update select dropdown options (disable already selected builds)
-    const addSelect = document.getElementById('add-character-select');
-    if (addSelect) {
-      addSelect.value = 'none';
-      Array.from(addSelect.options).forEach(opt => {
-        if (opt.value !== 'none') {
-          opt.disabled = selectedIds.includes(opt.value);
-        }
-      });
-    }
+    renderAddDropdownOptions();
   }
-
-  // Handle Add Character select
-  const addSelect = document.getElementById('add-character-select');
-  addSelect?.addEventListener('change', () => {
-    const val = addSelect.value;
-    if (val && val !== 'none' && !selectedIds.includes(val)) {
-      selectedIds.push(val);
-      saveState();
-      renderAll();
-    }
-  });
 
   // Handle Quick Actions
   document.getElementById('btn-quick-top4')?.addEventListener('click', () => {
@@ -627,10 +704,218 @@ const statConfigs = [
   transform: scale(1.1);
 }
 
-.compare-add-select {
+/* Custom Searchable Add Character Box */
+.compare-add-box {
+  position: relative;
   width: 100%;
-  max-width: 380px;
-  border-color: var(--border-hover);
+  max-width: 580px;
+}
+
+.compare-add-btn {
+  width: 100%;
+  padding: 0.75rem 1.125rem;
+  background: var(--bg-card);
+  border: 1px solid var(--gold);
+  border-radius: var(--r-md);
+  color: var(--gold-bright);
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.5rem;
+  cursor: pointer;
+  outline: none;
+  transition: all var(--t);
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.35);
+}
+
+.compare-add-btn:hover,
+.compare-add-btn.active {
+  background: rgba(201, 168, 76, 0.14);
+  border-color: var(--gold-bright);
+  box-shadow: 0 0 18px rgba(201, 168, 76, 0.25);
+}
+
+.compare-add-popover {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  min-width: 520px;
+  width: 100%;
+  z-index: 1000;
+  background: rgba(18, 18, 32, 0.98);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--gold);
+  border-radius: var(--r-lg);
+  padding: 0.875rem;
+  box-shadow: 0 20px 48px rgba(0, 0, 0, 0.95);
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  animation: slideDown 150ms ease both;
+}
+
+.compare-add-popover.hidden {
+  display: none !important;
+}
+
+.compare-search-wrap {
+  position: relative;
+  width: 100%;
+}
+
+.compare-search-icon {
+  position: absolute;
+  left: 0.85rem;
+  top: 50%;
+  transform: translateY(-50%);
+  font-size: 0.9rem;
+  pointer-events: none;
+  opacity: 0.7;
+}
+
+.compare-search-input {
+  width: 100%;
+  padding: 0.6rem 0.85rem 0.6rem 2.25rem;
+  background: rgba(0, 0, 0, 0.45);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  color: var(--text);
+  font-family: var(--font-ui);
+  font-size: 0.875rem;
+  outline: none;
+  transition: all var(--t);
+}
+
+.compare-search-input:focus {
+  border-color: var(--gold);
+  background: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 0 10px rgba(201, 168, 76, 0.2);
+}
+
+.compare-options-list {
+  max-height: 380px;
+  overflow-y: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  padding-right: 0.25rem;
+}
+
+.compare-options-list::-webkit-scrollbar {
+  width: 6px;
+}
+.compare-options-list::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.compare-options-list::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 4px;
+}
+
+.compare-option-item {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.75rem 0.875rem;
+  border-radius: var(--r-md);
+  background: rgba(255, 255, 255, 0.03);
+  border: 1px solid rgba(255, 255, 255, 0.06);
+  cursor: pointer;
+  transition: all var(--t);
+}
+
+.compare-option-item:hover:not(.is-selected) {
+  background: rgba(201, 168, 76, 0.12);
+  border-color: rgba(201, 168, 76, 0.35);
+  transform: translateX(2px);
+}
+
+.compare-option-item.is-selected {
+  opacity: 0.5;
+  cursor: default;
+  background: rgba(255, 255, 255, 0.01);
+  border-color: transparent;
+}
+
+.compare-option-main {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+  flex: 1;
+  min-width: 0;
+}
+
+.compare-option-header {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  flex-wrap: wrap;
+}
+
+.compare-option-name {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--text);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.compare-option-classes {
+  font-size: 0.8rem;
+  color: var(--text-2);
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.compare-option-side {
+  display: flex;
+  align-items: center;
+  gap: 0.625rem;
+  flex-shrink: 0;
+}
+
+.compare-option-score {
+  font-size: 0.75rem;
+  font-weight: 800;
+  padding: 0.2rem 0.55rem;
+  border-radius: 999px;
+  background: rgba(201, 168, 76, 0.2);
+  color: var(--gold-bright);
+  border: 1px solid rgba(201, 168, 76, 0.4);
+}
+
+.compare-option-badge {
+  font-size: 0.75rem;
+  font-weight: 700;
+  padding: 0.25rem 0.625rem;
+  border-radius: var(--r-sm);
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.compare-option-badge.badge-add {
+  background: var(--gold);
+  color: #120e16;
+  transition: background var(--t);
+}
+
+.compare-option-item:hover .compare-option-badge.badge-add {
+  background: var(--gold-bright);
+}
+
+.compare-option-badge.badge-added {
+  background: rgba(255, 255, 255, 0.08);
+  color: var(--text-muted);
 }
 
 /* View Switcher Tabs */
