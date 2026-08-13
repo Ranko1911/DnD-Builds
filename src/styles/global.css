@@ -412,8 +412,14 @@ h1, h2, h3, h4, h5, h6 {
 
 .drawer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
+  grid-template-columns: repeat(2, 1fr);
   gap: 0.625rem;
+}
+
+@media (max-width: 640px) {
+  .drawer-grid {
+    grid-template-columns: 1fr;
+  }
 }
 
 /* ── Custom Multi-Select Controls ────────────────────────────────────────── */
