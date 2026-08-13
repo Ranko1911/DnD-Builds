@@ -186,25 +186,39 @@ h1, h2, h3, h4, h5, h6 {
 /* ──────────────────────────────────────────────────────────────────────────
    FILTER BAR
 ────────────────────────────────────────────────────────────────────────── */
-.filters {
+/* ──────────────────────────────────────────────────────────────────────────
+   FILTER & SORTER CONTROL PANEL (Glassmorphism)
+────────────────────────────────────────────────────────────────────────── */
+.filter-panel {
   max-width: var(--max-width);
-  margin: 0 auto;
-  padding: 0 2rem 2rem;
+  margin: 0 auto 1.5rem;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.filter-main-bar {
   display: flex;
   flex-wrap: wrap;
-  gap: 0.75rem;
   align-items: center;
+  gap: 0.75rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 0.875rem 1.25rem;
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.25);
 }
 
 .search-wrap {
   position: relative;
   flex: 1;
-  min-width: 200px;
-  max-width: 300px;
+  min-width: 220px;
 }
 .search-wrap .icon-search {
   position: absolute;
-  left: 0.75rem;
+  left: 0.875rem;
   top: 50%;
   transform: translateY(-50%);
   width: 16px;
@@ -215,7 +229,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .search-input {
   width: 100%;
-  padding: 0.5rem 0.75rem 0.5rem 2.25rem;
+  padding: 0.55rem 0.875rem 0.55rem 2.35rem;
   background: var(--bg-surface);
   border: 1px solid var(--border);
   border-radius: var(--r-md);
@@ -226,13 +240,13 @@ h1, h2, h3, h4, h5, h6 {
   transition: border-color var(--t), box-shadow var(--t);
 }
 .search-input:focus {
-  border-color: var(--border-hover);
-  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.08);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.1);
 }
 .search-input::placeholder { color: var(--text-muted); }
 
 .filter-select {
-  padding: 0.5rem 2rem 0.5rem 0.75rem;
+  padding: 0.55rem 2rem 0.55rem 0.75rem;
   background: var(--bg-surface);
   background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 24 24' fill='none' stroke='%239990a0' stroke-width='2' stroke-linecap='round' stroke-linejoin='round'%3E%3Cpath d='m6 9 6 6 6-6'/%3E%3C/svg%3E");
   background-repeat: no-repeat;
@@ -247,7 +261,7 @@ h1, h2, h3, h4, h5, h6 {
   cursor: pointer;
   appearance: none;
   -webkit-appearance: none;
-  transition: border-color var(--t), color var(--t), box-shadow var(--t);
+  transition: all var(--t);
 }
 .filter-select:hover {
   border-color: var(--border-hover);
@@ -256,7 +270,7 @@ h1, h2, h3, h4, h5, h6 {
 .filter-select:focus {
   border-color: var(--gold);
   color: var(--gold);
-  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.08);
+  box-shadow: 0 0 0 3px rgba(201, 168, 76, 0.1);
 }
 .filter-select option {
   background: var(--bg-surface);
@@ -264,10 +278,209 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem;
 }
 
+/* Sort select variation */
+.filter-select.filter-sort {
+  border-color: rgba(201, 168, 76, 0.35);
+  color: var(--gold);
+}
+.filter-select.filter-sort:hover {
+  border-color: var(--gold);
+}
+
+/* Sort direction button */
+.btn-sort-dir {
+  padding: 0.55rem 0.75rem;
+  background: var(--bg-surface);
+  border: 1px solid rgba(201, 168, 76, 0.35);
+  border-radius: var(--r-md);
+  color: var(--gold);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.25rem;
+  transition: all var(--t);
+}
+.btn-sort-dir:hover {
+  border-color: var(--gold);
+  background: rgba(201, 168, 76, 0.08);
+}
+
+/* Toggle Drawer Button */
+.btn-toggle-filters {
+  padding: 0.55rem 0.875rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  color: var(--text-2);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  transition: all var(--t);
+}
+.btn-toggle-filters:hover,
+.btn-toggle-filters.active {
+  border-color: var(--gold);
+  color: var(--text);
+  background: rgba(201, 168, 76, 0.08);
+}
+
+.btn-toggle-filters .badge-count {
+  padding: 0.1rem 0.45rem;
+  background: var(--gold);
+  color: #120e16;
+  border-radius: 999px;
+  font-size: 0.6875rem;
+  font-weight: 800;
+}
+
+/* Reset filters button */
+.btn-reset-filters {
+  padding: 0.55rem 0.875rem;
+  background: transparent;
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  color: var(--text-muted);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  transition: all var(--t);
+}
+.btn-reset-filters:hover {
+  color: #f87171;
+  border-color: rgba(239, 68, 68, 0.4);
+  background: rgba(239, 68, 68, 0.06);
+}
+
+/* Expanded Glass Drawer */
+.filter-drawer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.25rem;
+  background: var(--bg-card);
+  border: 1px solid var(--border);
+  border-radius: var(--r-lg);
+  padding: 1.25rem 1.5rem;
+  backdrop-filter: blur(16px);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+  animation: slideDown 250ms cubic-bezier(0.16, 1, 0.3, 1) both;
+}
+
+.filter-drawer.hidden {
+  display: none;
+}
+
+@keyframes slideDown {
+  from { opacity: 0; transform: translateY(-8px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+.drawer-section {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.drawer-title {
+  font-family: var(--font-ui);
+  font-size: 0.725rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  gap: 0.375rem;
+}
+.drawer-title.include-title { color: var(--gold-bright); }
+.drawer-title.exclude-title { color: #f87171; }
+
+.drawer-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  gap: 0.625rem;
+}
+
+/* Exclude select variation - neutral by default */
+.filter-select.filter-exclude {
+  border-color: var(--border);
+  color: var(--text-2);
+}
+.filter-select.filter-exclude:hover {
+  border-color: var(--border-hover);
+  color: var(--text);
+}
+
+/* Active Exclude state - glowing crimson */
+.filter-select.filter-exclude.has-active-exclude {
+  border-color: rgba(239, 68, 68, 0.6);
+  color: #fca5a5;
+  background-color: rgba(239, 68, 68, 0.08);
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.15);
+}
+
 .filter-item {
   display: flex;
   align-items: center;
   gap: 0.375rem;
+}
+
+/* Active Filter Badges Bar */
+.active-tags-bar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  width: 100%;
+}
+
+.tag-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.375rem;
+  padding: 0.25rem 0.625rem;
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  font-size: 0.75rem;
+  color: var(--text-2);
+  font-family: var(--font-ui);
+}
+
+.tag-badge.tag-badge-include {
+  border-color: rgba(201, 168, 76, 0.3);
+  background: rgba(201, 168, 76, 0.08);
+  color: var(--gold-bright);
+}
+
+.tag-badge.tag-badge-exclude {
+  border-color: rgba(239, 68, 68, 0.35);
+  background: rgba(239, 68, 68, 0.1);
+  color: #f87171;
+}
+
+.tag-badge .tag-close {
+  background: none;
+  border: none;
+  color: inherit;
+  font-weight: 700;
+  cursor: pointer;
+  padding: 0 0.125rem;
+  line-height: 1;
+  opacity: 0.75;
+  transition: opacity var(--t);
+}
+.tag-badge .tag-close:hover {
+  opacity: 1;
 }
 
 

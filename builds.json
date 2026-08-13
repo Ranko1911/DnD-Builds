@@ -610,5 +610,22 @@
       "complexity": 82,
       "utility": 75
     }
+  },
+  {
+    "id": "the-cursed-moon-druid-unlocking-the-potential-of-the-moon-druid-in-dd-55",
+    "name": "The Cursed Moon Druid: Unlocking the Potential of the Moon Druid in D&D 5.5",
+    "classes": "Fighter 20",
+    "system": "D&D 5e (2024 / 5.5e)",
+    "role": "Atacante de Vanguardia / Especialista Táctico",
+    "folder": "builds/the cursed moon druid unlocking the potential of the moon druid in dd 55",
+    "youtube": "https://www.youtube.com/watch?v=f9MFDFZsvN4",
+    "ratings": {
+      "dpr": 75,
+      "ehp": 70,
+      "control": 60,
+      "support": 50,
+      "complexity": 60,
+      "utility": 65
+    }
   }
 ]
