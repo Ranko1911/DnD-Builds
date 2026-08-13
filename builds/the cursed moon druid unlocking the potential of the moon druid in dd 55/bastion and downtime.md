@@ -1,4 +1,4 @@
-# 🏰 Bastión y Tiempo Muerto — The Cursed Moon Druid: Unlocking the Potential of the Moon Druid in D&D 5.5
+# 🏰 Bastión y Tiempo Muerto — The Cursed Moon Druid
 
 ## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
 

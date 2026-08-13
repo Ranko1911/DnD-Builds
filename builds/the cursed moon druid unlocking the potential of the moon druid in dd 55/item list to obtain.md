@@ -1,12 +1,13 @@
-# Objetos a Obtener — The Cursed Moon Druid: Unlocking the Potential of the Moon Druid in D&D 5.5
+# Objetos a Obtener — The Cursed Moon Druid
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
 ### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** [Objeto A] (1 slot), [Objeto B] (1 slot). (Total: [X]).
-*   **Tier 2 (Niveles 5-10):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
+
+* **Tier 1 (Niveles 1-4):** [Objeto A] (1 slot), [Objeto B] (1 slot). (Total: [X]).
+* **Tier 2 (Niveles 5-10):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
+* **Tier 3 (Niveles 11-16):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
+* **Tier 4 (Niveles 17-20):** [Objeto A] (1 slot), [Objeto B] (1 slot), [Objeto C] (1 slot). (Total: 3).
 
 ---
 

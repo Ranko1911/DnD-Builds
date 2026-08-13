@@ -1,4 +1,4 @@
-# Inventario Actual — The Cursed Moon Druid: Unlocking the Potential of the Moon Druid in D&D 5.5
+# Inventario Actual — The Cursed Moon Druid
 
 ## Equipamiento Actual
 

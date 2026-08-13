@@ -1,6 +1,6 @@
-# 🗺️ Hoja de Ruta de The Cursed Moon Druid: Unlocking the Potential of the Moon Druid in D&D 5.5 (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de The Cursed Moon Druid (Nivel 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Cursed Moon Druid: Unlocking the Potential of the Moon Druid in D&D 5.5**, diseñado por el **Archivero de Optimización**. El build se enfoca en Maximizar el rendimiento táctico en combate y sinergias bajo D&D 5e (2024 / 5.5e)..
+Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Cursed Moon Druid**, diseñado por el **Archivero de Optimización**. El build se enfoca en Maximizar el rendimiento táctico en combate y sinergias bajo D&D 5e (2024 / 5.5e)..
 
 ---
 
@@ -33,11 +33,11 @@ Esta hoja de ruta detalla la progresión nivel a nivel para el build **The Curse
 
 ## 🎯 Progresión de Dotes (Feats) Explicada
 
-1.  **[Dote 1] (Nivel [X] / [Clase Nivel]):**
-    *   *Sinergia:* [Explicar por qué se toma y cómo beneficia al personaje].
-2.  **[Dote 2 / ASI] (Nivel [X] / [Clase Nivel]):**
-    *   *Sinergia:* [Explicar].
-3.  **[Dote 3 / ASI] (Nivel [X] / [Clase Nivel]):**
-    *   *Sinergia:* [Explicar].
-4.  **[Dote 4 / ASI] (Nivel [X] / [Clase Nivel]):**
-    *   *Sinergia:* [Explicar].
+1. **[Dote 1] (Nivel [X] / [Clase Nivel]):**
+    * *Sinergia:* [Explicar por qué se toma y cómo beneficia al personaje].
+2. **[Dote 2 / ASI] (Nivel [X] / [Clase Nivel]):**
+    * *Sinergia:* [Explicar].
+3. **[Dote 3 / ASI] (Nivel [X] / [Clase Nivel]):**
+    * *Sinergia:* [Explicar].
+4. **[Dote 4 / ASI] (Nivel [X] / [Clase Nivel]):**
+    * *Sinergia:* [Explicar].
