@@ -153,6 +153,17 @@ const counts = {
       <div class="drawer-section">
         <span class="drawer-title exclude-title">🚫 Excluir</span>
         <div class="drawer-grid">
+          <div class="multi-select" id="ms-exclude-system" data-placeholder="Excluir Sistema: Ninguno" data-type="exclude">
+            <button type="button" class="multi-select-btn filter-exclude">
+              <span class="multi-select-label">Excluir Sistema: Ninguno</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="2014"> <span>2014</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="2024"> <span>2024 / 5.5e</span></label>
+            </div>
+          </div>
+
           <div class="multi-select" id="ms-exclude-class" data-placeholder="Excluir Clase: Ninguna" data-type="exclude">
             <button type="button" class="multi-select-btn filter-exclude">
               <span class="multi-select-label">Excluir Clase: Ninguna</span>
@@ -191,14 +202,18 @@ const counts = {
             </div>
           </div>
 
-          <div class="multi-select" id="ms-exclude-system" data-placeholder="Excluir Sistema: Ninguno" data-type="exclude">
+          <div class="multi-select" id="ms-exclude-score" data-placeholder="Excluir Puntuación: Ninguna" data-type="exclude">
             <button type="button" class="multi-select-btn filter-exclude">
-              <span class="multi-select-label">Excluir Sistema: Ninguno</span>
+              <span class="multi-select-label">Excluir Puntuación: Ninguna</span>
               <span class="multi-select-arrow">▼</span>
             </button>
             <div class="multi-select-popover hidden">
-              <label class="multi-select-option is-exclude"><input type="checkbox" value="2014"> <span>2014</span></label>
-              <label class="multi-select-option is-exclude"><input type="checkbox" value="2024"> <span>2024 / 5.5e</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tier-s"> <span>Tier S (≥ 75)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tier-a"> <span>Tier A (65 – 74)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tier-b"> <span>Tier B (55 – 64)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tier-c"> <span>Tier C (45 – 54)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tier-d"> <span>Tier D (35 – 44)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tier-f"> <span>Tier F (&lt; 35)</span></label>
             </div>
           </div>
         </div>
@@ -262,7 +277,7 @@ const counts = {
   // ── Multi-Select Helper Functions ─────────────────────────────────────────
   const MS_IDS = [
     'ms-system', 'ms-class', 'ms-role', 'ms-score',
-    'ms-exclude-class', 'ms-exclude-role', 'ms-exclude-system'
+    'ms-exclude-system', 'ms-exclude-class', 'ms-exclude-role', 'ms-exclude-score'
   ];
 
   function getSelectedValues(msId: string): string[] {
@@ -415,6 +430,10 @@ const counts = {
     });
 
     // Excludes
+    getSelectedValues('ms-exclude-system').forEach(v => {
+      addTag(`Excluir Sistema: ${v}`, true, () => unselectValue('ms-exclude-system', v));
+    });
+
     getSelectedValues('ms-exclude-class').forEach(v => {
       addTag(`Excluir Clase: ${v}`, true, () => unselectValue('ms-exclude-class', v));
     });
@@ -423,8 +442,8 @@ const counts = {
       addTag(`Excluir Rol: ${v}`, true, () => unselectValue('ms-exclude-role', v));
     });
 
-    getSelectedValues('ms-exclude-system').forEach(v => {
-      addTag(`Excluir Sistema: ${v}`, true, () => unselectValue('ms-exclude-system', v));
+    getSelectedValues('ms-exclude-score').forEach(v => {
+      addTag(`Excluir Puntuación: ${v.toUpperCase()}`, true, () => unselectValue('ms-exclude-score', v));
     });
 
     // Text Search Tokens
@@ -463,9 +482,10 @@ const counts = {
     const roleVals  = getSelectedValues('ms-role');
     const scoreVals = getSelectedValues('ms-score');
 
+    const exSysVals   = getSelectedValues('ms-exclude-system');
     const exClassVals = getSelectedValues('ms-exclude-class');
     const exRoleVals  = getSelectedValues('ms-exclude-role');
-    const exSysVals   = getSelectedValues('ms-exclude-system');
+    const exScoreVals = getSelectedValues('ms-exclude-score');
 
     const tokens = rawQuery ? rawQuery.split(/\s+/).filter(Boolean) : [];
     const includeTokens = tokens.filter(t => !t.startsWith('-'));
@@ -491,15 +511,16 @@ const counts = {
       const matchSearchInclude = includeTokens.every(token => cardText.includes(token));
 
       // Explicit Exclude checks (Multi-select AND NOT logic)
+      const matchExSys   = exSysVals.length === 0 || !exSysVals.some(v => sys.includes(v));
       const matchExClass = exClassVals.length === 0 || !exClassVals.some(v => classes.includes(v));
       const matchExRole  = exRoleVals.length === 0 || !exRoleVals.some(v => matchRoleFilter(role, v));
-      const matchExSys   = exSysVals.length === 0 || !exSysVals.some(v => sys.includes(v));
+      const matchExScore = exScoreVals.length === 0 || !exScoreVals.some(v => matchScoreFilter(total, v));
 
       // Search text exclude tokens
       const matchSearchExclude = excludeTokens.every(token => !cardText.includes(token));
 
       const show = matchSys && matchClass && matchRole && matchScore &&
-                   matchExClass && matchExRole && matchExSys &&
+                   matchExSys && matchExClass && matchExRole && matchExScore &&
                    matchSearchInclude && matchSearchExclude;
 
       card.style.display = show ? '' : 'none';
