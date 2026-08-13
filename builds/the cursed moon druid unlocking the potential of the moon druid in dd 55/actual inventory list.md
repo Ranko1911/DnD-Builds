@@ -2,18 +2,19 @@
 
 ## Equipamiento Actual
 
-* **Arma Principal:** [Arma / Instrumento]
-* **Armadura:** [Armadura + Escudo si aplica]
-* **Foco / Reliquias:** [Foco arcano o canalizador]
+* **Arma Principal / Canalizador:** Moon Sickle (+3) (Actúa como Foco Universal Único)
+* **Armadura:** Armadura de Cuero Tachonado Mágica + Escudo de Centinela (Sentinel Shield)
+* **Foco / Reliquias:** Símbolo Sagrado Druídico del Círculo de la Luna
 
 ## Objetos Mágicos Sintonizados (Attuned)
 
-1. **[Objeto 1]** (Sintonizado)
-2. **[Objeto 2]** (Sintonizado)
-3. **[Objeto 3]** (Sintonizado)
+1. **Moon Sickle (+3)** (Sintonizado)
+2. **Cloak of Protection** (Sintonizado)
+3. **Ring of Protection** (Sintonizado)
 
 ## Inventario General (Mochila / Bag of Holding)
 
-* [Objeto Común]
-* [Pociones / Consumibles]
-* [Oro / Monedas / Gemas]
+* Insignia of Claws (+1 al daño desarmado en Forma Salvaje)
+* Pociones de Curación Superior (4 unidades)
+* Componentes valiosos para *Revivify* y *Greater Restoration* (Diamantes por valor de 1,500 po)
+* 4,200 Monedas de Oro (po)

@@ -4,114 +4,72 @@
 
 *Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
 
-* **Nombre del Bastión:** [Nombre de la Fortaleza / Torre / Gremio]
-* **Nivel de Bastión (Bastion Level):** [Igual al nivel de personaje]
-* **Puntos de Bastion (Bastion Points - BP):** [Cantidad Actual]
-* **Puntuación de Mando (Bastion Defender Stats):** STR [X], DEX [X], CON [X], INT [X], WIS [X], CHA [X]
+* **Nombre del Bastión:** El Enclave de la Luna Maldita (The Cursed Grove Sanctum)
+* **Nivel de Bastión (Bastion Level):** 20
+* **Puntos de Bastion (Bastion Points - BP):** 450 BP
+* **Puntuación de Mando (Bastion Defender Stats):** STR 14, DEX 16, CON 16, INT 12, WIS 20, CHA 13
 
 ### Instalaciones Básicas (Basic Facilities)
 
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
-
-1. **Dormitorio (Bedchambers):** [Ubicación y notas decorativas]
-2. **Comedor (Dining Hall):** [Capacidad y suministros]
-3. **Espacio Común (Common Room):** [Uso por parte de los seguidores/staff]
+1. **Dormitorio Principal (Bedchambers):** Aposentos personales integrados en un roble ancestral sagrado protegido por glifos de guarda.
+2. **Comedor (Dining Hall):** Salón comunal con capacidad para 30 druidas y diplomáticos de la naturaleza.
+3. **Espacio Común (Common Room):** Ágora natural para la meditación y reunión de los guardianes del santuario.
 
 ### Instalaciones Especiales (Special Facilities)
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
-
-* **[Nombre de la Instalación 1] (Nivel [X]):**
-  * *Estado:* [Activa / En Construcción (X turnos restantes) / Inactiva]
-  * *Orden de Bastión Especial:* [Acción específica de la instalación, ej: Crafting, Gather Intel, Harvest]
-  * *Sinergia con el Build:* [Cómo beneficia esta instalación a las mecánicas o rol del personaje]
-* **[Nombre de la Instalación 2] (Nivel [X]):**
-  * *Estado:* [Estado]
-  * *Orden de Bastión Especial:* [Acción]
-  * *Sinergia con el Build:* [Notas de optimización]
+* **Bosque Sagrado Druídico (Sacred Grove - Nivel 9):**
+  * *Estado:* Activa (Maintain)
+  * *Orden de Bastión Especial:* Harvest / Crafting de hierbas raras y focos druídicos.
+  * *Sinergia con el Build:* Permite recolectar plantas sagradas que reducen el coste de fabricación de *Potions of Healing* a la mitad.
+* **Laboratorio de Alquimia y Herbología (Alchemist's Lab - Nivel 5):**
+  * *Estado:* Activa (Maintain)
+  * *Orden de Bastión Especial:* Crafting de pociones de resistencia al fuego y veneno.
+  * *Sinergia con el Build:* Produce pociones defensivas para abastecer a los aliados de vanguardia.
+* **Biblioteca Arcana & Espiritual (Scriptorium / Sanctum - Nivel 13):**
+  * *Estado:* Activa (Maintain)
+  * *Orden de Bastión Especial:* Gather Intel / Investigación de bestias primigenias y formas elementales para la Forma Salvaje.
 
 ### Seguidores y Personal (Staff & Hirelings)
 
-* **Capataz / Administrador (Major Domo):** [Nombre del PNJ y cargo]
-* **Defensores / Guardias:** [Número y tipo de tropas]
-* **Artesanos / Especialistas:** [Profesión y bonificadores o recetas que conocen]
+* **Capataz / Administrador (Major Domo):** Archidruida Orpheon (PNJ Elfo Silvano)
+* **Defensores / Guardias:** 12 Guardianes del Bosque (Treants jóvenes y Druidas de nivel medio)
+* **Artesanos / Especialistas:** Alquimista Herbalista Master y Cartógrafo Primigenio
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
+### Prioridad 1: Fabricación de Consumibles y Pociones Mágicas
 
-### Prioridad 1: [Actividad Principal, ej: Fabricación de Objetos Mágicos / Investigación]
+* **Mecánica Base:** Rulesets 2024 / DMG Downtime Rules.
+* **Bonificadores Aplicables:** Competencia con Herramientas de Alquimista y Kit de Herbalismo + Sabiduría (+5).
+* **Coste por Día/Semana:** 25 po / 2 días por Poción de Curación Superior.
+* **Objetivo de Optimización:** Generar un estanque de pociones para el grupo antes de incursiones de alto nivel.
 
-* **Mecánica Base:** [Libro de Reglas de referencia, ej: DMG 2024 / Xanathar's]
-* **Bonificadores Aplicables:** [Ej: Competencia con herramientas + herramientas de alquimista, Guía, Rasgos de clase]
-* **Coste por Día/Semana:** [X] po / [X] días de trabajo.
-* **Objetivo de Optimización:** [Ej: Crear pociones de curación mayor a mitad de coste o buscar pistas sobre X artefacto].
+### Prioridad 2: Estudio de Bestias Antiguas y Formas Salvajes
 
-### Prioridad 2: [Actividad Secundaria, ej: Entrenar Dotes / Ganar Conexiones]
-
-* **Mecánica Base:** [Descripción de la regla]
-* **Bonificadores Aplicables:** [Habilidades o modificadores clave]
-* **Progreso Actual:** [X / X] semanas de entrenamiento o coste invertido.
+* **Mecánica Base:** Investigación y expediciones salvajes.
+* **Bonificadores Aplicables:** Prueba de Naturaleza / Supervivencia (+11).
+* **Progreso Actual:** Estudio completado para transformaciones en Formas de Dinosaurios y Bestias Elementales.
 
 ---
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
 ### Velocidades de Movimiento Base
 
-* **Caminar (Walk):** [X] pies (ft.)
-* **Trepar (Climb):** [X] ft. *(Indicar si tiene velocidad nativa o penalización)*
-* **Nadar (Swim):** [X] ft. *(Indicar si tiene velocidad nativa o penalización)*
-* **Volar (Fly):** [X] ft. *(Indicar origen, ej: Conjuro, Objeto, Raza)*
+* **Caminar (Walk):** 30 pies (ft.)
+* **Trepar (Climb):** 30 ft. (Vía Forma Salvaje de Araña Gigante o Tigre)
+* **Nadar (Swim):** 60 ft. (Vía Forma Salvaje de Tiburón Gigante o Cocodrilo)
+* **Volar (Fly):** 80 ft. (Vía Forma Salvaje de Águila Gigante o Pteranodonte)
 
 ### Modificadores y Multiplicadores de Viaje
 
-* **Ritmo de Viaje (Travel Pace) Preferido:** [Rápido / Normal / Sigiloso]
-* **Visión en la Oscuridad (Darkvision):** [X] ft. / [Visión Ciega / Truesight si aplica]
-* **Habilidades de Exploración:** [Ej: Alerta, Rastreo, Supervivencia en terrenos específicos]
+* **Ritmo de Viaje Preferido:** Sigiloso (*Pass Without Trace* activo otorga +10 a todo el grupo).
+* **Visión en la Oscuridad:** 120 ft. (Otorgada por el dip de Clérigo del Crepúsculo *Eyes of Night*, compartible con aliados).
+* **Habilidades de Exploración:** Percepción Pasiva 25 / Percepción +11 con Ventaja gracias a *Sentinel Shield*.
 
 ### Logística de Transporte y Monturas
 
-* **Montura Activa:** [Nombre y tipo de criatura, ej: Caballo de guerra, Find Steed]
-  * *Velocidad de la Montura:* [X] ft.
-  * *Mecánica de Combate Montado:* [Notas de control o dotes asociadas]
-* **Vehículos / Vehículos de Carga:** [Ej: Carro, Barco, Carreta]
-* **Capacidad de Carga Absoluta:** [X] libras (lbs.) / Peso actual transportado: [X] lbs.
-
----
-
-## 🎭 Reputación, Facciones y Red de Contactos
-
-*Recursos sociales e influencia política en el mundo de juego.*
-
-### Facciones Activas
-
-1. **[Nombre de la Facción 1]:**
-    * *Rango / Título:* [Rango]
-    * *Reputación / Favor:* [Puntos o estado de relación: Aliado, Neutral, Enemigo]
-    * *Beneficio Mecánico:* [Ej: Acceso a servicios de resurrección con descuento, uso de su red de espías].
-2. **[Nombre de la Facción 2]:**
-    * *Rango / Título:* [Rango]
-    * *Reputación / Favor:* [Estado]
-
-### Red de Contactos (Contacts & Informants)
-
-* **[Nombre del PNJ 1] ([Localización]):** [Breve descripción de su rol, ej: Proveedor ilegal de componentes, Mentor arcano].
-* **[Nombre del PNJ 2] ([Localización]):** [Rol o información que puede facilitar].
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
-
-* **Percepción Pasiva (Passive Perception):** [10 + modificadores]
-* **Investigación Pasiva (Passive Investigation):** [10 + modificadores]
-* **Perspicacia Pasiva (Passive Insight):** [10 + modificadores]
-* **Idiomas Conocidos:** [Lista de idiomas]
-* **Competencia con Herramientas (Tool Proficiencies):** [Lista de herramientas y modificador total]
-* **Sinergias Fuera de Combate:** [Ej: Rasgo de trasfondo que da posada gratis, dote que permite leer los labios, etc.]
+* **Montura Activa:** Forma Salvaje propia transportando aliados en vuelo o nado.
+* **Capacidad de Carga Absoluta:** 240 lbs en forma humana / Hasta 1,200 lbs en Forma Salvaje de criatura Grande/Enorme.

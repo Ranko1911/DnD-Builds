@@ -215,20 +215,37 @@ const ratings = [
         </div>
 
         <!-- YouTube (only when available) -->
-        {build.youtube && (
-          <a
-            href={build.youtube}
-            class="yt-btn"
-            target="_blank"
-            rel="noopener noreferrer"
-            aria-label={`Ver ${build.name} en YouTube`}
-          >
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
-              <path d="M23.5 6.2s-.3-1.9-1.1-2.7c-1.1-1.1-2.3-1.1-2.8-1.2C16.7 2 12 2 12 2s-4.7 0-7.6.3c-.5.1-1.7.1-2.8 1.2C.8 4.3.5 6.2.5 6.2S.2 8.4.2 10.6v2.1c0 2.2.3 4.4.3 4.4s.3 1.9 1.1 2.7c1.1 1.1 2.5 1.1 3.1 1.2 2.3.2 9.7.3 9.7.3s4.7 0 7.6-.3c.5-.1 1.7-.1 2.8-1.2.8-.8 1.1-2.7 1.1-2.7s.3-2.2.3-4.4v-2C23.8 8.4 23.5 6.2 23.5 6.2zM9.7 15.5V8.3l7.6 3.6-7.6 3.6z"/>
-            </svg>
-            Ver en YouTube
-          </a>
-        )}
+        {build.youtube && (() => {
+          const match = build.youtube.match(/(?:youtu\.be\/|youtube\.com\/(?:embed\/|v\/|watch\?v=|watch\?.+&v=))([\w-]{11})/);
+          const embedUrl = match ? `https://www.youtube-nocookie.com/embed/${match[1]}` : null;
+          return (
+            <div class="sidebar-card video-card">
+              <p class="sidebar-section-title">📺 Guía en Vídeo</p>
+              {embedUrl && (
+                <div class="video-container">
+                  <iframe
+                    src={embedUrl}
+                    title={`Vídeo explicativo de ${build.name}`}
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    allowfullscreen
+                  ></iframe>
+                </div>
+              )}
+              <a
+                href={build.youtube}
+                class="yt-btn"
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={`Ver ${build.name} en YouTube`}
+              >
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" aria-hidden="true">
+                  <path d="M23.5 6.2s-.3-1.9-1.1-2.7c-1.1-1.1-2.3-1.1-2.8-1.2C16.7 2 12 2 12 2s-4.7 0-7.6.3c-.5.1-1.7.1-2.8 1.2C.8 4.3.5 6.2.5 6.2S.2 8.4.2 10.6v2.1c0 2.2.3 4.4.3 4.4s.3 1.9 1.1 2.7c1.1 1.1 2.5 1.1 3.1 1.2 2.3.2 9.7.3 9.7.3s4.7 0 7.6-.3c.5-.1 1.7-.1 2.8-1.2.8-.8 1.1-2.7 1.1-2.7s.3-2.2.3-4.4v-2C23.8 8.4 23.5 6.2 23.5 6.2zM9.7 15.5V8.3l7.6 3.6-7.6 3.6z"/>
+                </svg>
+                Ver en YouTube ↗
+              </a>
+            </div>
+          );
+        })()}
 
       </aside>
     </div>
