@@ -1,63 +1,35 @@
-# Datos Generales
+# Guía 2024: Super Sneaker Life Deleter (D&D 5.5e)
 
-System Standard: D&D 5th Edition (2024 Ruleset - 5.5e)
+## Cambios Clave 2024 para el Asesino Táctico
 
-Character Level: 20 (Total)
+Bajo las reglas de **D&D 5e (2024 / 5.5e Update)**, esta build obtiene mejoras significativas en la economía de acciones y armas:
 
-Class Split: Rogue (Assassin) 14 / Fighter (Battle Master) 6 [Ruleset 2024]
+1. **Weapon Mastery (Dominio de Armas):**
+   - **Vex (Hand Crossbow / Shortbow):** Al impactar a un enemigo, obtienes **Ventaja en tu siguiente ataque** contra él antes del final de tu siguiente turno, creando una cadena ininterrumpida de ataques con ventaja sin depender de ocultarte.
+   - **Nick (Dagger):** Permite realizar el ataque adicional de dos armas como parte de la **Acción de Ataque** en lugar de consumir la Acción Adicional.
 
-Species: Bugbear (o Humano Variante) [Dote inicial: *Alert* o *Sharpshooter*]
+2. **Cunning Strike (Rogue Nivel 5+):**
+   - Permite sacrificar dados de *Sneak Attack* ($1\text{d}6$) para aplicar efectos secundarios como **Poison** (Envenenar), **Trip** (Derribar) o **Withdraw** (Retirarse sin provocar ataques de oportunidad).
 
-Stats:
-
-- **FUER (STR):** 10
-- **DES (DEX):** 20 (15 base + 2 racial + 1 dote + 2 ASI) [Atributo primario de ataque, CA y sigilo]
-- **CON:** 14 [Reserva de vida base y salvaciones]
-- **INT:** 10
-- **SAB (WIS):** 12 [Percepción y salvaciones]
-- **CAR (CHA):** 10
-
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Vídeo de Referencia: [DnD Shorts (29_n1luQRmI)](https://www.youtube.com/watch?v=29_n1luQRmI)
-
-Combat Role: Ambush Assassin / First-Turn Burst Striker (Elimina objetivos prioritarios en el Turno 1 combinando *Surprise Crits* de Asesino con *Action Surge* y Maniobras de Battle Master).
+3. **Revisión de Dotes de Origen:**
+   - **Alert Feat (2024):** Otorga un bonificador a la Iniciativa igual a tu Bonificador de Competencia (+6 a nivel alto) y permite **intercambiar la iniciativa** con un aliado voluntario al inicio del combate.
 
 ---
 
-## 1. Gestión de Recursos y Reglas de Inventario
+## Progresión Táctica y Combate en 2024
 
-- **Economía de Asesinato (Turno 1):**
-  - **Surprise Crits (Asesino):** Todos los ataques contra enemigos sorprendidos son impactos críticos automáticos.
-  - **Action Surge:** Te permite hacer 4 ataques en el Turno 1 con *Extra Attack*.
-  - **Surprise Attack (Bugbear):** $+2	ext{d}6$ de daño extra por cada ataque que golpee a un enemigo que no ha actuado en el combate.
+```mermaid
+flowchart TD
+    A["Iniciativa 2024: Swap con Aliado o +11 a la tirada (Alert Feat)"] --> B["Ataque 1: Weapon Mastery (Vex) -> Daño + Ventaja Automática"]
+    B --> C["Ataques 2-4 (Action Surge): Ventaja Continua por Vex"]
+    C --> D["Cunning Strike: Aplicar Poison/Trip sacrificando 1d6 Sneak Attack"]
+    D --> E["Cunning Action: Ocultarse o Moverse sin Oportunidad"]
+```
 
----
+## Tabla de Armas y Masteries
 
-## 2. Action Economy & Combat Loop
-
-- **Preparación (Pre-Combate):**
-  - *Pass Without Trace* o Stealth Check con Pericia (*Expertise*) para garantizar la sorpresa (+15 o más a Sigilo).
-- **Action:**
-  - **Turno 1:** Atacar con ventaja a objetivo sorprendido ($2	ext{d}8 + 5 + 14	ext{d}6 	ext{ Sneak Attack} + 8	ext{d}6 	ext{ Bugbear}$ por críticos).
-  - Usar **Action Surge** para hacer 2 ataques adicionales con Maniobras de Battle Master (*Ambush*, *Precision Attack*, *Trip Attack*).
-- **Bonus Action:**
-  - *Cunning Action* (Hide/Dash/Disengage).
-- **Reaction:**
-  - *Uncanny Dodge* para reducir el daño recibido a la mitad.
-
----
-
-## 3. The META Combo: The Ambush Eraser
-
-1. **Iniciativa Impares:** Alta DES + Dote *Alert* (+5) + Maniobra *Ambush* ($+1	ext{d}8$).
-2. **Surprise Auto-Crits:** Duplica todos los dados de daño de *Sneak Attack*, arma y Bugbear en Turno 1.
-3. **Action Surge:** Ejecuta 4 ataques críticos en el primer asalto.
-
-🧮 Mathematical Engine (A Nivel 20 contra CA 18):
-
-$$	ext{Daño Total Turno 1} = 4 	imes (2	ext{d}8 + 5) + 14	ext{d}6 (	ext{Sneak}) + 8	ext{d}6 (	ext{Bugbear}) + 8	ext{d}10 (	ext{Maniobras}) = \mathbf{178.0 	ext{ daño en Turno 1}}$$
+| Arma | Propiedad Mastery | Uso Táctico en el Build |
+| :--- | :---: | :--- |
+| **Hand Crossbow** | **Vex** | Garantiza ventaja continua en la cadena de 4 ataques de *Action Surge*. |
+| **Heavy Crossbow / Longbow** | **Push / Slow** | Ralentiza o empuja 10 ft a los enemigos para mantener la distancia. |
+| **Dagger** | **Nick** | Añade un ataque extra de mano torpe dentro de la Acción principal. |
