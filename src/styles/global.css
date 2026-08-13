@@ -196,6 +196,8 @@ h1, h2, h3, h4, h5, h6 {
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
+  position: relative;
+  z-index: 50;
 }
 
 .filter-main-bar {
@@ -373,11 +375,15 @@ h1, h2, h3, h4, h5, h6 {
   padding: 1.25rem 1.5rem;
   backdrop-filter: blur(16px);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
-  animation: slideDown 250ms cubic-bezier(0.16, 1, 0.3, 1) both;
 }
 
-.filter-drawer.hidden {
-  display: none;
+.filter-drawer:not(.hidden) {
+  animation: slideDown 250ms cubic-bezier(0.16, 1, 0.3, 1) forwards;
+}
+
+.filter-drawer.hidden,
+.hidden {
+  display: none !important;
 }
 
 @keyframes slideDown {
@@ -406,26 +412,132 @@ h1, h2, h3, h4, h5, h6 {
 
 .drawer-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(155px, 1fr));
   gap: 0.625rem;
 }
 
-/* Exclude select variation - neutral by default */
-.filter-select.filter-exclude {
-  border-color: var(--border);
-  color: var(--text-2);
+/* ── Custom Multi-Select Controls ────────────────────────────────────────── */
+.multi-select {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
 }
-.filter-select.filter-exclude:hover {
+
+.multi-select-btn {
+  width: 100%;
+  padding: 0.5rem 0.65rem;
+  background: var(--bg-surface);
+  border: 1px solid var(--border);
+  border-radius: var(--r-md);
+  color: var(--text-2);
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 0.375rem;
+  cursor: pointer;
+  outline: none;
+  transition: all var(--t);
+  text-align: left;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.multi-select-btn:hover {
   border-color: var(--border-hover);
   color: var(--text);
 }
 
-/* Active Exclude state - glowing crimson */
-.filter-select.filter-exclude.has-active-exclude {
+.multi-select-btn.active {
+  border-color: var(--gold);
+  color: var(--gold-bright);
+  background: rgba(201, 168, 76, 0.08);
+}
+
+.multi-select-btn.filter-exclude.has-active-exclude {
   border-color: rgba(239, 68, 68, 0.6);
   color: #fca5a5;
-  background-color: rgba(239, 68, 68, 0.08);
-  box-shadow: 0 0 12px rgba(239, 68, 68, 0.15);
+  background-color: rgba(239, 68, 68, 0.12);
+  box-shadow: 0 0 12px rgba(239, 68, 68, 0.18);
+}
+
+.multi-select-popover {
+  position: absolute;
+  top: calc(100% + 4px);
+  left: 0;
+  min-width: 200px;
+  max-width: 280px;
+  z-index: 1000;
+  background: rgba(18, 18, 32, 0.98);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--gold);
+  border-radius: var(--r-md);
+  padding: 0.5rem;
+  max-height: 380px;
+  overflow-y: auto;
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.9);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+/* Custom dark scrollbar for popover */
+.multi-select-popover::-webkit-scrollbar {
+  width: 6px;
+}
+.multi-select-popover::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 4px;
+}
+.multi-select-popover::-webkit-scrollbar-thumb {
+  background: var(--gold);
+  border-radius: 4px;
+}
+
+.multi-select-popover.hidden {
+  display: none !important;
+}
+
+.multi-select-option {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.4rem 0.5rem;
+  border-radius: var(--r-sm);
+  color: #e2e8f0;
+  font-family: var(--font-ui);
+  font-size: 0.8125rem;
+  cursor: pointer;
+  transition: background var(--t), color var(--t);
+  user-select: none;
+  white-space: nowrap;
+}
+
+.multi-select-option:hover {
+  background: rgba(201, 168, 76, 0.15);
+  color: #ffffff;
+}
+
+.multi-select-option input[type="checkbox"] {
+  accent-color: var(--gold);
+  width: 15px;
+  height: 15px;
+  cursor: pointer;
+  flex-shrink: 0;
+}
+
+.multi-select-option.is-exclude:hover {
+  background: rgba(239, 68, 68, 0.15);
+  color: #ffffff;
+}
+
+.multi-select-option.is-exclude input[type="checkbox"] {
+  accent-color: #ef4444;
 }
 
 .filter-item {
@@ -494,7 +606,8 @@ h1, h2, h3, h4, h5, h6 {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(290px, 1fr));
   gap: 1.125rem;
-  animation: slideUp 500ms ease both;
+  position: relative;
+  z-index: 1;
 }
 
 /* ──────────────────────────────────────────────────────────────────────────

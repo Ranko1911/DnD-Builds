@@ -83,49 +83,69 @@ const counts = {
       <div class="drawer-section">
         <span class="drawer-title include-title">🎯 Incluir</span>
         <div class="drawer-grid">
-          <select id="filter-system" class="filter-select" aria-label="Filtrar por sistema">
-            <option value="all">Sistema: Todos ({counts.all})</option>
-            <option value="2014">2014 ({counts.y2014})</option>
-            <option value="2024">2024 / 5.5e ({counts.y2024})</option>
-          </select>
+          <div class="multi-select" id="ms-system" data-placeholder="Sistema: Todos" data-type="include">
+            <button type="button" class="multi-select-btn">
+              <span class="multi-select-label">Sistema: Todos</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option"><input type="checkbox" value="2014"> <span>2014</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="2024"> <span>2024 / 5.5e</span></label>
+            </div>
+          </div>
 
-          <select id="filter-class" class="filter-select" aria-label="Filtrar por clase">
-            <option value="all">Clase: Todas</option>
-            <option value="artificer">Artificer</option>
-            <option value="barbarian">Barbarian</option>
-            <option value="bard">Bard</option>
-            <option value="cleric">Cleric</option>
-            <option value="druid">Druid</option>
-            <option value="fighter">Fighter</option>
-            <option value="monk">Monk</option>
-            <option value="paladin">Paladin</option>
-            <option value="ranger">Ranger</option>
-            <option value="rogue">Rogue</option>
-            <option value="sorcerer">Sorcerer</option>
-            <option value="warlock">Warlock</option>
-            <option value="wizard">Wizard</option>
-          </select>
+          <div class="multi-select" id="ms-class" data-placeholder="Clase: Todas" data-type="include">
+            <button type="button" class="multi-select-btn">
+              <span class="multi-select-label">Clase: Todas</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option"><input type="checkbox" value="artificer"> <span>Artificer</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="barbarian"> <span>Barbarian</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="bard"> <span>Bard</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="cleric"> <span>Cleric</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="druid"> <span>Druid</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="fighter"> <span>Fighter</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="monk"> <span>Monk</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="paladin"> <span>Paladin</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="ranger"> <span>Ranger</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="rogue"> <span>Rogue</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="sorcerer"> <span>Sorcerer</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="warlock"> <span>Warlock</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="wizard"> <span>Wizard</span></label>
+            </div>
+          </div>
 
-          <select id="filter-role" class="filter-select" aria-label="Filtrar por rol">
-            <option value="all">Rol: Todos</option>
-            <option value="tanque">Tanque</option>
-            <option value="atacante">Atacante (Striker)</option>
-            <option value="controlador">Controlador</option>
-            <option value="soporte">Soporte</option>
-            <option value="lanzador">Lanzador (Blaster)</option>
-            <option value="gish">Gish (Marcial-Mágico)</option>
-            <option value="francotirador">Francotirador (Sniper)</option>
-          </select>
+          <div class="multi-select" id="ms-role" data-placeholder="Rol: Todos" data-type="include">
+            <button type="button" class="multi-select-btn">
+              <span class="multi-select-label">Rol: Todos</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option"><input type="checkbox" value="tanque"> <span>Tanque</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="atacante"> <span>Atacante (Striker)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="controlador"> <span>Controlador</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="soporte"> <span>Soporte</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="lanzador"> <span>Lanzador (Blaster)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="gish"> <span>Gish (Marcial-Mágico)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="francotirador"> <span>Francotirador (Sniper)</span></label>
+            </div>
+          </div>
 
-          <select id="filter-score" class="filter-select" aria-label="Filtrar por puntuación total">
-            <option value="all">Puntuación: Todas</option>
-            <option value="tier-s">Tier S (≥ 75)</option>
-            <option value="tier-a">Tier A (65 – 74)</option>
-            <option value="tier-b">Tier B (55 – 64)</option>
-            <option value="tier-c">Tier C (45 – 54)</option>
-            <option value="tier-d">Tier D (35 – 44)</option>
-            <option value="tier-f">Tier F (&lt; 35)</option>
-          </select>
+          <div class="multi-select" id="ms-score" data-placeholder="Puntuación: Todas" data-type="include">
+            <button type="button" class="multi-select-btn">
+              <span class="multi-select-label">Puntuación: Todas</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option"><input type="checkbox" value="tier-s"> <span>Tier S (≥ 75)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="tier-a"> <span>Tier A (65 – 74)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="tier-b"> <span>Tier B (55 – 64)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="tier-c"> <span>Tier C (45 – 54)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="tier-d"> <span>Tier D (35 – 44)</span></label>
+              <label class="multi-select-option"><input type="checkbox" value="tier-f"> <span>Tier F (&lt; 35)</span></label>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -133,39 +153,54 @@ const counts = {
       <div class="drawer-section">
         <span class="drawer-title exclude-title">🚫 Excluir</span>
         <div class="drawer-grid">
-          <select id="exclude-class" class="filter-select filter-exclude" aria-label="Excluir clase">
-            <option value="none">Excluir Clase: Ninguna</option>
-            <option value="artificer">Artificer</option>
-            <option value="barbarian">Barbarian</option>
-            <option value="bard">Bard</option>
-            <option value="cleric">Cleric</option>
-            <option value="druid">Druid</option>
-            <option value="fighter">Fighter</option>
-            <option value="monk">Monk</option>
-            <option value="paladin">Paladin</option>
-            <option value="ranger">Ranger</option>
-            <option value="rogue">Rogue</option>
-            <option value="sorcerer">Sorcerer</option>
-            <option value="warlock">Warlock</option>
-            <option value="wizard">Wizard</option>
-          </select>
+          <div class="multi-select" id="ms-exclude-class" data-placeholder="Excluir Clase: Ninguna" data-type="exclude">
+            <button type="button" class="multi-select-btn filter-exclude">
+              <span class="multi-select-label">Excluir Clase: Ninguna</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="artificer"> <span>Artificer</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="barbarian"> <span>Barbarian</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="bard"> <span>Bard</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="cleric"> <span>Cleric</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="druid"> <span>Druid</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="fighter"> <span>Fighter</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="monk"> <span>Monk</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="paladin"> <span>Paladin</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="ranger"> <span>Ranger</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="rogue"> <span>Rogue</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="sorcerer"> <span>Sorcerer</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="warlock"> <span>Warlock</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="wizard"> <span>Wizard</span></label>
+            </div>
+          </div>
 
-          <select id="exclude-role" class="filter-select filter-exclude" aria-label="Excluir rol">
-            <option value="none">Excluir Rol: Ninguno</option>
-            <option value="tanque">Tanque</option>
-            <option value="atacante">Atacante (Striker)</option>
-            <option value="controlador">Controlador</option>
-            <option value="soporte">Soporte</option>
-            <option value="lanzador">Lanzador (Blaster)</option>
-            <option value="gish">Gish (Marcial-Mágico)</option>
-            <option value="francotirador">Francotirador (Sniper)</option>
-          </select>
+          <div class="multi-select" id="ms-exclude-role" data-placeholder="Excluir Rol: Ninguno" data-type="exclude">
+            <button type="button" class="multi-select-btn filter-exclude">
+              <span class="multi-select-label">Excluir Rol: Ninguno</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="tanque"> <span>Tanque</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="atacante"> <span>Atacante (Striker)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="controlador"> <span>Controlador</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="soporte"> <span>Soporte</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="lanzador"> <span>Lanzador (Blaster)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="gish"> <span>Gish (Marcial-Mágico)</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="francotirador"> <span>Francotirador (Sniper)</span></label>
+            </div>
+          </div>
 
-          <select id="exclude-system" class="filter-select filter-exclude" aria-label="Excluir sistema">
-            <option value="none">Excluir Sistema: Ninguno</option>
-            <option value="2014">2014</option>
-            <option value="2024">2024 / 5.5e</option>
-          </select>
+          <div class="multi-select" id="ms-exclude-system" data-placeholder="Excluir Sistema: Ninguno" data-type="exclude">
+            <button type="button" class="multi-select-btn filter-exclude">
+              <span class="multi-select-label">Excluir Sistema: Ninguno</span>
+              <span class="multi-select-arrow">▼</span>
+            </button>
+            <div class="multi-select-popover hidden">
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="2014"> <span>2014</span></label>
+              <label class="multi-select-option is-exclude"><input type="checkbox" value="2024"> <span>2024 / 5.5e</span></label>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -177,22 +212,7 @@ const counts = {
   <!-- ── Grid ────────────────────────────────────────────────────────────── -->
   <div class="builds-grid" id="builds-grid">
     {builds.map(build => (
-      <div
-        data-card
-        data-system={build.system}
-        data-name={build.name.toLowerCase()}
-        data-classes={build.classes.toLowerCase()}
-        data-role={build.role.toLowerCase()}
-        data-total={build.total}
-        data-dpr={build.ratings.dpr}
-        data-ehp={build.ratings.ehp}
-        data-control={build.ratings.control}
-        data-support={build.ratings.support}
-        data-utility={build.ratings.utility}
-        data-complexity={build.ratings.complexity}
-      >
-        <BuildCard build={build} />
-      </div>
+      <BuildCard build={build} />
     ))}
     <p class="empty-state" id="no-results" style="display:none">
       No se encontraron builds con ese criterio.
@@ -212,31 +232,22 @@ const counts = {
 </Layout>
 
 <script>
-  const grid = document.getElementById('builds-grid') as HTMLElement;
-  const cards = Array.from(document.querySelectorAll<HTMLElement>('[data-card]'));
-  
-  const searchInput = document.getElementById('build-search') as HTMLInputElement;
-  const sortBySelect = document.getElementById('sort-by') as HTMLSelectElement;
-  const sortDirBtn = document.getElementById('sort-dir') as HTMLButtonElement;
-  const sortDirIcon = document.getElementById('sort-dir-icon') as HTMLElement;
-  const sortDirText = document.getElementById('sort-dir-text') as HTMLElement;
+  const searchInput   = document.getElementById('build-search') as HTMLInputElement;
+  const sortBySelect  = document.getElementById('sort-by') as HTMLSelectElement;
+  const sortDirBtn    = document.getElementById('sort-dir') as HTMLButtonElement;
+  const sortDirIcon   = document.getElementById('sort-dir-icon') as HTMLElement;
+  const sortDirText   = document.getElementById('sort-dir-text') as HTMLElement;
 
   const btnToggleDrawer = document.getElementById('btn-toggle-drawer') as HTMLButtonElement;
-  const filterDrawer = document.getElementById('filter-drawer') as HTMLElement;
-  const badgeCount = document.getElementById('filter-badge-count') as HTMLElement;
-  const drawerArrow = document.getElementById('drawer-arrow') as HTMLElement;
+  const filterDrawer    = document.getElementById('filter-drawer') as HTMLElement;
+  const badgeCount      = document.getElementById('filter-badge-count') as HTMLElement;
+  const drawerArrow     = document.getElementById('drawer-arrow') as HTMLElement;
 
-  const systemSelect = document.getElementById('filter-system') as HTMLSelectElement;
-  const classSelect = document.getElementById('filter-class') as HTMLSelectElement;
-  const roleSelect = document.getElementById('filter-role') as HTMLSelectElement;
-  const scoreSelect = document.getElementById('filter-score') as HTMLSelectElement;
-
-  const excludeClassSelect = document.getElementById('exclude-class') as HTMLSelectElement;
-  const excludeRoleSelect = document.getElementById('exclude-role') as HTMLSelectElement;
-  const excludeSystemSelect = document.getElementById('exclude-system') as HTMLSelectElement;
-
-  const resetBtn = document.getElementById('btn-reset') as HTMLButtonElement;
+  const resetBtn            = document.getElementById('btn-reset') as HTMLButtonElement;
   const activeTagsContainer = document.getElementById('active-tags') as HTMLElement;
+
+  const grid      = document.getElementById('builds-grid')!;
+  const cards     = Array.from(grid.querySelectorAll<HTMLElement>('.build-card'));
   const noResults = document.getElementById('no-results')!;
 
   let sortAscending = false;
@@ -248,8 +259,97 @@ const counts = {
     if (drawerArrow) drawerArrow.textContent = isHidden ? '▼' : '▲';
   });
 
+  // ── Multi-Select Helper Functions ─────────────────────────────────────────
+  const MS_IDS = [
+    'ms-system', 'ms-class', 'ms-role', 'ms-score',
+    'ms-exclude-class', 'ms-exclude-role', 'ms-exclude-system'
+  ];
+
+  function getSelectedValues(msId: string): string[] {
+    const container = document.getElementById(msId);
+    if (!container) return [];
+    return [...container.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')].map(cb => cb.value);
+  }
+
+  function setSelectedValues(msId: string, values: string[]) {
+    const container = document.getElementById(msId);
+    if (!container) return;
+    const checkboxes = container.querySelectorAll<HTMLInputElement>('input[type="checkbox"]');
+    checkboxes.forEach(cb => { cb.checked = values.includes(cb.value); });
+    updateMultiSelectLabel(msId);
+  }
+
+  function unselectValue(msId: string, value: string) {
+    const current = getSelectedValues(msId);
+    setSelectedValues(msId, current.filter(v => v !== value));
+  }
+
+  function updateMultiSelectLabel(msId: string) {
+    const container = document.getElementById(msId);
+    if (!container) return;
+    const btn = container.querySelector<HTMLButtonElement>('.multi-select-btn');
+    const label = container.querySelector<HTMLElement>('.multi-select-label');
+    const placeholder = container.dataset.placeholder || '';
+    const isExclude = container.dataset.type === 'exclude';
+    const checked = [...container.querySelectorAll<HTMLInputElement>('input[type="checkbox"]:checked')];
+
+    if (!btn || !label) return;
+
+    if (checked.length === 0) {
+      label.textContent = placeholder;
+      btn.classList.remove('active');
+      if (isExclude) btn.classList.remove('has-active-exclude');
+    } else if (checked.length === 1) {
+      const text = checked[0].nextElementSibling?.textContent || checked[0].value;
+      const prefix = isExclude ? 'Excluir: ' : '';
+      label.textContent = `${prefix}${text}`;
+      btn.classList.add('active');
+      if (isExclude) btn.classList.add('has-active-exclude');
+    } else {
+      const prefix = isExclude ? 'Excluir: ' : '';
+      label.textContent = `${prefix}${checked.length} seleccionados`;
+      btn.classList.add('active');
+      if (isExclude) btn.classList.add('has-active-exclude');
+    }
+  }
+
+  // Setup Multi-Select Event Delegation & Popover Toggling
+  MS_IDS.forEach(msId => {
+    const container = document.getElementById(msId);
+    if (!container) return;
+    const btn = container.querySelector<HTMLButtonElement>('.multi-select-btn');
+    const popover = container.querySelector<HTMLElement>('.multi-select-popover');
+
+    btn?.addEventListener('click', (e) => {
+      e.stopPropagation();
+      // Close other popovers
+      MS_IDS.forEach(otherId => {
+        if (otherId !== msId) {
+          document.getElementById(otherId)?.querySelector('.multi-select-popover')?.classList.add('hidden');
+        }
+      });
+      popover?.classList.toggle('hidden');
+    });
+
+    container.querySelectorAll<HTMLInputElement>('input[type="checkbox"]').forEach(cb => {
+      cb.addEventListener('change', () => {
+        updateMultiSelectLabel(msId);
+        applyFiltersAndSort();
+      });
+    });
+  });
+
+  // Close popovers on outside click
+  document.addEventListener('click', (e) => {
+    const target = e.target as HTMLElement;
+    if (!target.closest('.multi-select')) {
+      MS_IDS.forEach(msId => {
+        document.getElementById(msId)?.querySelector('.multi-select-popover')?.classList.add('hidden');
+      });
+    }
+  });
+
   function matchRoleFilter(roleText: string, filterVal: string) {
-    if (filterVal === 'all' || filterVal === 'none') return true;
     const r = roleText.toLowerCase();
     const v = filterVal.toLowerCase();
     if (v === 'tanque' || v === 'tank') return r.includes('tanque') || r.includes('tank');
@@ -260,6 +360,16 @@ const counts = {
     if (v === 'gish') return r.includes('gish');
     if (v === 'francotirador' || v === 'sniper') return r.includes('francotirador') || r.includes('sniper');
     return r.includes(v);
+  }
+
+  function matchScoreFilter(totalScore: number, filterVal: string): boolean {
+    if (filterVal === 'tier-s') return totalScore >= 75;
+    if (filterVal === 'tier-a') return totalScore >= 65 && totalScore < 75;
+    if (filterVal === 'tier-b') return totalScore >= 55 && totalScore < 65;
+    if (filterVal === 'tier-c') return totalScore >= 45 && totalScore < 55;
+    if (filterVal === 'tier-d') return totalScore >= 35 && totalScore < 45;
+    if (filterVal === 'tier-f') return totalScore < 35;
+    return true;
   }
 
   function renderActiveTags() {
@@ -284,30 +394,40 @@ const counts = {
       activeTagsContainer.appendChild(tag);
     };
 
-    const sysVal = systemSelect?.value ?? 'all';
-    if (sysVal !== 'all') addTag(`Sistema: ${sysVal}`, false, () => { systemSelect.value = 'all'; });
+    // System Includes
+    getSelectedValues('ms-system').forEach(v => {
+      addTag(`Sistema: ${v}`, false, () => unselectValue('ms-system', v));
+    });
 
-    const classVal = classSelect?.value ?? 'all';
-    if (classVal !== 'all') addTag(`Clase: ${classVal}`, false, () => { classSelect.value = 'all'; });
+    // Class Includes
+    getSelectedValues('ms-class').forEach(v => {
+      addTag(`Clase: ${v}`, false, () => unselectValue('ms-class', v));
+    });
 
-    const roleVal = roleSelect?.value ?? 'all';
-    if (roleVal !== 'all') addTag(`Rol: ${roleVal}`, false, () => { roleSelect.value = 'all'; });
+    // Role Includes
+    getSelectedValues('ms-role').forEach(v => {
+      addTag(`Rol: ${v}`, false, () => unselectValue('ms-role', v));
+    });
 
-    const scoreVal = scoreSelect?.value ?? 'all';
-    if (scoreVal !== 'all') addTag(`Puntuación: ${scoreVal}`, false, () => { scoreSelect.value = 'all'; });
+    // Score Includes
+    getSelectedValues('ms-score').forEach(v => {
+      addTag(`Puntuación: ${v.toUpperCase()}`, false, () => unselectValue('ms-score', v));
+    });
 
-    const exClassVal = excludeClassSelect?.value ?? 'none';
-    if (exClassVal !== 'none') addTag(`Excluir Clase: ${exClassVal}`, true, () => { excludeClassSelect.value = 'none'; });
-    excludeClassSelect?.classList.toggle('has-active-exclude', exClassVal !== 'none');
+    // Excludes
+    getSelectedValues('ms-exclude-class').forEach(v => {
+      addTag(`Excluir Clase: ${v}`, true, () => unselectValue('ms-exclude-class', v));
+    });
 
-    const exRoleVal = excludeRoleSelect?.value ?? 'none';
-    if (exRoleVal !== 'none') addTag(`Excluir Rol: ${exRoleVal}`, true, () => { excludeRoleSelect.value = 'none'; });
-    excludeRoleSelect?.classList.toggle('has-active-exclude', exRoleVal !== 'none');
+    getSelectedValues('ms-exclude-role').forEach(v => {
+      addTag(`Excluir Rol: ${v}`, true, () => unselectValue('ms-exclude-role', v));
+    });
 
-    const exSysVal = excludeSystemSelect?.value ?? 'none';
-    if (exSysVal !== 'none') addTag(`Excluir Sistema: ${exSysVal}`, true, () => { excludeSystemSelect.value = 'none'; });
-    excludeSystemSelect?.classList.toggle('has-active-exclude', exSysVal !== 'none');
+    getSelectedValues('ms-exclude-system').forEach(v => {
+      addTag(`Excluir Sistema: ${v}`, true, () => unselectValue('ms-exclude-system', v));
+    });
 
+    // Text Search Tokens
     const rawQuery = searchInput?.value.trim() ?? '';
     if (rawQuery) {
       const tokens = rawQuery.split(/\s+/);
@@ -315,10 +435,12 @@ const counts = {
         if (token.startsWith('-') && token.length > 1) {
           addTag(`Excluir: "${token.slice(1)}"`, true, () => {
             searchInput.value = tokens.filter(t => t !== token).join(' ');
+            applyFiltersAndSort();
           });
         } else if (token) {
           addTag(`Buscar: "${token}"`, false, () => {
             searchInput.value = tokens.filter(t => t !== token).join(' ');
+            applyFiltersAndSort();
           });
         }
       });
@@ -336,16 +458,15 @@ const counts = {
 
   function applyFiltersAndSort() {
     const rawQuery = searchInput?.value.toLowerCase().trim() ?? '';
-    const sysVal = systemSelect?.value ?? 'all';
-    const classVal = classSelect?.value ?? 'all';
-    const roleVal = roleSelect?.value ?? 'all';
-    const scoreVal = scoreSelect?.value ?? 'all';
+    const sysVals   = getSelectedValues('ms-system');
+    const classVals = getSelectedValues('ms-class');
+    const roleVals  = getSelectedValues('ms-role');
+    const scoreVals = getSelectedValues('ms-score');
 
-    const exClassVal = excludeClassSelect?.value ?? 'none';
-    const exRoleVal = excludeRoleSelect?.value ?? 'none';
-    const exSysVal = excludeSystemSelect?.value ?? 'none';
+    const exClassVals = getSelectedValues('ms-exclude-class');
+    const exRoleVals  = getSelectedValues('ms-exclude-role');
+    const exSysVals   = getSelectedValues('ms-exclude-system');
 
-    // Parse search text tokens into include and exclude criteria
     const tokens = rawQuery ? rawQuery.split(/\s+/).filter(Boolean) : [];
     const includeTokens = tokens.filter(t => !t.startsWith('-'));
     const excludeTokens = tokens.filter(t => t.startsWith('-') && t.length > 1).map(t => t.slice(1));
@@ -359,27 +480,20 @@ const counts = {
       const role = card.dataset.role ?? '';
       const total = Number(card.dataset.total ?? '0');
 
-      // Include checks
-      const matchSys = sysVal === 'all' || sys.includes(sysVal);
-      const matchClass = classVal === 'all' || classes.includes(classVal);
-      const matchRole = matchRoleFilter(role, roleVal);
-
-      let matchScore = true;
-      if      (scoreVal === 'tier-s') matchScore = total >= 75;
-      else if (scoreVal === 'tier-a') matchScore = total >= 65 && total < 75;
-      else if (scoreVal === 'tier-b') matchScore = total >= 55 && total < 65;
-      else if (scoreVal === 'tier-c') matchScore = total >= 45 && total < 55;
-      else if (scoreVal === 'tier-d') matchScore = total >= 35 && total < 45;
-      else if (scoreVal === 'tier-f') matchScore = total < 35;
+      // Include checks (Multi-select OR logic)
+      const matchSys   = sysVals.length === 0 || sysVals.some(v => sys.includes(v));
+      const matchClass = classVals.length === 0 || classVals.some(v => classes.includes(v));
+      const matchRole  = roleVals.length === 0 || roleVals.some(v => matchRoleFilter(role, v));
+      const matchScore = scoreVals.length === 0 || scoreVals.some(v => matchScoreFilter(total, v));
 
       // Search text include tokens
       const cardText = `${name} ${classes} ${role} ${sys}`.toLowerCase();
       const matchSearchInclude = includeTokens.every(token => cardText.includes(token));
 
-      // Explicit Exclude checks
-      const matchExClass = exClassVal === 'none' || !classes.includes(exClassVal);
-      const matchExRole = exRoleVal === 'none' || !matchRoleFilter(role, exRoleVal);
-      const matchExSys = exSysVal === 'none' || !sys.includes(exSysVal);
+      // Explicit Exclude checks (Multi-select AND NOT logic)
+      const matchExClass = exClassVals.length === 0 || !exClassVals.some(v => classes.includes(v));
+      const matchExRole  = exRoleVals.length === 0 || !exRoleVals.some(v => matchRoleFilter(role, v));
+      const matchExSys   = exSysVals.length === 0 || !exSysVals.some(v => sys.includes(v));
 
       // Search text exclude tokens
       const matchSearchExclude = excludeTokens.every(token => !cardText.includes(token));
@@ -398,24 +512,20 @@ const counts = {
     const sortByKey = sortBySelect?.value ?? 'total';
 
     cards.sort((a, b) => {
-      let valA: string | number = 0;
-      let valB: string | number = 0;
-
       if (sortByKey === 'name') {
-        valA = a.dataset.name ?? '';
-        valB = b.dataset.name ?? '';
-        const comp = (valA as string).localeCompare(valB as string);
+        const valA = a.dataset.name ?? '';
+        const valB = b.dataset.name ?? '';
+        const comp = valA.localeCompare(valB);
         return sortAscending ? comp : -comp;
       } else {
-        valA = Number(a.dataset[sortByKey] ?? '0');
-        valB = Number(b.dataset[sortByKey] ?? '0');
-        return sortAscending ? (valA as number) - (valB as number) : (valB as number) - (valA as number);
+        const valA = Number(a.dataset[sortByKey] ?? '0');
+        const valB = Number(b.dataset[sortByKey] ?? '0');
+        return sortAscending ? valA - valB : valB - valA;
       }
     });
 
     // Re-append cards to DOM in sorted order
     cards.forEach(card => grid.appendChild(card));
-    // Ensure noResults message stays at the end
     grid.appendChild(noResults);
 
     renderActiveTags();
@@ -432,15 +542,6 @@ const counts = {
     applyFiltersAndSort();
   });
 
-  systemSelect?.addEventListener('change', applyFiltersAndSort);
-  classSelect?.addEventListener('change', applyFiltersAndSort);
-  roleSelect?.addEventListener('change', applyFiltersAndSort);
-  scoreSelect?.addEventListener('change', applyFiltersAndSort);
-
-  excludeClassSelect?.addEventListener('change', applyFiltersAndSort);
-  excludeRoleSelect?.addEventListener('change', applyFiltersAndSort);
-  excludeSystemSelect?.addEventListener('change', applyFiltersAndSort);
-
   resetBtn?.addEventListener('click', () => {
     if (searchInput) searchInput.value = '';
     if (sortBySelect) sortBySelect.value = 'total';
@@ -448,15 +549,7 @@ const counts = {
     if (sortDirIcon) sortDirIcon.textContent = '↓';
     if (sortDirText) sortDirText.textContent = 'Desc';
 
-    if (systemSelect) systemSelect.value = 'all';
-    if (classSelect) classSelect.value = 'all';
-    if (roleSelect) roleSelect.value = 'all';
-    if (scoreSelect) scoreSelect.value = 'all';
-
-    if (excludeClassSelect) excludeClassSelect.value = 'none';
-    if (excludeRoleSelect) excludeRoleSelect.value = 'none';
-    if (excludeSystemSelect) excludeSystemSelect.value = 'none';
-
+    MS_IDS.forEach(msId => setSelectedValues(msId, []));
     applyFiltersAndSort();
   });
 

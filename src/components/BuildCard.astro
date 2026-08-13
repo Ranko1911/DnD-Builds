@@ -14,12 +14,15 @@ interface Build {
     utility: number;
     complexity: number;
   };
+  total?: number;
 }
 
 interface Props { build: Build }
 
 const { build } = Astro.props;
 const base = import.meta.env.BASE_URL;
+
+const total = build.total ?? Math.round((build.ratings.dpr + build.ratings.ehp + build.ratings.control + build.ratings.support + build.ratings.utility) / 5);
 
 function systemClass(s: string) {
   if (s.includes('2024') && s.includes('2014')) return 'sboth';
@@ -42,7 +45,21 @@ const ratings = [
 ];
 ---
 
-<div class="build-card">
+<div
+  class="build-card"
+  data-card
+  data-system={build.system}
+  data-name={build.name.toLowerCase()}
+  data-classes={build.classes.toLowerCase()}
+  data-role={build.role.toLowerCase()}
+  data-total={total}
+  data-dpr={build.ratings.dpr}
+  data-ehp={build.ratings.ehp}
+  data-control={build.ratings.control}
+  data-support={build.ratings.support}
+  data-utility={build.ratings.utility}
+  data-complexity={build.ratings.complexity}
+>
   <div class="build-card-header">
     <span class={`card-system ${systemClass(build.system)}`}>
       {systemLabel(build.system)}
