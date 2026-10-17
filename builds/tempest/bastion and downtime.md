@@ -9,7 +9,11 @@
 * **Puntos de Bastión (Bastion Points - BP):** 450 BP
 * **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 12 (+1), CON 18 (+4), INT 22 (+6), WIS 14 (+2), CHA 8 (-1)
 
-### Instalaciones Básicas (Basic Facilities)
+---
+
+### Instalaciones Básicas (Basic Facilities — Oficiales DMG 2024)
+
+*Instalaciones comunes sin coste de ranura especial según la DMG 2024:*
 
 1. **Dormitorio Principal (Bedchambers):** Aposentos personales en el vértice de la torre, rodeados de ventanales de cuarzo reforzado y pararrayos de cobre puro que canalizan la carga electrostática atmosférica.
 2. **Comedor (Dining Hall):** Salón comunal de roble marino y bronce donde eruditos, escribas y navegantes del bastión planifican expediciones arcanas y vigilan los barómetros.
@@ -17,60 +21,70 @@
 
 ---
 
-### Instalaciones Especiales (Special Facilities — 6 Activas a Nivel 20)
+### Instalaciones Especiales (Special Facilities — 100% Oficiales RAW: DMG 2024 & RHW)
 
-*Desbloqueadas por nivel según las reglas de Bastiones de la DMG 2024:*
+*El sistema oficial otorga exactamente **6 Instalaciones Especiales** a Nivel 20 (2 a Nivel 5, 2 a Nivel 9, 1 a Nivel 13 y 1 a Nivel 17). Las 6 instalaciones elegidas para el bastión son **100% Oficiales (RAW)**, procedentes de la *Dungeon Master's Guide 2024 (DMG)* y de la expansión oficial *Ravenloft: The Horrors Within (RHW)*:*
 
-* **1. Estudio Arcano (Arcane Study - Nivel 5) [Instalación Primaria]:**
+* **1. Estudio Arcano (Arcane Study) — [Oficial DMG 2024 — Nivel 5] [Instalación Primaria]:**
   * *Estado:* Activa (Mantener / Craft)
-  * *Prerrequisito:* Rasgo de Lanzamiento de Conjuros (*Spellcasting* de Mago y Clérigo).
-  * *Personal:* 1 Aprendiz de Mago e Investigador de Fenómenos Eléctricos.
-  * *Orden de Bastión Especial:* **Craft Focus & Research (Fabricación de Focos, Tintas y Pergaminos Arcanos).**
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. El núcleo técnico del personaje. Trabaja en sinergia directa con *Wizardly Quill* y *Awakened Spellbook* de la Orden de los Escribas. Permite:
-    1. Forjar y calibrar el **Foco Universal Único** (*Collar CMT + Amulet of the Devout*), asegurando la canalización híbrida sin penalizaciones de manos libres.
-    2. Investigar y descomponer fórmulas de conjuros elementales raros para alimentar el catálogo de tipos de daño del libro de conjuros.
-    3. Elaborar pergaminos arcanos de apoyo y reactivos de transmutación a mitad de tiempo y coste ordinario.
+  * *Prerrequisito Oficial:* Rasgo *Spellcasting* o *Pact Magic*.
+  * *Personal Asignado:* 1 Aprendiz de Mago e Investigador Arcana.
+  * *Beneficio Pasivo Oficial:* Concede un **Charm de Identificar** tras cada Descanso Largo en el bastión (lanzamiento gratuito de *Identify* sin consumir ranura ni componentes).
+  * *Orden de Bastión Oficial:* **Craft Focus & Research / Craft Magic Items (Nivel 9+).**
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite fabricar y calibrar el Foco Universal Único (*Collar CMT + Amulet of the Devout*), producir libros de conjuros en blanco y crear objetos mágicos arcanos Comunes y Poco Comunes. Trabaja en sintonía con *Wizardly Quill* del Mago Escribano para investigar fórmulas elementales.
 
-* **2. Laboratorio Arcano (Laboratory - Nivel 5):**
+* **2. Forja Rúnica Enana (Smithy) — [Oficial DMG 2024 — Nivel 5]:**
   * *Estado:* Activa (Mantener / Craft)
-  * *Prerrequisito:* Ninguno (supervisado por 1 Alquimista Maestro).
-  * *Personal:* 1 Alquimista Elemental y Destilador.
-  * *Orden de Bastión Especial:* **Craft Potion (Destilación de Pociones Tácticas y Elixires de Resistencia).**
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Genera un suministro inagotable de consumibles de combate vitales para el gish de vanguardia:
-    1. **Pociones de Vuelo (*Potion of Flying*):** Concede 60 pies de velocidad de vuelo durante 1 hora **sin requerir concentración**. Permite maniobrar y proyectar el aura de *Spirit Guardians* en 3 dimensiones sin competir con tus conjuros de concentración.
-    2. **Pociones de Curación Superior y Suprema:** Reserva constante de sanación de emergencia para ti y tus aliados sin malgastar ranuras de conjuro de Clérigo.
-    3. **Pociones de Resistencia:** Inmunidad preventiva a elementos hostiles antes de incursiones en mazmorras o planos elementales.
+  * *Prerrequisito Oficial:* Ninguno.
+  * *Personal Asignado:* 1 Maestro Herrero Enano.
+  * *Orden de Bastión Oficial:* **Craft (Armas, Armaduras, Escudos y Objetos Metálicos).**
+  * *Sinergia con el Build:* 🟢 **Excelente**. Máxima afinidad con la especie Enano y el rol gish acorazado con Armadura Pesada (*Plate Armor +3*) y *Escudo +3*. El herrero forja y repara componentes de armadura, elabora armas de guerra y produce pararrayos y varas de aleación conductora para las defensas de la torre.
 
-* **3. Generador de Relámpagos (Lightning Generator - Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Prerrequisito:* Lanzador de Conjuros de Tormenta o Clérigo de la Tempestad.
-  * *Personal:* 1 Ingeniero Arcano / Maestro Conductor de Tormentas.
-  * *Orden de Bastión Especial:* **Almacenamiento de Carga Voltaica, Recarga de Objetos y Defensa de Tesla.**
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Un colosal dínamo magitécnico forjado con bobinas de cobre enano, magnetita y núcleos de relámpago elemental situado en la terraza del bastión:
-    1. **Recarga de Baterías y Objetos:** Durante un Bastion Turn, puede recargar completamente las cargas de objetos mágicos basados en relámpagos (incluyendo el *Staff of the Magi*, varitas y baterías electro-arcanas de almacenamiento).
-    2. **Defensa de Fortaleza (Campo de Bobina de Tesla):** En caso de ataque o asedio al bastión (Bastion Event), la instalación descarga un arco continuo de relámpagos que inflige $10\text{d}10$ de daño de relámpago a todos los asaltantes hostiles en un radio de 120 pies de los muros, con la capacidad del Clérigo de maximizar el impacto a **100 de daño plano** mediante *Canalizar Divinidad: Ira Destructiva*.
-    3. **Armamento Electrificado:** Dota a las defensas de la torre de munición sobrecargada, añadiendo $+1\text{d}6$ de daño de relámpago a todos los virotes y proyectiles disparados por la guarnición.
+* **3. Laboratorio Alquímico (Laboratory) — [Oficial DMG 2024 — Nivel 9]:**
+  * *Estado:* Activa (Mantener / Craft)
+  * *Prerrequisito Oficial:* Ninguno.
+  * *Personal Asignado:* 1 Alquimista Maestro y Destilador.
+  * *Orden de Bastión Oficial:* **Craft (Pociones y Venenos).**
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Genera un suministro constante e inagotable de consumibles tácticos que no consumen ranuras de conjuro:
+    1. **Pociones de Vuelo (*Potion of Flying*):** Concede 60 pies de velocidad de vuelo durante 1 hora **sin requerir concentración**, permitiendo proyectar el aura de *Spirit Guardians* en 3 dimensiones sin competir con tus conjuros de concentración.
+    2. **Pociones de Curación Superior y Suprema:** Sanación de emergencia masiva para el personaje y sus aliados.
+    3. **Pociones de Resistencia:** Inmunidad preventiva frente a daño elemental específico antes de asaltar mazmorras o planos hostiles.
 
-* **4. Observatorio Meteorológico (Observatory - Nivel 13):**
+* **4. Círculo de Teletransporte (Teleportation Circle) — [Oficial DMG 2024 — Nivel 9]:**
   * *Estado:* Activa (Mantener)
-  * *Personal:* 1 Astrónomo y Cartógrafo Atmosférico.
-  * *Orden de Bastión Especial:* **Predicción Climática y Canalización de Rayos.**
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Equipado con lentes de zafiro y pararrayos convergentes conectados directamente al *Generador de Relámpagos*. Anticipa tormentas eléctricas y anomalías climáticas planares con días de antelación, garantizando que el Clérigo de la Tormenta combata siempre bajo condiciones meteorológicas óptimas y concediendo ventaja en la iniciativa de los defensores del bastión.
+  * *Prerrequisito Oficial:* Rasgo de Lanzamiento de Conjuros (*Spellcasting*).
+  * *Personal Asignado:* 1 Operador Rúnico y Guardián del Portal.
+  * *Orden de Bastión Oficial:* **Enlace de Tránsito Planar y Red de Teletransporte.**
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Alberga un círculo permanente de teletransporte grabado en el suelo de piedra. Resuelve la logística de viaje a nivel alto, permitiendo que el personaje y sus aliados lancen *Teleportation Circle* (5.º) o *Teleport* (7.º) para regresar instantáneamente a la seguridad del bastión desde cualquier punto del multiverso.
 
-* **5. Círculo de Teletransporte (Teleportation Circle - Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Prerrequisito:* Rasgo de Lanzamiento de Conjuros (*Spellcasting* de Mago y Clérigo).
-  * *Personal:* 1 Operador Rúnico y Guardián del Portal.
-  * *Orden de Bastión Especial:* **Enlace de Tránsito Planar y Red de Teletransporte.**
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Alberga un círculo de teletransporte permanente grabado con sigilos enanos conductores. Resuelve la logística estratégica a nivel alto:
-    1. Permite al personaje y a sus aliados lanzar *Teleportation Circle* (5.º nivel) o *Teleport* (7.º nivel) para volver de forma instantánea a la torre del bastión desde cualquier mazmorra o plano del multiverso.
-    2. Su orden de bastión permite emitir enlaces con ciudades arcanas aliadas, facilitando la llegada de comerciantes de gemas, pergaminos de alto nivel y diplomáticos sin tiempos de viaje.
+* **5. Generador de Relámpagos (Lightning Generator) — [Oficial RHW (*Ravenloft: The Horrors Within*) — Nivel 13]:**
+  * *Estado:* Activa (Empower / Mantener)
+  * *Fuente Oficial:* *Ravenloft: The Horrors Within (RHW)* — Instalación Especial de Nivel 13.
+  * *Espacio Requerido:* Espaciosa (*Roomy*).
+  * *Prerrequisito Oficial:* Ninguno.
+  * *Personal Asignado:* 1 Ingeniero Electro-Arcano (*Hireling* oficial).
+  * *Orden de Bastión Oficial:* **Empower (Potenciar).**
+  * *Beneficios y Mecánicas Oficiales (RAW - RHW):*
+    1. **Talismán de Electromancia (*Charm of Electromancy*):** Al finalizar un Descanso Largo en el interior del generador, el personaje puede sobrecargarse de energía galvánica. Sufre $8\text{d}6$ de daño de relámpago (este daño no puede ser reducido ni prevenido por inmunidad o resistencia), obteniendo a cambio un *Charm of Electromancy* mágico de 7 días de duración con 3 cargas para lanzar *Telekinesis* (5.º nivel) sin consumir ranuras de conjuro ni componentes.
+    2. **Reanimación Galvánica (*Revivification Discount*):** Lanzar los conjuros *Raise Dead* o *Resurrection* dentro del generador de relámpagos reduce el coste en diamantes del componente material en 1,000 po (hasta un mínimo de 0 po).
+    3. **Orden Empower — Vida Eléctrica (*Lightning Life*):** Al emitir una orden de *Empower*, el operario electrifica un objeto no mágico Grande o Enorme (metal o piedra) de la fortaleza, animándolo como con *Animate Objects* durante 7 días **sin requerir concentración**, actuando como coloso guardián autónomo del bastión.
+    4. **Inmunidad a Tormentas de Bastión (*Lightning Storm Haunting Immunity*):** Conecta a tierra las sobrecargas voltaicas de la torre, anulando por completo los efectos perjudiciales del evento de asedio/embrujo *Lightning Storm*.
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Temática 100% voltaica. Otorga control de campo masivo con *Telekinesis* gratuita, reduce drásticamente los costes de resurrección de aliados y crea guardianes colosales autónomos sin comprometer la concentración del personaje.
 
-* **6. Demiplano de Resguardo (Demiplane - Nivel 17):**
+* **6. Demiplano de Resguardo (Demiplane) — [Oficial DMG 2024 — Nivel 17]:**
   * *Estado:* Activa (Mantener)
-  * *Prerrequisito:* Lanzador de Conjuros de Nivel 17+.
-  * *Orden de Bastión Especial:* **Resguardo Planar y Santuario del Simulacro.**
+  * *Prerrequisito Oficial:* Lanzador de Conjuros de Nivel 17+.
+  * *Orden de Bastión Oficial:* **Resguardo Planar y Santuario del Simulacro.**
   * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Bóveda extradimensional inviolable. Otorga **100 Puntos de Golpe Temporales** diarios tras realizar un descanso largo en su interior. Sirve como santuario blindado contra adivinaciones enemigas donde se crea y mantiene el *Simulacrum* gemelo del personaje para ráfagas dobles maximizadas.
+
+---
+
+### 🔭 Instalación de Reserva Oficial (Variante Core DMG 2024)
+
+* **Observatorio Meteorológico (Observatory) — [Oficial DMG 2024 — Nivel 13]:**
+  * *Uso:* Instalación alternativa oficial en caso de que una mesa restrinja las instalaciones de nivel 13 estrictamente al libro básico *DMG 2024* sin suplementos.
+  * *Personal:* 1 Astrónomo Cartógrafo.
+  * *Beneficio:* Predicción climática anticipada, ventajas tácticas en iniciativa para defensores del bastión y lanzamiento de conjuros de adivinación/escudriñamiento (*Scry*).
 
 ---
 
@@ -78,12 +92,13 @@
 
 * **Capataz / Administrador (Major Domo):** Garrick el Monzón (Antiguo capitán de fragata y cartógrafo de tempestades).
 * **Defensores / Guardias:** 16 Infantes de marina de élite armados con ballestas pesadas y corazas reforzadas con conductores de cobre.
-* **Especialistas de Bastión:**
-  * Investigador Arcano (asignado al *Estudio Arcano*).
-  * Alquimista Maestro y Destilador (asignado al *Laboratorio Arcano*).
-  * Ingeniero de Tormentas (asignado al *Generador de Relámpagos*).
-  * Astrónomo Cartógrafo (asignado al *Observatorio*).
-  * Operador Rúnico (asignado al *Círculo de Teletransporte*).
+* **Especialistas Oficiales de Bastión (1 por cada Instalación Activa):**
+  * Investigador Arcano (asignado al *Estudio Arcano* [DMG 2024]).
+  * Maestro Forjador Enano (asignado a la *Forja Rúnica* [DMG 2024]).
+  * Alquimista Maestro y Destilador (asignado al *Laboratorio Alquímico* [DMG 2024]).
+  * Operador Rúnico (asignado al *Círculo de Teletransporte* [DMG 2024]).
+  * Ingeniero Electro-Arcano (asignado al *Generador de Relámpagos* [RHW]).
+  * *(Reserva: Astrónomo Cartógrafo para el Observatorio [DMG 2024])*.
 
 ---
 
@@ -91,7 +106,7 @@
 
 ### Prioridad 1: Investigación Elemental y Creación de Pergaminos
 
-* **Mecánica Base:** PHB 2024 / Mago Escribano (*Master Scrivener*) + *Estudio Arcano*.
+* **Mecánica Base:** PHB 2024 / Mago Escribano (*Master Scrivener*) + *Estudio Arcano* [DMG 2024].
 * **Bonificadores Aplicables:** Inteligencia (Arcana) $+12$ con Ventaja permanente (vía *One with the Word*).
 * **Objetivo de Optimización:**
   1. Utilizar el *Estudio Arcano* para investigar y transcribir nuevos conjuros elementales, nutriendo la biblioteca de transmutación del *Awakened Spellbook*.
@@ -102,23 +117,21 @@
 ### Prioridad 2: Creación y Sincronización del Simulacro Gemelo (Simulacrum)
 
 * **Mecánica Base:** Conjuro de 7.º nivel de Mago (12 horas de lanzamiento, 1,500 po en polvo de rubí).
-* **Ubicación:** Demiplano de Resguardo del Bastión.
+* **Ubicación:** Demiplano de Resguardo del Bastión [DMG 2024].
 * **Resultado:** Un duplicado idéntico del personaje que dispone de su propia reserva completa de ranuras de nivel 1 a 9 y **3 usos de Canalizar Divinidad: Ira Destructiva**, permitiendo ejecutar un bombardeo doble coordinado de **480 de daño de relámpago combinado** en el mismo asalto.
 
 ### Prioridad 3: Destilación de Pociones de Vuelo y Curación Suprema
 
-* **Mecánica Base:** DMG 2024 / *Laboratorio Arcano*.
+* **Mecánica Base:** DMG 2024 / *Laboratorio Alquímico* [DMG 2024].
 * **Objetivo:** Acumular un suministro permanente de Pociones de Vuelo (para ganar velocidad de vuelo sin concentración) y Pociones de Curación Superior/Suprema para el equipo.
 
-### Prioridad 4: Sobrecarga del Generador de Relámpagos y Recarga de Baterías
+### Prioridad 4: Sobrecarga del Generador de Relámpagos y Talismán de Electromancia
 
-* **Mecánica Base:** DMG 2024 / *Generador de Relámpagos*.
-* **Objetivo:** Recargar al máximo las 50 cargas del *Staff of the Magi*, cebar las baterías voltaicas de la torre para defensas de área y galvanizar la munición de la guarnición con daño de relámpago extra.
-
-### Prioridad 5: Predicción y Cartografía Meteorológica
-
-* **Mecánica Base:** DMG 2024 / *Observatorio*.
-* **Objetivo:** Trazar frentes de tormentas y corrientes eléctricas planares para planificar asedios o combates bajo cielo encapotado.
+* **Mecánica Base:** RHW (*Ravenloft: The Horrors Within*) / *Generador de Relámpagos*.
+* **Objetivo:**
+  1. Completar descansos largos en el generador para activar el *Charm of Electromancy* (3 lanzamientos de *Telekinesis* sin gastar ranuras).
+  2. Emitir la orden *Empower* para animar autómatas/constructos metálicos colosales (*Animate Objects* durante 7 días sin concentración) que custodien el bastión.
+  3. Aprovechar la reducción de 1,000 po en diamantes al revivir aliados mediante *Raise Dead* o *Resurrection*.
 
 ---
 
