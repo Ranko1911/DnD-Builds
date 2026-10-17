@@ -79,12 +79,27 @@
 
 ---
 
-### 🔭 Instalación de Reserva Oficial (Variante Core DMG 2024)
+### 🔭 Instalaciones de Reserva y Alternativas Evaluadas (Oficiales DMG 2024)
 
-* **Observatorio Meteorológico (Observatory) — [Oficial DMG 2024 — Nivel 13]:**
-  * *Uso:* Instalación alternativa oficial en caso de que una mesa restrinja las instalaciones de nivel 13 estrictamente al libro básico *DMG 2024* sin suplementos.
+*Instalaciones oficiales de la DMG 2024 analizadas para el build y mantenidas como opciones intercambiables según el estilo de campaña:*
+
+* **1. Observatorio Meteorológico (Observatory) — [Oficial DMG 2024 — Nivel 13]:**
+  * *Uso:* Alternativa directa al Generador de Relámpagos para mesas que restrinjan las instalaciones estrictamente al libro básico *DMG 2024*.
   * *Personal:* 1 Astrónomo Cartógrafo.
-  * *Beneficio:* Predicción climática anticipada, ventajas tácticas en iniciativa para defensores del bastión y lanzamiento de conjuros de adivinación/escudriñamiento (*Scry*).
+  * *Beneficio:* Predicción climática anticipada, ventajas tácticas en iniciativa para los defensores del bastión y lanzamiento de conjuros de adivinación/escudriñamiento (*Scry*).
+
+* **2. Sacristía (Sacristy) — [Oficial DMG 2024 — Nivel 9]:**
+  * *Uso:* Alternativa sacerdotal al Laboratorio Alquímico para campañas con enfoque sacro/religioso donde no se dependa de pociones de combate.
+  * *Prerrequisito:* Símbolo Sagrado (cumplido vía Clérigo).
+  * *Personal:* 1 Sacerdote / Contemplativo.
+  * *Beneficio:* Permite fabricar agua bendita (incluso potenciada hasta +5d8 de daño) y reliquias sagradas. Además, permite **recuperar 1 ranura de conjuro gastada de nivel 5 o menor** tras realizar un Descanso Corto dentro del bastión (1 vez por Descanso Largo).
+  * *Por qué se prioriza el Laboratorio:* El Mago ya cuenta con *Arcane Recovery* (8 niveles de ranuras recuperables en cualquier descanso corto sin requerir estar en la base), mientras que el Laboratorio otorga *Potion of Flying* sin concentración para desplegar *Spirit Guardians* en 3D.
+
+* **3. Archivo (Archive) — [Oficial DMG 2024 — Nivel 13]:**
+  * *Uso:* Alternativa para campañas de misterio, intriga o exploración de ruinas milenarias.
+  * *Personal:* Investigadores y Eruditos.
+  * *Beneficio:* Los operarios investigan durante 7 días para otorgar los efectos del conjuro ***Legend Lore* (5.º nivel)** sin consumir ranuras ni los 450 po de coste material.
+  * *Por qué se prioriza el Generador de Relámpagos:* Como Mago Escribano de nivel 16 con INT 22 (+6) y ventaja constante en Arcana/Historia, el personaje ya puede acceder a *Legend Lore* directamente, haciendo más valiosas las 3 cargas semanales de *Telekinesis* y los autómatas guardianes del Generador.
 
 ---
 
