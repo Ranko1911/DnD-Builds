@@ -31,12 +31,15 @@
     2. Investigar y descomponer fórmulas de conjuros elementales raros para alimentar el catálogo de tipos de daño del libro de conjuros.
     3. Elaborar pergaminos arcanos de apoyo y reactivos de transmutación a mitad de tiempo y coste ordinario.
 
-* **2. Santuario de la Tormenta (Sanctuary - Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Prerrequisito:* Clérigo del Dominio de la Tempestad (Símbolo Sagrado).
-  * *Personal:* 1 Acólito de la Tempestad.
-  * *Orden de Bastión Especial:* **Comunión y Clamor de la Tempestad Celestial.**
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Altar consagrado a los poderes celestiales del relámpago y el trueno. Otorga bendiciones espirituales que optimizan la recuperación de usos de *Canalizar Divinidad: Ira Destructiva*, además de bendecir a los defensores del bastión con resistencia espiritual frente a cataclismos climáticos.
+* **2. Laboratorio Arcano (Laboratory - Nivel 5):**
+  * *Estado:* Activa (Mantener / Craft)
+  * *Prerrequisito:* Ninguno (supervisado por 1 Alquimista Maestro).
+  * *Personal:* 1 Alquimista Elemental y Destilador.
+  * *Orden de Bastión Especial:* **Craft Potion (Destilación de Pociones Tácticas y Elixires de Resistencia).**
+  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Genera un suministro inagotable de consumibles de combate vitales para el gish de vanguardia:
+    1. **Pociones de Vuelo (*Potion of Flying*):** Concede 60 pies de velocidad de vuelo durante 1 hora **sin requerir concentración**. Permite maniobrar y proyectar el aura de *Spirit Guardians* en 3 dimensiones sin competir con tus conjuros de concentración.
+    2. **Pociones de Curación Superior y Suprema:** Reserva constante de sanación de emergencia para ti y tus aliados sin malgastar ranuras de conjuro de Clérigo.
+    3. **Pociones de Resistencia:** Inmunidad preventiva a elementos hostiles antes de incursiones en mazmorras o planos elementales.
 
 * **3. Generador de Relámpagos (Lightning Generator - Nivel 9):**
   * *Estado:* Activa (Mantener)
@@ -77,7 +80,7 @@
 * **Defensores / Guardias:** 16 Infantes de marina de élite armados con ballestas pesadas y corazas reforzadas con conductores de cobre.
 * **Especialistas de Bastión:**
   * Investigador Arcano (asignado al *Estudio Arcano*).
-  * Acólito de Tormenta (asignado al *Santuario*).
+  * Alquimista Maestro y Destilador (asignado al *Laboratorio Arcano*).
   * Ingeniero de Tormentas (asignado al *Generador de Relámpagos*).
   * Astrónomo Cartógrafo (asignado al *Observatorio*).
   * Operador Rúnico (asignado al *Círculo de Teletransporte*).
@@ -102,12 +105,17 @@
 * **Ubicación:** Demiplano de Resguardo del Bastión.
 * **Resultado:** Un duplicado idéntico del personaje que dispone de su propia reserva completa de ranuras de nivel 1 a 9 y **3 usos de Canalizar Divinidad: Ira Destructiva**, permitiendo ejecutar un bombardeo doble coordinado de **480 de daño de relámpago combinado** en el mismo asalto.
 
-### Prioridad 3: Sobrecarga del Generador de Relámpagos y Recarga de Baterías
+### Prioridad 3: Destilación de Pociones de Vuelo y Curación Suprema
+
+* **Mecánica Base:** DMG 2024 / *Laboratorio Arcano*.
+* **Objetivo:** Acumular un suministro permanente de Pociones de Vuelo (para ganar velocidad de vuelo sin concentración) y Pociones de Curación Superior/Suprema para el equipo.
+
+### Prioridad 4: Sobrecarga del Generador de Relámpagos y Recarga de Baterías
 
 * **Mecánica Base:** DMG 2024 / *Generador de Relámpagos*.
 * **Objetivo:** Recargar al máximo las 50 cargas del *Staff of the Magi*, cebar las baterías voltaicas de la torre para defensas de área y galvanizar la munición de la guarnición con daño de relámpago extra.
 
-### Prioridad 4: Predicción y Cartografía Meteorológica
+### Prioridad 5: Predicción y Cartografía Meteorológica
 
 * **Mecánica Base:** DMG 2024 / *Observatorio*.
 * **Objetivo:** Trazar frentes de tormentas y corrientes eléctricas planares para planificar asedios o combates bajo cielo encapotado.
