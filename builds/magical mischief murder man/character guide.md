@@ -106,3 +106,4 @@ flowchart TD
 ### Turnos Subsiguientes
 * Si un enemigo peligroso hostiga al grupo: Usar Acción para aplicar ***Panache*** (Persuasión enfrentada a Perspicacia; con *Reliable Talent*, el resultado mínimo es 26). El enemigo queda obligado a atacarte a ti con desventaja contra todos tus aliados.
 * Mantener el ciclo de castigo y evasión.
+
