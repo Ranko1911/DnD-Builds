@@ -2,63 +2,78 @@
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
-> *Nota de Mesa:* El Collar del Moldeador de Tormentas (CMT) está fusionado físicamente con el *Amulet of the Devout* en un único objeto que consume una sola ranura de sintonización (homebrew de mesa).
+> **Regla de Mesa:** El Collar del Moldeador de Tormentas (CMT) está fusionado físicamente con el *Amulet of the Devout* en un único artefacto que consume una sola ranura de sintonización.
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+---
 
-* **Tier 1 (Niveles 1-4):** *Amulet of the Devout +1* + CMT (1 ranura). (Total: 1).
-* **Tier 2 (Niveles 5-10):** *Amulet of the Devout +2* + CMT (1 ranura), *Amulet of Health* (1 ranura), *Weapon of Warning* (1 ranura). (Total: 3).
-* **Tier 3 (Niveles 11-16):** *Amulet of the Devout +3* + CMT (1 ranura), *Staff of Power* (1 ranura), *Arcane Grimoire +2* / *Rod of Absorption* (1 ranura). (Total: 3).
-* **Tier 4 (Niveles 17-20):** *Amulet of the Devout +3* + CMT (1 ranura), *Staff of the Magi* (1 ranura), *Arcane Grimoire +3* (1 ranura). *(Tome of Clear Thought, Plate Armor +3 y Escudo +3 no requieren sintonización)*. (Total: 3).
+### 📂 Enlaces Directos del Expediente
+* 📜 **Ficha Principal:** [`character guide.md`](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/tempest/character%20guide.md)
+* 🎒 **Inventario Actual:** [`actual inventory list.md`](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/tempest/actual%20inventory%20list.md)
+* 🏰 **Bastión y Tiempo Muerto:** [`bastion and downtime.md`](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/tempest/bastion%20and%20downtime.md)
+* ⚡ **Lista de Conjuros:** [`spell list.md`](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/tempest/spell%20list.md)
+* 🗺️ **Hoja de Ruta (1-20):** [`roadmap.md`](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/tempest/roadmap.md)
+
+---
+
+### ⚙️ Gestión de Ranuras de Sintonización (Máximo 3 Activas)
+
+* **Tier 1 (Niveles 1-4):** *Amulet of the Devout +1* + CMT (1 ranura). *(Total: 1/3)*.
+* **Tier 2 (Niveles 5-10):** *Amulet of the Devout +2* + CMT (1 ranura), *Amulet of Health* (1 ranura) [transitorio hasta Resilient CON], *Weapon of Warning* o *Arcane Grimoire +1* (1 ranura). *(Total: 3/3)*.
+* **Tier 3 (Niveles 11-16):** *Amulet of the Devout +3* + CMT (1 ranura), *Staff of Power* (1 ranura), *Arcane Grimoire +2 / +3* (1 ranura). *(Total: 3/3)*.
+* **Tier 4 (Niveles 17-20 — Configuración Definitiva):** 
+  1. **Collar CMT + Amulet of the Devout (+3)** (1 ranura) 🔵
+  2. **Staff of the Magi** (1 ranura) 🔵
+  3. **Arcane Grimoire (+3)** (1 ranura) 🔵
+  *(Plate Armor +3, Escudo +3 y Tome of Clear Thought no requieren sintonización)*.
 
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
+| Objeto | Req. Sintonización | ¿Sintonizado? | Prioridad / Justificación Mecánica |
 | :--- | :---: | :---: | :--- |
-| **Amulet of the Devout +1 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CD de conjuros y ataques mágicos. Otorga 1 uso adicional de Canalizar Divinidad por descanso largo. Fusionado con el CMT (*Esculpir la Tormenta*), permite desatar ráfagas en área sin dañar aliados. |
-| **Sentinel Shield** | No | — | **Priorizar 2:** Ventaja en tiradas de Iniciativa y Percepción pasiva. Para un lanzador de área y vanguardia, actuar primero para desplegar control o daño antes de que los enemigos se dispersen es crítico. |
-| **Splint Mail / Plate Armor** | No | — | **Prioridad 3:** Armadura pesada base. Splint = CA 17, Plate = CA 18. Combinado con Escudo base ($+2$), tu CA pasiva alcanza 19-20 (24-25 con *Shield*). |
-| **Bag of Holding** | No | — | Prioridad Media: Almacenamiento esencial para transportar libros de conjuros de respaldo, componentes rituales y suministros de expedición. |
-| **Boots of Striding and Springing** | Sí | No | Prioridad Baja: Velocidad mínima asegurada y saltos triplicados para solventar movilidad en terrenos difíciles. |
+| **Amulet of the Devout +1 + CMT** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 1 (META):** $+1$ a la CD de conjuros y ataques mágicos. Concede 1 uso adicional de Canalizar Divinidad por descanso largo. Fusionado con el CMT (*Esculpir la Tormenta*), permite desatar ráfagas en área sin dañar aliados. |
+| **Sentinel Shield** | No | — | 🟢 **Priorizar 2:** Ventaja en tiradas de Iniciativa y Percepción pasiva. Para un lanzador de área y control de vanguardia, actuar primero para posicionar conjuros es crítico. |
+| **Splint Mail / Plate Armor** | No | — | 🟢 **Prioridad 3:** Armadura pesada base. Splint = CA 17, Plate = CA 18. Combinado con Escudo base ($+2$), tu CA pasiva alcanza 19-20 (24-25 con *Shield*). |
+| **Bag of Holding** | No | — | 🟡 Prioridad Media: Almacenamiento esencial para transportar libros de conjuros de respaldo, componentes rituales y suministros de expedición. |
+| **Boots of Striding and Springing** | Sí | No | 🔴 Prioridad Baja: Velocidad mínima asegurada y saltos triplicados para solventar movilidad en terrenos difíciles. |
 
 ---
 
 ## 🔵 Tier 2 (Niveles 5-10) — Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
+| Objeto | Req. Sintonización | ¿Sintonizado? | Prioridad / Justificación Mecánica |
 | :--- | :---: | :---: | :--- |
-| **Amulet of the Devout +2 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora directa a $+2$ a la CD y ataques de conjuros. Más Iras Destructivas disponibles con mayor tasa de fallos de salvación en los objetivos. |
-| **Amulet of Health** | Sí | ⚔️ **Sí** | **Priorizar 2:** Fija la Constitución a 19 (+4). Incrementa la reserva de puntos de golpe y otorga un bono masivo a las pruebas de concentración antes de adquirir *Resilient*. |
-| **Weapon of Warning (Warhammer)** | Sí | ⚔️ **Sí** | **Priorizar 3:** Ventaja en Iniciativa y el grupo no puede ser sorprendido. Garantiza el posicionamiento idóneo de *Spirit Guardians* antes del movimiento enemigo. |
-| **Armor +1 (Plate) y Shield +2** | No | — | Prioridad Alta: Eleva la CA pasiva base a 22 (27 con la reacción de *Shield*). |
-| **Ring of Free Action** | Sí | No | Prioridad Media: Inmunidad a efectos de parálisis o inmovilidad que busquen cortar la concentración. |
-| **Cloak of Protection** | Sí | No | Prioridad Baja: $+1$ a CA y salvaciones. Muy útil, aunque compite con las 3 ranuras prioritarias del tier. |
+| **Amulet of the Devout +2 + CMT** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 1 (META):** Salto a $+2$ en la CD de salvación y ataques mágicos. Incrementa la probabilidad de fallo enemigo en ráfagas de *Fireball* o *Lightning Bolt* maximizadas. |
+| **Amulet of Health** | Sí | ⚔️ **Sí** | 🟢 **Priorizar 2 (Transitorio):** Fija la Constitución a 19 (+4). Incrementa la reserva de puntos de golpe y otorga un bono masivo a pruebas de concentración antes de adquirir *Resilient [CON]*. |
+| **Weapon of Warning (Warhammer)** | Sí | ⚔️ **Sí** | 🟢 **Priorizar 3:** Ventaja en Iniciativa y el grupo no puede ser sorprendido. Garantiza el despliegue idóneo de *Spirit Guardians* antes del turno enemigo. |
+| **Armor +1 (Plate) y Shield +2** | No | — | 🟢 Prioridad Alta: Eleva la CA pasiva base a 22 (27 con la reacción de *Shield*). |
+| **Ring of Free Action** | Sí | No | 🟡 Prioridad Media: Inmunidad a parálisis o efectos de ralentización que pretendan neutralizar la movilidad de vanguardia. |
+| **Cloak of Protection** | Sí | No | 🟡 Prioridad Baja: $+1$ a CA y salvaciones. Muy útil, aunque compite con las ranuras prioritarias del tier. |
 
 ---
 
 ## 🟣 Tier 3 (Niveles 11-16) — Muy Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
+| Objeto | Req. Sintonización | ¿Sintonizado? | Prioridad / Justificación Mecánica |
 | :--- | :---: | :---: | :--- |
-| **Staff of Power** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a CA, salvaciones y ataques mágicos. Añade conjuros prealmacenados (*Cone of Cold*, *Globe of Invulnerability*, *Wall of Force*) ahorrando ranuras de nivel alto. Se empuña como arma mágica +2. |
-| **Arcane Grimoire +2 / +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Incrementa la CD de salvación de conjuros de Mago y añade espacios adicionales recuperables mediante *Arcane Recovery*. |
-| **Amulet of the Devout +3 + CMT** | Sí | ⚔️ **Sí** | **Priorizar 3:** $+3$ definitivo a la CD de conjuros divinos y arcanos. La CD contra *Destructive Wrath* se vuelve virtualmente insalvable. |
-| **Armor +2 (Plate) y Shield +3** | No | — | Prioridad Alta: CA pasiva sube a 24 (29 con *Shield*). |
-| **Rod of Absorption** | Sí | No | Prioridad Media: Absorbe conjuros hostiles dirigidos y los transforma en ranuras de conjuro suplementarias para maximizar con *Ira Destructiva*. |
+| **Staff of Power** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 1 (META):** $+2$ a CA, salvaciones y ataques mágicos. Otorga conjuros prealmacenados (*Cone of Cold*, *Globe of Invulnerability*, *Wall of Force*) economizando ranuras de nivel alto. Funciona como arma mágica +2. |
+| **Arcane Grimoire +2 / +3** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 2:** Eleva la CD de conjuros de Mago y añade espacios adicionales recuperables mediante *Arcane Recovery*. |
+| **Amulet of the Devout +3 + CMT** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 3:** $+3$ definitivo a la CD de salvación de conjuros divinos y arcanos. La CD frente a *Destructive Wrath* se sitúa en un umbral virtualmente insalvable. |
+| **Armor +2 (Plate) y Shield +3** | No | — | 🟢 Prioridad Alta: CA pasiva sube a 24 (29 con la reacción de *Shield*). |
+| **Rod of Absorption** | Sí | No | 🟡 Prioridad Media: Absorbe conjuros hostiles dirigidos y los transforma en ranuras de conjuro suplementarias para maximizar con *Ira Destructiva*. |
 
 ---
 
 ## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
+| Objeto | Req. Sintonización | ¿Sintonizado? | Prioridad / Justificación Mecánica |
 | :--- | :---: | :---: | :--- |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** $+2$ a CD de conjuros y tiradas de ataque, ventaja en salvaciones contra conjuros, absorción reactiva de magia enemiga y 50 cargas con un catálogo masivo de conjuros legendarios. |
-| **Collar CMT + Amulet of the Devout +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Corona el bono de CD en +3, agrega 1 uso de Canalizar Divinidad y permite esculpir las áreas de *Meteor Swarm* y *Chain Lightning*. |
-| **Arcane Grimoire +3** | Sí | ⚔️ **Sí** | **Priorizar 3:** Maximiza la CD de conjuros de Mago a 22 (con *Tome of Clear Thought*). |
-| **Armor +3 (Plate) y Escudo +3** | No | — | **Prioridad Alta:** CA pasiva definitiva de **26 CA** ($18 + 3 + 2 + 3 = 26$), alcanzando **31 CA** con *Shield*. |
-| **Tome of Clear Thought** | No | — | **Prioridad 1 (Lectura):** Incrementa permanentemente la Inteligencia en $+2$ y eleva su límite máximo a 22. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 1 (META Indispensable):** $+2$ a CD de conjuros y ataques, ventaja en salvaciones contra conjuros, absorción reactiva de magia enemiga y 50 cargas con un catálogo masivo de conjuros legendarios. |
+| **Collar CMT + Amulet of the Devout +3** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 2:** Corona el bono de CD en +3, agrega 1 uso de Canalizar Divinidad (3 totales por descanso) y permite esculpir las áreas de *Meteor Swarm* y *Chain Lightning*. |
+| **Arcane Grimoire +3** | Sí | ⚔️ **Sí** | 🔵 **Priorizar 3:** Maximiza la CD de conjuros de Mago alcanzando CD 26 (CD 28 con *Staff of the Magi*). |
+| **Plate Armor +3 y Escudo +3** | No | — | 🔵 **Prioridad Alta (Sin Sintonización):** CA pasiva definitiva de **26 CA** ($18 + 3 + 2 + 3 = 26$), alcanzando **31 CA** con la reacción de *Shield*. |
+| **Tome of Clear Thought** | No | — | 🔵 **Prioridad 1 (Lectura Consumida):** Incrementa permanentemente la Inteligencia en $+2$ y eleva su límite máximo a 22 (+6 modificador). |
 
 ---
 
@@ -77,12 +92,28 @@ Este pesado medallón está forjado en platino fundido durante una tempestad y e
 
 ---
 
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+## 🧪 Consumibles y Creaciones Tácticas de Bastión
 
-| Objeto | Rareza | Prioridad / Notas |
+*Adquisiciones y suministros periódicos generados por las Instalaciones Especiales de tu Bastión (El Observatorio de la Tormenta Escrita) que no consumen ranuras de sintonización:*
+
+| Consumible / Creación | Instalación de Origen | Rareza / Coste | Efecto Táctico META |
+| :--- | :---: | :---: | :--- |
+| **Potion of Flying** | Laboratorio Alquímico | Poco Común (Craft) | 🔵 **Vuelo 60 ft por 1 hora sin concentración**. Permite volar desplegando el radio tridimensional de *Spirit Guardians* sin interferir con conjuros de concentración. |
+| **Potion of Supreme Healing** | Laboratorio Alquímico | Muy Rara (Craft) | 🔵 **$10\text{d}4 + 20$ HP en Acción Adicional**. En las reglas 2024 (5.5e), beber una poción propia es Acción Adicional, otorgando sanación de emergencia sin perder la Acción de ataque o conjuro. |
+| **Pergaminos de 3.º a 5.º Nivel** | Estudio Arcano | Rara / Poco Común | 🔵 Permite almacenar copias de emergencia de *Counterspell*, *Wall of Force* o *Dimension Door* para ahorrar ranuras diarias de combate. |
+| **Talismán de Electromancia** | Generador de Relámpagos | Talismán Especial (RHW) | 🔵 **3 usos gratuitos de *Telekinesis* (5.º Nivel)** sin consumir ranuras ni componentes durante 7 días. |
+| **Talismán de Identificar** | Estudio Arcano | Charm Oficial (DMG 2024) | 🟢 Lanzamiento gratuito de *Identify* tras cada descanso largo sin gastar ranura ni requerir la perla de 100 po. |
+| **Polvo de Rubí (1,500 po)** | Almacén / Finanzas | Componente Consumible | 🔵 Requisito indispensable para la creación del *Simulacrum* gemelo en el Demiplano del Bastión. |
+
+---
+
+## 🔵 Objetos Útiles Sin Sintonización (No-Attunement Arsenal)
+
+| Objeto | Rareza | Prioridad / Justificación Mecánica |
 | :--- | :---: | :--- |
-| **Plate Armor +3** | Legendario | **Prioridad 1:** Eleva la CA base a 21 de forma permanente sin consumir ranura de sintonización. |
-| **Escudo +3** | Muy Raro | **Prioridad 2:** Proporciona $+5$ a la CA pasiva total ($2 + 3$). |
-| **Tome of Clear Thought** | Muy Raro | **Prioridad 3:** Lectura permanente que sitúa la Inteligencia en 22 (+6) y CD de conjuros en 22. |
-| **Sentinel Shield** | Poco Común | Prioridad Alta: Ventaja en Iniciativa y Percepción pasiva cuando se requiera prioridad de turno. |
-| **Potions of Superior / Supreme Healing** | Muy Rara | Prioridad Media: Sanación de emergencia instantánea. |
+| **Plate Armor +3** | Legendario | 🔵 **Prioridad 1:** Eleva la CA base a 21 de forma permanente sin consumir ranura de sintonización. |
+| **Escudo +3** | Muy Raro | 🔵 **Prioridad 2:** Proporciona $+5$ a la CA pasiva total ($2 + 3$). |
+| **Tome of Clear Thought** | Muy Raro | 🔵 **Prioridad 3:** Lectura permanente que sitúa la Inteligencia en 22 (+6) y eleva la CD base a 26. |
+| **Sentinel Shield** | Poco Común | 🟢 Prioridad Alta: Ventaja en Iniciativa y Percepción pasiva cuando se requiera prioridad de turno. |
+| **Potions of Superior / Supreme Healing** | Muy Rara | 🟢 Prioridad Media: Sanación de emergencia instantánea en Acción Adicional. |
+| **Bag of Holding** | Poco Común | 🟡 Prioridad Media: Transporte logístico de pergaminos, componentes y biblioteca de repuesto. |
