@@ -110,7 +110,7 @@ $$\text{DPR Gish True Strike (Nivel 20)} = P(\text{Hit}) \times \left[ 1\text{d}
 
 $$\text{Pool Base de HP (Nivel 20)} = 87_{\text{Hit Dice Base}} + 80_{\text{CON +4}} + 20_{\text{Dwarf}} + 40_{\text{Tough}} = \mathbf{227\text{ HP Base}}$$
 
-$$\text{EHP Efectivo Pre-Combate (Turno 0)} = 227_{\text{Base}} + 100_{\text{Demiplano}} + 35_{\text{Aid 8.º}} + 11_{\text{Heroes' Feast}} = \mathbf{373\text{ EHP Pasivo}}$$
+$$\text{EHP Efectivo Pre-Combate (Turno 0)} = 227_{\text{Base}} + 100_{\text{Demiplano}} + 35_{\text{Aid (Nv 8)}} + 11_{\text{Heroes' Feast}} = \mathbf{373\text{ EHP Pasivo}}$$
 
 * **Bombardeo Coordinado con Simulacro:** Al actuar de forma conjunta el personaje y su *Simulacrum* gemelo en la misma ronda:
   $$\text{Nova Combinado Dual} = 240 + 240 = \mathbf{480\text{ Daño de Relámpago Plano en Área}}$$

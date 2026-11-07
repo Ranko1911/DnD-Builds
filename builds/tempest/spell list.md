@@ -28,7 +28,7 @@ A Nivel 20 (Clérigo 4 / Mago 16), el nivel de lanzador unificado es **20**. La 
 | **Rary's Telepathic Bond** | 5.º (Ritual Mago) | 1 hora | ❌ No | 🔵 **Táctico**. Enlace mental telepático a distancia infinita para hasta 8 aliados. |
 
 > **Cálculo de EHP Pasivo Pre-Combate (Turno 0):**
-> $$\text{EHP Turno 0} = 227_{\text{HP Base}} + 100_{\text{Temp HP Demiplano}} + 35_{\text{Aid 8.º}} + 11_{\text{Heroes' Feast}} = \mathbf{373\text{ Puntos de Golpe Efectivos}}$$
+> $$\text{EHP Turno 0} = 227_{\text{HP Base}} + 100_{\text{Temp HP Demiplano}} + 35_{\text{Aid (Nv 8)}} + 11_{\text{Heroes' Feast}} = \mathbf{373\text{ Puntos de Golpe Efectivos}}$$
 > Todo esto antes de recibir el primer impacto, respaldado por **26 CA pasiva** (**31 CA** con *Shield*) y *Death Ward* activo.
 
 ---
