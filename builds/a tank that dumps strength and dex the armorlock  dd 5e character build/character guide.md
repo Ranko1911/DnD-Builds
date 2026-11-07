@@ -1,4 +1,4 @@
-# Resumen General del Personaje: Armorlock
+# Resumen General del Personaje: Armorlock (The Iron Mind)
 
 ## Datos Generales
 
@@ -14,55 +14,81 @@
   * **WIS:** 10 (+0)
   * **CHA:** 14 (+2) *(Requisito de Multiclaseo de Brujo)*
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-### Actual Item List
-
-Actual Item List: ./actual inventory list.md
-
-1. **Powered Arcane Heavy Armor (+3):** Modelo Guardian que permite equipar armaduras pesadas sin requerir Fuerza y atacar con Inteligencia.
-2. **Repulsion Shield (+2):** Escudo infusionado para empujar a enemigos que intenten acercarse a aliados frágiles.
-3. **Pipes of Haunting:** Instrumento utilitario que infunde Miedo en un área de 30 pies sin requerir concentración.
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/a%20tank%20that%20dumps%20strength%20and%20dex%20the%20armorlock%20%20dd%205e%20character%20build/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/a%20tank%20that%20dumps%20strength%20and%20dex%20the%20armorlock%20%20dd%205e%20character%20build/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/a%20tank%20that%20dumps%20strength%20and%20dex%20the%20armorlock%20%20dd%205e%20character%20build/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/a%20tank%20that%20dumps%20strength%20and%20dex%20the%20armorlock%20%20dd%205e%20character%20build/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/a%20tank%20that%20dumps%20strength%20and%20dex%20the%20armorlock%20%20dd%205e%20character%20build/actual%20inventory%20list.md)
 
 ---
 
 ## Combat Role: Frontline Heavy Tank, Aggro Taunter & Speed Controller
 
-### 1. Gestión de Recursos y Reglas de Inventario
-
-* **Dump de Fuerza y Destreza Sin Penalizaciones:** Gracias al rasgo **Armor Model (Guardian)** del Artífice Armero, puedes vestir cualquier Armadura Pesada (ej. Placas) ignorando completamente las restricciones de Fuerza mínima. Los ataques desarmados de tus guanteletes (*Thunder Gauntlets*) usan tu modificador de **Inteligencia (+5)**.
-* **Aggro y Desventaja Enemiga (Thunder Gauntlets):** Cualquier enemigo impactado por tus guanteletes sufre **Desventaja en todas sus tiradas de ataque contra cualquier criatura que NO seas tú** hasta el comienzo de tu siguiente turno.
-* **Invocaciones de Brujo (Fiendish Vigor & Eldritch Mind):** *Fiendish Vigor* permite iniciar cada combate con Puntos de Golpe Temporales renovables a voluntad. *Eldritch Mind* otorga **Ventaja constante en todas las tiradas de salvación de Constitución para mantener la concentración**.
-
-### 2. Action Economy & Combat Loop
-
-* **Pre-combat:** Lanza *Fiendish Vigor* para cargar PG Temporales. Activa *Githzerai Mental Discipline* (Ventaja en salvaciones contra *Charmed* y *Frightened*).
-* **Turno 1:**
-  * **Action:** Lanza **Web** (control de área masivo) o ataca con tus *Thunder Gauntlets* (marca a 2 enemigos imponiéndoles Desventaja si atacan a tus aliados).
-  * **Bonus Action:** Invoca el **Tentáculo de las Profundidades (Fathomless Tentacle)** a 60 ft para atacar e infligir daño de frío + reducir la velocidad del enemigo en 10 ft.
-* **Turno 2+:**
-  * **Action:** Doble ataque de guanteletes (marca a 2 enemigos con *Thunder Gauntlets*) o usa *Pipes of Haunting* (área de Miedo sin concentración).
-  * **Bonus Action:** Re-activa el Tentáculo o recupera PG Temporales con *Defensive Field*.
-  * **Reaction:** *Shield* (CA 25-27+), *Absorb Elements* o empujón con *Repulsion Shield*.
+El **Armorlock** subvierte las normas clásicas del combate cuerpo a cuerpo descartando completamente la Fuerza y Destreza (puntuaciones de 8) para concentrar su poder en una **Inteligencia omnipotente (+5)**. Equipado con armadura completa de placas mágica gracias a la tecnología del Artífice Armero (*Guardian Model*), anula penalizaciones de movimiento, ataca con ondas de choque eléctricas usando Inteligencia, e impone una **Marca de Provocación (Aggro Taunt)** sobre dos enemigos por turno: si intentan golpear a cualquier aliado que no sea él, sufren Desventaja automática. Mientras tanto, su dip en *Fathomless Warlock* ralentiza a los enemigos en 10 pies cada asalto mediante un tentáculo abisal convocado en Acción Adicional.
 
 ---
 
-## 3. The META Combo: Double-Taunt & Speed Reduction Lock
+## 1. Gestión de Recursos y Reglas de Inventario
+
+* **Dump Total de Fuerza y Destreza:** El rasgo *Arcane Armor* elimina por completo el requisito de Fuerza mínima de las armaduras pesadas (Placas). No sufres la penalización de -10 ft de velocidad. Además, los *Thunder Gauntlets* utilizan tu modificador de **Inteligencia (+5)** para las tiradas de ataque y daño ($1\text{d}8 + 5$).
+* **Mecánica de Provocación (Thunder Gauntlets Taunt):** Cada impacto marca a la criatura hasta el inicio de tu siguiente turno. La criatura tiene **Desventaja en cualquier tirada de ataque que no te tenga como objetivo**. Si ataca al Armorlock, debe superar una CA de 25-30. Si ataca a los aliados, ataca con Desventaja.
+* **Concentración Inquebrantable:** Sinergia de *Eldritch Mind* (Ventaja permanente en salvaciones de concentración) + competencia en CON (+3) + *Flash of Genius* (+5 como Reacción). Para perder la concentración, el Armorlock debe fallar una tirada con +8 y Ventaja (probabilidad de fallo ante CD 10 inferior al 0.25%).
+* **Sintonización Extendida (5 Slots):** Con *Magic Item Savant* (Artificer 14), sintoniza hasta 5 objetos mágicos e ignora todos los requisitos de raza, clase y conjuro.
+
+---
+
+## 2. Action Economy & Combat Loop
 
 ```mermaid
 flowchart TD
-    A["Pre-Combate: Fiendish Vigor (PG Temporales ilimitados)"] --> B["Turno 1: Golpe de Guanteletes Thunder Gauntlets con Inteligencia (+5)"]
-    B --> C["Efecto 1: Enemigos marcados sufren Desventaja si atacan a aliados"]
-    C --> D["Bonus Action: Tentáculo de Fathomless Warlock (Daño Frío + Reducción de Velocidad -10ft)"]
-    D --> E["Uso de Pipes of Haunting / Web (Control de masas sin interferir con CA)"]
-    E --> F["Reacción: Shield (CA 27) + Ventaja en concentración vía Eldritch Mind"]
+    A["Pre-Combate: Fiendish Vigor (THP Infinitos) + Defensive Field"] --> B["Turno 1: Web en área con Spell-Storing Item (10 usos)"]
+    B --> C["Bonus Action: Tentáculo Fathomless (Daño Frío 1d8 + Slow -10ft)"]
+    C --> D["Turno 2+: Doble Impacto con Thunder Gauntlets (Marca Aggro a 2 Enemigos)"]
+    D --> E["Enemigo Marcado: Desventaja si ataca a Aliados / Choca contra CA 25-30 si ataca al Tank"]
+    E --> F["Reacción: Shield (CA 30) o Repulsion Shield (Empuja al Enemigo 15ft)"]
 ```
 
-🧮 Mathematical Engine (D&D 5e):
+* **Pre-Combate (Turno 0):** Activar *Fiendish Vigor* (fija PG temporales) y preparar *Defensive Field* (17 THP adicionales).
+* **Turno 1 — Anclaje y Control de Masas:**
+  * **Action:** Lanzar *Web* o utilizar el *Spell-Storing Item* (que contiene 10 cargas de *Web* o *Vortex Warp*).
+  * **Bonus Action:** Convocar el *Tentacle of the Deeps* a 60 ft: inflige $1\text{d}8$ de daño de frío y reduce la velocidad del objetivo en 10 pies.
+* **Turno 2+ — Ciclo de Provocación y Bloqueo:**
+  * **Action:** Extra Attack con *Thunder Gauntlets*: golpea a 2 enemigos distintos, marcando a ambos con Desventaja contra el resto del grupo.
+  * **Bonus Action:** Atacar con el Tentáculo (otro slow de -10 ft) o reponer 17 THP con *Defensive Field*.
+  * **Reaction:**
+    * *Shield:* Eleva la CA a **30** ante ataques enemigos.
+    * *Repulsion Shield:* Empuja a un enemigo 15 pies hacia atrás tras ser golpeado.
+    * *Flash of Genius:* Suma +5 a cualquier salvación crítica tuya o de un aliado a 30 pies.
 
-$$\text{CA Definitiva} = 18_{\text{Placas}} + 2_{\text{Escudo}} + 2_{\text{Infusión}} + 5_{\text{Shield}} = 27\text{ CA}$$
+---
 
-$$\text{Salvación Concentración} = P(\text{Éxito con Ventaja}) \text{ con } +8_{\text{CON}} \text{ (Proficiente)}$$
+## 3. Mathematical Engine (D&D 5e / 2024 Compatible)
+
+### 🛡️ Clase de Armadura y Defensa Absoluta
+
+$$\text{CA Pasiva Base} = 18_{\text{Placas}} + 2_{\text{Escudo}} + 2_{\text{Enhanced Defense}} + 1_{\text{Repulsion Shield}} + 2_{\text{Staff of Power}} = \mathbf{25 \text{ CA Pasiva}}$$
+
+$$\text{CA con Conjuro Shield} = 25_{\text{Pasiva}} + 5_{\text{Shield (Githzerai)}} = \mathbf{30 \text{ CA Efectiva}}$$
+
+* **Probabilidad de Impacto Enemigo (CR 20 Boss con +14 al Ataque):**
+  $$\text{Impacto contra CA 30} = P(\text{Roll } \ge 16) = \frac{5}{20} = 0.25 \quad (25\%)$$
+* Si el enemigo intenta esquivar al Armorlock para golpear a un mago o pícaro aliado:
+  $$\text{Impacto contra Aliado con Desventaja por Thunder Gauntlets} = (0.65)^2 \approx 0.4225 \implies \text{Reducción del 35\% del DPS enemigo}$$
+
+### 🧮 Daño por Asalto Sostenido (DPR a Nivel 20)
+
+Con Inteligencia 20 (+5), *Enhanced Weapon / Gauntlets +2*, y Tentáculo Abisal:
+
+$$\text{DPR Guanteletes} = 2 \times [P(\text{Hit}) \times (1\text{d}8 + 5_{\text{INT}} + 2_{\text{Item}}) + P(\text{Crit}) \times 1\text{d}8] = 2 \times [0.75 \times 11.5 + 0.05 \times 4.5] = 2 \times 8.85 = 17.7$$
+
+$$\text{DPR Tentáculo Fathomless (Bonus Action)} = 0.75 \times (1\text{d}8 + 2_{\text{CHA}}) + 0.05 \times 4.5 = 0.75 \times 6.5 + 0.225 = 5.1$$
+
+$$\text{DPR Sostenido} = 17.7 + 5.1 = \mathbf{22.8 \text{ DPR Base}} \quad (\text{Más 10 Objetos con Animate Objects = +65 DPR})$$
+
+### 🩸 Supervivencia y EHP
+
+$$\text{EHP Físico} = \frac{\text{HP Real } (163) + \text{Defensive Field } (17) + \text{Sanctum Ward } (100)}{1 - \text{Armor of Invulnerability Resistencia } (0.50)} = \frac{280}{0.50} = \mathbf{560 \text{ EHP}}$$
 
 ---
 
@@ -70,15 +96,15 @@ $$\text{Salvación Concentración} = P(\text{Éxito con Ventaja}) \text{ con } +
 
 | Criterio | Valoración | Justificación Mecánica |
 | :--- | :---: | :--- |
-| **Daño Monobjetivo** | 🟢 | Daño constante de guanteletes electrificados + ataque adicional por Bonus Action con el tentáculo arcano. |
-| **Control de Masas (CC)** | 🔵 | Control mediante *Web*, *Pipes of Haunting* (miedo sin concentración), lentitud de tentáculo y marcas de aggro. |
-| **Supervivencia (EHP)** | 🔵 | CA 27+, ventaja en salvaciones de salud mental (*Githzerai Discipline*), PG temporales infinitos y concentración indestructible. |
-| **Economía de Acciones** | 🔵 | Uso optimizado de Acción (Ataques/Pipes), Acción Adicional (Tentáculo) y Reacción (*Shield*/*Repulsion Shield*). |
-| **Sustentabilidad** | 🔵 | No depende de Fuerza ni Destreza. Recarga PG Temporales a voluntad entre combates (*Fiendish Vigor*). |
+| **Daño Monobjetivo** | 🟡 | Daño moderado de guanteletes (22.8 DPR), ampliable a 85+ DPR cuando activa *Animate Objects* de 5.º nivel. |
+| **Control de Masas (CC)** | 🔵 | *Thunder Gauntlets* (marca doble de aggro), *Web* x10 en *Spell-Storing Item*, lentitud de tentáculo (-10ft) y empujes con *Repulsion Shield*. |
+| **Supervivencia (EHP)** | 🔵 | CA 25 pasiva / CA 30 con *Shield*, 560 EHP efectivo con *Armor of Invulnerability*, ventaja en salvaciones mentales (*Githzerai Mental Discipline*). |
+| **Economía de Acciones** | 🔵 | Acción de ataque / control, Acción Adicional permanente con el tentáculo abisal, y Reacciones estelares (*Shield*, *Absorb Elements*, *Flash of Genius*). |
+| **Sustentabilidad** | 🔵 | Descarte total de Fuerza y Destreza sin penalización. PG temporales a voluntad con *Fiendish Vigor* y *Defensive Field* recargable. |
 
 ---
 
 ## 5. Home Rules (Reglas de la Mesa)
 
-1. **Foco Universal Único:** La armadura mística actúa como foco arcano único para hechizos de Artífice y Brujo.
-2. **Progresión Full Caster Integrada:** Espacios de conjuro unificados para slots de Artífice y Pact Magic de Brujo.
+1. **Foco Universal Único:** La armadura de placas mística actúa como foco de lanzamiento para todos los conjuros de Artífice y Brujo.
+2. **Progresión Full Caster Integrada:** Los espacios de Pact Magic de Brujo se recargan en descansos cortos y pueden usarse indistintamente para conjuros de Artífice (*Shield*, *Absorb Elements*).

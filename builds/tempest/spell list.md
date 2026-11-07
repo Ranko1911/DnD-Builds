@@ -138,11 +138,6 @@ flowchart LR
 | **1.er** | **Chromatic Orb** | No (Relámpago Nativo) | $3\text{d}8$ (Relámpago) | **24 de Relámpago Plano** | Monobjetivo a 90 ft (Rebote en 2024) |
 | **1.er** | **Guiding Bolt** | Requiere Homebrew/Mesa | $4\text{d}6$ (Radiante -> Relámpago) | **24 de Relámpago Plano** | Monobjetivo a 120 ft (+Ventaja siguiente ataque) |
 
-> 🔍 **Análisis Clínico de Nova Nivel 1: Chromatic Orb vs. Guiding Bolt**
-> * **Empate a Nivel 1 Base:** Ambos conjuros infligen exactamente **24 de daño plano de relámpago** al maximizarse con *Ira Destructiva* ($3 \times 8 = 24$ vs $4 \times 6 = 24$).
-> * **Escalado Superior (Upcasting):** *Chromatic Orb* escala con dados **d8** ($+8$ de daño plano por nivel de ranura), superando al escalado **d6** de *Guiding Bolt* ($+6$ de daño plano por nivel). A nivel 2: 32 vs 30; a nivel 3: 40 vs 36; a nivel 4: 48 vs 42.
-> * **Legalidad RAW de Transmutación:** El rasgo *Awakened Spellbook* del Escribano restringe la transmutación a conjuros de Mago (*"when you cast a wizard spell"*). *Guiding Bolt* es de la lista de Clérigo e inflige daño **Radiante** de base, por lo que requiere beneplácito del DM para ser transmutado. En contraste, *Chromatic Orb* es nativo de Mago y **ya contiene el tipo Relámpago de forma innata**, sin requerir transmutación.
-> * **Efectos Secundarios:** *Guiding Bolt* concede Ventaja en el siguiente ataque contra el blanco (redundante si ya cuentas con *Foresight* o la ayuda del búho familiar). *Chromatic Orb (2024)* puede rebotar a objetivos adicionales si coinciden dados. Por consistencia de reglas y escalado, *Chromatic Orb* es la opción técnica superior.
 
 ### 🧮 Modelado Matemático del Daño Nova (LaTeX)
 

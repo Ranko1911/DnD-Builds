@@ -1,37 +1,68 @@
 # 🏰 Bastión y Tiempo Muerto — Hurricane Monk
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / 5.5e)
 
-* **Nombre del Bastión:** El Santuario de los Cuatro Vientos (The Sanctuary of Four Winds)
+* **Nombre del Bastión:** El Santuario de los Cuatro Vientos (*The Sanctuary of Four Winds*)
+* **Ubicación:** Cima escarpada de la Cordillera de los Dientes de Tormenta (3,800 metros de altitud).
 * **Nivel de Bastión (Bastion Level):** Nivel 20
-* **Puntos de Bastion (Bastion Points - BP):** 450 BP
-* **Puntuación de Mando (Bastion Defender Stats):** STR 12, DEX 20, CON 14, INT 8, WIS 18, CHA 10
+* **Puntos de Bastión (Bastion Points - BP):** 450 BP acumulados
+* **Bonificador de Defensa de Bastión:** **+11** ($5_{\text{DEX}} + 6_{\text{PB}}$)
 
-### Instalaciones Básicas (Basic Facilities)
+---
 
-1. **Dormitorio (Bedchambers):** Aposento ascético de meditación en lo alto de un pico de montaña.
-2. **Comedor (Dining Hall):** Cocina equipada con Utensilios de Cocinero para alimentar al grupo y seguidores.
-3. **Espacio Común (Common Room):** Zona de entrenamiento con postes de madera y fosa de grava para práctica elemental.
+### 🏛️ Instalaciones Básicas (Basic Facilities)
 
-### Instalaciones Especiales (Special Facilities)
+1. **Aposentos Ascéticos (Bedchambers):** Celda de meditación en roca viva, abierta a los vientos glaciales.
+2. **Refectorio Comunal (Dining Hall):** Gran mesa comunitaria para novicios y maestros donde se comparten las comidas.
+3. **Plaza de Entrenamiento (Courtyard):** Fosa de grava y postes de madera para equilibrio y acondicionamiento elemental.
+4. **Almacén de Suministros (Storage):** Reserva de grano de montaña, telas élficas y hierbas curativas.
 
-* **Dojo Monástico (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Entrenar discípulos y meditar para recuperar puntos de Focus o ganar BP.
-  * *Sinergia con el Build:* Permite fabricar pociones de agilidad o entrenar dotes de tiempo muerto.
-* **Taller de Cocina Gourmet (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Cocinar banquetes que otorgan PG temporales (+10 PG) a los defensores del Bastión.
+---
+
+### 🔮 Instalaciones Especiales (Special Facilities — 6 Slots Nivel 20: 4 Roomy + 2 Vast)
+
+```mermaid
+flowchart TD
+    A["Inicio del Turno de Bastión (Semanal)"] --> B["Orden 1: Dojo (Entrenamiento de Novicios + BP)"]
+    A --> C["Orden 2: Cocina Sagrada (Banquetes +10 THP)"]
+    A --> D["Orden 3: Cámara de Meditación (Charm of Restoration)"]
+    A --> E["Orden 4: Aviario de Grifos (Patrullas Aéreas)"]
+    A --> F["Orden 5: Círculo de Teletransporte (Tránsito Multiversal)"]
+    A --> G["Orden 6: Sanctum Elemental (Reserva +100 THP)"]
+```
+
+1. **Dojo Monástico (Roomy — Nivel 5):**
+   * *Orden de Bastión:* **Train / Maintain.**
+   * *Efecto Mecánico:* Entrena a una orden de acólitos marciales. Concede Inspiración Heroica permanente al Monje al salir del bastión y genera $1\text{d}6 \times 10$ BP adicionales en cada ciclo.
+2. **Sacred Kitchen / Cocina Sagrada Gourmet (Roomy — Nivel 9):**
+   * *Orden de Bastión:* **Harvest / Maintain.**
+   * *Sinergia con el Build:* Aprovecha la competencia con Herramientas de Cocinero (+5). Prepara un Festín de Cumbres que confiere **+10 Puntos de Golpe Temporales** a todos los defensores de la guarnición y a los miembros del grupo por 24 horas.
+3. **Cámara de Meditación Trascendental (Roomy — Nivel 9):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Otorga el **Charm of Restoration** (permite recuperar la totalidad de los 19 Focus points una vez al día sin gastar descanso corto, o lanzar *Lesser Restoration* a voluntad).
+4. **Aviario de Cumbres / Menagerie de Grifos (Roomy — Nivel 13):**
+   * *Orden de Bastión:* **Recruit / Defend.**
+   * *Efecto Mecánico:* Mantiene 4 Águilas Gigantes y 2 Grifos domesticados para patrullas de reconocimiento aéreo en un radio de 50 millas y defensa de murallas ante invasores.
+5. **Círculo de Teletransporte Permanente (Vast — Nivel 13):**
+   * *Orden de Bastión:* **Maintain.**
+   * *Efecto Mecánico:* Enlace con todos los círculos mayores del plano material y los dominios de Ashari. Permite al grupo replegarse al bastión instantáneamente ante cualquier catástrofe.
+6. **Sanctum Elemental de los Vientos (Vast — Nivel 17):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Tras completar un descanso largo dentro del Sanctum, el Monje sintoniza con las corrientes primordiales, obteniendo una reserva de **+100 Puntos de Golpe Temporales** y resistencia al daño de Frío y Rayo hasta agotarse.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Entrenamiento de Agilidad y Reducción del Gravamen
+### Prioridad 1: Acondicionamiento con El Gravamen de Cuatro Dobles (*The Four-Fold Burden*)
 
-* **Mecánica Base:** Xanathar's Guide / DMG 2024 (Entrenamiento de Habilidades / Dotes).
-* **Bonificadores Aplicables:** +11 Atletismo, +11 Acrobacias, Competencia con Herramientas de Cocinero (+5).
-* **Objetivo de Optimización:** Meditar y entrenar con el *Four-Fold Burden* (el gravamen de cuatro dobles) para masterizar el control de vientos y gravedad.
+* **Mecánica Base:** Entrenamiento de Habilidades y Dotes (DMG 2024 / Xanathar's).
+* **Tiradas Aplicables:** +11 Atletismo, +11 Acrobacias, +10 Herramientas de Cocinero.
+* **Objetivo:** Meditar bajo cascadas congeladas y cargar monolitos con el *Four-Fold Burden* activo. Esto prepara la transición hacia el retiro final del gravamen a nivel 20 al obtener la dote épica *Epic Boon of Speed*.
+
+### Prioridad 2: Fabricación de Consumibles y Pociones de Movilidad
+
+* **Taller Farmacéutico / Botica:** Elaboración de *Potions of Speed* (Poción de Aceleración) y *Potions of Supreme Healing*. Coste: 250 po y 5 días de trabajo por poción gracias al apoyo de los novicios del Dojo.
 
 ---
 
@@ -39,35 +70,24 @@
 
 ### Velocidades de Movimiento Base (Nivel 20)
 
-* **Caminar (Walk):** 60 ft (30 ft base + 30 ft Unarmored Movement + 50 ft con *Boon of Speed* = **110 ft/turno**).
-* **Trepar (Climb):** 110 ft (*Acrobatic Movement* — corre por paredes verticales sin penalización).
-* **Nadar (Swim):** 110 ft (*Stride of the Elements*).
-* **Volar (Fly):** 110 ft (*Stride of the Elements* durante *Elemental Attunement*).
+* **Caminar (Walk):** **110 ft/turno** ($30\text{ ft Base} + 30\text{ ft Unarmored Movement} + 50\text{ ft Epic Boon of Speed}$).
+* **Trepar (Climb):** **110 ft/turno** (*Acrobatic Movement* — corre por superficies verticales sin penalización).
+* **Nadar (Swim):** **110 ft/turno** (*Stride of the Elements*).
+* **Volar (Fly):** **110 ft/turno** (*Stride of the Elements* mientras *Elemental Attunement* está activa).
 
-### Modificadores de Viaje y Exploración
+### Modificadores de Exploración
 
-* **Ritmo de Viaje Preferido:** Rápido (110 ft de movimiento constante).
-* **Visión en la Oscuridad:** 60 ft (Nativa de Goliat / Adaptación de montaña).
-* **Habilidades de Exploración:** Rastreo en montañas, orientación con mapas y supervivencia salvaje.
-
----
-
-## 🎭 Reputación, Facciones y Red de Contactos
-
-### Facciones Activas
-
-1. **Clan de los Monjes Elementales de Ashari:**
-    * *Rango / Título:* Discípulo Avanzado del Viento.
-    * *Reputación:* Aliado Leal.
-2. **Tribus de Goliat de las Montañas (Hill & Storm Goliaths):**
-    * *Rango / Título:* Campeón Inesperado (demostró que la técnica vence a la fuerza bruta).
+* **Ritmo de Viaje:** Rápido (recorre 40 millas al día sin fatiga gracias a la constitución de Goliat).
+* **Visión en la Oscuridad:** 60 ft (Adaptación racial de montaña).
+* **Percepción Pasiva:** 14 (10 + 4 WIS).
+* **Perspicacia Pasiva:** 14 (10 + 4 WIS).
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## 🎭 Reputación y Red de Contactos
 
-* **Percepción Pasiva (Passive Perception):** 14 (10 + 4 WIS).
-* **Investigación Pasiva (Passive Investigation):** 9 (10 - 1 INT).
-* **Perspicacia Pasiva (Passive Insight):** 14 (10 + 4 WIS).
-* **Idiomas Conocidos:** Común, Gigante.
-* **Competencia con Herramientas:** Cook's Utensils (+5).
+1. **Círculo de Ashari del Viento:**
+   * *Estatus:* Campeón Honorífico de la Aguja Celeste.
+   * *Beneficio:* Acceso libre a naves de viento y redes de teletransporte elementales.
+2. **Tribus de Goliat de las Montañas (Hill & Storm Clans):**
+   * *Estatus:* Héroe de la Balanza (demostró que la agilidad y el flujo vencen al tamaño y la fuerza bruta).

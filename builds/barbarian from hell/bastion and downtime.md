@@ -1,133 +1,82 @@
 # 🏰 Bastión y Tiempo Muerto — Barbarian from Hell
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+* **Nombre del Bastión:** La Grieta del Averno (*The Rift of Avernus*)
+* **Ubicación:** Cañón volcánico en el borde de un páramo desolado, con acceso subterráneo a fisuras de fuego primordial.
+* **Nivel de Bastión (Bastion Level):** Nivel 20
+* **Puntos de Bastión (Bastion Points - BP):** 450 BP acumulados
+* **Bonificador de Defensa de Bastión:** **+11** ($5_{\text{STR}} + 6_{\text{PB}}$)
 
-* **Nombre del Bastión:** La Grieta del Averno
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 100
-* **Puntuación de Mando (Bastion Defender Stats):** STR 20 (+5), DEX 14 (+2), CON 14 (+2), INT 8 (-1), WIS 8 (-1), CHA 14 (+2)
+---
 
-### Instalaciones Básicas (Basic Facilities)
+### 🏛️ Instalaciones Básicas (Basic Facilities)
 
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
+1. **Aposentos del Señor de la Furia (Bedchambers):** Cámara tallada en basalto negro decorada con estandartes del infierno.
+2. **Refectorio de la Sangre (Dining Hall):** Banquete comunal para los veteranos de la guarnición; asados al carbón y brebajes infernales.
+3. **Foso Común de Combate (Common Room):** Foso de arena y lava seca donde los siervos y guardias resuelven disputas mediante duelos de honor.
+4. **Almacén de Pertrechos (Storage):** Depósito blindado de lingotes de hierro del Averno, brea y repuestos de combate.
 
-1. **Dormitorio (Bedchambers):** Cámara excavada en roca basáltica decorada con runas infernales y antorchas de fuego fatuo.
-2. **Comedor (Dining Hall):** Refectorio rústico donde se sirven carnes exóticas y licores ardientes; capacidad para 30 seguidores.
-3. **Espacio Común (Common Room):** Foso de arena y entrenamiento donde los guardias y siervos arreglan diferencias por combate no letal.
+---
 
-### Instalaciones Especiales (Special Facilities)
+### 🔮 Instalaciones Especiales (Special Facilities — 6 Slots Nivel 20: 4 Roomy + 2 Vast)
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+```mermaid
+flowchart TD
+    A["Inicio del Turno de Bastión (Semanal)"] --> B["Orden 1: Estudio Arcano (Pergaminos Armor of Agathys)"]
+    A --> C["Orden 2: Armería (Mantenimiento de Glaives +3)"]
+    A --> D["Orden 3: Sagrario Infernal (Comunión con el Fiend)"]
+    A --> E["Orden 4: Campos de Entrenamiento (Inspiración Heroica)"]
+    A --> F["Orden 5: Círculo de Teletransporte (Tránsito Planar)"]
+    A --> G["Orden 6: Sala de Guerra (Mando Estratégico de Campaña)"]
+```
 
-* **Estudio Arcano (Arcane Study) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Trazar Runas y Planos de Invocación.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite canalizar su magia de Warlock y justifica la fabricación de rollos de conjuros (*Armor of Agathys*), sin consumir recursos personales.
-* **Armería (Armory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Crafting y Mantenimiento de Armamento.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite equipar a los defensores del bastión con armas pesadas pesadas que replican la furia física del personaje y garantiza que los artesanos puedan reparar su equipo de batalla.
-* **Sagrario (Sacrarium) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Comunión y Ofrendas Infernales.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Ofrece canalización espiritual con los señores del averno (patrón Fiend) para ganar ventajas temporales de puntos de golpe y reponer espacios de conjuro.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Entrenamiento Físico Militar.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Entrena a mercenarios en tácticas de contención del daño y control de amenazas.
-* **Scriptorium (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiado Masivo de Pergaminos Infernales.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite transcribir pergaminos de protección y combate de warlock a gran velocidad para su uso antes de la furia.
-* **Sala de Guerra (War Room) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Planificación de Incursiones.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Califica gracias a su defensa sin armadura de bárbaro. Permite obtener información táctica y ventajas operacionales en zonas de guerra activa.
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Ignis el Quebrado (Cambión menor, encargado de la logística arcanotecnológica).
-* **Defensores / Guardias:** 20 Defensores pesados (veteranos de guerra equipados con alabardas).
-* **Artesanos / Especialistas:** Herrero demoníaco (competente en forja infernal).
+1. **Estudio Arcano (Arcane Study — Roomy, Nivel 5):**
+   * *Orden de Bastión:* **Craft.**
+   * *Efecto Mecánico:* Permite transcribir pergaminos de conjuro de Warlock (*Scroll of Armor of Agathys* de Nivel 5) sin gastar ranuras personales, acumulando un suministro táctico para combates de alta exigencia.
+2. **Armería Pesada (Armory — Roomy, Nivel 5):**
+   * *Orden de Bastión:* **Maintain.**
+   * *Efecto Mecánico:* Los herreros mantienen las alabardas y armaduras de placas medias de la guarnición con filo y temple superior, otorgando a los 20 defensores bonificador de +1 a impacto.
+3. **Sagrario Infernal (Sacrarium — Roomy, Nivel 9):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Comunión directa con los señores de los Nueve Infiernos. Confiere el *Charm of the Fiend* (otorga 25 HP temporales al salir del bastión y permite recuperar 1 espacio de pacto de nivel 5).
+4. **Campos de Entrenamiento (Training Grounds — Roomy, Nivel 9):**
+   * *Orden de Bastión:* **Train.**
+   * *Efecto Mecánico:* Concede Inspiración Heroica automática al Bárbaro y entrena a la tropa pesada en maniobras de contención y absorción de daño.
+5. **Círculo de Teletransporte Permanente (Vast, Nivel 13):**
+   * *Orden de Bastión:* **Maintain.**
+   * *Efecto Mecánico:* Enlace planar bidireccional entre la Grieta del Averno, las fortalezas de la Ciudadela de Bronce y las grandes capitales del plano material.
+6. **Sala de Guerra del Caudillo (War Room — Vast, Nivel 17):**
+   * *Orden de Bastión:* **Mobilize / Strategize.**
+   * *Efecto Mecánico:* Centro de operaciones tácticas. Otorga Ventaja en tiradas de iniciativa durante las siguientes 48 horas tras planificar una incursión y permite desplegar una compañía de choque de 20 veteranos infernales.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
-
-### Prioridad 1: Creación de rollos de conjuros (Scrolls of Armor of Agathys)
+### Prioridad 1: Fabricación de Pergaminos de Armor of Agathys y Pociones
 
 * **Mecánica Base:** DMG 2024 / Xanathar's Guide to Everything.
-* **Bonificadores Aplicables:** Competencia con herramientas arcanas.
-* **Coste por Día/Semana:** 100 po / 1 semana de trabajo (para nivel 2).
-* **Objetivo de Optimización:** Genera un inventario constante de *Armor of Agathys* utilizable por el personaje para activarlo antes de entrar en Furia, maximizando los puntos de golpe temporales y el retorno de daño en espinas.
+* **Tiradas y Recursos:** Herramientas de Calígrafo Arcano (+8) y Scriptorium. Coste: 250 po y 3 días por pergamino de 5.º nivel.
+* **Objetivo de Optimización:** Crear una reserva de pergaminos para activar *Armor of Agathys* sin consumir las 3 ranuras de pacto antes de encuentros cruciales.
 
-### Prioridad 2: Entrenamiento de Atributos / Dotes
+### Prioridad 2: Entrenamiento Físico y Forja de Armas de Furia
 
-* **Mecánica Base:** DMG 2024.
-* **Bonificadores Aplicables:** Modificador de Constitución.
-* **Progreso Actual:** 4 / 10 semanas para adquirir dote de supervivencia o incrementar atributos.
+* **Herrería Infernal:** Elaboración de Glaives reforzadas con aleación de hierro meteórico con afinidad de fuego.
 
 ---
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
 ### Velocidades de Movimiento Base
 
-* **Caminar (Walk):** 40 pies (ft.) [incluye Fast Movement +10]
-* **Trepar (Climb):** 30 ft. (sin penalización por rasgos de clase)
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 0 ft. (situacional por conjuros o aliados)
+* **Caminar (Walk):** **40 ft/turno** (30 ft Base + 10 ft *Fast Movement* de Bárbaro).
+* **Trepar (Climb):** 30 ft/turno.
+* **Nadar (Swim):** 30 ft/turno.
+* **Volar (Fly):** 90 ft/turno cuando monta su corcel infernal (Pesadilla).
 
-### Modificadores y Multiplicadores de Viaje
+### Logística y Montura Infernal
 
-* **Ritmo de Viaje (Travel Pace) Preferido:** Rápido (gracias a la resistencia física)
-* **Visión en la Oscuridad (Darkvision):** 120 ft. (por invocación de brujo Devil's Sight)
-* **Habilidades de Exploración:** Alerta (+5 iniciativa), supervivencia en entornos de calor extremo (Plano de Fuego).
-
-### Logística de Transporte y Monturas
-
-* **Montura Activa:** Pesadilla Infernal (comprada o pactada)
-  * *Velocidad de la Montura:* 60 ft. (Vuela 90 ft.)
-  * *Mecánica de Combate Montado:* Montura controlada con inmunidad al fuego compartida.
-* **Vehículos / Vehículos de Carga:** Carro de Hierro de transporte pesado.
-* **Capacidad de Carga Absoluta:** 300 lbs.
-
----
-
-## 🎭 Reputación, Facciones y Red de Contactos
-
-*Recursos sociales e influencia política en el mundo de juego.*
-
-### Facciones Activas
-
-1. **La Logia del Averno:**
-    * *Rango / Título:* Centurión de Sangre
-    * *Reputación / Favor:* Aliado (+40)
-    * *Beneficio Mecánico:* Acceso a componentes infernales y mercenarios de bajo coste.
-2. **Los Custodios de la Flama Negra:**
-    * *Rango / Título:* Hermano Espada
-    * *Reputación / Favor:* Neutral
-
-### Red de Contactos (Contacts & Informants)
-
-* **Vrak (Averno):** Un diablo de la cadena comerciante, proveedor de metales infernales.
-* **Marta la Bruja (Ciudad de Dis):** Proveedora de componentes arcanos y gemas sintonizadas.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
-
-* **Percepción Pasiva (Passive Perception):** 9 (10 - 1 WIS)
-* **Investigación Pasiva (Passive Investigation):** 9 (10 - 1 INT)
-* **Perspicacia Pasiva (Passive Insight):** 9
-* **Idiomas Conocidos:** Común, Abisal, Infernal.
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Herrero (+7), Útiles de Escribano Arcano (+2).
-* **Sinergias Fuera de Combate:** 🟢 **Excelente**. El trasfondo infernal otorga posada y contactos gratis en asentamientos corruptos o del bajo mundo.
+* **Montura Activa:** Pesadilla de Fuego (*Nightmare* pactada con el Fiend): Velocidad de 60 ft por tierra y 90 ft de vuelo, con inmunidad compartida al fuego y paso etéreo.
+* **Sentidos y Exploración:** Visión en la Oscuridad de 120 pies (*Devil's Sight* — ve a través de oscuridad mágica y natural).
+* **Percepción Pasiva:** 9 (10 - 1 WIS).

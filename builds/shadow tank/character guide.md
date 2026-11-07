@@ -1,86 +1,121 @@
-# Guía de Personaje — Shadow Tank
+# Resumen General del Personaje: Shadow Tank (The Umbral Juggernaut)
 
 ## Datos Generales
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+* **System Standard:** D&D 5th Edition (2014 Ruleset / 2024 Compatible)
+* **Character Level:** 20 (Total)
+* **Class Split:** Warlock (Hexblade) 17 / Barbarian (Totem Warrior - Bear) 3
+* **Species:** Half-Orc (*Relentless Endurance*, *Savage Attacks*, *Darkvision*)
+* **Background:** Soldier / Outlander (Dote: *Alert* / *Fey Touched*)
+* **Stats (Point Buy + Racial + ASIs):**
+  * **FUER (STR):** 13 (+1) *(Requisito de Multiclaseo de Bárbaro)*
+  * **DES (DEX):** 14 (+2) *(Máxima CA con Armadura Media)*
+  * **CON:** 16 (+3) *(15 Base + 1 Racial — Reserva de vida multiplicada por Furia)*
+  * **INT:** 8 (-1)
+  * **SAB (WIS):** 10 (+0)
+  * **CAR (CHA):** 20 (+5) *(14 Base + 2 Racial + 1 Fey Touched + 2 ASI + 1 ASI)*
 
-Character Level: 20
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/shadow%20tank/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/shadow%20tank/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/shadow%20tank/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/shadow%20tank/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/shadow%20tank/actual%20inventory%20list.md)
 
-Class Split: Warlock (Hexblade) 17 / Barbarian (Totem Warrior) 3
+---
 
-Species: Semi-orco (Half-Orc) + Dote de Origen: Alerta (Alert)
+## Combat Role: Frontline Universal Resistor / Ice-Thorns Reflector / Nova Crit Crusher
 
-Stats:
+El **Shadow Tank** es la personificación del blindaje absoluto ante cualquier tipo de daño en el multiverso. Combina la resistencia universal del **Tótem del Oso** (resistencia al 50% de todo el daño excepto psíquico) con el motor de espinas heladas de *Armor of Agathys* (Nivel 5 = 25 THP / 25 frío por golpe recibido) y la omnisciencia de combate de *Foresight* (Arcano de Nivel 9: dura 8 horas sin concentración y otorga Ventaja permanente a todo lo que hagas y Desventaja a todo lo que te ataque). Ofensivamente, blande un espadón de pacto invocable usando Carisma (+5) potenciado por *Lifedrinker* (+5 necrótico), *Hexblade's Curse* (críticos en 19-20 y +6 daño) y descargas demoledoras de *Eldritch Smite* ($+6\text{d}8$ de fuerza y derribo sin salvación).
 
-* **FUER (STR):** 13 (+1) (13 Base) [[Requisito multiclase de Bárbaro]]
-* **DES (DEX):** 14 (+2) (14 Base) [[Máxima CA con Armadura Media]]
-* **CON:** 16 (+3) (15 Base + 1 Racial) [[Puntos de golpe totales y duración de la Furia]]
-* **INT:** 8 (-1) [[Atributo de descarte]]
-* **SAB (WIS):** 10 (+0) [[Atributo neutral]]
-* **CAR (CHA):** 20 (+5) (14 Base + 2 Racial + 4 ASI) [[Ataques con Arma de Pacto, CD de conjuros de Warlock]]
-
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Tanque de Espinas de Primera Línea, Atacante de Daño Frío/Fuerza, Crítico Nova.
+---
 
 ## 1. Gestión de Recursos y Reglas de Inventario
 
-* **Economía de Recursos y Manos:**
-  * **Foco Universal Único:** Su Espadón de Pacto (*Greatsword*) actúa como foco unificado para todos sus conjuros de Warlock. Puede conjurarla de la nada mediante el rasgo *Pact of the Blade*, eliminando la necesidad de portar armas físicas.
-* **Gestión de Espacios/Ranuras (Pacto de Magia):**
-  * Cuenta con **4 espacios de conjuro de Nivel 5** que se recuperan con un descanso corto.
-  * Dispone de un espacio de **Misticismo Arcano** para niveles 6, 7, 8 y 9 (1 uso al día de cada uno).
-  * Gestiona **3 usos de Furia** por descanso largo.
+* **Furia del Oso y Conjuros Sin Concentración:** Durante *Rage* no se pueden lanzar ni concentrar conjuros. Sin embargo, los dos conjuros definitorios del build:
+  1. *Foresight* (Arcano de Nivel 9: 8 horas de duración, **sin concentración**).
+  2. *Armor of Agathys* (Ranura de Pacto de Nivel 5: 1 hora de duración, **sin concentración**).
+  Se activan antes del combate y operan al 100% de su capacidad mientras el personaje ruge en Furia del Oso.
+* **Eldritch Smite en Furia:** El Castigo Eldritch es un rasgo de clase de Warlock, no un conjuro. Funciona con normalidad durante Furia, permitiendo gastar ranuras de pacto de nivel 5 para infligir $+6\text{d}8$ de fuerza y derribar al enemigo boca abajo (*Prone*) sin tirada de salvación.
+* **Resiliencia de Semiorco (Relentless Endurance):** Cuando tus puntos de golpe bajan a 0, caes a 1 PG en su lugar una vez por descanso largo.
+
+---
 
 ## 2. Action Economy & Combat Loop
 
-* **Preparación (Pre-Combate):**
-  * Lanzar *Armor of Agathys* usando un espacio de Nivel 5 (concede 25 puntos de golpe temporales por 1 hora sin concentración).
-* **Action:**
-  * **Turno 1 [Furia Espiritual]:** Realizar la acción de ataque (2 golpes con su espadón de pacto usando Carisma). Si el enemigo es el objetivo de la maldición de Hexblade, añade bono de daño (+6) y rango crítico de 19-20.
-  * **Eldritch Smite (Castigo Eldritch):** Al impactar con su espadón, puede gastar un espacio de conjuro de nivel 5 para infligir +6d8 de daño de Fuerza y derribar al enemigo al suelo boca abajo sin tirada de salvación. Esto funciona incluso mientras está furioso, ya que es una habilidad de clase y no un conjuro.
-* **Bonus Action:**
-  * **Maldición de Hexblade (Hexblade's Curse):** Activar sobre el enemigo más peligroso.
-  * **Entrar en Furia (Barbarian Rage):** Activar en el Turno 1 tras haber lanzado *Armor of Agathys*.
-* **Reaction:**
-  * 🔵 **Resistencia Relámpago (Barbarian Bear Totem):** Mitiga la mitad del daño de todos los tipos de ataque recibidos (excepto psíquico) de forma pasiva mientras dure la furia.
+```mermaid
+flowchart TD
+    A["Pre-Combate: Foresight (8 horas) + Armor of Agathys (Nivel 5: 25 THP)"] --> B["Turno 1: Hexblade's Curse (Bonus Action) + Entrar en Furia del Oso"]
+    B --> C["Acción de Ataque: 2 Golpes con Espadón de Pacto usando Carisma (+5)"]
+    C --> D["Impacto: Lifedrinker (+5 Necrótico) + Hexblade's Curse (+6)"]
+    D --> E["Crítico 19-20 / Impacto Duro: Eldritch Smite (+6d8 Fuerza + Auto-Prone)"]
+    E --> F["Enemigo Ataca al Shadow Tank: Choca contra Armor of Hexes (50% Fallo)"]
+    F --> G["Si Impacta: Daño reducido al 50% por Furia del Oso + Sufre 25 Frío Plano"]
+```
 
-## 3. The META Combo: El Escudo de Espinas Heladas
+* **Pre-Combate (Turno 0):** Activar *Foresight* (8 horas) y lanzar *Armor of Agathys* de nivel 5 (25 THP).
+* **Turno 1 — Despliegue de Maldición y Furia:**
+  * **Bonus Action:** Activar *Hexblade's Curse* sobre el enemigo principal (críticos en 19-20, +6 daño por golpe, cura 22 PG al morir).
+  * **Action:** 2 Ataques con Espadón usando Carisma (+5). Con *Foresight*, ambos ataques tienen Ventaja automática.
+  * **Impacto Clave:** Si impacta o anota un crítico (19-20 con Ventaja = 19% prob. de crítico), descarga *Eldritch Smite*: inflige $6\text{d}8$ (o $12\text{d}8$ en crítico) de fuerza y derriba al objetivo al suelo.
+* **Turno 2+ — Aniquilación Sostenida:**
+  * **Bonus Action:** Entrar en Furia del Oso (resistencia al 50% de todo daño salvo psíquico).
+  * **Action:** 2 Ataques con Espadón contra el objetivo derribado con Ventaja.
+  * **Defensas Pasivas Activas:**
+    * *Foresight:* Todo ataque enemigo tiene Desventaja.
+    * *Armor of Hexes (Warlock 10):* 50% de probabilidad fija (d6 roll de 4-6) de que el ataque del enemigo maldito falle automáticamente.
+    * *Furia del Oso:* Todo daño recibido se reduce a la mitad.
+    * *Armor of Agathys:* El enemigo sufre 25 de daño de frío plano por cada impacto en melé.
 
-La sinergia destructiva de este build radica en duplicar la durabilidad del escudo temporal *Armor of Agathys* mediante la Furia del Tótem del Oso:
+---
 
-1. **Paso 1 (Preparación):** El Warlock lanza *Armor of Agathys* a nivel 5 antes de combatir. Otorga **25 PG Temporales**. Cualquier criatura que lo golpee cuerpo a cuerpo recibe **25 de daño de frío automático** sin tirada de salvación.
-2. **Paso 2 (Ataque y Recarga):** Entra en Furia (Tótem del Oso). La furia reduce a la mitad todo daño físico y elemental entrante. Por lo tanto, para quitarle los 25 PG temporales al Shadow Tank, los enemigos deben infligirle **50 de daño real**.
-3. **Paso 3 (Sinergia y Remate):** Durante el tiempo en que los enemigos intentan agotar el escudo de 25 PG temporales, cada golpe cuerpo a cuerpo que reciba el Shadow Tank devuelve 25 de daño de frío plano al atacante.
+## 3. Mathematical Engine (D&D 5e / 2014 & 2024 Compatible)
 
-🧮 Mathematical Engine (Reglas 2014):
+### 🧮 Daño por Asalto Sostenido (DPR a Nivel 20)
 
-$$\text{Daño Devuelto por Impacto Cuerpo a Cuerpo} = 25 \text{ de daño de frío automático}$$
+Con Carisma 20 (+5), *Espadón de Pacto +3*, *Lifedrinker* (+5 necrótico), *Hexblade's Curse* (+6 daño), y Ventaja constante de *Foresight* contra CA 18:
 
-$$\text{Daño Estimado Reflejado (mínimo 3 golpes antes de romper el escudo)} = 3 \times 25 = 75 \text{ de daño de frío}$$
+$$\text{Probabilidad de Impacto con Ventaja } P(\text{Hit}) = 1 - (1 - 0.75)^2 = 0.9375 \quad (93.75\%)$$
 
-$$\text{Daño de Espadón de Pacto (2 Impactos)} = 2 \times (2d6 (\text{Espadón}) + 5 (\text{CAR}) + 5 (\text{Lifedrinker}) + 6 (\text{Maldición})) = 2 \times 23 = 46 \text{ de daño}$$
+$$\text{Probabilidad de Crítico (Rango 19-20 con Ventaja)} = 1 - (1 - 0.10)^2 = \mathbf{0.19 \quad (19.0\%)}$$
 
-$$\text{Daño con Eldritch Smite (Nivel 5)} = 6d8 = 27 \text{ de daño de fuerza plano}$$
+* **Daño por Impacto Normal:**
+  $$\text{Dmg}_{\text{Hit}} = 2\text{d}6_{\text{Espadón}} + 5_{\text{CAR}} + 5_{\text{Lifedrinker}} + 6_{\text{Curse}} + 3_{\text{Item}} = 7.0 + 19 = \mathbf{26.0 \text{ Daño}}$$
 
-$$\text{Daño Total de Ráfaga en un Asalto} = 73 \text{ de daño ofensivo + 25 de daño de frío devuelto por golpe}$$
+* **Daño por Impacto Crítico (Semiorco Savage Attacks añade 1 dado extra de arma):**
+  $$\text{Dmg}_{\text{Crit}} = 5\text{d}6_{\text{Espadón}} + 19 = 17.5 + 19 = \mathbf{36.5 \text{ Daño}}$$
 
-## 4. Totem Warrior (Bear) Blueprint
+$$\text{DPR Golpes Básicos (2 Ataques)} = 2 \times [0.9375 \times 26.0 + 0.19 \times 10.5] = 2 \times [24.375 + 1.995] = \mathbf{52.74 \text{ DPR}}$$
 
-La combinación del bárbaro proporciona la máxima mitigación del daño para mantener activo el escudo de frío:
+* **Descarga con Eldritch Smite (Nivel 5):**
+  $$\text{Smite Normal} = 6\text{d}8 = \mathbf{27.0 \text{ Fuerza}} \quad \mid \quad \text{Smite Crítico} = 12\text{d}8 = \mathbf{54.0 \text{ Fuerza}}$$
 
-| Rasgo de Furia | Tipo de Resistencia | Beneficio Adicional | Notas |
-| :---: | :---: | :--- | :--- |
-| Totem Spirit (Bear) | Todos los tipos de daño (excepto Psíquico) | Reduce el daño recibido en un 50% | Duplica el valor numérico de la armadura de Agathys. |
-| Danger Sense | Ventaja en salvaciones de DES | Evita trampas y fuegos de área | Excelente apoyo defensivo pasivo. |
+$$\text{DPR Ráfaga en Turno de Smite} = 52.74 + 27.0 = \mathbf{79.74 \text{ Daño Ofensivo}} + 50\text{ Frío/Espinas Pasivo}$$
 
-## 5. Home Rules
+### 🛡️ Motor de Absorción Universal y EHP Extremo
 
-Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
+$$\text{Resistencia Furia del Oso} = \text{Reduce el 50\% de todo daño entrante (fuego, frío, rayo, ácido, fuerza, etc.)}$$
 
-1. **Espadón Canalizador:** El espadón de pacto actúa como foco de conjuros de warlock unificado.
-2. **Habilidades Raging Invocation:** Se permite el uso de habilidades activas no-mágicas de Warlock (como Eldritch Smite y Lifedrinker) mientras se está bajo los efectos de la Furia de Bárbaro.
+$$\text{EHP Físico y Elemental} = \frac{\text{HP Real } (185) + \text{Armor of Agathys } (25) + \text{Sanctum Ward } (100)}{1 - 0.50} = \frac{310}{0.50} = \mathbf{620 \text{ EHP Efectivo}}$$
+
+* **Durabilidad de los 25 THP de Agathys:** Como el daño se reduce a la mitad, se requieren **50 de daño real** para agotar el escudo.
+* Si 3 atacantes impactan por 16 de daño cada uno (reducido a 8 cada uno = 24 total), el escudo sobrevive con 1 THP y los 3 atacantes han sufrido un total de **75 de daño de frío automático**.
+
+---
+
+## 4. Tabla de Rendimiento Táctico
+
+| Criterio | Valoración | Justificación Mecánica |
+| :--- | :---: | :--- |
+| **Daño Monobjetivo** | 🔵 | Críticos en 19-20 con 19% de probabilidad bajo *Foresight*, espadón con Carisma + Lifedrinker (26 daño por golpe) y smites de $+6\text{d}8$ a $+12\text{d}8$. |
+| **Control de Masas (CC)** | 🟢 | Derribo automático sin salvación (*Prone*) mediante *Eldritch Smite*, *Forcecage* de nivel 7, y *Mass Suggestion* de nivel 6. |
+| **Supervivencia (EHP)** | 🔵 | 620 EHP con resistencia universal a todo el daño (Bear Totem), *Foresight* (desventaja en ataques enemigos), *Armor of Hexes* (50% miss), y *Relentless Endurance*. |
+| **Economía de Acciones** | 🔵 | Pre-buffs de 8 horas y 1 hora sin concentración, maldición en Acción Adicional, Furia en Acción Adicional y Reacción de resistencia pasiva. |
+| **Sustentabilidad** | 🔵 | Las 4 ranuras de 5.º nivel se recuperan en descanso corto. *Hexblade's Curse* cura 22 PG al morir el objetivo maldito y se traspasa a otro objetivo (*Master of Curses*). |
+
+---
+
+## 5. Home Rules (Reglas de la Mesa)
+
+1. **Espadón Canalizador Único:** El espadón de pacto actúa como foco de lanzamiento unificado para todos los conjuros de Warlock.
+2. **Invocaciones Activas en Furia:** Se confirma el uso de rasgos de Warlock no mágicos (*Eldritch Smite*, *Lifedrinker*, *Armor of Hexes*) mientras se está bajo los efectos de la Furia de Bárbaro.

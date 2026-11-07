@@ -1,77 +1,112 @@
-# Datos Generales
+# Resumen General del Personaje: Barbarian from Hell
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+## Datos Generales
 
-Character Level: 20 (Total)
+* **System Standard:** D&D 5th Edition (2014 Ruleset / 5.5e Compatible)
+* **Character Level:** 20 (Total)
+* **Class Split:** Barbarian (Zealot) 6 / Warlock (Fiend) 14
+* **Species:** Custom Lineage (Dote de Nivel 1: *Polearm Master*)
+* **Stats (Point Buy + Dotes + ASIs):**
+  * **FUER (STR):** 20 (+5) *(15 Base + 2 Racial + 1 ASI Nivel 10 + 2 ASI Nivel 14)*
+  * **DES (DEX):** 14 (+2) *(Para maximizar la CA con Armadura Media)*
+  * **CON:** 14 (+2) *(Reserva de vida duplicada en efectividad por Furia)*
+  * **INT:** 8 (-1)
+  * **SAB:** 8 (-1)
+  * **CAR (CHA):** 14 (+2) *(13 Base + 1 ASI Nivel 14 — Escala CD y rasgos de Warlock)*
 
-Class Split: Barbarian (Zealot) 6 / Warlock (Fiend) 14
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/barbarian%20from%20hell/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/barbarian%20from%20hell/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/barbarian%20from%20hell/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/barbarian%20from%20hell/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/barbarian%20from%20hell/actual%20inventory%20list.md)
 
-Species: Custom Lineage (o Humano Variante) [Para obtener la dote *Polearm Master* o *Great Weapon Master* a nivel 1]
+---
 
-Stats:
+## Combat Role: Frontline Thorns Tank / Heavy Striker / Hellish Executioner
 
-* **FUER (STR):** 20 (15 base + 2 racial + 1 dote + 2 ASI) [Tu estadística primaria de ataque y daño]
-* **DES (DEX):** 14 [Suficiente para optimizar la CA de Armadura Media]
-* **CON:** 14 [Tu reserva de vida base, que se duplica en efectividad por Furia]
-* **INT:** 8
-* **SAB (WIS):** 8
-* **CAR (CHA):** 14 (13 base + 1 dote) [CD mínima para el multiclaseo de Brujo y escalado de rasgos]
+El **Barbarian from Hell** es un tanque de represalia física y elemental implacable. Su premisa fundamental es el **Motor de Espinas Infernales (Hellish Thorns)**: castiga a los enemigos cuerpo a cuerpo mediante el daño reflejado automático de *Armor of Agathys* (Nivel 5 = 25 de daño de frío por golpe) mientras reduce todo el daño físico recibido a la mitad mediante *Rage*, duplicando la durabilidad efectiva de sus puntos de golpe temporales. Ofensivamente, desata ataques masivos con alabarda (*Glaive*) combinando *Polearm Master*, *Great Weapon Master*, *Reckless Attack*, *Divine Fury* y descargas nucleares de *Eldritch Smite* y *Hurl Through Hell*.
 
-Actual Item List: ./actual inventory list.md
+---
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+## 1. Gestión de Recursos y Reglas de Inventario
 
-Roadmap de Progresión: ./roadmap.md
+* **Furia y Lanzamiento de Conjuros:** No se pueden lanzar ni concentrar conjuros durante *Rage*. Sin embargo, cualquier conjuro **sin concentración lanzado antes de entrar en Furia** (como *Armor of Agathys* o *Mirror Image*) permanece 100% activo y funcional.
+* **Eldritch Smite en Furia:** *Eldritch Smite* no es un conjuro, sino un rasgo de clase que gasta una ranura de pacto al impactar con un arma para infligir $+5\text{d}8$ de daño de fuerza y derribar al objetivo automáticamente sin tirada de salvación. **Es plenamente legal usarlo durante Furia**.
+* **Gestión de Armadura:** Viste *Half-Plate* (CA 15 + 2 DEX = 17 base; CA 20 con Half-Plate +3). No porta escudo para blandir el Glaive a dos manos y aprovechar el alcance de 10 pies de *Polearm Master*.
 
-Combat Role: Frontline Thorns Tank / Heavy Physical Striker / Battlefield Grappler (Castiga a los enemigos cuerpo a cuerpo mediante el daño reflejado de *Armor of Agathys* mientras reduce el daño físico a la mitad por Furia, apoyado por el daño adicional del Zealot e impactos brutales con *Great Weapon Master* y *Eldritch Smite*).
+---
 
- 1. Gestión de Recursos y Reglas de Inventario
+## 2. Action Economy & Combat Loop
 
-* **Economía de Espacios / Castigos en Furia:**
-  * No puedes lanzar conjuros ni mantener concentración mientras estás en **Furia (Rage)**. Sin embargo, los conjuros que lances ANTES de entrar en Furia y que no requieran concentración (como *Armor of Agathys* o *Mirror Image*) permanecen activos y funcionales durante la Furia.
-  * La habilidad **Eldritch Smite** (Castigo Eldritch) no es un conjuro sino una habilidad de canalización de ranuras, por lo que **sí se puede usar mientras estás en Furia**. Te permite gastar ranuras de Warlock de nivel 5 para infligir $+5d8$ de daño de fuerza plano y derribar enemigos.
-* **Equipo y Defensas:**
-  * Vistes **Half-Plate** (Armadura Media) sin escudo para poder empuñar un arma pesada de dos manos (Glaive o Halberd), alcanzando un AC base de $15 + 2 \text{ (DEX)} = 17$.
+```mermaid
+flowchart TD
+    A["Pre-Combate: Lanzar Armor of Agathys (Slot Nivel 5: 25 THP)"] --> B["Turno 1: Entrar en Furia (Bonus Action)"]
+    B --> C["Acción de Ataque: Reckless Extra Attack con Glaive (GWM -5/+10)"]
+    C --> D["Impacto: Divine Fury (1d6+3) + Eldritch Smite Opcional (5d8 + Auto-Prone)"]
+    D --> E["Reacción: Ataque de Oportunidad PAM al entrar enemigos a 10ft"]
+    E --> F["Enemigo Golpea al Bárbaro: Sufre 25 Daño de Frío Plano por Golpe"]
+```
 
- 1. Action Economy & Combat Loop
+* **Pre-Combate (Turno 0):** Lanzar *Armor of Agathys* de 5.º nivel (25 THP). Si hay tiempo adicional, lanzar *Mirror Image*.
+* **Turno 1 — Despliegue de Furia:**
+  * **Bonus Action:** Entrar en *Rage* (resistencia a daño cortante, perforante y contundente).
+  * **Action:** Ataque Extra con Glaive mediante *Reckless Attack* (Ventaja permanente). Aplica *Great Weapon Master* (+10 daño por impacto).
+  * **Impacto 1:** Añade *Divine Fury* del Zealot ($1\text{d}6 + 3$ de daño radiante o necrótico).
+  * **Opcional:** Gasta ranura de nivel 5 en *Eldritch Smite* ($+5\text{d}8$ de daño de fuerza y derriba al objetivo).
+* **Turnos Subsiguientes — Rutina de Daño Continuo:**
+  * **Action:** 2 Ataques con Glaive con Ventaja temeraria y GWM.
+  * **Bonus Action:** Ataque con el extremo del asta (*Polearm Master*): $1\text{d}4 + \text{Fuerza} + \text{Furia} + 10_{\text{GWM}}$.
+  * **Reaction:** Ataque de oportunidad cuando una criatura entra a tu alcance de 10 pies (*Polearm Master*).
 
-* **Preparación (Pre-Combate):**
-  * Lanzar *Armor of Agathys* (utilizando tu ranura de nivel 5 de Warlock para obtener 25 Temp HP).
-* **Action:**
-  * **Turno 1:** Si no hay *Armor of Agathys* activo, lanzarlo. Si ya está activo, realizar la acción de ataque (*Extra Attack*) de forma **Reckless** (Ataque Temerario) para ganar ventaja en todas tus tiradas de ataque y facilitar los críticos y el uso de *Great Weapon Master*.
-* **Bonus Action:**
-  * **Entrar en Furia (Rage):** En el Turno 1 para ganar resistencia a daños físicos.
-  * **Ataque Adicional de Polearm Master:** En los turnos subsiguientes, realiza un ataque adicional con el extremo opuesto del arma ($1d4 + \text{Fuerza} + \text{Daño de Furia}$).
-* **Reaction:**
-  * **Ataque de Oportunidad de Polearm Master:** Cuando un enemigo entre en tu alcance (10 pies si usas Glaive/Halberd), realizas un ataque de oportunidad automático.
+---
 
- 1. The META Combo: The Thorns from Hell (Armor of Agathys + Rage + Dark One's Blessing)
+## 3. Mathematical Engine (D&D 5e / 2014 & 2024 Compatible)
 
-La sinergia principal del build multiplica el valor de tus puntos de vida temporales y castiga de forma brutal e inevitable a cualquiera que intente golpearte cuerpo a cuerpo:
+### 🧮 Daño por Asalto Sostenido (DPR a Nivel 20)
 
-1. **Armor of Agathys (Nivel 5):** Te otorga 25 HP temporales. Mientras tengas aunque sea 1 de estos HP temporales activo, cualquier enemigo que te golpee con un ataque cuerpo a cuerpo sufre **25 de daño de frío plano** (sin salvación, sin límite de activaciones por ronda).
-2. **Furia (Rage):** Te otorga resistencia al daño físico (cortante, perforante y contundente). Esto significa que cualquier daño físico que recibas se reduce a la mitad.
-3. **Vida Temporal Efectiva:** Debido a la resistencia, tu escudo de 25 HP temporales requiere **50 de daño físico** para ser destruido.
-4. **Dark One's Blessing (Fiend 1):** Cuando reduces a una criatura a 0 HP, ganas $14 \text{ (Nivel)} + 2 \text{ (CHA)} = 16$ HP temporales. Aunque esto no reactive el daño de frío de *Armor of Agathys*, refresca tu colchón de vida temporal en mitad de la melé sin gastar recursos.
+Con Fuerza 20 (+5), *Ascendant Dragon's Wrath Glaive +3*, *Great Weapon Master* (+10 daño), bonificador de Furia (+2), y *Reckless Attack* contra CA 18:
 
-🧮 Mathematical Engine (A Nivel 20):
+$$\text{Tirada de Ataque con Ventaja } P(\text{Hit}) = 1 - (1 - 0.65)^2 = 0.8775 \quad (87.75\%)$$
 
-* **Matemática de Daño Reflejado (Thorns):**
-    Si un enemigo te golpea por 8 de daño físico, la Furia lo reduce a 4. Tus HP temporales bajan de 25 a 21. El enemigo sufre **25 de daño de frío**.
-    Si te golpean 4 veces por esa cantidad, tus HP temporales siguen activos (bajan a 9) y los atacantes han sufrido un total de **100 de daño de frío plano** sin que hayas tenido que realizar una sola acción en tu turno.
-* **Daño por Turno (Ataques en Furia):**
-  * *Primer Impacto (Zealot Divine Fury):* $1d10 + 5 \text{ (STR)} + 2 \text{ (Rage)} + 1d6 + 3 \text{ (Zealot)} + 10 \text{ (GWM)} = 1d10 + 1d6 + 20$ (Medio: $29 \text{ daño}$).
-  * *Segundo Impacto:* $1d10 + 5 \text{ (STR)} + 2 \text{ (Rage)} + 10 \text{ (GWM)} = 1d10 + 17$ (Medio: $22.5 \text{ daño}$).
-  * *Ataque de Acción Adicional (PAM):* $1d4 + 5 \text{ (STR)} + 2 \text{ (Rage)} + 10 \text{ (GWM)} = 1d4 + 17$ (Medio: $19.5 \text{ daño}$).
-  * *Daño Medio Total sin Críticos:* $29 + 22.5 + 19.5 = 71 \text{ de daño por turno.}$
-  * *Eldritch Smite Nova:* Puedes añadir $+5d8$ de daño de fuerza ($22.5$ de daño medio) a un impacto y derribar al objetivo propenso automáticamente.
+$$\text{Probabilidad de Crítico con Ventaja } P(\text{Crit}) = 1 - (1 - 0.05)^2 = 0.0975 \quad (9.75\%)$$
 
- 1. Zealot and Fiend Subclass Features
+* **Ataque 1 (Glaive + Divine Fury):**
+  $$\text{Dmg}_1 = 1\text{d}10 + 5_{\text{STR}} + 3_{\text{Item}} + 2_{\text{Rage}} + 10_{\text{GWM}} + 1\text{d}6 + 3_{\text{Zealot}} = 5.5 + 20 + 3.5 + 3 = 32.0$$
+* **Ataque 2 (Glaive):**
+  $$\text{Dmg}_2 = 1\text{d}10 + 5_{\text{STR}} + 3_{\text{Item}} + 2_{\text{Rage}} + 10_{\text{GWM}} = 5.5 + 20 = 25.5$$
+* **Ataque 3 (PAM Bonus Action):**
+  $$\text{Dmg}_3 = 1\text{d}4 + 5_{\text{STR}} + 3_{\text{Item}} + 2_{\text{Rage}} + 10_{\text{GWM}} = 2.5 + 20 = 22.5$$
 
-* **Warrior of the Gods (Barbarian 3):** Eres un heraldo del infierno. Si mueres, cualquier conjuro para resucitarte (como *Revivify*) no requiere componentes materiales (ahorras los diamantes de 300 po al clérigo de tu grupo).
-* **Fanatical Focus (Barbarian 6):** Rerroll de una salvación fallida por furia.
-* **Dark One's Own Luck (Warlock 6):** Añade $1d10$ a una salvación o prueba de característica por descanso corto.
-* **Hurl Through Hell (Warlock 14):** En un impacto con tu arma, destierras al enemigo al plano del infierno hasta el final de tu siguiente turno, infligiéndole **10d10 de daño psíquico** al regresar.
+$$\text{DPR Golpes} = 0.8775 \times (32.0 + 25.5 + 22.5) + 0.0975 \times (5.5 + 3.5 + 5.5 + 2.5) = 70.20 + 1.66 = \mathbf{71.86 \text{ DPR Sostenido}}$$
 
- 1. home rules
-(Calcula todas las mecánicas bajo las reglas vigentes en tu mesa, permitiendo el uso de Eldritch Smite durante la Furia ya que es una característica de clase y no una acción de lanzamiento de conjuros).
+$$\text{Daño de Espinas Reflejado} = 2 \text{ impactos recibidos} \times 25_{\text{Frío Plano}} = \mathbf{50.0 \text{ Daño Pasivo sin Salvación}}$$
+
+$$\text{DPR Efectivo Total} = 71.86 + 50.0 = \mathbf{121.86 \text{ DPR}}$$
+
+### 🛡️ Motor de Espinas y EHP
+
+$$\text{EHP Base} = \frac{\text{HP Real } (185) + \text{Armor of Agathys } (25)}{1 - \text{Resistencia Furia } (0.50)} = \frac{210}{0.50} = \mathbf{420 \text{ EHP Físico}}$$
+
+* Con *Fiendish Resilience* (Warlock 10), el personaje añade resistencia a un tipo de daño elemental adicional (fuego, frío, ácido, etc.) a voluntad tras cada descanso.
+* Cada 25 THP de *Armor of Agathys* absorbe **50 de daño físico**. Si un enemigo impacta 3 veces por 15 de daño físico (reducido a 7 cada uno), el bárbaro recibe 21 de daño en sus THP (aún le sobran 4) y el atacante sufre **75 de daño de frío automático**.
+
+---
+
+## 4. Tabla de Rendimiento Táctico
+
+| Criterio | Valoración | Justificación Mecánica |
+| :--- | :---: | :--- |
+| **Daño Monobjetivo** | 🔵 | 120+ DPR combinando 3 ataques con GWM, ventaja temeraria, daño pasivo de espinas, y picos nucleares con *Eldritch Smite* (+5d8) y *Hurl Through Hell* (+10d10). |
+| **Control de Masas (CC)** | 🟢 | Derribo automático sin salvación (*Prone*) mediante *Eldritch Smite*, amenaza de 10 pies con PAM y control de área con *Scatter* o *Forcecage*. |
+| **Supervivencia (EHP)** | 🔵 | Resistencia a daño físico por Furia + resistencia elemental por *Fiendish Resilience*, 420+ EHP efectivo, ventaja en salvaciones de Destreza, reroll de salvación con *Fanatical Focus* y *Dark One's Own Luck* (+1d10). |
+| **Economía de Acciones** | 🟢 | Pre-buff antes de combate, entrada en Furia en Turno 1, ataque PAM constante en Acción Adicional, y ataque de oportunidad de PAM en Reacción. |
+| **Sustentabilidad** | 🔵 | *Warrior of the Gods* elimina el coste de componentes para revivirte (0 po de diamantes). Las 3 ranuras de 5.º nivel se recuperan en descansos cortos. |
+
+---
+
+## 5. Home Rules (Reglas de la Mesa)
+
+1. **Eldritch Smite en Furia:** Se confirma el uso de *Eldritch Smite* durante Furia, ya que es un rasgo de clase de Warlock y no un lanzamiento de conjuros.
+2. **Foco Universal Único:** No se requieren componentes materiales sin coste para conjuros de Warlock mientras porte su amuleto o foco rúnico infernal.
+3. **Progresión Full Caster Integrada:** Si adquiere niveles en otras clases lanzadoras, las ranuras de Pact Magic se mantienen independientes y recuperables en descanso corto.

@@ -1,12 +1,18 @@
-# Objetos a Obtener — Tech Priest (Armorer & Forge Cleric)
+# 🎒 Lista de Objetos a Obtener — Techpriest: The Machine Prophet
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 5 Activas - Artificer 14)
-*   **Tier 1 (Niveles 1-4):** Amulet of the Devout +3 (1 slot), Núcleo del Dios Máquina (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Núcleo del Dios Máquina (1 slot), All-Purpose Tool +3 (1 slot), Amulet of the Devout +3 (1 slot), Cloak of Protection (1 slot), Ring of Protection (1 slot). (Total: 5).
-*   **Tier 3 (Niveles 11-16):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Total: 5).
-*   **Tier 4 (Niveles 17-20):** Núcleo del Dios Máquina (1), All-Purpose Tool +3 (1), Amulet of the Devout +3 (1), Cloak of Protection (1), Ring of Spell Storing (1). (Tome of Clear Thought y Armadura +3 no requieren sintonización). (Total: 5).
+### ⚙️ Gestión de Ranuras de Sintonización (Attunement: 5/5 Máximo por Magic Item Savant)
+
+El Techpriest alcanza el nivel 14 de Artífice, desbloqueando el rasgo **Magic Item Savant**: puede sintonizar hasta **5 objetos mágicos simultáneamente** e ignora todos los requisitos de clase, raza, conjuro o nivel.
+
+| Ranura | Objeto Sintonizado | Bono Clave Otorgado | Justificación Mecánica |
+| :---: | :--- | :--- | :--- |
+| **Slot 1** | **Staff of Power** | +2 CA, +2 Salvaciones, +2 Impacto, 20 Cargas | El bastón más versátil del juego: eleva la CA pasiva y permite lanzar *Globe of Invulnerability*, *Wall of Force* o *Fireball*. |
+| **Slot 2** | **Amulet of the Devout +3** | +3 a la CD de conjuros de Clérigo (+3 a salvación de Spirit Guardians) | Eleva la CD de salvación de *Spirit Guardians* a 19 y otorga 1 uso adicional de Canalizar Divinidad al día. |
+| **Slot 3** | **Repulsion Shield (Infusión)** | +1 adicional a la CA del escudo + Empuje 15 ft | Confiere control cinético al recibir impactos en melé y eleva la CA total del escudo a +3/+4. |
+| **Slot 4** | **Ring of Protection** | +1 a la CA y +1 a todas las tiradas de salvación | Bonificador pasivo universal que apila con todos los demás modificadores. |
+| **Slot 5** | **Cloak of Protection** *(o Armor of Invulnerability)* | +1 a la CA y +1 a todas las salvaciones | Apila con el anillo para un total de +2 pasivo a todas las defensas y salvaciones. |
 
 ---
 
@@ -14,10 +20,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Amulet of the Devout +1** (Tasha's) | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CD y tiradas de ataque de tus conjuros de Clérigo. Permite un uso extra de Canalizar Divinidad por día. |
-| **Sentinel Shield** | No | — | **Priorizar 2:** Ventaja en Iniciativa y pruebas de Percepción pasiva. Te permite posicionar tu frente de batalla antes de que actúen los enemigos. |
-| **Plate Armor** | No | — | **Prioridad Alta:** Armadura de Placas base para alcanzar CA 18 (20 con escudo común). |
-| **Bag of Holding** | No | — | Prioridad Media: Utilidad clásica para el grupo. |
+| **Enhanced Defense +1 (Infusión)** | Sí | ⚔️ Sí | **Priorizar 1:** Eleva la CA de la armadura pesada a 19 desde nivel 2 de Artífice. |
+| **Homunculus Servant (Infusión)** | No | — | **Priorizar 2:** Sirviente autómata para exploración, entrega de conjuros de toque y vigilancia. |
+| **Escudo Común (+2 CA)** | No | — | **Prioridad Alta:** Componente base indispensable para alcanzar CA 20+ temprano. |
+| **Bag of Holding (Infusión)** | No | — | **Prioridad Media:** Almacenamiento esencial para herramientas de artesano y lingotes metálicos. |
 
 ---
 
@@ -25,11 +31,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **All-Purpose Tool +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Objeto específico para Artífices. $+1$ a tu CD y ataques de conjuros de Artífice. Otorga competencia en cualquier herramienta de artesano a voluntad y te permite aprender un cantrip de cualquier clase por 8 horas. |
-| **Amulet of the Devout +2** | Sí | No | **Priorizar 2:** Incrementa la CD de tus conjuros de Clérigo en $+2$. |
-| **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 3:** $+1$ a la CA y a todas tus salvaciones (apila con tu *Aura of Protection* de aliados y tus infusiones arcanas). |
-| **Ring of Spell Storing** | Sí | No | Prioridad Alta: Permite almacenar conjuros como *Shield*, *Absorb Elements* o *Heal* de nivel bajo para delegar concentración a tu familiar. |
-| **Armor +1 (Plate) y Shield +2** | No | — | Prioridad Media: CA pasiva sube a 22 (sin contar infusiones). |
+| **Repulsion Shield (Infusión)** | Sí | ⚔️ Sí | **Priorizar 1:** +1 a la CA del escudo y empuja 15 ft hacia atrás al agresor que impacte cuerpo a cuerpo (4 cargas diarias). |
+| **Cloak of Protection** | Sí | ⚔️ Sí | **Priorizar 2:** +1 a CA y +1 a todas las salvaciones. |
+| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 3:** +1 a CA y +1 a todas las salvaciones (apila con la capa). |
+| **Winged Boots (Infusión)** | Sí | — | **Prioridad Media:** Confiere 4 horas de vuelo al día para posicionar *Spirit Guardians* en 3 dimensiones. |
 
 ---
 
@@ -37,53 +42,27 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **All-Purpose Tool +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** Incrementa tu CD de Artífice y precisión a $+2$. |
-| **Amulet of the Devout +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Incrementa la CD de tus conjuros de Clérigo en $+3$. |
-| **Armor +2 (Plate) y Shield +3** | No | — | **Priorizar 3:** CA pasiva sube a 24. |
-| **Spellguard Shield** | Sí | No | Prioridad Alta: Ventaja en salvaciones contra conjuros y otros efectos mágicos. |
+| **Staff of Power** | Sí | ⚔️ Sí | **Priorizar 1 (META):** Equipable gracias a *Magic Item Savant*. +2 CA, +2 salvaciones y repertorio masivo de conjuros. |
+| **Amulet of the Devout +3** | Sí | ⚔️ Sí | **Priorizar 2:** +3 masivo a la CD de Clérigo (asegura que los enemigos fallen salvaciones ante *Spirit Guardians*). |
+| **Tome of Clear Thought** | No | — | **Prioridad Alta:** +2 permanente a Inteligencia (eleva INT a 22 y su modificador a +6). No consume sintonización. |
+| **Placas de Adamantina (Adamantine Plate)** | No | — | **Prioridad Media:** Convierte cualquier golpe crítico enemigo en un impacto normal sin requerir sintonización. |
 
 ---
 
-## 🟠 Tier 4 (Niveles 17-20) — Legendarios
+## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Armor of Invulnerability (Plate)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** Resistencia pasiva a daño no mágico; 10 min/día de Inmunidad total a daño no mágico y resistencia a daño mágico. Eleva EHP a 50 (MÁX). |
-| **Tome of Clear Thought** | No | — | **Priorizar 2:** $+2$ a tu puntuación de Inteligencia de forma permanente (superando el límite de 20 hasta **22**). |
-| **Armor +3 (Plate) y Shield +3** | No | — | **Priorizar 3:** Máxima CA pasiva posible. Eleva la CA base combinada a **26**. |
-| **Ioun Stone of Mastery** | Sí | No | Prioridad Alta: $+1$ al bonificador de competencia (sube a $+7$). Afecta CD de conjuros, ataques, salvaciones con competencia y Flash of Genius. Incremento universal modesto pero que apila con todo. |
+| **Armor of Invulnerability** | Sí | ⚔️ Sí *(Alternativo)* | Resistencia pasiva a daño no mágico e inmunidad absoluta durante 10 minutos 1 vez al día. |
+| **Placas +3 (Plate +3)** | No | — | **Priorizar 1:** Eleva la CA base a 21 ($18 + 3$) sin consumir ranura de sintonización. |
+| **Escudo +3 (Shield +3)** | No | — | **Priorizar 2:** Eleva la CA base del escudo a +5 ($2 + 3$) sin consumir ranura de sintonización. |
 
 ---
 
-## 🦾 ACTIVAS DE INFUSIONES ARCANAS (ARTIFICER 14)
+## 🧪 Consumibles y Suministros Fabricados en el Bastión
 
-*Puedes tener hasta 5 infusiones activas simultáneamente en tus piezas de equipo arcano:*
-
-1. **Enhanced Defense +2** (Aplicada a la placa del pecho de tu armadura).
-2. **Repulsion Shield +3** (Aplicada a tu escudo, permitiendo empujar 15 pies a un atacante que te impacte).
-3. **Ring of Protection** (Aplicada a un anillo común, $+1$ CA y $+1$ a salvaciones).
-4. **Cloak of Protection** (Aplicada a una capa común, $+1$ CA y $+1$ a salvaciones).
-5. **Enhanced Weapon +2** o **Radiant Weapon** (Aplicada a tus puños de trueno *Thunder Gauntlets*).
-
----
-
-## 💍 NÚCLEO DEL DIOS MÁQUINA (CORE OF THE MACHINE GOD)
-
-*Objeto maravilloso, raro (requiere sintonización por un Artífice o Clérigo de la Forja)*
-
-Este pesado medallón de bronce y engranajes de hierro late con una pálida luz eléctrica azulada. Al sintonizarse, el portador siente cómo sus pensamientos se ordenan de forma algorítmica y su sistema biológico se sincroniza con el metal de su armadura.
-
-**Mecánicas (Diseñadas para la Edición 2024 / 5e):**
-
-* **Mente de Silicio:** Añade tu modificador de Inteligencia ($+5$) a tus pruebas de salvación de concentración para mantener conjuros (esta bonificación apila con Flash of Genius).
-* **Sobrecarga del Núcleo:** Una vez por descanso largo, como acción adicional, puedes sobrecargar tus sistemas de energía. Durante 1 minuto, todos tus ataques con tus puños de trueno (*Thunder Gauntlets*) infligen $1d8$ de daño de relámpago adicional en caso de impacto, y ganas resistencia a todo el daño físico no mágico.
-* **Reparación Rápida:** Puedes usar el truco *Mending* como una acción de combate en tu turno (en lugar de su tiempo de lanzamiento de 1 minuto) para curar a un constructo o a ti mismo (siendo de raza Warforged) por $2d6$ puntos de vida.
-
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
-
-| Objeto | Rareza | Prioridad / Notas |
+| Objeto | Rareza | Efecto Táctico y Fabricación |
 | :--- | :---: | :--- |
-| **Sentinel Shield** | Poco Común | **Prioridad Alta:** Aumenta tu Iniciativa y Percepción pasiva sin ocupar ranuras de sintonización. |
-| **Plate Armor +3** | Legendario | **Prioridad Alta:** CA base de 21 sin sintonizar. Te sitúa en la vanguardia defensiva del juego. |
-| **Tome of Clear Thought** | Muy Raro | **Prioridad Alta:** Aumenta tu Inteligencia en $+2$ y su límite a 22 (más efectividad de Puños de Trueno). |
-| **Manual of Bodily Health** | Muy Raro | **Prioridad Alta:** Aumenta tu Constitución en $+2$ y su límite a 22, otorgándote HP masivos. |
+| **Potion of Supreme Healing** | Muy Raro | Recupera $10\text{d}4 + 20 \approx 45\text{ PG}$ instantáneos. Beberla como Acción Adicional (2024). |
+| **Potion of Speed** | Raro | Confiere el efecto de *Haste* (+2 CA, doble velocidad, 1 ataque extra) por 1 minuto. Fabricada en la Gran Forja por 250 po. |
+| **Oil of Sharpness** | Muy Raro | Añade +3 al ataque y daño de armas o guanteletes durante 1 hora completa sin requerir sintonización. |
