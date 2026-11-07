@@ -2,59 +2,52 @@
 
 ## Datos Generales
 
-System Standard: D&D 5th Edition (2024 Ruleset - 5.5e)
+* **System Standard:** D&D 5th Edition (2024 Ruleset - 5.5e Update)
+* **Character Level:** 20 (Total)
+* **Class Split:** Druid (Circle of the Moon) 17 / Artificer (Artillerist) 3
+* **Species:** Warforged (Dote de Origen: *Tough*)
+* **Stats (Point Buy 2024 / Trasfondo):**
+  * **FUER (STR):** 10 (+0)
+  * **DES (DEX):** 14 (+2)
+  * **CON:** 14 (+2)
+  * **INT:** 14 (+2)
+  * **SAB (WIS):** 20 (+5)
+  * **CAR (CHA):** 8 (-1)
 
-Character Level: 20 (Total)
-
-Class Split: Druid (Circle of the Moon) 17 / Artificer (Artillerist) 3
-
-Species: Goliath (2024) [Dote de Origen: Tough]
-
-Stats (Point Buy 2024 / Trasfondo):
-
-- **FUER (STR):** 10
-- **DES (DEX):** 14
-- **CON:** 14
-- **INT:** 14
-- **SAB (WIS):** 20
-- **CAR (CHA):** 8
-
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión 2024: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Wildshape Tank / Mounted Turret Support
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](./bastion and downtime.md)
+  * [Lista de Conjuros y Recursos](./spell list.md)
+  * [Objetos a Obtener](./item list to obtain.md)
+  * [Hoja de Ruta 1-20](./roadmap.md)
+  * [Inventario Actual](./actual inventory list.md)
 
 ---
 
 ## 1. Gestión de Recursos y Reglas de Inventario (2024 Ruleset)
 
-- **Maestría de Armas (Weapon Masteries 2024):**
-  - **Bite/Claw (Topple/Grapple):** Optimiza la economía de acciones y garantiza ventaja o daño secundario plano en cada asalto.
-
-- **Economía de Recursos 2024:**
-  - Integración completa de las reglas de 2024: dotes de origen a Nivel 1, preparación de conjuros ajustada a nivel de lanzador y sinergia de Acción Adicional.
+* **Combat Wild Shape 2024:**
+  * En D&D 2024, la transformación se realiza como **Acción Adicional** y otorga Puntos de Golpe Temporales masivos ($3 \times \text{Nivel de Druida} = 51\text{ THP}$) o permite adoptar formas de bestias de alto calibre (Oso Cavernario, Mamut).
+  * La CA de la bestia se beneficia del *Barrier Tattoo* (18 Base) y de la protección de Warforged (+1) para alcanzar **CA 19**.
+* **Torreta Artillera de Hombro:**
+  * El Cañón Eldritch Diminuto permanece activo sobre el hombro de la Forma Salvaje, permitiendo disparar el lanzallamas ($2\text{d}8$ fuego) como Acción Adicional en cada asalto.
 
 ---
 
 ## 2. Action Economy & Combat Loop (2024)
 
-- **Preparación (Pre-Combate):**
-  - Lanzamiento de conjuros defensivos clave o habilidades de protección.
-- **Action:**
-  - **Turno 1:** Acción principal de ataque o lanzamiento de conjuro de área/control.
-  - **Turnos subsiguientes:** Ciclo de ataques con Weapon Mastery y habilidades avanzadas de subclase.
-- **Bonus Action:**
-  - Uso de habilidades de subclase, metamagia o ataques secundarios.
-- **Reaction:**
-  - Reacción principal de protección o contraataque.
+* **Pre-Combate:** Lanzar *Foresight* (8h sin concentración) e invocar el Cañón Eldritch Diminuto.
+* **Turno 1:**
+  * **Bonus Action:** Entrar en *Combat Wild Shape* (Mamut o Forma Lunar).
+  * **Action:** Pisotón y Embestida de Mamut ($4\text{d}10 + 7$ de daño contundente con Ventaja de *Foresight*).
+* **Turno 2+:**
+  * **Action:** Ataques de Forma Salvaje.
+  * **Bonus Action:** Disparar cono de fuego de 15 ft (*Flamethrower*) o activar escudo (*Protector* $1\text{d}8 + 2\text{ THP}$).
+  * **Reaction:** *Absorb Elements* ante ataques de área elementales.
 
 ---
 
-## 3. The META Combo 2024: Wild Shape (Bear) + Eldritch Cannon (Flamethrower/Protector) en la espalda
+## 3. Mathematical Engine (2024)
 
-🧮 Mathematical Engine 2024:
+$$\text{CA en Forma Salvaje} = 18_{\text{Barrier Tattoo}} + 1_{\text{Warforged}} = \mathbf{19 \text{ CA Pasiva}} \quad (\text{con Desventaja Enemiga por Foresight})$$
 
-$$\text{DPR Oso + Lanzallamas} = 2\text{d}6 + 4 + 1\text{d}8 + 4 + 3\text{d}8 (\text{Flamethrower}) = \mathbf{33.0 \text{ daño/turno}}$$
+$$\text{DPR Sostenido} = 30.0_{\text{Pisotón}} + 14.85_{\text{Flamethrower}} = \mathbf{45.11 \text{ DPR Mixto}}$$

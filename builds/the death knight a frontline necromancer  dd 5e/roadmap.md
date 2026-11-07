@@ -1,39 +1,43 @@
-# 🗺️ Hoja de Ruta de Death Knight: A Frontline Necromancer | D&D 5e (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Progresión (Niveles 1-20) — Death Knight
 
-Esta hoja de ruta detalla la progresión nivel a nivel para **Death Knight**, un híbrido definitivo entre Caballero de la Muerte en vanguardia y Maestro Nigromante en retaguardia.
-
----
-
-## 📊 Tabla de Progresión Completa (1 - 20)
-
-| Nivel Total | Clase y Nivel | PB | Hitos y Decisiones de Optimización | Espacios | Características Obtenidas |
-| :---: | :--- | :---: | :--- | :---: | :--- |
-| **1** | Artificer 1 | +2 | Proficiencia en CON & INT. Armadura Media y Escudos. | 2 Sl. L1 | Magical Tinkering, Spellcasting. |
-| **2** | Artificer 2 | +2 | **Infusiones**: Enhanced Defense (+1 CA), Enhanced Weapon (+1). | 2 Sl. L1 | Infuse Item (2 infusiones activas). |
-| **3** | Artificer 3 | +2 | **Subclase: Battle Smith**. *Battle Ready* & Boris the Bone Boar. | 3 Sl. L1 | Battle Ready (Ataques con INT), Steel Defender (Boris). |
-| **4** | Wizard 1 | +2 | **Cambio a Mago**: Cantrips (*Booming Blade*, *Green-Flame Blade*). | 4 Sl. L1 | Spellcasting, Arcane Recovery. |
-| **5** | Wizard 2 | +3 | **Subclase: Necromancy**. Curación por muertes (*Grim Harvest*). | 4 Sl. L1 / 2 Sl. L2 | Necromancy Savant, Grim Harvest. |
-| **6** | Wizard 3 | +3 | Conjuros de Nivel 2: *Web* (Glacial Frost), *Blur*. | 4 Sl. L1 / 3 Sl. L2 | Acceso a conjuros de Nivel 2. |
-| **7** | Wizard 4 | +3 | **Dote 1: Fey Touched (+1 INT -> 18 INT)**. *Misty Step* & *Gift of Alacrity*. | 4 Sl. L1 / 3 Sl. L2 / 2 Sl. L3 | Dote Fey Touched. |
-| **8** | Wizard 5 | +3 | **Hito Clave: Animate Dead**. Inicio del ejército de esqueletos. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 | Conjuros de Nivel 3. |
-| **9** | Wizard 6 | +4 | **Undead Thralls**: Esbirros con +HP y +Daño extra. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 1 Sl. L4 | Undead Thralls (Animate Dead gratis). |
-| **10** | Wizard 7 | +4 | Conjuros de Nivel 4: *Phantom Steed*, *Evard's Black Tentacles*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 2 Sl. L4 | Acceso a conjuros de Nivel 4. |
-| **11** | Wizard 8 | +4 | **Dote 2: ASI (+2 INT -> 20 INT)**. Máxima Inteligencia. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 1 Sl. L5 | Maximizada INT. |
-| **12** | Wizard 9 | +4 | Conjuros de Nivel 5: *Danse Macabre*, *Cloudkill*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 2 Sl. L5 | Conjuros de Nivel 5. |
-| **13** | Wizard 10 | +5 | **Inured to Undead**: Inmunidad a reducción de PG y daño necrótico. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 | Inured to Undead. |
-| **14** | Wizard 11 | +5 | Conjuros de Nivel 6: *Create Undead*, *Globe of Invulnerability*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 | Conjuros de Nivel 6. |
-| **15** | Wizard 12 | +5 | **Dote 3: War Caster** / **Resilient (WIS)**. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 | Dote de Protección de Concentración. |
-| **16** | Wizard 13 | +5 | Conjuros de Nivel 7: *Finger of Death*, *Simulacrum*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 | Conjuros de Nivel 7. |
-| **17** | Wizard 14 | +6 | **Command Undead**: Control permanente sobre un Nightwalker. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 | Command Undead. |
-| **18** | Wizard 15 | +6 | Conjuros de Nivel 8: *Clone*, *Mind Blank*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 | Conjuros de Nivel 8. |
-| **19** | Wizard 16 | +6 | **Dote 4: Tough** / **Alert**. +40 PG Máximos. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 / 1 Sl. L9 | Dote de Supervivencia. |
-| **20** | Wizard 17 | +6 | **Wish & True Polymorph**. El Caballero de la Muerte Supremo. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 / 1 Sl. L9 | Conjuros de Nivel 9 (*Wish*). |
+**Clase:** Artificer (Battle Smith) 3 / Wizard (School of Necromancy) 17  
+**Especie:** Reborn (*Ancestral Legacy*, *Deathless Nature*)  
+**Prioridad Inicial:** Se inicia como Artífice a Nivel 1 para asegurar la competencia en salvaciones de **Constitución e Inteligencia**, competencia con **Armaduras Pesadas/Medias, Escudos y Armas Marciales**, garantizando una concentración inquebrantable en vanguardia.
 
 ---
 
-## 🎯 Progresión de Dotes (Feats) Explicada
+## 📊 Tabla de Progresión Nivel a Nivel (1 - 20)
 
-1. **Dote 1: Fey Touched (Wizard Nivel 4):** +1 a INT (alcanza 18 INT). Otorga *Misty Step* y *Gift of Alacrity* sin gastar ranuras.
-2. **Dote 2: ASI (+2 INT - Wizard Nivel 8):** Maximiza INT a 20. Eleva a +5 las tiradas de ataque en melé, la CD de conjuros y las curaciones de *Grim Harvest*.
-3. **Dote 3: War Caster (Wizard Nivel 12):** Ventaja en salvaciones de Constitución para mantener la concentración en *Web* o *Blur* mientras luchas en primera línea.
-4. **Dote 4: Tough (Wizard Nivel 16):** Otorga +40 PG a nivel 20, compensando el dado de golpe de Mago (d6).
+| Nivel Total | Clase y Nivel | PB | Rasgos Clave, Dotes y Decisiones | Espacios de Conjuro | Hitos de Combate y Nigromancia | Hito de Bastión (DMG 2024) |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: |
+| **1** | Artificer 1 | +2 | Competencia en salvaciones de CON e INT. Armadura Media, Escudos y Armas Marciales. | 2 Ranuras L1 | *Cure Wounds*, *Absorb Elements*, *Guidance*. | — |
+| **2** | Artificer 2 | +2 | **Infusiones de Artífice:** *Enhanced Defense* (+1 CA) y *Enhanced Weapon* (+1 espadón). | 2 Ranuras L1 | Espadón y armadura mágica temprana. | — |
+| **3** | Artificer 3 | +2 | **Subclase: Battle Smith**. *Battle Ready* (ataques con Inteligencia) y *Steel Defender* (*Boris*). | 3 Ranuras L1 | *Shield*, *Heroism*. Despliegue de Boris the Bone Boar. | — |
+| **4** | Wizard 1 | +2 | **Transición a Mago:** *Spellcasting*, *Arcane Recovery*. | 4 Ranuras L1 | Cantrips: *Booming Blade*, *Green-Flame Blade*, *Toll the Dead*. | — |
+| **5** | Wizard 2 | +3 | **Subclase: School of Necromancy**. *Necromancy Savant*, *Grim Harvest*. | 4 Ranuras L1 / 2 Ranuras L2 | Curación instantánea al matar enemigos con nigromancia. | 🏰 **Desbloqueo Bastión:** *Forja de Placas* + *Laboratorio* (Roomy) |
+| **6** | Wizard 3 | +3 | Acceso a conjuros de nivel 2. | 4 Ranuras L1 / 3 Ranuras L2 | *Web* (Glacial Frost), *Misty Step*, *Vortex Warp*. | — |
+| **7** | Wizard 4 | +3 | **Dote 1: Fey Touched (+1 INT $\to$ INT 18)**. *Misty Step* y *Silvery Barbs*. | 4 L1 / 3 L2 / 2 L3 | Ataque de espadón escala a $+7$, daño $+4$. | — |
+| **8** | Wizard 5 | +3 | **Hito de la Horda: Animate Dead**. Inicio del ejército de esqueletos. | 4 L1 / 3 L2 / 3 L3 | Comienza el ejército esquelético de apoyo. | — |
+| **9** | Wizard 6 | +4 | **Undead Thralls** (+1 siervo por conjuro, +17 HP por esqueleto, +PB a daño de flecha). | 4 L1 / 3 L2 / 3 L3 / 1 L4 | Los arqueros esqueleto se convierten en tiradores de élite. | 🏰 **Ampliación Bastión:** *Estudio Arcano* (Roomy) |
+| **10** | Wizard 7 | +4 | Acceso a conjuros de nivel 4. | 4 L1 / 3 L2 / 3 L3 / 2 L4 | *Dimension Door*, *Evard's Black Tentacles*. | — |
+| **11** | Wizard 8 | +4 | **Dote 2: ASI (+2 INT $\to$ INT 20 Máximo)**. Inteligencia al límite. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 1 L5 | Ataque con espadón $+11$, daño $+5$, CD de conjuros 19. | — |
+| **12** | Wizard 9 | +4 | Acceso a conjuros de nivel 5. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 2 L5 | *Wall of Force*, *Danse Macabre*, *Synaptic Static*. | — |
+| **13** | Wizard 10 | +5 | **Inured to Undeath** (Resistencia a daño necrótico; HP máximos no pueden ser reducidos). | 4 L1-L4 / 3 L5 / 1 L6 | Blindaje absoluto frente a vampiros y no-muertos. | 🏰 **Ampliación Bastión:** *Scriptorium* (Roomy) + *Establos* (Vast) |
+| **14** | Wizard 11 | +5 | Acceso a conjuros de nivel 6. | 4 L1-L4 / 3 L5 / 1 L6 | *Create Undead* (primeros Ghasts), *Contingency*, *Globe of Invulnerability*. | — |
+| **15** | Wizard 12 | +5 | **Dote 3: War Caster** (Ventaja en salvaciones de concentración, *Booming Blade* como reacción). | 4 L1-L5 / 1 L6 / 1 L7 | Concentración blindada en primera línea (+9 con ventaja). | — |
+| **16** | Wizard 13 | +5 | Acceso a conjuros de nivel 7. | 4 L1-L5 / 1 L6 / 1 L7 | **Simulacrum**, *Finger of Death*. Duplicado de Caballero. | — |
+| **17** | Wizard 14 | +6 | **Command Undead** (Control permanente de 1 no-muerto colosal sin concentración). | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 | Sometimiento del **Titán Nightwalker (CR 20)**. | 🏰 **Ampliación Bastión:** *Cripta del Trono Helado* (Vast) |
+| **18** | Wizard 15 | +6 | Acceso a conjuros de nivel 8. | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 | *Create Undead* (Nivel 8: 10 Ghasts), *Clone*. | — |
+| **19** | Wizard 16 | +6 | **Dote 4: Tough (+40 HP Máximos)** o **Alert** (+5 Iniciativa). | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 / 1 L9 | Eleva los HP totales a 186, superando a guerreros puros. | — |
+| **20** | Wizard 17 | +6 | **Cúspide de Nigromancia: Wish**. El Caballero de la Muerte Supremo. | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 / 1 L9 | **Wish** (acceso a cualquier conjuro divino/arcano de nivel 1-8). | — |
+
+---
+
+## 📈 Escalado Táctico de Rendimiento por Tiers (DPR y EHP)
+
+| Rango de Niveles | DPR Melee Personal | DPR Horda y Siervos | DPR Total Combinado | CA Pasiva (Buffeada) | EHP Colectivo (Siervos) | Hito Mecánico Clave |
+| :---: | :---: | :---: | :---: | :---: | :---: | :--- |
+| **Tier 1 (1-4)** | $12.5$ | $6.5 \text{ (Boris)}$ | $19.0$ | 18 (23) | $50 \text{ PG}$ | *Battle Ready* (INT melee) + *Shield* + Boris the Bone Boar. |
+| **Tier 2 (5-10)** | $21.5$ | $45.0 \text{ (Arqueros)}$ | $66.5$ | 19 (24) | $220 \text{ PG}$ | *Undead Thralls* activo + *Booming Blade* + *Web* Glaciar. |
+| **Tier 3 (11-16)** | $28.5$ | $110.0$ | $138.5$ | 20 (25) | $480 \text{ PG}$ | *War Caster* + *Inured to Undeath* + *Simulacrum*. |
+| **Tier 4 (17-20)** | **28.5** | **194.8 (Nightwalker + Horda)** | **223.30** | **21 (26 CA)** | **> 1,000 PG** | *Command Undead* (Nightwalker CR 20), *Wish*, *Clone* y *Armor of Invulnerability*. |

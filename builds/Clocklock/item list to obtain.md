@@ -1,74 +1,68 @@
-# Objetos a Obtener — Clocklock (Clockwork Soul & Hexblade)
+# 💎 Lista de Objetos a Obtener — Clocklock (Sorcerer 18 / Warlock 2)
 
-**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
+**Criterio de Sintonización Estricto:** Máximo 3 objetos sintonizados simultáneamente en cada Tier.
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Bloodwell Vial +3. (1 slot ocupado, 2 libres).
-*   **Tier 2 (Niveles 5-10):** Bloodwell Vial +3, Illusionist's Bracers, Reloj de Arena del Caos Ordenado. (3 slots ocupados).
-*   **Tier 3 (Niveles 11-16):** Bloodwell Vial +3, Illusionist's Bracers, Robe of the Archmagi. (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Robe of the Archmagi, Illusionist's Bracers, Staff of the Magi. (Tome of Leadership y escudos no requieren sintonización). (Total: 3).
+---
+
+## ⚙️ Registro de Ranuras de Sintonización por Nivel
+
+* **Tier 1 (Niveles 1-4):** Bloodwell Vial +1 (1/3 slots ocupados).
+* **Tier 2 (Niveles 5-10):** Bloodwell Vial +2, Cloak of Protection, Reloj de Arena del Caos Ordenado (3/3 slots ocupados).
+* **Tier 3 (Niveles 11-16):** Illusionist's Bracers, Bloodwell Vial +3, Cloak of Displacement (3/3 slots ocupados).
+* **Tier 4 (Niveles 17-20):** Robe of the Archmagi, Illusionist's Bracers, Staff of the Magi (o Luckblade) (3/3 slots ocupados).
 
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Bloodwell Vial +1** (Tasha's) | Sí | ⚔️ **Sí** | **Priorizar 1:** $+1$ a la CD de tus conjuros de Sorcerer y tiradas de ataque. Te permite recuperar 5 puntos de sorcería en descansos cortos una vez al día. |
-| **Shield** | No | — | **Prioridad Alta (2):** $+2$ a la CA sin requerir sintonización. |
-| **Scale Mail / Half-Plate** | No | — | **Prioridad Alta:** Armadura base para alcanzar AC 15/17. |
-| **Bag of Holding** | No | — | Prioridad Media: Utilidad clásica para el grupo. |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Bloodwell Vial +1** | Sí | ⚔️ **Sí (1/3)** | **1** | $+1$ a tiradas de ataque y CD de conjuros de Hechicero. Recupera 5 Puntos de Hechicería en descanso corto 1/día. |
+| **Escudo de Acero (Shield)** | No | — | **2** | $+2$ pasivo a la CA sin requerir sintonización. |
+| **Half-Plate (Armadura Media)** | No | — | **3** | Base de CA 15 + 2 DEX = 17 CA sin buff. |
+| **Bolsa de Contención (Bag of Holding)** | No | — | Media | Logística de componentes y suministros de viaje. |
 
 ---
 
 ## 🔵 Tier 2 (Niveles 5-10) — Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Bloodwell Vial +2** | Sí | ⚔️ **Sí** | **Priorizar 1:** Incrementa tu CD de Sorcerer y precisión a $+2$. |
-| **Cloak of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a la CA y a todas tus salvaciones (clave para mantener concentración). |
-| **Armor +1 (Half-Plate) y Shield +2** | No | — | Prioridad Alta (3): Aumenta tu CA base pasiva a 21. |
-| **Ring of Spell Storing** | Sí | No | Prioridad Media: Permite delegar la concentración de tu *Darkness* o *Hex* a tu familiar. |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Bloodwell Vial +2** | Sí | ⚔️ **Sí (1/3)** | **1** | Incrementa el bonificador de conjuro y CD a $+2$. |
+| **Cloak of Protection** | Sí | ⚔️ **Sí (2/3)** | **2** | $+1$ pasivo a la CA y a todas las tiradas de salvación. |
+| **Reloj de Arena del Caos Ordenado** | Sí | ⚔️ **Sí (3/3)** | **3** | Regaña usos de *Restore Balance* con impactos críticos y potencia *Bastion of Law*. |
+| **Half-Plate +1 & Shield +1** | No | — | Alta | Eleva la CA pasiva base a 19 sin gastar slots de sintonización. |
+| **Eversmoking Bottle** | No | — | Alta | Humo impenetrable que sinergiza con *Devil's Sight* sin concentración. |
 
 ---
 
 ## 🟣 Tier 3 (Niveles 11-16) — Muy Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Illusionist's Bracers** (GGR) | Sí | ⚔️ **Sí** | **Priorizar 1:** Te permite duplicar *Eldritch Blast* como Acción Adicional gratis cada vez que lo lanzas como Acción, ahorrándote 2 puntos de sorcería por turno. |
-| **Bloodwell Vial +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Bonificador definitivo de $+3$ a tus CD de conjuro. |
-| **Armor +2 (Half-Plate) y Shield +3** | No | — | **Priorizar 3:** CA pasiva sube a 23. |
-| **Cloak of Displacement** | Sí | No | Prioridad Alta: Los atacantes tienen desventaja contra ti mientras no sufras daño, facilitando mantener tu concentración. |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Illusionist's Bracers** | Sí | ⚔️ **Sí (1/3)** | **1** | Duplica *Eldritch Blast* como Acción Adicional gratis cada turno sin gastar Puntos de Hechicería. |
+| **Bloodwell Vial +3** | Sí | ⚔️ **Sí (2/3)** | **2** | Bonificador máximo de $+3$ a ataques mágicos y CD de conjuros (CD 22). |
+| **Cloak of Displacement** | Sí | ⚔️ **Sí (3/3)** | **3** | Desventaja permanente a todos los atacantes mientras no recibas daño. |
+| **Half-Plate +2 & Shield +2** | No | — | Alta | Eleva la CA pasiva base a 21. |
+| **Manual of Bodily Health** | No | — | Media | $+2$ permanente a Constitución (+20 HP y $+1$ a salvación de concentración). |
 
 ---
 
-## 🟠 Tier 4 (Niveles 17-20) — Legendarios
+## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Luckblade (Estoque/Espada Corta)** | Sí | ⚔️ **Sí** | **Priorizar 1 (META):** +1 a CA/salvaciones, reroll de d20 1/día y 1d3 deseos Wish. Eleva Complejidad a 44 y Control a 48. |
-| **Tome of Leadership and Influence** | No | — | **Priorizar 2:** $+2$ a Carisma permanente (superando 20). |
-| **Staff of the Magi** | Sí | ⚔️ **Sí** | **Priorizar 3:** Arsenal de conjuros y absorción reactiva. |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Robe of the Archmagi** | Sí | ⚔️ **Sí (1/3)** | **1** | CA base 15 + DEX (17 base), ventaja en todas las salvaciones contra magia y $+2$ adicional a CD de conjuro. |
+| **Illusionist's Bracers** | Sí | ⚔️ **Sí (2/3)** | **2** | Mantiene la ametralladora de 8 rayos por asalto sin agotar reservas arcanas. |
+| **Staff of the Magi** | Sí | ⚔️ **Sí (3/3)** | **3** | Arsenal masivo de 50 cargas de conjuros, absorción de hechizos y ventaja en salvaciones mágicas. |
+| **Luckblade (Estoque / Daga)** | Sí | *Reserva (Slot 3)* | Alternativa | $+1$ a salvaciones y CA, 1 reroll diario de d20 y $1\text{d}3$ conjuros de *Wish* almacenados. |
+| **Tome of Leadership and Influence** | No | — | **Prioritaria** | $+2$ permanente a Carisma (límite elevado a 22), aumentando el daño de cada rayo en $+1$. |
+| **Shield +3** | No | — | **Prioritaria** | $+5$ a la CA sin consumir sintonización (alcanza CA pasiva 24 con Robe of the Archmagi). |
 
 ---
 
-## 💍 RELOJ DE ARENA DEL CAOS ORDENADO (HOURGLASS OF ORDERED CHAOS)
+## 🏛️ Suministros y Consumibles Fabricables en Bastión
 
-*Objeto maravilloso, raro (requiere sintonización por un Sorcerer)*
-
-Este reloj de arena está fabricado en latón pulido y cristal reforzado. Su arena no cae de forma continua, sino en pequeños pulsos rítmicos que se aceleran o ralentizan según el pulso mágico del portador. Proyecta un tenue zumbido mecánico que parece apaciguar las fluctuaciones mágicas a su alrededor.
-
-**Mecánicas (Diseñadas para la Edición 2024 / 5e):**
-
-* **Orden Inquebrantable:** Tu rasgo de clase *Restore Balance* recupera 1 uso de forma automática cada vez que realizas un golpe crítico con un ataque de conjuro (como un rayo de *Eldritch Blast*).
-* **Dilatación Temporal:** Una vez por turno, cuando usas la Metamagia *Quickened Spell* (o las muñequeras de ilusionista) para lanzar *Eldritch Blast* como acción adicional, la criatura objetivo ve su velocidad de movimiento reducida a la mitad durante su siguiente turno si es impactada por al menos 2 rayos.
-* **Escudo de Engranajes:** Cuando gastas puntos de sorcería para activar tu rasgo de clase *Bastion of Law*, cada dado protector de $1d8$ en el que obtengas un resultado de 1 o 2 puede ser relanzado una vez (debiendo usar el nuevo resultado).
-
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
-
-| Objeto | Rareza | Prioridad / Notas |
-| :--- | :---: | :--- |
-| **Shield +3** | Legendario | **Prioridad Alta:** Te otorga $+5$ de CA de forma puramente pasiva y gratuita sin requerir sintonización. |
-| **Tome of Leadership and Influence** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Carisma en $+2$ y su límite a 22, mejorando el daño de cada rayo de *Eldritch Blast*. |
-| **Eversmoking Bottle** | Poco Común | **Prioridad Media:** Sinergiza con *Devil's Sight* para crear ventaja constante y desventaja enemiga sin coste de sintonización. |
+* **Pergaminos de Reacción (*Shield*, *Absorb Elements*, *Counterspell*):** 10 unidades en carcaj hermético de pergaminos.
+* **Pociones de Velocidad y Vuelo Alquímico:** Destiladas en el *Laboratorio* del Bastión.
+* **Ungüento de Keoghtom:** 3 dosis de emergencia para neutralizar venenos y estabilizar aliados.

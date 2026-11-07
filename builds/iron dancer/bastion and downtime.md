@@ -1,71 +1,68 @@
-# 🏰 Bastión y Tiempo Muerto — Iron Dancer
+# 🏰 Bastión y Tiempo Muerto — Iron Dancer: The Angelic Bladestorm
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+* **Nombre del Bastión:** La Academia de la Espada de Oro (*Gilded Blade Academy*)
+* **Ubicación:** Un complejo de agujas de mármol blanco y cristal suspendidas en una isla flotante sobre un valle boscoso.
+* **Nivel de Bastión (Bastion Level):** Nivel 20
+* **Puntos de Bastión (Bastion Points - BP):** 530 BP acumulados
+* **Bonificador de Defensa de Bastión:** **+11** ($5_{\text{INT}} + 6_{\text{PB}}$)
 
-* **Nombre del Bastión:** La Academia de la Espada de Oro (Gilded Blade Academy)
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 115
-* **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 20 (+5), CON 14 (+2), INT 19 (+4), WIS 10 (+0), CHA 8 (-1)
+---
 
-### Instalaciones Básicas (Basic Facilities)
+### 🏛️ Instalaciones Básicas (Basic Facilities)
 
-1. **Dormitorio (Bedchambers):** Un estudio astronómico con balcones para el vuelo y estanterías de libros.
-2. **Comedor (Dining Hall):** Dispuesto con mesas circulares y sirvientes mágicos autónomos.
-3. **Espacio Común (Common Room):** Una sala de lectura y discusión para estudiantes de magia.
+1. **Aposentos Astronómicos (Bedchambers):** Estudio con balcones abiertos al cielo para despegues de vuelo y estanterías de tratados esgrimísticos.
+2. **Refectorio de los Danzantes (Dining Hall):** Salón con mesas circulares y sirvientes mágicos autónomos que sirven néctares y frutas estelares.
+3. **Galería Común de Estudio (Common Room):** Sala de lectura iluminada por orbes de luz perenne para debate de teoría arcana.
+4. **Armería y Archivo de Cristales (Storage):** Reserva de estoques de acero argentífero, pergaminos de vitela y diamantes de transmutación.
 
-### Instalaciones Especiales (Special Facilities)
+---
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+### 🔮 Instalaciones Especiales (Special Facilities — 6 Slots Nivel 20: 4 Roomy + 2 Vast)
 
-* **Estudio Arcano (Arcane Study) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Investigación de la Danza Arcana.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite fabricar pergaminos arcanos de defensa (*Shield*, *Absorb Elements*, *Counterspell*) a coste reducido.
-* **Laboratorio de Alquimia (Laboratory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Destilación de Elixires de Velocidad.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Creación acelerada de pociones de velocidad y reactivos para potenciar la agilidad de *Bladesong*.
-* **Gran Biblioteca (Library) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiado e Investigación Arcana.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Reduces a la mitad el coste en oro y tiempo necesario para copiar conjuros de Mago en el libro personal.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Esgrima Acrobática.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento intensivo con estoques y maniobras evasivas que optimizan el rendimiento de combate.
-* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Concentración Perfecta.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Garantiza ventaja en salvaciones de Inteligencia y Constitución para mantener conjuros en primera línea.
-* **Demiplano (Demiplane) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Bastión de Cristal Extrapolar.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga 100 PG temporales tras descansar y laboratorio de alta magia completamente inexpugnable.
+```mermaid
+flowchart TD
+    A["Inicio del Turno de Bastión (Semanal)"] --> B["Orden 1: Estudio Arcano (Pergaminos de Defensa y Reacción)"]
+    A --> C["Orden 2: Laboratorio Alquímico (Pociones de Velocidad y Curación)"]
+    A --> D["Orden 3: Pabellón de Esgrima (Danza de Hojas y Movilidad)"]
+    A --> E["Orden 4: Cámara de Meditación (Concentración Indestructible)"]
+    A --> F["Orden 5: Círculo de Teletransporte (Tránsito Planar y Élfico)"]
+    A --> G["Orden 6: Demioplano de Cristal (Reserva +100 THP)"]
+```
 
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Bibliotecario Malthus (Un mago elfo anciano).
-* **Defensores / Guardias:** 12 Guardias entrenados con estoques y 4 Gárgolas de piedra guardianas.
-* **Artesanos / Especialistas:** Un copista e ilustrador de pergaminos mágicos.
+1. **Estudio Arcano (Arcane Study — Roomy, Nivel 5):**
+   * *Orden de Bastión:* **Research / Craft.**
+   * *Efecto Mecánico:* Fabricación de pergaminos arcanos de reacción y defensa (*Shield*, *Absorb Elements*, *Counterspell*, *Misty Step*) a mitad de coste y tiempo.
+2. **Laboratorio de Alquimia (Laboratory — Roomy, Nivel 5):**
+   * *Orden de Bastión:* **Craft.**
+   * *Efecto Mecánico:* Destilación de elixires de velocidad (*Potion of Speed*) y *Potions of Supreme Healing* con un 50% de descuento en materiales.
+3. **Pabellón de Esgrima Acrobática (Training Grounds — Roomy, Nivel 9):**
+   * *Orden de Bastión:* **Train.**
+   * *Efecto Mecánico:* Concede Inspiración Heroica automática al Bladesinger al salir del bastión y entrena a la guarnición en técnicas de combate con estoque sin provocar ataques de oportunidad (*Mobile*).
+4. **Cámara de Meditación Trascendental (Meditation Chamber — Roomy, Nivel 9):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Otorga el *Charm of the Iron Mind*: Ventaja en tiradas de salvación de Inteligencia y Constitución durante 7 días para asegurar el mantenimiento de *Shapechange*.
+5. **Círculo de Teletransporte Permanente (Vast — Nivel 13):**
+   * *Orden de Bastión:* **Maintain.**
+   * *Efecto Mecánico:* Enlace planar que conecta la Academia flotante con las capitales arcanas de Faerûn y los planos superiores celestiales.
+6. **Demioplano de Cristal / Sanctum Celestial (Sanctum — Vast, Nivel 17):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Tras completar un descanso largo en el demioplano, el personaje absorbe un aura radiante que le otorga **+100 Puntos de Golpe Temporales** y resistencia total al daño Radiante y Necrótico.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Copiar Conjuros al Libro de Hechizos
+### Prioridad 1: Copiado de Conjuros al Grimorio de la Academia
 
-* **Mecánica Base:** PHB (Reglas de Transcripción de Magos).
-* **Bonificadores Aplicables:** Biblioteca de Bastión (reduce coste/tiempo) + Inteligencia alta (+5).
-* **Coste por Día/Semana:** 25 po por nivel de conjuro / 1 hora por nivel.
-* **Objetivo de Optimización:** Incorporar conjuros de utilidad y control mayores (como *Maze*, *Feeblemind* o *Simulacrum*) al libro de conjuros personal para diversificar las opciones de preparación.
+* **Mecánica Base:** PHB / DMG 2024 (Reglas de Transcripción de Mago).
+* **Tiradas y Bonificadores:** Inteligencia (+5 con herramientas de calígrafo).
+* **Objetivo de Optimización:** Transcribir la totalidad de la lista de conjuros de Mago para disponer de preparación flexible ante cualquier amenaza cósmica.
 
-### Prioridad 2: Entrenamiento / Dotes
+### Prioridad 2: Elaboración de Infusiones y Túnicas Mágicas
 
-* **Mecánica Base:** DMG (Reglas de Entrenamiento).
-* **Bonificadores Aplicables:** Inteligencia y Destreza altas.
-* **Progreso Actual:** 7 / 10 semanas para aprender la dote "Tough" (Dureza) o ganar competencia en la habilidad de Acrobacias.
+* Fabricación y recarga de la túnica *Mind Sharpener* (4 éxitos de concentración al día).
 
 ---
 
@@ -73,34 +70,13 @@
 
 ### Velocidades de Movimiento Base
 
-* **Caminar (Walk):** 40 ft. (50 ft. mientras *Bladesong* está activo por dote *Mobile*).
-* **Trepar (Climb):** 30 ft.
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 0 ft. (140 ft. volando bajo la forma de Planetar con *Shapechange* activa).
+* **Caminar (Walk):** **40 ft/turno** (30 ft Base + 10 ft *Mobile*; **50 ft** durante *Bladesong*).
+* **Trepar (Climb):** 40 ft/turno.
+* **Nadar (Swim):** 40 ft/turno.
+* **Volar (Fly):** **140 ft/turno** en forma de **Planetar** ($120\text{ ft Base} + 10\text{ ft Bladesong} + 10\text{ ft Mobile}$ sin provocar ataques de oportunidad).
 
-### Modificadores y Multiplicadores de Viaje
+### Modificadores y Sentidos de Exploración
 
-* **Ritmo de Viaje (Travel Pace) Preferido:** Rápido.
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (Racial elfo / 120 ft. Visión Verdadera como Planetar).
-* **Habilidades de Exploración:** Capacidad de esquivar ataques de oportunidad de los enemigos que ataca (*Mobile*), permitiendo movilidad absoluta.
-
----
-
-## 🎭 Reputación, Facciones y Red de Contactos
-
-### Facciones Activas
-
-1. **La Alianza de los Magos de la Espada:**
-    * *Rango / Título:* Gran Maestro de la Espada de Oro (Grandmaster).
-    * *Reputación / Favor:* Aliado Venerado.
-    * *Beneficio Mecánico:* Permite adquirir pergaminos y componentes para transcribir conjuros sin coste de transporte.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-* **Percepción Pasiva (Passive Perception):** 16 (10 + 0 (SAB) + 6 (PB))
-* **Investigación Pasiva (Passive Investigation):** 20 (10 + 4 (INT) + 6 (PB))
-* **Perspicacia Pasiva (Passive Insight):** 16 (10 + 0 (SAB) + 6 (PB))
-* **Idiomas Conocidos:** Común, Élfico, Celestial.
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Caligrafía (+10), Herramientas de Herrero (+7).
+* **Visión Verdadera:** 120 ft en forma de Planetar (visión a través de ilusiones, oscuridad mágica y metamorfosis).
+* **Percepción Pasiva:** 21 en forma de Planetar (+11 con percepción divina).
+* **Resistencia Mágica:** Ventaja permanente en tiradas de salvación contra conjuros y otros efectos mágicos.

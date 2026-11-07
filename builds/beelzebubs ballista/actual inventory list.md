@@ -1,21 +1,50 @@
-# Inventario Equipado — Beelzebub's Ballista
+# 🎒 Inventario Actual y Equipo — Beelzebub's Ballista
 
-Esta lista detalla el inventario del personaje a nivel 20.
+**Nivel:** 20  
+**Clase:** Warlock (The Celestial) 19 / Fighter 1  
 
 ---
 
-## ⚔️ Armas y Objetos Sintonizados (Attuned)
-*   **Ascendant Dragon's Wrath Heavy Crossbow (Fuego/Radiante)** (Sintonizado - +3 al ataque/daño, +3d6 de daño elemental extra por impacto, Aliento Dracónico 12d6 1/día, Ráfaga Crítica 5d6 en área).
-*   **Rod of the Pact Keeper +3** (Sintonizado - +3 a CD de conjuros de Warlock y 1 ranura recuperada 1/día).
-*   **Amulet of Health** (Sintonizado - CON 19).
+## ⚔️ Equipamiento Activo (Equipped Gear)
 
-## 🛡️ Armadura y Ropa
-*   **Half-Plate Armor +3:** CA 17 + DES (+2) + 3 = CA 22 pasiva. No requiere sintonización.
+* **Arma Principal:** *Ascendant Dragon's Wrath Heavy Crossbow* (Ballesta pesada de bronce estriado con motivos de dragón solar; $+3$ a impactar y daño, $+3\text{d}6$ de daño elemental continuo; foco universal de brujo).
+* **Armadura:** *Plate Armor +3* (Armadura de placas completas consagradas de acero pulido y oro, CA 18 + 3 = 21 CA pasiva).
+* **Foco Secundario:** *Rod of the Pact Keeper +3* (Cetro sagrado de plata suspendido al cinto).
+* **Capa Defensiva:** *Cloak of Displacement* (Manto de sombras celestiales que distorsiona la posición del Brujo).
+* **Familiar en Vuelo:** Imp Invisible (volando a 10 pies, actuando con la acción de *Help* para conceder Ventaja constante).
 
-## 🔮 Foco Arcano y Componentes
-*   **Símbolo Celestial Focal (Anillo o Colgante):** Actúa como tu foco universal de lanzamiento para los conjuros de Warlock, eliminando la necesidad de tener manos libres adicionales.
-*   **Carcaj de Pernos (20 pernos):** Munición para la ballesta pesada.
+---
 
-## 🎒 Herramientas y Miscelánea
-*   **Instrumento Musical (Lira):** Obtenido de tu dote *Musician*.
-*   **Explorer's Pack:** Saco de dormir, raciones, antorchas y cuerda de seda.
+## 🔮 Ranuras de Sintonización Activas (Strict 3/3 Attunement)
+
+1. ⚔️ **Ascendant Dragon's Wrath Heavy Crossbow:** (Sintonizado — Ranura 1/3) $+3$ a impactar/daño, $+3\text{d}6$ daño elemental por impacto, aliento de $12\text{d}6$ de área 1/día y explosión crítica de $5\text{d}6$.
+2. ⚔️ **Rod of the Pact Keeper +3:** (Sintonizado — Ranura 2/3) $+3$ a ataques de conjuro y CD de salvación de Brujo; recarga 1 ranura de pacto de nivel 5 1/día.
+3. ⚔️ **Cloak of Displacement:** (Sintonizado — Ranura 3/3) Impone Desventaja permanente a todos los atacantes hostiles mientras no recibas daño directo.
+
+*Ranuras Disponibles:* **0 / 3 Libres (Capacidad Máxima Optimizada)**  
+
+---
+
+## 🎒 Mochila y Equipo de Campaña (Bag of Holding)
+
+### Objetos Mágicos No Sintonizados (No-Attunement Gear)
+* **Plate Armor +3:** Armadura de placas de acero sagrado (+3 a la CA, CA 21).
+* **Tome of Leadership and Influence:** Ya consumido para fijar Carisma en 22 (+6 mod / 20 base + 2 tomo).
+* **Manual of Bodily Health:** Ya consumido para fijar Constitución en 16 (+3 mod / 14 base + 2 manual).
+
+### Munición y Consumibles
+* **Pernos Pesados de Asedio:**
+  * 60 Pernos de fresno reforzados con puntas de acero templado.
+  * 30 Pernos de plata consagrada (para fiends y no-muertos).
+  * 30 Pernos de hierro frío estriado.
+* **Pergaminos Arcanos de Bastión:**
+  * 6 Pergaminos de *Armor of Agathys* (Nivel 5).
+  * 4 Pergaminos de *Counterspell* (Nivel 5).
+  * 2 Pergaminos de *Dimension Door* (Nivel 4).
+* **Pociones Alquímicas:**
+  * 6 Pociones de Curación Suprema ($10\text{d}4 + 20$).
+  * 2 Pociones de Vitalidad.
+* **Componentes y Tesoros:**
+  * Diamante consagrado de 300 po (para *Revivify*).
+  * Instrumento musical (Lira dorada para la dote *Musician*).
+  * Monedero de campaña: 2,150 po, 120 pp, gemas sagradas de 100 po (10).

@@ -1,91 +1,105 @@
-# 🌟 Lista de Conjuros Optimizada — Herald of Hlal
+# 📜 Lista de Conjuros y Secretos Mágicos — Wrathful Whisperer
 
-Esta lista detalla la selección de conjuros sugerida para el build **Herald of Hlal**, optimizada bajo las reglas de preparación multiclase de D&D 5.ª Edición (2014 Ruleset).
-
----
-
-## 🔮 Trucos (Cantrips)
-
-*No consumen espacios de preparación ni de ranuras.*
-
-### 🎭 Bardo (Bard - 4 conocidos)
-
-1. **Vicious Mockery 🔵 [Excelente - Debuff/Temático]:** Inflige $1d4$ de daño psíquico y desventaja en el siguiente ataque del objetivo si falla una salvación de Sabiduría. Muy temático para el bufón de Hlal.
-2. **Minor Illusion 🟢 [Excelente - Utilidad]:** Creación de efectos visuales o auditivos menores para distracción o sigilo.
-3. **Message 🟡 [Decente - Utilidad]:** Para susurros y comunicación táctica a distancia con aliados.
-4. **Friends 🟡 [Decente - Utilidad]:** Ventaja en pruebas de Carisma con humanoides específicos por 1 minuto (bajo riesgo).
+**Build:** Wrathful Whisperer (El Espadachín de la Cólera Sagrada)  
+**Clase:** Paladin 2 / Bard (College of Swords) 18  
+**Nivel de Lanzador:** Nivel 19 Caster (Ranuras completas hasta Nivel 9)  
+**Atributo de Conjuración:** Carisma (CD $8 + 6 \text{ PB} + 5 \text{ CHA} = \mathbf{19}$)  
+**Bonificador de Ataque de Conjuros:** $+6 (\text{PB}) + 5 (\text{CHA}) = \mathbf{+11}$  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/character%20guide%202024.md)
+* [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/bastion%20and%20downtime.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/actual%20inventory%20list.md)
 
 ---
 
-## 🎒 Conjuros Preparados / Conocidos por Niveles
+## ⚡ Efectos Activos y Buffs Previos (Turn 0)
 
-*Organizados por el nivel de la ranura de conjuro.*
-
-### Nivel 9 (Nivel 9)
-
-1. **Wish 🔵 [Roto - Utilidad/Magical Secret]:** Te permite duplicar cualquier conjuro de nivel 8 o inferior de cualquier lista de forma instantánea sin costes de componentes.
-2. **True Polymorph 🔵 [Roto - Control/Buff/Magical Secret]:** Transforma a una criatura u objeto en otra criatura de VD igual o menor (como un dragón) u otro objeto permanentemente tras concentrarse 1 hora.
-3. **Foresight 🟢 [Excelente - Buff de Bardo]:** Ventaja en todas las tiradas de ataque, salvaciones y pruebas de característica, y los ataques enemigos tienen desventaja contra ti por 8 horas.
-
-### Nivel 8 (Nivel 8)
-
-1. **Mind Blank 🟢 [Excelente - Defensa]:** Inmunidad al daño psíquico y a efectos de lectura de mente o adivinación durante 24 horas.
-2. **Glibness 🟢 [Excelente - Interacción]:** Tu tirada de Carisma mínima para cualquier prueba es 15, garantizando que nunca falles contra conjuros de *Counterspell* o *Dispel Magic*, y dominas las pruebas sociales.
-
-### Nivel 7 (Nivel 7)
-
-1. **Forcecage 🔵 [Roto - Control]:** Enciérralo en una caja de fuerza invisible sin tirada de salvación inicial. Si intentan teletransportarse, deben superar una salvación de Carisma.
-2. **Etherealness 🟢 [Excelente - Movilidad]:** Viaja al Plano Etereo para atravesar paredes y obstáculos sólidos.
-
-### Nivel 6 (Nivel 6)
-
-1. **Mass Suggestion 🔵 [Excelente - Control]:** Sugiere un curso de acción razonable a hasta 12 criaturas simultáneamente durante 24 horas sin requerir concentración.
-2. **Otto's Irresistible Dance 🟢 [Excelente - Control]:** Hace que un objetivo baile sin tirada de salvación inicial, otorgando ventaja a tus ataques melee y obligando al enemigo a gastar su acción si quiere intentar librarse.
-
-### Nivel 5 (Nivel 5)
-
-1. **Synaptic Static 🔵 [Excelente - Daño/Debuff]:** Explosión psíquica en área que inflige daño psíquico y resta $1d6$ a todas las tiradas de ataque y concentración de los enemigos afectados por 1 minuto.
-2. **Hold Monster 🔵 [Excelente - Control/Nova]:** Paraliza a cualquier criatura. Cualquier ataque cuerpo a cuerpo contra el objetivo paralizado a menos de 5 pies es un impacto crítico automático (ideal para Smites brutales).
-3. **Animate Objects 🔵 [Roto - Tempestad de Plata]:** Anima hasta 10 objetos pequeños (o 18 con ranura de nivel 9). Usar monedas de plata para evadir resistencias a daño físico no mágico. (Bardo)
-
-### Nivel 4 (Nivel 4)
-
-1. **Greater Invisibility 🔵 [Excelente - Ventaja]:** Invisibilidad en combate por 1 minuto. Te otorga ventaja en todos tus ataques de espada (facilitando críticos para Smites) y desventaja en los ataques enemigos hacia ti.
-2. **Polymorph 🟢 [Excelente - Utilidad/Curación]:** Transforma a un aliado al borde de la muerte en una bestia gigante (como un T-Rex) para otorgar un pozo gigante de HP temporales.
-3. **Dimension Door 🟢 [Excelente - Movilidad]:** Teletransporte de 500 pies para ti y un aliado.
-
-### Nivel 3 (Nivel 3)
-
-1. **Hypnotic Pattern 🔵 [Excelente - Control]:** Incapacita y reduce a 0 la velocidad de todas las criaturas en un cubo de 30 pies que fallen su salvación de Sabiduría.
-2. **Dispel Magic 🟢 [Excelente - Utilidad]:** Neutraliza efectos mágicos enemigos.
-3. **Fear 🟢 [Excelente - Control / Bardo]:** Fuerza a los enemigos en un cono de 30 pies a soltar lo que lleven y quedar asustados (Frightened), teniendo que huir de ti mientras puedan verte.
-4. **Crusader's Mantle 🔵 [Excelente - Buff / Magical Secret]:** Aura de 30 pies que añade +1d4 de daño radiante a todos los ataques con arma de criaturas amistosas. Crucial para potenciar la Tempestad de Plata.
-
-### Nivel 2 (Nivel 2)
-
-1. **Hold Person 🔵 [Excelente - Nova]:** Paraliza a un humanoide para impactos críticos automáticos cuerpo a cuerpo.
-2. **Suggestion 🟢 [Excelente - Control / Bardo]:** Sugiere una acción razonable a un objetivo que entienda tu idioma por hasta 8 horas (concentración).
-3. **Blindness/Deafness 🟢 [Excelente - Debuff / Bardo]:** Ciega o ensordece a un enemigo (salvación de CON) sin requerir concentración, ideal para mitigar amenazas físicas.
-
-### Nivel 1 (Nivel 1)
-
-1. **Bless 🔵 [Excelente - Soporte / Paladín]:** Añade $+1d4$ a ataques y salvaciones para ti y tus aliados.
-2. **Shield of Faith 🟢 [Excelente - Defensa / Paladín]:** $+2$ a la CA (Concentración) para aumentar tu resistencia en combate cerrado.
-3. **Command 🟢 [Excelente - Control / Paladín]:** Fuerza a un enemigo a obedecer una orden simple de una sola palabra como "Huye" o "Suelo".
-4. **Cure Wounds 🟡 [Decente - Sanación / Paladín]:** Curación básica al toque.
-5. **Healing Word 🔵 [Excelente - Curación rápida / Bardo]:** Levanta aliados caídos a distancia como Acción Adicional.
-6. **Dissonant Whispers 🔵 [Excelente - Sinergia / Bardo]:** Daño psíquico que fuerza al objetivo a huir usando su reacción, provocando ataques de oportunidad (que puedes smitear).
+| Efecto / Conjuro | Duración | Concentración | Beneficio Mecánico |
+| :--- | :---: | :---: | :--- |
+| **Foresight (Nivel 9)** | 8 horas | **No** | Ventaja permanente en todos tus ataques, pruebas y salvaciones; desventaja obligatoria en todos los ataques hostiles contra ti. |
+| **Find Greater Steed** | Permanente | No | Pegaso celestial activo (velocidad de vuelo 90 pies); duplica todos los conjuros que te lances sobre él. |
+| **Simulacrum** | Permanente | No | Duplicado idéntico con la mitad de tus PG que puede mantener concentración en *Crusader's Mantle* o lanzar *Counterspell*. |
+| **Heroes' Feast (Vía Bastión)** | 24 horas | No | $+2\text{d}10\text{ PG}$ máximos, inmunidad a veneno y miedo, ventaja en salvaciones de Sabiduría. |
+| **Aid (Ranura Nivel 5)** | 8 horas | No | $+20\text{ PG}$ máximos y actuales al bardo, a su montura y al simulacro. |
 
 ---
 
-## 📖 Rituales / Invocaciones / Secretos Mágicos
+## 📊 Matriz de Secretos Mágicos (Magical Secrets — Bard 10, 14, 18)
 
-*Particularidades del build que no requieren espacios comunes de preparación diarios.*
+* **Wish (Nivel 9):** 🔵 S. Versatilidad absoluta; duplica cualquier conjuro de nivel 1 a 8 de cualquier lista sin coste de componentes ni tiempo de lanzamiento.
+* **Simulacrum (Nivel 7):** 🔵 S. Duplica la presencia en combate; habilita la doble concentración para la Tempestad de Plata.
+* **Find Greater Steed (Nivel 4):** 🔵 S. Montura aérea legendaria que convierte al bardo en una unidad de caballería divina intocable.
+* **Counterspell (Nivel 3):** 🔵 S. Con *Jack of All Trades* ($+3$ al test de Carisma), neutraliza conjuros de nivel alto sin gastar ranuras superiores.
+* **Shield (Nivel 1):** 🔵 S. Reacción fundamental para elevar la CA activa a picos de hasta $46$.
+* **Crusader's Mantle (Nivel 3):** 🔵 S. Añade $+1\text{d}4$ de daño radiante a cada uno de los 18 ataques de la Tempestad de Plata.
 
-* **Secretos Mágicos: Counterspell (Bardo 10):** Interrumpe conjuros arcanos enemigos de forma reactiva.
-* **Secretos Mágicos: Find Greater Steed (Bardo 10):** Invoca una montura celestial voladora (como un Pegaso o Grifo) que comparte tus conjuros beneficiosos que te lances a ti mismo (como *Greater Invisibility*).
-* **Secretos Mágicos: Simulacrum (Bardo 14):** Crea un clon de hielo de ti mismo con la mitad de tus HP pero todas tus ranuras de conjuros y habilidades de combate.
-* **Secretos Mágicos: Crusader's Mantle (Bardo 14 - alternativa a Crown of Stars):** Vital para activar el combo de la Tempestad de Plata junto a tu Simulacrum.
-* **Secretos Mágicos: Crown of Stars (Bardo 14):** Ataque a distancia en acción adicional que no requiere concentración.
-* **Secretos Mágicos: Wish (Bardo 18):** Utilidad infinita.
-* **Secretos Mágicos: True Polymorph (Bardo 18):** Transformación definitiva.
+---
+
+## 🗡️ Matriz de Conjuros de Bardo y Paladín por Nivel
+
+### Trucos (Cantrips)
+* **Vicious Mockery:** 🟢 A. Impone desventaja en el siguiente ataque del enemigo a distancia.
+* **Minor Illusion:** 🟢 A. Distracción táctica y cobertura ilusoria.
+* **Mage Hand:** 🟢 A. Manipulación remota de objetos.
+* **Prestidigitation:** 🟡 B. Efectos sensoriales de gala.
+
+### Niveles 1 y 2
+* **Divine Smite (Paladin):** 🔵 S. El motor de castigo; escala con ranuras de bardo hasta $5\text{d}8$ radiante por impacto ($+1\text{d}8$ extra contra infernales o no-muertos).
+* **Healing Word (Bard):** 🔵 S. Curación de emergencia en Bonus Action a 60 pies.
+* **Command (Paladin):** 🟢 A. Control de un solo objetivo (Grovel para derribarlo y ganar ventaja en melee).
+* **Silvery Barbs (Bard):** 🔵 S. Fuerza repetición de d20 enemigo y concede ventaja a un aliado.
+* **Mirror Image (Bard):** 🟢 A. Duplicados defensivos sin concentración.
+
+### Niveles 3, 4 y 5
+* **Hypnotic Pattern (Bard):** 🔵 S. Incapacitación masiva de salas enteras de enemigos en un cubo de 30 pies.
+* **Dispel Magic (Bard):** 🟢 A. Supresión de efectos mágicos hostiles.
+* **Dimension Door (Bard):** 🟢 A. Reubicación dimensional instantánea a 500 pies con un aliado.
+* **Animate Objects (Bard):** 🔵 S. **Pieza Central**. Anima 10 a 18 objetos ligeros de plata que pulverizan defensas físicas.
+* **Synaptic Static (Bard):** 🟢 A. Explosión psíquica ($8\text{d}6$) que resta $1\text{d}6$ a ataques y pruebas enemigas por 1 minuto sin concentración.
+
+### Niveles 6 a 9
+* **Forcecage (Bard Nivel 7):** 🔵 S. Encierro absoluto de jefes sin tirada de salvación ni concentración.
+* **Otto's Irresistible Dance (Bard Nivel 6):** 🟢 A. Fuerza al enemigo a bailar sin tirada de salvación en el primer turno.
+* **Power Word Heal / True Polymorph (Bard Nivel 9):** 🔵 S. Curación total instantánea o transformación permanente en Dragón Dorado Antiguo.
+
+---
+
+## 🔄 Diagrama de Secuencia: Nova Smite & Tempestad de Plata
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor W as Wrathful Whisperer
+    participant S as Simulacrum
+    participant MO as 18 Monedas de Plata (Animate Objects 9)
+    participant E as Jefe Enemigo (CR 20)
+
+    Note over W,S: Pre-Combate: Foresight activo + Pegaso montado
+    S->>E: Acción: Lanzar Crusader's Mantle (Aura de +1d4 radiante a 30 ft)
+    W->>E: Acción: Extra Attack con Rapier en melee
+    Note over W,E: Ataque 1: Impacta con Ventaja (Foresight)
+    W->>E: Canalizar Divine Smite (Nivel 4) + Defensive Flourish (d12)
+    Note over W,E: Daño Ataque 1: 1d8 + 3 + 5d8 (Smite) + 1d12 (Flourish) = 36.5 daño
+    Note over W: CA se incrementa en +1d12 (alcanza CA 36+)
+    W->>E: Ataque 2: Impacta con Ventaja -> Canalizar Divine Smite (Nivel 4)
+    Note over W,E: Daño Ataque 2: 1d8 + 3 + 5d8 = 30.0 daño
+    W->>MO: Bonus Action: Comandar a las 18 Monedas de Plata animadas
+    MO->>E: 18 ataques de Slam + Crusader's Mantle con Ventaja
+    Note over MO,E: Daño de Monedas: 18 x 9.0 x 0.7975 = 129.2 daño
+    Note over W,E: Daño Total del Asalto de Apertura: 195.7 daño masivo
+    E->>W: Enemigo intenta contraatacar en desesperación
+    Note over W: Enemigo tiene Desventaja (Foresight) contra CA 36+
+    W->>W: Reacción Opcional: Shield (CA 41+) -> Ataque falla
+```
+
+---
+
+## 💖 Curación en Segundo Plano (Background Healing)
+
+1. **Aura of Vitality (Secretos Mágicos / Bardo):** Fuera de combate, 1 lanzamiento restaura $20\text{d}6 = \mathbf{70 \text{ PG}}$ distribuidos libremente entre aliados en 1 minuto.
+2. **Lay on Hands (Paladín):** 10 PG de imposición de manos para curar enfermedades o revivir a 2 aliados caídos a 0 PG.
+3. **Healing Word en Bonus Action:** Ranuras de nivel 1 dedicadas exclusivamente a estabilizar compañeros inconscientes a distancia.
+4. **Power Word Heal (Nivel 9):** Cura todos los PG del objetivo instantáneamente y remueve todas las condiciones de ceguera, sordera, parálisis y aturdimiento.

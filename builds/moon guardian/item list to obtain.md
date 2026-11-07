@@ -1,75 +1,56 @@
-# Objetos a Obtener — Moon Guardian
+# 💎 Lista de Objetos Mágicos a Obtener — Moon Guardian
 
-**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
-
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Amulet of Proof Against Detection (1 slot), Tótem del Guardián Lunar (Homebrew) (1 slot). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Tótem del Guardián Lunar (1 slot), Bracers of Defense (1 slot), Periapt of Wound Closure (1). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Bracers of Defense (1), Periapt of Wound Closure (1), Belt of Hill Giant Strength (1). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Bracers of Defense (1), Periapt of Wound Closure (1), Belt of Fire Giant Strength (1). (Insignia of Claws, Sentinel Shield y Manuals no requieren sintonización). (Total: 3).
-
----
-
-## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
-
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Shield +1 (Wooden)** | No | — | **Priorizar 1:** $+1$ adicional a CA con escudo de madera. Compatible con las restricciones druídicas. Sube tu AC humanoide a 18 (19 con Shifter). |
-| **Amulet of Proof Against Detection and Location** | Sí | ⚔️ **Sí** | **Priorizar 2:** Impide que seas detectado por magia de adivinación. Protege al protector del grupo contra Scrying y similares. |
-| **Bag of Holding** | No | — | Prioridad Alta: Almacenamiento de equipo del grupo. Al transformarte en bestia, tu equipo se fusiona contigo; esto guarda lo que no llevas encima. |
-| **Scale Mail (inicial)** | No | — | Prioridad Media: Equipo de inicio. Se descarta al tomar niveles de Druida (nivel 5+). |
+**Build:** Moon Guardian (El Coloso Primigenio Inmortal)  
+**Clase:** Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13  
+**Ranuras de Sintonización:** 3 ranuras estándar (3/3 utilizadas a nivel 20)  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/character%20guide%202024.md)
+* [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/bastion%20and%20downtime.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/spell%20list.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/actual%20inventory%20list.md)
 
 ---
 
-## 🔵 Tier 2 (Niveles 5-10) — Raros
+## 🎯 Progresión de Sintonización por Niveles (Tiers 1 - 4)
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Bracers of Defense** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ a CA cuando no llevas armadura ni escudo. Perfecto para Unarmored Defense y crucial en Wild Shape donde no tienes escudo. Tu AC en forma humanoide sin escudo sube a 18. |
-| **Periapt of Wound Closure** | Sí | ⚔️ **Sí** | **Priorizar 2:** Estabilización automática al caer a 0 HP, y cuando tiras dados de golpe para curarte, duplicas el resultado. Sinergiza con la autocuración de Wild Shape ($Xd8$ × 2 = curación masiva). |
-| **Cloak of Protection** | Sí | No | **Priorizar 3:** $+1$ a CA y a todas las salvaciones. Si no necesitas Periapt, este es mejor defensa general. |
-| **Dragonhide Belt +2** | Sí | No | Prioridad Alta: $+1$ a CD de conjuros druídicos y recuperas un uso de Wild Shape al gastar un espacio de conjuro (muy potente para combates largos). |
+### Tier 1 (Nivel 1 - 4) — 1 a 2 Ranuras
+1. **[Sintonizado 1/3] Cloak of Protection:** +1 a la CA y +1 a todas las tiradas de salvación.
+2. **[Sintonizado 2/3] Periapt of Wound Closure:** Estabilización automática y duplicación de PG recuperados al gastar Dados de Golpe.
+3. **[No Sintonizado] Insignia of Claws:** Hace que los ataques naturales de bestias cuenten como mágicos y otorga $+1$ a tiradas de ataque y daño (no requiere sintonización).
 
----
+### Tier 2 (Nivel 5 - 10) — 3 Ranuras Activas
+1. **[Sintonizado 1/3] Eldritch Claw Tattoo:** Otorga $+1$ a ataques desarmados/naturales y activa *Eldritch Reach* (alcance de 30 pies y $+1\text{d}6$ daño de fuerza por impacto durante 1 minuto).
+2. **[Sintonizado 2/3] Cloak of Protection:** +1 CA y salvaciones.
+3. **[Sintonizado 3/3] Ring of Protection:** +1 CA y salvaciones.
 
-## 🟣 Tier 3 (Niveles 11-16) — Muy Raros
+### Tier 3 (Nivel 11 - 16) — 3 Ranuras Optimizadas
+1. **[Sintonizado 1/3] Eldritch Claw Tattoo:** Potenciación de ataques en forma de Elemental o Bestia.
+2. **[Sintonizado 2/3] Belt of Fire Giant Strength:** Fija la Fuerza en 25 (+7), incrementando drásticamente el impacto tanto en forma humanoide como en bestias que usen su Fuerza física.
+3. **[Sintonizado 3/3] Ring of Free Action:** Inmunidad total a la parálisis y al terreno difícil mágico.
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** Mejora del +1. $+2$ a CD de conjuros druídicos y recuperación de Wild Shape al gastar slot. Esencial para el Earth Elemental (que cuesta 2 usos de Wild Shape). |
-| **Bracers of Defense** | Sí | ⚔️ **Sí** | **Mantener del Tier anterior.** |
-| **Ring of Protection** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ CA y salvaciones adicional (apila con Cloak of Protection si lo tienes). |
-| **Ioun Stone (Fortitude)** | Sí | No | Prioridad Alta: $+2$ a CON (si aún no has llegado a 20). |
-| **Staff of the Woodlands** | Sí | No | Prioridad Media: Funciona como foco druídico, otorga $+2$ a tiradas de ataque de conjuros, y permite lanzar varios conjuros gratis una vez al día (Pass Without Trace, Speak with Animals, etc.). |
+### Tier 4 (Nivel 17 - 20) — 3 Ranuras Cúspide (Attunement 3 / 3)
 
----
-
-## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
-
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +3** | Sí | ⚔️ **Sí** | **Priorizar 1:** Versión definitiva. Recuperación de Wild Shape al gastar slots = Earth Elemental en cada combate. |
-| **Tome of Understanding** | No | — | **Priorizar 2:** $+2$ permanente a Sabiduría (supera el máximo de 20). Mejora CD de conjuros druídicos, Percepción Pasiva y salvaciones de WIS. |
-| **Ring of Spell Storing** | Sí | ⚔️ **Sí** | Prioridad Alta: Almacena hasta 5 niveles de conjuros. Pre-carga Fire Shield o Healing Word para usarlos sin romper Rage (un aliado puede lanzarlos por ti desde el anillo). |
-| **Manual of Bodily Health** | No | — | Prioridad Media: $+2$ permanente a CON (si ya estás en 20, te lleva a 22). Más HP, mejor AC, mejores saves. |
+| Ranura | Objeto Mágico | Rareza | Tipo | Beneficio Mecánico Principal |
+| :---: | :--- | :---: | :---: | :--- |
+| **1 / 3** | **Belt of Fire Giant Strength** | Muy Raro | Maravilloso | Fija la Fuerza en **25 (+7)**. Concede bonificadores colosales a ataques de *Slam* y atletismo. |
+| **2 / 3** | **Eldritch Claw Tattoo** | Poco Común | Tatuaje | Sus ataques naturales son mágicos (+1 ataque/daño) y permite golpear a 30 pies con $+1\text{d}6$ de fuerza. |
+| **3 / 3** | **Ring of Free Action** | Raro | Anillo | Inmunidad a parálisis, inmovilidad y restricciones de movimiento (activo en Wild Shape). |
 
 ---
 
-## 🐺 TOTEM DEL GUARDIÁN LUNAR (TOTEM OF THE MOON GUARDIAN)
-*Objeto maravilloso, raro (requiere sintonización por un Druida o Bárbaro)*
+## 🎒 Objetos No Sintonizados Esenciales
 
-Un medallón de madera petrificada tallado con la silueta de un lobo aullando a la luna llena. Dentro del medallón hay un fragmento de piedra lunar auténtica que brilla con un resplandor plateado tenue en la oscuridad. Al enfurecerse o transformarse, el tótem emite un aullido espectral apenas audible.
+* **Insignia of Claws:** Se acumula con el *Eldritch Claw Tattoo*, sumando otro $+1$ mágico no sintonizado a los ataques naturales del Elemental de Tierra.
+* **Shield de Madera Petrificada +3:** $+5$ a la CA en forma humanoide sin violar el juramento druídico de no portar metales.
+* **Staff of the Woodlands:** Foco arcano druídico supremo que permite lanzar *Pass without Trace* a voluntad sin consumir ranuras.
+* **Bag of Holding:** Almacenamiento seguro de reactivos botánicos y componentes de festín.
 
-**Mecánicas (Diseñadas para la Edición 2014 / 5e):**
+---
 
-* **Pelaje de la Luna:** Mientras estás en Wild Shape y Rage simultáneamente, ganas $+1$ a tu CA en forma bestial/elemental.
-* **Espíritus Vengadores:** Cuando usas Spirit Shield para reducir el daño de un aliado, el atacante sufre daño de fuerza igual a la cantidad de daño reducida.
-* **Aullido Ancestral:** Una vez por descanso largo, como acción adicional mientras estás en Rage, puedes extender el efecto de Ancestral Protectors a **dos** enemigos en lugar de uno hasta tu siguiente turno.
+## 🏛️ Objetos a Forjar en el Bastión (Herbalist Lab & Sacrosanct Grove)
 
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
-
-| Objeto | Rareza | Prioridad / Notas |
-| :--- | :---: | :--- |
-| **Insignia of Claws** | Poco Común | **Prioridad Crítica:** $+1$ al ataque y daño de tus armas naturales en Wild Shape, haciendo que tus golpes sean mágicos de forma pasiva y sin sintonización. |
-| **Sentinel Shield** | Poco Común | **Prioridad Alta:** Ventaja en Iniciativa y Percepción pasiva para tu forma humanoide inicial. |
-| **Manual of Bodily Health** | Muy Raro | **Prioridad Alta:** Aumenta tu Constitución en $+2$ y su límite a 22 (más HP y mejor CA pasiva en forma humana). |
+1. **Cáliz Dorado de Festines:** Consagrado en el *Sacrosanct Grove* para el ritual de *Heroes' Feast*.
+2. **Pociones de Curación Superior (*Potion of Superior Healing*):** Elaboradas en el *Herbalist Lab* con hierbas del *Greenhouse*.
+3. **Aceite de Deslizamiento (Oil of Slipperiness):** Para otorgar movilidad adicional en situaciones de asedio.

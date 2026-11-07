@@ -1,76 +1,67 @@
-# Objetos a Obtener — Spirit Caller
+# 💎 Lista de Objetos a Obtener — Spirit Caller (Wizard 20)
 
-**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
+**Criterio de Sintonización Estricto:** Máximo 3 objetos sintonizados simultáneamente en cada Tier.
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Pearl of Power (1 slot), Arcane Grimoire +3 (1 slot). (Broom of Flying no requiere sintonización). (Total: 2).
-*   **Tier 2 (Niveles 5-10):** Anillo del Pastor de Almas (Homebrew) (1 slot), Amulet of Health (1 slot), Arcane Grimoire +3 (1, reemplaza +1). (Pearl of Power y Ring of Spell Storing se llevan sin sintonizar). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Anillo del Pastor de Almas (1), Staff of Power (1), Arcane Grimoire +3 (1, reemplaza +2) o Cloak of Displacement (1). (Amulet of Health sin sintonizar). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Anillo del Pastor de Almas (1), Wand of Orcus (1), Robe of the Archmage (1). (Staff of the Magi, Staff of Power y Arcane Grimoire +3 se llevan sin sintonizar). (Total: 3).
+---
+
+## ⚙️ Registro de Ranuras de Sintonización por Nivel
+
+* **Tier 1 (Niveles 1-4):** Cloak of Protection (1/3 slots ocupados). *Broom of Flying* no requiere sintonización.
+* **Tier 2 (Niveles 5-10):** Arcane Grimoire +2, Cloak of Protection, Anillo del Pastor de Almas (3/3 slots ocupados).
+* **Tier 3 (Niveles 11-16):** Arcane Grimoire +3, Cloak of Displacement, Anillo del Pastor de Almas (3/3 slots ocupados).
+* **Tier 4 (Niveles 17-20):** Staff of the Magi, Arcane Grimoire +3, Robe of the Archmagi (3/3 slots ocupados).
 
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Broom of Flying** (Escoba) | No | — | **OBTENIDO:** Vuelo de 50 pies sin requerir sintonización. Te mantiene seguro en el aire e inmune al combate cuerpo a cuerpo. |
-| **Pearl of Power** | Sí | ⚔️ **Sí** | **Priorizar 1:** Permite recuperar un espacio de nivel 3 una vez al día. Mitiga por completo el "impuesto" de slots diarios de *Animate Dead*. |
-| **Arcane Grimoire +1** | Sí | ⚔️ **Sí** | **Priorizar 2:** $+1$ a la CD de tus conjuros nigrománticos y tiradas de ataque, y mejora tu Recuperación Arcana. |
-| **Bag of Holding** | No | — | **Prioridad Alta:** Indispensable para un nigromante. Permite transportar cuerpos, huesos y equipamiento de repuesto para tus esqueletos de forma discreta. |
-| **Cloak of Protection** | Sí | No | Prioridad Media: $+1$ a la CA y a todas tus salvaciones (clave para mantener concentración). |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Broom of Flying** | No | — | **1** | Velocidad de vuelo de 50 pies sin sintonización y sin concentración; inmunidad contra amenazas cuerpo a cuerpo. |
+| **Cloak of Protection** | Sí | ⚔️ **Sí (1/3)** | **2** | $+1$ a la CA y a todas las tiradas de salvación. |
+| **Arcane Grimoire +1** | Sí | *Reserva* | **3** | $+1$ a CD de conjuro y recupera 1 espacio adicional durante *Arcane Recovery*. |
+| **Bolsa de Contención (Bag of Holding)** | No | — | Media | Transporte seguro de huesos limpios, flechas y componentes de momificación. |
 
 ---
 
 ## 🔵 Tier 2 (Niveles 5-10) — Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Amulet of Health** | Sí | ⚔️ **Sí** | **Priorizar 1:** Fija tu Constitución en 19. Aumenta tus puntos de golpe y otorga un $+4$ neto a tus salvaciones de concentración. |
-| **Arcane Grimoire +2** | Sí | ⚔️ **Sí** | **Priorizar 2:** Incrementa tu CD de conjuro a $+2$. Tus invocaciones de *Summon Undead* acertarán más ataques. |
-| **Ring of Spell Storing** | Sí | ⚔️ **Sí** | **Priorizar 3:** Puedes almacenar *Bless* o *Animate Dead*. Permite que tu familiar (del conjuro *Find Familiar*) mantenga la concentración de *Bless* por ti. |
-| **Cape of the Mountebank** | No | — | Prioridad Media: Escape de emergencia con *Dimension Door* una vez al día sin gastar ranuras. |
-| **Ring of Protection** | Sí | No | Prioridad Baja: Apilar con la capa para mayor supervivencia. |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Arcane Grimoire +2** | Sí | ⚔️ **Sí (1/3)** | **1** | Incrementa la CD de salvación de conjuros a $+2$ y amplía la recuperación arcana. |
+| **Cloak of Protection** | Sí | ⚔️ **Sí (2/3)** | **2** | Mantiene el $+1$ pasivo a CA y salvaciones. |
+| **Anillo del Pastor de Almas (Soul Shepherd)** | Sí | ⚔️ **Sí (3/3)** | **3** | Permite alzar no-muertos empleando ectoplasma del Plano de la Sombra sin necesidad de restos físicos en el suelo. |
+| **Ring of Spell Storing** | Sí | *Reserva* | Media | Permite al familiar o simulacro concentrarse en conjuros secundarios como *Web*. |
+| **Poción de Curación Mayor** | No | — | Alta | Suministro médico de emergencia. |
 
 ---
 
 ## 🟣 Tier 3 (Niveles 11-16) — Muy Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Staff of Power** | Sí | ⚔️ **Sí** | **Priorizar 1:** $+2$ CA y salvaciones, $+2$ ataque de conjuros. Otorga conjuros adicionales muy útiles y cargas ofensivas. |
-| **Arcane Grimoire +3** | Sí | ⚔️ **Sí** | **Priorizar 2:** Máximo bonificador posible ($+3$) a la CD y ataques de conjuros. |
-| **Cloak of Displacement** | Sí | ⚔️ **Sí** | **Priorizar 3:** Los enemigos tienen desventaja al atacarte mientras no sufras daño. Reduce radicalmente la probabilidad de que te rompan la concentración. |
-| **Spellguard Shield** | Sí | No | Prioridad Media: Ventaja contra conjuros (requiere competencia en escudos por dote/multiclase). |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Arcane Grimoire +3** | Sí | ⚔️ **Sí (1/3)** | **1** | Bonificador máximo de $+3$ a la CD de salvaciones (CD 22) y ataques mágicos. |
+| **Cloak of Displacement** | Sí | ⚔️ **Sí (2/3)** | **2** | Impone Desventaja permanente a todos los ataques enemigos mientras el Mago no reciba daño. |
+| **Anillo del Pastor de Almas** | Sí | ⚔️ **Sí (3/3)** | **3** | Mantiene la economía de no-muertos infinita en cualquier entorno. |
+| **Tome of Clear Thought** | No | — | **Prioritaria** | $+2$ permanente a Inteligencia (superando 20 a 22), elevando la CD de conjuros y los conjuros preparados. |
+| **Broom of Flying** | No | — | Indispensable | Mantiene la superioridad aérea a 50 pies de altitud. |
 
 ---
 
 ## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Wand of Orcus** (Artefacto) | Sí | ⚔️ **Sí** | **Priorizar 1 (Lv 20):** Tu meta final. Otorga $+3$ a CA, conjuros de nigromancia de alto nivel, y la capacidad única de invocar muertos vivientes (hasta un CR acumulado de 15) que obedecen tus órdenes sin gastar ranuras. |
-| **Robe of the Archmage** | Sí | ⚔️ **Sí** | **Priorizar 2:** CA base de $15 + \text{DEX}$, ventaja contra conjuros y $+2$ adicional a la CD y ataque de conjuros de Mago. |
-| **Staff of the Magi** | Sí | No | **Prioridad 3:** Absorbe conjuros enemigos. Se lleva en la mochila sin sintonizar, ya que tus ranuras están ocupadas por el Anillo del Pastor, la Wand of Orcus y la Robe. |
+| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Staff of the Magi** | Sí | ⚔️ **Sí (1/3)** | **1** | Arsenal de 50 cargas de conjuros arcanos, absorción de hechizos dirigidos y ventaja en salvaciones mágicas. |
+| **Arcane Grimoire +3** | Sí | ⚔️ **Sí (2/3)** | **2** | Máxima potencia arcana acumulativa para forzar salvaciones fallidas con *Maze*, *Forcecage* o *Disintegrate*. |
+| **Robe of the Archmagi** | Sí | ⚔️ **Sí (3/3)** | **3** | CA base 15 + DES (17), ventaja en tiradas de salvación contra magia y $+2$ adicional a CD de conjuro. |
+| **Manual of Bodily Health** | No | — | **Prioritaria** | $+2$ permanente a Constitución (+20 HP y $+1$ a salvaciones de concentración). |
+| **Ring of Free Action** | Sí | *Reserva* | Situacional | Inmunidad contra parálisis si se viaja contra aberraciones mentales. |
 
 ---
 
-## 💍 ANILLO DEL PASTOR DE ALMAS (RING OF THE SOUL SHEPHERD)
+## 🏛️ Suministros y Consumibles Fabricables en Bastión
 
-*Objeto maravilloso, raro (requiere sintonización por un Mago Nigromante)*
-
-Este anillo de plata envejecida tiene la forma de un uróboros formado por pequeños cráneos entrelazados. Su gema central, una obsidiana opaca, brilla con una pálida luz purpúrea cuando el portador comanda a sus esbirros alzados.
-
-**Mecánicas (Diseñadas para la Edición 2024 / 5.5e):**
-
-* **Alzamiento Ectoplásmico (Sin Cadáveres):** Ya no necesitas disponer de cadáveres o pilas de huesos físicos para lanzar conjuros de la escuela de Nigromancia que animen o creen muertos vivientes (como *Animate Dead*). El anillo condensa ectoplasma y energía residual del Plano de la Sombra para formar las estructuras físicas necesarias para tus sirvientes.
-* **Lazo de Alma Colectivo:** Cuando mantienes la concentración en un conjuro (como *Summon Undead* o *Bless*) y sufres daño que te obliga a realizar una Tirada de Salvación de Constitución para no perderla, puedes usar tu **Reacción** para redirigir parte de la fuerza destructiva. Una criatura muerta viviente bajo tu control a menos de 30 pies de ti recibe la mitad del daño que ibas a sufrir, y tú obtienes **Ventaja** en la Tirada de Salvación de Constitución para mantener la concentración.
-* **Reabsorción Espectral:** Cuando un muerto viviente creado o invocado por ti (mediante *Animate Dead* o *Summon Undead*) es destruido por un ataque o efecto enemigo, puedes canalizar su esencia residual en ti como **Reacción**. Obtienes un número de **Puntos de Golpe Temporales** iguales a tu nivel de Mago.
-
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
-
-| Objeto | Rareza | Prioridad / Notas |
-| :--- | :---: | :--- |
-| **Broom of Flying** | Poco Común | **OBTENIDO:** Vuelo de 50 pies constante sin requerir sintonización. Mantiene la distancia frente a cuerpo a cuerpo. |
-| **Tome of Clear Thought** | Muy Raro | **Prioridad Alta:** Aumenta permanentemente tu Inteligencia en $+2$ y su límite a 22 (más CD de conjuros y conjuros preparados). |
-| **Cape of the Mountebank** | Raro | **Prioridad Media:** Te da *Dimension Door* una vez al día sin requerir sintonización (escape táctico de emergencia). |
+* **Armamento de los 32 Arqueros:** 32 Arcos Cortos de calidad superior, 64 aljabas con flechas de plata y hierro frío.
+* **Pergaminos Arcanos (*Animate Dead*, *Shield*, *Counterspell*):** 10 unidades de cada tipo en estuche sellado.
+* **Cápsulas de Clonación (*Clone*):** 3 recipientes con 3,000 po de salmuera y diamantes consagrados.

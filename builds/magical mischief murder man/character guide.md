@@ -1,87 +1,108 @@
-# Datos Generales
+# 🎭 Guía de Personaje — Magical Mischief Murder Man
 
-System Standard: D&D 5th Edition (2024 / 5.5e Update)
+**Build:** Magical Mischief Murder Man  
+**Clase:** Sorcerer (Wild Magic) 1 / Rogue (Swashbuckler) 19  
+**Especie:** Human (Reglas 2024 / MotM)  
+**Trasfondo:** Charlatan / Entertainer (Dote de Origen: *Alert*)  
+**Sistema:** D&D 5th Edition (Reglas 2024 / 5.5e & 2014)  
+**Rol:** Mobile Skirmisher Nova / Duelist Striker / Ultimate Social Infiltrator & Skill Master  
+**Documentos Relacionados:**
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/magical%20mischief%20murder%20man/character%20guide%202024.md)
+* [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/magical%20mischief%20murder%20man/bastion%20and%20downtime.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/magical%20mischief%20murder%20man/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/magical%20mischief%20murder%20man/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/magical%20mischief%20murder%20man/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/magical%20mischief%20murder%20man/actual%20inventory%20list.md)
 
-Character Level: 20
+---
 
-Class Split: Sorcerer (Wild Magic) 1 / Rogue (Swashbuckler) 19
+## 📊 Atributos y Estadísticas (Nivel 20)
 
-Species: Humano + Alert (Feat de Nivel 1)
+| Atributo | Puntuación | Modificador | Salvación Base | Notas Defensivas |
+| :--- | :---: | :---: | :---: | :--- |
+| **Fuerza (STR)** | 8 | -1 | -1 | Atributo de descarte |
+| **Destreza (DEX)** | 20 | +5 | +11 (Competente) | Ataques de estoque, iniciativa, CA y sigilo |
+| **Constitución (CON)** | 14 | +2 | +8 (Competente) | Salvación base de Sorcerer |
+| **Inteligencia (INT)** | 10 | 0 | 0 | Habilidades investigativas |
+| **Sabiduría (WIS)** | 12 | +1 | +7 (Slippery Mind) | Competencia adquirida por *Slippery Mind* |
+| **Carisma (CHA)** | 18 | +4 | +10 (Slippery Mind) | Iniciativa Swashbuckler, *Panache* y engaño |
 
-Stats:
+* **Puntos de Golpe (PG):** 145 ($1\text{d}6 + 19\text{d}8 + 40 \text{ CON}$).
+* **Clase de Armadura (CA):**
+  * Studded Leather +3: $12 + 3 + 5 (\text{DEX}) = \mathbf{20}$.
+  * Con Capa y Anillo de Protección: $\mathbf{22}$.
+  * Con Reacción (*Shield*): $\mathbf{27}$.
+* **Iniciativa 2024:** $+5 (\text{DEX}) + 4 (\text{CHA - Rakish Audacity}) + 5 (\text{Alert}) = \mathbf{+14}$.
+* **Defensas Pasivas:** *Elusive* (ningún enemigo puede tener ventaja en tiradas de ataque contra ti), *Evasion* (0 daño en salvaciones DEX con éxito), *Uncanny Dodge* (reacción: daño a la mitad).
 
-- **FUER (STR):** 8 (-1) [[Volcado, estadística de descarte]]
-- **DES (DEX):** 17 (+3) (15 base + 2 racial) [[Estadística principal para ataques, iniciativa y CA]]
-- **CON:** 14 (+2) [[Suficiente para HP y mantener concentración]]
-- **INT:** 10 (0) [[Habilidades de investigación básica]]
-- **SAB (WIS):** 12 (+1) [[Percepción y tiradas de salvación]]
-- **CAR (CHA):** 16 (+3) (15 base + 1 racial) [[Utilizado para habilidades de interacción social (Face) y Panache de Swashbuckler]]
+---
 
-Actual Item List: ./actual inventory list.md
+## 🏷️ Matriz de Evaluación Táctica
 
-Roadmap de Progresión: ./roadmap.md
+| Categoría | Nivel | Justificación Mecánica |
+| :--- | :---: | :--- |
+| **Iniciativa y Duelo 1v1** | 🔵 S | $+14$ de iniciativa plana; *Rakish Audacity* activa el Sneak Attack sin requerir ventaja ni aliados si el enemigo está en combate individual. |
+| **Movilidad y Desacoplamiento** | 🔵 S | *Fancy Footwork* otorga *Disengage* gratuito contra cualquier objetivo atacado en cuerpo a cuerpo; permite aplicar *Booming Blade* y retirarse sin coste. |
+| **Burst Damage (Nova)** | 🔵 S | $1\text{d}8 + 5$ (Estoque) $+ 3\text{d}8$ (Booming) $+ 10\text{d}6$ (Sneak Attack 19) $+ 4\text{d}8$ (detonación secundaria por movimiento) = $\mathbf{76.0 \text{ daño total}}$. |
+| **Dominio Social y Provocación** | 🔵 S | *Panache* (Carisma vs Perspicacia): fuera de combate hechiza sin hostilidad; en combate impone desventaja en ataques que no vayan hacia ti y anula AoO a aliados. Con *Reliable Talent*, tirada mínima de Persuasión = $\mathbf{26}$. |
+| **Supervivencia / EHP** | 🟢 A | CA 22 (27 con *Shield*), 4 salvaciones competentes (DEX, CON, WIS, CHA), *Elusive* y *Master Duelist* (reroll con ventaja si fallas un ataque). |
+| **Economía de Recursos** | 🔵 S | El combo no consume ranuras de conjuros de nivel alto; funciona indefinidamente asalto tras asalto sin agotamiento. |
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+---
 
-Combat Role: Striker de Ráfaga Móvil / Face del grupo / Experto en Habilidades (Skill Monkey)
+## 🧮 Motor Matemático (2024 Ruleset)
 
-## 1. Gestión de Recursos y Reglas de Inventario
+### 1. Garantía de Iniciativa Turno 1
+Con un bonificador plano de $+14$:
+$$\text{Media de Iniciativa} = 10.5 + 14 = \mathbf{24.5}$$
+$$P(\text{Iniciativa } \geq 20) = \frac{15}{20} = \mathbf{75.0\%}$$
+Garantiza actuar antes que los comandantes enemigos en el $90\%$ de los encuentros.
 
-- **Economía de Recursos y Manos:**
-  - **Armas:** Daga en mano principal (para lanzar/combate cuerpo a cuerpo) y un Estoque en la mano principal (Finesse). Al usar la regla de Foco Universal de la mesa, un único anillo o amuleto que sirva de foco canaliza todos los conjuros sin requerir manos libres.
-  - **Innate Sorcery:** Recurso clave del Sorcerer (2024). Concede 1 minuto de ventaja en tiradas de ataque con conjuros de Sorcerer (incluyendo cantrips de espada). Se recupera en Descanso Largo.
-- **Gestión de Espacios/Ranuras:**
-  - Con Sorcerer 1, el personaje dispone de 2 espacios de conjuro de nivel 1. Se guardan estrictamente para lanzar _Shield_ o _Absorb Elements_ en situaciones de emergencia.
-  - Al no ser Swashbuckler una clase lanzadora, el nivel unificado de lanzador es 1.
+### 2. Daño por Asalto (Booming Blade + Sneak Attack 10d6)
+Con modificador de ataque $+11$ ($+5 \text{ DEX} + 6 \text{ PB}$):
+Frente a un enemigo con CA 18 (probabilidad de impacto $P = 0.70$):
+$$\text{Daño Base de Impacto} = 1\text{d}8 + 5 (\text{Estoque}) + 3\text{d}8 (\text{Booming Blade}) + 10\text{d}6 (\text{Sneak Attack}) = 9.5 + 13.5 + 35.0 = \mathbf{58.0 \text{ daño medio}}$$
+Al retirarse con *Fancy Footwork*, el enemigo debe moverse para alcanzar al personaje, detonando el daño secundario de trueno:
+$$\text{Daño Secundario Booming} = 4\text{d}8 = \mathbf{18.0 \text{ daño trueno}}$$
+$$\text{DPR Total con Movimiento Enemigo} = 58.0 + 18.0 = \mathbf{76.0 \text{ de daño por turno}}$$
 
-## 2. Action Economy & Combat Loop
+Si el ataque inicial falla, la habilidad **Master Duelist** (Swashbuckler 17) permite repetir la tirada con **Ventaja**:
+$$P_{\text{impacto final}} = 1 - (1 - 0.70) \times (1 - 0.70)^2 \approx \mathbf{97.3\%}$$
 
-- **Preparación (Pre-Combate):**
-  - Si se sospecha de un combate inminente, utilizar la dote **Alert** para asegurar actuar primero en el orden de iniciativa e intercambiarla con un aliado si es necesario.
-- **Action:**
-  - **Turno 1 [Innate Sorcery activa]:** Acción: Lanzar **Booming Blade** usando el Estoque (Daño del estoque + Sneak Attack garantizado gracias a la ventaja + daño de trueno del cantrip).
-  - **Turnos 2+ [Enemigo aislado]:** Acción: Lanzar **Booming Blade**. Gracias a _Fancy Footwork_ (Swashbuckler), tras realizar un ataque cuerpo a cuerpo contra una criatura, esta no puede realizar ataques de oportunidad contra ti el resto del turno. Te retiras sin gastar acción de Disengage.
-- **Bonus Action:**
-  - **Turno 1:** 🔵 **Innate Sorcery** (activa ventaja automática durante 1 minuto en cantrips de Sorcerer).
-  - **Turnos 2+:** **Cunning Action** (Dash para reposicionarse a gran velocidad o Hide si hay cobertura disponible).
-- **Reaction:**
-  - 🔵 **Shield:** +5 CA reactivo contra un impacto directo.
-  - 🟢 **Absorb Elements:** Reducción de daño elemental recibido y daño extra en el siguiente ataque.
-  - 🟢 **Uncanny Dodge:** Reducir a la mitad el daño de un ataque que te impacte (si no tienes slots para Shield o es un golpe crítico físico).
+### 3. Supervivencia Efectiva (EHP)
+Con CA 22 pasiva (27 con *Shield*) y *Elusive* (inmunidad a ventaja de atacantes):
+Frente a un atacante con $+14$ contra CA 22:
+$$P(\text{impactar}) = \frac{21 - (22 - 14)}{20} = \frac{13}{20} = 0.65 \quad (65\%)$$
+Con *Uncanny Dodge* reduciendo el daño a la mitad:
+$$\text{EHP Pasivo} = \frac{145}{0.65 \times 0.50} \approx \mathbf{446.1 \text{ EHP}}$$
+Con *Shield* activo (CA 27, acierto solo con 13-20, $P = 0.40$):
+$$\text{EHP con Shield} = \frac{145 + 100 (\text{Sanctum THP})}{0.40 \times 0.50} = \frac{245}{0.20} = \mathbf{1{,}225.0 \text{ EHP}}$$
 
-## 3. The META Combo: Innate Booming Murder
+---
 
-El núcleo de la build aprovecha que los cantrips de espada como **Booming Blade** e **True Strike** de 2024 requieren una tirada de ataque como parte de la acción de lanzar un conjuro. Al ser conjuros de Sorcerer, la habilidad **Innate Sorcery** del Sorcerer nivel 1 les otorga **Ventaja automática** en la tirada de ataque. Esta ventaja permanente durante 1 minuto activa el **Sneak Attack** del Rogue de forma incondicional cada turno.
+## 🔄 Bucle Táctico de Combate (Action Loop)
 
-1. **Activar Innate Sorcery (BA):** Concedes ventaja a todos tus conjuros de Sorcerer durante 1 minuto.
-2. **Lanzar Booming Blade (Acción):** Realizas un ataque con tu estoque con ventaja. Al impactar, aplicas el daño del Estoque + el daño de Booming Blade + **Sneak Attack** (por tener ventaja).
-3. **Fancy Footwork (Pasiva Swashbuckler):** Te retiras a una distancia segura sin provocar ataques de oportunidad del objetivo. El enemigo se ve obligado a moverse si quiere atacarte, activando el daño secundario de Booming Blade.
+```mermaid
+flowchart TD
+    A[Inicio del Asalto: Iniciativa +14] --> B[Actuar Primero en el Turno 1]
+    B --> C[Action: Booming Blade con Rapier + Sneak Attack 10d6 = 58 daño]
+    C --> D[Fancy Footwork: Desacople gratuito sin provocar Ataque de Oportunidad]
+    D --> E[Bonus Action: Cunning Action Dash - Reubicación a 60 ft]
+    E --> F[Turno Enemigo: ¿Se mueve para perseguir?]
+    F -- Sí --> G[Detonación de Booming Blade: +18 daño de trueno]
+    F -- No --> H[Enemigo queda aislado e inútil a distancia]
+    G & H --> I[Reaction: Shield CA 27 o Uncanny Dodge daño a la mitad]
+```
 
-🧮 Mathematical Engine (D&D 5e 2024 — Nivel 11, CA enemigo 17):
+### Turno 0 (Preparación)
+* Activar *Innate Sorcery* (2024) para 1 minuto de ventaja en conjuros de hechicero o preparar postura de duelo.
+* Emplear *Alert* para intercambiar iniciativa con un aliado si la estrategia del grupo lo requiere.
 
-**Estadísticas de ataque a nivel 11:**
+### Turno 1 (Impacto y Desacople)
+1. **Action:** Ejecutar *Booming Blade* con el Estoque contra el objetivo prioritario. Se activa el *Sneak Attack* de $10\text{d}6$ incondicionalmente mediante *Rakish Audacity* o ventaja de *Innate Sorcery*.
+2. **Movimiento:** Retirarse 30 pies hacia atrás sin consumir la acción de *Disengage* gracias a *Fancy Footwork*.
+3. **Bonus Action:** Activar *Cunning Action: Dash* para alejarse otros 30 pies (distancia total de separación: 60 pies).
 
-- Modificador de ataque: +9 (DEX 20 tras ASIs, PB +4) con ventaja (gracias a Innate Sorcery).
-- Daño de Estoque: $1\text{d}8 + 5$ perforante (promedio: 9.5).
-- Daño de Booming Blade (Nivel 11): $2\text{d}8$ trueno adicional (promedio: 9) + $3\text{d}8$ trueno si se mueve (promedio: 13.5).
-- Sneak Attack (Rogue 10): $5\text{d}6$ daño de precisión (promedio: 17.5).
-
-$$\text{P(Impactar sin ventaja)} = \frac{21 - (17 - 9)}{20} = 0.65$$
-$$\text{P(Impactar con ventaja)} = 1 - (1 - 0.65)^2 = 1 - 0.1225 = 0.8775$$
-$$\text{DPR promedio sostenido (con movimiento enemigo)} = 0.8775 \times (9.5 + 9 + 17.5 + 13.5) = 0.8775 \times 49.5 = 43.43 \text{ daño/turno}$$
-
-## 4. Rogue (Swashbuckler) / Sorcerer Blueprint
-
-El Swashbuckler aporta la capacidad de actuar como el "Face" definitivo gracias a la dependencia compartida de Charisma con el Sorcerer y habilidades de manipulación en combate.
-
-| Nivel | Clase    | Habilidad Clave                 | Impacto en Combate | Notas                                                                      |
-| :---: | :------- | :------------------------------ | :----------------: | :------------------------------------------------------------------------- |
-|   1   | Sorcerer | Innate Sorcery, Cantrips        | 🔵 Extraordinario  | Otorga ventaja incondicional y defensa con Shield.                         |
-|   4   | Rogue 3  | Fancy Footwork, Rakish Audacity |      🟢 Alto       | Permite retirarse gratis tras atacar y Sneak Attack adicional sin ventaja. |
-|  10   | Rogue 9  | Panache                         |      🟢 Alto       | Provoca enemigos (tanque por evasión) o seduce fuera de combate.           |
-|  18   | Rogue 17 | Master Duelist                  |      🟢 Alto       | Permite repetir un ataque fallido por descanso corto/largo.                |
-
-## 5. Home Rules
-
-1. **Foco Universal Único:** Un único foco de cualquiera de las clases del personaje canaliza e inicia todos sus conjuros. Ignora las restricciones de manos libres y componentes somáticos/materiales (sin coste en oro específico) si el personaje viste o empuña dicho foco.
-2. **Progresión Full Caster Integrada:** Nivel de lanzador unificado de 1.
+### Turnos Subsiguientes
+* Si un enemigo peligroso hostiga al grupo: Usar Acción para aplicar ***Panache*** (Persuasión enfrentada a Perspicacia; con *Reliable Talent*, el resultado mínimo es 26). El enemigo queda obligado a atacarte a ti con desventaja contra todos tus aliados.
+* Mantener el ciclo de castigo y evasión.

@@ -1,69 +1,68 @@
-# 🏰 Bastión y Tiempo Muerto — Furious Paradox
+# 🏰 Bastión y Tiempo Muerto — Furious Paradox: The Raging Bladesinger
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / 5.5e)
 
-- **Nombre del Bastión:** El Bastión de la Paradoja (The Paradox Bastion)
-- **Nivel de Bastión (Bastion Level):** 20
-- **Puntos de Bastion (Bastion Points - BP):** 125
-- **Puntuación de Mando (Bastion Defender Stats):** STR 13, DEX 20, CON 14, INT 20, WIS 9, CHA 8
+* **Nombre del Bastión:** El Bastión de la Paradoja (*The Paradox Bastion*)
+* **Ubicación:** Una aguja élfica de cristal suspendida sobre un cañón glacial azotado por vientos salvajes, uniendo la civilización arcana y la taiga indómita.
+* **Nivel de Bastión (Bastion Level):** Nivel 20
+* **Puntos de Bastión (Bastion Points - BP):** 520 BP acumulados
+* **Bonificador de Defensa de Bastión:** **+11** ($5_{\text{INT}} + 6_{\text{PB}}$)
 
-### Instalaciones Básicas (Basic Facilities)
+---
 
-1. **Dormitorio (Bedchambers):** Una habitación dividida en dos: un área de estudio repleta de pergaminos y una sección rústica con pieles de animales.
-2. **Comedor (Dining Hall):** Una larga mesa de roble donde conviven eruditos arcanos y cazadores tribales.
-3. **Espacio Común (Common Room):** Un salón rústico con biblioteca y trofeos de caza.
+### 🏛️ Instalaciones Básicas (Basic Facilities)
 
-### Instalaciones Especiales (Special Facilities)
+1. **Aposentos de Cristal y Pieles (Bedchambers):** Habitación dividida en dos ambientes: una biblioteca élfica iluminada por orbes arcanos y un lecho rústico de pieles de oso.
+2. **Refectorio de la Paradoja (Dining Hall):** Mesa comunal donde conviven magos eruditos de alta cuna y cazadores berserker tribales.
+3. **Sala Común de Trofeos y Tratados (Common Room):** Salón con cráneos de monstruos abatidos y estanterías de tratados de magia primordial.
+4. **Almacén de Reactivos y Acero (Storage):** Reserva de pergaminos finos, viales de tinta mágica y lingotes de acero élfico.
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+---
 
-* **Laboratorio Arcano (Laboratory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Alquimia Expansiva.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Preparación de elixires de resistencia y pociones de combate para potenciar la furia.
-* **Estudio Arcano (Arcane Study) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Transcripción de Conjuros Sin Concentración.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite copiar conjuros arcanos en el libro que se activan antes de la Furia (*Fire Shield*, *Mirror Image*, *Longstrider*).
-* **Casa de Fieras (Menagerie) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Crianza y Extracción de Ingredientes Salvajes.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Proporciona componentes orgánicos de bestias para rituales arcanos y elixires de furia.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Danza de la Furia.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Práctica combinada de la danza de hojas (*Bladesong*) y la furia destructiva de Bárbaro.
-* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Equilibrio Mente-Furia.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga ventaja en salvaciones de Inteligencia y Constitución, manteniendo el foco analítico en combate.
-* **Demiplano de la Paradoja (Demiplane) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Dominio Extrapolar.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga 100 PG temporales tras un descanso largo y refugio seguro fuera de las leyes de la física.
+### 🔮 Instalaciones Especiales (Special Facilities — 6 Slots Nivel 20: 4 Roomy + 2 Vast)
 
-### Seguidores y Personal (Staff & Hirelings)
+```mermaid
+flowchart TD
+    A["Inicio del Turno de Bastión (Semanal)"] --> B["Orden 1: Laboratorio Alquímico (Pociones de Velocidad y Curación)"]
+    A --> C["Orden 2: Estudio Arcano (Copia de Conjuros Sin Concentración)"]
+    A --> D["Orden 3: Pabellón de Danza Marcial (Bladesong & Furia)"]
+    A --> E["Orden 4: Cámara de Meditación (Equilibrio Mente-Instinto)"]
+    A --> F["Orden 5: Círculo de Teletransporte (Tránsito Planar y Élfico)"]
+    A --> G["Orden 6: Demioplan de la Paradoja (Reserva +100 THP)"]
+```
 
-- **Administrador (Major Domo):** Archivaldo, un viejo mago elfo obsesionado con la bibliografía arcana.
-- **Defensores:** 6 guardias bárbaros del clan del oso y 4 familiares menores de tipo lechuza.
-- **Especialistas:** Alquimista a cargo de las pociones de furia y un escriba para copiar libros de conjuros.
+1. **Laboratorio Alquímico (Laboratory — Roomy, Nivel 5):**
+   * *Orden de Bastión:* **Craft.**
+   * *Efecto Mecánico:* Elaboración acelerada de *Potions of Speed*, *Potions of Supreme Healing* y elixires de resistencia física a mitad de coste.
+2. **Estudio Arcano y Scriptorium (Arcane Study — Roomy, Nivel 5):**
+   * *Orden de Bastión:* **Research / Craft.**
+   * *Efecto Mecánico:* Permite transcribir conjuros al libro de magia a 25 po por nivel (en lugar de 50 po) y fabricar pergaminos de conjuros sin concentración (*Fire Shield*, *Mirror Image*, *Longstrider*).
+3. **Pabellón de Danza Marcial y Furia (Training Grounds — Roomy, Nivel 9):**
+   * *Orden de Bastión:* **Train.**
+   * *Efecto Mecánico:* Concede Inspiración Heroica permanente al Bladesinger al salir del bastión y entrena a los guardias en técnicas de esquiva acrobática.
+4. **Cámara de Meditación Trascendental (Meditation Chamber — Roomy, Nivel 9):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Sincroniza la furia salvaje con la fría lógica arcana. Otorga un talismán que concede Ventaja en salvaciones de Inteligencia y Constitución durante 7 días.
+5. **Círculo de Teletransporte Permanente (Vast — Nivel 13):**
+   * *Orden de Bastión:* **Maintain.**
+   * *Efecto Mecánico:* Enlace planar que conecta la aguja glacial con las cortes élficas de Evermeet y los enclaves tribales del norte.
+6. **Demioplano de la Paradoja / Sanctum Atemporal (Vast — Nivel 17):**
+   * *Orden de Bastión:* **Empower.**
+   * *Efecto Mecánico:* Tras completar un descanso largo en el demioplano, el personaje absorbe un campo de distorsión entrópica que le otorga **+100 Puntos de Golpe Temporales** y resistencia al daño de Fuerza y Psíquico.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Copia y Búsqueda de Conjuros Raros
+### Prioridad 1: Búsqueda y Transcripción de Conjuros Raros
 
-- **Mecánica Base:** DMG (Copying Spells).
-- **Bonificadores Aplicables:** Modificador de INT (+5) y rasgos de escuela (si aplica).
-- **Coste por Día/Semana:** 50 po por nivel de conjuro.
-- **Objetivo de Optimización:** Encontrar y copiar conjuros de preparación sin concentración (como _Fire Shield_ o _Crown of Stars_) para ampliar tu arsenal táctico de pre-combate.
+* **Mecánica Base:** DMG 2024 / Xanathar's Guide to Everything.
+* **Tiradas y Recursos:** Inteligencia (+5 con herramientas de calígrafo).
+* **Objetivo de Optimización:** Localizar pergaminos arcanos de alto nivel (*Mind Blank*, *Foresight*, *Crown of Stars*, *Simulacrum*) e integrarlos al grimorio principal.
 
-### Prioridad 2: Entrenamiento Físico y Mental
+### Prioridad 2: Destilación de Pociones de Combate
 
-- **Mecánica Base:** DMG (Training).
-- **Bonificadores Aplicables:** Modificador de DEX (+5) e INT (+5).
-- **Progreso Actual:** Entrenando para perfeccionar la dote _Mobile_ para aumentar tu velocidad y evitar ataques de oportunidad en primera línea.
+* Elaboración de *Potions of Speed* (Aceleración) para combates donde no se desee gastar ranuras altas.
 
 ---
 
@@ -71,52 +70,13 @@
 
 ### Velocidades de Movimiento Base
 
-- **Caminar (Walk):** 40 pies (ft.) (30 ft. base + 10 ft. de Bladesong / Bárbaro Fast Movement a nivel alto si aplica, o dotes).
-- **Trepar (Climb):** 40 ft.
-- **Nadar (Swim):** 40 ft.
-- **Volar (Fly):** —
+* **Caminar (Walk):** **40 ft/turno** (30 ft Base + 10 ft *Fast Movement* de Bárbaro; **50 ft/turno** durante *Bladesong* y **60 ft** con *Longstrider*).
+* **Trepar (Climb):** 40 ft/turno.
+* **Nadar (Swim):** 40 ft/turno.
+* **Volar (Fly):** 60 ft/turno mediante el conjuro *Fly*.
 
-### Modificadores y Multiplicadores de Viaje
+### Modificadores y Sentidos de Exploración
 
-- **Ritmo de Viaje Preferido:** Normal.
-- **Visión en la Oscuridad:** 60 ft. (racial de Elfo).
-- **Habilidades de Exploración:** Ventaja en pruebas de Acrobacias durante Bladesong.
-
-### Logística de Transporte y Monturas
-
-- **Montura Activa:** Lobo de guerra entrenado para desplazamientos rápidos en terreno montañoso.
-  - _Velocidad de la Montura:_ 50 ft.
-  - _Mecánica de Combate Montado:_ Permite entrar y salir de combate con facilidad y proteger la línea de avance.
-- **Vehículos / Vehículos de Carga:** Carro ligero de transporte y armería compacta.
-- **Capacidad de Carga Absoluta:** 350 lbs.
-
----
-
-## 🎭 Reputación, Facciones y Red de Contactos
-
-### Facciones Activas
-
-1. **La Academia de la Arcana Salvaje:**
-   - _Rango / Título:_ Investigador de Campo
-   - _Reputación / Favor:_ Aliado
-   - _Beneficio Mecánico:_ Acceso a bibliotecas de conjuros y componentes de alto valor.
-2. **Los Guardianes del Bosque:**
-   - _Rango / Título:_ Protector de la Frontera
-   - _Reputación / Favor:_ Neutral
-   - _Beneficio Mecánico:_ Guías y reparaciones de campamento para viajes largos.
-
-### Red de Contactos (Contacts & Informants)
-
-- **Archivaldo (Ciudad de los Pergaminos):** Asistente de laboratorio y fuente de tomos raros.
-- **Mara de la Frontera (Bosques del Norte):** Cazadora experta que abastece de materiales orgánicos.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-- **Percepción Pasiva (Passive Perception):** 15 (10 + 0 WIS + 5 PB)
-- **Investigación Pasiva (Passive Investigation):** 20 (10 + 4 INT + 6 PB)
-- **Perspicacia Pasiva (Passive Insight):** 14 (10 + 0 CHA + 4 PB)
-- **Idiomas Conocidos:** Común, Élfico, Druidico.
-- **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Alquimista (+8), Herramientas de Escritor (+8).
-- **Sinergias Fuera de Combate:** Muy fuerte para rastreo, exploración y preparación de pociones o objetos de supervivencia.
+* **Visión en la Oscuridad:** 60 ft (Linaje Élfico).
+* **Percepción Pasiva:** 15 (10 - 1 WIS + 6 PB con competencia élfica).
+* **Trance Élfico:** Descanso largo completado en 4 horas de meditación sin dormir. Inmune al sueño mágico.

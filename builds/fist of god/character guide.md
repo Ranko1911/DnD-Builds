@@ -1,87 +1,128 @@
-# Guía de Personaje — Fist of God
+# Guía de Personaje — Fist of God (The Merciful War Arbiter)
 
 ## Datos Generales
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+* **System Standard:** D&D 5th Edition (2024 / 5.5e Update & 2014 Compatibility)
+* **Character Level:** 20 (Monk [Way of Mercy] 12 / Cleric [War Domain] 8)
+* **Species:** Wood Elf (Dote de Origen: *Fey Touched* — Sabiduría +1, Misty Step, Silvery Barbs)
+* **Background:** Acolyte / Hermit (Atributos: Destreza +2, Sabiduría +1)
+* **Stats (Point Buy + Racial + ASIs):**
+  * **FUER (STR):** 8 (-1) *(Standard Array)*
+  * **DES (DEX):** 20 (+5) *(15 Base + 2 Racial + 2 ASI Nivel 9 + 2 ASI Nivel 13)*
+  * **CON:** 14 (+2) *(14 Base — Puntos de golpe y concentración)*
+  * **INT:** 10 (+0) *(Standard Array)*
+  * **SAB (WIS):** 20 (+5) *(15 Base + 1 Fey Touched Nivel 5 + 2 ASI Nivel 16 + 2 ASI Nivel 20 o Tomo)*
+  * **CAR (CHA):** 8 (-1) *(Standard Array)*
 
-Character Level: 20
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/fist%20of%20god/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/fist%20of%20god/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/fist%20of%20god/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/fist%20of%20god/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/fist%20of%20god/actual%20inventory%20list.md)
+  * [Guía de Personaje 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/fist%20of%20god/character%20guide%202024.md)
 
-Class Split: Monk (Way of Mercy) 12 / Cleric (War Domain) 8
+---
 
-Species: Elfo de la Selva (Wood Elf) + Dote de Origen: Fey Touched
+## Combat Role: Divine Martial Striker, Automatic Debuffer & Tactical Combat Medic
 
-Stats:
+El **Fist of God** combina la fluidez cinética del **Monje del Camino de la Misericordia (12)** con el poder bélico y la magia del **Clérigo del Dominio de la Guerra (8)**.
 
-* **FUER (STR):** 8 (-1) [[Atributo de descarte]]
-* **DES (DEX):** 20 (+5) (15 Base + 2 Racial + 3 ASI) [[Ataques, CA de Monje sin armadura e iniciativa]]
-* **CON:** 14 (+2) (14 Base) [[Puntos de golpe totales y concentración de conjuros]]
-* **INT:** 10 (+0) (10 Base) [[Atributo neutral]]
-* **SAB (WIS):** 20 (+5) (15 Base + 1 Racial + 4 ASI) [[CA de Monje, CD de Ki, CD de conjuros de Clérigo]]
-* **CAR (CHA):** 8 (-1) [[Atributo de descarte]]
+Su mecánica distintiva radica en aplicar la **Mano del Perjuicio (*Hands of Harm*)** junto con el rasgo *Physician's Touch*: al impactar a un enemigo, añade daño necrótico e impone la condición de **Envenenado (*Poisoned*)** de forma automática **sin conceder tirada de salvación**. Si un ataque crucial corre el riesgo de fallar, activa la reacción de **Ataque Guiado (*Guided Strike*)** (+10 a impactar) para asegurar la conexión del veneno.
 
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Gish de Primera Línea, Atacante de Daño Radiante/Necrótico, Sanador Táctico y Debilitador (Poisoner).
+---
 
 ## 1. Gestión de Recursos y Reglas de Inventario
 
-*   **Economía de Recursos y Manos:**
-    *   **Foco Universal Único:** Su canalizador sagrado está tatuado en las palmas de sus manos (o en sus vendajes de combate), sirviendo como foco unificado. Esto le permite combatir con las manos completamente libres para realizar golpes desarmados o empuñar una Espada Larga a dos manos (*Versatile*, 1d10 de daño base) como arma dedicada de Monje.
-*   **Gestión de Espacios/Ranuras (Lanzador Híbrido):**
-    *   Como Clérigo de nivel 8, cuenta con ranuras de conjuros hasta **Nivel 4** (4 de nivel 1, 3 de nivel 2, 3 de nivel 3, 2 de nivel 4).
-    *   Gestiona **12 Puntos de Ki** por descanso corto y **2 usos de Canalizar Divinidad** por descanso corto.
+* **Economía de Manos y Foco Corporal Consagrado:**
+  * **Foco Universal Tatuado:** Los vendajes y marcas rúnicas consagradas en sus palmas actúan como foco sagrado de Clérigo, permitiendo canalizar toda su magia sin portar amuletos físicos.
+  * **Espada Larga como Arma Dedicada de Monje (*Dedicated Weapon*):** Empuña una espada larga a dos manos ($1\text{d}10$ de daño versátil base) que utiliza Destreza (+5) para sus tiradas de ataque y daño, alternándola con patadas y codazos desarmados para artes marciales.
+* **Economía de Puntos de Ki y Ranuras Divinas:**
+  * **12 Puntos de Ki por Descanso Corto:** Alimentan *Flurry of Blows*, *Stunning Strike*, *Hand of Harm* y *Hand of Healing*. A nivel 11 (*Flurry of Healing and Harm*), no cuesta Ki extra aplicar curación o daño necrótico dentro de la Ráfaga de Golpes.
+  * **2 Usos de Canalizar Divinidad por Descanso Corto:** Dedicados a *Guided Strike* (+10 reactivo a un ataque propio) o *War God's Blessing* (+10 para un aliado).
+  * **Ranuras de Clérigo hasta Nivel 4 (4/3/3/2):** Utilizadas para pre-buffs ofensivos (*Divine Favor*, *Spirit Guardians*, *Death Ward*, *Freedom of Movement*).
+
+---
 
 ## 2. Action Economy & Combat Loop
 
-*   **Preparación (Pre-Combate):**
-    *   Lanzar *Divine Favor* (Acción Adicional, Nivel 1) para infundir todos sus ataques con daño radiante.
-*   **Action:**
-    *   **Turno 1 [Ataque Versátil + Veneno]:** Realizar 2 ataques con su espada larga a dos manos. Al impactar, puede gastar 1 punto de Ki para activar la Mano del Perjuicio (*Hand of Harm*), infligiendo daño necrótico adicional e imponiendo la condición de **Envenenado** (desventaja en ataques/chequeos) al enemigo sin tirada de salvación.
-    *   **Guided Strike (Canalizar Divinidad):** Si falla un ataque crucial (necesario para aplicar el veneno), usa su reacción para sumar un bono de +10 a la tirada, asegurando el impacto.
-*   **Bonus Action:**
-    *   **Divine Favor:** Activar en el Turno 1.
-    *   **Flurry of Blows (Ráfaga de Golpes):** Realizar 2 ataques desarmados adicionales, cada uno de los cuales sumará el daño radiante de *Divine Favor*.
-    *   **Hand of Healing (Mano de la Curación):** Curar a un aliado adyacente gastando Ki (sustituyendo uno de los ataques de la ráfaga de golpes).
-*   **Reaction:**
-    *   🔵 **Guided Strike:** Sumar +10 a una tirada de ataque propia que haya fallado.
-    *   🟢 **Deflect Missiles:** Reducir daño de proyectiles.
+* **Preparación (Pre-Combate / Turno 0):**
+  * Lanzamiento de *Divine Favor* (Acción Adicional, Nivel 1: +1d4 radiante a cada golpe durante 1 minuto) o *Spirit Guardians* (Nivel 3: aura de 15 ft de 3d8 radiante/necrótico y mitad de velocidad enemiga).
+  * Postura defensiva sin armadura: **CA 20 Base** ($10 + 5_{\text{DEX}} + 5_{\text{WIS}}$), elevable a 22 con *Bracers of Defense*.
+* **Action:**
+  * **Acción de Ataque (2 Ataques con Espada Larga a Dos Manos):**
+    * Ataque 1: Espada Larga con Destreza (+11 a impactar, 1d10 + 5 + 1d4 radiante).
+    * Al impactar: Detonar *Divine Strike* (+1d8 radiante del Clérigo de Guerra) y *Hands of Harm* ($1\text{d}8 + 5$ necrótico e inflige el estado **Envenenado sin salvación**).
+    * Ataque 2: Segundo golpe de espada larga (+11 hit).
+* **Bonus Action:**
+  * **Flurry of Blows (1 Ki):** 2 ataques desarmados ($1\text{d}8 + 5 + 1\text{d}4$ radiante cada uno). Uno de ellos puede sustituirse por una curación de *Hands of Healing* ($1\text{d}8 + 5 \text{ PG}$) para un aliado adyacente sin coste de acción.
+* **Reaction:**
+  * 🔵 **Guided Strike (Canalizar Divinidad):** Suma un bono plano de **+10** a una tirada de ataque que haya quedado corta, garantizando el impacto y la activación del veneno.
+  * 🟢 **Deflect Missiles:** Reduce daño de proyectiles a distancia en $1\text{d}10 + 5 + 12$.
+  * 🟡 **Slow Fall:** Reduce daño de caída en 60 puntos.
 
-## 3. The META Combo: El Toque Divino Envenenador
+---
 
-El combo del "Fist of God" radica en encadenar múltiples golpes infundidos con daño radiante y aplicar un veneno inevitable en el primer golpe exitoso:
+## 3. The META Combo: La Imposición del Juicio Envenenado
 
-1. **Paso 1 (Preparación):** El personaje activa *Divine Favor* (Acción Adicional). A partir de ese momento, cada golpe exitoso inflige +1d4 de daño radiante.
-2. **Paso 2 (Ataque y Recarga):** Realiza la acción de Ataque (2 golpes de espada larga de 1d10) y sigue con la Ráfaga de Golpes (2 golpes desarmados de 1d8). Son 4 ataques en total.
-3. **Paso 3 (Sinergia y Remate):** Al impactar el primero, activa *Hand of Harm* (1 Ki), sumando daño necrótico e imponiendo **Envenenado** sin salvación. Si el ataque hubiera fallado, activa *Guided Strike* (+10 reactivo) para forzar el impacto.
+```mermaid
+flowchart TD
+    A["Turno 0: Divine Favor (+1d4 Radiante en cada golpe)"] --> B["Acción de Ataque: 2 Golpes de Espada Larga (1d10)"]
+    B --> C["Ataque 1: ¿Impacto Confirmado?"]
+    C -- No --> D["Reacción: Guided Strike (+10 Automático) -> Impacto Forzado"]
+    C -- Sí --> E["Detonar Divine Strike (+1d8 Radiante) + Hands of Harm (+1d8+5 Necrótico)"]
+    D --> E
+    E --> F["Efecto Physician's Touch: ENEMIGO ENVENENADO SIN SALVACIÓN"]
+    F --> G["Ataque 2 de Espada: Con Enemigo en Desventaja"]
+    G --> H["Bonus Action: Flurry of Blows (2 Golpes Desarmados de 1d8+5+1d4)"]
+    H --> I["Total Asalto: 4 Ataques con Daño Mixto + Jefe Neutralizado"]
+```
 
-🧮 Mathematical Engine (Reglas 2014):
+### 🧮 Motor Matemático (Mathematical Engine)
 
-$$\text{Daño Espada Larga (2 Impactos)} = 2 \times (1d10 (\text{Espada}) + 5 (\text{DES}) + 1d4 (\text{Radiante})) = 2 \times 13 = 26 \text{ de daño medio}$$
+#### 1. Cálculo de Daño por Asalto (DPR con Divine Favor Activo)
 
-$$\text{Daño Desarmado (2 Impactos)} = 2 \times (1d8 (\text{Golpe}) + 5 (\text{DES}) + 1d4 (\text{Radiante})) = 2 \times 12 = 24 \text{ de daño medio}$$
+$$\text{Daño 2 Golpes de Espada Larga} = 2 \times \left[ 1\text{d}10 (5.5) + 5 (\text{DEX}) + 1\text{d}4 (2.5) \right] = 2 \times 13.0 = \mathbf{26.0 \text{ daño}}$$
 
-$$\text{Daño Mano del Perjuicio (1/turno)} = 1d8 (\text{Artes Marciales}) + 5 (\text{SAB}) = 9.5 \text{ de daño necrótico}$$
+$$\text{Daño Divine Strike (Clérigo 8)} = 1\text{d}8 = \mathbf{4.5 \text{ daño radiante}}$$
 
-$$\text{Daño Total del Asalto (4 Impactos)} = 59.5 \text{ de daño mixto (Radiante/Necrótico/Físico)}$$
+$$\text{Daño Hands of Harm (Monk 12)} = 1\text{d}8 (4.5) + 5 (\text{WIS}) = \mathbf{9.5 \text{ daño necrótico}}$$
 
-El enemigo queda envenenado (desventaja en ataques) automáticamente durante un asalto completo, protegiendo al Fist of God en primera línea.
+$$\text{Daño 2 Golpes Desarmados (Flurry)} = 2 \times \left[ 1\text{d}8 (4.5) + 5 (\text{DEX}) + 1\text{d}4 (2.5) \right] = 2 \times 12.0 = \mathbf{24.0 \text{ daño}}$$
 
-## 4. Monk (Way of Mercy) Blueprint
+$$\text{DPR Total del Asalto} = 26.0 + 4.5 + 9.5 + 24.0 = \mathbf{64.0 \text{ daño mixto (Radiante/Necrótico/Físico)}}$$
 
-La senda de la Misericordia permite curar y dañar alternativamente usando puntos de Ki:
+Con *Ascendant Dragon's Wrath Focus / Insignia of Claws +1*:
 
-| Habilidad de Misericordia | Coste de Ki | Daño/Curación | Efecto Adicional | Notas |
-| :---: | :---: | :---: | :--- | :--- |
-| Hand of Healing | 1 Ki | 1d8 + 5 (SAB) | Cura a un aliado | Puede usarse dentro de la Ráfaga de Golpes. |
-| Hand of Harm | 1 Ki | 1d8 + 5 (SAB) | Daño necrótico | Impone estado **Envenenado** sin salvación. |
-| Physician's Touch | — | — | Cura ceguera/sordera/parálisis | Aplicado al usar Hand of Healing. |
+$$\text{DPR Optimizado con Equipo Mágico} = 64.0 + 4 (\text{Insignia}) + 4 \times 3\text{d}6 (42.0) = \mathbf{110.0 \text{ daño por asalto}}$$
 
-## 5. Home Rules
+#### 2. EHP y Supresión Ofensiva Enemiga
 
-Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
-1. **Foco unificado corporal:** Sus tatuajes o vendajes consagrados actúan como foco de clérigo y monje, permitiendo canalizar toda su magia sin portar amuletos físicos.
-2. **Espada Larga como Arma de Monje:** Permite utilizar la Espada Larga con daño versátil de 1d10 como arma de clase para el monje sin perder la velocidad ni las artes marciales.
+$$\text{CA Base Pasiva} = 10 + 5 (\text{DEX}) + 5 (\text{SAB}) + 2 (\text{Bracers of Defense}) = \mathbf{22 \text{ CA Pasiva}}$$
+
+Al aplicar la condición de **Envenenado (*Poisoned*)** sin tirada de salvación:
+* Todas las tiradas de ataque del objetivo contra el Fist of God (y sus aliados) sufren **desventaja obligatoria**.
+* Contra CA 22 y desventaja, la probabilidad de que un enemigo con bonificador de +12 le impacte se reduce de un 55% base a solo un **30.2%**.
+
+$$\text{EHP Efectivo Dinámico} = \frac{\text{HP Base (154)}}{0.302} \approx \mathbf{509 \text{ EHP Efectivo}}$$
+
+---
+
+## 4. Tabla de Clasificación Táctica de Habilidades
+
+| Habilidad / Recurso | Tipo | Coste | Evaluación | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Hands of Harm** | Ofensiva/Debuff | 1 Ki (o gratis en Flurry) | 🔵 | Inflige daño necrótico e impone **Envenenado sin salvación**, anulando la ofensiva del jefe enemigo. |
+| **Guided Strike** | Modificador | 1 Canalizar Divinidad | 🔵 | +10 reactivo a una tirada de ataque fallida, garantizando que el veneno y los castigos conecten. |
+| **Hands of Healing** | Soporte | 1 Ki (o gratis en Flurry) | 🟢 | Sana $1\text{d}8 + 5$ PG y cura condiciones como ceguera, sordera o parálisis dentro del ciclo de ataque. |
+| **Spirit Guardians** | Área/Control | Ranura Nivel 3 | 🔵 | $3\text{d}8$ de daño radiante por asalto a 15 pies y reducción de velocidad del 50% combinada con la movilidad del monje. |
+| **Death Ward** | Defensiva | Ranura Nivel 4 | 🟢 | Previene la caída a 0 PG durante 8 horas sin requerir concentración. |
+| **Evasion** | Defensiva | Pasiva Monje 7 | 🟢 | Anula el daño en salvaciones de Destreza superadas y reduce a la mitad en fallos. |
+| **Purity of Body** | Pasiva | Monje 10 | 🟢 | Inmunidad total al veneno y las enfermedades. |
+
+---
+
+## 5. Reglas de la Casa (Home Rules)
+
+1. **Foco Corporal Sagrado:** Los vendajes o tatuajes rúnicos en las manos actúan como foco sagrado de clérigo y monje, prescindiendo de amuletos empuñados.
+2. **Espada Larga como Arma Dedicada:** Califica como arma de Monje versátil (1d10), permitiendo ejecutar artes marciales y Ráfaga de Golpes tras blandirla con ambas manos.

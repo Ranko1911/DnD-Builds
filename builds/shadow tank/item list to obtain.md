@@ -1,13 +1,14 @@
-# Objetos a Obtener — Shadow Tank
+# 🎒 Lista de Objetos a Obtener — Shadow Tank: The Umbral Juggernaut
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+### ⚙️ Gestión de Ranuras de Sintonización (Attunement: 3/3 Máximo a Nivel 20)
 
-* **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-* **Tier 2 (Niveles 5-10):** Cloak of Protection (1 slot), Ring of Protection (1 slot), Weapon of Warning (1 slot). (Total: 3).
-* **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Amulet of Health (1 slot), Ring of Protection (1 slot). (Total: 3).
-* **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of Health (1 slot). (Total: 3).
+| Ranura | Objeto Sintonizado | Bono Clave Otorgado | Justificación Mecánica |
+| :---: | :--- | :--- | :--- |
+| **Slot 1** | **Cloak of Displacement** | Desventaja permanente en ataques enemigos | Al combinarla con *Foresight*, fuerza a cualquier atacante a superar Desventaja absoluta para si quiera rozar tu armadura. |
+| **Slot 2** | **Amulet of Health** *(o Ring of Spell Turning)* | Fija Constitución en 19 (+4) | Eleva los Puntos de Golpe máximos a 205 (efectivamente 410 EHP con la Furia del Oso). |
+| **Slot 3** | **Ascendant Dragon's Wrath Greatsword +3** | +3 Ataque/Daño, +3d6 daño elemental, Aliento 12d6 | Multiplica el daño por impacto del espadón con Carisma y genera críticos colosales en 19-20. |
 
 ---
 
@@ -15,8 +16,10 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Cloak of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. Incrementa tu aguante general. |
-| **Weapon of Warning (Greatsword)** | Sí | [⚔️ Sí] | **Priorizar 2:** Otorga ventaja en tiradas de iniciativa e inmunidad a la sorpresa para todo el grupo a 30 pies. |
+| **Cloak of Protection** | Sí | ⚔️ Sí | **Priorizar 1:** +1 a la CA y +1 a todas las tiradas de salvación. |
+| **Weapon of Warning (Greatsword)** | Sí | ⚔️ Sí | **Priorizar 2:** Ventaja en tiradas de iniciativa e inmunidad a la sorpresa para todo el grupo a 30 pies. |
+| **Half-Plate Armor** | No | — | **Prioridad Alta:** Armadura media estándar ($15 + 2_{\text{DEX}} = 17\text{ CA}$). No requiere sintonización. |
+| **Bag of Holding** | No | — | **Prioridad Media:** Almacenamiento esencial para pertrechos y trofeos del Páramo Sombrío. |
 
 ---
 
@@ -24,8 +27,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones adicionales. |
-| **Cloak of Displacement** | Sí | [—] | Prioridad Alta. Impone desventaja a ataques enemigos. Excelente combinación con tu Furia para que no te impacten y prolongar tu armadura de Agathys. |
+| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 1:** +1 a CA y salvaciones (apila con la capa para +2 total). |
+| **Cloak of Displacement** | Sí | ⚔️ Sí | **Priorizar 2 (META):** Impone Desventaja a los ataques enemigos. Prolonga la vida del escudo de 25 THP de *Armor of Agathys*. |
+| **Half-Plate +1** | No | — | **Priorizar 3:** CA pasiva sube a 18 sin consumir sintonización. |
 
 ---
 
@@ -33,8 +37,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Amulet of Health** | Sí | [⚔️ Sí] | **Priorizar 1:** Otorga CON 19 (+4), elevando sustancialmente tu HP máximo (que se duplica por furia). |
-| **Greatsword +3** | No | [—] | Prioridad Media. +2 a golpear y daño (no requiere sintonización). |
+| **Amulet of Health** | Sí | ⚔️ Sí | **Priorizar 1:** Fija Constitución en 19 (+4 mod). Eleva los puntos de golpe brutos sustancialmente. |
+| **Half-Plate +2** | No | — | **Priorizar 2:** CA pasiva sube a 19 sin sintonización. |
+| **Espadón +3 (Greatsword +3)** | No | — | **Prioridad Alta:** +3 a tiradas de ataque y daño mágico plano sin consumir ranura de sintonización. |
 
 ---
 
@@ -42,14 +47,17 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Leadership and Influence** | No | [—] | **Priorizar 1:** Incremento permanente de +2 a Carisma (superando el límite de 20), mejorando tus tiradas de ataque y daño Lifedrinker. |
-| **Ring of Spell Turning** | Sí | [⚔️ Sí] | Prioridad Media. Ventaja contra conjuros de objetivo individual e intenta devolverlos. |
+| **Ascendant Dragon's Wrath Greatsword +3** | Sí | ⚔️ Sí | **Priorizar 1 (META):** +3 al ataque/daño, +3d6 de daño elemental por golpe. Arma de aliento de 12d6 (1/día). |
+| **Half-Plate +3** | No | — | **Priorizar 2:** CA pasiva alcanza **20 CA** ($15 + 3 + 2_{\text{DEX}}$) sin sintonización. |
+| **Tome of Leadership and Influence** | No | — | **Prioridad Alta:** +2 permanente a Carisma, elevando la estadística a 22 (+6 mod) y mejorando ataques y daño de *Lifedrinker*. |
+| **Ring of Spell Turning** | Sí | ⚔️ Sí *(Alternativo)* | Ventaja en salvaciones contra conjuros dirigidos y opción de reflejarlos al lanzador. |
 
 ---
 
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+## 🧪 Consumibles y Suministros Fabricados en el Bastión
 
-| Objeto | Rareza | Prioridad / Notas |
+| Objeto | Rareza | Efecto Táctico y Fabricación |
 | :--- | :---: | :--- |
-| **Half-Plate Armor +3** | Raro | **Prioridad 1:** Eleva tu CA base a 16 + 2 = 18 CA sin ocupar ranuras. |
-| **Greatsword +3** | Legendario | **Prioridad Alta:** +3 de ataque y daño mágico plano. |
+| **Scroll of Armor of Agathys (Nivel 5)** | Poco Común | Activa el escudo de 25 THP sin consumir los 4 espacios de pacto de combate. Fabricado en el Estudio Arcano por 150 po. |
+| **Potion of Supreme Healing** | Muy Raro | Recupera $10\text{d}4 + 20 \approx 45\text{ PG}$ en Acción Adicional bajo reglas 2024. |
+| **Potion of Speed** | Raro | Confiere el efecto de *Haste* (+2 CA, doble velocidad, 1 ataque extra) por 1 minuto sin concentración. |

@@ -1,86 +1,127 @@
-# Guía de Personaje — Le Biter
+# Guía de Personaje — Le Biter (The Master Virtuoso Duelist)
 
 ## Datos Generales
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+* **System Standard:** D&D 5th Edition (2024 / 5.5e Update & 2014 Compatibility)
+* **Character Level:** 20 (Fighter [Battle Master] 17 / Bard [College of Swords] 3)
+* **Species:** Variant Human (Dote de Origen: *Alert* / *Savage Attacker*)
+* **Background:** Noble / Gladiator (Atributos: Destreza +2, Carisma +1)
+* **Stats (Point Buy + Racial + ASIs):**
+  * **FUER (STR):** 8 (-1) *(Standard Array)*
+  * **DES (DEX):** 20 (+5) *(15 Base + 1 Racial + 4 ASI Niveles 4 y 6)*
+  * **CON:** 14 (+2) *(14 Base — Puntos de golpe y concentración)*
+  * **INT:** 10 (+0) *(Standard Array)*
+  * **SAB (WIS):** 10 (+0) *(Standard Array)*
+  * **CAR (CHA):** 16 (+3) *(13 Base + 1 Racial + 1 Fey Touched + 1 ASI/Telekinetic)*
 
-Character Level: 20
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/le%20biter/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/le%20biter/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/le%20biter/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/le%20biter/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/le%20biter/actual%20inventory%20list.md)
+  * [Guía de Personaje 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/le%20biter/character%20guide%202024.md)
 
-Class Split: Fighter (Battle Master) 17 / Bard (College of Swords) 3
+---
 
-Species: Humano Variante + Dote de Origen: Alerta (Alert)
+## Combat Role: Frontline Gish Tank, Master Duelist & Battlefield Marshal
 
-Stats:
+**Le Biter** combina la maestría táctica del **Battle Master (17)** con la gracia letal del **College of Swords (3)**. Es un esgrimista inalcanzable capaz de elevar su Clase de Armadura por encima de 30 mediante *Defensive Flourish* y *Shield*, controlar la iniciativa (+13 global) y descargar ráfagas de hasta 6 ataques por turno con *Action Surge* aplicando maniobras de derribo y floreos acumulativos.
 
-* **FUER (STR):** 8 (-1) [[Atributo de descarte]]
-* **DES (DEX):** 20 (+5) (15 Base + 1 Racial + 4 ASI) [[Ataques con estoque, iniciativa, salvaciones y CA]]
-* **CON:** 14 (+2) (14 Base) [[Puntos de golpe totales y concentración de conjuros]]
-* **INT:** 10 (+0) (10 Base) [[Atributo neutral]]
-* **SAB (WIS):** 10 (+0) (10 Base) [[Salvaciones y percepción neutral]]
-* **CAR (CHA):** 16 (+3) (13 Base + 1 Racial + 1 Dote Fey Touched + 1 Dote Telekinetic) [[Conjuros de bardo, usos de inspiración y habilidades sociales]]
-
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Gish de Primera Línea, Controlador Táctico y Líder del Grupo (Face).
+---
 
 ## 1. Gestión de Recursos y Reglas de Inventario
 
-*   **Economía de Recursos y Manos:**
-    *   **Foco Universal Único:** Su estoque actua como foco de lanzamiento de conjuros gracias al rasgo de la subclase *College of Swords*. Esto le permite sostener un estoque en una mano y un escudo (+2 CA) en la otra sin verse penalizado para lanzar magia de bardo o guerrero.
-*   **Gestión de Espacios/Ranuras:**
-    *   Cuenta con ranuras de conjuro de nivel 1 (4) y nivel 2 (2) como Bardo de nivel 3. Las utiliza principalmente para soporte rápido y defensas mágicas (*Shield*, *Mirror Image*, *Silvery Barbs*).
-    *   Gestiona **6 Dados de Superioridad (d10)** que se recuperan con descanso corto y **3 Dados de Inspiración Bardica (d6)** que se recuperan con descanso largo.
+* **Economía de Manos y Foco Universal:**
+  * **Estoque Foco (*Sword Focus*):** El estoque cuenta como foco de lanzamiento de conjuros de Bardo gracias al rasgo de subclase *College of Swords*. Esto permite empuñar un estoque en la mano principal y un escudo (+2 base, +5 mágico) en la secundaria sin entorpecer los componentes somáticos o materiales de sus conjuros.
+* **Economía de Ranuras y Dados de Superioridad:**
+  * **Dados de Superioridad (6d10 por Descanso Corto):** Utilizados para maniobras críticas (*Trip Attack*, *Riposte*, *Precision Attack*, *Goading Attack*). Si inicia combate sin dados a nivel 15, recupera 1 automáticamente (*Relentless*).
+  * **Dados de Inspiración Bárdica (3d6 por Descanso Largo):** Alimentan los *Blade Flourishes* (*Defensive*, *Slashing*, *Mobile*).
+  * **Espacios de Conjuro:** 4 ranuras de Nivel 1 y 2 ranuras de Nivel 2 reservadas para *Mirror Image* (defensa sin concentración), *Hold Person* (críticos automáticos), *Silvery Barbs* y *Shield*.
+
+---
 
 ## 2. Action Economy & Combat Loop
 
-*   **Preparación (Pre-Combate):**
-    *   Lanzar *Mirror Image* para crear copias ilusorias que absorban impactos antes de entrar en melé.
-*   **Action:**
-    *   **Turno 1 [Ataque Triple]:** Realizar 3 ataques con su Estoque usando Destreza. Al impactar, puede aplicar en el mismo golpe una Maniobra de Guerrero y un Floreo de Bardo.
-    *   **Action Surge:** Ejecutar una segunda acción de ataque completo (3 ataques adicionales) o lanzar un conjuro de control como *Hold Person*.
-*   **Bonus Action:**
-    *   **Inspiración Bardica:** Dar dados de apoyo a aliados.
-    *   **Silvery Barbs:** Forzar fallos de enemigos y otorgar ventaja a aliados de forma reactiva (o como reacción).
-*   **Reaction:**
-    *   🔵 **Shield:** Aumentar temporalmente la CA en +5 hasta el inicio de su siguiente turno.
-    *   🟢 **Riposte (Contraataque):** Si un enemigo falla un ataque contra él, consume un dado de superioridad para realizar un ataque de estoque inmediato como reacción.
+* **Preparación (Pre-Combate / Turno 0):**
+  * Lanzamiento de *Mirror Image* (nivel 2, sin concentración) para desplegar 3 duplicados ilusorios. Postura de combate con CA pasiva 26.
+* **Action:**
+  * **Acción de Ataque (3 Ataques de Estoque con Extra Attack x2):**
+    * **Ataque 1:** Estoque con Destreza (+14 a impactar). Al impactar, activa *Trip Attack* (daño +1d10, CD de Fuerza 19 para derribar al enemigo al suelo (*Prone*)) e incidentalmente *Defensive Flourish* (+1d6 al daño y +1d6 a la CA propia).
+    * **Ataques 2 y 3:** Se realizan con **ventaja total** contra el objetivo derribado.
+  * **Action Surge (2 usos por Descanso Corto a Nivel 17):** Ejecuta una segunda acción de ataque completa con otros 3 impactos a placer.
+* **Bonus Action:**
+  * **Second Wind:** Recupera $1\text{d}10 + 17$ puntos de golpe.
+  * **Inspiración Bárdica:** Otorga un dado de apoyo a un aliado en momentos cruciales.
+* **Reaction:**
+  * 🔵 **Riposte (Battle Master):** Si un enemigo falla un ataque cuerpo a cuerpo contra él, gasta 1 dado de superioridad para realizar un ataque de estoque reactivo inmediato sumando el d10 al daño.
+  * 🔵 **Shield / Silvery Barbs:** Eleva la CA en +5 reactivamente o anula un crítico hostil forzando un reroll.
 
-## 3. The META Combo: Floreo de Superioridad Acumulada
+---
 
-La fuerza del build radica en combinar en un único impacto un dado de superioridad de *Battle Master* y un dado de floreo de *Swords Bard*:
+## 3. The META Combo: La Vorágine del Duelista Intocable
 
-1. **Paso 1 (Preparación):** El guerrero realiza sus 3 ataques con ventaja. Al impactar el primero, activa la maniobra *Trip Attack* (CD 19 de Fuerza) para derribar al enemigo.
-2. **Paso 2 (Ataque y Recarga):** En ese mismo impacto, activa *Defensive Flourish* del Bardo de las Espadas, sumando 1d6 al daño y añadiendo el resultado a su Clase de Armadura hasta su siguiente turno.
-3. **Paso 3 (Sinergia y Remate):** Con el enemigo derribado en el suelo, realiza los otros 2 ataques de su acción principal con ventaja absoluta cuerpo a cuerpo. Su CA se eleva a niveles absurdos.
+El motor ofensivo-defensivo de **Le Biter** combina la caída del enemigo con el disparo de su propia armadura a niveles que anulan los bonificadores de ataque de jefes de rango mítico:
 
-🧮 Mathematical Engine (Reglas 2014):
+```mermaid
+flowchart TD
+    A["Inicio Turno (Iniciativa +13)"] --> B["Ataque 1: Estoque con Trip Attack + Defensive Flourish"]
+    B --> C{"¿Impacto Confirmado?"}
+    C -- Sí --> D["Enemigo Derribado (Fuerza CD 19) + Suma 1d6 a CA Propia"]
+    C -- No --> E["Usar Precision Attack si fuese necesario"]
+    D --> F["Ataques 2 y 3: Con Ventaja Absoluta (Enemigo Prone)"]
+    F --> G{"¿Activar Action Surge?"}
+    G -- Sí --> H["Ataques 4, 5 y 6 con Ventaja y Daño Completo"]
+    G -- No --> I["Mantener Posición Defensiva Intocable (CA 30+)"]
+```
 
-$$\text{Daño Ataque Base} = 3 \times (1d8 (\text{Estoque}) + 5 (\text{DES})) = 3 \times 9.5 = 28.5 \text{ de daño}$$
+### 🧮 Motor Matemático (Mathematical Engine)
 
-$$\text{Daño Maniobra (Trip)} = 1d10 = 5.5 \text{ de daño}$$
+#### 1. Cálculo de Daño por Asalto (DPR Base — 3 Ataques de Estoque)
 
-$$\text{Daño Floreo (Defensive)} = 1d6 = 3.5 \text{ de daño}$$
+$$\text{Daño Impacto Base} = 1\text{d}8 (\text{Estoque}) + 5 (\text{DEX}) + 2 (\text{Dueling}) = 4.5 + 7 = 11.5$$
 
-$$\text{Daño Total del Asalto (Sin Action Surge)} = 37.5 \text{ de daño}$$
+$$\text{Ataque 1 con Maniobra y Floreo} = 11.5 + 1\text{d}10 (5.5) + 1\text{d}6 (3.5) = 20.5$$
 
-$$\text{Clase de Armadura con Floreo Defensivo} = 18 (\text{Placas}) + 2 (\text{Escudo}) + 1d6 (\text{Floreo}) = 23.5 \text{ de CA promedio (pudiendo subir a 28.5 con Shield)}$$
+$$\text{DPR Asalto Estándar} = 20.5 + 11.5 + 11.5 = \mathbf{43.5 \text{ daño físico medio}}$$
 
-## 4. Bard (College of Swords) Blueprint
+#### 2. Cálculo Nova con Action Surge (6 Ataques + Ascendant Dragon's Wrath Rapier +3)
 
-El College of Swords aporta floreos de combate versátiles que amplían la capacidad táctica del personaje:
+Con el *Ascendant Dragon's Wrath Rapier* (+3 y +3d6 elemental):
 
-| Floreo de Combate | Efecto de Daño | Efecto Secundario | Notas |
-| :---: | :---: | :--- | :--- |
-| Defensive Flourish | +1d6 | Sumar resultado a tu CA | Aumenta masivamente la supervivencia en melé. |
-| Slashing Flourish | +1d6 | Daño igual a otra criatura a 5 ft | Excelente para limpiar hordas menores. |
-| Mobile Flourish | +1d6 | Empujar 5+1d6 ft y teletransportarse | Movilidad y reposicionamiento inmediato. |
+$$\text{Daño por Impacto Optimizado} = 1\text{d}8 + 5 (\text{DEX}) + 2 (\text{Dueling}) + 3 (\text{Mágico}) + 3\text{d}6 (\text{Dracónico}) = 4.5 + 10 + 10.5 = 25.0$$
 
-## 5. Home Rules
+$$\text{Nova Turno Completo (6 Impactos)} = (6 \times 25.0) + 5.5 (\text{Trip}) + 3.5 (\text{Flourish}) = 150 + 9 = \mathbf{159.0 \text{ daño medio}}$$
 
-Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:
-1. **Foco de Espadas:** El estoque cuenta como foco de bardo y guerrero, permitiendo lanzar conjuros reactivos con escudo equipado sin penalizaciones de manos.
-2. **Action Surge Mágico:** Permite lanzar un conjuro de acción y realizar la acción de ataque en el mismo turno combinando la destreza marcial del guerrero y el bardo.
+*Al ejecutarse con ventaja contra un enemigo derribado en el ataque 1, la probabilidad de impacto roza el 95%, garantizando una descarga brutal.*
+
+#### 3. Proyección de Clase de Armadura Imposible
+
+$$\text{CA Base Pasiva} = 18 (\text{Placas}) + 3 (\text{Mágica +3}) + 2 (\text{Escudo}) + 3 (\text{Escudo +3}) + 1 (\text{Estilo Defensa}) = \mathbf{27 \text{ CA Pasiva}}$$
+
+Al aplicar *Defensive Flourish* ($1\text{d}6$, media 3.5) y el conjuro *Shield* (+5):
+
+$$\text{CA Activa en Combate} = 27 + 3.5 + 5 = \mathbf{35.5 \text{ CA Media (Pico de CA: 38)}}$$
+
+Combinado con la **Cloak of Displacement** (que impone desventaja constante a los atacantes), la probabilidad de que una criatura con bono mítico de +19 le impacte es inferior al 4%.
+
+---
+
+## 4. Tabla de Clasificación Táctica de Habilidades
+
+| Habilidad / Recurso | Tipo | Coste | Evaluación | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Action Surge (x2)** | Ofensiva | 1 Uso / SR | 🔵 | Duplica las acciones de ataque por turno (hasta 6 ataques completos); 2 usos por descanso corto. |
+| **Defensive Flourish** | Defensiva/Ofensiva | 1 Inspiración | 🔵 | Suma 1d6 al daño y el mismo resultado a la CA hasta el siguiente turno, escalando la armadura a 30+. |
+| **Trip Attack** | Control | 1 Dado Superioridad | 🔵 | Añade 1d10 al daño y derriba al objetivo al suelo (CD 19), otorgando ventaja a todos los ataques restantes. |
+| **Riposte** | Reacción | 1 Dado Superioridad | 🟢 | Castiga cualquier ataque fallido del enemigo con un ataque de estoque adicional fuera de tu turno. |
+| **Mirror Image** | Defensiva | Ranura Nivel 2 | 🟢 | Duplicados que desvían ataques sin requerir concentración. |
+| **Hold Person** | Control | Ranura Nivel 2 | 🟢 | Paraliza a humanoides para asegurar impactos críticos automáticos con los 6 ataques de Action Surge. |
+| **Indomitable (x3)** | Defensiva | 1 Uso / LR | 🔵 | Permite repetir hasta 3 salvaciones fallidas por descanso largo. |
+
+---
+
+## 5. Reglas de la Casa (Home Rules)
+
+1. **Estoque como Foco Universal:** El estoque actúa como foco arcano y de bardo, permitiendo el uso simultáneo de escudo de acero sin incurrir en penalizaciones somáticas.
+2. **Action Surge Híbrido:** Si se lanza un conjuro de acción completa, Action Surge permite realizar la acción de ataque con sus 3 ataques correspondientes sin restricciones adicionales.

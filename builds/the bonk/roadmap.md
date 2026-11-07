@@ -1,41 +1,48 @@
-# 🗺️ Hoja de Ruta de BONK (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Progresión — BONK (Niveles 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **BONK**, diseñado por el **Archivero de Optimización**. El build se enfoca en maximizar la cantidad de ataques cuerpo a cuerpo y la supervivencia a través de puntos de golpe temporales y resistencias físicas.
+Esta progresión optimiza la combinación de **Bárbaro (Path of the Beast)** y **Monje (Way of the Long Death)** para alcanzar el pico de 5 ataques por turno, invulnerabilidad táctica mediante *Mastery of Death*, y la integración completa del sistema de Bastiones (DMG 2024).
 
 ---
 
 ## 📊 Tabla de Progresión Completa (1 - 20)
 
-| Nivel Total | Clase y Nivel | PB | Hitos y Decisiones de Optimización | Espacios de Conjuro | Características Obtenidas |
-| :---: | :--- | :---: | :--- | :---: | :--- |
-| **1** | Barbarian 1 | +2 | Dado de golpe D12, salvaciones de CON/FUER y Furia inicial. | — | Rage, Unarmored Defense (Tortle) |
-| **2** | Barbarian 2 | +2 | Hito ofensivo: Ventaja en todos los ataques de Fuerza. | — | Reckless Attack, Danger Sense |
-| **3** | Barbarian 3 | +2 | Subclase: **Path of the Beast**. Garras del caos. | — | Form of the Beast (Garras/Fauces/Cola) |
-| **4** | Monk 1 | +2 | Transición a Monje. Ataques de artes marciales desarmados. | — | Martial Arts (1d4), Unarmored Defense (Ignorada) |
-| **5** | Monk 2 | +3 | Comienzo del uso de Ki. Flurry of Blows y velocidad. | — | Puntos de Ki (2), Unarmored Movement (+10 ft) |
-| **6** | Monk 3 | +3 | Subclase: **Way of the Long Death**. HP temporales al matar. | — | Touch of Death, Deflect Missiles |
-| **7** | Monk 4 | +3 | **Dote 1:** **Crusher** (+1 Fuerza a 18). | — | Slow Fall, Mejora de Atributo (ASI) |
-| **8** | Monk 5 | +3 | Hito mayor: Dos ataques en acción de ataque (3 con Garras). | — | Extra Attack, Stunning Strike, Artes Marciales (1d6) |
-| **9** | Monk 6 | +4 | Ataques desarmados mágicos y asustar en área sin coste. | — | Ki-Empowered Strikes, Hour of Reap |
-| **10** | Monk 7 | +4 | Evasión de daño en área reflejos. | — | Evasion, Stillness of Mind |
-| **11** | Monk 8 | +4 | **Dote 2:** **ASI** (+2 Fuerza a 20). Maximizando Fuerza. | — | Mejora de Atributo (ASI) |
-| **12** | Monk 9 | +4 | Correr sobre paredes y agua líquida. | — | Unarmored Movement (+15 ft), Mejora de Movimiento |
-| **13** | Monk 10 | +5 | Inmunidad a enfermedades y venenos. | — | Purity of Body |
-| **14** | Monk 11 | +5 | Supervivencia inmortal. Evitar caer a 0 PG usando Ki. | — | Mastery of Death, Artes Marciales (1d8) |
-| **15** | Monk 12 | +5 | **Dote 3:** **ASI** (+2 CON a 18) o **Tough**. | — | Mejora de Atributo (ASI), Unarmored Movement (+20 ft) |
-| **16** | Monk 13 | +5 | Comprensión y habla de todas las lenguas. | — | Tongue of the Sun and Moon |
-| **17** | Monk 14 | +6 | Competencia en absolutamente todas las salvaciones del juego. | — | Diamond Soul (La dote más rota defensiva de Monje) |
-| **18** | Monk 15 | +6 | Inmunidad al envejecimiento mágico y falta de comida/agua. | — | Timeless Body |
-| **19** | Monk 16 | +6 | **Dote 4:** **Tough** (Dureza) o **ASI** (Constitución a 20). | — | Mejora de Atributo (ASI), Unarmored Movement (+25 ft) |
-| **20** | Monk 17 | +6 | Capstone: Golpear el alma del enemigo infligiendo daño masivo. | — | Touch of the Long Death, Artes Marciales (1d10) |
+| Nivel Total | Clase y Nivel | PB | Hito y Elección de Optimización | Características Principales | Desbloqueo de Bastión |
+| :---: | :--- | :---: | :--- | :--- | :---: |
+| **1** | Barbarian 1 | +2 | Inicio D12 PG, salvaciones de CON/STR, Furia. | Rage (2/día), Unarmored Defense (CA 17 Tortle) | — |
+| **2** | Barbarian 2 | +2 | Ventaja constante en todos los ataques de Fuerza. | Reckless Attack, Danger Sense | — |
+| **3** | Barbarian 3 | +2 | Subclase: **Path of the Beast** (Garras). | Form of the Beast (Garras / Mandíbulas / Cola) | — |
+| **4** | Monk 1 | +2 | Transición a Monje: Golpe desarmado con bono. | Martial Arts (1d4), Unarmored Movement | — |
+| **5** | Monk 2 | +3 | Desbloqueo de Ki (2 puntos) y aceleración. | Flurry of Blows, Patient Defense, Step of the Wind | 🏰 **Bastión Nivel 5: Arena y Armería** |
+| **6** | Monk 3 | +3 | Subclase: **Way of the Long Death** (Absorción PG). | Touch of Death (+THP al matar), Deflect Missiles | — |
+| **7** | Monk 4 | +3 | **Dote 1:** **Crusher** (+1 STR a 18, empuje 5 ft). | Slow Fall, Mejora de Atributo (Crusher) | — |
+| **8** | Monk 5 | +3 | **Hito Mayor: Extra Attack** $\implies$ **5 Ataques/Turno**. | Extra Attack, Stunning Strike, Artes Marciales (1d6) | — |
+| **9** | Monk 6 | +4 | Ataques mágicos y terror en área sin coste. | Ki-Empowered Strikes, Hour of Reap (CD 16) | 🏰 **Bastión Nivel 9: Santuario y Foso** |
+| **10** | Monk 7 | +4 | Inmunidad a daño de área en salvaciones superadas. | Evasion, Stillness of Mind | — |
+| **11** | Monk 8 | +4 | **Dote 2:** **ASI (+2 STR)** $\implies$ Fuerza 20 natural (+5). | Mejora de Atributo (Fuerza 20) | — |
+| **12** | Monk 9 | +4 | Desplazamiento por muros verticales y líquidos. | Unarmored Movement (+15 ft, Muros y Agua) | — |
+| **13** | Monk 10 | +5 | Inmunidad total a enfermedades y venenos. | Purity of Body | 🏰 **Bastión Nivel 13: Cámara de Meditación** |
+| **14** | Monk 11 | +5 | **Inmortalidad Táctica: 1 HP por cada 1 Ki**. | Mastery of Death, Artes Marciales (1d8) | — |
+| **15** | Monk 12 | +5 | **Dote 3:** **Tough** (+30 PG inmediatos y +2/nivel). | Mejora de Atributo (Dote Tough) | — |
+| **16** | Monk 13 | +5 | Comprensión y comunicación en todos los idiomas. | Tongue of the Sun and Moon | — |
+| **17** | Monk 14 | +6 | **Defensa Suprema:** Competencia en todas las salvaciones. | Diamond Soul (Competencia en todas las TS + reroll) | 🏰 **Bastión Nivel 17: Gremio de Guerreros** |
+| **18** | Monk 15 | +6 | Inmunidad al envejecimiento y privación física. | Timeless Body | — |
+| **19** | Monk 16 | +6 | **Dote 4:** **ASI (+2 CON)** $\implies$ CON 18 (+4). | Mejora de Atributo (Constitución 18) | — |
+| **20** | Monk 17 | +6 | **Capstone:** Nova devastadora de $20\text{d}10$ de daño. | Touch of the Long Death, Artes Marciales (1d10) | — |
 
 ---
 
-## 🎯 Progresión de Dotes (Feats) Explicada
+## 📈 Análisis de Escalado por Niveles (Tiers of Play)
 
-1. **Triturador (Crusher) (Nivel 7 / Monk 4):**
-    * *Sinergia:* +1 Fuerza (alcanzando 18). Permite empujar 5 pies a un objetivo una vez por turno al golpearlo con daño de contundencia (tus golpes desarmados de Fuerza). Si consigues un golpe crítico, todos los ataques de tus aliados contra ese objetivo tienen ventaja durante un asalto.
-2. **Mejora de Característica (ASI) (Nivel 11 / Monk 8):**
-    * *Sinergia:* +2 Fuerza. Maximiza tu atributo de ataque principal a 20, asegurando la máxima precisión (+11 a impactar con PB +6) y +5 al daño plano por cada uno de tus 5 golpes por turno.
-3. **Dureza (Tough) (Nivel 15 / Monk 12):**
-    * *Sinergia:* Suma +30 puntos de golpe máximos instantáneamente (y +2 PG adicionales por nivel subsiguiente), lo cual añade una resistencia espectacular combinada con las resistencias de Furia.
+### Niveles 1 - 4 (Tier 1: Supervivencia Temprana y Motor de Garras)
+* **Punto de Inflexión (Nivel 3):** Al desbloquear *Path of the Beast*, cada turno de Furia genera 2 ataques de garra con Fuerza a nivel 3 (algo reservado normalmente para nivel 5 en otras clases). Combinado con la CA fija de 17 del caparazón Tortle y *Reckless Attack*, domina la vanguardia sin depender de equipo costoso.
+
+### Niveles 5 - 10 (Tier 2: Despegue de la Licuadora y Gestión de Bastión)
+* **Punto de Inflexión (Nivel 8 / Monk 5):** Se desbloquea *Extra Attack*. La acción de ataque ahora genera 3 golpes de garra ($1\text{d}6 + \text{STR} + \text{Rage}$), y la acción adicional aporta 2 ataques desarmados ($1\text{d}6 + \text{STR} + \text{Rage}$) vía *Flurry of Blows*. 5 ataques con ventaja en cada turno.
+* **Hito de Bastión (Nivel 5 y 9):** Se establecen la **Arena de Entrenamiento**, la **Armería**, el **Santuario Meditativo** y el **Salón de Juegos**, generando ingresos pasivos y dotes menores.
+
+### Niveles 11 - 16 (Tier 3: Inmortalidad Funcional con Mastery of Death)
+* **Punto de Inflexión (Nivel 14 / Monk 11):** Se desbloquea *Mastery of Death*. Al recibir daño letal que reduciría al personaje a 0 PG, gasta 1 punto de Ki para quedarse en 1 PG. Al contar con 11-16 puntos de Ki por descanso corto, se convierte en un tanque virtualmente inagotable.
+
+### Niveles 17 - 20 (Tier 4: Cúspide de Poder y Capstone Touch of Long Death)
+* **Punto de Inflexión (Nivel 17 / Monk 14):** *Diamond Soul* confiere competencia en las 6 tiradas de salvación con bono de +6, además de la opción de repetir cualquier tirada fallida por 1 punto de Ki.
+* **Nivel 20 (Monk 17):** Se desbloquea el remate *Touch of the Long Death*, permitiendo descargar hasta $20\text{d}10$ de daño necrótico en un solo impacto como acción de ráfaga final.

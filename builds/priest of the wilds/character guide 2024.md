@@ -1,60 +1,61 @@
-# Guía de Personaje — Priest of the Wilds (Edición 2024 / 5.5e)
+# 🏹 Guía de Conversión a Reglas 2024 (D&D 5.5e) — Priest of the Wilds
 
-## Datos Generales
-
-System Standard: D&D 5th Edition (2024 Ruleset - 5.5e)
-
-Character Level: 20 (Total)
-
-Class Split: Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8
-
-Species: Elfo de los Bosques (2024) [Dote de Origen: Alerta]
-
-Stats (Point Buy 2024 / Trasfondo):
-
-- **FUER (STR):** 8
-- **DES (DEX):** 20
-- **CON:** 14
-- **INT:** 8
-- **SAB (WIS):** 18
-- **CAR (CHA):** 10
-
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión 2024: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Ranged Divine Striker / Social Face / Utility
+**Clasificación del Archivero:** 🟢 **Build Competitivo / Francotirador Sagrado de Precisión y Control (2024 Precision Archer)**  
+**Reglas:** D&D 2024 Player's Handbook (5.5e)  
+**División de Clases:** Ranger (Fey Wanderer) 12 / Cleric (War Domain) 8  
+**Especie (2024):** Humano con Dote de Origen adicional o Elfo de los Bosques (*Fleet of Foot*: 35 ft velocidad base)  
+**Dote de Origen (Nivel 1):** *Alert* (Añade Bonificador de Competencia a Iniciativa y permite intercambiar turnos con aliados)  
 
 ---
 
-## 1. Gestión de Recursos y Reglas de Inventario (2024 Ruleset)
+## 🔄 Novedades y Ajustes Clave del Reglamento 2024
 
-- **Maestría de Armas (Weapon Masteries 2024):**
-  - **Longbow (Slow) & Shortbow (Vex):** Optimiza la economía de acciones y garantiza ventaja o daño secundario plano en cada asalto.
+### 1. Maestrías de Armas (Weapon Masteries 2024)
+* **Longbow (Slow):** Al impactar con el arco largo a distancia, reduce automáticamente la velocidad de movimiento del objetivo en **10 pies** hasta el inicio de tu siguiente turno sin tirada de salvación. Con 3 impactos por turno, puedes reducir la velocidad enemiga de forma sostenida para imposibilitar que te alcancen.
+* **Shortbow (Vex):** Si se utiliza un arco corto en distancias medias, cada impacto otorga **Ventaja automática en la siguiente tirada de ataque** contra ese mismo objetivo.
 
-- **Economía de Recursos 2024:**
-  - Integración completa de las reglas de 2024: dotes de origen a Nivel 1, preparación de conjuros ajustada a nivel de lanzador y sinergia de Acción Adicional.
+### 2. Explorador 2024 (*Ranger Class Features*)
+* **Marca del Cazador (*Hunter's Mark*):** Ahora se lanzan usos gratuitos de *Hunter's Mark* sin consumir ranuras de conjuro según tu bonificador de competencia, liberando tus ranuras de nivel 1 para *Bless*, *Goodberry* o *Shield of Faith*.
+* **Trotador Férico (*Fey Wanderer* 2024):** *Dreadful Strikes* se activa de forma automática sin consumir recursos adicionales, infligiendo daño psíquico plano en cada asalto.
 
----
+### 3. Clérigo de la Guerra 2024 (*War Domain 2024*)
+* **Sacerdote de Guerra (*War Priest*):** Permite realizar un ataque con arma como Acción Adicional un número de veces igual a tu modificador de Sabiduría ($+3$). En las reglas 2024, estos usos **se recuperan en cada Descanso Corto o Largo**, triplicando la frecuencia de disparos triples durante una jornada de mazmorra.
+* **Golpe Guiado (*Guided Strike*):** Se mantiene como Canalizar Divinidad reactivo (+10 a impactar).
 
-## 2. Action Economy & Combat Loop (2024)
-
-- **Preparación (Pre-Combate):**
-  - Lanzamiento de conjuros defensivos clave o habilidades de protección.
-- **Action:**
-  - **Turno 1:** Acción principal de ataque o lanzamiento de conjuro de área/control.
-  - **Turnos subsiguientes:** Ciclo de ataques con Weapon Mastery y habilidades avanzadas de subclase.
-- **Bonus Action:**
-  - Uso de habilidades de subclase, metamagia o ataques secundarios.
-- **Reaction:**
-  - Reacción principal de protección o contraataque.
+### 4. Ajuste de la Dote Francotirador (*Sharpshooter 2024*)
+* En el PHB 2024, *Sharpshooter* es una dote general que otorga $+1$ a Destreza, elimina la desventaja por disparar cuerpo a cuerpo (a 5 pies) e ignora la cobertura de tres cuartos y media hasta el alcance máximo.
+* Si la mesa utiliza la regla híbrida o el rasgo clásico de daño masivo ($-5$ a impactar por $+10$ de daño), el motor matemático aprovecha *Guided Strike* y *Bless* para neutralizar la penalización.
 
 ---
 
-## 3. The META Combo 2024: Dreadful Strikes + Otherworldly Glamour (WIS to Social) + War Priest
+## 🧮 Motor Matemático 2024 (LaTeX Math Engine)
 
-🧮 Mathematical Engine 2024:
+### 1. Cadencia Ofensiva Balística 2024 (Arco Largo + Slow)
+Con un bonificador de ataque base $+11$ ($+5$ DES, $+6$ Prof) y maestría *Slow*:
 
-$$\text{DPR Arquero Divino} = 3 \times (1\text{d}8 + 5 + 1\text{d}4 (\text{Dreadful})) + 1\text{d}8 (\text{Divine Strike}) = \mathbf{41.0 \text{ daño}}$$
+$$\text{Impacto contra CA 19} = \frac{21 - 8}{20} = \mathbf{0.65} \quad (65.0\%)$$
+$$\text{Impacto con Bless (+1d4 = +2.5)} = \frac{21 - 5.5}{20} = \mathbf{0.775} \quad (77.5\%)$$
+
+Con 3 disparos por asalto (Acción de ataque + *War Priest* como Acción Adicional):
+* Cada impacto inflige $1\text{d}8 + 5 \text{ (DES)} + 3 \text{ (Mágico)} + 1\text{d}6 \text{ (Hunter's Mark)} = 16.0 \text{ daño}$.
+* Divine Strike suma $+1\text{d}8 = 4.5$ y Dreadful Strikes suma $+1\text{d}6 = 3.5$.
+
+$$\text{DPR Sostenido 2024} = (3 \times 16.0) + 4.5 + 3.5 = \mathbf{56.0 \text{ Daño Monotarget Sostenido}}$$
+
+Si se utiliza la variante clásica de *Sharpshooter* ($-5/+10$):
+
+$$\text{DPR con Daño Masivo} = (3 \times 26.0) + 4.5 + 3.5 = \mathbf{86.0 \text{ Daño Monotarget a 600 Pies}}$$
+
+---
+
+## 🛡️ Bucle Táctico del Francotirador 2024
+
+* **Turno 0 / Pre-Combate:** *Pass without Trace* (+10 Sigilo grupal) para asegurar distancia de 600 pies y ronda de sorpresa.
+* **Turno 1:**
+  * **Bonus Action:** *Hunter's Mark* gratuita o *Bless* (+1d4 precisión).
+  * **Acción:** Ataque doble con Arco Largo aplicando propiedad *Slow* (-10 ft velocidad al jefe enemigo).
+* **Turno 2:**
+  * **Acción:** Ataque doble con Arco Largo.
+  * **Bonus Action:** Ataque extra de *War Priest* (tercer disparo).
+  * **Reacción:** *Guided Strike* (+10 plano) si alguna flecha falla.
+* **Control Férico Continuo:** *Beguiling Twist* como reacción cuando un enemigo supere una salvación de encanto/miedo, obligando a otro objetivo a salvar contra terror durante 1 minuto.

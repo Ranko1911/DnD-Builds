@@ -1,104 +1,77 @@
 # 🏰 Bastión y Tiempo Muerto — Spymaster
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+* **Nombre del Bastión:** La Red Sombra (The Shadow Net Citadel)
+* **Nivel de Bastión:** 20 (Capacidad Máxima)
+* **Puntos de Bastión (BP):** 120
+* **Puntuación de Mando y Defensas (Defender Stats):**
+  * STR 8 (-1), DEX 20 (+5), CON 14 (+2), INT 14 (+2), WIS 12 (+1), CHA 10 (+0)
+  * **Bonificador de Defensa de Bastión:** $\mathbf{+11}$ (+6 Competencia + 5 Destreza)
 
-* **Nombre del Bastión:** La Red Sombra (Shadow Net)
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 120
-* **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 20 (+5), CON 14 (+2), INT 14 (+2), WIS 12 (+1), CHA 10 (+0)
-
-### Instalaciones Básicas (Basic Facilities)
-
-1. **Dormitorio (Bedchambers):** Oculto detrás de una estantería giratoria en la biblioteca central.
-2. **Comedor (Dining Hall):** Diseñado con una mesa de conferencias tácticas y mapas interactivos.
-3. **Espacio Común (Common Room):** Centro de reuniones para informantes y espías de la red.
-
-### Instalaciones Especiales (Special Facilities)
-
-* **Taller (Workshop) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Crafting (Fabricar gadgets de infiltración, poleas, cables y herramientas).
-  * *Sinergia con el Build:* Como inventor e infiltrador, te permite diseñar herramientas a coste y tiempo reducidos.
-* **Taberna (Pub) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Gather Intel (Atraer viajeros y recopilar cotilleos o rumores).
-  * *Sinergia con el Build:* Sutil nido de espías ideal para recolectar información e identificar objetivos sin levantar sospechas.
-* **Laboratorio Alquímico (Laboratory) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Crafting (Fabricar venenos especiales o pociones de curación).
-  * *Sinergia con el Build:* Requiere herramientas de Alquimista (las cuales tienes). Te permite producir venenos para tus armas a mitad de coste.
-* **Escribanía (Scriptorium) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Research / Copy (Cifrar informes y falsificar documentos).
-  * *Sinergia con el Build:* Requiere foco de herramientas (el cual tienes). Imprescindible para el envío seguro de correspondencia secreta.
-* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Empower (Afinar el foco mental y las hojas psiónicas).
-  * *Sinergia con el Build:* Otorga ventajas en salvaciones mentales y potencia tu habilidad de *Psi-Bolstered Knack*.
-* **Gremio de Espías (Guildhall) (Nivel 17):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Trade / Influence (Dirigir la Red Sombra en todo el reino).
-  * *Sinergia con el Build:* Requiere pericia (la cual tienes). Establece tu monopolio de información nacional.
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Agente Varis (Ex-agente de la corona).
-* **Defensores / Guardias:** 12 Espías entrenados en tácticas de sigilo y 4 Guardias de élite.
-* **Artesanos / Especialistas:** Un alquimista experto que gestiona el laboratorio.
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión - Cada 7 Días] --> B[Emitir Órdenes a Instalaciones Especiales]
+    B --> C1[Taller: Fabricación de Gadgets, Ganzúas y Dagas de Retorno]
+    B --> C2[Taberna Sombra: Recopilación de Secretos y Escucha de Nobles]
+    B --> C3[Laboratorio de Toxinas: Destilación de Venenos Paralizantes]
+    B --> C4[Escribanía: Cifrado de Mensajes y Falsificación de Salvoconductos]
+    B --> C5[Cámara Psiónica: Afilado de Hojas Mentales y Concentración]
+    B --> C6[Gran Gremio de Espías: Control de la Red de Inteligencia y 100 THP]
+    C1 & C2 & C3 & C4 & C5 & C6 --> D[Resolver Eventos de Bastión d100]
+    D --> E[Cosecha de Recursos: Puntos de Bastión y Secretos de Estado]
+    E --> F[Fin del Turno de Bastión]
+```
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Registro de Instalaciones del Bastión (Nivel 20: 4 Roomy + 2 Vast)
 
-### Prioridad 1: Suministro de Venenos y Alquimia
-
-* **Mecánica Base:** DMG (Reglas de Fabricación de Venenos).
-* **Bonificadores Aplicables:** Competencia con Herramientas de Envenenador + Inteligencia (+4 total) + Guía (+1d4).
-* **Coste por Día/Semana:** 25 po / 3 días de trabajo.
-* **Objetivo de Optimización:** Abastecer de venenos a las dagas retornables y flechas para maximizar el daño de sigilo.
-
-### Prioridad 2: Entrenamiento de Idiomas y Herramientas
-
-* **Mecánica Base:** Xanathar's Guide to Everything.
-* **Bonificadores Aplicables:** Alta Inteligencia y Jack of All Trades (si aplica por dotes).
-* **Progreso Actual:** 5 / 10 semanas para aprender "Jerga de los Bajos Fondos" y "Herramientas de Falsificación".
+### Instalaciones Básicas (Basic Facilities - Gratuitas e Ilimitadas)
+1. **Camarote del Maestro de Espías (Bedchambers):** Alcoba oculta tras una biblioteca secreta con pasadizos de escape directos a las cloacas de la ciudad.
+2. **Sala de Conferencias Cifrada (Dining Hall):** Comedor con mesa de mapas tácticos donde los lugartenientes informan en clave jeroglífica.
+3. **Plaza de Informantes Común (Common Room):** Centro de descanso camuflado como taberna vulgar para mendigos, pícaros y correos secretos.
+4. **Almacén de Disfraces y Caches (Storage):** Depósito sellado con cerraduras mágicas de dificultad CD 30 para archivar pelucas, documentos comprometedores y gemas.
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+### Instalaciones Especiales (Special Facilities: Exactamente 6 al Nivel 20)
 
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 40 ft. (30 ft. base + 10 ft. por dote *Mobile*)
-* **Trepar (Climb):** 40 ft. (velocidad de trepar nativa obtenida de dotes o infusión de botas si aplica)
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 40 ft. (vía *Fly* o botas mágicas si están activas)
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Sigiloso (permite mantener el sigilo activo durante la marcha).
-* **Visión en la Oscuridad (Darkvision):** 120 ft. (60 ft. racial + 60 ft. por infusión de *Goggles of Night*).
-* **Habilidades de Exploración:** Alerta (evita sorpresas durante el viaje y da bonos a la iniciativa).
+| Instalación | Tamaño (DMG 2024) | Nivel Mínimo | Estado | Orden Activa | Sinergia con el Build |
+| :--- | :---: | :---: | :---: | :--- | :---: |
+| **Taller de Criptografía (Workshop)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Craft:* Fabricación de ganzúas de mitril, garruchas de sigilo y dagas con un 50% de descuento. | 🟢 **Excelente** |
+| **Taberna de los Rumores Sombra (Pub)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Gather Intel:* Atrae a mercaderes y nobles; genera 1d6 $\times$ 10 BP y desvela debilidades de enemigos. | 🔵 **Roto** |
+| **Laboratorio de Toxinas (Laboratory)** | **Roomy** | Nivel 9 | Activa (Maintain) | *Craft:* Síntesis de venenos de contacto y vapores aturdidores para untar en las dagas. | 🟢 **Excelente** |
+| **Escribanía y Falsificación (Scriptorium)** | **Roomy** | Nivel 9 | Activa (Maintain) | *Forge:* Elaboración de sellos reales falsificados y copiado de pergaminos de *Disguise Self* y *Invisibility*. | 🟢 **Excelente** |
+| **Cámara de Meditación Psiónica (Meditation Chamber)** | **Vast** | Nivel 13 | Activa (Maintain) | *Focus:* Afina la energía de las Hojas Psíquicas; otorga ventaja en salvaciones mentales para la siguiente misión. | 🔵 **Roto** |
+| **Gran Gremio de Espías del Reino (Guildhall)** | **Vast** | Nivel 17 | Activa (Maintain) | *Influence:* Monopolio del espionaje en todo el continente; concede **100 THP de reposo prolongado** al Spymaster. | 🔵 **Roto** |
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 👥 Guarnición y Personal de Mando (Staff & Garrison)
 
-### Facciones Activas
-
-1. **El Sindicato de la Llave de Bronce:**
-    * *Rango / Título:* Maestro Recopilador (Spymaster).
-    * *Reputación / Favor:* Aliado de Confianza.
-    * *Beneficio Mecánico:* Descuento del 20% en componentes mágicos y refugios seguros en grandes ciudades.
+* **Mayordomo Mayor (Major Domo):** Agente Varis (Ex-maestro de espías de la corona con lealtad absoluta al gremio).
+* **Guarnición Activa:**
+  * 16 Infiltradores Sombra armados con ballestas de mano y hojas envenenadas.
+  * 6 Mastines Silenciosos adiestrados para detección de intrusos invisibles.
+* **Personal Especialista:**
+  * 1 Maestro Alquimista Toxicólogo a cargo del laboratorio.
+  * 1 Criptógrafo Mayor especializado en descifrado de códigos planares.
+  * 2 Falsificadores Reales para duplicación de salvoconductos.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
 
-* **Percepción Pasiva (Passive Perception):** 23 (10 + 1 (SAB) + 12 (Expertise PB))
-* **Investigación Pasiva (Passive Investigation):** 24 (10 + 2 (INT) + 12 (Expertise PB))
-* **Perspicacia Pasiva (Passive Insight):** 17 (10 + 1 (SAB) + 6 (PB))
-* **Idiomas Conocidos:** Común, Elfo, Enano, Ladrón (Thieves' Cant), Silvano.
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Ladrón (+14), Kit de Envenenador (+8), Herramientas de Inventor (+8).
+### Prioridad 1: Síntesis de Venenos de Torpeza y Parálisis
+* **Objetivo:** Disponer de 30 dosis de veneno de contacto para armas sutiles.
+* **Mecánica:** Mediante el *Laboratorio de Toxinas* y herramientas de envenenador (Inteligencia $+8$), elaborar dosis a coste reducido.
+* **Ventaja Táctica:** Añade daño y condiciones de desventaja adicionales a los impactos de *Booming Blade*.
+
+### Prioridad 2: Falsificación de Identidades y Salvoconductos
+* **Objetivo:** Crear dossiers de identidad completos para penetrar cortes nobles o fortalezas militares sin combate.
+* **Mecánica:** Pruebas de herramientas de falsificación garantizadas con *Reliable Talent* (mínimo 27 en el dado).
+
+### Prioridad 3: Cartografía de Redes de Contrabando
+* **Objetivo:** Mantener refugios seguros (*safe houses*) en cada capital del mapa de campaña.
+* **Mecánica:** Infiltración mediante el *Gran Gremio de Espías*.

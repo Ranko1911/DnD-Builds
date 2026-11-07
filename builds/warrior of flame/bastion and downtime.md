@@ -1,106 +1,111 @@
 # 🏰 Bastión y Tiempo Muerto — Warrior of Flame
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+*Estructura de gestión de la base de operaciones, economía de bastión y mecánicas de mando.*
 
 * **Nombre del Bastión:** El Bastión de la Flama Sagrada (Phoenix Keep)
 * **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 118
-* **Puntuación de Mando (Bastion Defender Stats):** STR 15 (+2), DEX 8 (-1), CON 14 (+2), INT 8 (-1), WIS 10 (+0), CHA 20 (+5)
+* **Puntos de Bastión (Bastion Points - BP):** 118
+* **Puntuación de Mando (Bastion Defender Stats):** +11 al ataque y salvaciones defensivas (STR 15 [+2], DEX 8 [-1], CON 14 [+2], INT 8 [-1], WIS 10 [+0], CHA 20 [+5]).
+
+---
 
 ### Instalaciones Básicas (Basic Facilities)
 
-1. **Dormitorio (Bedchambers):** Una torre fortificada con amplios balcones orientados al amanecer para el vuelo del dragón.
-2. **Comedor (Dining Hall):** Mesa señorial de piedra con chimeneas talladas con efigies de dragones de oro.
-3. **Espacio Común (Common Room):** Un patio de armas y entrenamiento para paladines y acólitos.
+1. **Dormitorio Principal (Bedchambers):** Torre fortificada en la cúspide del bastión con amplios miradores orientados hacia el amanecer para despegar en vuelo directo (*Dragon Wings*).
+2. **Gran Salón de Banquetes (Dining Hall):** Mesa señorial de mármol con chimeneas de piedra volcánica talladas con efigies de dragones de oro.
+3. **Plaza de Armas y Patio Común (Common Area):** Patio fortificado con suelo de adoquín reforzado para formación de paladines y juramentos sagrados.
 
-### Instalaciones Especiales (Special Facilities)
+---
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+### Instalaciones Especiales (Special Facilities — Exactamente 6: 4 Roomy + 2 Vast)
 
-* **Armería Gremial (Armory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Forja de Armaduras Doradas.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Equipamiento y mantenimiento de placas de oro, espadones flamígeros y escudos para los paladines de la flama.
-* **Santuario Sagrado (Sanctuary) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Altar de la Flama Sagrada.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sitio de comunión sagrada que recarga Puntos de Lay on Hands y otorga bendiciones de Aura de Protección.
-* **Scriptorium (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Transcripción de Pergaminos Flamígeros.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Copiado de pergaminos sagrados y dracónicos (*Shield*, *Haste*, *Divine Smite*) a coste reducido.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Combate a Caballo / Montura Dracónica.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento en tácticas de carga sagrada y ataques con *Divine Smite* en primera línea.
-* **Relicario Dracónico (Reliquary) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Custodia de Reliquias de Oro.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Preservación de reliquias dracónicas y artefactos sagrados que potencian el Carisma y poder de conjuración.
-* **Sala de Guerra / Sagrario de la Flama (War Room) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Comando de la Cruzada de Fuego.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dirección táctica de la orden de caballeros que otorga ventaja en tiradas defensivas e iniciativas coordinadas.
+```mermaid
+flowchart TD
+    subgraph BastionTurn ["Ciclo de Turno de Bastión (Cada 7 Días)"]
+        A["Emisión de Órdenes Semanales"] --> B["Armería: Forja de Placas Doradas"]
+        A --> C["Santuario: Comunión con la Llama Sagrada"]
+        A --> D["Scriptorium: Transcripción de Pergaminos Dracónicos"]
+        A --> E["Campos de Entrenamiento: Maniobras Aéreas y de Montura"]
+        A --> F["Relicario: Custodia de Artefactos Sagrados"]
+        A --> G["Sala de Guerra: Comando de la Cruzada de Fuego"]
+        B & C & D & E & F & G --> H["Recaudación de BP y Renta Sagrada"]
+        H --> I["Resolución de Asaltos Hostiles y Bendiciones"]
+    end
+```
 
-### Seguidores y Personal (Staff & Hirelings)
+#### 1. Armería Gremial (Armory — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Equip & Maintain (Equipar a los Cruzados)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Forja y mantenimiento de armaduras de placas doradas, espadones flamígeros y escudos heráldicos para los defensores de la flama. Concede +4 a la defensa base del bastión.
 
-* **Capataz / Administrador (Major Domo):** Paladín Garen (Un veterano devoto del fuego sagrado).
-* **Defensores / Guardias:** 12 Caballeros armados y 4 Grifos de guardia.
-* **Artesanos / Especialistas:** Un escudero y forjador de reliquias sagradas.
+#### 2. Santuario Sagrado (Sanctuary — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Bless (Bendición y Comunión Sagrada)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Altar consagrado a la devoción y al dragón de oro. Proporciona agua bendita, restaura la reserva de *Lay on Hands* del personaje y otorga ventaja en tiradas de salvación contra maldiciones.
+
+#### 3. Scriptorium Arcano (Scriptorium — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Scribe (Transcribir Magia Dracónica)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Copiado de pergaminos sagrados y arcanos (*Shield*, *Fireball*, *Haste*, *Counterspell*) a mitad de tiempo y oro.
+
+#### 4. Campos de Entrenamiento Dracónico (Training Grounds — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Train (Entrenar Cruzados y Grifos)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Instrucción en combate a caballo y maniobras aéreas combinadas con *Dragon Wings*. Otorga al personaje +1d4 a su primera tirada de ataque tras salir del bastión.
+
+#### 5. Relicario Dracónico (Reliquary — Vast, Desbloqueo Nivel 13)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Empower (Custodia de Reliquias de Oro)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Cámara blindada consagrada a la memoria de dragones solares antiguos. Otorga al personaje inspiración heroica y ventaja en las tiradas de concentración de conjuros durante las primeras 24 horas.
+
+#### 6. Sala de Guerra y Mando de la Cruzada (War Room — Vast, Desbloqueo Nivel 17)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Mobilize (Comando y Despliegue de Vanguardia)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Cuartel general de la Orden de la Flama. Permite coordinar regimientos de paladines y lanzar ofensivas estratégicas con un bono marcial de mando de +11.
+
+---
+
+### Seguidores y Guarnición (Staff & Garrison)
+
+* **Capataz General (Major Domo):** Paladín Garen (Un veterano devoto de la orden del dragón de oro, incorruptible y estratega formidable).
+* **Guarnición Activa:**
+  * 16 Caballeros juramentados en armadura pesada y espada bendita.
+  * 4 Jinetes de Grifo para patrulla aérea fronteriza.
+  * 2 Clérigos forjadores de reliquias y armaduras mágicas.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Confección de Pergaminos de Fuego y Apoyo
+### Prioridad 1: Transcripción de Pergaminos de Fuego y Protección
+* **Mecánica Oficial:** DMG 2024 / XGE (Crafting Spell Scrolls).
+* **Bonificadores Aplicables:** Útiles de Escribano (+11), Carisma (+5) y suministros del Scriptorium.
+* **Objetivo:** Acumular pergaminos de *Shield*, *Haste* y *Revivify* para contingencias críticas de la compañía.
 
-* **Mecánica Base:** DMG (Reglas de Confección).
-* **Bonificadores Aplicables:** Competencia con Útiles de Escribano + Carisma (+11 total) + Guía (+1d4).
-* **Coste por Día/Semana:** 500 po / 1 semana de trabajo para pergaminos de nivel 4 o 5.
-* **Objetivo de Optimización:** Almacenar pergaminos de *Haste*, *Shield* o *Greater Invisibility* para optimizar el uso de ranuras del grupo en combates prolongados.
-
-### Prioridad 2: Entrenamiento / Dotes
-
-* **Mecánica Base:** DMG (Reglas de Entrenamiento).
-* **Bonificadores Aplicables:** Carisma e Inteligencia altos.
-* **Progreso Actual:** 5 / 10 semanas para aprender la dote "Mobile" o ganar competencia en la habilidad de Atletismo.
+### Prioridad 2: Consagración y Liderazgo Militar
+* **Mecánica Oficial:** XGE (Religious Service / Training).
+* **Objetivo:** Impartir bendiciones a las milicias locales, ganando favor divino e inspiración religiosa para expediciones en planos infernales.
 
 ---
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-### Velocidades de Movimiento Base
-
 * **Caminar (Walk):** 30 ft.
-* **Trepar (Climb):** 30 ft.
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 30 ft. (Gracias a las alas dracónicas permanentes de hechicero de nivel 14).
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Rápido (aéreo).
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (Racial/Dracónica).
-* **Habilidades de Exploración:** Capacidad de sobrevolar terrenos difíciles sin penalizaciones de movimiento.
+* **Vuelo Táctico (Fly):** 30 ft. ilimitado sin concentración gracias a *Dragon Wings* (Sorcerer 14).
+* **Iniciativa en Viaje:** -1 (o +4 con dote *Alert*).
+* **Aura de Protección Pasiva en Viaje:** Todo el grupo a 10 pies viaja protegido con +5 a cualquier tirada de salvación contra emboscadas, climas extremos o peligros ambientales.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🎭 Reputación y Facciones
 
-### Facciones Activas
-
-1. **La Orden del Dragón de Oro:**
-    * *Rango / Título:* Gran Comendador de la Llama (Grand Commander).
-    * *Reputación / Favor:* Aliado Venerado.
-    * *Beneficio Mecánico:* Permite solicitar el apoyo de caballeros templarios y adquirir pociones de fuego y curación a mitad de precio.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-* **Percepción Pasiva (Passive Perception):** 16 (10 + 0 (SAB) + 6 (PB))
-* **Investigación Pasiva (Passive Investigation):** 9 (10 - 1 (INT))
-* **Perspicacia Pasiva (Passive Insight):** 16 (10 + 0 (SAB) + 6 (PB))
-* **Idiomas Conocidos:** Común, Dracónico, Celestial.
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Herrero (+8), Útiles de Escribano (+11).
+1. **La Sagrada Orden de la Llama Dorada:** Gran Comandante del Fuego Celestial. Mando sobre templos filiales y hospicios fortificados.
+2. **El Cónclave de Dragones Metálicos:** Reconocido como emisario mortal del linaje de oro; paso libre por santuarios dracónicos.

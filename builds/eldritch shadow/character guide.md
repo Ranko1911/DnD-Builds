@@ -1,102 +1,109 @@
-# Resumen General del Personaje
+# 🗡️ Guía de Personaje — Eldritch Shadow
 
- ## Datos Generales
+**Build:** Eldritch Shadow (El Caballero Umbrío Definitivo)  
+**Clase:** Fighter (Eldritch Knight) 20  
+**Especie:** Variant Human  
+**Trasfondo:** Guard / Soldier (Dote de Origen: *War Caster*)  
+**Sistema:** D&D 5th Edition (Reglas 2024 / 5.5e & 2014)  
+**Rol:** Frontline Psychic Gish Striker / Lockdown Sentinel / Arcane Tank  
+**Documentos Relacionados:**
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/character%20guide%202024.md)
+* [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/bastion%20and%20downtime.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/actual%20inventory%20list.md)
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+---
 
-Character Level: 20
+## 📊 Atributos y Estadísticas (Nivel 20)
 
-Class Split: Fighter (Eldritch Knight) 20
+| Atributo | Puntuación | Modificador | Salvación Base | Notas Defensivas |
+| :--- | :---: | :---: | :---: | :--- |
+| **Fuerza (STR)** | 10 | 0 | +6 (Competente) | Salvación base de Fighter |
+| **Destreza (DEX)** | 20 | +5 | +5 | Ataques de Shadow Blade, iniciativa y CA |
+| **Constitución (CON)** | 18 | +4 | +10 (Competente) | Concentración con Ventaja (*War Caster*) |
+| **Inteligencia (INT)** | 16 | +3 | +3 | CD de conjuros de EK (CD 17) |
+| **Sabiduría (WIS)** | 12 | +1 | +7 (Resilient WIS) | Salvación con competencia vía dote |
+| **Carisma (CHA)** | 8 | -1 | -1 | Atributo de descarte |
 
-Species: Variant Human + War Caster (Feat de Nivel 1)
+* **Puntos de Golpe (PG):** 224 ($20\text{d}10 + 80 \text{ CON} + 40 \text{ Tough}$).
+* **Clase de Armadura (CA):**
+  * Studded Leather +3: $12 + 3 + 5 (\text{DEX}) = \mathbf{20}$.
+  * Shield +3: $+5$ a la CA.
+  * Estilo de Combate Defense: $+1$ a la CA.
+  * Cloak / Ring of Protection: $+2$ a la CA.
+  * **CA Pasiva Base:** $\mathbf{28}$.
+  * **CA con Reacción (*Shield*):** $\mathbf{33}$.
+* **Iniciativa:** $+5 (\text{DEX}) + 5 (\text{Alert}) = \mathbf{+10}$.
+* **Recursos de Guerrero:** 4 ataques por acción, 2 usos de *Action Surge*, 3 usos de *Indomitable*, *Arcane Charge* (teletransporte de 30 ft al usar Action Surge).
 
-Stats: STR 10, DEX 16, CON 16, INT 14, WIS 12, CHA 8
+---
 
-Actual Item List: ./actual inventory list.md
+## 🏷️ Matriz de Evaluación Táctica
 
-Roadmap de Progresión: ./roadmap.md
+| Categoría | Nivel | Justificación Mecánica |
+| :--- | :---: | :--- |
+| **Daño Sostenido (DPR)** | 🔵 S | 4 ataques por acción con *Shadow Blade* upcast a nivel 4 ($4\text{d}8 + 5$ psíquico por impacto) con **Ventaja automática** en luz tenue u oscuridad. |
+| **Burst Damage (Nova)** | 🔵 S | 2 usos de *Action Surge* al nivel 20; desata hasta 8 ataques de *Shadow Blade* en un solo asalto ($8 \times 23 = 184$ daño psíquico bruto). |
+| **Control de Campo y Lockdown** | 🔵 S | *Sentinel + War Caster*: Ataque de oportunidad lanza *Booming Blade*, inflige daño psíquico masivo y fija la velocidad del enemigo a 0 pies. |
+| **Supervivencia / EHP** | 🔵 S | CA 28 pasiva (33 con *Shield*), 224 PG base + 100 PG temporales del *Demiplane*, ventaja en concentración (*War Caster*) y 3 usos de *Indomitable*. |
+| **Economía de Acciones** | 🟢 A | *Shadow Blade* invocado como Bonus Action; 4 ataques fluidos por acción; teletransporte de 30 pies integrado en cada Action Surge (*Arcane Charge*). |
+| **Versatilidad Mágica** | 🟡 B | Lista de conjuros centrada en abjuración y evocación; cubre protección y daño personal pero carece de utilidad grupal amplia de full caster. |
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+---
 
-Combat Role: Frontline Gish Striker / Battlefield Controller (Daño mono-objetivo sostenido + control con Sentinel)
+## 🧮 Motor Matemático (2024 / 2014 Ruleset)
 
- 1. Gestión de Recursos y Reglas de Inventario
+### 1. Daño Sostenido por Asalto (Shadow Blade Nivel 4)
+Con *Shadow Blade* lanzado con la ranura de nivel 4:
+$$\text{Daño por Impacto} = 4\text{d}8 (\text{Psíquico}) + 5 (\text{DEX}) = 18.0 + 5.0 = \mathbf{23.0 \text{ daño por impacto}}$$
+En penumbra u oscuridad (condición de ventaja automática):
+Probabilidad base frente a CA 18 con bono $+11$: $P = 0.70$.
+Con Ventaja de sombra: $P_{\text{ventaja}} = 1 - (1 - 0.70)^2 = 1 - 0.09 = \mathbf{0.91} \quad (91\%)$.
+$$\text{DPR Base (4 Ataques)} = 4 \times 23.0 \times 0.91 = \mathbf{83.72 \text{ DPR sostenido}}$$
 
-*   **Economía de Recursos y Manos:**
-    *   **Shadow Blade** se invoca como Acción Adicional en combate (turno 1) y se sostiene con Concentración. Como arma de Finesse, beneficia de DEX para ataque y daño. El build no usa escudo para maximizar los dados de daño de Shadow Blade a 2 manos (2d8 base psíquico).
-    *   **Foco Arcano (Crystal Orb o equivalente):** La mesa aplica la Regla de Mesa de Foco Universal; cualquier foco canaliza e inicia todos los conjuros sin restricción de manos libres.
-*   **Gestión de Espacios/Ranuras:**
-    *   El Eldritch Knight tiene progresión de lanzador de 1/3 (máximo slots de nivel 4 a nivel 20). Gestiona los slots como recurso premium: Shadow Blade upcast en slot de nivel 3+ para 3d8 psíquico (nivel 7+), o nivel 4 para 4d8.
-    *   **Acción Adicional (Recuperada):** El Fighter recupera un uso de Action Surge con Descanso Corto. Prioridad táctica: guardar para el turno de burst o para reposicionarse vía Arcane Charge.
+### 2. Burst Damage Nova (Action Surge — 8 Ataques de Sombra)
+$$\text{Nova Turno 1} = 8 \times 23.0 \times 0.91 = \mathbf{167.44 \text{ daño efectivo}}$$
+*(Daño bruto con todos los impactos acertados: $8 \times 23.0 = \mathbf{184.0 \text{ daño psíquico}}$).*
 
- 2. Action Economy & Combat Loop
+### 3. Reacción de Cierre Táctico (Sentinel + War Caster Booming Blade)
+Si un enemigo intenta alejarse o atacar a un aliado adyacente:
+$$\text{Daño de Reacción} = 4\text{d}8 (\text{Shadow Blade}) + 5 (\text{DEX}) + 3\text{d}8 (\text{Booming Blade}) = 18.0 + 5.0 + 13.5 = \mathbf{36.5 \text{ daño instantáneo}}$$
+*Efecto Sentinel:* La velocidad del objetivo se reduce a **0 pies** inmediatamente, anulando su movimiento y dejándolo atrapado junto a ti.
 
-*   **Action:**
-    *   **Turno 1 (pre Nv. 7):** Atacar con la Acción usando Shadow Blade (si ya está activa de un turno anterior) o lanzar un conjuro de preparación como *Mirror Image*.
-    *   **Turno 1 (Nv. 7+ — War Magic activa):** Lanzar *Booming Blade* con la Acción (1 ataque + daño de trueno) → BA disponible para el ataque extra de War Magic.
-    *   **Turnos 2+ (Nv. 5-6):** Action: Extra Attack → 2 ataques con Shadow Blade.
-    *   **Turnos 2+ (Nv. 7+, ruta estándar):** Action: *Booming Blade* (1 ataque) + BA: War Magic (1 ataque adicional). Total: 2 ataques. A nivel 11: Action: Extra Attack (3 ataques) o *Booming Blade* + War Magic (2 ataques con BB activo).
-*   **Bonus Action:**
-    *   **Turno de setup:** Lanzar *Shadow Blade* (slot nivel 2, concentración). No se puede usar BA para War Magic el mismo turno que se lanza Shadow Blade con BA.
-    *   **Turnos con War Magic activa (Nv. 7+):** 1 ataque adicional tras lanzar Booming Blade con la Acción.
-    *   **Emergencia:** *Misty Step* para reposicionamiento (gasta un slot y bloquea War Magic ese turno).
-*   **Reaction:**
-    *   🔵 **Shield:** +5 CA reactivo ante un ataque que impacte. Gasta un slot de nivel 1.
-    *   🔵 **Sentinel (Oportunidad de Ataque):** Al activar, detiene el movimiento del enemigo (velocidad 0). Permite lanzar **Booming Blade** como ataque de oportunidad (gracias a War Caster), combinando el daño de Shadow Blade + BB en la reacción.
-    *   🟢 **Absorb Elements:** Reducir daño elemental y devolver el tipo de daño en el siguiente ataque cuerpo a cuerpo.
+### 4. Supervivencia Efectiva (EHP)
+Frente a un monstruo de CR 20 con bono $+14$ contra CA 28:
+Probabilidad de impacto: $P = \frac{21 - (28 - 14)}{20} = \frac{7}{20} = 0.35 \quad (35\%)$.
+Con reacción de *Shield* activa (CA 33, solo acierta con 19-20 natural, $P = 0.10$):
+$$\text{EHP Pasivo} = \frac{224 + 100 (\text{Demiplane THP})}{0.35} = \frac{324}{0.35} \approx \mathbf{925.7 \text{ EHP}}$$
+$$\text{EHP con Shield} = \frac{324}{0.10} = \mathbf{3{,}240.0 \text{ EHP}}$$
 
- 3. The META Combo: The Shadow Sentinel Loop
+---
 
-El núcleo del build es mantener **Shadow Blade** en concentración y usar **Sentinel + War Caster** para convertir la Reacción en un ataque devastador de oportunidad con *Booming Blade*:
+## 🔄 Bucle Táctico de Combate (Action Loop)
 
-1. **Shadow Blade activa:** 3d8 psíquico (slot nivel 3) con ventaja en luz tenue u oscuridad.
-2. **Booming Blade como OA (Reacción):** Si el enemigo intenta moverse o atacar a un aliado adyacente, Sentinel permite un Ataque de Oportunidad; War Caster permite lanzar Booming Blade como ese ataque → 3d8 psíquico + daño de trueno condicional + Thunder adicional si el enemigo se mueve.
-3. **Mirror Image como backup:** 3 ilusiones que absorben ataques y liberan al personaje de depender solo de Shield para la defensa, conservando los slots.
+```mermaid
+flowchart TD
+    A[Inicio del Asalto: Iniciativa +10] --> B[Bonus Action: Invocar Shadow Blade nivel 4 - 4d8 psíquico]
+    B --> C[Action: Extra Attack 4 impactos de sombra con Ventaja en penumbra]
+    C --> D{¿Jefe o Monstruo Amenazante?}
+    D -- Sí --> E[Action Surge: 4 impactos adicionales + Arcane Charge Teletransporte]
+    D -- No --> F[Mantener primera línea bloqueando el paso]
+    E & F --> G[Turno Enemigo: Intenta escapar o rodear]
+    G --> H[Reaction: Sentinel + War Caster Booming Blade = 36.5 daño y Velocidad 0]
+    H --> I[Reaction Defensiva Alternativa: Shield CA 33]
+```
 
-La build es extraordinariamente **bien redondeada**: no es la más explosiva (no hay nova Warlock), pero combina daño psíquico sostenido, control de posición, movilidad reactiva y una defensa sólida.
+### Turno 0 (Preparación)
+* Evaluar condiciones de iluminación (luz tenue u oscuridad garantizan ventaja automática).
+* Lanzar *Mirror Image* si se anticipa un asalto masivo sin concentración.
 
-🧮 Mathematical Engine (D&D 5e 2014 — Nivel 11, CA enemigo 16):
+### Turno 1 (Despliegue de la Hoja Umbría)
+1. **Bonus Action:** Conjurar *Shadow Blade* con la ranura de Nivel 4 ($4\text{d}8$ daño psíquico, propiedad Finesse).
+2. **Action:** Ejecutar 4 ataques con *Extra Attack (3)* sobre el objetivo principal ($83.72$ DPR).
+3. **Action Surge:** Si el enemigo es un jefe de alto rango, descargar 4 ataques adicionales ($167.4$ daño acumulado) y teletransportarse 30 pies con *Arcane Charge* para cortar la retirada enemiga.
 
-**Estadísticas de ataque a nivel 11:**
-- Modificador de ataque: +8 (DEX 18 → mod +4 tras ASI de nivel 6, PB +4)
-- Shadow Blade (2d8 psíquico, slot nivel 2): 9 daño promedio. Upcast slot nivel 3 (disponible nv. 13): 13.5 daño promedio
-- Booming Blade (nivel 11): +3d8 trueno adicional al impactar = +13.5
-
-**DPR sostenido (3 ataques estándar, sin Booming Blade):**
-
-$$\text{P(impactar CA 16)} = \frac{21 - (16 - 8)}{20} = \frac{13}{20} = 0.65$$
-
-$$\text{DPR}_{\text{sostenido}} = 3 \times 0.65 \times 13.5 = 26.33 \text{ daño/turno}$$
-
-**DPR turno con Booming Blade (War Magic — 1 BB + 2 ataques):**
-
-$$\text{DPR}_{\text{burst}} = 0.65 \times (13.5 + 13.5) + 2 \times 0.65 \times 13.5 = 17.55 + 17.55 = 35.1$$
-
-**OA con Booming Blade (Sentinel + War Caster — Reacción):**
-
-$$\text{DPR}_{\text{OA}} = 0.65 \times (13.5 + 13.5) = 17.55 \text{ daño extra en reacción}$$
-
-> **Nota:** Shadow Blade concede ventaja en penumbra/oscuridad → P(impactar) sube a ≈0.87, disparando el DPR total a ~47 daño/turno en condiciones óptimas de luz baja.
-
- 4. Fighter (Eldritch Knight) Blueprint
-
-**Selección de Conjuros Clave (Escuela Abjuración + Evocación/Ilusión):**
-
-- *Cantrips:* **Booming Blade** (principal), **Blade Ward** (situacional)
-- *Nivel 1:* **Shield** 🔵, **Absorb Elements** 🔵, **Find Familiar** 🟢 (Búho → acción de Ayuda para ventaja)
-- *Nivel 2:* **Shadow Blade** 🔵 (conjuro de concentración principal), **Mirror Image** 🟢, **Misty Step** 🟢
-- *Nivel 3:* **Counterspell** 🟢 (situacional), **Haste** 🟡 (concentración conflictiva con Shadow Blade)
-- *Nivel 4:* **Greater Invisibility** 🟢 (ventaja en todos los ataques, pero interrumpe Shadow Blade si se usa en su lugar)
-
-**Habilidades clave de la clase:**
-- **War Magic (Nv. 7):** Permite 1 ataque adicional (BA) tras lanzar un cantrip con la Acción. Motor principal del combat loop.
-- **Eldritch Strike (Nv. 10):** Los ataques del personaje imponen Desventaja en las TS contra sus conjuros — potencia Counterspell y cualquier conjuro de salvación.
-- **Arcane Charge (Nv. 15):** Al activar Action Surge, puede teletransportarse hasta 30 pies antes o después de los ataques. Movilidad táctica de alta utilidad.
-- **Action Surge:** Duplica el número de ataques en 1 turno: 6 ataques a nivel 11 (3+3), o 8 ataques a nivel 20. Turno de burst letal.
-
- 5. Home Rules
-
-[Calcula todas las mecánicas, listas de conjuros, capacidades de combate e inventario bajo las verdades inmutables aprobadas por el DM de esta mesa:]
-1. **Foco Universal Único:** Un único foco de cualquiera de las clases del personaje canaliza e inicia todos sus conjuros. Ignora las restricciones de manos libres y componentes somáticos/materiales (sin coste de oro) si el personaje empuña o viste dicho foco.
-2. **Progresión Full Caster Integrada (Regla de Oro):** El personaje prepara conjuros utilizando su nivel de lanzador total unificado. En este build mono-clase, el EK opera como lanzador de nivel 6.67 (1/3 de 20) pero las reglas de mesa permiten acceder a conjuros de nivel superior si tiene los slots disponibles.
-3. *[Añadir regla adicional si aplica]*
+### Turnos Subsiguientes
+* Sostener la concentración en *Shadow Blade* blindada con *War Caster* y salvación CON $+10$.
+* **Reacción de Centinela:** Castigar cualquier intento de escape enemigo con *Booming Blade*, deteniéndolo en seco.

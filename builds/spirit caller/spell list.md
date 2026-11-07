@@ -1,101 +1,119 @@
-# 💀 Lista de Conjuros Optimizada — Spirit Caller (Nivel 20)
+# 🌟 Lista de Conjuros Optimizada — Spirit Caller (Wizard 20)
 
-Esta lista sigue estrictamente las **reglas de preparación de D&D 2024 (5.5e)** a Nivel Caster 20 de Mago Nigromante: **25 conjuros preparados** + conjuros de subclase + dote de origen + *Spell Mastery* a voluntad y *Signature Spells*.
+**Escuela:** Nigromancia (*School of Necromancy*)  
+**CD de Salvación de Conjuros:** $8 + 6 \text{ (Prof)} + 5 \text{ (INT)} = \mathbf{19}$ (Base) / $\mathbf{22}$ (Con *Staff of the Magi* y *Arcane Grimoire +3*)  
+**Modificador de Ataque Mágico:** $+11$ (Base) / $\mathbf{+14}$ (Con foco legendario)  
 
 ---
 
 ## 🔮 Trucos (Cantrips)
 
-*No consumen espacios de preparación.*
-
-### 🧙‍♂️ Mago (5 trucos)
-1. **Toll the Dead 🔵 [Roto - Daño Necromancia]:** $4d8$ o **$4d12$** si el objetivo ha perdido HP.
-2. **Mind Sliver 🔵 [Roto - Control/Debuff]:** $4d6$ psíquico y $-1d4$ a la próxima salvación del objetivo.
-3. **Chill Touch 🟢 [Excelente]:** $4d8$ necrótico e impide curación enemiga.
-4. **Minor Illusion 🟡 [Utilidad]:** Ilusiones visuales/auditivas para cobertura.
-5. **Mage Hand 🟡 [Utilidad]:** Manipulación a distancia.
-
-### ⛪ Clérigo (2 trucos - Magic Initiate)
-1. **Guidance (2024) 🔵 [Roto]:** $+1d4$ a pruebas como reacción.
-2. **Spare the Dying 🟡 [Temático]:** Estabilizar caídos a 30 ft.
+1. **Toll the Dead 🔵 [Pilar Ofensivo]:** $4\text{d}12$ de daño necrótico a objetivos dañados (salvación de Sabiduría con CD 22).
+2. **Chill Touch 🟢 [Anti-Curación]:** $4\text{d}8$ de daño necrótico que anula la regeneración del enemigo y da desventaja a los no-muertos hostiles.
+3. **Mage Hand 🟢 [Utilidad]:** Manipulación remota de restos, llaves o trampas a 30 pies.
+4. **Minor Illusion 🟢 [Control Táctico]:** Generación de sonidos de horda o pantallas visuales ilusorias.
+5. **Prestidigitation 🟡 [Utilidad]:** Limpieza de manchas de sangre o conservación cosmética de tejidos.
 
 ---
 
-## ⚡ Rasgos Especiales de Nivel 18 & 20
+## ⚡ Maestría de Conjuros y Conjuros de Firma (Spell Mastery & Signature Spells)
 
-* **Spell Mastery (Nivel 18 - A Voluntad):**
-  * `Shield` (1.º Nivel) — Reacción para +5 CA continua a voluntad (CA 22+).
-  * `Misty Step` (2.º Nivel) — Teletransporte de 30 ft como Acción Adicional a voluntad.
-* **Signature Spells (Nivel 20 - 1/Descanso Corto Gratis):**
-  * `Animate Dead` (3.º Nivel) — Gratis sin consumir ranura.
-  * `Counterspell` (3.º Nivel) — Gratis sin consumir ranura.
+* **Maestría de Conjuros (Spell Mastery — Nivel 18 de Mago):**
+  * **Shield (Nivel 1):** Lanzado **a voluntad sin consumir ranuras de conjuro** como reacción ($+5$ a la CA permanente en combate).
+  * **Misty Step (Nivel 2):** Lanzado **a voluntad sin consumir ranuras de conjuro** como acción adicional (movilidad ilimitada).
+* **Conjuros de Firma (Signature Spells — Nivel 20 de Mago):**
+  * **Animate Dead (Nivel 3):** 1 lanzamiento gratuito a nivel 3 por Descanso Corto sin gastar ranura.
+  * **Counterspell (Nivel 3):** 1 lanzamiento gratuito a nivel 3 por Descanso Corto sin gastar ranura.
 
 ---
 
-## 🎒 Conjuros Preparados Seleccionados (25 Conjuros por Espacios 1-9)
+## 🎒 Matriz de Conjuros de Grimorio Preparados (25 Conjuros Diarios)
 
 ### 9.º Nivel (1 Ranura)
-1. **Wish 🔵 [Roto]:** Duplica cualquier conjuro de nivel 8 o menor de cualquier lista sin coste de componentes ni tiempo.
-2. **True Polymorph 🔵 [Roto]:** Transforma aliados u objetos en Dragones de Latón Ancianos o Muertos Vivientes Legendarios.
+* **Wish 🔵 [Omnipotencia Arcana]:** Duplica cualquier conjuro de nivel 1-8 existente (*Heroes' Feast*, *Simulacrum* instantáneo) sin consumir componentes materiales ni tiempo.
+* **Shapechange 🟢 [Versatilidad Suprema]:** Transfórmate en Dragón Rojo Anciano o Marilith manteniendo tus capacidades mentales.
 
 ### 8.º Nivel (1 Ranura)
-1. **Maze 🔵 [Roto - Sin Salvación]:** Destierra a un enemigo sin salvación al laberinto plano de bolsillo.
-2. **Mind Blank 🟢 [24h Buf]:** Inmunidad a daño psíquico, encantamiento y escrutinio mental.
+* **Create Undead 🔵 [Guardia Real Ghasts]:** Upcast a nivel 8 para controlar **10 Ghasts** con auras de hedor y ataques de parálisis.
+* **Maze 🔵 [Destierro Indestructible]:** Encierra a un jefe en un laberinto extradimensional sin tirada de salvación inicial (requiere prueba de Inteligencia CD 22 para escapar).
 
 ### 7.º Nivel (2 Ranuras)
-1. **Forcecage 🔵 [Roto - Sin Concentración]:** Encierra a enemigos en una jaula de fuerza de 20 pies durante 1 hora.
-2. **Simulacrum 🔵 [Roto]:** Crea un clon perfecto que duplica todas tus acciones y hechizos.
+* **Simulacrum 🔵 [Clon de Combate — El Duplicador]:** Crea un duplicado perfecto de ti mismo que cuenta con su propio uso de *Command Undead* (para gobernar un segundo no-muerto colosal) y ranuras de conjuro completas.
+* **Forcecage 🔵 [Prisión Inviolable]:** Celda o caja de fuerza indestructible de 20 pies sin salvación y sin concentración.
 
 ### 6.º Nivel (2 Ranuras)
-1. **Create Undead 🔵 [Nigromancia]:** Crea 3 Ghouls/Wights bajo tu mando (potenciados por *Undead Thralls*).
-2. **Contingency 🟢 [Defensivo]:** Desencadenante automático de *Misty Step* o *Dimension Door* si caes a menos de 20 HP.
+* **Contingency 🔵 [Protocolo de Emergencia]:** Enlaza *Dimension Door* o *Otiluke's Resilient Sphere* para activarse automáticamente si tus HP caen por debajo de 50.
+* **Summon Undead (Upcast Nivel 6) 🟢 [Artillería Necrótica]:** Invoca un Espíritu Putrefacto con 4 ataques y veneno paralizante.
+* **Circle of Death 🟡 [Limpieza Masiva]:** Daño necrótico de $8\text{d}6$ en radio gigantesco de 60 pies.
 
 ### 5.º Nivel (3 Ranuras)
-1. **Wall of Force 🔵 [Roto]:** Control absoluto del terreno de combate.
-2. **Danse Macabre 🔵 [Nigromancia]:** Anima 5 cadáveres cercanos otorgándoles $+5$ al ataque y daño.
-3. **Synaptic Static 🟢 [AoE Debuff]:** $8d6$ psíquico y $-1d6$ a ataques y pruebas enemigas.
+* **Wall of Force 🔵 [Control Absoluto]:** Muro invisible indestructible que segmenta encuentros complejos sin conceder tirada de salvación.
+* **Synaptic Static 🟢 [Debuff Psíquico]:** $8\text{d}6$ de daño psíquico; resta $1\text{d}6$ a ataques y salvaciones enemigas durante 1 minuto sin concentración.
+* **Danse Macabre 🟢 [Invocación Instantánea]:** Alza 5 esqueletos adicionales en plena batalla otorgándoles $+5$ de bonificador de ataque e impacto.
 
 ### 4.º Nivel (3 Ranuras)
-1. **Dimension Door 🟢 [Movilidad]:** Teletransporte masivo de 500 ft.
-2. **Banishment 🟢 [Control]:** Expulsa enemigos a otros planos.
-3. **Polymorph 🟢 [Utility/Heal]:** Convierte a un aliado en T-Rex con 136 HP temporales.
+* **Dimension Door 🟢 [Evacuación Táctica]:** Teletransporte de 400 pies con un siervo o aliado sin requerir visión directa.
+* **Polymorph 🟢 [Soporte / Incapacitación]:** Convierte a un aliado herido en bestia de desafío masivo o anula un enemigo singular.
+* **Blight 🟡 [Daño Necrótico]:** Daño monotarget de ejecución ($8\text{d}8$).
 
-### 3.ᵉʳ Nivel (3 Ranuras)
-1. **Summon Undead 🔵 [Roto - Invocación]:** Tu invocación principal (hasta 4 ataques por turno al castearlo a nivel 8/9).
-2. **Fireball 🟢 [AoE Burst]:** $8d6$ de daño de fuego en área.
-3. **Dispel Magic 🟢 [Utilidad]:** Cancela efectos mágicos enemigos.
+### 3.ᵉʳ Nivel (3 Ranuras + 2 Gratis por Descanso Corto)
+* **Animate Dead 🔵 [Mantenimiento de la Horda]:** Mantén el control de hasta 32 arqueros esqueleto repartiendo ranuras de nivel 3 y 4 al final del día.
+* **Counterspell 🔵 [Interrupción Arcana]:** Reacción inmediata para cancelar magia hostil en 60 pies.
+* **Dispel Magic 🟢 [Purificación Mágica]:** Elimina efectos mágicos persistentes o barreras enemigas.
+* **Slow 🟢 [Control de Masas]:** Reduce la CA, restringe reacciones e impone fallo a ataques múltiples de hasta 6 objetivos.
 
-### 2.º Nivel (3 Ranuras)
-1. **Web 🔵 [Control]:** Terreno difícil y atrapamiento (*Restrained*).
-2. **Ray of Enfeeblement 🟢 [Debuff]:** Reduce a la mitad el daño de ataques físicos enemigos.
-3. **Rime's Binding Ice 🟢 [Control]:** Daño de frío e inmovilización de velocidad a 0.
+### 2.º Nivel (3 Ranuras + Misty Step a Voluntad)
+* **Misty Step 🔵 [A Voluntad]:** Escape ilimitado como acción adicional gracias a *Spell Mastery*.
+* **Web 🟢 [Control y Ventaja]:** Restringe áreas de 20 pies para conceder **Ventaja** a los 32 arqueros esqueleto.
+* **Rime's Binding Ice 🟢 [Control Táctico]:** Reduce velocidad a 0 pies sin requerir concentración.
 
-### 1.ᵉʳ Nivel (4 Ranuras + Dote)
-1. **Bless 🔵 [Dote Acólito]:** $+1d4$ a ataques y salvaciones para ti y tus esbirros.
-2. **Absorb Elements 🟢 [Defensa]:** Resistencia a elemental por reacción.
-3. **Feather Fall 🟢 [Seguridad]:** Reacción si eres desmontado de tu escoba en el aire.
-4. **Mage Armor 🟢 [Defensa]:** CA base de 13 + DEX.
-
-*Tienes 4 espacios de 1.º nivel.*
-
-* **Bless (Clérigo - Trasfondo) 🔵 [Roto - Soporte - Concentración]:**
-  * *Uso:* Preparado por dote de trasfondo. Añade $+1d4$ a ataques y salvaciones para ti y tus esqueletos. Multiplica la efectividad de tu horda.
-
-1. **Shield 🔵 [Roto - Defensa]:**
-    * *Uso:* Reacción para obtener $+5$ a la CA hasta tu siguiente turno.
-2. **Absorb Elements 🔵 [Roto - Defensa]:**
-    * *Uso:* Reacción para obtener resistencia a daño elemental inmediato (fuego, frío, etc.).
-3. **Mage Armor 🟢 [Excelente - Buff]:**
-    * *Uso:* Duración 8 horas. Establece tu CA base en $13 + \text{DEX} = 15$.
-4. **Tasha's Hideous Laughter / Grease / Feather Fall 🟢 [Excelente - Control/Seguridad]:**
-    * *Uso:* *Tasha's/Grease* para control clásico. **Feather Fall** se vuelve **esencial** al combatir en el aire en tu escoba; si sufres un efecto que reduzca tu velocidad a 0 (ej. parálisis, incapacitación) caerás al vacío, por lo que necesitarás *Feather Fall* como reacción para evitar daño letal de caída y salvar tu concentración.
+### 1.ᵉʳ Nivel (4 Ranuras + Shield a Voluntad)
+* **Shield 🔵 [A Voluntad]:** Reacción ilimitada que añade $+5$ a la CA (CA 24) e inmuniza contra *Magic Missile*.
+* **Absorb Elements 🔵 [Defensa Elemental]:** Reacción contra alientos de dragón o explosiones mágicas.
+* **Silvery Barbs 🔵 [Manipulación]:** Obliga a relanzar éxitos enemigos y concede ventaja a un siervo o aliado.
 
 ---
 
-## 📖 Rituales en el Libro de Conjuros (Mago)
+## ⚡ Diagrama de Secuencia del Mando de la Horda (Army Control Sequence)
 
-*No requieren ser preparados para lanzarse como ritual.*
+```mermaid
+sequenceDiagram
+    autonumber
+    actor W as Spirit Caller (Wizard 20 en Escoba Voladora)
+    actor S as Simulacrum (Duplicado Nivel 20)
+    actor N as Titán Nightwalker (CR 20)
+    actor M as Teniente Mummy Lord (CR 15)
+    actor A as 32 Arqueros Esqueleto (+Undead Thralls)
+    actor T as Objetivo Enemigo (Boss)
 
-* **Find Familiar 🔵 [Indispensable]:** Invocas un familiar (ej: un murciélago o un búho esquelético) para explorar o realizar la acción de Ayudar (*Help*).
-* **Detect Magic 🟢**: Utilidad básica y exploración en mazmorras.
-* **Identify 🟢**: Descifrar las propiedades de los objetos mágicos que obtengáis.
+    Note over W: Turno 1: Control de Campo y Posicionamiento Aéreo
+    W->>W: Sube a 40 ft de altura con Broom of Flying
+    W->>T: Acción: Lanza Wall of Force (encierra esbirros) o Web (restringe al Boss)
+    W->>A: Bonus Action: Ordena a los 32 arqueros disparar al Boss
+    A->>T: Salva masiva de 32 flechas (1d6 + 8 cada una con Ventaja)
+    T-->>A: Sufre 198.6 Daño Perforante promedio
+    S->>N: Bonus Action del Simulacro: Comanda al Nightwalker y Mummy Lord
+    N->>T: 2 Ataques de melé con Annihilation Aura (83.0 Daño Necrótico)
+    M->>T: Ataque con podredumbre de momia
+    Note over W,T: DPR Total Sostenido del Ejército: > 370 Daño en Asalto 1
+    opt El Boss intenta atacar al Mago a distancia
+        T->>W: Dispara proyectil o hechizo
+        W->>W: Reacción: Shield a voluntad (CA 24) o Counterspell de firma
+    end
+```
+
+---
+
+## 🩺 Curación en Segundo Plano e Inmortalidad (Background Healing)
+
+El Nigromante no gasta turnos en curar aliados; su sistema fisiológico y de contingencias garantiza una autosuficiencia total:
+
+1. **Cosecha Sombría (*Grim Harvest*):**
+   * Cada vez que el Mago elimina a una criatura con un conjuro de Nigromancia, recupera instantáneamente un número de Puntos de Golpe igual a **3 veces el nivel del conjuro** (o 2 veces para otras escuelas). Al liquidar esbirros con *Toll the Dead*, *Blight* o *Circle of Death*, sana entre **12 y 24 HP** sin consumir acciones curativas.
+2. **Cámaras de Clonación Extrapolar (*Clone*):**
+   * En el *Demiplano* del Bastión descansan **3 clones** sellados en salmuera con equipo duplicado.
+   * Si el Mago sufre daño letal, desintegración o muerte instantánea, su alma viaja de inmediato al recipiente inerte en el Bastión, despertando vivo, con salud completa y sin penalización de niveles.
+3. **Pacto de Sangre (*Life Transference*):**
+   * En emergencias donde un aliado crucial esté al borde de la muerte, el Mago puede lanzar *Life Transference*, sufriendo $4\text{d}8$ de daño para curar al aliado el doble del daño recibido (media de **36 a 72 HP restaurados** en un solo turno).
+4. **Alimentación Fúnebre (*Heroes' Feast* vía *Wish*):**
+   * Al término de cada jornada en el Bastión, el Mago replica *Heroes' Feast* mediante *Wish*, dotando a su pelotón de $+2\text{d}10$ de vida máxima, ventaja en salvaciones de Sabiduría e inmunidad a veneno y miedo por 24 horas.

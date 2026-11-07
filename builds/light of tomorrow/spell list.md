@@ -1,87 +1,117 @@
-# 🌟 Lista de Conjuros Optimizada — Light of Tomorrow (Sorlock 20)
+# 🌟 Lista de Conjuros Optimizada — Light of Tomorrow (Sorcerer 18 / Warlock 2)
 
-Esta lista detalla la selección de conjuros óptima para el build **Light of Tomorrow**, asumiendo una distribución final de **Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2** (o la variante **Sorcerer 17 / Warlock 3** si se incluye el Pacto del Tomo). Como Sorcerer del Alma Divina, tienes la capacidad única de aprender conjuros tanto de la lista de **Sorcerer** como de la lista de **Clérigo**.
+**Arquetipo:** Alma Divina (*Divine Soul*) & El Filo Maldito (*Hexblade*)  
+**CD de Salvación de Conjuros:** $8 + 6 \text{ (Prof)} + 5 \text{ (CAR)} = \mathbf{19}$ (Base) / $\mathbf{22}$ (Con *Bloodwell Vial +3*)  
+**Modificador de Ataque Mágico:** $+11$ (Base) / $\mathbf{+14}$ (Con *Bloodwell Vial +3*)  
+**Ventaja Única:** Acceso simultáneo e irrestricto a la lista completa de **Sorcerer** y **Cleric**.
 
 ---
 
 ## 🔮 Trucos (Cantrips)
 
-*No consumen espacios de preparación ni de conjuros conocidos.*
+### 🧙‍♂️ Sorcerer & Divine Magic (6 Conocidos)
+1. **Guidance 🔵 [Excelente]:** $+1\text{d}4$ a pruebas de habilidad de cualquier aliado.
+2. **Light 🟡 [Utilidad]:** Luz sagrada radiante en objetos portados.
+3. **Mending 🟢 [Utilidad]:** Reparación de armaduras, escudos y símbolos sagrados.
+4. **Message 🟡 [Comunicación]:** Envío de órdenes tácticas silenciosas a 120 pies.
+5. **Sacred Flame 🟢 [Ataque Alternativo]:** $4\text{d}8$ de daño radiante ignorando cobertura (salvación de Destreza).
+6. **Prestidigitation 🟡 [Utilidad]:** Efectos menores de ambientación e higiene mágica.
 
-### 🧙‍♂️ Sorcerer & Clérigo (6 conocidos)
-
-1. **Guidance (Clérigo) 🔵 [Roto]:** $+1d4$ a pruebas de característica como reacción en las reglas de D&D 2024 / 5e.
-2. **Sacred Flame (Clérigo) 🟢 [Excelente]:** Daño radiante a distancia que ignora coberturas.
-3. **Light (Sorcerer/Clérigo) 🟡 [Utilidad]:** Generación de luz en objetos.
-4. **Message (Sorcerer) 🟡 [Utilidad]:** Comunicación sigilosa a distancia.
-5. **Prestidigitation (Sorcerer) 🟡 [Utilidad]:** Efectos menores y sabor interpretativo.
-6. **Shocking Grasp (Sorcerer) 🟢 [Defensivo]:** Daño de relámpago que cancela las reacciones del objetivo, permitiéndote escapar sin provocar ataques de oportunidad.
-
-### 💀 Warlock (2 conocidos)
-
-1. **Eldritch Blast 🔵 [Tu Ametralladora]:** El mejor cantrip del juego. Escala a 4 rayos a nivel 20. Cada rayo inflige $1d10 + 5$ (con *Agonizing Blast*).
-2. **Minor Illusion 🟢 [Utilidad]:** Creación de ilusiones visuales menores para cobertura o distracción.
+### 💀 Warlock (2 Conocidos)
+1. **Eldritch Blast 🔵 [Ametralladora Ofensiva]:** 4 rayos de fuerza a nivel 20; suma $+5$ por rayo gracias a *Agonizing Blast*.
+2. **Minor Illusion 🟢 [Control Táctico]:** Cobertura visual ilusoria y distracciones sonoras.
 
 ---
 
-## 🎒 Conjuros de Warlock (Hexblade - 3 Conocidos, Ranuras de Nivel 1)
+## 🎒 Conjuros de Warlock (Hexblade — 2 Ranuras de Nivel 1 en Descanso Corto)
 
-*Se lanzan usando tus espacios de Warlock que regeneran con Descanso Corto o se convierten en Puntos de Sorcería.*
-
-1. **Shield 🔵 [Roto - Defensa]:** Reacción para obtener $+5$ a la CA hasta tu siguiente turno. Vital para mantener la concentración.
-2. **Hex 🟢 [Excelente - Daño Sostenido]:** $+1d6$ de daño necrótico por cada impacto de *Eldritch Blast*.
-3. **Misty Step 🟢 [Excelente - Movilidad]:** Teletransportación de 30 pies como acción adicional para recolocarte (si juegas la variante Warlock 3). Si eres Warlock 2, este conjuro se aprende a través de Sorcerer o la dote *Fey Touched*.
+1. **Shield 🔵 [Defensa Suprema]:** Reacción inmediata para ganar $+5$ a la CA hasta el inicio del siguiente turno.
+2. **Hex 🟢 [Marcaje Ofensivo]:** $+1\text{d}6$ de daño necrótico por impacto de rayo; impone desventaja en pruebas de una característica seleccionada.
 
 ---
 
-## 🎒 Conjuros de Sorcerer (Divine Soul - 15 Conocidos + 1 de Subclase)
+## 🎒 Matriz de Conjuros de Sorcerer (Divine Soul — 15 Conocidos)
 
-*Acceso unificado a las listas de Sorcerer y Clérigo. La distribución por nivel está pensada para maximizar la Metamagia (Twinned Spell y Quickened Spell).*
+### 9.º Nivel (1 Ranura)
+* **Wish 🔵 [Omnipotencia Arcana]:** Permite duplicar cualquier conjuro de nivel 1-8 existente en el juego sin coste de componentes ni tiempo de lanzamiento.
 
-### 9.º Nivel (1 Conocido)
+### 8.º Nivel (1 Ranura)
+* **Holy Aura 🔵 [Baluarte Divino Supremo]:** Otorga a todos los aliados a 30 pies **Ventaja en todas las tiradas de salvación**, impone **Desventaja a todos los atacantes hostiles**, y ciega a los fiends y no-muertos que conecten ataques cuerpo a cuerpo.
 
-1. **Wish 🔵 [Indispensable - Utilidad Infinita]:** Permite duplicar cualquier conjuro de nivel 8 o menor de cualquier lista de clase con 1 sola acción, ignorando costes y componentes.
-    * *Alternativa ofensiva/curativa:* **Mass Heal** (Cura 700 HP a repartir como desees entre las criaturas que elijas en un rango de 60 pies).
+### 7.º Nivel (1 Ranura)
+* **Conjure Celestial 🟢 [Invocación Superior]:** Invoca un Couatl u otra entidad celestial con acceso a curaciones, cambios de forma y venenos paralizantes.
 
-### 8.º Nivel (1 Conocido)
+### 6.º Nivel (1 Ranura)
+* **Heal 🔵 [Curación Nuclear — Objetivo de Twinned Spell]:** Restaura **70 Puntos de Golpe fijos** a una criatura y elimina ceguera, sordera y enfermedades. Con *Twinned Spell* (6 SP), cura **140 HP** repartidos en dos aliados de forma instantánea.
 
-1. **Holy Aura 🟢 [Excelente - Concentración]:** Todos los aliados en un radio de 30 pies ganan ventaja en tiradas de salvación y los ataques contra ellos tienen desventaja. Los demonios/muertos vivientes que ataquen pueden quedar cegados.
+### 5.º Nivel (2 Ranuras)
+* **Greater Restoration 🟢 [Limpieza Vital]:** Elimina agotamiento, petrificación, maldiciones y reducciones permanentes de características.
+* **Synaptic Static 🟢 [Bomba Psíquica]:** $8\text{d}6$ de daño psíquico en radio de 20 pies; resta $1\text{d}6$ a tiradas de ataque y salvación enemigas durante 1 minuto sin concentración.
 
-### 7.º Nivel (1 Conocido)
+### 4.º Nivel (3 Ranuras)
+* **Death Ward 🔵 [Seguro de Vida — Twinned]:** Concede inmunidad ante muerte instantánea o caída a 0 HP durante 8 horas sin requerir concentración. Duplicable con *Twinned Spell* (4 SP) sobre dos aliados clave.
+* **Banishment 🔵 [Control Extraplanar]:** Envía a amenazas singulares a otro plano (salvación de Carisma con CD 22).
 
-1. **Conjure Celestial 🟢 [Soporte Avanzado - Concentración]:** Invoca a un celestial (como un Couatl) que cuenta con sus propios conjuros de curación, restauración y formas alternativas para soporte aéreo.
+### 3.ᵉʳ Nivel (3 Ranuras)
+* **Counterspell 🔵 [Interrupción Arcana]:** Cancela hechizos hostiles a 60 pies como reacción.
+* **Revivify 🔵 [Resurrección Inmediata]:** Devuelve a la vida a un aliado caído en el último minuto.
+* **Haste 🟢 [Buff Ofensivo — Twinned]:** Otorga velocidad duplicada, $+2$ CA y un ataque extra a dos combatientes aliados simultáneamente.
 
-### 6.º Nivel (1 Conocido)
+### 2.º Nivel (3 Ranuras)
+* **Aid 🔵 [Buffer Colectivo]:** Incrementa los HP máximos de 3 criaturas en $+5$ por nivel de ranura (upcast a Nivel 7: $+30$ HP máximos por 8 horas sin concentración).
+* **Misty Step 🔵 [Movilidad Instantánea]:** Teletransporte de 30 pies como acción adicional para romper presas o evitar flanqueos.
+* **Spiritual Weapon 🟢 [Daño Continuo]:** Ataque como acción adicional que inflige $1\text{d}8 + 5$ de daño de fuerza continuo sin concentración.
 
-1. **Heal 🔵 [El núcleo de Twinned Heal]:** Recupera **70 HP fijos** al instante y elimina ceguera, sordera y enfermedades.
-    * *Sinergia:* Usa **Twinned Spell** (6 puntos de sorcería) para curar a 2 aliados a la vez, restaurando un total de $140$ HP planos sin tiradas de dados.
+### 1.ᵉʳ Nivel (4 Ranuras)
+* **Healing Word 🔵 [Rescate Táctico]:** Acción adicional a 60 pies para levantar instantáneamente a un aliado caído.
+* **Absorb Elements 🔵 [Defensa Reactiva]:** Reacción que confiere resistencia a daño de fuego, frío, rayo, trueno o ácido.
+* **Bless 🟢 [Buff de Precisión]:** $+1\text{d}4$ a ataques y salvaciones para 3 criaturas.
 
-### 5.º Nivel (2 Conocidos)
+---
 
-1. **Synaptic Static 🟢 [Excelente - Daño y Debuff]:** Daño psíquico en área (equivalente a *Fireball*) que obliga a los enemigos que fallen la salvación de INT a restar $1d6$ a todas sus tiradas de ataque y concentración durante 1 minuto (sin concentración).
-2. **Greater Restoration 🟢 [Indispensable]:** Limpia maldiciones, petrificaciones, reducciones de características y niveles de agotamiento.
+## ⚡ Diagrama de Secuencia del Asalto Nova Solar
 
-### 4.º Nivel (2 Conocidos)
+```mermaid
+sequenceDiagram
+    autonumber
+    actor L as Light of Tomorrow (Sorcerer 18 / Warlock 2)
+    participant A as Radiant Soul (Alas Aasimar)
+    participant E as Eldritch Blast (Acción)
+    participant Q as Quickened Blast (Bonus Action)
+    participant T as Objetivo Enemigo (Jefe / Demonio)
 
-1. **Death Ward 🔵 [Sinergia Twinned]:** Protege a un objetivo de caer inconsciente al recibir daño letal (se queda a 1 HP). Dura 8 horas y no requiere concentración.
-    * *Sinergia:* Lanzar como **Twinned Spell** (4 puntos de sorcería) al principio del día para proteger al tanque y a ti mismo simultáneamente.
-2. **Banishment 🟢 [Control]:** Elimina temporalmente a un objetivo clave del combate (salvación de Carisma).
+    Note over L,A: Turno 1: Activa Radiant Soul (vuelo 30 ft, alas de luz, +20 daño por turno)
+    L->>T: Aplica Hexblade's Curse (Bonus Action previa) o Hex (+1d6)
+    Note over L: Turno 2: Descarga Ametralladora Nova Solar
+    L->>E: Acción Estándar: Dispara Eldritch Blast (4 Rayos)
+    E->>T: Rayo 1 impacta: 1d10 + 5 (CAR) + 1d6 (Hex) + 6 (Curse) + 20 (Radiant Soul) = 40.0 Daño
+    E->>T: Rayos 2, 3, 4 impactan: 20.0 Daño medio cada uno (Críticos con 19-20)
+    T-->>L: Acumula 100.0 Daño de Fuerza / Radiante
+    L->>Q: Gasta 2 Puntos de Sorcería: Metamagia Quickened Spell
+    Q->>T: Dispara Eldritch Blast como Acción Adicional (4 Rayos)
+    Q->>T: Rayos 5, 6, 7, 8 impactan al objetivo
+    T-->>L: Acumula 80.0 Daño adicional
+    Note over L,T: Total Asalto Nova: 8 Rayos + Radiant Soul = 193.68 Daño Total
+    opt Aliados heridos en asaltos siguientes
+        L->>T: Twinned Heal (Nivel 6 + 6 SP): Cura 70 HP a dos aliados distintos simultáneamente (140 HP netos)
+    end
+```
 
-### 3.ᵉʳ Nivel (3 Conocidos)
+---
 
-1. **Counterspell 🔵 [Defensa Arcana]:** Reacción imprescindible para cortar conjuros enemigos destructivos antes de que impacten.
-2. **Revivify 🔵 [Seguro de Vida]:** Revive a un aliado que haya muerto en el último minuto.
-3. **Haste 🟢 [Soporte Ofensivo - Sinergia Twinned]:** Otorga $+2$ a la CA, ventaja en salvaciones de DEX y una acción de ataque/movimiento extra al objetivo.
-    * *Sinergia:* Usa **Twinned Spell** (3 puntos de sorcería) para bufar a los dos atacantes marciales de tu grupo a la vez.
+## 🩺 Curación en Segundo Plano y Resurrección (Background Healing)
 
-### 2.º Nivel (2 Conocidos)
+Light of Tomorrow maximiza la rentabilidad del tiempo y las ranuras empleando metamagia para no reducir su cadencia ofensiva:
 
-1. **Spiritual Weapon 🟢 [Daño Sostenido]:** Crea un arma flotante que ataca usando tu acción adicional. Excelente para hacer daño continuo cuando no quieres gastar Puntos de Sorcería en duplicar tu *Eldritch Blast*.
-2. **Aid 🟢 [Búfalo de Vida]:** Incrementa los HP máximos de 3 criaturas en 5 HP durante 8 horas (escala excelentemente al subirlo de nivel). No requiere concentración.
-*(Nota: Si juegas la variante Warlock 2, puedes cambiar uno de estos por **Misty Step** si no consigues el conjuro mediante dotes como Fey Touched).*
-
-### 1.ᵉʳ Nivel (2 Conocidos + 1 de Subclase)
-
-1. **Cure Wounds 🟢 [Gratis por Subclase]:** Curación básica de contacto (se puede sustituir por *Bless* si la curación básica ya la cubres con *Healing Word*).
-2. **Healing Word 🔵 [La Curación más Eficiente]:** Acción adicional para levantar a un aliado a 0 HP desde la distancia.
-3. **Absorb Elements 🔵 [Defensa Elemental]:** Reacción para ganar resistencia contra daño elemental recibido y guardarlo para tu siguiente turno.
+1. **Curación Nuclear Duplicada (*Twinned Heal*):**
+   * Al utilizar la metamagia *Twinned Spell* (6 Puntos de Hechicería), se selecciona a dos aliados heridos a 60 pies.
+   * Ambos reciben **70 Puntos de Golpe fijos** de forma instantánea ($140 \text{ HP}$ totales), disipando de paso cualquier ceguera o sordera.
+2. **Buffer Preventivo de Vida (*Aid* + *Death Ward*):**
+   * Antes de emprender combate, se lanza *Aid* de nivel 7 u 8, aumentando permanentemente la vida máxima de los aliados principales en $+30$ a $+35$ puntos.
+   * Se lanza *Death Ward* duplicado con metamagia sobre el frontline (Paladín / Bárbaro) y el propio Hechicero, garantizando que el primer golpe letal los deje a 1 HP sin consumir reacciones.
+3. **Rescate en Acción Adicional (*Healing Word*):**
+   * Si un combatiente cae inconsciente, una simple *Healing Word* de nivel 1 como Acción Adicional lo devuelve al combate a 60 pies, reservando la Acción principal para disparar 4 rayos de *Eldritch Blast* ofensivos.
+4. **Banquete Divino (*Heroes' Feast* vía *Wish*):**
+   * Empleando *Wish* al final del día anterior, se manifiesta un *Heroes' Feast* instantáneo sin consumir los 1,000 po de diamante ni tardar 1 hora en prepararlo, otorgando $+2\text{d}10$ de vida máxima y ventajas en salvaciones a todo el grupo.
+5. **Recarga Continua de Puntos de Sorcería en Descanso Corto:**
+   * En descansos cortos, las dos ranuras de Warlock de nivel 1 se convierten en 2 Puntos de Sorcería adicionales para seguir financiando *Twinned Spells* sin erosionar las ranuras de nivel alto.

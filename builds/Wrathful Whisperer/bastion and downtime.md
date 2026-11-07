@@ -1,133 +1,92 @@
 # 🏰 Bastión y Tiempo Muerto — Wrathful Whisperer
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
-
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
-
-* **Nombre del Bastión:** El Coliseo del Acero Cantante
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 100
-* **Puntuación de Mando (Bastion Defender Stats):** STR 16 (+3), DEX 10 (+0), CON 16 (+3), INT 8 (-1), WIS 10 (+0), CHA 20 (+5)
-
-### Instalaciones Básicas (Basic Facilities)
-
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
-
-1. **Dormitorio (Bedchambers):** Suite de lujo alfombrada con sedas exóticas, instrumentos colgados en las paredes y espejos dorados.
-2. **Comedor (Dining Hall):** Salón de banquetes señorial con mesas de caoba, cubertería de plata y escenario para bardos.
-3. **Espacio Común (Common Room):** Teatro abierto con balcones donde la nobleza local asiste a obras líricas y exhibiciones de esgrima.
-
-### Instalaciones Especiales (Special Facilities)
-
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
-
-* **Teatro / Sala Común (Theater) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Representaciones Artísticas e Inteligencia Social.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite al bardo recolectar favores políticos, influenciar a la nobleza local y generar grandes sumas de oro y BP.
-* **Sagrario / Santuario (Sanctuary) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Juramento de Devoción Rítmica.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Sintonización de canalizaciones divinas para maximizar el uso de *Divine Smite*.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Coreografías de Floreo y Combate.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Optimiza los floreos de la espada de *College of Swords* y entrena a los guardias de honor en formaciones de evasión de CA.
-* **Sala de Juegos (Gaming Hall) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Ingeniería Social y Apuestas de Información.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Otorga espías urbanos y rumores valiosos para asaltos o intrigas políticas.
-* **Gremio (Guildhall) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Reclutamiento de Artistas y Espías de la Lira de Acero.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Concede una red gremial de 50 miembros que asisten en misiones de intriga y recopilan componentes raros o riquezas para la corte.
-* **Sala de Guerra (War Room) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Tácticas de Gala y Defensa del Coliseo.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite optimizar las defensas de su base y mejorar la preparación de los esgrimistas de honor mediante sus niveles de Paladín/Bardo Swords.
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Sebastian el Escribano (Un bardo elfo de modales impecables encargado de la contabilidad y eventos culturales).
-* **Defensores / Guardias:** 15 Guardias de honor (esgrimistas con armaduras de gala y estoques).
-* **Artesanos / Especialistas:** Director de teatro y Lutier maestro.
+**Build:** Wrathful Whisperer (El Espadachín de la Cólera Sagrada)  
+**Sistema:** D&D 2024 / 5.5e DMG Bastion Rules  
+**Nivel de Bastión:** 20  
+**Nombre del Bastión:** *The Colosseum of the Singing Blade* (El Coliseo de la Espada Cantante)  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/character%20guide%202024.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/actual%20inventory%20list.md)
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Estadísticas Defensivas del Bastión
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
-
-### Prioridad 1: Espectáculos Artísticos y Campañas de Reputación Política
-
-* **Mecánica Base:** DMG 2024 / Actuaciones Populares.
-* **Bonificadores Aplicables:** Carisma (Interpretación) + Herramientas de Disfraz.
-* **Coste por Día/Semana:** 50 po de patrocinio / 3 días de evento.
-* **Objetivo de Optimización:** Permite manipular la opinión pública, ganando el apoyo incondicional de los gobernantes de la ciudad y atrayendo nobles con componentes mágicos exclusivos.
-
-### Prioridad 2: Adquisición de Dotes Sociales e Idiomas
-
-* **Mecánica Base:** DMG 2024.
-* **Bonificadores Aplicables:** Modificador de Carisma.
-* **Progreso Actual:** 7 / 10 semanas completadas.
+* **Bonificador de Mando y Defensa:** $\mathbf{+11}$ ($\text{PB } +6 + \text{CHA } +5$).
+* **Puntos de Bastión (BP):** 20 BP por Turno de Bastión (regeneración según nivel 20).
+* **Guarnición Activa:**
+  * 16 Esgrimistas de Honor con armaduras doradas y estoques de parada.
+  * 6 Acólitos de la Lira Sagrada (bardos y clérigos de coro).
+  * 2 Pegasos Celestiales acuartelados en las caballerizas aéreas.
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+## 🏗️ Instalaciones Básicas (Basic Facilities)
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 30 ft.
-* **Trepar (Climb):** 15 ft.
-* **Nadar (Swim):** 15 ft.
-* **Volar (Fly):** 0 ft. (vuelo temporal por magia de bardo)
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Normal
-* **Visión en la Oscuridad (Darkvision):** 0 ft. (atendido mediante conjuros o antorchas mágicas)
-* **Habilidades de Exploración:** Infiltración social perfecta, lectura de labios, diplomacia grupal para viajes sin conflictos.
-
-### Logística de Transporte y Monturas
-
-* **Montura Activa:** Corcel de Batalla Noble
-  * *Velocidad de la Montura:* 60 ft.
-  * *Mecánica de Combate Montado:* Maniobras de carga con floreos de bardo desde montura.
-* **Vehículos / Vehículos de Carga:** Carroza de Gala Dorada.
-* **Capacidad de Carga Absoluta:** 240 lbs. (gracias al cinturón de fuerza en construcción)
+1. **Dormitorio Señorial (Bedchambers):** Suite aristocrática tapizada en sedas rojas y doradas, con una colección de liras y laúdes de marfil.
+2. **Salón de Banquetes y Corte (Dining Hall):** Mesa imperial de caoba con cubertería de plata maciza; acoge recepciones diplomáticas para reyes y archimagos.
+3. **Plaza de los Trovadores (Common Room):** Claustro porticado donde poetas, esgrimistas y diplomáticos debaten y entrenan.
+4. **Cámara Acorazada de Joyas y Monedas (Storage):** Bóveda sellada con runas de abjuración donde se almacenan las 18 monedas de plata sagradas y gemas de *Simulacrum*.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🧪 Instalaciones Especiales (Special Facilities: 4 Roomy + 2 Vast)
 
-*Recursos sociales e influencia política en el mundo de juego.*
+Conforme a las reglas del DMG 2024 a nivel 20, la fortaleza dispone exactamente de 6 Instalaciones Especiales (4 Roomy y 2 Vast):
 
-### Facciones Activas
+### 1. [Roomy] Gaming Room (El Club de los Tahúres de Gala)
+* **Función:** Salón aristocrático de juegos de ingenio, cartas y azar de altas apuestas.
+* **Orden de Bastión:** *Gamble / Harvest*. Genera $100\text{ PO}$ de beneficio neto semanal y atrae nobles que revelan secretos de corte.
 
-1. **El Gremio de la Lira de Acero:**
-    * *Rango / Título:* Gran Maestro de Cuerda
-    * *Reputación / Favor:* Aliado (+45)
-    * *Beneficio Mecánico:* Uso de teatros del gremio en cualquier reino y espías locales.
-2. **La Corte de la Deidad de la Risa:**
-    * *Rango / Título:* Caballero de la Risa
-    * *Reputación / Favor:* Neutral
+### 2. [Roomy] Sanctuary / Reliquary (El Sagrario del Coro Divino)
+* **Función:** Altar consagrado a deidades de la gloria y el ingenio dracónico (Hlal / Bahamut).
+* **Orden de Bastión:** *Blessing*. Concede a los defensores del Bastión y al personaje una bendición que otorga ventaja en tiradas de salvación contra encanto y miedo durante 7 días.
 
-### Red de Contactos (Contacts & Informants)
+### 3. [Roomy] Scriptorium (Scriptorium de Partituras Arcanas)
+* **Función:** Mesa de copiado para transcripción de pergaminos de alto nivel (*Counterspell*, *Dispel Magic*, *Shield*).
+* **Orden de Bastión:** *Scribe*. Elabora pergaminos arcanos y divinos al 50% de coste en oro.
 
-* **Madelene (Gran Palacio):** Duquesa local que provee invitaciones a eventos nobles exclusivos.
-* **Fidelius (Taberna Real):** Lutier y proveedor de cuerdas de arpa encantadas.
+### 4. [Roomy] Stable / Aviary (Caballerizas Celestiales Aéreas)
+* **Función:** Plataforma abierta en la muralla con nidos para Pegasos y Grifos invocados mediante *Find Greater Steed*.
+* **Orden de Bastión:** *Train / Breed*. Otorga a las monturas del Bastión un bonificador de $+10\text{ pies}$ a la velocidad de vuelo y $+10\text{ PG}$ temporales.
+
+### 5. [Vast] Grand Theater / Colosseum (El Gran Coliseo del Acero Cantante)
+* **Función:** Anfiteatro monumental con capacidad para 2,000 espectadores donde se celebran torneos de esgrima y óperas mágicas.
+* **Orden de Bastión:** *Sanctuary / Performance*. Otorga al personaje $100\text{ PG}$ temporales tras descansar en sus aposentos y genera una reputación inquebrantable en todo el plano.
+
+### 6. [Vast] Guildhall (Gremio de la Lira y la Espada)
+* **Función:** Red de embajadas y academias de bardos que operan en los reinos colindantes como diplomáticos y espías.
+* **Orden de Bastión:** *Influence*. Otorga inmunidad diplomática en las capitales aliadas y acceso prioritario a contratos mercenarios.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## 🔄 Flujograma de Turno de Bastión (Weekly Bastion Turn)
 
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión] --> B[Generar 20 BP]
+    B --> C[Gaming Room: Recaudar 100 PO de beneficio limpio]
+    C --> D[Scriptorium: Elaborar pergaminos de Counterspell y Shield]
+    D --> E[Sanctuary: Bendición celestial de moral y resistencia mental]
+    E --> F[Stable/Aviary: Acondicionar Pegasos con +10 ft vuelo]
+    F --> G[Colosseum/Theater: Recargar 100 PG Temporales tras Descanso Largo]
+    G --> H[Guildhall: Expandir influencia diplomática y secretos regionales]
+    H --> I{¿Desafío de Asedio o Duelo Hostil?}
+    I -- Sí --> J[Defensa con Bonificador +11 y Esgrimistas de Honor]
+    I -- No --> K[Fin del Turno: Coliseo Triunfante y Recursos al Máximo]
+```
 
-* **Percepción Pasiva (Passive Perception):** 10
-* **Investigación Pasiva (Passive Investigation):** 8
-* **Perspicacia Pasiva (Passive Insight):** 10
-* **Idiomas Conocidos:** Común, Dracónico, Élfico, Enano.
-* **Competencia con Herramientas (Tool Proficiencies):** Tres Instrumentos Musicales (+9), Kit de Disfraz (+9).
-* **Sinergias Fuera de Combate:** 🔵 **Roto/Indispensable**. Habilidad para sumar la mitad del bonificador de competencia a cualquier tirada de habilidad no entrenada.
+---
+
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
+
+### Prioridad 1: Creación del Simulacro de Oro y Nieve
+* **Acción:** Emplear el ritual de *Simulacrum* (1,500 PO en polvo de rubí) para forjar un duplicado permanente del Wrathful Whisperer en el Bastión.
+* **Resultado:** Duplicación absoluta de la potencia de fuego mágica en incursiones bélicas.
+
+### Prioridad 2: Elaboración de Pergaminos de Protección
+* **Acción:** Transcribir pergaminos de *Counterspell* y *Shield* en el *Scriptorium* para garantizar defensa reactiva inagotable.

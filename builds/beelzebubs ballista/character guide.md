@@ -1,88 +1,132 @@
-# Datos Generales
+# 🏹 Archivo Técnico: Beelzebub's Ballista — El Cañón del Sol Negro
 
-System Standard: D&D 5th Edition (2024 / 5.5e Update)
+**Clasificación del Archivero:** 🔵 **Build Roto / META Dominante (2024 Triple Charisma Ballista Sniper & Extreme Repulsor)**  
+**Reglas:** D&D 5.ª Edición (2024 Ruleset - 5.5e)  
+**Nivel Total:** 20  
+**División de Clases:** Warlock (The Celestial) 19 / Fighter 1  
+**Especie:** Tiefling (*Fiendish Resilience*, *Thaumaturgy*, resistencia al fuego)  
+**Trasfondo:** Músico de Corte / Erudito Celestial (*Dote de Origen: Musician*)  
 
-Character Level: 20
+---
 
-Class Split: Warlock (Celestial) 19 / Fighter 1
+## 📊 Estadísticas Base y Modificadores (Nivel 20)
 
-Species: Tiefling + Musician (Feat de Nivel 1)
+| Característica | Puntuación | Modificador | Notas de Optimización |
+| :--- | :---: | :---: | :--- |
+| **Fuerza (STR)** | 8 | -1 | Dump stat táctico. |
+| **Destreza (DEX)** | 14 | +2 | Límite óptimo para armadura media o movilidad con armaduras ligeras. |
+| **Constitución (CON)** | 14 | +2 | Puntos de golpe y concentración en conjuros (*Hex*, *Spirit Guardians*). |
+| **Inteligencia (INT)** | 10 | +0 | Conocimiento arcano neutral. |
+| **Sabiduría (WIS)** | 10 | +0 | Salvaciones y percepción básica. |
+| **Carisma (CHA)** | 20 | +5 | 15 base + 2 racial + 1 dote (*Fey Touched*) + 2 ASI. Primaria absoluta que escala el daño $\times 3$. |
 
-Stats:
+* **Puntos de Golpe (HP Base):** $10 \text{ (Fighter)} + (19 \times 5) + (20 \times 2) = \mathbf{145 \text{ HP Base}}$
+* **Clase de Armadura Pasiva (AC):** $18 \text{ (Plate Armor)} + 3 \text{ (Mejora mágica)} = \mathbf{21 \text{ CA Pasiva}}$ (Con conjuro *Shield*: $\mathbf{26 \text{ CA Reactiva}}$).
+* **Salvaciones con Competencia:** Fuerza ($+5$), Constitución ($+8$) por iniciar como Guerrero a Nivel 1.
+* **Compañero de Apoyo:** Familiar Imp invisible que otorga **Ventaja constante** en el ataque mediante la acción de *Help* (Ayuda).
 
-- **FUER (STR):** 8 (-1) [[Volcado]]
-- **DES (DEX):** 14 (+2) [[Requisito máximo para armadura media (CA)]]
-- **CON:** 14 (+2) [[Puntos de golpe y salvaciones de concentración]]
-- **INT:** 10 (0) [[Habilidades de conocimiento]]
-- **SAB (WIS):** 10 (0) [[Voluntad y percepción básica]]
-- **CAR (CHA):** 17 (+3) (15 base + 2 racial) [[Estadística principal para ataques, daño (x3) y conjuros]]
+---
 
-Actual Item List: ./actual inventory list.md
+## 🔗 Navegación y Registros de la Catedral
 
-Roadmap de Progresión: ./roadmap.md
+* **Inventario Actual y Equipo:** [actual inventory list.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/beelzebubs%20ballista/actual%20inventory%20list.md)
+* **Bastión de la Catedral del Sol Negro:** [bastion and downtime.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/beelzebubs%20ballista/bastion%20and%20downtime.md)
+* **Grimorio Sagrado y Matriz de Conjuros:** [spell list.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/beelzebubs%20ballista/spell%20list.md)
+* **Arsenal y Adquisiciones Tácticas:** [item list to obtain.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/beelzebubs%20ballista/item%20list%20to%20obtain.md)
+* **Hoja de Ruta (Niveles 1-20):** [roadmap.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/beelzebubs%20ballista/roadmap.md)
+* **Manual de Conversión 2024:** [character guide 2024.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/beelzebubs%20ballista/character%20guide%202024.md)
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+---
 
-Combat Role: Ranged Control Striker / Torreta de Artillería (Daño de ráfaga masivo a distancia + empuje constante)
+## 🧮 Motor Matemático del Archivero (LaTeX Math Engine)
 
-## 1. Gestión de Recursos y Reglas de Inventario
+### 1. El Combo Insignia: Multiplicador Triple de Carisma en Cantrip (*True Strike 2024*)
+La actualización de reglas 2024 redefine *True Strike* y las invocaciones sobrenaturales, permitiendo una acumulación devastadora de modificadores planos:
+1. **True Strike 2024 (Ataque con Carisma):** Realiza un ataque con arma utilizando Carisma (+5) para la tirada de ataque y daño, convirtiendo el daño en **Radiante**. A nivel 17+, inflige el daño del arma $+3\text{d}6$ radiante.
+2. **Agonizing Blast 2024 (Universal para Cantrips):** En las reglas 2024, *Agonizing Blast* puede aplicarse a **cualquier truco de Brujo que haga daño**, sumando por segunda vez tu Carisma ($\mathbf{+5 \text{ Daño}}$).
+3. **Radiant Soul (Celestial Warlock 6):** Al lanzar un conjuro que cause daño radiante o de fuego, sumas tu modificador de Carisma ($\mathbf{+5 \text{ Daño}}$) a una tirada de daño.
 
-- **Economía de Recursos y Manos:**
-  - **Armas:** Ballesta Pesada (Heavy Crossbow) (1d10 perforante, alcance 100/400).
-  - **Foco Universal Único:** La regla de la casa permite utilizar la ballesta pesada como foco arcano o llevar un anillo focal que anula la necesidad de manos libres para conjurar _Shield_ o lanzar _True Strike_.
-- **Gestión de Espacios/Ranuras:**
-  - Como Warlock, dispones de Pact Slots de nivel 5 (4 slots a nivel 20) que se recargan con Descanso Corto.
-  - El nivel de lanzador unificado es 19.
+$$\text{Bono Plano de Carisma por Disparo} = +5 \text{ (Base)} + 5 \text{ (Agonizing Blast)} + 5 \text{ (Radiant Soul)} = \mathbf{+15.0 \text{ Daño Plano}}$$
 
-## 2. Action Economy & Combat Loop
+### 2. Precisión con Ballesta Pesada y Estilo de Arquero
+Con Ballesta Pesada Dragón Ascendente $+3$ y Estilo de Arquero (*Archery Fighting Style* $+2$ a impactar):
 
-- **Preparación (Pre-Combate):**
-  - Llamar al familiar (Imp invisible) y ordenarle que use la acción de **Help** (Ayuda) en el primer ataque del turno.
-- **Action:**
-  - **Turno 1+:** Acción: Lanzar el truco **True Strike** utilizando la Ballesta Pesada. Haces un ataque con ventaja (familiar) a +12 para golpear (+5 CAR, +2 Archery, +5 PB).
-- **Bonus Action:**
-  - **Turno 1:** **Hex** (para añadir 1d6 daño por impacto y desventaja en TS) o **Celestial Resistance** para otorgar puntos de golpe temporales.
-  - **Turnos 2+:** **Healing Light** (Celestial Warlock) para curar a aliados de forma reactiva (no cuenta como lanzar un conjuro, por lo que puedes seguir atacando con True Strike).
-- **Reaction:**
-  - 🔵 **Shield** (obtenido a través de dotes o multiclase): +5 CA.
-  - 🟢 **Hellish Rebuke:** Contraataque ígneo cuando eres dañado.
+$$\text{Bono de Ataque} = +5 \text{ (CAR)} + 6 \text{ (Prof)} + 2 \text{ (Archery)} + 3 \text{ (Arma +3)} = \mathbf{+16 \text{ al Impactar}}$$
 
-## 3. The META Combo: Beelzebub's Heavy Bolt
+Con la acción de *Help* del Imp invisible, el ataque goza de **Ventaja**. Frente a CA 19 enemiga:
 
-El combo insignia explota la redefinición del truco **True Strike** en 2024, que convierte un ataque de arma en un ataque basado en tu estadística de lanzamiento (CAR) e inflige daño radiante. Bajo la actualización de 2024:
+$$\mathbb{P}(\text{Acierto contra CA 19}) = 1 - (1 - 0.90)^2 = 1 - (0.10)^2 = \mathbf{0.99} \quad (99.00\%)$$
+$$\mathbb{P}(\text{Crítico con Ventaja}) = 1 - (0.95)^2 = 1 - 0.9025 = \mathbf{0.0975} \quad (9.75\%)$$
 
-1. **True Strike (CAR para Ataque):** Tu ballesta pesada dispara usando CAR (+5). Daño base: $1\text{d}10 \text{ piercing} + 1\text{d}6 \text{ radiant} + 5 \text{ (Mod CAR)}$.
-2. **Agonizing Blast (2024):** Aplicable a _cualquier_ cantrip de Warlock que haga daño. Suma de nuevo tu Mod CAR al daño (+5).
-3. **Radiant Soul (Celestial Warlock 6):** Cuando lanzas un conjuro que hace daño radiante (como True Strike), sumas tu Mod CAR al daño (+5).
-4. **Archery Fighting Style (+2 a impactar):** Suma +2 a tu tirada de ataque con armas a distancia, compensando cualquier cobertura.
-5. **Efecto de Empuje (Repelling Blast):** Al impactar con True Strike (cantrip de Warlock), empujas al enemigo 10 pies hacia atrás.
+### 3. Daño por Disparo Sostenido (Sin Gastar Ranuras)
+Equipando una *Ascendant Dragon's Wrath Heavy Crossbow* ($+3\text{d}6$ daño elemental):
 
-🧮 Mathematical Engine (D&D 5e 2024 — Nivel 20 con Ascendant Dragon's Wrath Heavy Crossbow):
+$$\text{Dados de Daño} = 1\text{d}10 \text{ (Ballesta)} + 3\text{d}6 \text{ (True Strike)} + 3\text{d}6 \text{ (Dragon's Wrath)} = 5.5 + 10.5 + 10.5 = 26.5$$
+$$\text{Modificadores Planos} = 15 \text{ (Triple CAR)} + 3 \text{ (Mágico)} = +18.0$$
+$$\text{Daño Base al Impactar} = 26.5 + 18.0 = \mathbf{44.5 \text{ Daño por Disparo}}$$
 
-**Estadísticas de ataque a nivel 20 (Celestial 19 / Fighter 1):**
+$$\mathbb{E}[\text{DPR Cantrip Sostenido}] = (0.99 \times 44.5) + (0.0975 \times 26.5) = 44.05 + 2.58 = \mathbf{46.63 \text{ Daño/Asalto}}$$
 
-- Modificador de ataque: $+16$ ($+5$ CAR, $+6$ PB, $+2$ Archery, $+3$ Arma Mágica) con Ventaja constante (ayuda del Imp invisible).
-- **Daño por Impacto con True Strike (Nivel 17+):**
-  $$1\text{d}10 \text{ (Ballesta)} + 3\text{d}6 \text{ (True Strike)} + 3\text{d}6 \text{ (Dragon's Wrath)} + 5 \text{ (CAR Base)} + 5 \text{ (Agonizing)} + 5 \text{ (Radiant Soul)} + 3 \text{ (Magia)} = 1\text{d}10 + 6\text{d}6 + 18$$
-  $$\text{Daño Promedio por Impacto} = 5.5 + 21 + 18 = \mathbf{44.5 \text{ daño/turno}}$$
-- **Efectos de Control Adicionales:** Empuja al objetivo **10 pies** (*Repelling Blast*), reduce su velocidad en **10 pies** (*Lance of Lethargy*) y activa un Aliento Dracónico de **12d6** en área 1/día.
+### 4. Bucle de Control Balístico Extremo (Repulsión y Ralentización)
+Al impactar con *True Strike* (truco de Brujo con arma pesada):
+* **Repelling Blast (Invocación):** Empuja al objetivo **10 pies** en línea recta.
+* **Lance of Lethargy (Invocación):** Reduce la velocidad de movimiento del objetivo en **10 pies**.
+* **Weapon Mastery: Push (Ballesta Pesada 2024):** Si la criatura es Grande o menor, la empuja otros **10 pies**.
 
-$$\text{DPR promedio sostenido a CA 18 (con ventaja)} = 0.98 \times 44.5 + 0.0975 \times (26.5) = \mathbf{46.2 \text{ DPR sostenido a distancia}}$$
+$$\text{Efecto Total por Disparo} = \text{\textbf{Empuje de 20 Pies}} + \text{\textbf{Ralentizacion de 10 Pies}}$$
 
-_(Nota: Este daño masivo se realiza con un solo disparo de True Strike sin gastar ranuras de conjuro, manteniendo al enemigo en bucle de control a distancia)._
+Cualquier monstruo con 30 pies de movimiento que intente acercarse al personaje es repelido 20 pies y ve su velocidad reducida a 20 pies, haciendo **imposible que alcance al Brujo en cuerpo a cuerpo**.
 
-## 4. Celestial Warlock / Fighter Blueprint
+### 5. Puntos de Golpe Efectivos y Curación Divina (EHP)
+* **HP Base:** $145 \text{ HP}$.
+* **CA Pasiva Base:** $21$ (Plate Armor +3).
+* **Resiliencia Celestial (*Celestial Resilience* — Nivel 10):** Concede **24 THP al Brujo** y **14 THP a hasta 5 aliados** tras cada descanso corto o largo ($\mathbf{+94 \text{ THP colectivos}}$).
+* **Luz Sanadora (*Healing Light*):** Reserva de **20d6 dados de curación** utilizables como Acción Adicional (hasta 5d6 por asalto) que **no cuentan como conjuro lanzado**, permitiendo levantar aliados mientras se dispara *True Strike*.
 
-El Celestial Warlock aporta curación y resistencia al grupo, mientras que la dip de Fighter asegura la puntería impecable y la armadura.
+---
 
-| Nivel | Clase      | Habilidad Clave                  | Impacto en Combate | Notas                                                        |
-| :---: | :--------- | :------------------------------- | :----------------: | :----------------------------------------------------------- |
-|   1   | Fighter    | Archery Style, Heavy Armor       | 🔵 Extraordinario  | Aumenta la CA y da +2 a impactar.                            |
-|   3   | Warlock 2  | Agonizing Blast, Repelling Blast |   🔵 Roto (2024)   | Añade CAR por segunda vez al daño y empuja al impactar.      |
-|   7   | Warlock 6  | Radiant Soul                     |   🔵 Roto (2024)   | Añade CAR por tercera vez al daño de True Strike.            |
-|  12   | Warlock 11 | Pact Slots de nivel 5            |      🟢 Alto       | Tres ranuras de conjuro que se recuperan con descansa corto. |
+## ⚔️ Bucle Táctico y Economía de Acciones (Action Loop)
 
-## 5. Home Rules
+```
+        [Ronda 0: Pre-Combate Celestial]
+   Foresight (8h: ventaja en todo y desventaja hostil) o Hex desplegado
+   Celestial Resilience activo (+24 THP propios, +14 THP a aliados)
+                    │
+                    ▼
+        [Ronda 1: Disparo de Cañón Pesado]
+   Acción: True Strike con Ballesta Pesada (Ataque con CAR +16 con Ventaja por Imp)
+   Impacto: 44.5 Daño Radiante/Perforante (con Triple Carisma +15 plano)
+   Efecto: Empuja 20 ft al objetivo y reduce su velocidad en 10 ft
+   Bonus Action: Hex (+1d6 necrótico) o Healing Light sobre aliado herido
+                    │
+                    ▼
+      [Ronda 2+: Cerrojo de Artillería]
+   Acción: True Strike (44.5 daño + 20 ft repulsión)
+   Bonus Action: Healing Light (recupera 5d6 HP a un compañero sin gastar ranura)
+   Reacción: Shield (+5 CA = 26 CA) o Hellish Rebuke (daño de fuego reactivo)
+```
 
-1. **Foco Universal Único:** La ballesta pesada actúa como el foco universal de lanzamiento para el Warlock, permitiendo realizar todos los componentes somáticos.
-2. **Progresión Full Caster Integrada:** Nivel de lanzador unificado de 19.
+* **Acción (Action):** *True Strike* potenciado con Ballesta Pesada (44.5 daño radiante + 20 ft repulsión continua).
+* **Acción Adicional (Bonus Action):** *Healing Light* (curación de $1\text{d}6$ a $5\text{d}6$ sin consumir ranuras ni restringir conjuros), o *Hex*.
+* **Reacción (Reaction):** *Shield* (+5 CA hasta CA 26), o *Hellish Rebuke* de nivel 5 ($6\text{d}10$ fuego).
+
+---
+
+## 🏷️ Matriz de Evaluación Táctica del Archivero
+
+| Capacidad Táctica | Nivel | Justificación del Archivero |
+| :--- | :---: | :--- |
+| **Daño Monotarget por Cantrip** | 🔵 | 46.63 DPR continuo sin gastar ninguna ranura gracias al triple modificador de Carisma (+15 plano). |
+| **Control de Posicionamiento (Kiting)** | 🔵 | Empuja 20 pies y ralentiza 10 pies en cada impacto; neutraliza jefes de cuerpo a cuerpo. |
+| **Soporte Médico Desacoplado** | 🔵 | *Healing Light* (20d6) cura como acción adicional sin interferir en el lanzamiento de conjuros. |
+| **Buffer Preventivo de Escuadrón** | 🟢 | *Celestial Resilience* aporta 94 THP al grupo en cada descanso corto. |
+| **Resiliencia Defensiva (EHP)** | 🟢 | CA 21/26 reactiva, salvaciones de CON nativas, 24 THP pasivos y *Foresight*. |
+| **Poder Místico de Alto Rango** | 🔵 | Acceso a *Foresight* (9.º nivel), *Crown of Stars*, *Forcecage* y ranuras de pacto de nivel 5. |
+
+---
+
+## 📜 Reglas de Casa (House Rules) y Ajustes de Mesa
+
+1. **Ballesta Foco Universal:** La ballesta pesada actúa como foco arcano unificado de Brujo, permitiendo la ejecución de componentes somáticos sin necesidad de manos libres adicionales.
+2. **Aplicación de Agonizing Blast a True Strike:** Cumplimiento oficial de las reglas 2024: *Agonizing Blast* se vincula a *True Strike* al seleccionarlo como truco de daño de Warlock.
+3. **Triple Acumulación de Carisma:** La suma de modificador base de *True Strike* (+5), *Agonizing Blast* (+5) y *Radiant Soul* (+5) opera de forma legal e independiente según las directrices de bonificadores nombrados de 5.5e.

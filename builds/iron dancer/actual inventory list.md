@@ -1,21 +1,36 @@
-# Inventario Actual — Iron Dancer
+# 🛡️ Inventario Actual — Iron Dancer: The Angelic Bladestorm
 
-## Equipamiento Actual
+## ⚔️ Equipamiento Activo
 
-* **Arma Principal:** Ascendant Dragon's Wrath Rapier (Fuego/Radiante) (+3 al ataque/daño, +3d6 de daño elemental por impacto, Aliento 12d6 1/día) / Shadow Blade (3d8 psíquico).
-* **Armadura:** Robe of the Archmagi (CA 15 + DES = 20 CA base).
-* **Foco / Reliquias:** Su estoque actúa como foco universal de Artífice y Mago.
+* **Arma Principal:** *Ascendant Dragon's Wrath Rapier +3 (Fuego/Radiante)* (Estoque élfico legendario. Daño: $1\text{d}8 + 5_{\text{DEX}} + 5_{\text{Song of Victory}} + 3_{\text{Item}} + 3\text{d}6$ daño elemental por impacto; arma de aliento de 12d6 1/día y ráfaga crítica de 5d6 en área).
+* **Armadura:** *Robe of the Archmagi* (Túnica legendaria: CA Base $15 + 5_{\text{DEX}} = \mathbf{20 \text{ CA Pasiva}}$; durante *Bladesong*: **25 CA Pasiva**; con *Shield* a voluntad: **30 CA**).
+* **Foco y Reliquias:** El estoque élfico grabado con filigrana de oro actúa como foco arcano unificado de Artífice y Mago.
 
-## Objetos Mágicos Sintonizados (Attuned)
+---
 
-1. **Ascendant Dragon's Wrath Rapier (Fuego/Radiante)** (Sintonizado - +3 al ataque/daño, +3d6 daño elemental por golpe, Aliento 12d6 1/día, Ráfaga Crítica 5d6).
-2. **Robe of the Archmagi** (Sintonizado - CA base 15+DES, ventaja en salvaciones contra conjuros, +2 a CD y ataques de conjuro).
-3. **Staff of the Magi** (Sintonizado - +2 a CD de conjuros, absorción de magia enemiga, 50 cargas).
+## 🔮 Objetos Mágicos Sintonizados (Attunement: 3/3 Activos)
 
-## Inventario General (Mochila / Bag of Holding)
+1. **Ascendant Dragon's Wrath Rapier +3** (Legendario — Sintonizado):
+   * +3 a tiradas de ataque y daño con armas.
+   * +3d6 de daño elemental por impacto en cada ataque de estoque celestial.
+   * Arma de Aliento de 12d6 (1/día) y onda expansiva de fuego en críticos.
+2. **Robe of the Archmagi** (Legendario — Sintonizado):
+   * CA base 15 + DES (CA 20 base sin armadura).
+   * Ventaja permanente en tiradas de salvación contra conjuros y otros efectos mágicos.
+   * +2 a la CD de salvación de conjuros y a tiradas de ataque de conjuro de Mago.
+3. **Staff of the Magi** (Legendario — Sintonizado):
+   * +2 a la CD de conjuros de Mago y tiradas de ataque mágico.
+   * Reacción: Absorbe el conjuro enemigo dirigido hacia ti y lo convierte en cargas para el bastón.
+   * 50 cargas de conjuros de alto nivel (*Fireball*, *Lightning Bolt*, *Invisibility*, *Plane Shift*).
 
-* Herramientas de Inventor (*Tinker's Tools*)
-* Libro de Conjuros de Mago
-* Macuto de explorador
-* 3 Pociones de Curación Superior (*Superior Healing Potions*)
-* 160 po
+---
+
+## 🎒 Inventario General (Bag of Holding y Reserva de la Academia)
+
+* **Túnica Infundida Mind Sharpener:** Túnica de repuesto con infusión de Artífice que otorga 4 éxitos automáticos diarios en tiradas de concentración fallidas.
+* **Grimorio de la Academia de Oro:** Libro de conjuros completo con todos los rituales arcanos (*Find Familiar*, *Rary's Telepathic Bond*, *Water Breathing*, *Phantom Steed*, *Leomund's Tiny Hut*).
+* **Consumibles de Combate:**
+  * 6x *Potion of Supreme Healing* ($10\text{d}4 + 20 \approx 45\text{ PG}$, consumibles en Acción Adicional bajo reglas 2024).
+  * 4x *Potion of Speed* (*Haste* durante 1 minuto sin concentración).
+* **Herramientas:** Herramientas de Hojalatero (*Tinker's Tools*), Calígrafo y Joyero.
+* **Monedas y Valores:** 5,800 po en diamantes de resurrección y gemas celestiales.

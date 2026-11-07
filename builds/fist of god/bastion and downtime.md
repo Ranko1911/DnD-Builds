@@ -1,106 +1,112 @@
 # 🏰 Bastión y Tiempo Muerto — Fist of God
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+*Estructura de gestión de la base de operaciones, economía de bastión y mecánicas de mando.*
 
 * **Nombre del Bastión:** El Templo de la Penumbra Sanadora (Shroud Temple)
 * **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 115
-* **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 20 (+5), CON 14 (+2), INT 10 (+0), WIS 20 (+5), CHA 8 (-1)
+* **Puntos de Bastión (Bastion Points - BP):** 115
+* **Puntuación de Mando (Bastion Defender Stats):** +11 al ataque y salvaciones defensivas (STR 8 [-1], DEX 20 [+5], CON 14 [+2], INT 10 [+0], WIS 20 [+5], CHA 8 [-1]).
+
+---
 
 ### Instalaciones Básicas (Basic Facilities)
 
-1. **Dormitorio (Bedchambers):** Una celda monástica modesta pero iluminada por un jardín colgante en el techo.
-2. **Comedor (Dining Hall):** Mesa común de madera rústica donde se sirven caldos herbales sanadores.
-3. **Espacio Común (Common Room):** Un patio de entrenamiento pavimentado con piedra lisa para meditación grupal.
+1. **Dormitorio Monástico (Bedchambers):** Celdas austeras talladas en roca blanca pulida, iluminadas por tragaluces que dejan filtrar la luz solar y la lluvia sobre pequeños estanques interiores.
+2. **Comedor del Voto (Dining Hall):** Mesa común de madera de olivo donde se sirven caldos reconstituyentes, infusiones medicinales y pan ácimo.
+3. **Patio de la Quietud (Common Area):** Explanada central de arena de cuarzo alisada para ejercicios de meditación, combate desarmado y respiración controlada.
 
-### Instalaciones Especiales (Special Facilities)
+---
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+### Instalaciones Especiales (Special Facilities — Exactamente 6: 4 Roomy + 2 Vast)
 
-* **Santuario Divino (Sanctuary) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Bendición Divina y Comunión.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sitio de comunión espiritual para recuperar Puntos de Ki y dados de Canalizar Divinidad de Guerra.
-* **Invernadero de Hierbas Médicas (Greenhouse) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Cosecha y Botica Sanadora.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Cultivo de plantas raras para confeccionar ungüentos y cataplasmas del Camino de la Misericordia (*Way of Mercy*).
-* **Área de Entrenamiento (Training Area) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Acondicionamiento Marcial.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Perfeccionamiento del combate desarmado (*Unarmored Strike*) y técnicas de impacto sanador/dañino.
-* **Scriptorium (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiado de Sutras y Pergaminos.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Transcripción de pergaminos sagrados de curación y bendición a mitad de coste.
-* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Armonía Espiritual.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Enfoque mental profundo que otorga ventaja en tiradas de salvación de Sabiduría y Constitución.
-* **Gremio de Beneficencia (Guildhall) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Red de Sanación y Milagros.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Centro de peregrinaje que acoge necesitados, otorga bendiciones divinas mayores y genera reputación sagrada.
+```mermaid
+flowchart TD
+    subgraph BastionTurn ["Ciclo de Turno de Bastión (Cada 7 Días)"]
+        A["Emisión de Órdenes Semanales"] --> B["Santuario: Comunión Sagrada y Recuperación de Ki"]
+        A --> C["Invernadero: Cosecha de Plantas y Ungüentos"]
+        A --> D["Área de Entrenamiento: Acondicionamiento de Mercy"]
+        A --> E["Scriptorium: Copiado de Sutras y Pergaminos"]
+        A --> F["Cámara de Meditación: Disciplina Mental y Resistencia"]
+        A --> G["Gremio de Beneficencia: Peregrinajes y Reputación"]
+        B & C & D & E & F & G --> H["Recaudación de BP y Ofrendas Devocionales"]
+        H --> I["Resolución de Eventos de Asedio y Bendiciones"]
+    end
+```
 
-### Seguidores y Personal (Staff & Hirelings)
+#### 1. Santuario Divino (Sanctuary — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Commune & Bless (Comunión y Bendición)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Centro espiritual de devoción bélica y compasiva. Concede al personaje agua bendita y ventaja en salvaciones de Sabiduría contra maldiciones e influencias extraplanarias.
 
-* **Capataz / Administrador (Major Domo):** Abadesa Lía (Una clérigo elfo anciana).
-* **Defensores / Guardias:** 8 Monjes acólitos y 6 Centinelas de Guerra devotos.
-* **Artesanos / Especialistas:** Un sanador experto y boticario del templo.
+#### 2. Invernadero de Hierbas Médicas (Greenhouse — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Harvest (Cosecha Botánica)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Cultivo de flora exótica para destilar ungüentos, antitoxinas y cataplasmas del Camino de la Misericordia. Provee 2 dosis de pociones curativas o antitoxinas por semana.
+
+#### 3. Área de Entrenamiento Marcial (Training Area — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Train (Acondicionamiento Desarmado)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Patio de golpeo con postes de madera de hierro. Otorga al personaje +1d4 a su primera tirada de iniciativa o ataque tras salir del bastión.
+
+#### 4. Scriptorium Sagrado (Scriptorium — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Scribe (Transcripción de Pergaminos Sagrados)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Copiado de pergaminos divinos de clérigo (*Revivify*, *Death Ward*, *Freedom of Movement*) a mitad de tiempo y oro.
+
+#### 5. Cámara de Meditación Trascendente (Meditation Chamber — Vast, Desbloqueo Nivel 13)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Focus (Enfoque Espiritual de Ki)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Aislamiento sonoro absoluto para armonizar Ki y energía divina. Otorga inspiración heroica y ventaja en tiradas de concentración durante las primeras 24 horas.
+
+#### 6. Gremio de Beneficencia y Sanación (Guildhall — Vast, Desbloqueo Nivel 17)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Heal the Masses (Red de Milagros y Hospitalidad)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Hospital y centro de peregrinaje mayor. Permite acoger a cientos de fieles, tratar epidemias mágicas y movilizar una guardia de 20 acólitos y monjes con un bono marcial de mando de +11.
+
+---
+
+### Seguidores y Guarnición (Staff & Garrison)
+
+* **Capataz General (Major Domo):** Abadesa Lía (Anciana elfo de los bosques, maestra de boticarios y sabia consejera espiritual).
+* **Guarnición Activa:**
+  * 12 Monjes acólitos versados en medicina marcial y combate desarmado.
+  * 6 Centinelas de Guerra con mayales y corazas consagradas.
+  * 2 Maestros herboristas y boticarios del templo.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Confección de Cataplasmas y Remedios Especiales
+### Prioridad 1: Destilación de Remedios y Ungüentos de Misericordia
+* **Mecánica Oficial:** Xanathar's Guide to Everything / DMG 2024 (Herbalism & Potion Crafting).
+* **Bonificadores Aplicables:** Herramientas de Herborista (+11 con pericia), Sabiduría (+5) e instalaciones del Invernadero.
+* **Objetivo:** Acumular viales de *Potion of Greater Healing* y antídotos contra toxinas mortales.
 
-* **Mecánica Base:** DMG (Reglas de Fabricación).
-* **Bonificadores Aplicables:** Competencia con Herramientas de Herborista + Sabiduría (+11 total) + Guía (+1d4).
-* **Coste por Día/Semana:** 25 po / 1 día de trabajo.
-* **Objetivo de Optimización:** Abastecer al templo de medicinas especiales y pociones menores de curación reduciendo los costes del grupo al 50%.
-
-### Prioridad 2: Entrenamiento / Dotes
-
-* **Mecánica Base:** DMG (Reglas de Entrenamiento).
-* **Bonificadores Aplicables:** Sabiduría y Destreza altas.
-* **Progreso Actual:** 4 / 10 semanas para aprender la dote "Mobile" o ganar competencia en la habilidad de Medicina.
+### Prioridad 2: Servicio Hospitalario y Peregrinaje
+* **Mecánica Oficial:** XGE (Religious Service).
+* **Objetivo:** Atender a las poblaciones locales para ganar favor divino, diezmos voluntarios e inspiración religiosa previa a misiones de guerra.
 
 ---
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 50 ft. (30 ft. base + 20 ft. por progresión de Monje).
-* **Trepar (Climb):** 30 ft. (o 50 ft. si corre sobre superficies verticales vía habilidad de nivel 9).
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 0 ft.
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Sigiloso o Rápido.
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (Visión racial élfica).
-* **Habilidades de Exploración:** Percepción pasiva extrema de 21.
+* **Caminar (Walk):** 50 ft. (30 ft. base Wood Elf + 20 ft. por Movimiento sin Armadura Monje 12).
+* **Iniciativa en Viaje:** +5 base (o +10 con dote *Alert*).
+* **Movimiento Vertical (Monje 9):** Puede correr a lo largo de muros verticales y sobre superficies líquidas sin hundirse.
+* **Visión en la Oscuridad:** 60 ft. nativa de Elfo de la Selva.
+* **Ritmo de Viaje:** Rápido sin penalización de percepción pasiva (*Fleet of Foot* / Monje).
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🎭 Reputación y Facciones
 
-### Facciones Activas
-
-1. **La Hermandad del Ocaso Sanador:**
-    * *Rango / Título:* Gran Sanador Marcial (Arch-Physician).
-    * *Reputación / Favor:* Aliado Venerado.
-    * *Beneficio Mecánico:* Alojamiento gratuito y acceso a bibliotecas sagradas nacionales con conocimientos sobre medicina y venenos antiguos.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-* **Percepción Pasiva (Passive Perception):** 21 (10 + 5 (SAB) + 6 (PB))
-* **Investigación Pasiva (Passive Investigation):** 10 (10 + 0 (INT))
-* **Perspicacia Pasiva (Passive Insight):** 21 (10 + 5 (SAB) + 6 (PB))
-* **Idiomas Conocidos:** Común, Élfico, Celestial.
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Herborista (+11), Útiles de Calígrafo (+5).
+1. **La Orden de la Máscara de Cuervo:** Patriarca Supremo de los Monjes de la Misericordia. Autoridad total para arbitrar juicios de vida y muerte en comunidades rurales.
+2. **El Cónclave de los Robles Antiguos:** Aliados elfos que proveen semillas raras y madera sagrada para el templo.

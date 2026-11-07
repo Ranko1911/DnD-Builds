@@ -1,39 +1,43 @@
-# 🗺️ Hoja de Ruta de The Conductor: Full Support Bard | D&D 5e (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Progresión (Niveles 1-20) — The Conductor
 
-Esta hoja de ruta detalla la progresión nivel a nivel para **The Conductor**, el soporte táctico más poderoso de D&D 5e capaz de regalar ataques de reacción y mover al equipo como piezas de ajedrez.
-
----
-
-## 📊 Tabla de Progresión Completa (1 - 20)
-
-| Nivel Total | Clase y Nivel | PB | Hitos y Decisiones de Optimización | Espacios | Características Obtenidas |
-| :---: | :--- | :---: | :--- | :---: | :--- |
-| **1** | Cleric 1 | +2 | **Dip Inicial en Clérigo (Orden)**: Armadura Media + Escudos. | 2 Sl. L1 | Voice of Authority, Bonus Proficiencies. |
-| **2** | Bard 1 | +2 | **Inicio en Bardo**: Inspiración Bárdica (d6), *Silvery Barbs*. | 3 Sl. L1 | Bardic Inspiration, Spellcasting. |
-| **3** | Bard 2 | +2 | *Jack of All Trades*, *Song of Rest*. | 4 Sl. L1 / 2 Sl. L2 | Jack of All Trades, Song of Rest. |
-| **4** | Bard 3 | +2 | **Subclase: College of Glamour**. *Mantle of Inspiration*. | 4 Sl. L1 / 3 Sl. L2 | Mantle of Inspiration, Enthrall. |
-| **5** | Bard 4 | +3 | **Dote 1: Fey Touched (+1 CHA -> 18 CHA)**. *Misty Step*. | 4 Sl. L1 / 3 Sl. L2 / 2 Sl. L3 | Dote Fey Touched. |
-| **6** | Bard 5 | +3 | **Font of Inspiration**: Inspiración recarga en descanso corto. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 | Font of Inspiration (d8), Countercharm. |
-| **7** | Bard 6 | +3 | **Mantle of Majesty**: *Command* como Acción Adicional gratis. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 1 Sl. L4 | Mantle of Majesty. |
-| **8** | Bard 7 | +3 | Conjuros de Nivel 4: *Dimension Door*, *Polymorph*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 2 Sl. L4 | Conjuros de Nivel 4. |
-| **9** | Bard 8 | +4 | **Dote 2: ASI (+2 CHA -> 20 CHA)**. Máximo Carisma (+5). | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 1 Sl. L5 | Maximizada Carisma. |
-| **10** | Bard 9 | +4 | Conjuros de Nivel 5: *Mass Cure Wounds*, *Hold Monster*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 2 Sl. L5 | Conjuros de Nivel 5. |
-| **11** | Bard 10 | +4 | **Magical Secrets**: *Counterspell* & *Find Greater Steed*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 | Magical Secrets, Bardic Inspiration (d10). |
-| **12** | Bard 11 | +4 | Conjuros de Nivel 6: *Heroes' Feast*, *Otto's Irresistible Dance*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 | Conjuros de Nivel 6. |
-| **13** | Bard 12 | +5 | **Dote 3: Inspiring Leader** / **Alert**. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 | Dote de Soporte / Iniciativa. |
-| **14** | Bard 13 | +5 | Conjuros de Nivel 7: *Forcecage*, *Mirage Arcane*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 | Conjuros de Nivel 7. |
-| **15** | Bard 14 | +5 | **Unbreakable Majesty**: Desventaja en ataques contra el Bardo. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 | Unbreakable Majesty, Magical Secrets (Nivel 14). |
-| **16** | Bard 15 | +5 | Conjuros de Nivel 8: *Mind Blank*, *Feeblemind*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 | Conjuros de Nivel 8. |
-| **17** | Bard 16 | +6 | **Dote 4: War Caster**. Protege la concentración. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 / 1 Sl. L9 | War Caster. |
-| **18** | Bard 17 | +6 | Conjuros de Nivel 9: *Foresight*, *True Polymorph*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 / 1 Sl. L9 | Conjuros de Nivel 9. |
-| **19** | Bard 18 | +6 | **Magical Secrets Supremas**: *Wish* & *Mass Heal*. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 / 1 Sl. L9 | Magical Secrets (Nivel 18). |
-| **20** | Bard 19 | +6 | **Epic Boon / Capstone**: *Boon of Boon Mastery* o dote final. | 4 Sl. L1 / 3 Sl. L2 / 3 Sl. L3 / 3 Sl. L4 / 3 Sl. L5 / 1 Sl. L6 / 1 Sl. L7 / 1 Sl. L8 / 1 Sl. L9 | Hito Final Bardo. |
+**Clase:** Cleric (Order Domain) 1 / Bard (College of Glamour) 19  
+**Especie:** Hobgoblin (*Monsters of the Multiverse*)  
+**Prioridad Inicial:** Se inicia como Clérigo a Nivel 1 para obtener de inmediato la competencia en **Armaduras Pesadas/Medias, Escudos** y la habilidad angular del build: **Voice of Authority**.
 
 ---
 
-## 🎯 Progresión de Dotes (Feats) Explicada
+## 📊 Tabla de Progresión Nivel a Nivel (1 - 20)
 
-1. **Dote 1: Fey Touched (Bard Nivel 4):** +1 a Carisma (alcanza 18 CHA). Aporta *Misty Step* y *Silvery Barbs*.
-2. **Dote 2: ASI (+2 CHA - Bard Nivel 8):** Maximiza Carisma a 20. Otorga +5 usabilidad de Inspiración Bárdica y eleva la CD de salvación a 19+.
-3. **Dote 3: Inspiring Leader (Bard Nivel 12):** Otorga PG temporales masivos a todo el equipo antes de cada combate.
-4. **Dote 4: War Caster (Bard Nivel 16):** Garantiza que no pierdas la concentración en conjuros de control o bufos.
+| Nivel Total | Clase y Nivel | PB | Rasgos Clave, Dotes y Decisiones | Espacios de Conjuro | Hitos de Conjuros y Soporte | Hito de Bastión (DMG 2024) |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: |
+| **1** | Cleric 1 | +2 | *Order Domain*. Competencia en Armadura Media/Pesada y Escudos. *Voice of Authority*. | 2 Ranuras L1 | *Bless*, *Healing Word*, *Command*, *Heroism*. | — |
+| **2** | Bard 1 | +2 | *Bardic Inspiration* (d6, 5 usos por descanso largo). Conjuros de bardo. | 3 Ranuras L1 | *Silvery Barbs*, *Dissonant Whispers*. Combo Voice + Barbs activo. | — |
+| **3** | Bard 2 | +2 | *Jack of All Trades* (suma mitad de PB a toda prueba no competente), *Song of Rest*. | 4 Ranuras L1 / 2 Ranuras L2 | *Aid*, *Enhance Ability*. | — |
+| **4** | Bard 3 | +2 | **Subclase: College of Glamour**. *Mantle of Inspiration* y *Enthrall*. | 4 Ranuras L1 / 3 Ranuras L2 | Reposicionamiento del equipo sin AdO + THP por asalto. | — |
+| **5** | Bard 4 | +3 | **Dote 1: Fey Touched (+1 CAR $\to$ CAR 18)**. Acceso a *Misty Step*. | 4 L1 / 3 L2 / 2 L3 | *Misty Step* gratis 1/día. Iniciativas y CD mejoradas. | 🏰 **Desbloqueo Bastión:** *Gran Auditorio* + *Conservatorio* (Roomy) |
+| **6** | Bard 5 | +3 | **Font of Inspiration** (las Inspiraciones recargan en Descanso Corto). Dado d8. | 4 L1 / 3 L2 / 3 L3 | *Hypnotic Pattern*, *Dispel Magic*. | — |
+| **7** | Bard 6 | +3 | **Mantle of Majesty** (*Command* como Acción Adicional gratis cada asalto). *Countercharm*. | 4 L1 / 3 L2 / 3 L3 / 1 L4 | Dominio total del mapa sin gastar ranuras con *Command*. | — |
+| **8** | Bard 7 | +3 | Acceso a conjuros de nivel 4. | 4 L1 / 3 L2 / 3 L3 / 2 L4 | *Dimension Door*, *Polymorph*. | — |
+| **9** | Bard 8 | +4 | **Dote 2: ASI (+2 CAR $\to$ CAR 20 Máximo)**. CD de salvación 19. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 1 L5 | 5 Inspiraciones por descanso corto; máxima CD mágica. | 🏰 **Ampliación Bastión:** *Biblioteca Canciones Antiguas* (Roomy) |
+| **10** | Bard 9 | +4 | Acceso a conjuros de nivel 5. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 2 L5 | *Synaptic Static*, *Hold Monster*, *Greater Restoration*. | — |
+| **11** | Bard 10 | +4 | **Magical Secrets (Nivel 10):** *Counterspell* y *Find Greater Steed*. Inspiración d10. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 3 L5 / 1 L6 | Montura voladora (Pegaso) que comparte bufos propios. | — |
+| **12** | Bard 11 | +4 | Acceso a conjuros de nivel 6. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 3 L5 / 1 L6 | *Heroes' Feast*, *Otto's Irresistible Dance*. | — |
+| **13** | Bard 12 | +5 | **Dote 3: Inspiring Leader** (+25 THP a todo el grupo por descanso corto). | 4 L1-L5 / 1 L6 / 1 L7 | Colchón masivo de salud preventiva para todo el escuadrón. | 🏰 **Ampliación Bastión:** *Salón Diplomático* (Roomy) + *Coliseo* (Vast) |
+| **14** | Bard 13 | +5 | Acceso a conjuros de nivel 7. | 4 L1-L5 / 1 L6 / 1 L7 | *Forcecage*, *Mirage Arcane*. | — |
+| **15** | Bard 14 | +5 | **Unbreakable Majesty** (Enemigos deben superar salvación de Carisma para atacarte). | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 | **Magical Secrets (Nivel 14):** *Simulacrum* y *Crown of Stars*. | — |
+| **16** | Bard 15 | +5 | Acceso a conjuros de nivel 8. Inspiración d12. | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 | *Mind Blank* (24h de inmunidad psíquica y mental). | — |
+| **17** | Bard 16 | +6 | **Dote 4: War Caster** (Ventaja en salvaciones de concentración, componentes somáticos). | 4 L1-L5 / 1 L6-L8 / 1 L9 | Protección inexpugnable de la concentración en combate. | 🏰 **Ampliación Bastión:** *Santuario de las Musas* (Vast) |
+| **18** | Bard 17 | +6 | Acceso a conjuros de nivel 9. | 4 L1-L5 / 1 L6-L8 / 1 L9 | *Foresight*, *True Polymorph*. | — |
+| **19** | Bard 18 | +6 | **Magical Secrets Supremas (Nivel 18):** **Wish** y **Mass Heal**. | 4 L1-L5 / 1 L6-L8 / 1 L9 | Acceso universal a toda la magia del multiverso y cura 700 HP. | — |
+| **20** | Bard 19 | +6 | **Dote Épica: Epic Boon of Spell Recall** (25% probabilidad de no gastar ranura). | 4 L1-L5 / 1 L6-L8 / 1 L9 | Maestría de recursos y capacidad de mando absoluta. | — |
+
+---
+
+## 📈 Escalado Táctico de Rendimiento por Tiers (DPR Indirecto y Mitigación)
+
+| Rango de Niveles | Daño Indirecto Regalado / Asalto | Mitigación Colectiva / Asalto | CA Pasiva (Buffeada) | EHP Colectivo Inicial | Hito Mecánico Clave |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Tier 1 (1-4)** | $+14.5 \text{ DPR}$ | $20 \text{ THP}$ | 19 (21) | $80 \text{ EHP}$ | Voice of Authority + Silvery Barbs + Armadura Media. |
+| **Tier 2 (5-10)** | $+24.0 \text{ DPR}$ | $40 \text{ THP}$ | 20 (22) | $220 \text{ EHP}$ | Font of Inspiration en descanso corto + Mantle of Majesty. |
+| **Tier 3 (11-16)** | $+34.5 \text{ DPR}$ | $55 \text{ THP}$ | 22 (24) | $450 \text{ EHP}$ | *Ollamh Harp* + *Find Greater Steed* + *Inspiring Leader*. |
+| **Tier 4 (17-20)** | **+42.90 DPR** | **70 THP** | **25 CA** | **> 1,200 EHP** | *Wish*, *Mass Heal*, *Mantle of Inspiration* (70 THP) y *Staff of the Magi*. |

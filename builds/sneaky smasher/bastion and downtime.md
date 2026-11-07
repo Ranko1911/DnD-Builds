@@ -1,106 +1,111 @@
 # 🏰 Bastión y Tiempo Muerto — Sneaky Smasher
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+*Estructura de gestión de la base de operaciones, economía de bastión y mecánicas de mando.*
 
 * **Nombre del Bastión:** La Guarida de la Mente Silenciosa (Whispering Lair)
 * **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 110
-* **Puntuación de Mando (Bastion Defender Stats):** STR 20 (+5), DEX 14 (+2), CON 14 (+2), INT 10 (+0), WIS 12 (+1), CHA 8 (-1)
+* **Puntos de Bastión (Bastion Points - BP):** 110
+* **Puntuación de Mando (Bastion Defender Stats):** +11 al ataque y salvaciones defensivas (STR 20 [+5], DEX 14 [+2], CON 14 [+2], INT 10 [+0], WIS 12 [+1], CHA 8 [-1]).
+
+---
 
 ### Instalaciones Básicas (Basic Facilities)
 
-1. **Dormitorio (Bedchambers):** Una habitación subterránea con trampas de alarma camufladas y un saco de dormir de piel de oso.
-2. **Comedor (Dining Hall):** Una taberna oculta para el grupo y los asociados del gremio de ladrones.
-3. **Espacio Común (Common Room):** Un salón de juegos secreto con mesas de dados y cartas.
+1. **Dormitorio Subterráneo (Bedchambers):** Búnker excavado bajo raíces de robles milenarios, protegido con trampas mecánicas de alarma y un lecho de pieles de oso cavernario.
+2. **Taberna Clandestina (Dining Hall):** Refugio abovedado con grandes barricas de licor enano donde la banda de rufianes comparte banquetes y coordina golpes.
+3. **Salón Común de Juegos (Common Area):** Cámara de juego equipada con mesas de dados trucados y cartas donde los infiltradores descansan en anonimato.
 
-### Instalaciones Especiales (Special Facilities)
+---
 
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
+### Instalaciones Especiales (Special Facilities — Exactamente 6: 4 Roomy + 2 Vast)
 
-* **Armería Clandestina (Armory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Forja de Armas Pesadas y Finas.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Equipamiento de garrotes pesados y dagas de precisión para ejecutar el ataque sigiloso contundente (*Sneak Attack* de fuerza).
-* **Campo de Entrenamiento (Training Area) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Agarre y Ataque Temerario.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Perfeccionamiento de llaves de sumisión desarmada y combinaciones de *Reckless Attack* con Pícaro.
-* **Sala de Juegos (Gaming Hall) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Juegos de Azar y Trucos Psiónicos.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Generación de ingresos constantes inclinando las probabilidades mediante dados psiónicos (*Psi-Bolstered Knack*).
-* **Taberna de Contrabando (Pub) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Infiltración y Red de Información.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Recopilación de secretos urbanos y reclutamiento de informadores para operaciones encubiertas.
-* **Cámara de Meditación Psiónica (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Recarga y Foco Psiónico.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Enfoque mental que regenera dados de energía psiónica de *Soulknife* y otorga ventaja en tiradas de Sabiduría/Fuerza.
-* **Gremio de Ladrones (Guildhall) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Red de Extorsión y Sombras.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sindicato criminal propio que otorga inmunidad diplomática en los bajos fondos y recursos ilimitados.
+```mermaid
+flowchart TD
+    subgraph BastionTurn ["Ciclo de Turno de Bastión (Cada 7 Días)"]
+        A["Emisión de Órdenes Semanales"] --> B["Armería: Forja de Cuchillas Psico-Afinadas"]
+        A --> C["Campo de Entrenamiento: Perfección de Agarre y Sumisión"]
+        A --> D["Sala de Juegos: Apuestas e Inteligencia Psiónica"]
+        A --> E["Taberna de Contrabando: Reclutamiento de Rufianes"]
+        A --> F["Cámara de Meditación: Recarga de Energía Mental"]
+        A --> G["Gremio de Ladrones: Sindicato del Crimen y Sombras"]
+        B & C & D & E & F & G --> H["Recaudación de BP e Ingresos de Oro"]
+        H --> I["Resolución de Eventos de Asedio y Alertas"]
+    end
+```
 
-### Seguidores y Personal (Staff & Hirelings)
+#### 1. Armería Clandestina (Armory — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Equip & Maintain (Equipar a los Rufianes)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Almacena corazas medias y dagas pesadas para la banda de asaltantes. Concede +4 a la defensa base del bastión contra incursiones hostiles.
 
-* **Capataz / Administrador (Major Domo):** Contrabandista Jaxon (Un pícaro veterano).
-* **Defensores / Guardias:** 8 Rufianes armados y 4 Lobos guardianes de la arboleda.
-* **Artesanos / Especialistas:** Un croupier profesional que asiste en el salón de juegos.
+#### 2. Campo de Entrenamiento de Agarre (Training Area — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Train (Acondicionamiento de Sumisión)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Patio de arena gruesa diseñado para llaves de inmovilización y combate temerario. Concede ventaja en pruebas de iniciativa o en la primera tirada de atletismo tras abandonar el bastión.
+
+#### 3. Sala de Juegos y Apuestas (Gaming Hall — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Gamble (Juegos de Azar y Riqueza)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Centro de juego clandestino donde el uso sutil de dados psiónicos (*Psi-Bolstered Knack*) permite inclinar las probabilidades, generando $1\text{d}10 \times 20$ po limpios por semana.
+
+#### 4. Taberna de Contrabando (Pub — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Gather Intel (Red de Información Subterránea)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Punto de encuentro para contrabandistas y ladrones que provee rumores estratégicos y descubre la presencia de cazarrecompensas en la comarca.
+
+#### 5. Cámara de Meditación Psiónica (Meditation Chamber — Vast, Desbloqueo Nivel 13)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Focus (Enfoque de Energía Psiónica)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Cámara silenciosa que regenera la reserva de dados psiónicos del personaje y otorga ventaja en tiradas de salvación de Sabiduría y Fuerza durante las primeras 24 horas.
+
+#### 6. Gremio de Ladrones y Sombras (Guildhall — Vast, Desbloqueo Nivel 17)
+* **Estado:** Activa (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Command & Extort (Sindicato Criminal de Élite)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Sede central que coordina una red internacional de extorsión y sabotaje. Permite desplegar brigadas de rufianes y bestias para defender el bastión con un bono marcial de mando de +11.
+
+---
+
+### Seguidores y Guarnición (Staff & Garrison)
+
+* **Capataz General (Major Domo):** Contrabandista Jaxon (Un pícaro veterano de ojos afilados, frío y leal a la causa).
+* **Guarnición Activa:**
+  * 14 Rufianes Bugbear y mercenarios armados con garrotes y hojas ocultas.
+  * 4 Lobos guardianes adiestrados para rastreo olfativo en los túneles.
+  * 2 Croupiers y tasadores de gemas del mercado negro.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Obtención de Información y Extorsión
+### Prioridad 1: Obtención de Inteligencia y Extorsión
+* **Mecánica Oficial:** Xanathar's Guide to Everything / DMG 2024 (Carousing / Crime).
+* **Bonificadores Aplicables:** Juegos de Dados (+11 con pericia), Sigilo (+17 mínimo 27 por *Reliable Talent*) y dados psiónicos (*Psi-Bolstered Knack* +1d12).
+* **Objetivo:** Chantajear a magistrados y señores de la guerra locales para asegurar impunidad legal en todas las operaciones.
 
-* **Mecánica Base:** Xanathar's Guide to Everything (Carousing).
-* **Bonificadores Aplicables:** Competencia con Juegos de Cartas + Sabiduría (Perspicacia/Trato con Animales) y dados psiónicos (*Psi-Bolstered Knack*).
-* **Coste por Día/Semana:** 50 po / 1 semana de trabajo.
-* **Objetivo de Optimización:** Recopilar secretos de nobles y rivales de campaña sin ser detectado gracias a la invisibilidad psiónica.
-
-### Prioridad 2: Entrenamiento / Dotes
-
-* **Mecánica Base:** DMG (Reglas de Entrenamiento).
-* **Bonificadores Aplicables:** Destreza y Fuerza altas.
-* **Progreso Actual:** 7 / 10 semanas para aprender la dote "Mobile" o ganar competencia en la habilidad de Acrobacias.
+### Prioridad 2: Entrenamiento Físico de Sumisión
+* **Mecánica Oficial:** DMG 2024 (Training).
+* **Objetivo:** Perfeccionar técnicas de lucha libre y agarres anatómicos contra criaturas de tamaño Enorme o Gargantuesco.
 
 ---
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 40 ft. (30 ft. base + 10 ft. por movimiento rápido de bárbaro).
-* **Trepar (Climb):** 30 ft. (Gracias a la dote de atleta).
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 0 ft. (O teletransporte psiónico de hasta 120 pies como acción adicional).
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Sigiloso (para sorprender a los enemigos con el rasgo de Bugbear).
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (Racial de Bugbear).
-* **Habilidades de Exploración:** Capacidad innata de esconderse y moverse sin hacer ruido a paso rápido.
+* **Caminar (Walk):** 40 ft. (30 ft. base Bugbear + 10 ft. por Movimiento Rápido de Bárbaro).
+* **Iniciativa en Viaje:** +7 (+2 DES + 5 Dote Alert) con ventaja pasiva por *Danger Sense*.
+* **Sigilo Mástil:** Con *Boots of Elvenkind* (ventaja) y *Reliable Talent* (mínimo 10 en el d20), la tirada de sigilo jamás baja de **27**.
+* **Visión en la Oscuridad:** 60 ft. nativa del Bugbear.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🎭 Reputación y Facciones
 
-### Facciones Activas
-
-1. **La Cofradía de las Sombras Psiónicas:**
-    * *Rango / Título:* Ejecutor Mental (Mind Enforcer).
-    * *Reputación / Favor:* Aliado de Confianza.
-    * *Beneficio Mecánico:* Acceso a venenos psíquicos raros y pasajes de escape seguros en alcantarillados de grandes urbes.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-* **Percepción Pasiva (Passive Perception):** 17 (10 + 1 (SAB) + 6 (PB))
-* **Investigación Pasiva (Passive Investigation):** 16 (10 + 0 (INT) + 6 (PB))
-* **Perspicacia Pasiva (Passive Insight):** 17 (10 + 1 (SAB) + 6 (PB))
-* **Idiomas Conocidos:** Común, Gobloide, Ladino (*Thieves' Cant*).
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Ladrón (+8), Útiles de Juego de Cartas (+8).
+1. **La Cofradía de la Mente Rota:** Alto Ejecutor de la red clandestina de asesinos y psiónicos independientes.
+2. **El Círculo de los Clanes Totémicos:** Respetado como hermano de sangre del Tótem del Oso por tribus salvajes del norte.

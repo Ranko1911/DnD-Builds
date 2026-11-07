@@ -1,55 +1,65 @@
-# Objetos a Obtener — Sneaky Smasher
+# 📦 Objetos a Obtener — Sneaky Smasher
 
-**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
+## ⚙️ Gestión de Ranuras de Sintonización (Attunement Slots: 3 / 3 Activas)
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
+* **Tier 1 (Niveles 1-4):** Cloak of Protection (1/3 slots).
+* **Tier 2 (Niveles 5-10):** Ring of Protection (1/3), Cloak of Protection (2/3), Eldritch Claw Tattoo (3/3).
+* **Tier 3 (Niveles 11-16):** Belt of Fire Giant Strength (1/3), Cloak of Displacement (2/3), Ring of Protection (3/3).
+* **Tier 4 (Niveles 17-20 / Endgame):**
+  1. 🥋 **Belt of Fire Giant Strength (STR 25)** (Sintonizado — Ranura 1/3)
+  2. 📿 **Cloak of Displacement** (Sintonizado — Ranura 2/3)
+  3. 🛡️ **Ring of Protection** (Sintonizado — Ranura 3/3)
 
-* **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-* **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Cloak of Protection (1 slot), Eldritch Claw Tattoo (1 slot). (Total: 3).
-* **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Amulet of Health (1 slot), Ring of Protection (1 slot). (Total: 3).
-* **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Ring of Spell Turning (1 slot), Amulet of Health (1 slot). (Total: 3).
+> **Nota de Manos Libres y Hojas Psiónicas:** Las hojas psiónicas no requieren objetos mágicos para manifestarse como mágicas, liberando las ranuras de sintonización para maximizar la Fuerza, la CA pasiva y la evasión en melé.
 
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Cloak of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. |
-| **Boots of Elvenkind** | No | [—] | Prioridad Alta. Ventaja en tiradas de Sigilo para moverse en absoluto silencio. No consume sintonización. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Cloak of Protection** | Capa | Sí | [⚔️ Sí] | **Prioridad 1 (Indispensable):** +1 a la CA y +1 a todas las tiradas de salvación. Eleva tu CA inicial con cota media a 18. |
+| **Boots of Elvenkind** | Botas | No | [—] | **Prioridad 2 (Excelente):** Ventaja en tiradas de Sigilo y amortiguación de pasos sin consumir ranura de sintonización. |
+| **Half-Plate Armor** | Armadura | No | [—] | **Prioridad 3:** CA base de 17 (15 + 2 DEX) como armadura media. |
 
 ---
 
 ## 🔵 Tier 2 (Niveles 5-10) — Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CA y salvaciones adicionales. |
-| **Eldritch Claw Tattoo** | Sí | [⚔️ Sí] | **Priorizar 2:** Otorga +1 a las tiradas de ataque y daño de tus golpes desarmados y armas psíquicas. Permite realizar ataques a 15 pies con daño de fuerza adicional por 1 minuto al día. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Ring of Protection** | Anillo | Sí | [⚔️ Sí] | **Prioridad 1 (Indispensable):** Se acumula con la capa para sumar +2 a la CA y salvaciones, vital al usar *Reckless Attack*. |
+| **Eldritch Claw Tattoo** | Tatuaje | Sí | [⚔️ Sí] | **Prioridad 2 (Excelente):** +1 a ataques y daño de golpes desarmados y armas naturales/psíquicas; alcance extendido de 15 pies 1 vez al día. |
+| **Half-Plate +1** | Armadura | No | [—] | **Prioridad 3:** Eleva la CA base a 18 sin consumir sintonización. |
 
 ---
 
 ## 🟣 Tier 3 (Niveles 11-16) — Muy Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Amulet of Health** | Sí | [⚔️ Sí] | **Priorizar 1:** Eleva tu Constitución a 19 (+4), sumando gran cantidad de puntos de golpe y mejorando tus salvaciones. |
-| **Cloak of Displacement** | Sí | [⚔️ Sí] | **Priorizar 2:** Los enemigos tienen desventaja al atacarte. Combina con tu Furia y Esquiva Asombrosa para volverte invulnerable. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Belt of Fire Giant Strength** | Cinturón | Sí | [⚔️ Sí] | **Prioridad 1 (Indispensable):** Fija tu Fuerza en 25 (+7), disparando la bonificación de impacto con las hojas psiónicas a +13 y el daño plano por golpe. |
+| **Cloak of Displacement** | Capa | Sí | [⚔️ Sí] | **Prioridad 2 (Excelente):** Impone desventaja en los ataques contra el personaje, neutralizando por completo la ventaja que *Reckless Attack* concede a los enemigos. |
+| **Amulet of Health** | Amuleto | Sí | [—] | **Prioridad Alternativa:** Fija la CON en 19 (+4), sumando +40 PG de aguante. |
+| **Tome of Gainful Exercise** | Libro | No | [Consumido] | **Prioridad 3 (Permanente):** Incrementa la Fuerza natural en +2 permanentemente tras su lectura. |
 
 ---
 
 ## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Tome of Gainful Exercise** | No | [—] | **Priorizar 1:** Aumenta de forma permanente tu Fuerza en +2 (hasta 22), incrementando tu modificador de ataque, daño e intentos de agarre. |
-| **Ring of Spell Turning** | Sí | [⚔️ Sí] | Prioridad Media. Ventaja en salvaciones de conjuros dirigidos e intenta devolverlos. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Half-Plate Armor +3** | Armadura | No | [—] | **Prioridad 1 (Indispensable):** Eleva la armadura pasiva a 20 CA (15 + 2 DEX + 3 mágico) sin consumir sintonización. |
+| **Ring of Spell Turning** | Anillo | Sí | [—] | **Prioridad Alternativa:** Ventaja en salvaciones mágicas dirigidas y rebote contra el lanzador si se saca un 20 en el d20. |
+| **Manual of Quickness of Action** | Libro | No | [Consumido] | **Prioridad 2 (Permanente):** Incrementa la Destreza en +2 de forma definitiva. |
 
 ---
 
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+## 🧪 Consumibles y Suministros Clave Sin Sintonización
 
-| Objeto | Rareza | Prioridad / Notas |
+| Objeto | Rareza | Efecto Táctico y Sinergia |
 | :--- | :---: | :--- |
-| **Boots of Elvenkind** | Poco Común | **Prioridad 1:** Sigilo sin ruido. |
-| **Manual of Quickness of Action** | Muy Raro | **Prioridad Media:** +2 permanente a la Destreza (aumenta tu CA máxima con armadura media a 18). |
+| **Half-Plate Armor +3** | Muy Raro | CA 20 pasiva sin requerir ranura de sintonización. |
+| **Boots of Elvenkind** | Poco Común | Ventaja en tiradas de Sigilo sin requerir sintonización. |
+| **Potion of Speed** | Raro | Confiere *Haste* por 1 minuto sin concentración, añadiendo 1 ataque extra y +2 a la CA. |
+| **Potion of Supreme Healing** | Muy Raro | Restaura $10\text{d}4 + 20 \text{ PG}$ de forma instantánea; elaborada en el Bastión. |

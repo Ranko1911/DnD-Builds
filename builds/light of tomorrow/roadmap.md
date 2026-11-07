@@ -1,71 +1,43 @@
-# 🗺️ Hoja de Ruta de la Luz del Mañana (Nivel 1 - 20) — Blasting Healer (Sorlock)
+# 🗺️ Hoja de Ruta de Progresión (Niveles 1-20) — Light of Tomorrow
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **Light of Tomorrow** (también conocido como *Blasting Healer* o *Divine Hexmaiden*), basado en las guías clásicas v1.0 (2018) y v2.0 (2020) de **Darth Bober**. El personaje combina **Divine Soul Sorcerer** y **Hexblade Warlock** para operar como una ametralladora de daño de fuerza (*Eldritch Blast*) a la vez que proporciona una curación y soporte táctico incomparables.
-
----
-
-## ⚖️ Comparativa de Variantes a Nivel 20
-
-Los dos videos de Darth Bober plantean dos opciones de división final de niveles. Ambas son viables, pero priorizan diferentes aspectos del juego:
-
-### Ruta A: 🛡️ Sorcerer 18 / Warlock 2 (La opción v2.0 - Máxima Supervivencia)
-
-Esta ruta busca exprimir el máximo nivel de Sorcerer para desbloquear el rasgo final de la subclase Alma Divina.
-
-* **Hito Clave:** **Unearthly Recovery** (Sorcerer 18). Como acción adicional, si tu vida está por debajo del 50%, recuperas la mitad de tus HP máximos de forma instantánea una vez por día.
-* **Metamagia Máxima:** Más puntos de sorcería naturales ($18$) y más espacios de alto nivel para curación.
-* **Enfoque de Combate:** Excelente para campañas que llegan a nivel 20 y combates de alta letalidad en primera/media línea.
-
-### Ruta B: 🔮 Sorcerer 17 / Warlock 3 (La opción v1.0 - Máxima Utilidad)
-
-Esta ruta sacrifica la recuperación de HP de nivel 18 de Sorcerer a cambio de una tremenda utilidad en rituales y una economía de recursos optimizada.
-
-* **Hito Clave:** **Pact of the Tome** + **Book of Ancient Secrets** (Warlock 3). Otorga acceso a rituales de nivel 1 y 2 de cualquier clase (como *Find Familiar*, *Detect Magic*, *Identify* y *Leomund's Tiny Hut*).
-* **Mejores Slots de Corto Receso:** Las 2 ranuras de Warlock suben a nivel 2 (2 puntos de sorcería cada una al convertirlas, sumando 4 puntos por descanso corto).
-* **Enfoque de Combate:** Excelente para campañas largas de nivel medio, donde el soporte fuera de combate y la versatilidad de rituales son esenciales para el grupo.
+**Clase:** Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2  
+**Especie:** Aasimar Protector  
+**Prioridad de Salvaciones:** Se inicia como Hechicero a Nivel 1 para asegurar la competencia en salvaciones de **Constitución** (esencial para salvaguardar la concentración de *Holy Aura*, *Haste* o *Hex*).
 
 ---
 
-## 📊 Tabla de Progresión Sugerida (Ruta A: 18 / 2)
+## 📊 Tabla de Progresión Nivel a Nivel (1 - 20)
 
-*Esta progresión inicia como Sorcerer para garantizar la competencia en salvaciones de Constitución (vital para mantener la concentración en combate).*
-
-| Nivel Total | Clase y Nivel | PB | Hitos y Decisiones de Optimización | Puntos de Sorcería | Conjuros Clave / Invocaciones / Metamagia |
-| :---: | :--- | :---: | :--- | :---: | :--- |
-| **1** | Sorcerer (Divine Soul) 1 | +2 | Constitución como salvación primaria. Elegir afinidad (ej: *Good* para obtener *Cure Wounds* gratis). | — | *Guidance* (cantrip), *Healing Word*, *Shield of Faith*. |
-| **2** | Warlock (Hexblade) 1 | +2 | Competencia en armadura media y escudos. *Hexblade's Curse*. *Hex Warrior* (usa CAR para atacar). | — | *Eldritch Blast*, *Hex*, *Shield* (Warlock). |
-| **3** | Warlock (Hexblade) 2 | +2 | **Invocaciones de Daño**. Obtienes 2 ranuras de nivel 1 de Warlock para regenerar recursos. | — | Invocación: **Agonizing Blast** (daño + CAR) y **Repelling Blast** (empuje). |
-| **4** | Sorcerer 2 | +2 | *Font of Magic*. Ya puedes convertir ranuras de Warlock en puntos de sorcería. | 2 | Convierte las 2 ranuras de Warlock de nivel 1 en 2 Puntos de Sorcería. |
-| **5** | Sorcerer 3 | +3 | **Metamagia**. *Eldritch Blast* ahora dispara 2 rayos base por acción (total 4 con Quickened). | 3 | Metamagia: **Twinned Spell** (para curar/bufar) y **Quickened Spell** (para la ametralladora). |
-| **6** | Sorcerer 4 | +3 | **Dote 1:** **War Caster**. Ventaja en salvaciones de concentración y componentes somáticos con escudo. | 4 | Sube tu CAR o toma dotes defensivas. *Spiritual Weapon* (daño sostenido sin recursos). |
-| **7** | Sorcerer 5 | +3 | Acceso a conjuros de nivel 3. | 5 | *Revivify* (resurrección), *Counterspell*, *Haste* (para twin-castear). |
-| **8** | Sorcerer 6 | +3 | *Empowered Healing* (subclase, para repetir dados de curación bajos). | 6 | *Aura of Vitality* o *Mass Healing Word*. |
-| **9** | Sorcerer 7 | +4 | Acceso a conjuros de nivel 4. | 7 | *Death Ward* (ideal para duplicar con Twinned), *Banishment*. |
-| **10** | Sorcerer 8 | +4 | **Dote 2:** **ASI (+2 CAR)**. Tu Carisma sube a 18 (o 20 si tuviste dotes de trasfondo/especie). | 8 | Optimiza la CD de salvaciones y el daño por rayo de *Eldritch Blast*. |
-| **11** | Sorcerer 9 | +4 | Acceso a conjuros de nivel 5. *Eldritch Blast* escala a 3 rayos base (total 6 con Quickened). | 9 | *Greater Restoration*, *Synaptic Static*. |
-| **12** | Sorcerer 10 | +4 | **Metamagia adicional**: Elegir **Empowered Spell** (para repetir dados bajos en EB). | 10 | Amplía tu abanico de utilidades. |
-| **13** | Sorcerer 11 | +5 | Acceso a conjuros de nivel 6. | 11 | **Heal** (La curación insignia de 70 HP fijos). |
-| **14** | Sorcerer 12 | +5 | **Dote 3:** **ASI (+2 CAR o dote como Inspiring Leader)**. | 12 | *Inspiring Leader* otorga una gran cantidad de HP temporales al grupo. |
-| **15** | Sorcerer 13 | +5 | Acceso a conjuros de nivel 7. | 13 | *Conjure Celestial* o *Divine Word*. |
-| **16** | Sorcerer 14 | +5 | *Otherworldly Wings* (Vuelo permanente de 30 pies sin concentración). | 14 | Movilidad tridimensional absoluta en combate. |
-| **17** | Sorcerer 15 | +6 | Acceso a conjuros de nivel 8. *Eldritch Blast* alcanza su pico máximo: 4 rayos base (total 8 con Quickened). | 15 | *Holy Aura* (búfalo defensivo definitivo). |
-| **18** | Sorcerer 16 | +6 | **Dote 4:** **Tough** (si necesitas más vida) o **Alert**. | 16 | Incrementa tu aguante o tu iniciativa para meter control rápido. |
-| **19** | Sorcerer 17 | +6 | Acceso a conjuros de nivel 9. | 17 | **Wish** (utilidad suprema) o **Mass Heal**. |
-| **20** | Sorcerer 18 | +6 | **Rasgo Defensivo Subclase**: **Unearthly Recovery**. | 18 | Recupera el 50% de tus HP máximos instantáneamente como acción adicional. |
+| Nivel Total | Clase y Nivel | PB | Rasgos Clave, Dotes y Decisiones | Puntos Sorcería | Conjuros Clave e Invocaciones | Hito de Bastión (DMG 2024) |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: |
+| **1** | Sorcerer 1 | +2 | *Divine Magic* (Aflicción Solar). *Favored by the Gods* (+2d4 a salvación/ataque fallido). | — | *Guidance*, *Healing Word*, *Absorb Elements*, *Shield*. | — |
+| **2** | Warlock 1 | +2 | *Hexblade's Patron*. Competencia en Armadura Media, Escudos y Armas Marciales. *Hexblade's Curse*. | — | *Eldritch Blast*, *Hex*. Ranura de pacto de nivel 1. | — |
+| **3** | Warlock 2 | +2 | Invocaciones: **Agonizing Blast** (+CAR a cada rayo) y **Devil's Sight** (visión mágica 120 ft). | — | 2 ranuras de Warlock que recargan en Descanso Corto. | — |
+| **4** | Sorcerer 2 | +2 | *Font of Magic*. Capacidad de convertir ranuras de Warlock en Puntos de Hechicería en descansos cortos. | 2 | Ranuras de nivel 1 de Hechicero aumentadas. | — |
+| **5** | Sorcerer 3 | +3 | **Metamagia:** *Quickened Spell* (acelera EB a Bonus Action) y *Twinned Spell* (duplica bufos/curaciones). *EB* dispara 2 rayos. | 3 | Acceso a conjuros de nivel 2: *Aid*, *Misty Step*, *Spiritual Weapon*. | 🏰 **Desbloqueo Bastión:** *Sagrario Solar* + *Estudio Arcano* (Roomy) |
+| **6** | Sorcerer 4 | +3 | **Dote 1: War Caster** (Ventaja en salvaciones de concentración, componentes somáticos con escudo). | 4 | Blindaje temprano de la concentración en combate. | — |
+| **7** | Sorcerer 5 | +3 | Conjuros de nivel 3. Salto drástico en potencia. | 5 | *Revivify*, *Counterspell*, *Haste*. | — |
+| **8** | Sorcerer 6 | +3 | *Empowered Healing* (permite relanzar dados de curación para aliados). | 6 | Aumenta la consistencia de las curaciones del grupo. | — |
+| **9** | Sorcerer 7 | +4 | Conjuros de nivel 4. | 7 | *Death Ward* (objetivo primordial de Twinned Spell), *Banishment*. | 🏰 **Ampliación Bastión:** *Scriptorium Divino* (Roomy) |
+| **10** | Sorcerer 8 | +4 | **Dote 2: ASI (+2 CAR $\to$ CAR 20 Máximo)**. CD de salvación base 19, ataque $+11$. | 8 | Daño de *Eldritch Blast* escala a $+5$ por rayo. | — |
+| **11** | Sorcerer 9 | +4 | Conjuros de nivel 5. *Eldritch Blast* sube a 3 rayos base (6 con Quickened). | 9 | *Greater Restoration*, *Synaptic Static*. | — |
+| **12** | Sorcerer 10 | +4 | **Metamagia Adicional:** *Subtle Spell* (inmune a contrahechizo y sigilo total) o *Extended Spell*. | 10 | Optimización de versatilidad mágica en combate. | — |
+| **13** | Sorcerer 11 | +5 | Conjuros de nivel 6. Acceso a curación nuclear. | 11 | **Heal** (Cura 70 HP fijos; 140 HP duplicado con Twinned Spell). | 🏰 **Ampliación Bastión:** *Invernadero* (Roomy) + *Observatorio* (Vast) |
+| **14** | Sorcerer 12 | +5 | **Dote 3: Metamagic Adept** (+2 Puntos de Hechicería, 2 opciones más) o **Inspiring Leader**. | 14 | Mayor combustible diario para duplicar conjuros de alto nivel. | — |
+| **15** | Sorcerer 13 | +5 | Conjuros de nivel 7. | 15 | *Conjure Celestial*, *Fire Storm*. | — |
+| **16** | Sorcerer 14 | +5 | *Otherworldly Wings* (Alas espectrales permanentes que otorgan 30 ft de vuelo continuo sin concentración). | 16 | Movilidad aérea perpetua sin gastar recursos raciales. | — |
+| **17** | Sorcerer 15 | +6 | Conjuros de nivel 8. *Eldritch Blast* escala a 4 rayos base (8 rayos con Quickened). | 17 | **Holy Aura** (Ventaja en salvaciones y desventaja enemiga en radio de 30 ft). | 🏰 **Ampliación Bastión:** *Demiplano Solar* (Vast) |
+| **18** | Sorcerer 16 | +6 | **Dote 4: Alert** (+5 Iniciativa, inmunidad a sorpresa) o **Tough** (+40 HP). | 18 | Asegura actuar primero para desplegar *Holy Aura* o abrir fuego. | — |
+| **19** | Sorcerer 17 | +6 | Conjuros de nivel 9. Cúspide mágica. | 19 | **Wish** (acceso a cualquier conjuro divino o arcano de nivel 1-8 existente). | — |
+| **20** | Sorcerer 18 | +6 | *Unearthly Recovery* (Como Acción Adicional, si estás a menos de la mitad de HP, te curas la mitad de tus HP máximos 1/día). | 20 | Capstone de supervivencia extrema en el fragor de la batalla. | — |
 
 ---
 
-## 🎯 Feats y Decisiones Clave del Build
+## 📈 Escalado Táctico de Rendimiento por Tiers (DPR y EHP)
 
-1. **War Caster (Nivel 6 / Sorcerer 4):**
-    * *Por qué es vital:* Estarás en la media línea vistiendo armadura pesada/media y escudo. Necesitas asegurar que tu concentración en *Hex*, *Haste* o *Holy Aura* no se rompa al recibir daño. También te permite lanzar conjuros como ataques de oportunidad (ej. *Eldritch Blast* en la cara de un enemigo que huye, o un *Hold Person* reactivo).
-2. **Inspiring Leader (Nivel 14 / Sorcerer 12):**
-    * *Por qué es vital:* Otorga puntos de vida temporales equivalentes a tu `Nivel + Modificador de CAR` a ti y hasta 6 aliados después de un descanso corto/largo. A nivel 20, esto es $20 + 5 = 25$ HP temporales por persona. En un grupo de 5 personas, mitiga $125$ de daño neto antes de que empiece el combate, ahorrando valiosos slots de curación.
-3. **Metamagia: Twinned Spell vs. Quickened Spell:**
-    * *Quickened Spell (2 Puntos):* Convierte tu *Eldritch Blast* en acción adicional para crear la ráfaga de 8 rayos.
-    * *Twinned Spell (Costo = Nivel del Conjuro):* Duplica conjuros de un solo objetivo. Espectacular con *Heal* de nivel 6 (cura a 2 personas por 70 HP cada una por 6 puntos) y *Death Ward* (2 personas protegidas contra la muerte por 4 puntos).
-
-4. **Progresión del Atributo Carisma (CAR 20):**
-    * *Inicio (Nivel 1):* CAR 17 (15 Point Buy + 2 Racial).
-    * *Nivel 10 (Sorcerer 8):* ASI +2 CAR (alcanzando CAR 19).
-    * *Nivel 14 (Sorcerer 12):* Se toma una media dote como **Fey Touched** (+1 CAR, alcanzando CAR 20) que además otorga *Misty Step* gratis una vez por día y otro conjuro de nivel 1 (como *Gift of Alacrity* o *Silvery Barbs*), ideal para cubrir la movilidad en la variante de Warlock 2.
+| Rango de Niveles | DPR Sostenido | DPR Nova (Acelerado) | CA Pasiva (Buffeada) | EHP Efectivo | Hito Mecánico Clave |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Tier 1 (1-4)** | $8.5$ | $17.0$ | 18 (23) | $38$ | Hexblade's Curse + Agonizing Blast + Armadura Media. |
+| **Tier 2 (5-10)** | $21.0$ | $42.0$ | 19 (24) | $130$ | Twinned Death Ward + Quickened Spell + War Caster. |
+| **Tier 3 (11-16)** | $60.0$ | $120.0$ | 21 (26) | $380$ | *Twinned Heal* (140 HP) + Alas permanentes de nivel 14. |
+| **Tier 4 (17-20)** | **80.0** | **193.68** | **25 (30)** | **> 2,200** | 8 rayos + *Radiant Soul* (+20), *Holy Aura*, *Wish* y *Unearthly Recovery*. |

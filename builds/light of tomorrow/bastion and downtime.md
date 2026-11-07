@@ -1,133 +1,77 @@
 # 🏰 Bastión y Tiempo Muerto — Light of Tomorrow
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+* **Nombre del Bastión:** El Bastión de la Llama Inmortal (The Immortal Flame Bastion)
+* **Nivel de Bastión:** 20 (Capacidad Máxima)
+* **Puntos de Bastión (BP):** 100
+* **Puntuación de Mando y Defensas (Defender Stats):**
+  * STR 8 (-1), DEX 14 (+2), CON 16 (+3), INT 8 (-1), WIS 10 (+0), CHA 20 (+5)
+  * **Bonificador de Defensa de Bastión:** $\mathbf{+11}$ (+6 Competencia + 5 Carisma)
 
-* **Nombre del Bastión:** El Bastión de la Llama Inmortal
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 100
-* **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 14 (+2), CON 16 (+3), INT 8 (-1), WIS 10 (+0), CHA 20 (+5)
-
-### Instalaciones Básicas (Basic Facilities)
-
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
-
-1. **Dormitorio (Bedchambers):** Alcoba alta y ventilada iluminada por el sol, decorada con vidrieras celestiales y tapices dorados.
-2. **Comedor (Dining Hall):** Gran refectorio decorado con altares de mármol blanco donde se sirven panes bendecidos y agua bendita.
-3. **Espacio Común (Common Room):** Sala capitular de alabastro donde los devotos rezan e intercambian visiones de luz.
-
-### Instalaciones Especiales (Special Facilities)
-
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
-
-* **Sagrario / Santuario (Sanctuary) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Comunión Celestial y Bendiciones.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Aumenta la eficacia de las curaciones de *Divine Soul* y otorga resistencia celestial grupal.
-* **Estudio Arcano (Arcane Study) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Trazar Esquemas Lumínicos.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite canalizar su magia y apoya la fabricación de pergaminos divinos/arcanos mediante su foco de hechicero.
-* **Invernadero (Greenhouse) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Cultivar Flores del Alba y Hierbas Sagradas.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Provee componentes materiales dorados y plantas medicinales para pociones de curación mayor.
-* **Scriptorium (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Scriptorium Divino de Pergaminos.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite escribir pergaminos de resurrección (*Revivify*, *Raise Dead*) para ahorrar espacios de conjuro del hechicero de apoyo.
-* **Observatorio (Observatory) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Rastrear Constelaciones Divinas.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite predecir visitas de enviados celestiales y obtener guía celestial diaria.
-* **Demiplano (Demiplane) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Resiliencia Arcana del Sol Inmortal.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Otorga 100 puntos de golpe temporales diarios tras descansar en él y le permite fabricar componentes materiales costosos sin coste mediante su Foco Arcano de Warlock/Sorcerer.
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Hermana Clara (Una devota clérigo que coordina las oraciones, donaciones y la caridad del bastión).
-* **Defensores / Guardias:** 15 Caballeros templarios devotos armados con escudos sagrados y mazas.
-* **Artesanos / Especialistas:** Escribano devoto y Herborista celestial.
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión - Cada 7 Días] --> B[Emitir Órdenes a Instalaciones Especiales]
+    B --> C1[Sagrario Solar: Comunión Celestial y Bendición de Descanso]
+    B --> C2[Estudio Arcano: Investigación de Resonancia Solar]
+    B --> C3[Invernadero Celestial: Cosecha de Flores del Alba y Raíces Sagradas]
+    B --> C4[Scriptorium Divino: Transcripción de Pergaminos Revivify / Heal]
+    B --> C5[Observatorio Astral: Rastrear Presagios y Conjunciones Celestes]
+    B --> C6[Demiplano Solar: Retiro de Purificación y Reserva de 100 THP]
+    C1 & C2 & C3 & C4 & C5 & C6 --> D[Resolver Eventos de Bastión d100]
+    D --> E[Cosecha de Recursos: Puntos de Bastión y Aceites Sagrados]
+    E --> F[Fin del Turno de Bastión]
+```
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Registro de Instalaciones del Bastión (Nivel 20: 4 Roomy + 2 Vast)
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
-
-### Prioridad 1: Scribir Pergaminos Divinos (Revivify / Greater Restoration / Healing Word)
-
-* **Mecánica Base:** DMG 2024 / Escribanía de Templos.
-* **Bonificadores Aplicables:** Herramientas de Calígrafo + Religión.
-* **Coste por Día/Semana:** 100 po / 2 días por Revivify.
-* **Objetivo de Optimización:** Asegura pergaminos de resucitar en combate rápido, liberando las ranuras de conjuros del curador de la fiesta para lanzar *Guiding Bolt* o metamagia ofensiva.
-
-### Prioridad 2: Misiones Benéficas y Diplomacia Sagrada
-
-* **Mecánica Base:** Diplomacia de Facciones.
-* **Bonificadores Aplicables:** Modificador de Carisma (Persuasión).
-* **Progreso Actual:** 8 / 10 semanas de diplomacia activa.
+### Instalaciones Básicas (Basic Facilities - Gratuitas e Ilimitadas)
+1. **Dormitorio del Portador del Alba (Bedchambers):** Aposento orientado al este con ventanales de cristal prisma que bañan la estancia en luz dorada perpetua.
+2. **Refectorio de la Luz (Dining Hall):** Comedor de mármol blanco para 16 personas donde se comparten alimentos consagrados y agua bendita purificada.
+3. **Sala Capitular de Devotos (Common Room):** Espacio de reunión para paladines errantes, sacerdotes y peregrinos que buscan consuelo espiritual.
+4. **Almacén Consagrado (Storage):** Sala blindada con sellos celestiales para proteger diamantes de resurrección, incienso sagrado y reliquias.
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+### Instalaciones Especiales (Special Facilities: Exactamente 6 al Nivel 20)
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 30 ft.
-* **Trepar (Climb):** 15 ft.
-* **Nadar (Swim):** 15 ft.
-* **Volar (Fly):** 30 ft. (durante Radiant Soul de Aasimar)
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Normal
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (nativa de Aasimar)
-* **Habilidades de Exploración:** Detección del mal a distancia, purificación de zonas corruptas.
-
-### Logística de Transporte y Monturas
-
-* **Montura Activa:** Pegaso de la Aurora (invocación especial)
-  * *Velocidad de la Montura:* 60 ft. (Vuela 90 ft.)
-  * *Mecánica de Combate Montado:* Combate montado aéreo con disparo de proyectiles mágicos.
-* **Vehículos / Vehículos de Carga:** Carro del Sol (carreta blindada dorada).
-* **Capacidad de Carga Absoluta:** 120 lbs.
+| Instalación | Tamaño (DMG 2024) | Nivel Mínimo | Estado | Orden Activa | Sinergia con el Build |
+| :--- | :---: | :---: | :---: | :--- | :---: |
+| **Sagrario Solar (Sanctuary)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Communion:* Canaliza gracia divina; concede ventaja en tiradas de salvación de Muerte y cura aflicciones a los aliados. | 🔵 **Roto** |
+| **Estudio Arcano de Luz (Arcane Study)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Craft:* Fabricación de pergaminos de *Shield*, *Absorb Elements* y *Misty Step* a mitad de coste. | 🟢 **Excelente** |
+| **Invernadero Celestial (Greenhouse)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Harvest:* Cultiva lirios solares que sustituyen componentes materiales de curación de hasta 300 po semanales. | 🟢 **Excelente** |
+| **Scriptorium Divino (Scriptorium)** | **Roomy** | Nivel 9 | Activa (Maintain) | *Transcribe:* Elaboración de pergaminos de alta graduación (*Revivify*, *Greater Restoration*, *Death Ward*). | 🔵 **Roto** |
+| **Observatorio Astral (Observatory)** | **Vast** | Nivel 13 | Activa (Maintain) | *Divination:* Observa conjunciones del Monte Celestia; otorga un dado d4 de bendición a una tirada diaria para todo el grupo. | 🔵 **Roto** |
+| **Demiplano Solar (Demiplane)** | **Vast** | Nivel 17 | Activa (Maintain) | *Sanctuary:* Retiro dimensional sagrado que suministra **100 THP de descanso prolongado** y forja diamantes sagrados sin coste. | 🔵 **Roto** |
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 👥 Guarnición y Personal de Mando (Staff & Garrison)
 
-*Recursos sociales e influencia política en el mundo de juego.*
-
-### Facciones Activas
-
-1. **La Orden del Sol Radiante:**
-    * *Rango / Título:* Portador de la Llama
-    * *Reputación / Favor:* Aliado (+50)
-    * *Beneficio Mecánico:* Apoyo militar de clérigos y uso de templos de la orden sin coste.
-2. **El Cónclave de la Aurora Celeste:**
-    * *Rango / Título:* Hermano Devoto
-    * *Reputación / Favor:* Aliado (+30)
-
-### Red de Contactos (Contacts & Informants)
-
-* **Uriel (Planos Superiores):** Un Deva que provee profecías y advertencias divinas.
-* **Padre Thomas (Gran Catedral):** Clérigo metropolitano proveedor de agua bendita y reliquias.
+* **Mayordomo Mayor (Major Domo):** Hermana Clara de la Aurora (Clérigo veterana consagrada a la administración impecable del templo).
+* **Guarnición Activa:**
+  * 12 Cruzados Solares (Guerreros juramentados con armadura de placas dorada y escudos cometa).
+  * 6 Ballesteros de Luz que emplean proyectiles consagrados.
+* **Personal Especialista:**
+  * 1 Maestro Herborista Celestial a cargo del invernadero.
+  * 1 Escribano Sagrado especializado en sellos y tinta de oro celestial.
+  * 2 Sanadores de Campo para atención a peregrinos.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
 
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
+### Prioridad 1: Scriptorium de Resurrección (*Revivify* y *Death Ward*)
+* **Objetivo:** Garantizar un stock perpetuo de pergaminos de *Revivify* y *Death Ward*.
+* **Mecánica:** En el *Scriptorium Divino*, transcribir pergaminos sagrados empleando polvo de diamante cultivado en el *Invernadero* y *Demiplano*.
+* **Ventaja Táctica:** Evita consumir ranuras de Hechicero en preparación previa, permitiendo reservar los espacios de nivel 3 y 4 para metamagia ofensiva y aceleración en combate.
 
-* **Percepción Pasiva (Passive Perception):** 10
-* **Investigación Pasiva (Passive Investigation):** 10
-* **Perspicacia Pasiva (Passive Insight):** 10
-* **Idiomas Conocidos:** Común, Celestial, Élfico.
-* **Competencia con Herramientas (Tool Proficiencies):** Kit de Caligrafía (+7), Kit de Herboristería (+7).
-* **Sinergias Fuera de Combate:** 🟢 **Excelente**. Habilidad celestial para irradiar luz, curar heridas menores pasivamente e intimidar a muertos vivientes.
+### Prioridad 2: Destilación de Filtros de Purificación Solar
+* **Objetivo:** Creación de pociones de restauración mayor y neutralización de venenos demoníacos.
+* **Mecánica:** Trabajo en el *Invernadero Celestial* para sintetizar 2 Pociones de Vitalidad cada dos semanas.
+
+### Prioridad 3: Diplomacia Celestial y Red de Peregrinaje
+* **Objetivo:** Afianzar el prestigio del bastión como enclave de protección frente a incursiones infernales o abisales.
+* **Mecánica:** Misiones benéficas coordinadas mediante tiradas de Carisma (Persuasión $+11$), generando alianzas con órdenes de caballería y devotos.

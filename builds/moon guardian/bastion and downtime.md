@@ -1,146 +1,91 @@
 # 🏰 Bastión y Tiempo Muerto — Moon Guardian
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
-
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
-
-* **Nombre del Bastión:** El Refugio del Crepúsculo Salvaje
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 100
-* **Puntuación de Mando (Bastion Defender Stats):** STR 16 (+3), DEX 12 (+1), CON 20 (+5), INT 8 (-1), WIS 15 (+2), CHA 8 (-1)
-
-### Instalaciones Básicas (Basic Facilities)
-
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
-
-1. **Dormitorio (Bedchambers):** Cámara circular excavada en el interior de un roble milenario hueco, decorada con pieles de animales y musgo luminiscente.
-2. **Comedor (Dining Hall):** Claro abierto techado con ramas entrelazadas; capacidad para 20 seguidores. Se sirven frutos del bosque, caza silvestre y goodberries.
-3. **Espacio Común (Common Room):** Círculo de piedras ancestrales donde los guardianes meditan, entrenan en formas animales y se reúnen para consejo tribal.
-
-### Instalaciones Especiales (Special Facilities)
-
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
-
-* **Santuario Druídico (Sacrosanct Grove) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Comunión con los Espíritus Ancestrales y Rituales de Wild Shape.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite realizar rituales de comunión con los espíritus ancestrales del bárbaro y la naturaleza druídica simultáneamente. Otorga ventajas en la preparación de conjuros y conexión espiritual con las bestias del entorno.
-* **Jardín de Hierbas (Greenhouse) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Cultivar Componentes Herbales y Pociones.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Produce componentes para pociones de curación, antídotos y componentes materiales de conjuros druídicos (como los diamantes para Revivify mediante comercio de hierbas raras).
-* **Biblioteca Natural (Archive) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Investigación de Bestias y Conjuros.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Contiene bestiarios detallados que amplían el repertorio de formas de Wild Shape conocidas, además de tratados sobre conjuros druídicos avanzados y técnicas de protección ancestral.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Entrenamiento Físico y Bestial.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Los defensores entrenan tácticas de formación defensiva coordinada con las formas bestiales del personaje. El personaje practica nuevas formas animales aquí.
-* **Cámara de Meditación Ancestral (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Comunión Espiritual Profunda y Rituales de Protección.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Sala sellada con círculos de piedra ancestral donde el personaje puede comunicarse directamente con los espíritus guardianes de su linaje. Permite realizar rituales de *Heroes' Feast* sin coste de componentes una vez por Bastion Turn, y otorga ventaja en salvaciones de Sabiduría durante el siguiente día de aventura.
-* **Sala de Guerra (War Room) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Defensa Territorial y Coordinación Salvaje.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Califica mediante su Defensa sin Armadura de bárbaro. Permite coordinar a los guardianes del bosque con las fuerzas de la naturaleza, optimizando la protección del refugio contra amenazas externas y asedios.
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Rowan Cortezagris (Druida veterano retirado, administra el santuario y las defensas naturales).
-* **Defensores / Guardias:** 25 Guardianes del Bosque (exploradores, rangers y druidas jóvenes voluntarios del entorno natural).
-* **Artesanos / Especialistas:** Herbalista experta (competente en Kit de Herbalista, produce pociones y antídotos), Tallador de totems (crea focos druídicos y objetos ceremoniales), Cronista de Bestias (mantiene el bestiario del archivo).
+**Build:** Moon Guardian (El Coloso Primigenio Inmortal)  
+**Sistema:** D&D 2024 / 5.5e DMG Bastion Rules  
+**Nivel de Bastión:** 20  
+**Nombre del Bastión:** *The Primordial Grove & Ancestral Megalith* (La Arboleda Primigenia y Megalito Ancestral)  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/character%20guide%202024.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/actual%20inventory%20list.md)
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Estadísticas Defensivas del Bastión
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
-
-### Prioridad 1: Fabricación de Pociones de Curación
-
-* **Mecánica Base:** DMG 2024 / Xanathar's Guide to Everything.
-* **Bonificadores Aplicables:** Competencia con Herbalist's Kit + Greenhouse del bastión.
-* **Coste por Día/Semana:** 25 po / 1 día para pociones comunes; 100 po / 1 semana para pociones mayores.
-* **Objetivo de Optimización:** Mantener un stock constante de pociones de curación para complementar los conjuros de curación del personaje y cubrir situaciones donde no pueda romper Rage para lanzar conjuros.
-
-### Prioridad 2: Exploración y Registro de Bestias
-
-* **Mecánica Base:** Actividad homebrew basada en exploración (DMG 2024).
-* **Bonificadores Aplicables:** WIS (Survival), Nature, Speak with Animals (ritual).
-* **Progreso Actual:** Registro continuo. Cada semana de exploración en un bioma nuevo permite añadir 1-3 bestias nuevas al repertorio de Wild Shape.
-
-### Prioridad 3: Entrenamiento de Dotes / Mejora de Atributos
-
-* **Mecánica Base:** DMG 2024.
-* **Bonificadores Aplicables:** Modificador de Constitución, acceso a entrenadores en el bastión.
-* **Progreso Actual:** — (disponible cuando se necesite).
+* **Bonificador de Mando y Defensa:** $\mathbf{+11}$ ($\text{PB } +6 + \text{CON } +5$).
+* **Puntos de Bastión (BP):** 20 BP por Turno de Bastión (regeneración según nivel 20).
+* **Guarnición Activa:**
+  * 16 Guardianes del Bosque (exploradores y bárbaros cambiaformas).
+  * 8 Druidas Jóvenes del Círculo Lunar.
+  * 2 Elementales de Tierra Mayores vinculados como guardianes de las puertas pétreas.
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+## 🏗️ Instalaciones Básicas (Basic Facilities)
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
-### Velocidades de Movimiento Base (Forma Humanoide)
-
-* **Caminar (Walk):** 40 pies (ft.) [30 base + 10 Fast Movement (Barbarian 5)]
-* **Trepar (Climb):** 20 ft. (mitad de velocidad de caminar, sin velocidad nativa)
-* **Nadar (Swim):** 20 ft. (mitad de velocidad de caminar, sin velocidad nativa)
-* **Volar (Fly):** 0 ft. (disponible via Wild Shape a partir de Druid 8: Giant Eagle 80 ft., Quetzalcoatlus 80 ft.)
-
-### Velocidades en Wild Shape (formas principales)
-
-* **Direwolf:** Walk 50 ft. (40 base + 10 Fast Movement)
-* **Giant Constrictor Snake:** Walk 40 ft. (30 base + 10)
-* **Earth Elemental:** Walk 40 ft. (30 base + 10), Burrow 30 ft.
-* **Giant Eagle:** Fly 90 ft. (80 base + 10)
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Normal / Sigiloso (con Pass Without Trace activo, el grupo entero es virtualmente indetectable).
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (via Shifter racial) / Tremorsense 60 ft. (en Earth Elemental)
-* **Habilidades de Exploración:** Survival (+5 con proficiency), Nature (+5), Speak with Animals (ritual), Detect Magic (ritual). Formas animales para exploración: águila gigante (aérea), lobo terrible (rastreo).
-
-### Logística de Transporte y Monturas
-
-* **Montura Activa:** No usa montura convencional (se transforma en sus propios medios de transporte vía Wild Shape).
-  * *Opciones de transporte bestial:* Giant Eagle (1 pasajero), Quetzalcoatlus (hasta 2 pasajeros, si el DM lo permite).
-* **Vehículos / Vehículos de Carga:** Ninguno (el grupo viaja a pie o mediante Transport via Plants a niveles altos).
-* **Capacidad de Carga Absoluta:** 240 lbs. (STR 16 × 15) en forma humanoide.
+1. **Dormitorio de Raíces Huecas (Bedchambers):** Excavado en el interior de un roble milenario viviente; lecho de musgo esponjoso con piedras térmicas.
+2. **Claro de los Festines (Dining Hall):** Anfiteatro natural techado con enredaderas donde se sirven frutos silvestres, setas gigantes y raciones de *Goodberry*.
+3. **Círculo de los Megalitos (Common Room):** Anillo de menhires ancestrales donde la tribu medita y practica transformaciones animales.
+4. **Cueva Sellada de Semillas y Reliquias (Storage):** Caverna subterránea con humedad controlada para almacenar reactivos botánicos y minerales.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🧪 Instalaciones Especiales (Special Facilities: 4 Roomy + 2 Vast)
 
-*Recursos sociales e influencia política en el mundo de juego.*
+Conforme a las reglas oficiales del DMG 2024 a nivel 20, la fortaleza dispone exactamente de 6 Instalaciones Especiales (4 Roomy y 2 Vast):
 
-### Facciones Activas
+### 1. [Roomy] Sacrosanct Grove / Reliquary (Arboleda Sacrosanta de los Ancestros)
+* **Función:** Conexión espiritual con los espíritus tutelares del bárbaro y las deidades de la naturaleza.
+* **Orden de Bastión:** *Commune / Blessing*. Concede a los defensores ventaja en tiradas de salvación contra efectos mágicos durante 7 días y permite realizar el ritual de *Heroes' Feast* con un 50% de descuento en componentes de gemas.
 
-1. **El Círculo de los Guardianes Lunares:**
-    * *Rango / Título:* Guardián Iniciado (en progresión hacia Archidruida)
-    * *Reputación / Favor:* Aliado (+30)
-    * *Beneficio Mecánico:* Acceso a santuarios naturales seguros en bosques protegidos, información sobre amenazas a la naturaleza, y tutores druídicos para aprender nuevas formas bestiales.
-2. **La Tribu Ancestral (tribu bárbara de origen):**
-    * *Rango / Título:* Protector de la Tribu / Guardián Espiritual
-    * *Reputación / Favor:* Aliado (+40)
-    * *Beneficio Mecánico:* Refugio seguro, guerreros de apoyo en misiones tribales, y consejo espiritual de los ancestros.
+### 2. [Roomy] Greenhouse (Invernadero Botánico Primigenio)
+* **Función:** Cultivo de hierbas curativas raras, bayas luminiscentes y raíces energéticas.
+* **Orden de Bastión:** *Harvest*. Genera 50 PO semanales en materias primas botánicas y produce 10 bayas medicinales que funcionan como pociones de curación menor.
 
-### Red de Contactos (Contacts & Informants)
+### 3. [Roomy] Archive / Library (Archivo de Bestias y Mitos Tribales)
+* **Función:** Bestiario vivo y colección de fósiles que amplían el repertorio de formas de *Wild Shape* conocidas por el personaje.
+* **Orden de Bastión:** *Research*. Proporciona ventaja y un bonificador de $+5$ en tiradas de Naturaleza y Supervivencia sobre bestias y elementales.
 
-* **Archidruida Thalion (Bosque Ancestral):** Mentor druídico que guía la progresión del personaje en el Círculo de la Luna. Puede proporcionar información sobre bestias legendarias y amenazas planar.
-* **Warden Korva (Frontera Salvaje):** Ranger veterana que patrulla las tierras fronterizas. Red de inteligencia sobre movimientos de monstruos y amenazas emergentes.
+### 4. [Roomy] Herbalist Lab / Scriptorium (Laboratorio de Ungüentos y Tinturas)
+* **Función:** Destilación de bálsamos regenerativos y elaboración de pergaminos druídicos (*Revivify*, *Lesser Restoration*).
+* **Orden de Bastión:** *Craft / Scribe*. Elaboración de pociones y pergaminos de sanación a mitad de tiempo y coste.
+
+### 5. [Vast] Training Area (Patios de Entrenamiento Bestial)
+* **Función:** Terreno escarpado con rocas pesadas y troncos para acondicionamiento físico de los guardianes.
+* **Orden de Bastión:** *Train*. Otorga al personaje y a los defensores un bonificador de $+2$ a tiradas de daño cuerpo a cuerpo y $+10\text{ PG}$ temporales durante 7 días.
+
+### 6. [Vast] Menagerie / Sanctuary (Santuario de Especies Protegidas)
+* **Función:** Reserva natural protegida donde habitan criaturas mágicas y bestias de gran tamaño en perfecta armonía.
+* **Orden de Bastión:** *Sanctuary*. Otorga $100\text{ PG}$ temporales al personaje tras completar un descanso largo en su interior y sirve como refugio inexpugnable ante cualquier invasor.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## 🔄 Flujograma de Turno de Bastión (Weekly Bastion Turn)
 
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión] --> B[Generar 20 BP]
+    B --> C[Greenhouse: Cosechar 50 PO en materias primas y bayas medicinales]
+    C --> D[Herbalist Lab: Elaborar Pociones de Curación y Ungüentos]
+    D --> E[Sacrosanct Grove: Activar Bendición Ancestral contra Magia]
+    E --> F[Training Area: Conceder +2 daño en melee a la guarnición]
+    F --> G[Sanctuary/Menagerie: Recargar 100 PG Temporales tras Descanso Largo]
+    G --> H{¿Incursión Enemiga en el Bosque?}
+    H -- Sí --> I[Defensa con Bonificador +11 y Elementales de Tierra]
+    H -- No --> J[Fin del Turno: Arboleda Próspera y Recursos Listos]
+```
 
-* **Percepción Pasiva (Passive Perception):** 15 (10 + 2 WIS + 3 proficiency)
-* **Investigación Pasiva (Passive Investigation):** 9 (10 - 1 INT)
-* **Perspicacia Pasiva (Passive Insight):** 12 (10 + 2 WIS)
-* **Idiomas Conocidos:** Común, Druídico, Silvano (bonus temático si el DM lo permite).
-* **Competencia con Herramientas (Tool Proficiencies):** Herbalist's Kit (+8).
-* **Sinergias Fuera de Combate:** 🟢 **Excelente**. Wild Shape permite exploración aérea (Giant Eagle), acuática (Giant Octopus), rastreo (Direwolf), infiltración (araña, gato), y transporte del grupo. Los rituales druídicos proporcionan utilidad constante sin gastar ranuras. La tribu ancestral ofrece refugio y apoyo logístico.
+---
+
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
+
+### Prioridad 1: Comunión Ancestral y Preparación de Festines
+* **Acción:** Realizar el ritual de *Heroes' Feast* en la Arboleda Sacrosanta previo a expediciones mayores.
+* **Resultado:** Concede $+2\text{d}10$ PG máximos, inmunidad a veneno y miedo, y ventaja en tiradas de salvación de Sabiduría a todo el grupo por 24 horas.
+
+### Prioridad 2: Elaboración de Pociones de Regeneración
+* **Acción:** Utilizar el *Herbalist Lab* para producir lotes de *Potion of Superior Healing* ($8\text{d}4 + 8$ PG) a mitad de coste de oro.

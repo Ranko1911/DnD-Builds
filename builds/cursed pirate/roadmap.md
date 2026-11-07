@@ -1,45 +1,43 @@
-# 🗺️ Hoja de Ruta de Cursed Pirate (Nivel 1 - 20)
+# 🗺️ Hoja de Ruta de Progresión (Niveles 1-20) — Cursed Pirate
 
-Este documento detalla la hoja de ruta nivel por nivel para el build de Cursed Pirate (Druida de las Estrellas 20).
-
----
-
-## 📅 Tabla de Progresión
-
-| Nivel | Clase | Hitos / Rasgos Clave | Ranuras de Conjuro (Lvl 1 - 9) |
-| :---: | :--- | :--- | :--- |
-| **1** | Druida 1 | Druidic, Spellcasting (Acceso a conjuros de Mago) | 2 / — / — / — / — / — / — / — / — |
-| **2** | Druida 2 | Star Map, **Starry Form** (Archer, Chalice, Dragon), Wild Shape | 3 / — / — / — / — / — / — / — / — |
-| **3** | Druida 3 | Conjuros de Nivel 2 (ej. *Misty Step*, *Mirror Image*) | 4 / 2 / — / — / — / — / — / — / — |
-| **4** | Druida 4 | Wild Shape (Mejora), **Dote: Elven Accuracy** (Wisdom 18) | 4 / 3 / — / — / — / — / — / — / — |
-| **5** | Druida 5 | Conjuros de Nivel 3 (ej. *Counterspell*, *Fireball*), CD 15 | 4 / 3 / 2 / — / — / — / — / — / — |
-| **6** | Druida 6 | Cosmic Omen (Weal or Woe) | 4 / 3 / 3 / — / — / — / — / — / — |
-| **7** | Druida 7 | Conjuros de Nivel 4 (ej. *Polymorph*, *Dimension Door*) | 4 / 3 / 3 / 1 / — / — / — / — / — |
-| **8** | Druida 8 | **Dote: War Caster**, Wild Shape (Mejora) | 4 / 3 / 3 / 2 / — / — / — / — / — |
-| **9** | Druida 9 | Conjuros de Nivel 5 (ej. *Wall of Force*, *Cone of Cold*) | 4 / 3 / 3 / 3 / 1 / — / — / — / — |
-| **10**| Druida 10| Twinkling Constellations (Starry Form mejora a 1d10 / Vuelo) | 4 / 3 / 3 / 3 / 2 / — / — / — / — |
-| **11**| Druida 11| Conjuros de Nivel 6 (ej. *Disintegrate*, *Sunbeam*) | 4 / 3 / 3 / 3 / 2 / 1 / — / — / — |
-| **12**| Druida 12| **ASI: Wisdom +2** (Wisdom 20 - CD de Conjuros 19) | 4 / 3 / 3 / 3 / 2 / 1 / — / — / — |
-| **13**| Druida 13| Conjuros de Nivel 7 (ej. *Forcecage*, *Reverse Gravity*) | 4 / 3 / 3 / 3 / 2 / 1 / 1 / — / — |
-| **14**| Druida 14| Full of Stars (Resistencia a daño físico mientras Starry Form) | 4 / 3 / 3 / 3 / 2 / 1 / 1 / — / — |
-| **15**| Druida 15| Conjuros de Nivel 8 (ej. *Maze*, *Tsunami*) | 4 / 3 / 3 / 3 / 2 / 1 / 1 / 1 / — |
-| **16**| Druida 16| **Dote: Resilient (Constitución)** (CON 16) | 4 / 3 / 3 / 3 / 2 / 1 / 1 / 1 / — |
-| **17**| Druida 17| Conjuros de Nivel 9 (ej. *Wish*, *True Polymorph*, *Foresight*) | 4 / 3 / 3 / 3 / 2 / 1 / 1 / 1 / 1 |
-| **18**| Druida 18| Beast Spells (Lanzar conjuros en formas animales) | 4 / 3 / 3 / 3 / 3 / 1 / 1 / 1 / 1 |
-| **19**| Druida 19| **Dote: Tough** (Aumento de HP masivo) o **Lucky** | 4 / 3 / 3 / 3 / 3 / 2 / 1 / 1 / 1 |
-| **20**| Druida 20| **Archdruid** (Wild Shape ilimitado, ignora componentes) | 4 / 3 / 3 / 3 / 3 / 2 / 2 / 1 / 1 |
+**Clase:** Druid (Circle of the Stars) 20  
+**Especie:** Sea Elf (Elfo de Mar) / Condición de No-Muerto  
+**Prioridad de Salvaciones:** Se inicia como Druida (Inteligencia y Sabiduría); se adquiere competencia en **Constitución** a nivel 8 mediante *Resilient: CON* para activar el combo de concentración inquebrantable de la *Forma de Dragón*.
 
 ---
 
-## 🎯 Progresión de Dotes (Feats) Explicada
+## 📊 Tabla de Progresión Nivel a Nivel (1 - 20)
 
-1. **Elven Accuracy (Precisión Élfica) (Nivel 4):**
-    * *Sinergia:* $+1$ a Sabiduría ( WIS llega a 18). Al atacar con ventaja usando Sabiduría (gracias a *Foresight* o *Faerie Fire*), puedes relanzar uno de los dados. Esto otorga una **triple ventaja** virtual en tus ataques de *Starry Form: Archer* y *Guiding Bolt*, maximizando golpes críticos.
-2. **War Caster (Nivel 8):**
-    * *Sinergia:* Ventaja en tiradas de salvación de Constitución para mantener la concentración de tus conjuros y te permite usar tu reacción para lanzar un conjuro a un enemigo que provoque ataque de oportunidad (ej. lanzar un *Hold Person* o *Shocking Grasp*).
-3. **ASI: Wisdom +2 (Nivel 12):**
-    * *Sinergia:* Lleva tu Sabiduría al máximo absoluto de 20. Esto eleva la CD de salvación de tus conjuros a 19, tu bonificador de ataque de conjuros a $+11$, y aumenta el daño de tu forma estelar Archer.
-4. **Resilient (Constitución) (Nivel 16):**
-    * *Sinergia:* Añade $+1$ a Constitución (CON sube a 16) y te otorga competencia en tiradas de salvación de Constitución. En combinación con *Starry Form: Dragon* (que asegura que ninguna tirada de concentración sea inferior a 10), tu tirada mínima de concentración es de **13**, haciéndote inmune a perder conjuros arcanos como *Wall of Force* por daño moderado.
-5. **Tough (Nivel 19):**
-    * *Sinergia:* Añade $+40$ HP adicionales a nivel 20, mejorando tu resiliencia en primera línea como pirata maldito no muerto.
+| Nivel Total | Clase y Nivel | PB | Rasgos Clave, Dotes y Decisiones | Espacios de Conjuro | Hitos de Forma Estelar y Arcanos | Hito de Bastión (DMG 2024) |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: |
+| **1** | Druid 1 | +2 | *Druidic*, *Spellcasting*. Inmunidad No-Muerto a veneno/asfixia. | 2 Ranuras L1 | *Guiding Bolt*, *Shield*, *Absorb Elements*, *Goodberry*. | — |
+| **2** | Druid 2 | +2 | **Subclase: Circle of the Stars**. *Star Map*, *Starry Form* (*Archer*, *Chalice*, *Dragon*). | 3 Ranuras L1 | *Guiding Bolt* gratis 2/día; *Guidance* cantrip gratuito. | — |
+| **3** | Druid 3 | +2 | Acceso a conjuros de nivel 2. | 4 Ranuras L1 / 2 Ranuras L2 | *Misty Step*, *Web*, *Lesser Restoration*. | — |
+| **4** | Druid 4 | +2 | **Dote 1: Elven Accuracy (+1 SAB $\to$ SAB 18)**. Triple Ventaja en Sabiduría. | 4 Ranuras L1 / 3 Ranuras L2 | Activa la triple ventaja con ataques mágicos. | — |
+| **5** | Druid 5 | +3 | Acceso a conjuros de nivel 3. | 4 L1 / 3 L2 / 2 L3 | *Counterspell*, *Revivify*, *Tidal Wave*. | 🏰 **Desbloqueo Bastión:** *Invernadero* + *Dársena* (Roomy) |
+| **6** | Druid 6 | +3 | **Cosmic Omen** (Reacción para sumar o restar 1d6 a cualquier tirada d20). | 4 L1 / 3 L2 / 3 L3 | Manipulación de tiradas críticas o iniciativas de jefes. | — |
+| **7** | Druid 7 | +3 | Acceso a conjuros de nivel 4. | 4 L1 / 3 L2 / 3 L3 / 1 L4 | *Dimension Door*, *Polymorph*, *Watery Sphere*. | — |
+| **8** | Druid 8 | +3 | **Dote 2: Resilient: CON (+1 CON $\to$ CON 16)**. Competencia en CON ($+6$). | 4 L1 / 3 L2 / 3 L3 / 2 L4 | **Concentración Blindada:** mínimo 16 en dados con Forma de Dragón. | — |
+| **9** | Druid 9 | +4 | Acceso a conjuros de nivel 5. | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 1 L5 | *Wall of Force*, *Synaptic Static*, *Greater Restoration*. | 🏰 **Ampliación Bastión:** *Santuario de las Mareas* (Roomy) |
+| **10** | Druid 10 | +4 | **Twinkling Constellations** (Archer y Chalice escalan a 2d8; puedes cambiar forma cada asalto). | 4 L1 / 3 L2 / 3 L3 / 3 L4 / 2 L5 | Flecha de Archer sube a $2\text{d}8 + 5$ de daño radiante. | — |
+| **11** | Druid 11 | +4 | Acceso a conjuros de nivel 6. | 4 L1-L4 / 3 L5 / 1 L6 | *Globe of Invulnerability*, *Heal*, *Chain Lightning*. | — |
+| **12** | Druid 12 | +4 | **Dote 3: ASI (+2 SAB $\to$ SAB 20 Máximo)**. CD de salvación 19, ataque $+11$. | 4 L1-L4 / 3 L5 / 1 L6 | Máximo bonificador mágico y curativo de la Forma Estelar. | — |
+| **13** | Druid 13 | +5 | Acceso a conjuros de nivel 7. | 4 L1-L5 / 1 L6 / 1 L7 | *Forcecage*, *Plane Shift*, *Reverse Gravity*. | 🏰 **Ampliación Bastión:** *Cámara Meditación* (Roomy) + *Observatorio* (Vast) |
+| **14** | Druid 14 | +5 | **Full of Stars** (Obtienes resistencia pasiva al daño contundente, perforante y cortante). | 4 L1-L5 / 1 L6 / 1 L7 | Duplica la resistencia física efectiva (326 EHP físico base). | — |
+| **15** | Druid 15 | +5 | Acceso a conjuros de nivel 8. | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 | *Sunburst*, *Tsunami*, *Mind Blank*. | — |
+| **16** | Druid 16 | +5 | **Dote 4: War Caster** o **Alert** (+5 Iniciativa, inmunidad a sorpresa). | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 | Ventaja adicional en concentración y ataques de reacción. | — |
+| **17** | Druid 17 | +6 | Acceso a conjuros de nivel 9. Cúspide mágica. | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 / 1 L9 | **Wish**, **Foresight** (8h de ventaja y desventaja hostil). | 🏰 **Ampliación Bastión:** *Relicario de Dragones* (Vast) |
+| **18** | Druid 18 | +6 | *Timeless Body* y *Beast Spells* (puedes conjurar mientras estás en Forma Salvaje). | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 / 1 L9 | Invocación de magia incluso transformado en elemental. | — |
+| **19** | Druid 19 | +6 | **Dote Épica: Epic Boon of Spell Recall** o **Boon of Fate**. | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 / 1 L9 | 25% de probabilidad de no gastar ranura al conjurar. | — |
+| **20** | Druid 20 | +6 | **Archdruid** (Formas Salvajes y Formas Estelares **ilimitadas**; ignora componentes V, S, M). | 4 L1-L5 / 1 L6 / 1 L7 / 1 L8 / 1 L9 | Vida infinita con elementales y magia inmune a contrahechizo. | — |
+
+---
+
+## 📈 Escalado Táctico de Rendimiento por Tiers (DPR y EHP)
+
+| Rango de Niveles | DPR Sostenido (Blaster) | Salvación Mínima de Concentración | CA Pasiva (Buffeada) | EHP Físico Efectivo | Hito Mecánico Clave |
+| :---: | :---: | :---: | :---: | :---: | :--- |
+| **Tier 1 (1-4)** | $14.5$ | $10$ | 18 (23) | $38$ | *Starry Form: Archer* + *Guiding Bolt* gratuito + *Shield*. |
+| **Tier 2 (5-10)** | $28.0$ | $16$ | 19 (24) | $130$ | *Resilient: CON* + *Cosmic Omen* + *Wall of Force*. |
+| **Tier 3 (11-16)** | $45.47$ | **19 (Mínimo)** | 21 (26) | **326 (Full of Stars)** | *Full of Stars* (Resistencia física) + *Globe of Invulnerability*. |
+| **Tier 4 (17-20)** | **56.68 (AoE Nova)** | **19 (Mínimo)** | **25 (30 CA)** | **Infinito (Archdruid)** | *Foresight* + *Archdruid* (Formas ilimitadas) + *Staff of the Magi*. |

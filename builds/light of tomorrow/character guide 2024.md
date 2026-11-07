@@ -1,60 +1,58 @@
-# Guía de Personaje — Light of Tomorrow (Edición 2024 / 5.5e)
+# ☀️ Guía de Conversión a Reglas 2024 (D&D 5.5e) — Light of Tomorrow
 
-## Datos Generales
-
-System Standard: D&D 5th Edition (2024 Ruleset - 5.5e)
-
-Character Level: 20 (Total)
-
-Class Split: Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2
-
-Species: Aasimar (2024) [Dote de Origen: Iniciado en la Magia (Clérigo)]
-
-Stats (Point Buy 2024 / Trasfondo):
-
-- **FUER (STR):** 8
-- **DES (DEX):** 14
-- **CON:** 14
-- **INT:** 8
-- **SAB (WIS):** 10
-- **CAR (CHA):** 20
-
-Actual Item List: ./actual inventory list.md
-
-Roadmap de Progresión 2024: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Backline Support / Divine Blaster
+**Clasificación del Archivero:** 🔵 **Build Roto / META Dominante (Innate Sorcery + Dual Divine Artillery)**  
+**Reglas:** D&D 2024 Player's Handbook (5.5e)  
+**División de Clases:** Sorcerer (Divine Soul) 18 / Warlock (Hexblade o Celestial adaptado) 2  
+**Especie (2024):** Aasimar (*Celestial Revelation*: Alas radiantes, daño radiante extra escalado)  
+**Dote de Origen (Nivel 1):** *Alert* (Añade Bonificador de Competencia a Iniciativa y permite intercambiar turnos con aliados)  
 
 ---
 
-## 1. Gestión de Recursos y Reglas de Inventario (2024 Ruleset)
+## 🔄 Novedades y Ajustes Clave del Reglamento 2024
 
-- **Maestría de Armas (Weapon Masteries 2024):**
-  - **Dagger (Nick):** Optimiza la economía de acciones y garantiza ventaja o daño secundario plano en cada asalto.
+### 1. Hechicería Innata (*Innate Sorcery* — Rasgo de Nivel 1 de Hechicero)
+* **Activación:** Acción Adicional (dura 1 minuto, 2 usos por Descanso Largo).
+* **Efectos:**
+  1. Concede **Ventaja constante en todas las tiradas de ataque de conjuro** (garantiza ventaja en los 4 u 8 rayos de *Eldritch Blast* sin depender de oscuridad ni concentración).
+  2. Eleva la **CD de salvación de todos tus conjuros en $+1$** (alcanzando CD 23 con equipo de alto nivel).
 
-- **Economía de Recursos 2024:**
-  - Integración completa de las reglas de 2024: dotes de origen a Nivel 1, preparación de conjuros ajustada a nivel de lanzador y sinergia de Acción Adicional.
+### 2. Aasimar 2024 (*Celestial Revelation*)
+* En las reglas de 2024, la transformación celestial (*Radiant Consumption* o *Heavenly Wings*) se activa ahora como una **Acción Adicional** (en lugar de una Acción completa), permitiendo al personaje entrar en combate, activar sus alas de vuelo y disparar su salva completa de *Eldritch Blast* en el mismo **Turno 1**.
+* El daño radiante adicional se escala de forma consistente con tu Bonificador de Competencia o nivel según la regla de mesa.
 
----
+### 3. Regla de Lanzamiento de Conjuros 2024 (*One Leveled Spell per Turn*)
+* Como *Eldritch Blast* es un cantrip que no consume ranuras de conjuro, el personaje puede alternar libremente entre conjuros de nivel con su Acción (ej. *Heal* o *Synaptic Static*) y acelerar un truco con *Quickened Spell*, o lanzar dos descargas completas de *Eldritch Blast* sin ninguna interferencia de reglas.
 
-## 2. Action Economy & Combat Loop (2024)
-
-- **Preparación (Pre-Combate):**
-  - Lanzamiento de conjuros defensivos clave o habilidades de protección.
-- **Action:**
-  - **Turno 1:** Acción principal de ataque o lanzamiento de conjuro de área/control.
-  - **Turnos subsiguientes:** Ciclo de ataques con Weapon Mastery y habilidades avanzadas de subclase.
-- **Bonus Action:**
-  - Uso de habilidades de subclase, metamagia o ataques secundarios.
-- **Reaction:**
-  - Reacción principal de protección o contraataque.
+### 4. Maestrías de Armas (Weapon Masteries 2024)
+* **Dagger (Nick):** Permite realizar un ataque secundario ligero como parte de la acción de ataque principal sin consumir la Acción Adicional.
+* **Light Crossbow (Slow):** Reduce la velocidad del objetivo en 10 pies al impactar a distancia.
 
 ---
 
-## 3. The META Combo 2024: Metamagic Twin Healing + Empowered Agonizing Blast
+## 🧮 Motor Matemático 2024 (LaTeX Math Engine)
 
-🧮 Mathematical Engine 2024:
+### Precisión con *Innate Sorcery*
+Con la activación de *Innate Sorcery*, todos los ataques de conjuro gozan de ventaja automática:
 
-$$\text{DPR Ráfaga} = 4 \times (1\text{d}10 + 5) + 1\text{d}4 + 5 = \mathbf{49.5 \text{ daño/turno}} + \text{Sanación Duplicada}$$
+$$\mathbb{P}(\text{Impacto contra CA 19}) = 1 - (1 - \mathbb{P}_{\text{base}})^2$$
+
+Con un bonificador de $+11$ a impactar frente a CA 19 ($\mathbb{P}_{\text{base}} = 0.65$):
+
+$$\mathbb{P}(\text{Fallo}) = (1 - 0.65)^2 = (0.35)^2 = 0.1225 \implies \mathbb{P}(\text{Impacto 2024}) = \mathbf{87.75\%}$$
+
+### Daño Nova Solar Asalto 2024 (8 Rayos)
+$$\text{DPR Nova 2024} = (8 \times 20.0) + 20 \text{ (Celestial Revelation)} = \mathbf{180.0 \text{ Daño Monotarget Sustentado}}$$
+
+---
+
+## 🛡️ Bucle Táctico Solar 2024
+
+* **Turno 0 / Pre-Combate:** *Death Ward* duplicado + *Aid* (Nivel 7 u 8).
+* **Turno 1:**
+  * **Bonus Action:** *Celestial Revelation* (Alas de vuelo + daño radiante extra) o *Innate Sorcery* (+1 CD y ventaja).
+  * **Acción:** *Eldritch Blast* (4 rayos con ventaja y rango de crítico 19-20 con *Hexblade's Curse*).
+* **Turno 2:**
+  * **Acción:** *Eldritch Blast* (4 rayos).
+  * **Bonus Action:** *Quickened Eldritch Blast* (4 rayos).
+  * **Total:** 8 rayos demoledores (180+ daño).
+* **Reacción:** *Shield* (+5 CA = 30 CA) o *Counterspell* (obliga al enemigo a una salvación de Constitución contra tu CD 23).

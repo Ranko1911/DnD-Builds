@@ -1,134 +1,77 @@
 # 🏰 Bastión y Tiempo Muerto — Spirit Caller
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
+* **Nombre del Bastión:** El Osario Susurrante (The Whispering Ossuary)
+* **Nivel de Bastión:** 20 (Capacidad Máxima)
+* **Puntos de Bastión (BP):** 100
+* **Puntuación de Mando y Defensas (Defender Stats):**
+  * STR 8 (-1), DEX 14 (+2), CON 16 (+3), INT 20 (+5), WIS 12 (+1), CHA 8 (-1)
+  * **Bonificador de Defensa de Bastión:** $\mathbf{+11}$ (+6 Competencia + 5 Inteligencia)
 
-* **Nombre del Bastión:** El Osario Susurrante
-* **Nivel de Bastión (Bastion Level):** 6
-* **Puntos de Bastion (Bastion Points - BP):** 100
-* **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 14 (+2), CON 14 (+2), INT 18 (+4), WIS 13 (+1), CHA 8 (-1)
-
-### Instalaciones Básicas (Basic Facilities)
-
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
-
-1. **Dormitorio (Bedchambers):** Cripta subterránea húmeda y silenciosa con un sarcófago de piedra tallada y velas de grasa animal.
-2. **Comedor (Dining Hall):** Sótano frío con una mesa de roble donde se almacena carne en salazón; la tripulación viva come con prisa.
-3. **Espacio Común (Common Room):** Sala de embalsamamiento y disección donde se estudian las anatomías para levantar siervos.
-
-### Instalaciones Especiales (Special Facilities)
-
-*Desbloqueadas por nivel. Indicar si están activas (Maintain), construyéndose (Build) o paradas.*
-
-* **Cementerio / Mausoleo (Cemetery / Mausoleum) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Cosecha de Restos y Almacén de Huesos.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite resguardar y organizar al ejército de esqueletos del Nigromante fuera de campaña y regenerar energía necrótica.
-* **Estudio Arcano (Arcane Study) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Transcripción de Nigromancia.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Permite copiar conjuros arcanos de Nigromancia (*Animate Dead*, *Summon Undead*, *Shield*) con un 50% de descuento en oro y tiempo.
-* **Laboratorio Alquímico (Laboratory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Destilación de Preservantes y Bálsamos.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Elaboración de unguentos de embalsamamiento y elixires para reforzar la resistencia de los no muertos.
-* **Scriptorium (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiado Masivo de Pergaminos.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Duplica la velocidad de transcripción de pergaminos defensivos y conjuros de alzamiento.
-* **Círculo de Teletransporte / Cripta (Teleportation Circle) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Despliegue Rápido de Tropas No Muertas.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite movilizar huestes de esqueletos de forma instantánea a cualquier punto del mapa sin levantar sospechas en ciudades.
-* **Demiplano Necrótico (Demiplane) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Depósito Extrapolar Prohibido.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dimensión privada para resguardar ejércitos masivos de no muertos y ganar 100 PG temporales tras un descanso largo.
-
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Morten el Pálido (Un necrófago inteligente o asistente forense de confianza).
-* **Defensores / Guardias:** 8 Defensores esqueléticos pesados custodiando las puertas traseras.
-* **Artesanos / Especialistas:** Embalsamador real y calígrafo fúnebre.
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión - Cada 7 Días] --> B[Emitir Órdenes a Instalaciones Especiales]
+    B --> C1[Mausoleo: Conservación y Ensamblaje de Esqueletos de Élite]
+    B --> C2[Estudio Arcano: Copiado de Tratados Nigrománticos con 50% Descuento]
+    B --> C3[Laboratorio Forense: Destilación de Sales de Embalsamamiento]
+    B --> C4[Scriptorium: Transcripción de Pergaminos Animate Dead / Shield]
+    B --> C5[Círculo de Teletransporte: Despliegue Estratégico de Tropas]
+    B --> C6[Demiplano Necrótico: Almacén de Cápsulas de Clone y 100 THP]
+    C1 & C2 & C3 & C4 & C5 & C6 --> D[Resolver Eventos de Bastión d100]
+    D --> E[Cosecha de Recursos: Puntos de Bastión y Huesos Ectoplásmicos]
+    E --> F[Fin del Turno de Bastión]
+```
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Registro de Instalaciones del Bastión (Nivel 20: 4 Roomy + 2 Vast)
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
-
-### Prioridad 1: Copia de Conjuros y Transcripción de Pergaminos de Necromancia
-
-* **Mecánica Base:** PHB 2024 / Reglas de Libro de Conjuros de Mago.
-* **Bonificadores Aplicables:** Inteligencia (Arcana) + herramientas de caligrafía.
-* **Coste por Día/Semana:** 25 po y 1 hora por nivel de conjuro.
-* **Objetivo de Optimización:** Permite llenar el libro de conjuros con todas las variantes de necromancia útiles y preparar pergaminos defensivos arcanos como *Shield* o *Animate Dead*.
-
-### Prioridad 2: Estudios Anatómicos y de la Muerte
-
-* **Mecánica Base:** DMG 2024.
-* **Bonificadores Aplicables:** Inteligencia (Historia/Medicina) aplicada.
-* **Progreso Actual:** 2 / 5 semanas de estudio forense.
+### Instalaciones Básicas (Basic Facilities - Gratuitas e Ilimitadas)
+1. **Dormitorio del Señor Cadavérico (Bedchambers):** Cripta subterránea aislada con un sarcófago de basalto sellado al vacío donde el Reborn medita.
+2. **Comedor Fúnebre (Dining Hall):** Refectorio gélido con mesa de obsidiana utilizado por el personal vivo y artesanos del bastión.
+3. **Sala de Disección Común (Common Room):** Anfiteatro anatómico donde se estudian patrones óseos para optimizar la resistencia de los esqueletos.
+4. **Osario Subterráneo de Almacenamiento (Storage):** Depósito climatizado con salmuera y vendas para preservar restos biológicos y armas de proyectiles.
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+### Instalaciones Especiales (Special Facilities: Exactamente 6 al Nivel 20)
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 30 ft.
-* **Trepar (Climb):** 15 ft.
-* **Nadar (Swim):** 15 ft.
-* **Volar (Fly):** 40 ft. (con la escoba de volar)
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Normal
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (nativa de Reborn)
-* **Habilidades de Exploración:** Rastreo de tumbas y ruinas antiguas, inmunidad al veneno ambiental por anatomía muerta.
-
-### Logística de Transporte y Monturas
-
-* **Montura Activa:** Caballo Esquelético (levantado)
-  * *Velocidad de la Montura:* 50 ft.
-  * *Mecánica de Combate Montado:* Carga táctica sin fatiga.
-* **Vehículos / Vehículos de Carga:** Carroza Fúnebre Cerrada.
-* **Capacidad de Carga Absoluta:** 120 lbs.
+| Instalación | Tamaño (DMG 2024) | Nivel Mínimo | Estado | Orden Activa | Sinergia con el Build |
+| :--- | :---: | :---: | :---: | :--- | :---: |
+| **Cripta y Mausoleo (Mausoleum)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Harvest:* Almacena y reconstituye hasta 32 esqueletos de élite; infunde resistencia a daño radiante en huesos. | 🔵 **Roto** |
+| **Estudio Arcano (Arcane Study)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Research:* Copiado de conjuros arcanos de Nigromancia al libro de conjuros con un 50% de descuento en tiempo y oro. | 🟢 **Excelente** |
+| **Laboratorio Forense (Laboratory)** | **Roomy** | Nivel 5 | Activa (Maintain) | *Distill:* Destilación de unguentos alquímicos para preservar los 3 cuerpos del conjuro *Clone*. | 🔵 **Roto** |
+| **Scriptorium Funerario (Scriptorium)** | **Roomy** | Nivel 9 | Activa (Maintain) | *Craft:* Transcribe pergaminos de *Animate Dead*, *Summon Undead* y *Counterspell* a velocidad duplicada. | 🟢 **Excelente** |
+| **Círculo de Teletransporte (Teleportation Circle)** | **Vast** | Nivel 13 | Activa (Maintain) | *Mobilize:* Permite desplegar instantáneamente al ejército de 55 tropas no-muertas en cualquier rincón del multiverso. | 🔵 **Roto** |
+| **Demiplano Necrótico (Demiplane)** | **Vast** | Nivel 17 | Activa (Maintain) | *Sanctuary:* Reserva extrapolar inexpugnable; custodia 3 cámaras de *Clone* y concede **100 THP de reposo prolongado**. | 🔵 **Roto** |
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 👥 Guarnición y Personal de Mando (Staff & Garrison)
 
-*Recursos sociales e influencia política en el mundo de juego.*
-
-### Facciones Activas
-
-1. **El Culto de la Ceniza Gris:**
-    * *Rango / Título:* Adepto del Hueso
-    * *Reputación / Favor:* Aliado (+30)
-    * *Beneficio Mecánico:* Acceso a cementerios locales sin interferencia de las autoridades.
-2. **La Academia de Saberes Prohibidos:**
-    * *Rango / Título:* Estudiante Asociado
-    * *Reputación / Favor:* Neutral
-
-### Red de Contactos (Contacts & Informants)
-
-* **Profesor Vane (Gran Universidad):** Patólogo que proporciona cadáveres frescos bajo cuerda.
-* **El Sepulturero Mayor (Necrópolis):** Informante sobre criptas antiguas por abrir.
+* **Mayordomo Mayor (Major Domo):** Morten el Pálido (Necrófago aristócrata dotado de inteligencia y protocolo militar fúnebre).
+* **Guarnición Activa:**
+  * 16 Guerreros Esqueléticos con cotas de malla y alabardas pesadas custodiando las catacumbas.
+  * 8 Tiradores Esqueleto en los adarves superiores con arcos largos.
+* **Personal Especialista:**
+  * 1 Maestro Embalsamador de las Tierras Sombrías.
+  * 1 Calígrafo Funerario para grabado de runas en huesos.
+  * 2 Forenses alquímicos para el mantenimiento de los frascos de clonación.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
 
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
+### Prioridad 1: Mantenimiento de las Cámaras de Clonación (*Clone*)
+* **Objetivo:** Asegurar la inmortalidad absoluta del Mago Comandante y su Simulacro.
+* **Mecánica:** Mediante el *Laboratorio Forense* y el *Demiplano*, mantener 3 recipientes con salmuera y clones en crecimiento activo (coste: 3,000 po en diamantes y vasijas selladas).
+* **Ventaja Táctica:** Anula de forma definitiva el riesgo de muerte en campaña: en caso de perecer, el alma se traslada instantáneamente a un nuevo cuerpo sano en el Bastión.
 
-* **Percepción Pasiva (Passive Perception):** 11
-* **Investigación Pasiva (Passive Investigation):** 14
-* **Perspicacia Pasiva (Passive Insight):** 11
-* **Idiomas Conocidos:** Común, Élfico, Dracónico.
-* **Competencia con Herramientas (Tool Proficiencies):** Útiles de Calígrafo (+7), Útiles de Alquimista (+7).
-* **Sinergias Fuera de Combate:** 🟢 **Excelente**. El cuerpo Reborn no necesita dormir, comer ni respirar, permitiendo vigilar el bastión permanentemente.
+### Prioridad 2: Fabricación de Flechas Encantadas y Armamento Óseo
+* **Objetivo:** Equipar a los 32 arqueros esqueleto con flechas de calidad y arcos reforzados.
+* **Mecánica:** Utilizar los talleres del bastión para forjar puntas de flecha de hierro frío y plata.
+
+### Prioridad 3: Investigación Arcana y Cartografía de Sepulcros Olvidados
+* **Objetivo:** Localizar tumbas de antiguos reyes o criaturas legendarias para alzarlas mediante *Command Undead*.
+* **Mecánica:** Investigación en el *Estudio Arcano* mediante tiradas de Inteligencia (Historia $+11$), desvelando coordenadas de ruinas antiguas.

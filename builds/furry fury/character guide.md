@@ -1,91 +1,127 @@
-# Datos Generales
+# Guía de Personaje — Furry Fury (The 10-Foot Nova Blaster)
 
-System Standard: D&D 5th Edition (2024 / 5.5e Update)
+## Datos Generales
 
-Character Level: 20
+* **System Standard:** D&D 5th Edition (2024 / 5.5e Update & 2014 Compatibility)
+* **Character Level:** 20 (Bard [College of Valor] 19 / Warlock 1)
+* **Species:** Bugbear (Extremidades Largas: alcance cuerpo a cuerpo de 10 pies; Ataque Sorpresa: +2d6 por impacto en el Turno 1)
+* **Background:** Entertainer / Guide (Dote de Origen: *Alert* — +5 a la iniciativa e intercambio de orden con aliados)
+* **Stats (Point Buy + Racial + ASIs):**
+  * **FUER (STR):** 8 (-1) *(Standard Array)*
+  * **DES (DEX):** 20 (+5) *(15 Base + 2 Racial + 2 ASI Nivel 5 + 1 ASI Nivel 9)*
+  * **CON:** 16 (+3) *(14 Base + 2 ASI Nivel 20 o Amulet of Health 19)*
+  * **INT:** 8 (-1) *(Standard Array)*
+  * **SAB (WIS):** 10 (+0) *(Standard Array)*
+  * **CAR (CHA):** 18 (+4) *(15 Base + 1 Racial + 1 ASI Nivel 9 + 1 Dote Fey Touched/War Caster)*
 
-Class Split: Bard (College of Valor) 19 / Warlock 1
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/furry%20fury/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/furry%20fury/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/furry%20fury/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/furry%20fury/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/furry%20fury/actual%20inventory%20list.md)
+  * [Guía de Personaje 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/furry%20fury/character%20guide%202024.md)
 
-Species: Bugbear + Alert (Feat de Nivel 1)
+---
 
-Stats:
+## Combat Role: Hybrid Nova Striker, 10-Foot Spell-Blade & Kinetic Machine Gun
 
-- **FUER (STR):** 8 (-1) [[Volcado]]
-- **DES (DEX):** 17 (+3) (15 base + 2 racial) [[Estadística principal para ataques con armas de sutileza (Finesse)]]
-- **CON:** 14 (+2) [[Para HP y salvaciones de concentración de Conjure Minor Elementals]]
-- **INT:** 8 (-1) [[Volcado]]
-- **SAB (WIS):** 10 (0) [[Habilidad básica]]
-- **CAR (CHA):** 16 (+3) (15 base + 1 racial) [[Estadística de conjuros de bardo/hechicero y daño de Eldritch Blast]]
+**Furry Fury** es uno de los arquetipos más letales de D&D 2024 / 5.5e. Explota la anatomía del **Bugbear** (*Long-Limbed*, alcance cuerpo a cuerpo de 10 pies) combinada con el *Extra Attack* del **College of Valor Bard** (que permite sustituir un ataque de arma por un truco de acción completa como *Eldritch Blast*).
 
-Actual Item List: ./actual inventory list.md
+Al posicionarse exactamente a 10 pies del objetivo, golpea con sus armas cuerpo a cuerpo a máxima distancia y luego dispara los 4 rayos de *Eldritch Blast* **sin sufrir desventaja por cuerpo a cuerpo**, sumando a cada uno de los 7 impactos del asalto el daño de *Conjure Minor Elementals* (+8d8) y el daño de *Surprise Attack* (+2d6).
 
-Roadmap de Progresión: ./roadmap.md
-
-Bastión y Tiempo Muerto: ./bastion and downtime.md
-
-Combat Role: Nova Melee/Ranged Striker (Daño explosivo en primer turno + alcance táctico)
+---
 
 ## 1. Gestión de Recursos y Reglas de Inventario
 
-- **Economía de Recursos y Manos:**
-  - **Armas:** Dos armas ligeras: un Estoque en la mano principal y un Cimitarra (con propiedad _Nick_) en la mano secundaria.
-  - **Foco Universal Único:** Un único lazo o colgante focal que elimina la necesidad de componentes somáticos y materiales libres para tus conjuros de bardo y warlock.
-- **Gestión de Espacios/Ranuras:**
-  - Como un lanzador de nivel 19, dispones de espacios de conjuro hasta nivel 9.
-  - **Conjure Minor Elementals (CME):** El conjuro que define el daño ofensivo. Debe mantenerse en concentración y activarse antes del combate (duración: 10 minutos).
+* **Economía de Manos y Empuñadura Doble con Maestría Nick:**
+  * **Mano Principal:** Estoque (*Rapier*, propiedad *Vex* o daño de 1d8 de sutileza).
+  * **Mano Secundaria:** Cimitarra (*Scimitar*, propiedad *Nick*). La maestría *Nick* permite realizar el ataque con la mano torpe como parte de la acción de ataque principal en lugar de gastar la Acción Adicional.
+  * **Foco Universal Único:** Un broche rúnico en la capa canaliza los componentes somáticos y materiales de Bardo y Warlock sin liberar las armas.
+* **Gestión de Ranuras de Nivel 1 a 9:**
+  * Como Bardo 19 / Warlock 1, dispone de ranuras completas de nivel 1 a 9.
+  * **Conjure Minor Elementals (CME):** El pilar absoluto del build (preparado vía *Magical Secrets* a nivel 10). Escalado a nivel 7 otorga $+8\text{d}8$ de daño elemental adicional a **cada ataque exitoso** durante 10 minutos (concentración).
+
+---
 
 ## 2. Action Economy & Combat Loop
 
-- **Preparación (Pre-Combate):**
-  - Lanzar **Conjure Minor Elementals** en el espacio más alto disponible (ej. nivel 7 para +5d8 de daño por golpe).
-  - Asegurar que tu Imp familiar o el sigilo te den la oportunidad de actuar antes que el enemigo en la iniciativa (potenciado por dote _Alert_).
-- **Action:**
-  - **Turno 1 (Turno Nova):** Acción: Attack Action (Extra Attack de Valor Bard):
-    1. **Primer Ataque:** Un golpe de tu esto que principal con 10 pies de alcance (gracias a _Long-Limbed_ de Bugbear).
-    2. **Segundo Ataque (Reemplazado por Cantrip):** Lanzar **Eldritch Blast** (3 rayos a nivel 11, 4 rayos a nivel 17). Al estar a 10 pies del enemigo, no tienes desventaja al disparar un conjuro a distancia.
-    3. **Ataque Adicional (Propiedad Nick):** Al realizar un ataque con un arma ligera, puedes atacar con la cimitarra en tu otra mano como parte de la misma acción de ataque.
-    - **Total de Impactos:** 1 esto que + 3 rayos de EB + 1 cimitarra = 5 ataques.
-- **Bonus Action:**
-  - **Turno 1:** Generalmente libre para otorgar Bardic Inspiration o reposicionarte. Si posees la dote Dual Wielder, puedes realizar un ataque adicional con tu arma secundaria, aumentando a 6 ataques totales.
-- **Reaction:**
-  - 🔵 **Cutting Words** (si cambias de subclase) o **Shield** (si se aprende vía Warlock/dotes): +5 CA reactivo.
+* **Preparación (Pre-Combate / Turno 0):**
+  * Lanzar **Conjure Minor Elementals** (Espacio de Nivel 7: +8d8 por impacto; o Nivel 8: +10d8). Dura 10 minutos.
+  * Posicionamiento a 10 pies del objetivo prioritario gracias a la alta iniciativa de *Alert* (+10 con Jack of All Trades).
+* **Action:**
+  * **Acción de Ataque (Valor Bard 2024 Híbrido):**
+    1. **Ataque 1 (Estoque):** Golpe cuerpo a cuerpo a 10 pies de distancia (+11 a impactar).
+    2. **Ataque 2 (Cimitarra vía Nick):** Ataque con la mano secundaria realizado como parte de la misma acción de ataque a 10 pies de distancia.
+    3. **Ataque 3 (Cantrip en lugar de Ataque):** Lanzamiento de **Eldritch Blast** (4 rayos de fuerza independientes). Al estar a 10 pies del enemigo, no hay criaturas a 5 pies, por lo que **ningún rayo sufre desventaja**.
+    * **Total de Impactos de la Acción:** 6 ataques directos.
+* **Bonus Action:**
+  * **Ataque Adicional (Dote Dual Wielder 2024 / Battle Magic):** Realiza un 7.º impacto con su estoque o cimitarra a 10 pies de distancia.
+  * **Alternativa:** Otorgar *Bardic Inspiration* (d12) a un aliado.
+* **Reaction:**
+  * 🔵 **Shield (Warlock):** +5 a la CA reactivo (alcanzando CA 23).
+  * 🔵 **Counterspell (Magical Secrets):** Interrupción inmediata de conjuros enemigos de alto nivel.
+  * 🟢 **Absorb Elements:** Resistencia a daño elemental imprevisto.
 
-## 3. The META Combo: Furry Reach Nova
+---
 
-El combo explota la combinación de la dote de especie de Bugbear (alcance de 10 pies en ataques cuerpo a cuerpo) con la habilidad de Valor Bard de 2024 de sustituir un ataque de tu acción de ataque por un cantrip (_Eldritch Blast_).
+## 3. The META Combo: La Ametralladora de 10 Pies (Long-Limbed CME Blender)
 
-1. **Bugbear Long-Limbed (Pasiva):** Tus ataques cuerpo a cuerpo tienen 10 pies de alcance.
-2. **Casting a 10 pies:** Te colocas exactamente a 10 pies del objetivo. Atacas con tu esto que y cimitarra cuerpo a cuerpo. Luego disparas _Eldritch Blast_. Dado que el enemigo está a 10 pies (no dentro de 5 pies), las tiradas de Eldritch Blast **no tienen desventaja**.
-3. **Surprise Attack (Bugbear):** Si golpeas a una criatura que no ha actuado en el combate, añades +2d6 a cada impacto. Con 5 impactos, sumas +10d6 de daño.
-4. **Conjure Minor Elementals (Upcast):** Cada ataque conectado añade daño de CME (ej: 5d8 si se lanza a nivel 7). 5 impactos = +25d8.
+```mermaid
+flowchart TD
+    A["Turno 0: Conjure Minor Elementals Activo (+8d8 por Golpe)"] --> B["Inicio Combate: Ganar Iniciativa con Alert (+10 Total)"]
+    B --> C["Posicionarse a 10 Pies del Jefe (Alcance Long-Limbed Bugbear)"]
+    C --> D["Ataque 1: Estoque a 10 ft (1d8 + DEX + 2d6 Surprise + 8d8 CME)"]
+    D --> E["Ataque 2: Cimitarra Nick a 10 ft (1d6 + DEX + 2d6 Surprise + 8d8 CME)"]
+    E --> F["Sustituir Ataque 2 por Eldritch Blast (4 Rayos a 10 ft SIN Desventaja)"]
+    F --> G["Rayos 1 a 4 de EB: 4 x (1d10 + CHA + 2d6 Surprise + 8d8 CME)"]
+    G --> H["Bonus Action: 7.º Ataque con Dual Wielder a 10 ft"]
+    H --> I["Cómputo Total: 7 Impactos con 56d8 CME + 14d6 Surprise en Turno 1"]
+```
 
-🧮 Mathematical Engine (D&D 5e 2024 — Nivel 13, CA enemigo 17):
+### 🧮 Motor Matemático (Mathematical Engine)
 
-**Estadísticas a nivel 13 (Bard 12 / Warlock 1) con CME de Nivel 7 (+5d8):**
+#### 1. Daño Individual por Impacto en Turno 1 (CME Nivel 7 [+8d8] + Bugbear Surprise [+2d6])
 
-- Modificador de ataque (Armas): +10 (+5 DEX, +5 PB).
-- Modificador de ataque (Eldritch Blast): +8 (+3 CAR, +5 PB) con ventaja (familiar/iniciativa).
-- Daño de Estoque: $1\text{d}8 + 5$ (DEX) + $2\text{d}6$ (Surprise) + $5\text{d}8$ (CME) (promedio: 34.5).
-- Daño de Cimitarra (Nick): $1\text{d}6$ (sin destreza si no tienes estilo) + $2\text{d}6$ (Surprise) + $5\text{d}8$ (CME) (promedio: 33).
-- Daño de Eldritch Blast (3 rayos): $3 \times (1\text{d}10 + 3 \text{ CAR} + 2\text{d}6 \text{ Surprise} + 5\text{d}8 \text{ CME})$ (promedio: $3 \times 38 = 114$).
-- **Fórmula Promedio Turno Nova (5 impactos exitosos):**
-  $$\text{Daño Total Nova} = 3\text{d}10 + 12\text{d}6 + 25\text{d}8 + 25 = 16.5 + 42 + 112.5 + 25 = 196 \text{ daño medio}$$
+$$\text{Daño Estoque} = 1\text{d}8 + 5 (\text{DEX}) + 2\text{d}6 (\text{Surprise}) + 8\text{d}8 (\text{CME}) = 4.5 + 5 + 7 + 36 = \mathbf{52.5 \text{ daño}}$$
 
-$$\text{P(Impactar CA 17 con armas)} = 0.70 \text{ (ventaja } \approx 0.91\text{)}$$
-$$\text{P(Impactar CA 17 con EB)} = 0.60 \text{ (ventaja } \approx 0.84\text{)}$$
-$$\text{DPR Nova Promedio Ajustado (con ventaja)} \approx 2 \times 0.91 \times 33.75 + 3 \times 0.84 \times 38 \approx 61.42 + 95.76 = 157.18 \text{ daño efectivo}$$
+$$\text{Daño Cimitarra (Nick)} = 1\text{d}6 + 5 (\text{DEX}) + 2\text{d}6 (\text{Surprise}) + 8\text{d}8 (\text{CME}) = 3.5 + 5 + 7 + 36 = \mathbf{51.5 \text{ daño}}$$
 
-## 4. Valor Bard / Warlock Blueprint
+$$\text{Daño por Rayo de Eldritch Blast} = 1\text{d}10 + 4 (\text{CAR}) + 2\text{d}6 (\text{Surprise}) + 8\text{d}8 (\text{CME}) = 5.5 + 4 + 7 + 36 = \mathbf{52.5 \text{ daño/rayo}}$$
 
-El Valor Bard aporta la armadura y el motor de ataques híbridos a nivel 6, junto con Magical Secrets a nivel 10 para aprender el demoledor conjuro _Conjure Minor Elementals_.
+$$\text{Daño Séptimo Ataque (Bonus Action Dual Wielder)} = 1\text{d}8 + 5 (\text{DEX}) + 2\text{d}6 (\text{Surprise}) + 8\text{d}8 (\text{CME}) = \mathbf{52.5 \text{ daño}}$$
 
-| Nivel | Clase     | Habilidad Clave              | Impacto en Combate | Notas                                                                    |
-| :---: | :-------- | :--------------------------- | :----------------: | :----------------------------------------------------------------------- |
-|   1   | Warlock 1 | Eldritch Blast, Invocaciones | 🔵 Extraordinario  | Otorga el cantrip ofensivo multirrayo y Agonizing Blast.                 |
-|   7   | Bard 6    | Extra Attack (Híbrido)       |   🔵 Roto (2024)   | Permite alternar ataques de armas con Eldritch Blast en la misma acción. |
-|  11   | Bard 10   | Magical Secrets (CME)        |   🔵 Roto (2024)   | Prepara Conjure Minor Elementals para disparar el daño por golpe.        |
+#### 2. Cómputo Total del Turno Nova (7 Impactos Exitosos)
 
-## 5. Home Rules
+$$\text{Daño Acumulado} = 52.5 (\text{Estoque}) + 51.5 (\text{Cimitarra}) + (4 \times 52.5) (\text{EB}) + 52.5 (\text{BA}) = 52.5 + 51.5 + 210.0 + 52.5 = \mathbf{366.5 \text{ daño medio}}$$
 
-1. **Foco Universal Único:** Un único foco de bardo/warlock permite canalizar todos los conjuros sin restricciones de manos.
-2. **Progresión Full Caster Integrada:** Nivel de lanzador unificado de 19.
+*Desglose de dados acumulados en un solo turno:*
+$$\text{Dados Totales} = 56\text{d}8 (\text{CME}) + 14\text{d}6 (\text{Surprise}) + 4\text{d}10 (\text{EB}) + 2\text{d}8 + 1\text{d}6 + 36 (\text{Plano}) = 252 + 49 + 22 + 9 + 3.5 + 36 = \mathbf{371.5 \text{ daño bruto}}$$
+
+#### 3. Ajuste por Probabilidad de Impacto contra CA 18
+
+Con bono de ataque de armas $+11$ ($P \approx 0.70$) y bono de conjuro $+10$ ($P \approx 0.65$):
+* Con ventaja (familiar búho / sigilo / sorpresa / *Foresight*): $P_{\text{armas}} \approx 0.91$, $P_{\text{EB}} \approx 0.88$.
+
+$$\text{DPR Efectivo Esperado} = (3 \times 0.91 \times 52.2) + (4 \times 0.88 \times 52.5) = 142.5 + 184.8 = \mathbf{327.3 \text{ DPR Efectivo en Turno 1}}$$
+
+---
+
+## 4. Tabla de Clasificación Táctica de Habilidades
+
+| Habilidad / Recurso | Tipo | Coste | Evaluación | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Conjure Minor Elementals** | Ofensiva | Ranura Nivel 7+ | 🔵 | Otorga +8d8 de daño elemental a cada impacto durante 10 minutos. Es el multiplicador nuclear del build. |
+| **Extra Attack Híbrido** | Ofensiva | Pasiva Valor Bard | 🔵 | Permite lanzar Eldritch Blast (4 rayos) dentro de la acción de ataque sin gastar acciones adicionales. |
+| **Long-Limbed (Bugbear)** | Movilidad/Alcance | Pasiva Racial | 🔵 | Alcance de 10 pies; permite disparar Eldritch Blast a 10 pies sin sufrir desventaja por melé. |
+| **Surprise Attack** | Ofensiva | Pasiva Turno 1 | 🔵 | Añade +2d6 a cada impacto contra enemigos que aún no han actuado en el asalto. |
+| **Counterspell** | Control | Reacción | 🔵 | Salvaguarda la concentración del personaje y anula la magia del jefe enemigo. |
+| **Foresight** | Buff | Ranura Nivel 9 | 🔵 | 8 horas de ventaja en todas las tiradas sin concentración; anula la necesidad de generar ventaja externa. |
+| **Combat Inspiration** | Soporte | 1 Inspiración | 🟢 | Permite a los aliados sumar un d12 al daño de sus ataques o a su CA reactivamente. |
+
+---
+
+## 5. Reglas de la Casa (Home Rules)
+
+1. **Disparo a 10 Pies sin Desventaja:** Al atacar a una criatura a 10 pies de distancia mediante el rasgo *Long-Limbed*, no hay enemigos a 5 pies, por lo que *Eldritch Blast* se dispara como ataque a distancia normal sin penalización.
+2. **Foco Universal de Bardo/Brujo:** El foco canaliza indistintamente conjuros de ambas clases mientras se empuñan dos armas ligeras.

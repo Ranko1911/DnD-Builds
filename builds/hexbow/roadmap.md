@@ -1,45 +1,49 @@
-# 🗺️ Hoja de Ruta del Ballestero Siniestro (Nivel 1 - 20) — Hexbow
+# 🗺️ Hoja de Ruta de Progresión — Hexbow (Niveles 1 - 20)
 
-Esta hoja de ruta detalla la progresión nivel a nivel para el build **Hexbow** (Hexblade Warlock 17 / Battle Master Fighter 3), diseñado por el **Archivero de Optimización** basándose en la guía de **Darth Bober**.
+Esta progresión optimiza la combinación de **Brujo (Hexblade 17)** y **Guerrero (Battle Master 3)** para maximizar la tasa de impactos críticos con ventaja triple (*Elven Accuracy*), descargas de *Eldritch Smite*, 5 disparos por turno vía *Action Surge* y la integración del sistema de Bastiones (DMG 2024).
 
 ---
 
 ## 📊 Tabla de Progresión Completa (1 - 20)
 
-*Se inicia como Fighter para obtener competencia en salvaciones de Constitución (concentración) y el estilo de combate de Arquero.*
+*Se inicia como Fighter a Nivel 1 para garantizar competencia en salvaciones de Constitución (vital para mantener concentración en Shadow of Moil) y el estilo de combate Archery.*
 
-| Nivel Total | Clase y Nivel | PB | Hitos y Decisiones de Optimización | Dado de Superioridad | Características Obtenidas |
-| :---: | :--- | :---: | :--- | :---: | :--- |
-| **1** | Fighter 1 | +2 | Salvación de Constitución. **Archery Fighting Style (+2 a hit)**. | — | Segunda oportunidad, recuperación de HP. |
-| **2** | Warlock 1 | +2 | Subclase: **Hexblade**. *Hex Warrior* (CAR para ballesta) y *Hexblade's Curse*. | — | Modificador de Carisma en lugar de Destreza. |
-| **3** | Warlock 2 | +2 | Invocaciones: **Devil's Sight** y **Agonizing Blast** (para EB secundario). | — | Ranuras de nivel 1. |
-| **4** | Warlock 3 | +2 | Pact Boon: **Pact of the Blade**. Invocación swap: **Improved Pact Weapon**. | — | Tu arma cuenta como foco mágico y gana $+1$ a hit/daño. |
-| **5** | Warlock 4 | +3 | **Dote 1: Crossbow Expert** (quita carga, ataque bonus action). | — | Carisma inicial sube en efectividad. |
-| **6** | Warlock 5 | +3 | **Thirsting Blade** (Extra Attack) y **Eldritch Smite**. | — | Ranuras de nivel 3. Primera gran fase de daño. |
-| **7** | Fighter 2 | +3 | **Action Surge** (Acción Adicional por descanso corto). | — | Ráfaga destructiva en turnos decisivos. |
-| **8** | Fighter 3 | +3 | Subclase: **Battle Master**. Maniobras de combate. | 4 de $d8$ | Maniobras: **Precision Attack**, **Menacing Attack**, **Trip Attack**. |
-| **9** | Warlock 6 | +4 | Accursed Specter (espectro de enemigos caídos). | 4 de $d8$ | Utilidad defensiva y de exploración. |
-| **10** | Warlock 7 | +4 | Acceso a conjuros de 4.º nivel. | 4 de $d8$ | **Shadow of Moil** (Ventaja absoluta sin cegar aliados). |
-| **11** | Warlock 8 | +4 | **Dote 2: Elven Accuracy** (+1 CAR -> **CAR 18**). | 4 de $d8$ | Ventaja triple con *Shadow of Moil* o *Darkness*. |
-| **12** | Warlock 9 | +4 | Acceso a conjuros de 5.º nivel. | 4 de $d8$ | Las ranuras suben a nivel 5 (Eldritch Smite hace $+5d8$). |
-| **13** | Warlock 10 | +5 | Armor of Hexes (50% de probabilidad de errar ataques del objetivo maldito). | 4 de $d8$ | Capacidad defensiva brutal contra jefes. |
-| **14** | Warlock 11 | +5 | Mystic Arcanum (6.º nivel). Ranura de conjuro extra (3 ranuras total). | 4 de $d8$ | Spell de 6.º: *Scatter* o *Mental Prison*. |
-| **15** | Warlock 12 | +5 | **Dote 3: Sharpshooter** e Invocación **Lifedrinker**. | 4 de $d8$ | $+10$ de daño Sharpshooter y $+5$ daño Lifedrinker por impacto. |
-| **16** | Warlock 13 | +5 | Mystic Arcanum (7.º nivel). | 4 de $d8$ | Spell de 7.º: *Forcecage*. |
-| **17** | Warlock 14 | +6 | Master of Hexes (transfiere maldición de Hexblade). | 4 de $d8$ | Maldición infinita en encuentros múltiples. |
-| **18** | Warlock 15 | +6 | Mystic Arcanum (8.º nivel). | 4 de $d8$ | Spell de 8.º: **Foresight** (Ventaja constante pasiva). |
-| **19** | Warlock 16 | +6 | **Dote 4: ASI (+2 CAR -> CAR 20)**. | 4 de $d8$ | Carisma al máximo para daño Lifedrinker e impactos. |
-| **20** | Warlock 17 | +6 | Mystic Arcanum (9.º nivel). Ranura de conjuro extra (4 ranuras total). | 4 de $d8$ | Spell de 9.º: *Foresight* o *Psychic Scream*. |
+| Nivel Total | Clase y Nivel | PB | Hito y Elección de Optimización | Ranuras / Arcano | Características Principales | Desbloqueo de Bastión |
+| :---: | :--- | :---: | :--- | :---: | :--- | :---: |
+| **1** | Fighter 1 | +2 | Inicio D10 PG, salvaciones CON/STR, **Archery (+2 hit)**. | — | Archery Fighting Style, Second Wind | — |
+| **2** | Warlock 1 | +2 | Subclase: **Hexblade**. *Hex Warrior* (CAR para atacar). | 1 (Lvl 1) | Hex Warrior, Hexblade's Curse (Crítico 19-20) | — |
+| **3** | Warlock 2 | +2 | Invocaciones: **Devil's Sight** y **Agonizing Blast**. | 2 (Lvl 1) | Invocaciones Arcanas iniciales | — |
+| **4** | Warlock 3 | +2 | Pact Boon: **Pact of the Blade**. Invocación: **Improved Pact Weapon**. | 2 (Lvl 2) | Arma del pacto como foco arcano (+1 ataque/daño) | — |
+| **5** | Warlock 4 | +3 | **Dote 1:** **Crossbow Expert** (elimina carga, bonus attack). | 2 (Lvl 2) | Disparo sin desventaja en melé y 2 ataques/turno | 🏰 **Bastión Nivel 5: Armería y Estudio Arcano** |
+| **6** | Warlock 5 | +3 | Invocaciones: **Thirsting Blade** (Extra Attack) y **Eldritch Smite**. | 2 (Lvl 3) | 3 Ataques/Turno y detonaciones de fuerza ($4\text{d}8$) | — |
+| **7** | Fighter 2 | +3 | **Action Surge** (Acción adicional completa por descanso corto). | 2 (Lvl 3) | Ráfaga de 5 disparos en un solo turno | — |
+| **8** | Fighter 3 | +3 | Subclase: **Battle Master** (Precision, Trip, Menacing). | 2 (Lvl 3) | 4 Dados de Superioridad ($4\text{d}8$) | — |
+| **9** | Warlock 6 | +4 | Accursed Specter (invocación de alma de enemigo caído). | 2 (Lvl 3) | Espectro aliado con vida temporal | 🏰 **Bastión Nivel 9: Laboratorio y Campos de Tiro** |
+| **10** | Warlock 7 | +4 | Acceso a conjuros de Nivel 4: **Shadow of Moil**. | 2 (Lvl 4) | Ventaja visual absoluta e inmunidad a visión común | — |
+| **11** | Warlock 8 | +4 | **Dote 2:** **Elven Accuracy** (+1 CAR $\implies$ CAR 18). | 2 (Lvl 4) | **Ventaja Triple (3d20)** en todos los ataques de CAR | — |
+| **12** | Warlock 9 | +4 | Ranuras pactadas escalan a Nivel 5 (Smite inflige $+6\text{d}8$). | 2 (Lvl 5) | Eldritch Smite alcanza su tope de daño | — |
+| **13** | Warlock 10 | +5 | **Armor of Hexes** (50% de probabilidad de fallar para el maldito). | 2 (Lvl 5) | Anulación defensiva pasiva contra jefes | 🏰 **Bastión Nivel 13: Cámara de Meditación** |
+| **14** | Warlock 11 | +5 | **Mystic Arcanum (6.º): Scatter** y 3.ª ranura pactada. | 3 (Lvl 5) + Arc 6 | Reubicación táctica de 5 criaturas | — |
+| **15** | Warlock 12 | +5 | **Dote 3:** **Sharpshooter** e Invocación: **Lifedrinker**. | 3 (Lvl 5) + Arc 6 | +10 Daño Sharpshooter y +5 daño necrótico/tiro | — |
+| **16** | Warlock 13 | +5 | **Mystic Arcanum (7.º): Forcecage**. | 3 (Lvl 5) + Arc 7 | Encarcelamiento indestructible sin salvación | — |
+| **17** | Warlock 14 | +6 | **Master of Hexes** (transfiere la maldición sin gastar usos). | 3 (Lvl 5) + Arc 7 | Maldición permanente durante todo el encuentro | 🏰 **Bastión Nivel 17: Sala de Guerra** |
+| **18** | Warlock 15 | +6 | **Mystic Arcanum (8.º): Maddening Darkness / Demiplane**. | 3 (Lvl 5) + Arc 8 | Daño psíquico masivo de área o refugio planar | — |
+| **19** | Warlock 16 | +6 | **Dote 4:** **ASI (+2 CAR)** $\implies$ Carisma 20 (+5). | 3 (Lvl 5) + Arc 8 | Máxima precisión (+13), daño Lifedrinker y CD 19 | — |
+| **20** | Warlock 17 | +6 | **Mystic Arcanum (9.º): Foresight** y 4.ª ranura pactada. | 4 (Lvl 5) + Arc 9 | Ventaja universal durante 8 horas sin concentración | — |
 
 ---
 
-## 🎯 Progresión de Dotes (Feats) Explicada
+## 📈 Análisis de Escalado por Niveles (Tiers of Play)
 
-1. **Crossbow Expert (Nivel 5 / Warlock 4):**
-    * *Sinergia:* Te permite disparar a bocajarro sin desventaja en cuerpo a cuerpo, elimina la propiedad de *carga* de la ballesta de mano, y te otorga un ataque adicional con tu acción adicional después de atacar con una mano, dándote 3 ataques constantes.
-2. **Elven Accuracy (Nivel 11 / Warlock 8):**
-    * *Sinergia:* Sube tu Carisma de 17 a 18. Cuando tienes ventaja en tus tiradas con Carisma (frecuente gracias a *Shadow of Moil* o *Darkness*), puedes volver a tirar uno de los dados (ventaja triple). Esto aumenta radicalmente tu probabilidad de acertar y de infligir impactos críticos.
-3. **Sharpshooter (Nivel 15 / Warlock 12):**
-    * *Sinergia:* Permite disparar a máxima distancia sin desventaja (120 pies para ballesta de mano), ignorar cobertura media y tres cuartos, y aplicar un $+10$ al daño físico plano a cambio de $-5$ a la tirada. El $-5$ es compensado por el estilo de combate Archery ($+2$), ventaja triple ($+5$ equivalente) y la maniobra *Precision Attack*.
-4. **ASI: Mejora de Característica (Nivel 19 / Warlock 16):**
-    * *Sinergia:* Lleva tu Carisma al máximo de **20**. Esto añade $+5$ de daño por impacto gracias a *Lifedrinker* (acumulando $+10$ de daño plano por golpe junto con el modificador de ataque básico de Carisma) y sube tu CD de conjuros.
+### Niveles 1 - 4 (Tier 1: Francotirador de Carisma Inicial)
+* **Punto de Inflexión (Nivel 2):** *Hex Warrior* transfiere el tiro con ballesta de mano al Carisma. Con *Archery Fighting Style* (+2 al acierto) y la salvación competente en Constitución, el personaje supera a cualquier arquero estándar de nivel 2.
+
+### Niveles 5 - 10 (Tier 2: Despegue con Crossbow Expert, Action Surge y Battle Master)
+* **Punto de Inflexión (Nivel 5 y 6):** *Crossbow Expert* aporta un segundo ataque constante como acción adicional; a nivel 6, *Thirsting Blade* y *Eldritch Smite* elevan el número de ataques a 3 y permiten derribar enemigos con descargas de fuerza. Con *Action Surge* (Nivel 7) y *Precision Attack* (Nivel 8), el daño por ráfaga es demoledor.
+* **Hito de Bastión (Nivel 5 y 9):** Se erigen la **Armería de Precisión**, el **Estudio Arcano**, el **Laboratorio Alquímico** y los **Campos de Tiro**, abasteciendo de toxinas y virotes de calidad superior.
+
+### Niveles 11 - 16 (Tier 3: Elven Accuracy, Sharpshooter y Lifedrinker)
+* **Punto de Inflexión (Nivel 11 y 15):** A nivel 11, *Shadow of Moil* activa la **ventaja triple** de *Elven Accuracy*, disparando la probabilidad de crítico al 27.1% por tiro. En nivel 15, la combinación de *Sharpshooter* (+10 daño) y *Lifedrinker* (+5 daño necrótico) añade un bono plano masivo de $+26$ a cada virote acertado.
+
+### Niveles 17 - 20 (Tier 4: Foresight, Forcecage y Máxima Supremacía)
+* **Punto de Inflexión (Nivel 17 y 20):** *Master of Hexes* asegura que la maldición pase de un enemigo caído al siguiente de forma infinita. Con *Foresight* (Nivel 20), el personaje obtiene ventaja pasiva las 24 horas del día sin concentración, liberando sus 4 ranuras de nivel 5 para *Banishing Smite*, *Synaptic Static* y *Eldritch Smite* constantes.

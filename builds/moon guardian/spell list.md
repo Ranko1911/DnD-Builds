@@ -1,80 +1,106 @@
-# 🌟 Lista de Conjuros Optimizada — Moon Guardian (Druid Circle of the Moon)
+# 📜 Lista de Conjuros y Formas Salvajes — Moon Guardian
 
-Esta lista detalla la selección de conjuros sugerida para el **Moon Guardian**. Debido a que no puedes lanzar ni mantener concentración en hechizos mientras estás en *Rage*, tu repertorio se enfoca en conjuros de preparación **sin concentración** para pre-combate, curación y utilidad **fuera de combate**, y rituales.
-
----
-
-## 🔮 Trucos (Cantrips)
-
-*No consumen espacios de preparación ni de ranuras.*
-
-### 🌿 Druid (3 conocidos)
-
-1. **Guidance 🔵 [Utilidad — Indispensable]:** Otorga un $d4$ extra a cualquier prueba de habilidad de un aliado o de ti mismo. Uso constante fuera de combate para exploración, persuasión, etc.
-2. **Shillelagh 🟢 [Combate alternativo]:** Imbue un bastón o garrote con $1d8$ + WIS como arma mágica. Útil cuando no puedes usar Wild Shape (más de 2 combates por descanso corto) y tu Fuerza no es suficiente. Requiere bonus action para activar.
-3. **Mending 🟢 [Utilidad]:** Reparación de objetos mundanos. Siempre útil para mantenimiento de equipo y objetos del grupo.
-
----
-
-## 🎒 Conjuros Preparados de Druid (Druid Level 13)
-
-*Preparas $\text{WIS (+2)} + \text{Druid Level (13)} = 15$ conjuros por descanso largo. Tus ranuras se usan principalmente para self-heal en Wild Shape ($Xd8$ por nivel de slot) y utilidad fuera de combate.*
-
-### Nivel 7 (Nivel 7) — 1 ranura
-
-1. **Plane Shift 🟢 [Transporte/Destierro]:** Transporta al grupo a otro plano de existencia, o como ataque de toque, destierra a un enemigo a otro plano (salvación de CAR). Utilidad estratégica inmensa.
-
-### Nivel 6 (Nivel 6) — 1 ranura
-
-1. **Heal 🔵 [Curación masiva — Emergencia]:** Restaura 70 HP a una criatura tocada e elimina ceguera, sordera y enfermedades. El mejor conjuro de curación pura disponible. Usar fuera de combate o en emergencia absoluta (rompe Rage).
-2. **Heroes' Feast 🟢 [Buff de grupo — Pre-aventura]:** Cura enfermedades, otorga inmunidad a veneno y miedo, y $2d10$ HP máximos extra a todo el grupo durante 24 horas. Requiere 1 hora de festín y 1000 po en componentes.
-
-### Nivel 5 (Nivel 5) — 2 ranuras
-
-1. **Mass Cure Wounds 🟢 [Curación AoE]:** Cura hasta 6 criaturas dentro de 30 pies por $3d8 + \text{WIS}$ cada una. Excelente recuperación post-combate.
-2. **Greater Restoration 🔵 [Eliminación de condiciones]:** Elimina una condición devastadora (petrifacción, maldición, reducción de habilidad, HP máximo reducido). Imprescindible tener preparado.
-
-### Nivel 4 (Nivel 4) — 3 ranuras
-
-1. **Fire Shield 🔵 [Pre-combate — Sin Concentración — CLAVE]:** Otorga resistencia a fuego O frío (eliges al lanzar) durante 10 minutos sin concentración. Cuando un enemigo a 5 pies te golpea con cuerpo a cuerpo, sufre $2d8$ de daño (~9 media). **Funciona durante Wild Shape y Rage**. En un tanque que atrae ataques constantemente, genera daño pasivo brutal.
-2. **Freedom of Movement 🟢 [Utilidad — Sin Concentración]:** Un aliado o tú mismo no puede ser paralizado, restringido ni ralentizado por magia durante 1 hora. Excelente seguro.
-
-### Nivel 3 (Nivel 3) — 3 ranuras
-
-1. **Aura of Vitality 🔵 [Curación masiva fuera de combate]:** Concentración, 1 minuto. Cada turno como bonus action curas $2d6$ HP a una criatura a 30 pies. Total: 10 rondas × $2d6$ = ~70 HP de curación distribuida. Ideal post-combate.
-2. **Revivify 🔵 [Resurrección de emergencia]:** Devuelve la vida a una criatura muerta en el último minuto. Cuesta 300 po en diamantes. Imprescindible tener preparado siempre.
-3. **Dispel Magic 🟢 [Utilidad general]:** Elimina conjuros de nivel 3 o inferior automáticamente. Situacional pero vital cuando se necesita.
-
-### Nivel 2 (Nivel 2) — 3 ranuras
-
-1. **Pass Without Trace 🔵 [Sigilo de grupo]:** Concentración, 1 hora. Otorga $+10$ a pruebas de Sigilo a todo el grupo dentro de 30 pies. Convierte al grupo entero en fantasmas.
-2. **Lesser Restoration 🟢 [Eliminación de condiciones menores]:** Elimina una enfermedad o condición (ceguera, sordera, paralizado, envenenado).
-
-### Nivel 1 (Nivel 1) — 4 ranuras
-
-1. **Goodberry 🔵 [Curación y utilidad]:** Crea 10 bayas que curan 1 HP cada una. Útil para estabilizar aliados inconscientes a distancia.
-2. **Healing Word 🔵 [Curación a distancia — Bonus Action]:** Cura $1d4 + \text{WIS}$ a 60 pies como acción adicional. Crucial para levantar aliados caídos sin dejar de pelear (pero rompe Rage).
-3. **Longstrider 🟢 [Utilidad — Sin Concentración]:** $+10$ pies de movimiento durante 1 hora sin concentración. Apila con Fast Movement del Bárbaro para un total de $+20$ pies extras.
+**Build:** Moon Guardian (El Coloso Primigenio Inmortal)  
+**Clase:** Barbarian (Ancestral Guardian) 7 / Druid (Circle of the Moon) 13  
+**Nivel de Lanzador:** Druida Nivel 13  
+**Ranuras Disponibles:** 4 de Nivel 1, 3 de Nivel 2, 3 de Nivel 3, 3 de Nivel 4, 2 de Nivel 5, 1 de Nivel 6, 1 de Nivel 7  
+**CD de Salvación de Druida:** $8 + 6 (\text{PB}) + 3 (\text{WIS}) = \mathbf{17}$  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/character%20guide%202024.md)
+* [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/bastion%20and%20downtime.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/moon%20guardian/actual%20inventory%20list.md)
 
 ---
 
-### 🔄 Conjuros Alternativos / Opcionales (No preparados por defecto)
-*   **Regenerate (7.º):** Curación sostenida fuera de combate (Concentración, rompe Furia).
-*   **Fire Storm (7.º):** Daño de fuego de área masivo.
-*   **Transport via Plants (6.º):** Movilidad y portales terrestres.
-*   **Charm Monster (4.º):** Control social y diplomacia mágica.
-*   **Healing Spirit (2.º):** Curación eficiente distribuida post-combate.
-*   **Cure Wounds (1.º):** Curación básica por contacto.
+## ⚡ Efectos Activos y Buffs Previos a la Furia (Turn 0)
+
+> [!IMPORTANT]
+> Mientras se está en **Furia (Rage)** no se pueden lanzar conjuros ni mantener concentración. Por tanto, todos los conjuros de combate deben ser **sin concentración** y lanzarse antes de entrar en Furia:
+
+| Efecto / Conjuro | Duración | Concentración | Beneficio Mecánico |
+| :--- | :---: | :---: | :--- |
+| **Fire Shield (Nivel 4)** | 10 minutos | **No** | Cada criatura que te golpee cuerpo a cuerpo recibe $2\text{d}8$ daño de fuego o frío; concede resistencia a fuego o frío. |
+| **Freedom of Movement (Nivel 4)** | 1 hora | **No** | Inmunidad a terreno difícil, parálisis e impedimentos de movimiento. |
+| **Longstrider (Nivel 1)** | 1 hora | **No** | $+10\text{ pies}$ a la velocidad de movimiento base (incluye formas animales y elementales). |
+| **Heroes' Feast (Nivel 6)** | 24 horas | **No** | $+2\text{d}10\text{ PG}$ máximos, inmunidad a veneno y miedo, ventaja en tiradas de salvación de Sabiduría. |
+| **Water Breathing (Nivel 3)** | 24 horas | **No (Ritual)** | Respiración bajo el agua para todo el grupo sin gastar ranuras. |
+| **Beasthide Shifter (Racial)** | 1 minuto | No | $+1\text{ CA}$ y $1\text{d}6 + 2 \times \text{PB} = \mathbf{15.5 \text{ PG temporales}}$. |
 
 ---
 
-## 📖 Rituales y Habilidades Especiales
+## 📊 Matriz de Conjuros Preparados (Druida 13)
 
-*Conjuros rituales y habilidades que no requieren espacios de preparación diarios o se usan como rituales.*
+### Trucos (Cantrips)
+* **Guidance:** 🔵 S. $+1\text{d}4$ a cualquier prueba fuera de combate.
+* **Primal Savagery:** 🟢 A. Ataque ácido en forma humanoide si estás desarmado.
+* **Mending:** 🟢 A. Reparación de equipo y estructuras del Bastión.
+* **Druidcraft:** 🟡 B. Predicción meteorológica y efectos botánicos menores.
 
-* **Detect Magic (Ritual):** Detección de auras mágicas en 30 pies. Uso exploratorio constante sin gastar ranura.
-* **Speak with Animals (Ritual):** Comunicación con bestias. Temáticamente perfecto para el personaje y útil para recopilar información.
-* **Water Breathing (Ritual, 3.º):** Todo el grupo respira bajo el agua durante 24 horas. Enorme utilidad exploratoria.
-* **Water Walk (Ritual, 3.º):** El grupo camina sobre líquidos durante 1 hora. Situacional pero poderoso.
-* **Divination (Ritual, 4.º):** Una pregunta al DM/deidad por descanso largo. Gran utilidad de información.
-* **Combat Wild Shape (Moon Druid):** Wild Shape como bonus action. Self-heal gastando ranuras ($Xd8$) como bonus action en Wild Shape. No es un conjuro.
+### Niveles 1 y 2
+* **Goodberry:** 🔵 S. Genera 10 bayas que duran 24 horas; estabilizan aliados caídos a 0 PG sin coste.
+* **Absorb Elements:** 🔵 S. Reacción pre-furia para absorber daño elemental masivo.
+* **Pass without Trace:** 🔵 S. $+10$ al sigilo de todo el grupo para emboscadas tácticas (utilizado fuera de furia).
+* **Lesser Restoration:** 🟢 A. Cura enfermedades, ceguera, sordera, parálisis o venenos.
+
+### Niveles 3 y 4
+* **Plant Growth:** 🔵 S. Reduce el movimiento enemigo a un cuarto sin requerir concentración (terreno difícil extremo).
+* **Dispel Magic:** 🟢 A. Elimina barreras mágicas hostiles.
+* **Fire Shield:** 🔵 S. **Esencial**. El motor de daño pasivo mientras estás en forma elemental y furia.
+* **Freedom of Movement:** 🔵 S. Garantiza que el tanque jamás quede paralizado o retenido.
+
+### Niveles 5, 6 y 7
+* **Greater Restoration:** 🟢 A. Elimina niveles de agotamiento, petrificación o reducciones de atributos.
+* **Heal (Nivel 6):** 🔵 S. Cura 70 PG directos instantáneamente y elimina ceguera y sordera.
+* **Heroes' Feast (Nivel 6):** 🔵 S. Preparación previa indispensable para todo el grupo.
+* **Transport via Plants (Nivel 6):** 🟢 A. Teletransporte planar/mundial instantáneo para todo el grupo.
+* **Regenerate (Nivel 7):** 🟢 A. Restaura $4\text{d}8 + 15$ PG y 1 PG al inicio de cada turno durante 1 hora.
+
+---
+
+## 🐻 Formas de Wild Shape Recomendadas (Moon Druid 13)
+
+| Forma Salvaje | CR | CA | PG | Ataques y Daño | Rasgos Especiales |
+| :--- | :---: | :---: | :---: | :--- | :--- |
+| **Earth Elemental** | 5 | 17 | 126 | 2x *Slam* ($+8$ a golpear, $2\text{d}10 + 5$) | *Earth Glide* (atraviesa roca sin perturbarla), Inmunidad a veneno/parálisis. |
+| **Fire Elemental** | 5 | 13 | 102 | 2x *Touch* ($+6$ a golpear, $2\text{d}6 + 3$ fuego) | *Fire Form* ($1\text{d}10$ fuego al entrar en su espacio), Ilumina 30 pies. |
+| **Water Elemental** | 5 | 14 | 114 | 2x *Slam* ($+7$ a golpear, $2\text{d}8 + 4$) | *Whelm* (ahoga y retiene hasta 2 criaturas grandes). |
+| **Giant Subterranean Lizard** | 4 | 14 | 66 | *Bite* ($3\text{d}10 + 4$) + *Tail* ($3\text{d}8 + 4$) | Apresa automáticamente al morder a criaturas medianas o menores. |
+
+---
+
+## 🔄 Diagrama de Secuencia: Despliegue del Coloso y Absorción de Daño
+
+```mermaid
+sequenceDiagram
+    autonumber
+    actor MG as Moon Guardian
+    participant EE as Earth Elemental (126 HP)
+    participant E as Jefe Enemigo
+    participant A as Aliado Protegido
+
+    Note over MG: Pre-Combate: Fire Shield (10 min sin concentración)
+    MG->>MG: Turno 1: Bonus Action Rage (Resistencia daño físico)
+    MG->>EE: Action: Wild Shape en Earth Elemental
+    EE->>E: Turno 2: Movimiento Earth Glide bajo tierra y emerge junto al Jefe
+    EE->>E: Acción Extra Attack: 2x Slam con Reckless Attack (+Furia)
+    Note over EE,E: Impacto activa Ancestral Protectors: Enemigo marcado
+    E->>A: Enemigo intenta golpear a un Aliado cercano
+    Note over E,A: El ataque tiene Desventaja obligatoria
+    Note over E,A: Si impacta: Aliado tiene Resistencia a TODO el daño
+    MG->>A: Reacción Spirit Shield: Reduce 2d6 de daño adicional
+    E->>EE: Enemigo frustrado ataca al Earth Elemental en represalia
+    Note over EE: Furia reduce el daño a la mitad
+    Note over EE: ¡Fire Shield devuelve 2d8 daño automático al atacante!
+    MG->>EE: Siguiente Turno (Bonus Action): Gasta ranura nivel 3 para curar 3d8 HP
+```
+
+---
+
+## 💖 Curación en Segundo Plano (Background Healing)
+
+1. **Combat Wild Shape Healing:** Mientras estás en Wild Shape y Furia, puedes gastar una ranura de conjuro como Bonus Action para recuperar **$1\text{d}8$ PG por cada nivel de la ranura** sin lanzar un conjuro. Un slot de 5.º nivel restaura $5\text{d}8 = \mathbf{22.5 \text{ PG}}$ en plena Furia.
+2. **Reserva de Goodberry:** Al final de cada día, gastar las ranuras restantes en *Goodberry*. Cada baya dura 24 horas y provee alimento y curación garantizada fuera de combate.
+3. **Aura of Vitality Fuera de Combate:** Si no estás en Furia, 1 lanzamiento de *Aura of Vitality* restaura $20\text{d}6 = \mathbf{70 \text{ PG}}$ distribuidos entre los miembros del grupo durante 1 minuto.

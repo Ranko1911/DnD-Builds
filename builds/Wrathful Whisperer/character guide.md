@@ -1,99 +1,110 @@
-# Datos Generales
+# ⚔️ Guía de Personaje — Wrathful Whisperer
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+**Build:** Wrathful Whisperer (El Espadachín de la Cólera Sagrada)  
+**Clase:** Paladin 2 / Bard (College of Swords) 18  
+**Especie:** Dragonborn (Copper / Ravenite)  
+**Trasfondo:** Noble / Entertainer (Dote de Origen: *Alert*)  
+**Sistema:** D&D 5th Edition (Reglas 2024 / 5.5e & 2014)  
+**Rol:** Frontline Gish Striker / Defensive Flourish Tank / High-Level Controller / Full Caster Smiter  
+**Documentos Relacionados:**
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/character%20guide%202024.md)
+* [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/bastion%20and%20downtime.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/Wrathful%20Whisperer/actual%20inventory%20list.md)
 
-Character Level: 20 (Total)
+---
 
-Class Split: Paladin 2 / Bard (College of Swords) 18
+## 📊 Atributos y Estadísticas (Nivel 20)
 
-Species: Dragonborn (Copper o Ravenite) [Se elige por temática y rasgos raciales. El Dragonborn de Cobre se alinea perfectamente con la devoción a Hlal, deidad dracónica de la diversión e ingenio]
+| Atributo | Puntuación | Modificador | Salvación Base | Notas Defensivas |
+| :--- | :---: | :---: | :---: | :--- |
+| **Fuerza (STR)** | 16 | +3 | +3 | Requisito de Armadura de Placas |
+| **Destreza (DEX)** | 10 | 0 | 0 | Atributo neutral |
+| **Constitución (CON)** | 16 (con Cinturón) | +3 | +9 (Competente vía Resilient) | Concentración inquebrantable |
+| **Inteligencia (INT)** | 8 | -1 | -1 | Atributo de descarte |
+| **Sabiduría (WIS)** | 10 | 0 | +6 (Competente) | Salvación base de Paladin |
+| **Carisma (CHA)** | 20 | +5 | +11 (Competente) | Estadística de conjuros, CD 19 y dados de floreo |
 
-Stats: STR 16, DEX 10, CON 14 (16 con cinturón), INT 8, WIS 10, CHA 20
+* **Puntos de Golpe (PG):** 164 ($2\text{d}10 + 18\text{d}8 + 60 \text{ CON}$).
+* **Clase de Armadura (CA):**
+  * Full Plate +3: CA base 21.
+  * Shield +3: $+5$ a la CA.
+  * Estilo de Combate Defense: $+1$ a la CA.
+  * Cloak / Ring of Protection: $+2$ a la CA.
+  * **CA Pasiva Base:** $\mathbf{29}$.
+  * Con *Defensive Flourish* ($+1\text{d}12$ a la CA): $\mathbf{30 \text{ a } 41 \text{ de CA}}$.
+  * Con Reacción (*Shield* vía Magical Secrets): $\mathbf{35 \text{ a } 46 \text{ de CA}}$.
+* **Nivel de Lanzador Combinado:** Nivel 19 (Espacios de conjuro hasta Nivel 9).
 
-* **STR:** 16 (15 base + 1 racial) [Permite vestir Armadura de Placas sin penalización]
-* **DEX:** 10
-* **CON:** 14 (sube a 16 con el *Belt of Dwarvenkind*) [Aumenta tus puntos de golpe y mejora tus salvaciones para mantener la concentración]
-* **INT:** 8
-* **WIS:** 10
-* **CHA:** 20 (15 base + 2 racial + 2 ASI a nivel 10 + 2 ASI a nivel 14) [Tanto tu estadística primaria de lanzamiento como tu recurso para Blade Flourishes]
+---
 
-Actual Item List: ./actual inventory list.md
+## 🏷️ Matriz de Evaluación Táctica
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+| Categoría | Nivel | Justificación Mecánica |
+| :--- | :---: | :--- |
+| **Burst Damage (Nova)** | 🔵 S | Ráfaga devastadora: 2 ataques con *Extra Attack* canalizando *Divine Smite* de nivel 4/5 ($5\text{d}8$) $+ 1\text{d}12$ de *Blade Flourish* en cada impacto. |
+| **Supervivencia y CA Absoluta** | 🔵 S | CA pasiva 29; se eleva a $35-41$ con *Defensive Flourish* y hasta $46$ con *Shield*. Virtualmente imposible de impactar en combate físico. |
+| **Poder Arcano y Control** | 🔵 S | Acceso completo a conjuros de Nivel 9 (*Wish*, *True Polymorph*, *Foresight*) y *Magical Secrets* (*Counterspell*, *Find Greater Steed*, *Simulacrum*). |
+| **Economía de Acciones** | 🔵 S | *Scimitar of Speed* concede un ataque cuerpo a cuerpo (y Smite) como Bonus Action; *Animate Objects* a nivel 9 comanda 18 monedas en Bonus Action. |
+| **Movilidad y Montura** | 🟢 A | *Find Greater Steed* invoca un Pegaso o Grifo que comparte todos los conjuros que te lances a ti mismo. |
+| **Daño Sostenido (DPR)** | 🔵 S | La "Tempestad de Plata" (*Animate Objects* nivel 9 + *Crusader's Mantle* mantenido por el *Simulacrum*) genera $129.2$ DPR en Bonus Action. |
 
-Roadmap de Progresión: ./roadmap.md
+---
 
-Combat Role: Frontline Striker / Skirmisher / Crowd Controller / Party Face (Tanque de evasión por CA alta / Daño melee ráfaga mediante *Divine Smite* y floreos tácticos)
+## 🧮 Motor Matemático (2024 / 2014 Ruleset)
 
- 1. Gestión de Recursos y Reglas de Inventario
+### 1. Daño de Golpe Singular (Nova Smite Flourish)
+Al impactar con un Estoque o Espada Larga a una mano:
+$$\text{Daño Físico Base} = 1\text{d}8 + 3 (\text{STR}) = \mathbf{7.5 \text{ perforante}}$$
+$$\text{Divine Smite (Ranura Nivel 4)} = 5\text{d}8 = \mathbf{22.5 \text{ radiante}}$$
+$$\text{Defensive Flourish (Swords Bard 18)} = 1\text{d}12 = \mathbf{6.5 \text{ daño extra}}$$
+$$\text{Daño Total de 1 Impacto} = 7.5 + 22.5 + 6.5 = \mathbf{36.5 \text{ daño medio}}$$
+Con el segundo ataque de *Extra Attack* aplicando otro *Divine Smite* de nivel 4:
+$$\text{Daño Total de Acción} = 36.5 + (7.5 + 22.5) = \mathbf{66.5 \text{ de daño en 1 turno}}$$
+Si se porta la *Scimitar of Speed* para un tercer ataque en Bonus Action con Smite de nivel 3 ($4\text{d}8 = 18$):
+$$\text{Nova Turno 1 (3 Ataques)} = 66.5 + (1\text{d}6 + 3 + 18) = 66.5 + 24.5 = \mathbf{91.0 \text{ daño en Turno 1}}$$
 
-* **Economía de Recursos y Manos:**
-  * Vistes **Plate Armor** y llevas un **Escudo** junto con tu Rapier para una CA base sólida. La característica clave de College of Swords te permite usar cualquier arma cuerpo a cuerpo en la que seas competente (como tu Rapier) como un foco de lanzamiento para tus conjuros de Bardo, solucionando la economía de manos libres mientras sostienes escudo y arma.
-* **Gestión de Espacios/Ranuras:**
-  * Eres un lanzador de conjuros multiclase equivalente a nivel 19 (Paladin 2 cuenta como nivel 1 caster, Bard 18 cuenta como nivel 18 caster). Esto te proporciona espacios de conjuro de nivel alto hasta nivel 9, que puedes usar para conjuros legendarios como *Wish* o *True Polymorph*, o canalizar en tus golpes críticos de *Divine Smite*.
+### 2. El Combo de la Tempestad de Plata (Animate Objects 9 + Crusader's Mantle)
+* *Animate Objects* lanzado con ranura de Nivel 9 anima **18 monedas de plata** (tamaño *Tiny*).
+* El duplicado de *Simulacrum* mantiene la concentración en ***Crusader's Mantle*** (+1d4 radiante a cada ataque amigo en 30 ft).
+$$\text{Daño por Moneda} = 1\text{d}4 + 4 (\text{Slam contundente}) + 1\text{d}4 (\text{Crusader's Mantle}) = 6.5 + 2.5 = \mathbf{9.0 \text{ daño por impacto}}$$
+Frente a un enemigo con CA 18 (probabilidad de impacto $P = 0.55$):
+$$\text{DPR Promedio (18 Monedas en Bonus Action)} = 18 \times 9.0 \times 0.55 = \mathbf{89.1 \text{ daño neto}}$$
+Con Ventaja (*Foresight* o *Faerie Fire*, $P = 0.7975$):
+$$\text{DPR con Ventaja} = 18 \times 9.0 \times 0.7975 = \mathbf{129.195 \text{ daño por asalto en Bonus Action}}$$
 
- 1. Action Economy & Combat Loop
+### 3. Matriz de CA Inviolable
+$$\text{CA Base Pasiva} = 18 (\text{Placas}) + 3 (\text{Mágico}) + 2 (\text{Escudo}) + 3 (\text{Mágico}) + 1 (\text{Defense}) + 2 (\text{Capa/Anillo}) = \mathbf{29}$$
+Con *Defensive Flourish* ($+1\text{d}12$, media $+6.5$):
+$$\text{CA Media Activa} = 29 + 6.5 = \mathbf{35.5 \text{ CA}} \quad (\text{Máximo } 41 \text{ CA})$$
+Con reacción de *Shield*:
+$$\mathbf{\text{CA Total Pico} = 35.5 + 5 = 40.5 \text{ CA}} \quad (\mathbf{\text{Pico Absoluto } 46 \text{ CA}})$$
+*Frente al monstruo más poderoso del multiverso (+19 al impacto), requiere un 20 natural obligado para rozarte.*
 
-* **Action:**
-  * **Turno 1:** Lanzar un conjuro de control de área poderoso (*Hypnotic Pattern*, *Fear*, o *Forcecage*) o invocar tu presencia duplicada con *Simulacrum*.
-  * **Turnos 2+:** Acción de ataque (*Extra Attack*) aplicando **Blade Flourish** (generalmente *Defensive Flourish* para aumentar tu CA drásticamente, o *Mobile Flourish* para reposicionarte y empujar enemigos) combinándolo con *Divine Smite* de nivel alto para descargar ráfagas masivas. O bien, dirigir la **Tempestad de Plata** (Animate Objects a nivel 9).
-* **Bonus Action:**
-  * Dar órdenes a tus objetos animados (*Animate Objects*) o activar habilidades como *Healing Word* o *Find Greater Steed*.
-  * **Sinergia con Scimitar of Speed:** Si portas este objeto, puedes realizar un ataque cuerpo a cuerpo (y aplicar *Divine Smite*) como Acción Adicional sin condiciones. Esto te permite atacar incluso en el Turno 1 tras usar tu Acción principal para lanzar un conjuro de control, o realizar un tercer ataque en turnos posteriores.
-* **Reaction:**
-  * Lanzar *Counterspell* (gracias a tus Magical Secrets) para interrumpir conjuros enemigos cruciales de forma reactiva.
+---
 
- 1. The META Combo: Divine Smite + Blade Flourish (Slashing Smite)
+## 🔄 Bucle Táctico de Combate (Action Loop)
 
-La combinación de *Divine Smite* de Paladín (daño radiante plano) con los *Blade Flourishes* de Swords Bard (daño extra del dado de floreo que escala hasta $1d12$ a nivel 15 de Bardo) te permite descargar un daño masivo en un solo golpe.
+```mermaid
+flowchart TD
+    A[Inicio del Asalto: Iniciativa +10] --> B[Turno 0 Pre-Combate: Find Greater Steed Pegaso + Foresight Nivel 9]
+    B --> C{¿Enemigo Agrupado o Jefe Singular?}
+    C -- Control Masivo --> D[Action: Forcecage o Hypnotic Pattern CD 19]
+    C -- Asalto Nova Directo --> E[Action: Extra Attack con Rapier + Divine Smite Nivel 4]
+    E --> F[Activar Defensive Flourish: +1d12 a daño y CA = CA 36]
+    F --> G[Bonus Action: Scimitar of Speed Smite o Animate Objects 18 Monedas]
+    G --> H[Reaction: Counterspell o Shield CA 41]
+    H --> I[Fin del Asalto: Jefe pulverizado y Bardo inexpugnable]
+```
 
-El floreo defensivo (*Defensive Flourish*) no solo añade daño, sino que añade el resultado del dado a tu CA. Esto, combinado con una Armadura de Placas base ($18$) y un Escudo ($+2$), eleva tu CA de forma pasiva a $20$, y con un buen dado de floreo ($+1d12$), puede superar los **30 de CA** sin requerir conjuros defensivos adicionales, haciéndote virtualmente intocable en primera línea.
+### Turno 0 (Preparación)
+* Montar sobre el Pegaso invocado con *Find Greater Steed* (velocidad de vuelo 90 pies).
+* Lanzar *Foresight* (Nivel 9, 8 horas sin concentración): Concede Ventaja en todos los ataques, pruebas y salvaciones, e impone Desventaja en todos los ataques hostiles contra ti.
 
-🧮 Mathematical Engine (A Nivel 20):
-
-**Un solo ataque con todas las capacidades activas (Ataque Nova):**
-
-* **Daño Físico (Rapier de una mano):** $1d8 + 3 \text{ (STR)} = 7.5$ de daño medio.
-* **Divine Smite (Slot de nivel 4):** $5d8 = 22.5$ de daño radiante.
-* **Blade Flourish (Swords Bard 18):** $1d12 = 6.5$ de daño.
-* **Fórmula del Daño de un Solo Golpe:**
-    $$\text{Daño Total Medio} = \underbrace{(1d8 + 3)}_{7.5} + \underbrace{5d8}_{22.5} + \underbrace{1d12}_{6.5} = 36.5 \text{ de daño.}$$
-* Realizando tu segundo ataque de *Extra Attack* aplicando otro *Divine Smite* de nivel 4 ($5d8$), tu daño en un solo turno alcanza fácilmente los **66.5 de daño monobjetivo medio**, mientras tu CA aumenta en $+1d12$ (media de $+6.5$).
-
-### 3.1 El Combo de la "Tempestad de Plata" (Animate Objects 9.º + Crusader's Mantle)
-
-Este combo maximiza el número de ataques por asalto utilizando tus recursos de nivel 9 y la coordinación con tu duplicado de *Simulacrum*.
-
-* **Preparación:** Lanzas *Animate Objects* usando tu espacio de nivel 9, lo que te permite animar **18 monedas de plata** (de tamaño *Tiny*). Al ser de plata, evaden la resistencia al daño físico no mágico que tienen la mayoría de monstruos de VD alto.
-* **Sinergia del Simulacro:** Como ambos conjuros requieren concentración, tu duplicado de *Simulacrum* (o tú) mantiene la concentración en **Crusader's Mantle** (hechizo de Paladín de nivel 3 obtenido vía *Magical Secrets*). Este conjuro añade $+1d4$ de daño radiante a todos los ataques con armas de criaturas amistosas dentro de un aura de 30 pies.
-* **Efecto:** Cada uno de los 18 ataques de slam de tus monedas de plata cuenta como ataque con arma y se beneficia del daño extra de *Crusader's Mantle*.
-
-🧮 Análisis Matemático de la Tempestad de Plata (Daño por Turno):
-
-* **Daño de Slam (18 monedas):** $18 \times (1d4 + 4 \text{ bludgeoning}) = 18 \times 6.5 = 117$ de daño medio.
-* **Bono de Crusader's Mantle:** $18 \times (1d4 \text{ radiant}) = 18 \times 2.5 = 45$ de daño medio.
-* **Daño Máximo Teórico (100% de impactos):** $117 \text{ bludgeoning} + 45 \text{ radiant} = 162$ de daño medio por asalto en tu Acción Adicional.
-* **Daño Promedio Real (55% de probabilidad de impacto contra CA 18):**
-    $$\text{Daño Medio Estimado} = 162 \times 0.55 = 89.1 \text{ de daño por asalto.}$$
-* **Con Ventaja (Foresight o Faerie Fire, ~80% de impacto):**
-    $$\text{Daño con Ventaja} = 162 \times 0.7975 = 129.2 \text{ de daño por asalto.}$$
-* **Con Parálisis (Hold Person/Monster, impactos críticos automáticos):**
-  * Cada golpe crítico duplica los dados a $2d4$ (slam) y $2d4$ (mantle):
-  * Daño por impacto crítico = $(2d4 + 4) + 2d4 = 5 + 4 + 5 = 14$ de daño medio.
-  * Daño esperado con ventaja por parálisis:
-        $$\text{Daño en Parálisis} = 18 \times 14 \times 0.7975 = 201 \text{ de daño medio por asalto.}$$
-
- 1. Bardic & Magical Secrets Blueprint
-
-* **Magical Secrets (Nivel 10 Bard / Nivel 12 Total):**
-  * *Counterspell:* Esencial para interrumpir conjuros enemigos clave.
-  * *Find Greater Steed:* Para invocar una montura celestial voladora (como un Pegaso o Grifo) que encaje con el sabor y la movilidad del build.
-* **Magical Secrets (Nivel 14 Bard / Nivel 16 Total):**
-  * *Simulacrum:* Te permite crear un duplicado de ti mismo que comparte tus estadísticas, ranuras y habilidades (incluyendo Smites y Floreos) para duplicar la potencia del grupo.
-  * *Crusader's Mantle* (o *Crown of Stars*): *Crusader's Mantle* es vital para activar el combo de la Tempestad de Plata junto a tu simulacro. Si prefieres daño monobjetivo sin concentración externa, *Crown of Stars* es la alternativa.
-* **Magical Secrets (Nivel 18 Bard / Nivel 20 Total):**
-  * *Wish:* El conjuro más versátil del juego para duplicar cualquier otro conjuro de nivel 8 o inferior de cualquier lista sin coste.
-  * *True Polymorph:* Para transformarte a ti mismo, a tu simulacro o a un aliado en un dragón o criatura de VD 20, o convertir objetos en aliados permanentes.
-
- 1. home rules
-(Calcula todas las mecánicas bajo las reglas vigentes en tu mesa, priorizando la sintonización unificada de focos si aplica para mantener libre la economía de manos con escudo).
+### Turno 1 (Enganche de Cólera)
+1. **Action:** Desplazarse volando y ejecutar 2 ataques de estoque con *Extra Attack*. Canalizar *Divine Smite* de nivel 4 ($5\text{d}8$) en ambos y activar *Defensive Flourish* ($+1\text{d}12$ a la CA).
+2. **Bonus Action:** Atacar con la *Scimitar of Speed* canalizando un tercer Smite, o bien ordenar a las 18 monedas de plata atacar ($89.1$ DPR).
+3. **CA resultante:** $36$ a $41$.
+4. **Reaction:** Mantener *Counterspell* listo para abortar conjuros de nivel 9 del enemigo.

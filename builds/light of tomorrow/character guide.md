@@ -1,148 +1,135 @@
-# Datos Generales
+# ☀️ Archivo Técnico: Light of Tomorrow — El Heraldo Solar
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+**Clasificación del Archivero:** 🔵 **Build Roto / META Dominante (Backline Divine Artillery & Dual-Target Master Healer)**  
+**Reglas:** D&D 5.ª Edición (2014 & 2024 Compatible)  
+**Nivel Total:** 20  
+**División de Clases:** Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2  
+**Especie:** Aasimar Protector (*Radiant Soul*, *Celestial Resistance*, *Healing Hands*)  
+**Trasfondo:** Acólito / Enviado Solar del Monte Celestia  
 
-Character Level: 20 (Total)
+---
 
-Class Split: Sorcerer (Divine Soul) 18 / Warlock (Hexblade) 2 (Variante v2.0 - Recomendada) o Sorcerer (Divine Soul) 17 / Warlock (Hexblade) 3 (Variante v1.0)
+## 📊 Estadísticas Base y Modificadores (Nivel 20)
 
-Species: Aasimar (Protector)
+| Característica | Puntuación | Modificador | Notas de Optimización |
+| :--- | :---: | :---: | :--- |
+| **Fuerza (STR)** | 8 | -1 | Dump stat táctico. |
+| **Destreza (DEX)** | 14 | +2 | Límite óptimo para aprovechar la Armadura Media (*Half-Plate*). |
+| **Constitución (CON)** | 16 | +3 | 15 base + 1 racial. Competencia en salvaciones por clase inicial de Hechicero. |
+| **Inteligencia (INT)** | 8 | -1 | Dump stat. |
+| **Sabiduría (WIS)** | 10 | +0 | Neutral para salvaciones de percepción y voluntad. |
+| **Carisma (CHA)** | 20 | +5 | 15 base + 2 racial + 2 ASIs (+1 adicional por Tomo si aplica). Primaria absoluta. |
 
-Stats:
+* **Puntos de Golpe (HP Base):** $8 + (17 \times 5) + (2 \times 5) + (20 \times 3) = \mathbf{163 \text{ HP Base}}$
+* **Clase de Armadura Pasiva (AC):** $15 \text{ (Half-Plate)} + 2 \text{ (DEX)} + 2 \text{ (Escudo Base)} = \mathbf{19 \text{ CA Pasiva}}$ (Con *Half-Plate +3* y *Shield +3*: $\mathbf{25 \text{ CA Pasiva}}$; con conjuro *Shield*: $\mathbf{30 \text{ CA Reactiva}}$).
+* **Salvaciones con Competencia:** Constitución ($+9$), Carisma ($+11$).
 
-* **FUER (STR):** 8
-* **DES (DEX):** 14 (Máximo para optimizar la Armadura Media)
-* **CON:** 16 (15 base + 1 racial)
-* **INT:** 8
-* **SAB (WIS):** 10
-* **CAR (CHA):** 20 (15 base + 2 racial + 2 ASIs)
+---
 
-Actual Item List: (No especificado en el origen, pero optimizado para usar una Armadura Media, un Escudo y la *Scimitar of Speed* o un *Foco Arcano*).
+## 🔗 Navegación y Registros del Sagrario Solar
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+* **Inventario Actual y Equipo:** [actual inventory list.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/light%20of%20tomorrow/actual%20inventory%20list.md)
+* **Bastión de la Llama Inmortal:** [bastion and downtime.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/light%20of%20tomorrow/bastion%20and%20downtime.md)
+* **Grimorio Sagrado y Matriz de Conjuros:** [spell list.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/light%20of%20tomorrow/spell%20list.md)
+* **Arsenal y Adquisiciones Tácticas:** [item list to obtain.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/light%20of%20tomorrow/item%20list%20to%20obtain.md)
+* **Hoja de Ruta (Niveles 1-20):** [roadmap.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/light%20of%20tomorrow/roadmap.md)
+* **Manual de Conversión 2024:** [character guide 2024.md](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/light%20of%20tomorrow/character%20guide%202024.md)
 
-Roadmap de Progresión: ./roadmap.md
+---
 
-Combat Role: Backline Blaster / Primary Healer / Ultimate Support Hybrid (La "Ametralladora" de Eldritch Blast combinada con curación de alto impacto).
+## 🧮 Motor Matemático del Archivero (LaTeX Math Engine)
 
- 1. Gestión de Recursos y Reglas de Inventario
+### 1. Desglose de Daño por Rayo (Eldritch Blast con Todas las Marcas)
+Al concentrar *Agonizing Blast* ($+5$ CAR), *Hex* ($+1\text{d}6$ necrótico) y *Hexblade's Curse* ($+6$ bono de competencia):
 
-* **Economía de Ranuras de Pacto a Puntos de Sorcería:**
-  * Como Warlock de Nivel 3, tienes **2 ranuras de conjuro de 2.º nivel** que se recuperan con un descanso corto.
-  * Puedes convertir estas ranuras de Warlock en **4 Puntos de Sorcería** en total (2 puntos por ranura de 2.º nivel) antes de realizar un descanso corto (técnica de *Coffeelock/Cocainelock* o simplemente gestión eficiente de recursos en descansos cortos).
-* **Pacto del Tomo y Utilidad de Rituales:**
-  * **Pact of the Tome (Nivel 3 Warlock):** Otorga 3 trucos adicionales de cualquier lista de conjuros.
-* **Book of Ancient Secrets (Invocación):** Permite aprender y lanzar cualquier conjuro con la etiqueta ritual en el juego (de cualquier clase), como *Find Familiar*, *Detect Magic*, *Identify* y *Leomund's Tiny Hut*. Esto convierte al personaje en un centro de utilidad fuera de combate.
-* **Defensa y Foco:**
-  * Acceso a Armadura Media (Half-Plate) y Escudo gracias al Hexblade, alcanzando un AC base de $15 + 2 \text{ (DEX)} + 2 \text{ (Escudo)} = 19$.
-  * Uso del conjuro *Shield* (Warlock) para subir a $24 \text{ AC}$ temporalmente.
+$$\text{Daño Base por Rayo} = 1\text{d}10 + 5 + 1\text{d}6 + 6 = 5.5 + 5 + 3.5 + 6 = \mathbf{20.0 \text{ Daño Medio}}$$
 
- 1. Action Economy & Combat Loop
+### 2. Probabilidad de Impacto Crítico (Rango 19-20 con Ventaja Aérea)
+Volando a 30 pies con *Radiant Soul* o bajo *Greater Invisibility*, disponiendo de ventaja en tiradas de ataque con rango de crítico 19-20 ($p_c = 0.10$):
 
-* **Action:**
-  * **Turno 1:** Aplicar *Hexblade's Curse* (Acción Adicional) y lanzar *Eldritch Blast* (Acción, 4 rayos) o un conjuro de control.
-  * **Turnos 2+:** Lanzar *Eldritch Blast* (Acción, 4 rayos) y usar Metamagia (*Quickened Spell*) para lanzar *Eldritch Blast* otra vez (Acción Adicional, 4 rayos), disparando un total de **8 rayos por turno**.
-* **Bonus Action:**
-  * **Metamagia Quickened:** Lanzar *Eldritch Blast* como acción adicional.
-  * **Hex / Hexblade's Curse:** Mover o aplicar marcas de daño.
-  * **Healing Word:** Curación de emergencia para revivir aliados caídos a distancia.
-* **Reaction:**
-  * *Counterspell* para denegar magia enemiga.
-  * *Shield* / *Absorb Elements* para defensa personal.
+$$\mathbb{P}(\text{Crítico por Rayo}) = 1 - (1 - 0.10)^2 = 1 - 0.81 = \mathbf{0.19} \quad (19.00\%)$$
 
- 1. The META Combo: The Eldritch Blast Minigun (Turno 2+)
+En una salva Nova de **8 rayos de *Eldritch Blast*** (Acción estándar + Acción Adicional acelerada vía *Quickened Spell*):
 
-El combo combina los modificadores de daño acumulativos de *Agonizing Blast*, *Hex*, *Hexblade's Curse* y la habilidad racial *Radiant Soul* del Protector Aasimar para concentrar un daño masivo en un solo objetivo.
+$$\mathbb{E}[\text{Críticos en Asalto Nova}] = 8 \times 0.19 = \mathbf{1.52 \text{ Impactos Críticos por Asalto}}$$
 
-* **Invocación Clave:** *Agonizing Blast* (Suma $+5$ de CAR al daño de cada rayo).
-* **Marca 1:** *Hex* (Suma $+1d6$ de daño necrótico por impacto).
-* **Marca 2:** *Hexblade's Curse* (Suma el bono de competencia, $+6$ a nivel 20, al daño de cada impacto. Además, los ataques tienen crítico con 19 y 20).
-* **Habilidad Racial:** *Radiant Soul* (Una vez por turno, al golpear, suma tu nivel total, $+20$, como daño radiante adicional).
+### 3. Ciclo Ofensivo Nova: Salva Solar de 8 Rayos + *Radiant Soul*
+Al alcanzar nivel 20, la habilidad racial *Radiant Soul* añade un bono plano igual a tu nivel total ($\mathbf{+20 \text{ Daño Radiante}}$) una vez por turno al impactar a un objetivo:
 
-🧮 Mathematical Engine (A Nivel 20):
+$$\text{Daño Base 8 Rayos} = 8 \times 20.0 = 160.0$$
+$$\text{Aporte Radiant Soul} = +20.0$$
+$$\text{Extra por Críticos Esperados} = 1.52 \times (1\text{d}10 + 1\text{d}6) = 1.52 \times 9.0 = 13.68$$
+$$\text{DPR Nova Solar} = 160.0 + 20.0 + 13.68 = \mathbf{193.68 \text{ Daño Monotarget / Asalto}}$$
 
-* **Daño de un solo rayo de Eldritch Blast con todas las marcas aplicadas:**
-    $$1d10 \text{ (fuerza)} + 5 \text{ (CAR)} + 1d6 \text{ (necrótico)} + 6 \text{ (Curse)} = 1d10 + 1d6 + 11 \text{ de daño.}$$
-  * *Daño Medio por Rayo:* $5.5 + 3.5 + 11 = 20 \text{ de daño.}$
+### 4. Eficiencia de Curación Divina Duplicada (Twinned Heal)
+Gracias a la metamagia *Twinned Spell* aplicada a conjuros de la lista de Clérigo vía *Divine Soul*:
+* Se gastan 6 Puntos de Hechicería para duplicar el conjuro *Heal* (Nivel 6).
+* Cada objetivo recibe **70 Puntos de Golpe fijos**, sin tiradas de dados ni varianza aleatoria, y queda limpio de cegueras y sorderas.
 
-* **Turno "Nova" completo (Acción + Acción Adicional Quickened = 8 Rayos):**
-  * 8 rayos impactando al mismo objetivo:
-        $$8 \times 20 = 160 \text{ de daño medio.}$$
-  * Aplicación de *Radiant Soul* (Una vez por turno):
-        $$160 + 20 \text{ (nivel)} = 180 \text{ de daño medio total.}$$
-  * **Críticos:** Al realizar 8 ataques con una probabilidad de crítico ampliada al 10% (19-20), hay una alta probabilidad de duplicar los dados de daño de varios rayos ($2d10 + 2d6 + 11$).
+$$\text{Curación Neta Instantánea} = 70 + 70 = \mathbf{140.0 \text{ Puntos de Vida Netos Restaurados}}$$
 
- 1. Healing & Divine Metamagic Blueprint
+### 5. Puntos de Golpe Efectivos (EHP Defensivo)
+* **HP Base:** $163$
+* **CA Pasiva Base:** $25$ (Half-Plate +3 + Shield +3).
+* **CA Reactiva con *Shield*:** $30 \text{ CA}$.
+* **Probabilidad de Impacto Enemigo:** Contra un jefe de desafío 20 con $+14$ a impactar:
 
-Gracias al origen de **Divine Soul**, el personaje tiene acceso a toda la lista de conjuros del Clérigo, lo que permite duplicar el valor de curaciones y soportes utilizando Metamagia.
+$$\mathbb{P}(\text{Impacto Hostil contra CA 30}) = \frac{21 - 16}{20} = \frac{5}{20} = \mathbf{0.25} \quad (25.0\%)$$
 
-* **Twinned Heal (Nivel 6):**
-  * Gasta 6 Puntos de Sorcería para duplicar el conjuro *Heal* de 6.º nivel.
-  * Cura **70 puntos de vida fijos** a **dos aliados distintos simultáneamente** (140 de curación total sin tiradas de dados).
-* **Twinned Death Ward (Nivel 4) / Greater Invisibility (Nivel 4):**
-  * Protege o invisibiliza a dos aliados a la vez con un solo casteo.
-* **Spiritual Weapon (Nivel 2):**
-  * Permite un ataque adicional consistente usando la acción adicional sin consumir puntos de sorcería en turnos donde no se requiera curar o ametrallar.
+$$\text{EHP Pasivo sin Curación} = \frac{163}{0.25} = \mathbf{652.0 \text{ EHP Físico}}$$
 
- 1. Spell list
+Con *Favored by the Gods* (añade $+2\text{d}4$ a una salvación fallida), resistencia a daño Radiante y Necrótico nativa, y *Twinned Heal* (140 HP), el EHP real en combate prolongado supera los **2,200 EHP**.
 
-### Warlock Spells (Hexblade - Max Nivel 2)
+---
 
-* Cantrip: *Eldritch Blast*
-* Cantrip: *Minor Illusion*
-* Nivel 1: *Shield* (Defensa reactiva)
-* Nivel 1: *Hex* (Daño adicional)
-* Nivel 2: *Misty Step* (Movilidad)
-* Rituales del Tomo (Book of Ancient Secrets): *Find Familiar*, *Detect Magic*, *Identify*, *Leomund's Tiny Hut*.
+## ⚔️ Bucle Táctico y Economía de Acciones (Action Loop)
 
-### Sorcerer Spells (Divine Soul - Hasta Nivel 9)
+```
+        [Ronda 0: Pre-Buff de Campaña]
+     Death Ward (Duplicado vía Twinned Spell sobre Conductor y Paladín)
+     Aid (Nivel 7: +30 Max HP a 3 aliados)
+                    │
+                    ▼
+       [Ronda 1: Activación y Posicionamiento]
+   Bonus Action: Hexblade's Curse o Hex sobre el objetivo primordial
+   Acción: Activar Radiant Soul (alas de luz, vuelo 30 ft, +20 daño) o Eldritch Blast (4 rayos)
+   Movimiento: Ascenso vertical a 30 pies para eludir ataques cuerpo a cuerpo
+                    │
+                    ▼
+     [Ronda 2: Descarga Ametralladora Nova]
+   Acción: Eldritch Blast (4 rayos)
+   Bonus Action: Quickened Eldritch Blast (4 rayos, gasta 2 SP)
+   Aporte: +20 daño radiante plano de Radiant Soul en el primer impacto
+   Daño: 193.68 Daño total concentrado
+                    │
+                    ▼
+     [Ronda de Rescate: Emergencia Sanitaria]
+   Acción: Twinned Heal (cura 70 HP a dos aliados distintos a 60 ft)
+   Bonus Action: Spiritual Weapon o Healing Word
+   Reacción: Shield (+5 CA = CA 30) o Counterspell
+```
 
-#### Trucos (Cantrips)
+* **Acción (Action):** *Eldritch Blast* (4 rayos de fuerza) o conjuros de impacto masivo (*Holy Aura*, *Fireball*, *Synaptic Static*, *Twinned Heal*).
+* **Acción Adicional (Bonus Action):** *Quickened Eldritch Blast* (4 rayos extra), *Hex*, *Hexblade's Curse*, o *Healing Word* (rescate rápido a 60 pies).
+* **Reacción (Reaction):** *Shield* (+5 CA hasta CA 30), *Absorb Elements* (resistencia elemental inmediata) o *Counterspell* (interrupción arcana a 60 pies).
 
-* *Guidance* (Clérigo - Utilidad constante)
-* *Light*
-* *Message*
-* *Prestidigitation*
-* *Vicious Mockery*
+---
 
-#### Nivel 1 (Nivel 1)
+## 🏷️ Matriz de Evaluación Táctica del Archivero
 
-* *Healing Word* (Clérigo - Revivir aliados caídos)
-* *Absorb Elements* (Defensa elemental)
+| Capacidad Táctica | Nivel | Justificación del Archivero |
+| :--- | :---: | :--- |
+| **Daño Monotarget Nova** | 🔵 | 193.68 DPR concentrado a distancia con daño de Fuerza y Radiante. |
+| **Curación de Choque / Rescate** | 🔵 | *Twinned Heal* restaura 140 HP fijos sin dados; acceso a *Wish* y *Mass Heal*. |
+| **Movilidad Táctica Tridimensional** | 🟢 | Vuelo aéreo pasivo durante *Radiant Soul* y teletransporte con *Misty Step*. |
+| **Resiliencia Defensiva (EHP)** | 🔵 | CA pasiva 25, CA reactiva 30, *Favored by the Gods* y resistencias raciales. |
+| **Sostenibilidad de Recursos** | 🔵 | Reciclaje de ranuras cortas de Warlock en Puntos de Hechicería (*Coffeelock* táctico). |
+| **Control y Buffs Colectivos** | 🟢 | *Holy Aura* (ventaja en salvaciones y desventaja en ataques hostiles para todo el grupo). |
 
-#### Nivel 2 (Nivel 2)
+---
 
-* *Aid* (Clérigo - Aumento de HP máximo)
-* *Spiritual Weapon* (Clérigo - Daño continuo de acción adicional)
+## 📜 Reglas de Casa (House Rules) y Ajustes de Mesa
 
-#### Nivel 3 (Nivel 3)
-
-* *Revivify* (Clérigo - Resurrección)
-* *Counterspell* (Denegación)
-* *Haste* (Soporte ofensivo)
-
-#### Nivel 4 (Nivel 4)
-
-* *Death Ward* (Clérigo - Prevención de muerte)
-* *Banishment* (Control de masas)
-
-#### Nivel 5 (Nivel 5)
-
-* *Greater Restoration* (Clérigo - Limpieza de estados)
-* *Synaptic Static* (Daño en área y debuff)
-
-#### Nivel 6 (Nivel 6)
-
-* *Heal* (Clérigo - Curación masiva de 70 HP)
-
-#### Nivel 7 (Nivel 7)
-
-* *Conjure Celestial* (Clérigo - Invocación potente)
-
-#### Nivel 8 (Nivel 8)
-
-* *Holy Aura* (Clérigo - Búfalo defensivo del grupo)
-
-#### Nivel 9 (Nivel 9)
-
-* *Wish* (Flexibilidad máxima)
+1. **Foco Arcano y Sagrado Unificado:** El amuleto solar bendecido funciona como foco arcano de Hechicero y foco sagrado de Clérigo simultáneamente.
+2. **Sinergia de Twinned Spell con Conjuros de Clérigo:** Cumple estrictamente las reglas oficiales: cualquier conjuro que seleccione un único objetivo y no tenga rango personal puede duplicarse gastando Puntos de Hechicería iguales a su nivel (*Heal*, *Death Ward*, *Greater Invisibility*, *Guiding Bolt*).
+3. **Conversión de Ranuras Cortas:** Las 2 ranuras de nivel 1 de Warlock se transforman en 2 Puntos de Sorcería antes de cada Descanso Corto, recargándose al 100% tras 1 hora de descanso.

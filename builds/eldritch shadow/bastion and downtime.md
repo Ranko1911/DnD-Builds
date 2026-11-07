@@ -1,133 +1,91 @@
 # 🏰 Bastión y Tiempo Muerto — Eldritch Shadow
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
-
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
-
-* **Nombre del Bastión:** La Torre Umbra — una torre de observación en ruinas reconvertida en fortaleza, parcialmente cubierta de hiedra negra que no crece de forma natural.
-* **Nivel de Bastión (Bastion Level):** Igual al nivel de personaje
-* **Puntos de Bastion (Bastion Points - BP):** 20 *(se regeneran según las reglas 2024: igual al Bastion Level por Bastion Turn)*
-* **Puntuación de Mando (Bastion Defender Stats):** STR 10, DEX 16, CON 16, INT 14, WIS 12, CHA 8
-
-### Instalaciones Básicas (Basic Facilities)
-
-*Gratuitas, sin requisitos de nivel. Se controlan durante el Bastion Turn.*
-
-1. **Dormitorio (Bedchambers):** Cámara principal en el piso más alto de la torre. Ventanas bloqueadas con cortinajes pesados para mantener oscuridad durante el día (favorece el descanso en roles de guardia nocturna). Capacidad para 2 personas.
-2. **Comedor (Dining Hall):** Sala en planta baja con mesa de roble negro y 8 asientos. Suministros para 2 semanas a capacidad completa. Doble ración estipulada para los guardias del turno de noche.
-3. **Espacio Común (Common Room):** Sala de guardia reconvertida en salón de estrategia con mapa táctico permanente sobre la pared norte y rúnas de protección grabadas en el suelo.
-
-### Instalaciones Especiales (Special Facilities)
-
-*Desbloqueadas por nivel. Máximo de instalaciones especiales = Bastion Level / 5 (redondeado arriba). Indicar si están activas (Maintain), construyéndose (Build) o paradas (Paused).*
-
-* **Estudio Arcano (Arcane Study) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Transcripción y Análisis Arcano.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Permite fabricar y copiar pergaminos arcanos clave (*Shield*, *Shadow Blade*, *Absorb Elements*) a coste y tiempo reducidos.
-* **Armería (Armory) (Nivel 5):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Fabricación y Mejora Táctica.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Fabricación de cuero tachonado mejorado, dagas finas y mantenimiento de equipo de infiltración.
-* **Scriptorium (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Copiado de Registros e Infiltración.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Duplica la velocidad de transcripción de tomos arcanos y mapas tácticos de misiones.
-* **Campos de Entrenamiento (Training Grounds) (Nivel 9):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Instrucción de Combate y Sigilo.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Entrenamiento intensivo en maniobras de Eldritch Knight y técnicas de sigilo de Arcane Trickster.
-* **Cámara de Meditación (Meditation Chamber) (Nivel 13):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Enfoque Sombrío.
-  * *Sinergia con el Build:* 🟢 **Excelente**. Otorga ventaja en salvaciones de Inteligencia y Sabiduría para resistir encantos y mantener la concentración.
-* **Demiplano (Demiplane) (Nivel 17):**
-  * *Estado:* Activa (Mantener)
-  * *Orden de Bastión Especial:* Refugio Extrapolar de Sombras.
-  * *Sinergia con el Build:* 🔵 **Roto/Indispensable**. Dominio privado en el Plano de la Sombra que otorga 100 PG temporales tras un descanso largo y refugio inexpugnable.
-
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Mira Croft — ex-ladrona reconvertida en administradora. Conoce 3 idiomas y lleva las cuentas del bastión.
-* **Defensores / Guardias:** 6 guardias veteranos (CA 14, Ataque +4, 52 PG cada uno), entrenados por el personaje.
-* **Artesanos / Especialistas:** Vendric el Herrero (Herramientas de Herrero +5, especializado en cuero tachonado) + Alia la Escriba (Herramientas de Caligrafía +4, copia conjuros a coste reducido).
+**Build:** Eldritch Shadow (El Caballero Umbrío Definitivo)  
+**Sistema:** D&D 2024 / 5.5e DMG Bastion Rules  
+**Nivel de Bastión:** 20  
+**Nombre del Bastión:** *The Umbral Citadel & Shadow Spire* (La Ciudadela Umbría y Espira de las Sombras)  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/character%20guide%202024.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/eldritch%20shadow/actual%20inventory%20list.md)
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Estadísticas Defensivas del Bastión
 
-*Acciones prioritarias y bucles de juego optimizados fuera de la aventura.*
-
-### Prioridad 1: Estudio Arcano — Aprender Nuevos Conjuros de EK
-
-* **Mecánica Base:** DMG 2014 (Downtime: Research + Scribing spells). El personaje puede aprender conjuros fuera de lista (con permiso del DM) mediante investigación arcana.
-* **Bonificadores Aplicables:** +4 INT (modificador) + Competencia en Arcana (PB) = +8 al check de investigación. El Scriptorium reduce el coste en tiempo un 25%.
-* **Coste por Día/Semana:** 50 po / 10 días de trabajo por conjuro de nivel 2; 100 po / 14 días por nivel 3.
-* **Objetivo de Optimización:** Prioridad — *Greater Invisibility* (nivel 4) y *Haste* (nivel 3, pese a conflicto de concentración con Shadow Blade, útil como switch táctico).
-
-### Prioridad 2: Entrenamiento Marcial — Mejorar Habilidades no Combat
-
-* **Mecánica Base:** Xanathar's Guide — Downtime: Practicing a Profession / Training a Tool.
-* **Bonificadores Aplicables:** PB + DEX para Acrobacia; PB + WIS para Percepción.
-* **Progreso Actual:** 4 / 8 semanas de entrenamiento en Herramientas de Ladrón (para escenarios de infiltración que se alinean con el tema del personaje).
+* **Bonificador de Mando y Defensa:** $\mathbf{+11}$ ($\text{PB } +6 + \text{DEX } +5$).
+* **Puntos de Bastión (BP):** 20 BP por Turno de Bastión (regeneración según nivel 20).
+* **Guarnición Activa:**
+  * 16 Caballeros Umbríos de Vanguardia (guerreros arcanos equipados con escudos y armaduras oscurecidas).
+  * 6 Escribas y Artífices de runas abjurativas.
+  * 2 Gárgolas de Obsidiana vinculadas a las almenas.
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+## 🏗️ Instalaciones Básicas (Basic Facilities)
 
-*Capacidades físicas, monturas y métodos de transporte táctico/estratégico.*
-
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 30 pies (ft.)
-* **Trepar (Climb):** 15 ft. *(sin velocidad nativa; coste doble de movimiento)*
-* **Nadar (Swim):** 15 ft. *(sin velocidad nativa; coste doble de movimiento)*
-* **Volar (Fly):** — *(No disponible sin objetos o conjuros. Haste o Fly como posible upgrades de conjuros)*
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Sigiloso — el build está optimizado para el sigilo y la emboscada (DEX 20 → Sigilo +9 con Experto o Competencia)
-* **Visión en la Oscuridad (Darkvision):** 60 ft. (con Goggles of Night). Sin los goggles: ninguna.
-* **Habilidades de Exploración:** Competencia en Percepción y Sigilo. Familiar (Búho) para exploración aérea y detección de trampas a distancia segura.
-
-### Logística de Transporte y Monturas
-
-* **Montura Activa:** Ninguna permanente. El personaje prefiere moverse a pie en misiones de sigilo.
-* **Vehículos / Vehículos de Carga:** Carro de viaje del Bastión (transporte de material, no táctico).
-* **Capacidad de Carga Absoluta:** 150 lbs. (STR 10 × 15) / Peso actual transportado: ≈ 35 lbs. (armadura ligera + equipo de aventurero).
+1. **Dormitorio de la Cúspide (Bedchambers):** Aposento en el pináculo de la torre con cortinajes de terciopelo negro opaco para mantener penumbra permanente y favorecer el descanso nocturno.
+2. **Comedor de la Guardia Negra (Dining Hall):** Mesa de piedra pulida con candelabros de fuego azulado; capacidad para alimentar a la guarnición completa.
+3. **Pabellón de Estrategia Táctica (Common Room):** Sala de mapas tridimensionales y simulaciones bélicas para el despliegue de las fuerzas del Bastión.
+4. **Bóveda Acorazada de Reliquias (Storage):** Depósito subterráneo protegido por runas de alarma y cerraduras arcanas.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🧪 Instalaciones Especiales (Special Facilities: 4 Roomy + 2 Vast)
 
-*Recursos sociales e influencia política en el mundo de juego.*
+Conforme a las reglas oficiales del DMG 2024 a nivel 20, la fortaleza dispone exactamente de 6 Instalaciones Especiales (4 Roomy y 2 Vast):
 
-### Facciones Activas
+### 1. [Roomy] Arcane Study (Estudio Arcano de la Espira)
+* **Función:** Investigación de conjuros de abjuración y evocación para la lista de Eldritch Knight.
+* **Orden de Bastión:** *Research / Scribe*. Permite transcribir y sintetizar pergaminos de *Shield*, *Absorb Elements* y *Misty Step* a mitad del tiempo y coste habitual.
 
-1. **Harpers (o equivalente de inteligencia de la campaña):**
-    * *Rango / Título:* Agente Independiente
-    * *Reputación / Favor:* Aliado — 3 favores previos reconocidos
-    * *Beneficio Mecánico:* Acceso a red de informantes en ciudades principales. Pueden proporcionar información sobre objetivo antes del combate (Inteligencia táctica previa a encuentros).
-2. **Mercado Negro Arcano (ciudad principal):**
-    * *Rango / Título:* Cliente de confianza
-    * *Reputación / Favor:* Neutral/Positivo — conoce al proveedor principal
-    * *Beneficio Mecánico:* Acceso a objetos mágicos raros sin necesidad de subasta (precio base, sin mark-up de 50%).
+### 2. [Roomy] Armory (Armería de Acero Oscuro)
+* **Función:** Forja y templado de placas de acero negro, escudos antimagia y hojas equilibradas para combate fino.
+* **Orden de Bastión:** *Craft / Maintain*. Concede a los defensores un bonificador pasivo de $+1$ a la CA de sus armaduras durante 7 días.
 
-### Red de Contactos (Contacts & Informants)
+### 3. [Roomy] Scriptorium (Scriptorium de Runas de Ocultación)
+* **Función:** Elaboración sistemática de diagramas de protección arcana y copiado de pergaminos de nivel 1 a 3.
+* **Orden de Bastión:** *Scribe*. Elabora pergaminos defensivos para abastecer al personaje en combate prolongado.
 
-* **"El Corredor" (Ciudad Capital):** Informante de bajo perfil que rastrea movimientos de magia oscura y cargamentos de objetos mágicos. Puede avisar de llegadas de objetos de Tier 3 al mercado.
-* **Mira Croft (La Torre Umbra):** Administradora del Bastión. Puede realizar checks de Engaño o Perspicacia en nombre del personaje cuando está ausente (como proxy social).
+### 4. [Roomy] Meditation Chamber / Reliquary (Cámara de Concentración Umbría)
+* **Función:** Sala insonorizada rodeada de cuarzo ahumado para adiestrar la mente contra distracciones.
+* **Orden de Bastión:** *Empower*. Otorga al personaje ventaja en tiradas de salvación de Inteligencia y Sabiduría durante 7 días tras completar una meditación de descanso largo.
+
+### 5. [Vast] Training Area (Patios de Esgrima Arcana de la Guarnición)
+* **Función:** Pistas de combate equipadas con autómatas de entrenamiento para perfeccionar la combinación de magia y acero (*War Magic*).
+* **Orden de Bastión:** *Train*. Otorga al personaje y a la guarnición un bonificador de $+2$ a las tiradas de ataque cuerpo a cuerpo y $+2$ a la iniciativa durante 7 días.
+
+### 6. [Vast] Demiplane (Dominio Extradimensional de las Sombras)
+* **Función:** Bolsillo planar conectado con el Páramo Sombrío (Shadowfell) donde la luz es absorbida perpetuamente.
+* **Orden de Bastión:** *Sanctuary*. Concede al personaje $100\text{ PG}$ temporales tras completar un descanso largo en su interior y asegura ventaja incondicional en todas las tiradas de *Shadow Blade* libradas dentro de sus límites.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## 🔄 Flujograma de Turno de Bastión (Weekly Bastion Turn)
 
-*Habilidades constantes que afectan a la interacción y la exploración del entorno.*
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión] --> B[Generar 20 BP]
+    B --> C[Armory: Reforzar escudos y armaduras de la guarnición]
+    C --> D[Scriptorium: Elaborar 4x Pergaminos de Shield y Absorb Elements]
+    D --> E[Meditation Chamber: Activar Ventaja en salvaciones mentales]
+    E --> F[Training Area: Conceder +2 al ataque cuerpo a cuerpo e iniciativa]
+    F --> G[Demiplane: Recargar 100 PG Temporales tras Descanso Largo]
+    G --> H{¿Ataque o Asedio Hostil?}
+    H -- Sí --> I[Defensa con Bonificador +11 y Caballeros Umbríos]
+    H -- No --> J[Fin del Turno: Ciudadela Blindada y Arsenal Listo]
+```
 
-* **Percepción Pasiva (Passive Perception):** 15 (10 + 1 WIS + 4 PB con Competencia) / 11 sin Competencia
-* **Investigación Pasiva (Passive Investigation):** 14 (10 + 4 INT)
-* **Perspicacia Pasiva (Passive Insight):** 11 (10 + 1 WIS) *(sin Competencia en Insight por defecto)*
-* **Idiomas Conocidos:** Común, Abismal *(temático con la naturaleza oscura del Shadow Blade y el acceso a magia psíquica)*, + 1 idioma adicional de trasfondo
-* **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Herrero (+4), Herramientas de Ladrón (en entrenamiento)
-* **Sinergias Fuera de Combate:** El Familiar (Búho) proporciona ventaja en checks de Percepción pasiva por la noche; la mecánica de "Familiar compartiendo sentidos" permite reconocimiento de zona sin exposición personal del PC.
+---
+
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
+
+### Prioridad 1: Scribing Scrolls (Elaboración Masiva de Pergaminos de Shield)
+* **Mecánica:** Transcripción de pergaminos de *Shield* y *Absorb Elements* a 25 PO la unidad en el *Arcane Study*.
+* **Objetivo:** Disponer de una reserva de 20 pergaminos para preservar las ranuras de conjuros propias para *Shadow Blade*.
+
+### Prioridad 2: Entrenamiento de Esgrima Táctica
+* **Acción:** Ejercicios de bloqueo y respuesta con *Sentinel* en el *Training Area*. Perfeccionamiento del bucle de ataque de oportunidad con *Booming Blade*.

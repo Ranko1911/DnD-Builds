@@ -1,120 +1,112 @@
 # 🏰 Bastión y Tiempo Muerto — Furry Fury
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
+## 🏰 Sistema de Bastiones (Reglas Oficiales DMG 2024 / D&D 5.5e)
 
-- **Nombre del Bastión:** La Taberna de la Garra (The Claw Tavern)
-- **Nivel de Bastión (Bastion Level):** 20
-- **Puntos de Bastion (Bastion Points - BP):** 120
-- **Puntuación de Mando (Bastion Defender Stats):** STR 8, DEX 20, CON 14, INT 8, WIS 10, CHA 16
+*Estructura de gestión de la base de operaciones, economía de bastión y mecánicas de mando.*
+
+* **Nombre del Bastión:** La Taberna de la Garra (The Claw Tavern & Spire)
+* **Nivel de Bastión (Bastion Level):** 20
+* **Puntos de Bastión (Bastion Points - BP):** 120
+* **Puntuación de Mando (Bastion Defender Stats):** +11 al ataque y salvaciones defensivas (STR 8 [-1], DEX 20 [+5], CON 16 [+3], INT 8 [-1], WIS 10 [+0], CHA 18 [+4]).
+
+---
 
 ### Instalaciones Básicas (Basic Facilities)
 
-1. **Dormitorio (Bedchambers):** Una habitación espaciosa con una cama de pieles enorme y trofeos de monstruos cazados en las paredes.
-2. **Comedor (Dining Hall):** Un gran salón rústico con jarras de hidromiel y chimeneas de piedra.
-3. **Espacio Común (Common Room):** Un salón lleno de mesas donde músicos locales tocan y mercenarios beben.
+1. **Dormitorio Principal (Bedchambers):** Gran estancia decorada con pieles de osos polares, astas de monstruos y un perchero blindado para estoques y laúdes de concierto.
+2. **Gran Salón y Asador (Dining Hall):** Salón rústico con tres grandes chimeneas de piedra volcánica donde se sirven banquetes diarios de jabalí y cerveza enana.
+3. **Sala Común de Juglares (Common Area):** Espacio central con mesas redondas donde bardos locales, mercenarios y acróbatas intercambian historias y melodías.
 
-### Instalaciones Especiales (Special Facilities)
+---
 
-- **Teatro / Salón de Espectáculos (Nivel 5):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Perform / Gather Income (Organizar representaciones o recitales que atraen clientela noble y generan fondos).
-  - _Sinergia con el Build:_ Representa tu faceta de Bardo de Valor. Otorga influencia social y una fuente de ingresos regular.
-- **Armería (Armory) (Nivel 5):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Maintain (Mantenimiento de armas y armaduras para tus seguidores).
-  - _Sinergia con el Build:_ Como Bardo de Valor, esta instalación asegura que tu contingente de bugbears esté excelentemente equipado para el combate.
-- **Casino / Casa de Apuestas (Nivel 9):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Gamble / Gather Intel (Recibir apuestas y recolectar rumores o secretos de viajeros borradores).
-  - _Sinergia con el Build:_ Excelente para recopilar pistas sobre mazmorras ricas y tesoros exóticos sin salir de tu bastión.
-- **Escribanía (Scriptorium) (Nivel 9):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Scribe (Copiar partituras musicales, baladas heroicas y pergaminos de conjuros).
-  - _Sinergia con el Build:_ Como Bardo 19, te permite transcribir tus cantos mágicos y pergaminos a coste y tiempo reducidos.
-- **Área de Entrenamiento (Training Area) (Nivel 13):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Train (Adiestrar reclutas y pulir habilidades de combate táctico).
-  - _Sinergia con el Build:_ Permite entrenar a tus guardaespaldas bugbears en maniobras avanzadas y canciones de combate de la escuela de Valor.
-- **Gremio de Espectáculos (Guildhall) (Nivel 17):**
-  - _Estado:_ Activo
-  - _Orden de Bastión Especial:_ Trade / Influence (Dirigir una cofradía de bardos y artistas para influir en las cortes).
-  - _Sinergia con el Build:_ Requiere pericia en una habilidad (la cual tienes). Extiende tu influencia social y comercial por todo el reino.
+### Instalaciones Especiales (Special Facilities — Exactamente 6: 4 Roomy + 2 Vast)
 
-### Seguidores y Personal (Staff & Hirelings)
+```mermaid
+flowchart TD
+    subgraph BastionTurn ["Ciclo de Turno de Bastión (Cada 7 Días)"]
+        A["Emisión de Órdenes Semanales"] --> B["Teatro: Representación y Recaudación de Fondos"]
+        A --> C["Armería: Forja y Afilado de Armas Finesse"]
+        A --> D["Casino: Apuestas e Inteligencia Secreta"]
+        A --> E["Escribanía: Transcripción de Pergaminos Arcanos"]
+        A --> F["Área de Entrenamiento: Acondicionamiento de 10 Pies"]
+        A --> G["Gremio de Artistas: Influencia Política y Alianzas"]
+        B & C & D & E & F & G --> H["Consolidación de BP e Ingresos de Oro"]
+        H --> I["Resolución de Incidentes y Mantenimiento"]
+    end
+```
 
-- **Administrador (Major Domo):** Krog, un semiorco tabernero y viejo amigo de aventuras.
-- **Defensores:** 10 guardaespaldas bugbears y mercenarios rudos contratados para mantener el orden.
-- **Especialistas:** Un bardo residente que gestiona el teatro y un crupier experimentado para el casino.
+#### 1. Teatro y Salón de Espectáculos (Theater — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activo (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Perform (Actuar e Inspirar)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Centro neurálgico del Bardo de Valor. Atrae a aristócratas y aventureros acaudalados, generando un ingreso neto semanal de $1\text{d}10 \times 20$ po y otorgando inspiración previa a las incursiones.
+
+#### 2. Armería de Precisión (Armory — Roomy, Desbloqueo Nivel 5)
+* **Estado:** Activo (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Equip (Equipar a la Guardia)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Asegura el mantenimiento perfecto de estoques, cimitarras y armaduras medias de la guarnición de bugbears. Eleva la defensa del bastión en +4 contra intrusiones.
+
+#### 3. Casino y Salón de Apuestas (Gaming Hall — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activo (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Gamble & Gather Intel (Juego e Inteligencia)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Recopila rumores críticos sobre criptas y santuarios arcanos de labios de viajeros ebrios, reportando datos estratégicos para expediciones.
+
+#### 4. Escribanía de Canciones y Pergaminos (Scriptorium — Roomy, Desbloqueo Nivel 9)
+* **Estado:** Activo (Mantener)
+* **Tamaño:** Roomy (Espaciosa)
+* **Orden de Bastión:** *Scribe (Transcribir Magia)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Permite transcribir pergaminos de conjuros de Bardo (*Counterspell*, *Dimension Door*, *Greater Restoration*) a mitad de coste y tiempo.
+
+#### 5. Área de Entrenamiento Marcial Avanzado (Training Area — Vast, Desbloqueo Nivel 13)
+* **Estado:** Activo (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Train (Entrenar Coordinación Híbrida)*
+* **Sinergia con el Build:** 🟢 **Excelente**. Patio de armas con maniquíes móviles a 10 pies. Otorga al personaje +1d4 a la iniciativa durante las primeras 24 horas tras abandonar el bastión.
+
+#### 6. Gremio de Espectáculos y Artistas (Guildhall — Vast, Desbloqueo Nivel 17)
+* **Estado:** Activo (Mantener)
+* **Tamaño:** Vast (Vasta)
+* **Orden de Bastión:** *Trade & Influence (Influencia Internacional)*
+* **Sinergia con el Build:** 🔵 **Indispensable**. Sindicato que agrupa compañías teatrales y juglares en todo el reino. Permite despachar delegaciones diplomáticas y movilizar una guardia de 20 veteranos con un bono marcial de mando de +11.
+
+---
+
+### Seguidores y Guarnición (Staff & Garrison)
+
+* **Capataz General (Major Domo):** Krog el Viejo (Semiorco veterano de guerra, tabernero implacable y administrador financiero).
+* **Guarnición Activa:**
+  * 12 Guardaespaldas Bugbears armados con cimitarras y manguales.
+  * 6 Juglares espías entrenados en disfraces e infiltración.
+  * 2 Maestros copistas y lauderos encargados de la escribanía y reparación de instrumentos.
 
 ---
 
 ## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
 
-### Prioridad 1: Actuaciones y Carousing
+### Prioridad 1: Actuaciones y Relaciones Diplomáticas (Carousing)
+* **Mecánica Oficial:** Xanathar's Guide to Everything / DMG 2024 (Carousing).
+* **Bonificadores Aplicables:** Carisma (+4), Persuasión (+10), Actuación (+10) y pericia musical.
+* **Objetivo:** Ganar favores con gremios mercantiles y autoridades locales para asegurar patrocinio y libre tránsito.
 
-- **Mecánica Base:** DMG 2024 (Carousing).
-- **Bonificadores Aplicables:** Modificador de CAR (+3) e instrumentos musicales.
-- **Coste por Día/Semana:** 30 po por semana de diversión.
-- **Objetivo de Optimización:** Hacer contactos influyentes con nobles e historiadores locales para descubrir la ubicación de recetas de pergaminos arcanos.
-
-### Prioridad 2: Entrenamiento y Caza Furtiva
-
-- **Mecánica Base:** DMG (Training / Hunting).
-- **Bonificadores Aplicables:** Pericia en Sigilo (+17).
-- **Progreso Actual:** Cazando bestias exóticas en los bosques cercanos para vender pieles y materiales alquímicos raros.
+### Prioridad 2: Fabricación de Pergaminos Arcanos
+* **Mecánica Oficial:** DMG 2024 (Crafting Spell Scrolls).
+* **Objetivo:** Almacenar pergaminos de *Counterspell* y *Dimension Door* en el Scriptorium para emergencias en combate.
 
 ---
 
 ## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
 
-### Velocidades de Movimiento Base
-
-- **Caminar (Walk):** 30 pies (ft.)
-- **Trepar (Climb):** 30 ft. (gracias a habilidades bugbear/bardo).
-- **Nadar (Swim):** 30 ft.
-- **Volar (Fly):** —
-
-### Modificadores y Multiplicadores de Viaje
-
-- **Ritmo de Viaje Preferido:** Normal.
-- **Visión en la Oscuridad:** 120 ft. (gracias a Goggles of Night / 60 ft. racial base).
-- **Habilidades de Exploración:** Sigilo extremadamente alto, Percepción pasiva 10.
-
-### Logística de Transporte y Monturas
-
-- **Montura Activa:** Caballo de carga o mastín de guerra para desplazamientos urbanos y de frontera.
-  - _Velocidad de la Montura:_ 40 ft.
-  - _Mecánica de Combate Montado:_ Útil para entrar y salir de zonas de fiesta, mercado o conflicto sin perder el control de la reunión.
-- **Vehículos / Vehículos de Carga:** Carro de mercado y furgón de transporte de mercancías.
-- **Capacidad de Carga Absoluta:** 500 lbs.
+* **Caminar (Walk):** 30 ft.
+* **Iniciativa en Viaje:** +10 (+5 DES + 5 Dote Alert + Medio PB Jack of All Trades).
+* **Alcance de Combate:** 10 pies constante en ataques cuerpo a cuerpo (*Long-Limbed*).
+* **Visión en la Oscuridad:** 60 ft. nativa del Bugbear.
+* **Sigilo en Movimiento:** Capaz de ocultarse en espacios diseñados para criaturas de tamaño Pequeño gracias al rasgo *Sneaky*.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🎭 Reputación y Facciones
 
-### Facciones Activas
-
-1. **La Cofradía de los Cánticos de la Taberna:**
-   - _Rango / Título:_ Anfitrión de la Casa de los Cuentos
-   - _Reputación / Favor:_ Aliado
-   - _Beneficio Mecánico:_ Acceso a rumores, gente influyente y descuentos en hospedaje y comida.
-2. **Los Mercaderes de la Ruta del Norte:**
-   - _Rango / Título:_ Tenedor de Cuentas
-   - _Reputación / Favor:_ Neutral
-   - _Beneficio Mecánico:_ Suministros baratos y transporte de mercancías para campañas largas.
-
-### Red de Contactos (Contacts & Informants)
-
-- **Krog (La Taberna de la Garra):** Administrador y contacto con mercenarios locales.
-- **Liora Vane (Ciudad del Mercado):** Música de corte y fuente de rumores aristocráticos.
-
----
-
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
-
-- **Percepción Pasiva (Passive Perception):** 15 (10 + 0 WIS + 5 PB)
-- **Investigación Pasiva (Passive Investigation):** 14 (10 + 0 INT + 4 PB)
-- **Perspicacia Pasiva (Passive Insight):** 16 (10 + 0 CHA + 6 PB)
-- **Idiomas Conocidos:** Común, Halfling, Infernal.
-- **Competencia con Herramientas (Tool Proficiencies):** Herramientas de Música (+10), Herramientas de Juego (+8).
-- **Sinergias Fuera de Combate:** Muy fuerte en socialización, gestión de hospedaje y obtención de información a través de relaciones.
+1. **La Cofradía del Canto de Guerra:** Alto Maestre de los Bardos de Valor. Capacidad de convocar bardos aliados en cualquier ciudadela aliada.
+2. **El Cónclave de las Garras:** Alianza de clanes Bugbear y trasgos independientes que reconocen la autoridad del personaje.

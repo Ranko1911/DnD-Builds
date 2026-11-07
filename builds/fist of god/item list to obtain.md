@@ -1,55 +1,63 @@
-# Objetos a Obtener — Fist of God
+# 📦 Objetos a Obtener — Fist of God
 
-**Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
+## ⚙️ Gestión de Ranuras de Sintonización (Attunement Slots: 3 / 3 Activas)
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Protection (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Dragonhide Belt +3 (1 slot), Bracers of Defense (1 slot), Cloak of Displacement (1 slot). (Total: 3).
+* **Tier 1 (Niveles 1-4):** Cloak of Protection (1/3 slots).
+* **Tier 2 (Niveles 5-10):** Dragonhide Belt +2 (1/3), Bracers of Defense (2/3), Cloak of Protection (3/3).
+* **Tier 3 (Niveles 11-16):** Dragonhide Belt +3 (1/3), Bracers of Defense (2/3), Cloak of Displacement (3/3).
+* **Tier 4 (Niveles 17-20 / Endgame):**
+  1. 🥋 **Dragonhide Belt +3** (Sintonizado — Ranura 1/3)
+  2. 🛡️ **Bracers of Defense** (Sintonizado — Ranura 2/3)
+  3. 📿 **Cloak of Displacement** (Sintonizado — Ranura 3/3)
+
+> **Nota de Defensa Sin Armadura:** Al empuñar una espada larga a dos manos y no vestir armadura física ni escudo, el personaje califica plenamente para los beneficios de *Bracers of Defense* (+2 a la CA), elevando la armadura pasiva a 22.
 
 ---
 
 ## 🟢 Tier 1 (Niveles 1-4) — Poco Comunes
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Cloak of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. Afecta tanto a tus defensas como a tu concentración de *Divine Favor*. |
-| **Insignia of Claws** | No | [—] | **Priorizar 2:** +1 a las tiradas de ataque y daño de tus golpes desarmados (Flurry of Blows). No gasta ranura. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Cloak of Protection** | Capa | Sí | [⚔️ Sí] | **Prioridad 1 (Indispensable):** +1 a la CA y +1 a todas las tiradas de salvación. Eleva tu CA inicial a 21. |
+| **Insignia of Claws** | Maravilloso | No | [—] | **Prioridad 2 (Excelente):** +1 al ataque y daño de tus golpes desarmados sin consumir ranura de sintonización. |
+| **Longsword +1** | Arma | No | [—] | **Prioridad 3:** Supera resistencias no mágicas en tus ataques con arma dedicada. |
 
 ---
 
 ## 🔵 Tier 2 (Niveles 5-10) — Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +2** | Sí | [⚔️ Sí] | **Priorizar 1:** +2 a la CD de salvación de tus habilidades de Ki (Stunning Strike CD) y permite recuperar Ki tirando el dado de artes marciales una vez al día. |
-| **Bracers of Defense** | Sí | [⚔️ Sí] | **Priorizar 2:** +2 a la CA mientras no uses armadura física ni escudo. Wielding a longsword two-handed allows this, raising CA to 22! |
-| **Amulet of the Devout +2** | Sí | [—] | Prioridad Media. +2 a la CD de tus conjuros de clérigo y 1 CD extra de Canalizar Divinidad. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Bracers of Defense** | Brazales | Sí | [⚔️ Sí] | **Prioridad 1 (Indispensable):** +2 a la CA mientras no vistas armadura ni escudo. Funciona con el monje desarmado, subiendo la CA a 22. |
+| **Dragonhide Belt +2** | Cinturón | Sí | [⚔️ Sí] | **Prioridad 2 (Excelente):** +2 a la CD de Ki (Stunning Strike y Physician's Touch) y permite recuperar Ki tirando el dado de artes marciales 1 vez al día. |
+| **Amulet of the Devout +2** | Amuleto | Sí | [—] | **Prioridad Alternativa:** +2 a la CD de conjuros de clérigo y 1 uso adicional de Canalizar Divinidad al día. |
 
 ---
 
 ## 🟣 Tier 3 (Niveles 11-16) — Muy Raros
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Dragonhide Belt +3** | Sí | [⚔️ Sí] | **Priorizar 1:** +3 a la CD de tu Ki y recuperación de Ki potenciada. Reemplaza el cinturón anterior. |
-| **Cloak of Displacement** | Sí | [⚔️ Sí] | **Priorizar 2:** Los ataques enemigos contra ti se realizan con desventaja. Excelente combo defensivo con tu alta CA. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Dragonhide Belt +3** | Cinturón | Sí | [⚔️ Sí] | **Prioridad 1 (Indispensable):** Eleva la CD de Ki a 19 y maximiza la recuperación de puntos de Ki durante descansos cortos. |
+| **Cloak of Displacement** | Capa | Sí | [⚔️ Sí] | **Prioridad 2 (Excelente):** Impone desventaja en todos los ataques contra el personaje hasta que reciba daño. Combinada con CA 22 y el veneno de *Hands of Harm*, anula el daño enemigo. |
+| **Manual of Quickness of Action** | Libro | No | [Consumido] | **Prioridad 3 (Permanente):** Incrementa la Destreza en +2 permanentemente (alcanzando 22 DEX, +6 mod) tras su estudio. |
 
 ---
 
 ## 🟠 Tier 4 (Niveles 17-20) — Legendarios y Artefactos
 
-| Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
-| :--- | :---: | :---: | :--- |
-| **Tome of Understanding** | No | [—] | **Priorizar 1:** Lectura de 48 horas que incrementa tu Sabiduría en +2 permanentemente (superando el límite de 20), beneficiando tu CA, tu CD de Ki y de clérigo. |
-| **Dragonhide Belt +3** | Sí | [⚔️ Sí] | Prioridad Alta. +3 a la CD de tu Ki. Reemplaza el cinturón anterior. |
+| Objeto | Tipo | Requiere Sintonización | ¿Sintonizado? | Prioridad y Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Tome of Understanding** | Libro | No | [Consumido] | **Prioridad 1 (Permanente):** +2 permanente a la Sabiduría (superando el límite de 20 hasta 22), beneficiando tu CA de monje, CD de Ki y CD de conjuros. |
+| **Ascendant Dragon's Wrath Focus / Longsword** | Arma/Foco | Sí | [—] | **Prioridad Alternativa:** +3 al ataque/daño y +3d6 de daño elemental por impacto si se reemplaza el cinturón en encuentros ofensivos. |
+| **Ring of Spell Turning** | Anillo | Sí | [—] | **Prioridad 2:** Ventaja en salvaciones mágicas dirigidas y rebote contra el lanzador. |
 
 ---
 
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+## 🧪 Consumibles y Suministros Clave Sin Sintonización
 
-| Objeto | Rareza | Prioridad / Notas |
+| Objeto | Rareza | Efecto Táctico y Sinergia |
 | :--- | :---: | :--- |
-| **Manual of Quickness of Action** | Muy Raro | **Prioridad 1:** Incremento permanente de +2 a la Destreza (aumenta tu CA, ataque y daño). |
-| **Insignia of Claws** | Poco Común | **Prioridad Media:** Aumento pasivo a tus ataques desarmados de misericordia. |
+| **Insignia of Claws** | Poco Común | +1 a las tiradas de ataque y daño desarmado sin requerir ranura de sintonización. |
+| **Potion of Speed** | Raro | Confiere *Haste* por 1 minuto sin concentración ni fatiga mágica, sumando 1 golpe más al ciclo de 4. |
+| **Potion of Supreme Healing** | Muy Raro | Restaura $10\text{d}4 + 20 \text{ PG}$ instantáneamente; elaborada en el Invernadero del Bastión. |

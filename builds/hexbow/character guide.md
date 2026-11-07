@@ -1,76 +1,130 @@
-# Datos Generales
+# Guía de Personaje — Hexbow (The Shadow Sniper)
 
-System Standard: D&D 5th Edition (2014 Ruleset)
+## Datos Generales
 
-Character Level: 20 (Total)
+* **System Standard:** D&D 5th Edition (2024 / 5.5e Update & 2014 Compatibility)
+* **Character Level:** 20 (Warlock [Hexblade] 17 / Fighter [Battle Master] 3)
+* **Species:** Half-Elf / Elf (Imprescindible para la dote de linaje *Elven Accuracy*)
+* **Background:** Soldier / Urchin (Atributos: Carisma +2, Constitución +1, Destreza +1)
+* **Stats (Point Buy + Racial + ASIs):**
+  * **FUER (STR):** 8 (-1) *(Standard Array)*
+  * **DES (DEX):** 14 (+2) *(13 Base + 1 Racial — Optimiza la Armadura Media)*
+  * **CON:** 16 (+3) *(15 Base + 1 Racial — Puntos de golpe y concentración)*
+  * **INT:** 8 (-1) *(Standard Array)*
+  * **SAB (WIS):** 10 (+0) *(Standard Array)*
+  * **CAR (CHA):** 20 (+5) *(15 Base + 2 Racial + 1 Elven Accuracy Nivel 11 + 2 ASI Nivel 19)*
 
-Class Split: Warlock (Hexblade) 17 / Fighter (Battle Master) 3
+* **Enlaces de Documentación:**
+  * [Bastión y Tiempo Muerto](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/hexbow/bastion%20and%20downtime.md)
+  * [Lista de Conjuros y Recursos](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/hexbow/spell%20list.md)
+  * [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/hexbow/item%20list%20to%20obtain.md)
+  * [Hoja de Ruta 1-20](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/hexbow/roadmap.md)
+  * [Inventario Actual](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/hexbow/actual%20inventory%20list.md)
+  * [Guía de Personaje 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/hexbow/character%20guide%202024.md)
 
-Species: Half-Elf (o Elf) [Esencial para obtener la dote *Elven Accuracy*]
+---
 
-Stats:
+## Combat Role: Ranged Nova Striker, Triple-Advantage Crit Fisher & Battlefield Sniper
 
-* **FUER (STR):** 8
-* **DES (DEX):** 14 [Suficiente para optimizar la CA de Armadura Media]
-* **CON:** 16 (15 base + 1 racial)
-* **INT:** 8
-* **SAB (WIS):** 10
-* **CAR (CHA):** 20 (15 base + 2 racial + 1 Elven Accuracy + 2 ASI) [Tu estadística primaria de ataque, daño y salvaciones arcanas]
+El **Hexbow** es una batería de artillería arcano-marcial que transforma una ballesta de mano en una ametralladora de precisión quirúrgica. Mediante la sinergia de **Hex Warrior** (ataque y daño con Carisma), **Crossbow Expert**, **Sharpshooter**, **Elven Accuracy** (ventaja triple, 3d20) y **Shadow of Moil**, asegura una lluvia de impactos letales con rango de crítico expandido a 19-20 (*Hexblade's Curse*).
 
-Actual Item List: ./actual inventory list.md
+Al conseguir un impacto crítico, detona **Eldritch Smite** de nivel 5, infligiendo daño de fuerza colosal duplicado ($12\text{d}8$) y derribando al objetivo automáticamente sin tirada de salvación.
 
-Bastión y Tiempo Muerto: ./bastion and downtime.md
+---
 
-Roadmap de Progresión: ./roadmap.md
+## 1. Gestión de Recursos y Reglas de Inventario
 
-Combat Role: Ranged Nova Striker / Battlefield Sniper (Ametralladora de ballesta de mano con ventaja triple, maniobras de precisión para asegurar los impactos de *Sharpshooter* y descargas masivas de *Eldritch Smite*).
+* **Economía de Manos y Munición (Hand Crossbow):**
+  * La ballesta de mano es tu Arma de Pacto vinculada (*Pact Weapon*). La dote *Crossbow Expert* ignora la propiedad de *carga (Loading)*, permitiendo múltiples ataques por turno.
+  * **Regla Inmutable:** Aunque no tenga propiedad de carga, conserva la propiedad de *munición (Ammunition)*. Requiere una mano libre para colocar cada virote, lo que **prohíbe el uso de escudos**.
+* **Gestión de Espacios Pactados y Dados de Superioridad:**
+  * **4 Ranuras de Brujo de Nivel 5:** Se recargan íntegramente en descansos cortos, permitiendo descargar smites de nivel 5 en cada encuentro del día.
+  * **4 Dados de Superioridad (d8) de Battle Master:** Reservados casi exclusivamente para *Precision Attack*, convirtiendo cualquier fallo cercano por *Sharpshooter* en un impacto certero.
 
- 1. Gestión de Recursos y Reglas de Inventario
+---
 
-* **Economía de Manos y Munición:**
-  * Utilizas una **Ballesta de Mano (Hand Crossbow)** como tu Arma del Pacto. Gracias a la dote **Crossbow Expert**, ignoras la propiedad de *carga (loading)* de la ballesta, permitiendo realizar múltiples ataques por turno.
-  * **CRÍTICO:** Aunque no tengas la propiedad de carga, la ballesta conserva la propiedad de *munición (ammunition)*, lo que significa que **necesitas una mano libre** para cargar cada virote. Por lo tanto, **no puedes equipar un escudo** físico mientras disparas.
-* **Gestión de Ranuras Pactadas:**
-  * Tus 4 ranuras de Warlock de nivel 5 se regeneran por completo en descansos cortos, permitiéndote smitear de forma agresiva en múltiples combates al día.
+## 2. Action Economy & Combat Loop
 
- 1. Action Economy & Combat Loop
+* **Preparación (Pre-Combate / Turno 0):**
+  * Si hay aviso previo, activar *Shadow of Moil* (Nivel 4, concentración) o *Foresight* (Mystic Arcanum 9, 8 horas sin concentración).
+* **Action:**
+  * **Turno 1 [Fase de Configuración]:**
+    * Lanzar *Shadow of Moil* (ventaja en todos tus disparos, desventaja en ataques hostiles).
+  * **Turnos 2+ [Fase de Descarga Ranged]:**
+    * Acción de Ataque: 2 disparos de ballesta de mano usando Carisma (+13 base con *Archery* y *Sharpshooter* activo).
+    * Si se activa **Action Surge (Fighter 2)**: 2 disparos adicionales en la misma ronda.
+* **Bonus Action:**
+  * **Turno 1:** Aplicar *Hexblade's Curse* sobre el enemigo prioritario (+6 daño plano por impacto, crítico con 19-20).
+  * **Turnos 2+:** Disparo adicional de ballesta de mano mediante *Crossbow Expert*.
+* **Reaction:**
+  * 🔵 **Shield:** Eleva la CA a 24 temporalmente.
+  * 🟢 **Armor of Hexes (Warlock 10):** Si el objetivo de tu maldición te impacta, tira 1d6; con un 4, 5 o 6 el ataque falla automáticamente sin importar la tirada.
+  * 🟡 **Absorb Elements / Hellish Rebuke:** Respuesta elemental o represalia reactiva.
 
-* **Turno de Configuración (Turno 1):**
-  * **Action:** Lanzar *Shadow of Moil* (o *Darkness*) para obtener ventaja constante (y desventaja para los enemigos al atacarte) sin cegar a tus aliados (con *Shadow of Moil*).
-  * **Bonus Action:** Aplicar *Hexblade's Curse* sobre el enemigo principal.
-* **Turno de Ataque (Turnos 2+):**
-  * **Action:** Acción de ataque (*Extra Attack*). Realizas 2 ataques con tu ballesta de mano usando Carisma.
-  * **Bonus Action:** Realizar un ataque adicional de ballesta de mano gracias a *Crossbow Expert*.
-  * **Action Surge (Fighter 2):** Una vez por descanso corto, realizas una acción de ataque adicional completa (2 ataques más), logrando un total de **5 ataques en un turno**.
+---
 
- 1. The META Combo: The Critical Sniper (Elven Accuracy + Precision Attack + Eldritch Smite)
+## 3. The META Combo: La Ametralladora de Críticos de la Sombra
 
-El build maximiza la precisión mecánica de cada tiro para asegurar impactos continuos con el penalizador de *Sharpshooter*, descargando golpes críticos demoledores:
+```mermaid
+flowchart TD
+    A["Turno 1: Shadow of Moil + Hexblade's Curse"] --> B["Turno 2: Declarar Sharpshooter (-5 Hit / +10 Daño)"]
+    B --> C["Disparo 1 (3d20 Elven Accuracy + Crítico 19-20)"]
+    C --> D{"¿Fallo por Margen Pequeño?"}
+    D -- Sí --> E["Gastar 1d8 Precision Attack -> Impacto Convertido"]
+    D -- No --> F{"¿Impacto Crítico?"}
+    F -- Sí --> G["Detonar Eldritch Smite Nivel 5: +12d8 Daño de Fuerza + Derribo"]
+    F -- No --> H["Daño Base Pleno: 1d6 + 26 por Virote"]
+    H & G --> I["Disparos 2 y 3 (Extra Attack + Bonus Action)"]
+    I --> J["Action Surge: Disparos 4 y 5 con Ventaja Triple"]
+```
 
-1. **Shadow of Moil + Elven Accuracy:** Tienes ventaja en todos tus ataques de Carisma. Con *Elven Accuracy*, tiras **3d20** por cada ataque.
-2. **Hexblade's Curse:** Tus impactos críticos ocurren con un resultado de **19 o 20** (10% base).
-3. **Maneuver: Precision Attack (Battle Master):** Si fallas un ataque debido a la penalización de $-5$ de *Sharpshooter* ($+10$ al daño), gastas un dado de superioridad ($1d8$) y lo sumas a tu tirada de ataque, convirtiendo fallos en impactos seguros.
-4. **Eldritch Smite (Nova de Críticos):** Al realizar 5 ataques con ventaja triple, tu probabilidad de crítico es altísima. Cuando consigues un crítico, aplicas *Eldritch Smite* gastando una ranura de nivel 5 para sumar $+5d8$ de daño de fuerza, que se duplica en el crítico a **10d8 de fuerza** y derriba al objetivo.
-    * *Nota de Optimización:* Utiliza el *Eldritch Smite* en el **último ataque** de tu turno, ya que derribar a un objetivo propenso otorga desventaja a los ataques a distancia posteriores realizados contra él a más de 5 pies.
+### 🧮 Motor Matemático (Mathematical Engine)
 
-🧮 Mathematical Engine (A Nivel 20):
+#### 1. Probabilidad de Crítico con Elven Accuracy y Hexblade's Curse
 
-* **Probabilidad de Crítico por Virote:**
-    Con 3 dados y rango de crítico de 19-20 (10% de probabilidad base):
-    $$\text{Probabilidad de Crítico} = 1 - (0.9)^3 = 1 - 0.729 = 0.271 \text{ o } 27.1\% \text{ por ataque.}$$
-* **Nova de Action Surge (5 Ataques):**
-    Disparar 5 tiros con ventaja triple resulta en una probabilidad acumulada de **84.3% de conseguir al menos un impacto crítico** en ese turno para detonar el *Eldritch Smite*.
-* **Daño por Virote (Sharpshooter + Curse + Lifedrinker):**
-    $$1d6 + 5 \text{ (CAR)} + 6 \text{ (Curse)} + 5 \text{ (Lifedrinker)} + 10 \text{ (Sharpshooter)} = 1d6 + 26 \text{ de daño.}$$
-  * *Daño Medio por Virote:* $29.5 \text{ de daño.}$
-  * *Daño Medio Nova (5 Impactos planos):* $5 \times 29.5 = 147.5 \text{ de daño.}$
-  * *Eldritch Smite Crítico (Slots de Nivel 5):* $+10d8$ de fuerza (Media: $+45$ de daño).
+Con rango de crítico de 19-20 ($P = 0.10$) y ventaja triple ($3\text{d}20$):
 
- 1. Fighter & Hexblade Blueprints
+$$P(\text{Crítico por Virote}) = 1 - (1 - 0.10)^3 = 1 - (0.90)^3 = 1 - 0.729 = \mathbf{0.271 \text{ (27.1\% por ataque)}}$$
 
-* **Archery Fighting Style (Fighter 1):** $+2$ plano a todas tus tiradas de ataque con armas a distancia. Esto compensa directamente el $-5$ de *Sharpshooter*, reduciendo la penalización real a solo $-3$.
-* **Lifedrinker (Warlock 12):** Suma tu modificador de Carisma ($+5$) como daño necrótico adicional a cada impacto.
-* **Master of Hexes (Warlock 14):** Te permite transferir tu *Hexblade's Curse* de una criatura muerta a otra sin gastar usos.
+Al disparar una ráfaga completa de 5 virotes con *Action Surge*:
 
- 1. home rules
-(Calcula todas las mecánicas bajo las reglas vigentes en tu mesa, confirmando que la ballesta de mano requiere una mano libre para cargar incluso con la dote Crossbow Expert).
+$$P(\text{Al menos 1 Crítico en Turno Nova}) = 1 - (1 - 0.271)^5 = 1 - (0.729)^5 = 1 - 0.2059 = \mathbf{0.7941 \text{ (79.4\%)}}$$
+
+#### 2. Daño por Virote Individual (Sharpshooter + Curse + Lifedrinker)
+
+$$\text{Daño Base} = 1\text{d}6 + 5 (\text{CAR}) + 6 (\text{Curse}) + 5 (\text{Lifedrinker}) + 10 (\text{Sharpshooter}) = 3.5 + 26 = \mathbf{29.5 \text{ daño medio/tiro}}$$
+
+Con *Ascendant Dragon's Wrath Hand Crossbow (+3, +3d6 elemental)*:
+
+$$\text{Daño Optimizado por Tiro} = 1\text{d}6 + 26 + 3 (\text{Mágico}) + 3\text{d}6 (\text{Dracónico}) = 3.5 + 29 + 10.5 = \mathbf{43.0 \text{ daño por virote}}$$
+
+#### 3. Cálculo Nova de 5 Disparos con Eldritch Smite Crítico
+
+$$\text{Daño 5 Virotes Optimizados} = 5 \times 43.0 = \mathbf{215.0 \text{ daño}}$$
+
+Al conectar un impacto crítico con *Eldritch Smite* gastando una ranura de Nivel 5:
+
+$$\text{Daño Eldritch Smite Crítico} = 2 \times (1\text{d}8 + 5\text{d}8) = 12\text{d}8 \text{ de fuerza} \implies 12 \times 4.5 = \mathbf{54.0 \text{ daño}}$$
+
+$$\text{DPR Nova Total del Asalto} = 215.0 + 54.0 = \mathbf{269.0 \text{ daño en Turno 2}}$$
+
+---
+
+## 4. Tabla de Clasificación Táctica de Habilidades
+
+| Habilidad / Recurso | Tipo | Coste | Evaluación | Justificación Táctica |
+| :--- | :---: | :---: | :---: | :--- |
+| **Elven Accuracy** | Pasiva | Dote | 🔵 | Otorga ventaja triple (3d20) en todos los ataques de Carisma, elevando la precisión y la tasa de críticos al 27.1%. |
+| **Eldritch Smite** | Ofensiva / Nova | Ranura Nivel 5 | 🔵 | $6\text{d}8$ de fuerza ($12\text{d}8$ en crítico) y derriba a la criatura sin conceder salvación. |
+| **Precision Attack** | Modificador | 1 Dado Superioridad | 🔵 | Añade 1d8 al ataque, neutralizando el penalizador de -5 de Sharpshooter y garantizando impactos. |
+| **Shadow of Moil** | Buff | Ranura Nivel 4 | 🔵 | Te oculta en sombras impenetrables; ventaja para ti, desventaja para enemigos, sin bloquear visión aliada. |
+| **Lifedrinker** | Pasiva | Invocación Arcana | 🟢 | Suma +5 de daño necrótico plano a cada impacto con tu ballesta de pacto. |
+| **Armor of Hexes** | Defensiva | Reacción / Pasivo | 🟢 | 50% de probabilidad fija (4-6 en 1d6) de anular por completo cualquier ataque del objetivo maldito. |
+| **Action Surge** | Ofensiva | 1 Uso / SR | 🔵 | Permite disparar 5 virotes en un único turno decisivo. |
+
+---
+
+## 5. Reglas de la Casa (Home Rules)
+
+1. **Requisito de Mano Libre con Crossbow Expert:** Se respeta estrictamente que cargar una ballesta de mano requiere una mano desocupada; el personaje no porta escudo.
+2. **Derribo con Eldritch Smite:** El efecto de derribo de *Eldritch Smite* se reserva tácticamente para el último virote del asalto para no generar desventaja en disparos propios a más de 5 pies.

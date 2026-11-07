@@ -1,104 +1,91 @@
 # 🏰 Bastión y Tiempo Muerto — Penny Pinchin' Preacher
 
-## 🏰 Sistema de Bastiones (Reglas 2024 / 5.5e)
-
-*Estructura de gestión de la base de operaciones y mecánicas de mando del personaje.*
-
-* **Nombre del Bastión:** La Capilla Crepuscular (Twilight Chapel)
-* **Nivel de Bastión (Bastion Level):** 20
-* **Puntos de Bastion (Bastion Points - BP):** 118
-* **Puntuación de Mando (Bastion Defender Stats):** STR 8 (-1), DEX 20 (+5), CON 14 (+2), INT 10 (+0), WIS 18 (+4), CHA 8 (-1)
-
-### Instalaciones Básicas (Basic Facilities)
-
-1. **Dormitorio (Bedchambers):** Un habitáculo espartano iluminado con velas de baja intensidad.
-2. **Comedor (Dining Hall):** Mesa rústica larga para servir sopa y raciones a los necesitados.
-3. **Espacio Común (Common Room):** Un patio cubierto por pérgolas donde los acólitos y refugiados conversan en paz.
-
-### Instalaciones Especiales (Special Facilities)
-
-* **Santuario Divino (Sanctuary) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Meditate / Pray (Obtener bendiciones celestiales y agua bendita).
-  * *Sinergia con el Build:* Requiere símbolo sagrado (el cual posees). Permite consagrar objetos e imbuir fe en tus defensores.
-* **Biblioteca (Library) (Nivel 5):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Research (Investigar escrituras sagradas, mitos y genealogía del crepúsculo).
-  * *Sinergia con el Build:* Otorga ventajas en pruebas de Religión o Historia y ayuda a descifrar reliquias.
-* **Escribanía (Scriptorium) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Scribe (Escribir pergaminos mágicos).
-  * *Sinergia con el Build:* Requiere símbolo sagrado. Permite escribir pergaminos de *Bless* y *Cure Wounds* a mitad de coste de tiempo muerto.
-* **Establecimiento de Caballería / Establo (Stable) (Nivel 9):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Breed / Train (Criar y entrenar monturas adaptadas al crepúsculo).
-  * *Sinergia con el Build:* Permite criar monturas nocturnas con sigilo y velocidad de viaje superior.
-* **Relicario (Reliquary) (Nivel 13):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Research / Sacred Focus (Almacenar y canalizar poder a través de reliquias crepusculares).
-  * *Sinergia con el Build:* Requiere símbolo sagrado. Proporciona una bendición protectora a los habitantes del bastión.
-* **Gremio de Beneficencia (Guildhall) (Nivel 17):**
-  * *Estado:* Activo (Maintain)
-  * *Orden de Bastión Especial:* Trade / Influence (Administrar la red de templos y el flujo de donaciones del ocaso).
-  * *Sinergia con el Build:* Requiere pericia (la cual tienes). Maximiza el alcance social de tu orden.
-
-### Seguidores y Personal (Staff & Hirelings)
-
-* **Capataz / Administrador (Major Domo):** Hermano Tenebro (Un Bugbear devoto de la Iglesia del Crepúsculo).
-* **Defensores / Guardias:** 10 Acólitos consagrados y 6 Guardias sigilosos.
-* **Artesanos / Especialistas:** Un escriba calificado que asiste en la confección de pergaminos.
+**Build:** Penny Pinchin' Preacher  
+**Sistema:** D&D 2024 / 5.5e DMG Bastion Rules  
+**Nivel de Bastión:** 20  
+**Nombre del Bastión:** *The Miser's Sanctuary* (El Santuario del Avaro Crepuscular)  
+**Documentos Relacionados:**
+* [Guía de Personaje](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/penny%20pinchin%20preacher/character%20guide.md)
+* [Guía 2024](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/penny%20pinchin%20preacher/character%20guide%202024.md)
+* [Lista de Conjuros](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/penny%20pinchin%20preacher/spell%20list.md)
+* [Objetos a Obtener](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/penny%20pinchin%20preacher/item%20list%20to%20obtain.md)
+* [Hoja de Ruta](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/penny%20pinchin%20preacher/roadmap.md)
+* [Inventario Equipado](file:///d:/repo-vault/Proyectos/Rol/DnDbuilds/builds/penny%20pinchin%20preacher/actual%20inventory%20list.md)
 
 ---
 
-## ⏳ Actividades de Tiempo Muerto (Downtime Activities)
+## 🏛️ Estadísticas Defensivas del Bastión
 
-### Prioridad 1: Escritura de Pergaminos Mágicos (Scribing Scrolls)
-
-* **Mecánica Base:** Xanathar's Guide to Everything (Scribing Scrolls).
-* **Bonificadores Aplicables:** Competencia con Símbolo Sagrado + Arcana (si aplica) + Guía (+1d4).
-* **Coste por Día/Semana:** 25 po / 1 día de trabajo por pergamino de Nivel 1 (*Bless*, *Healing Word*).
-* **Objetivo de Optimización:** Crear una pila de pergaminos de *Bless* para usarse en emergencias sin agotar sus propias ranuras de nivel 1 durante campañas extensas.
-
-### Prioridad 2: Meditación e Investigación Religiosa
-
-* **Mecánica Base:** DMG (Reglas de Investigación).
-* **Bonificadores Aplicables:** Sabiduría e Inteligencia.
-* **Progreso Actual:** 5 / 10 semanas para descubrir reliquias del Dominio de la Penumbra en la región.
+* **Bonificador de Mando y Defensa:** $\mathbf{+11}$ ($\text{PB } +6 + \text{DEX } +5$).
+* **Puntos de Bastión (BP):** 20 BP por Turno de Bastión (regeneración según nivel 20).
+* **Guarnición Activa:**
+  * 10 Acólitos del Crepúsculo (especialistas en primeros auxilios y cantos de bendición).
+  * 6 Exploradores Bugbear de Emboscada (equipados con armadura ligera y escudos).
+  * 1 Tesorero Arcano (encargado de contabilizar cada moneda de cobre).
 
 ---
 
-## 🏃‍♂️ Modos de Movimiento, Logística y Viaje
+## 🏗️ Instalaciones Básicas (Basic Facilities)
 
-### Velocidades de Movimiento Base
-
-* **Caminar (Walk):** 30 ft.
-* **Trepar (Climb):** 30 ft. (gracias a sus extremidades largas de Bugbear, trepar es sumamente natural).
-* **Nadar (Swim):** 30 ft.
-* **Volar (Fly):** 0 ft.
-
-### Modificadores y Multiplicadores de Viaje
-
-* **Ritmo de Viaje (Travel Pace) Preferido:** Sigiloso (aprovechando sus bonos masivos de Sigilo de Bugbear y Pícaro).
-* **Visión en la Oscuridad (Darkvision):** 300 ft. (Otorga la subclase *Twilight Domain*, permitiéndole detectar emboscadas nocturnas a distancias colosales).
-* **Habilidades de Exploración:** Rastreo y Percepción pasiva extrema de 31.
+1. **Dormitorio Escondido (Bedchambers):** Celda espartana sin lujos innecesarios; una estera de paja y un cofre blindado con cerradura de combinación psíquica.
+2. **Comedor Comunitario de la Caridad (Dining Hall):** Sirve potajes económicos a acólitos y refugiados, proyectando una imagen de austeridad religiosa impecable.
+3. **Cámara de los Diezmos (Common Room):** Espacio donde los devotos entregan sus ofrendas antes de recibir sermones crepusculares.
+4. **Cámara Acorazada Subterránea (Storage):** Bóveda sellada con trampas de alarma silenciosa donde se acumulan las riquezas del grupo.
 
 ---
 
-## 🎭 Reputación, Facciones y Red de Contactos
+## 🧪 Instalaciones Especiales (Special Facilities: 4 Roomy + 2 Vast)
 
-### Facciones Activas
+Conforme a las reglas oficiales del DMG 2024 a nivel 20, la fortaleza dispone exactamente de 6 Instalaciones Especiales (4 Roomy y 2 Vast):
 
-1. **La Iglesia de la Penumbra Eterna:**
-    * *Rango / Título:* Vicario del Ocaso (Vicar of Twilight).
-    * *Reputación / Favor:* Altísima estima.
-    * *Beneficio Mecánico:* Permite adquirir componentes de diamante para revivir aliados a precio de coste (sin el margen de beneficio de los templos comunes).
+### 1. [Roomy] Reliquary (Relicario del Ocaso)
+* **Función:** Custodia de fragmentos de reliquias sagradas consagradas a deidades de la noche y el reposo.
+* **Orden de Bastión:** *Blessing*. Concede a los defensores y al personaje una bendición que otorga ventaja en tiradas de salvación contra miedo y encanto durante 7 días.
+
+### 2. [Roomy] Scriptorium (Escribanía Sacra)
+* **Función:** Producción sistemática y económica de pergaminos divinos.
+* **Orden de Bastión:** *Scribe*. Permite elaborar pergaminos de *Bless*, *Healing Word* y *Sanctuary* al 50% del coste habitual en oro (12.5 PO por pergamino de nivel 1).
+
+### 3. [Roomy] Library (Archivo de Herejías y Genealogías)
+* **Función:** Depósito de tomos religiosos, registros financieros y secretos de cultos rivales.
+* **Orden de Bastión:** *Research*. Proporciona ventaja y un bonificador de $+5$ en tiradas de Religión e Historia relativas a entidades sombrías.
+
+### 4. [Roomy] Gaming Room / Treasury (Sala de Apuestas y Tesorería)
+* **Función:** Sala clandestina de recaudación y juegos de dados psíquicos regentada por acólitos Bugbear.
+* **Orden de Bastión:** *Gamble / Harvest*. Genera $100\text{ PO}$ de beneficio neto semanal, cubriendo todos los gastos de manutención de la fortaleza con creces.
+
+### 5. [Vast] Sanctum (Gran Catedral Crepuscular)
+* **Función:** Templo de techos abovedados en penumbra perpetua (*Eyes of Night*).
+* **Orden de Bastión:** *Sanctuary*. Otorga al personaje y a sus aliados $100\text{ PG}$ temporales tras un descanso largo realizado en su nave central, además de la capacidad de conjurar *Commune* sin consumir componentes materiales una vez por semana.
+
+### 6. [Vast] Guildhall (Gremio de Beneficencia y Espionaje)
+* **Función:** Red de informantes callejeros y falsos mendigos que recolectan rumores en tres reinos colindantes.
+* **Orden de Bastión:** *Influence*. Otorga información anticipada sobre cualquier incursión o amenaza militar antes de que llegue a las murallas.
 
 ---
 
-## 🧬 Modificadores Pasivos y Sinergias No-Combate
+## 🔄 Flujograma de Turno de Bastión (Weekly Bastion Turn)
 
-* **Percepción Pasiva (Passive Perception):** 31 (10 + 4 (SAB) + 12 (Expertise PB) + 5 (Dote Observant))
-* **Investigación Pasiva (Passive Investigation):** 21 (10 + 0 (INT) + 6 (PB) + 5 (Dote Observant))
-* **Perspicacia Pasiva (Passive Insight):** 20 (10 + 4 (SAB) + 6 (PB))
-* **Idiomas Conocidos:** Común, Goblin, Celestial.
-* **Competencia con Herramientas (Tool Proficiencies):** Kit de Falsificación (+11), Herramientas de Ladrón (+17).
+```mermaid
+flowchart TD
+    A[Inicio del Turno de Bastión] --> B[Generar 20 BP]
+    B --> C[Gaming Room / Treasury: Generar 100 PO semanales de beneficio]
+    C --> D[Scriptorium: Elaborar 4x Pergaminos de Bless a coste reducido]
+    D --> E[Reliquary: Consagrar defensores con Ventaja contra Miedo/Encanto]
+    E --> F[Sanctum: Recargar 100 PG Temporales tras Descanso Largo]
+    F --> G[Guildhall: Recolectar Rumores e Inteligencia Regional]
+    G --> H{¿Asedio o Asalto Hostil?}
+    H -- Sí --> I[Defensa Activa con Bonificador +11 y Guarnición Bugbear]
+    H -- No --> J[Fin del Turno: Reserva Económica Incrementada]
+```
+
+---
+
+## ⏳ Actividades de Tiempo Muerto (Downtime Priorities)
+
+### Prioridad 1: Scribing Scrolls (Elaboración Masiva de Pergaminos de Nivel 1)
+* **Coste:** 12.5 PO por pergamino en el Scriptorium.
+* **Resultado:** Mantener una reserva de 20 pergaminos de *Bless* y 10 de *Healing Word* para abastecer al grupo sin gastar ranuras propias de clérigo.
+
+### Prioridad 2: Auditoría Financiera y Acumulación de Oro
+* **Acción:** Gestionar las cuentas de la congregación con *Reliable Talent* e Inteligencia/Sabiduría. Maximizar los fondos para la adquisición de equipo legendario.

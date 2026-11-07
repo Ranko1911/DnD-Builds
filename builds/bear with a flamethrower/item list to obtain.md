@@ -1,12 +1,14 @@
-# Objetos a Obtener — Bear with a Flamethrower
+# 🎒 Lista de Objetos a Obtener — Bear with a Flamethrower
 
 **Orden de prioridades:** `1` > `2` > `3` > `Alta` > `Media` > `Baja`
 
-### ⚙️ Gestión de Ranuras de Sintonización (Max 3 Activas)
-*   **Tier 1 (Niveles 1-4):** Cloak of Protection (1 slot). (Total: 1).
-*   **Tier 2 (Niveles 5-10):** Ring of Protection (1 slot), Barrier Tattoo (Rare) (1 slot), Cloak of Protection (1 slot). (Total: 3).
-*   **Tier 3 (Niveles 11-16):** Cloak of Displacement (1 slot), Barrier Tattoo (Rare) (1 slot), Ring of Protection (1 slot). (Total: 3).
-*   **Tier 4 (Niveles 17-20):** Cloak of Displacement (1 slot), Barrier Tattoo (Rare) (1 slot), Ring of Spell Turning (1 slot). (Total: 3).
+### ⚙️ Gestión de Ranuras de Sintonización (Attunement: 3/3 Máximo a Nivel 20)
+
+| Ranura | Objeto Sintonizado | Bono Clave Otorgado | Justificación Mecánica |
+| :---: | :--- | :--- | :--- |
+| **Slot 1** | **Barrier Tattoo (Rare)** | Fija la CA base en 18 (incluso en Forma Salvaje) | **Pilar Defensivo Supremo**: Eleva la CA de cualquier bestia (Oso, Mamut, T-Rex) de CA 11-12 a **18 Base**, alcanzando **19 CA** con Warforged. |
+| **Slot 2** | **Cloak of Displacement** | Desventaja permanente en ataques enemigos | Al combinarla con *Foresight*, fuerza a cualquier enemigo a superar Desventaja absoluta para golpear los 126 PG del Mamut. |
+| **Slot 3** | **Staff of the Woodlands** *(o Ring of Protection / Ring of Spell Turning)* | +2 a ataques mágicos, *Pass without Trace* a voluntad | Confiere versatilidad druídica total y permite emboscar con el Mamut con sigilo +10 a voluntad. |
 
 ---
 
@@ -14,8 +16,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Cloak of Protection** | Sí | [⚔️ Sí] | **Priorizar 1:** +1 a la CA y salvaciones. Afecta tanto a forma humanoide como a Forma Salvaje. |
-| **Insignia of Claws** | No | [—] | **Priorizar 2:** +1 a las tiradas de ataque y daño de tus golpes desarmados y ataques naturales (garras, mordiscos en Wild Shape). No requiere sintonización. |
+| **Insignia of Claws** | No | — | **Priorizar 1 (CRÍTICO):** +1 a tiradas de ataque y daño de ataques naturales (garras, mordiscos, pisotones en *Wild Shape*). No consume sintonización. |
+| **Cloak of Protection** | Sí | ⚔️ Sí | **Priorizar 2:** +1 a la CA y salvaciones tanto en forma humanoide como en Forma Salvaje. |
+| **Bag of Holding** | No | — | **Prioridad Media:** Almacenamiento esencial para herramientas de herborista y pertrechos de la arboleda. |
 
 ---
 
@@ -23,9 +26,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Barrier Tattoo (Rare)** | Sí | [⚔️ Sí] | **Priorizar 1:** Establece tu CA base en 18 (incluso en Forma Salvaje si no usas armadura, lo cual eleva drásticamente la CA de bestias como el Oso de CA 11 a CA 18!). |
-| **Ring of Protection** | Sí | [⚔️ Sí] | **Priorizar 2:** Acumula otro +2 a la CA y salvaciones. |
-| **Staff of Woodlands** | Sí | [—] | Prioridad Alta. +2 a los ataques mágicos de Druida, permite lanzar *Pass without Trace* a voluntad sin ranuras. |
+| **Barrier Tattoo (Rare)** | Sí | ⚔️ Sí | **Priorizar 1 (META):** Fija la CA sin armadura en 18. Al transformarse en Forma Salvaje, sustituye la paupérrima CA animal por 18 estática. |
+| **Staff of the Woodlands** | Sí | ⚔️ Sí | **Priorizar 2:** +2 a ataques mágicos y tiradas de salvación de Druida. Concede *Pass without Trace* ilimitado sin gastar ranuras. |
+| **Ring of Protection** | Sí | ⚔️ Sí | **Priorizar 3:** +1 a CA y +1 a todas las tiradas de salvación. |
 
 ---
 
@@ -33,8 +36,9 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Cloak of Displacement** | Sí | [⚔️ Sí] | **Priorizar 1:** Impone desventaja en todos los ataques enemigos contra ti mientras estés ileso. Excelente combo defensivo con la inmensa cantidad de PG del Mamut. |
-| **Belt of Fire Giant Strength** | Sí | [—] | Prioridad Media. Eleva tu Fuerza física a 25. En Forma Salvaje, sustituye la Fuerza de la bestia si esta era menor, aumentando tu bono de ataque y daño físico. |
+| **Cloak of Displacement** | Sí | ⚔️ Sí | **Priorizar 1:** Impone Desventaja permanente a todo ataque en tu contra hasta que recibas daño en el asalto. Protege la enorme barra de vida del Mamut. |
+| **Belt of Fire Giant Strength** | Sí | — | Prioridad Alternativa: Fija la Fuerza en 25 (+7) en caso de adoptar formas de bestias más pequeñas (Lobos, Osos menores). |
+| **Tome of Understanding** | No | — | **Prioridad Alta:** +2 permanente a Sabiduría (superando 20 a 22). Eleva la CD de salvación a 20 sin consumir sintonización. |
 
 ---
 
@@ -42,14 +46,15 @@
 
 | Objeto | Requiere Sintonización | ¿Sintonizado? | Prioridad / Notas |
 | :--- | :---: | :---: | :--- |
-| **Tome of Understanding** | No | [—] | **Priorizar 1:** Incrementa de forma permanente tu Sabiduría en +2 (hasta 22), aumentando tu CD de conjuros de Druida. |
-| **Ring of Spell Turning** | Sí | [⚔️ Sí] | Prioridad Media. Ventaja en salvaciones contra conjuros individuales e intenta devolverlos. |
+| **Ring of Spell Turning** | Sí | ⚔️ Sí *(Alternativo)* | Ventaja en salvaciones contra conjuros dirigidos y opción de reflejarlos al lanzador en forma animal. |
+| **Tome of Understanding** | No | — | **Priorizar 1:** Lectura de 48 horas que añade permanentemente +2 a Sabiduría. |
 
 ---
 
-## 🔵 Objetos Útiles Sin Sintonización (No-Attunement)
+## 🧪 Consumibles y Suministros Fabricados en el Bastión
 
-| Objeto | Rareza | Prioridad / Notas |
+| Objeto | Rareza | Efecto Táctico y Fabricación |
 | :--- | :---: | :--- |
-| **Insignia of Claws** | Poco Común | **Prioridad 1:** Incremento pasivo de daño y ataque en Forma Salvaje sin consumir espacio de sintonización. |
-| **Ring of Free Action** | Raro | **Prioridad Media:** Evita ser paralizado o ralentizado por efectos de terreno, asegurando el movimiento libre del oso. |
+| **Potion of Supreme Healing** | Muy Raro | Recupera $10\text{d}4 + 20 \approx 45\text{ PG}$ en Acción Adicional bajo reglas 2024. |
+| **Potion of Speed** | Raro | Confiere el efecto de *Haste* (+2 CA, doble velocidad, 1 ataque extra) por 1 minuto sin concentración. |
+| **Oil of Sharpness** | Muy Raro | Añade +3 al ataque y daño de armas o garras durante 1 hora completa. |
